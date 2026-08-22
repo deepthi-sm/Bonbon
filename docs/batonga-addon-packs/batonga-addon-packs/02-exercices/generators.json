@@ -1,0 +1,295 @@
+{
+  "$comment": "NEW. Items are GENERATED, not hand-written. 67 lessons × 5 types × 5 items would be 1 675 hand-maintained questions that drift out of sync with the corpus the first time a word list is corrected. A generator seeded on (lessonId, itemIndex) is reproducible, CI-testable, and correct by construction: it physically cannot emit an item using an untaught letter.",
+  "seedRule": "seed = fnv1a(lessonId + ':' + activityType + ':' + itemIndex) — same seed, same item, every device, every run. Never Math.random().",
+  "generators": [
+    {
+      "type": "tap-identify",
+      "owner": "B",
+      "usedIn": [
+        "vowel",
+        "consonant",
+        "grapheme",
+        "numeral"
+      ],
+      "objective": "Reconnaître la forme cible parmi des formes proches.",
+      "input": [
+        "target glyph",
+        "decodability.lettersAvailable",
+        "confusion.visual"
+      ],
+      "rule": "Build a grid of `gridSize` cells. Place `targetCount` instances of the target. Fill the rest from confusion.visual[target] ∩ decodable, then from decodable at random. Shuffle with seed = hash(lessonId + itemIndex).",
+      "params": {
+        "gridSize": [
+          6,
+          9,
+          12
+        ],
+        "targetCount": [
+          2,
+          3
+        ],
+        "scriptMix": [
+          "print",
+          "print+cursive"
+        ]
+      },
+      "difficultyLadder": [
+        {
+          "tier": 1,
+          "gridSize": 6,
+          "targetCount": 2,
+          "distractorSource": "random-decodable"
+        },
+        {
+          "tier": 2,
+          "gridSize": 9,
+          "targetCount": 3,
+          "distractorSource": "visual-confusion"
+        },
+        {
+          "tier": 3,
+          "gridSize": 12,
+          "targetCount": 3,
+          "distractorSource": "visual-confusion",
+          "scriptMix": "print+cursive"
+        }
+      ],
+      "scoring": {
+        "passThreshold": 0.8,
+        "partialCredit": true,
+        "maxAttempts": null
+      },
+      "masteryTargets": [
+        {
+          "type": "letter",
+          "from": "target"
+        }
+      ]
+    },
+    {
+      "type": "listen-choose",
+      "owner": "B",
+      "usedIn": [
+        "vowel",
+        "consonant",
+        "grapheme",
+        "numeral"
+      ],
+      "objective": "Associer un son entendu à sa forme écrite.",
+      "input": [
+        "audioId of target",
+        "confusion.auditory",
+        "decodability"
+      ],
+      "rule": "Play the target clip. Show 3–4 written options: the target plus confusion.auditory[target] ∩ decodable. If audioService.has(target) is false the item is SKIPPED at generation time and the bank is short by one — never render a silent listen item.",
+      "params": {
+        "optionCount": [
+          3,
+          4
+        ],
+        "replayLimit": null
+      },
+      "difficultyLadder": [
+        {
+          "tier": 1,
+          "optionCount": 3,
+          "distractorSource": "random-decodable"
+        },
+        {
+          "tier": 2,
+          "optionCount": 4,
+          "distractorSource": "auditory-confusion"
+        },
+        {
+          "tier": 3,
+          "optionCount": 4,
+          "distractorSource": "auditory-confusion",
+          "targetUnit": "word"
+        }
+      ],
+      "scoring": {
+        "passThreshold": 0.75,
+        "partialCredit": false,
+        "maxAttempts": null
+      },
+      "masteryTargets": [
+        {
+          "type": "letter|syllable|word",
+          "from": "target"
+        }
+      ]
+    },
+    {
+      "type": "syllable-build",
+      "owner": "B",
+      "usedIn": [
+        "consonant"
+      ],
+      "objective": "Fusionner consonne + voyelle — le mécanisme central du syllabaire.",
+      "input": [
+        "syllabary rows for this lesson",
+        "decodability"
+      ],
+      "rule": "Play the target syllable. Present the lesson's consonant plus 4–6 vowel tiles drawn from the vowels already taught. The learner drags a vowel onto the consonant. On success play the BLEND clip (c … v … cv), not just the syllable.",
+      "params": {
+        "rounds": [
+          4,
+          5,
+          6
+        ],
+        "vowelTileCount": [
+          4,
+          6,
+          8
+        ]
+      },
+      "difficultyLadder": [
+        {
+          "tier": 1,
+          "rounds": 4,
+          "vowelTileCount": 4,
+          "showModel": true
+        },
+        {
+          "tier": 2,
+          "rounds": 5,
+          "vowelTileCount": 6,
+          "showModel": false
+        },
+        {
+          "tier": 3,
+          "rounds": 6,
+          "vowelTileCount": 8,
+          "showModel": false,
+          "audioOnly": true
+        }
+      ],
+      "scoring": {
+        "passThreshold": 0.6,
+        "partialCredit": true,
+        "maxAttempts": null
+      },
+      "masteryTargets": [
+        {
+          "type": "syllable",
+          "from": "target"
+        }
+      ]
+    },
+    {
+      "type": "missing-letter",
+      "owner": "B",
+      "usedIn": [
+        "vowel",
+        "consonant",
+        "grapheme"
+      ],
+      "objective": "Porter attention à une lettre précise à l'intérieur d'un mot connu.",
+      "input": [
+        "word from this lesson's word list",
+        "confusion.visual + confusion.auditory"
+      ],
+      "rule": "Blank ONE position in a word already read in this lesson. Offer 4 candidates: the correct letter plus visual and auditory neighbours ∩ decodable. On a wrong choice, SPEAK THE WRONG WORD SHE BUILT before speaking the right one — hearing « fa-mine » when she meant « farine » is the most instructive feedback in the whole app.",
+      "params": {
+        "candidateCount": [
+          3,
+          4
+        ],
+        "blankPosition": [
+          "focus-letter",
+          "any"
+        ]
+      },
+      "difficultyLadder": [
+        {
+          "tier": 1,
+          "candidateCount": 3,
+          "blankPosition": "focus-letter",
+          "wordVisibleFirst": true
+        },
+        {
+          "tier": 2,
+          "candidateCount": 4,
+          "blankPosition": "focus-letter",
+          "wordVisibleFirst": false
+        },
+        {
+          "tier": 3,
+          "candidateCount": 4,
+          "blankPosition": "any",
+          "wordVisibleFirst": false
+        }
+      ],
+      "scoring": {
+        "passThreshold": 0.7,
+        "partialCredit": false,
+        "maxAttempts": null
+      },
+      "masteryTargets": [
+        {
+          "type": "word",
+          "from": "word"
+        },
+        {
+          "type": "letter",
+          "from": "blank"
+        }
+      ]
+    },
+    {
+      "type": "trace",
+      "owner": "B",
+      "usedIn": [
+        "vowel",
+        "consonant",
+        "numeral"
+      ],
+      "objective": "Produire la lettre à la main, dans le bon ordre de tracé.",
+      "input": [
+        "GlyphSpec from assets/glyphs",
+        "trace-rubric.json"
+      ],
+      "rule": "Ghost the glyph, pulse the start dot, sample the finger, light checkpoints in order. Score per stroke, then per glyph. Never block progress on a low score.",
+      "params": {
+        "glyphCount": [
+          1,
+          2,
+          3
+        ],
+        "guideLevel": [
+          "ghost+dots",
+          "ghost",
+          "free"
+        ]
+      },
+      "difficultyLadder": [
+        {
+          "tier": 1,
+          "guideLevel": "ghost+dots",
+          "toleranceMultiplier": 1.4
+        },
+        {
+          "tier": 2,
+          "guideLevel": "ghost",
+          "toleranceMultiplier": 1.0
+        },
+        {
+          "tier": 3,
+          "guideLevel": "free",
+          "toleranceMultiplier": 0.8
+        }
+      ],
+      "scoring": {
+        "passThreshold": 0.55,
+        "partialCredit": true,
+        "maxAttempts": null
+      },
+      "masteryTargets": [
+        {
+          "type": "letter",
+          "from": "glyph"
+        }
+      ]
+    }
+  ]
+}

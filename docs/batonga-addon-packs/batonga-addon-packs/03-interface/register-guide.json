@@ -1,0 +1,46 @@
+{
+  "$comment": "NEW. One page, binding on all four developers. Copy is design here, not decoration: the learner meets the app almost entirely through its voice.",
+  "decisions": [
+    {
+      "q": "Tutoiement ou vouvoiement ?",
+      "a": "Tutoiement.",
+      "why": "Le livre s'adresse aux apprenantes directement et le tutoiement porte la proximité d'une animatrice assise à côté. Le vouvoiement crée une distance administrative. À revalider auprès de Batonga : c'est un choix culturel, pas seulement stylistique."
+    },
+    {
+      "q": "Qui parle ?",
+      "a": "Une femme adulte, béninoise, calme, ni professorale ni maternante.",
+      "why": "Le registre de l'accompagnatrice du cercle d'affaires, pas celui d'une institutrice."
+    },
+    {
+      "q": "Longueur des phrases ?",
+      "a": "12 mots maximum à l'écrit, 20 à l'oral.",
+      "why": "Une consigne qu'il faut relire est une consigne ratée."
+    },
+    {
+      "q": "Impératif ou question ?",
+      "a": "Impératif doux pour les consignes (« Touche la lettre t »), question pour les choix (« Tu veux t'arrêter ? »)."
+    },
+    {
+      "q": "Peut-on nommer l'échec ?",
+      "a": "Jamais.",
+      "why": "« Pas encore » et « on réessaie » disent la même chose sans la charge."
+    },
+    {
+      "q": "Chiffres en lettres ou en chiffres ?",
+      "a": "En chiffres, toujours (3, pas trois).",
+      "why": "L'unité 4 enseigne précisément la forme du chiffre ; l'interface doit la montrer."
+    },
+    {
+      "q": "Vocabulaire",
+      "a": "Celui du livre. Marigot, canari, fonio, pagne — jamais remplacés par un synonyme « plus clair ». Voir protected-terms.json."
+    }
+  ],
+  "checklist": [
+    "Une consigne = une action.",
+    "Nommer l'objet, pas l'abstraction (« le haut-parleur », pas « le lecteur audio »).",
+    "Aucun terme technique : ni « application », ni « menu », ni « paramètres » dans les consignes parlées.",
+    "Aucun mot anglais.",
+    "Aucun point d'exclamation multiple.",
+    "Toute chaîne écrite a une chaîne parlée équivalente, pas identique : l'écrit peut être court, l'oral doit être une phrase."
+  ]
+}

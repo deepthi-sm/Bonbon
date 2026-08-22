@@ -1,0 +1,418 @@
+{
+  "$comment": "NEW. The rule for choosing a wrong answer. A distractor drawn at random teaches nothing; a distractor that differs from the target on exactly one dimension makes the error diagnostic — the app then knows WHICH discrimination failed and can drill it. `visual` drives tap-identify and missing-letter; `auditory` drives listen-choose and syllable-build. Every candidate is filtered against the lesson's decodability set before it can be used, so a distractor is never a letter she has not met.",
+  "rules": [
+    "A distractor MUST appear in decodability.json for the item's lesson.",
+    "Prefer a confusion-matrix neighbour; fall back to a random decodable item only when the matrix is exhausted.",
+    "Never use more than one grapheme-length distractor per item in Unit 1 or 2.",
+    "The correct answer's position is drawn from the seeded RNG, never fixed.",
+    "Two consecutive items in the same activity may not share a distractor set."
+  ],
+  "visual": {
+    "b": [
+      "d",
+      "p",
+      "h"
+    ],
+    "d": [
+      "b",
+      "p",
+      "q",
+      "a"
+    ],
+    "p": [
+      "q",
+      "b",
+      "d"
+    ],
+    "q": [
+      "p",
+      "g",
+      "d"
+    ],
+    "n": [
+      "u",
+      "m",
+      "h",
+      "r"
+    ],
+    "u": [
+      "n",
+      "v",
+      "y"
+    ],
+    "m": [
+      "n",
+      "w"
+    ],
+    "h": [
+      "n",
+      "b",
+      "k"
+    ],
+    "i": [
+      "l",
+      "j",
+      "í"
+    ],
+    "l": [
+      "i",
+      "t",
+      "f",
+      "1"
+    ],
+    "j": [
+      "i",
+      "g"
+    ],
+    "t": [
+      "f",
+      "l",
+      "+"
+    ],
+    "f": [
+      "t",
+      "l"
+    ],
+    "o": [
+      "a",
+      "c",
+      "e",
+      "0"
+    ],
+    "a": [
+      "o",
+      "e",
+      "d"
+    ],
+    "c": [
+      "e",
+      "o",
+      "s"
+    ],
+    "e": [
+      "é",
+      "è",
+      "c"
+    ],
+    "s": [
+      "z",
+      "c",
+      "5"
+    ],
+    "z": [
+      "s",
+      "2"
+    ],
+    "v": [
+      "y",
+      "u",
+      "w"
+    ],
+    "y": [
+      "v",
+      "u",
+      "g"
+    ],
+    "g": [
+      "q",
+      "y",
+      "j"
+    ],
+    "r": [
+      "n",
+      "v"
+    ],
+    "k": [
+      "h",
+      "x"
+    ],
+    "é": [
+      "è",
+      "ê",
+      "e"
+    ],
+    "è": [
+      "é",
+      "ê",
+      "e"
+    ],
+    "ê": [
+      "é",
+      "è",
+      "e"
+    ],
+    "0": [
+      "o",
+      "O",
+      "6",
+      "9"
+    ],
+    "1": [
+      "l",
+      "i",
+      "7"
+    ],
+    "2": [
+      "z",
+      "5"
+    ],
+    "3": [
+      "8",
+      "5"
+    ],
+    "4": [
+      "9",
+      "7"
+    ],
+    "5": [
+      "s",
+      "2",
+      "3"
+    ],
+    "6": [
+      "9",
+      "0",
+      "b"
+    ],
+    "7": [
+      "1",
+      "4"
+    ],
+    "8": [
+      "3",
+      "0",
+      "6"
+    ],
+    "9": [
+      "6",
+      "4",
+      "g"
+    ]
+  },
+  "auditory": {
+    "p": [
+      "b"
+    ],
+    "b": [
+      "p"
+    ],
+    "t": [
+      "d"
+    ],
+    "d": [
+      "t"
+    ],
+    "k": [
+      "g"
+    ],
+    "g": [
+      "k"
+    ],
+    "c": [
+      "g"
+    ],
+    "f": [
+      "v"
+    ],
+    "v": [
+      "f"
+    ],
+    "s": [
+      "z"
+    ],
+    "z": [
+      "s"
+    ],
+    "j": [
+      "ch"
+    ],
+    "an": [
+      "on",
+      "in",
+      "en"
+    ],
+    "am": [
+      "om",
+      "aim"
+    ],
+    "on": [
+      "an",
+      "in"
+    ],
+    "om": [
+      "on",
+      "am"
+    ],
+    "in": [
+      "an",
+      "on",
+      "ain"
+    ],
+    "ain": [
+      "in",
+      "ein",
+      "an"
+    ],
+    "ein": [
+      "ain",
+      "in"
+    ],
+    "aim": [
+      "ain",
+      "am"
+    ],
+    "en": [
+      "an",
+      "in"
+    ],
+    "em": [
+      "am",
+      "om"
+    ],
+    "é": [
+      "è",
+      "e"
+    ],
+    "è": [
+      "é",
+      "ê"
+    ],
+    "ê": [
+      "è",
+      "é"
+    ],
+    "e": [
+      "é",
+      "eu"
+    ],
+    "u": [
+      "ou",
+      "i"
+    ],
+    "ou": [
+      "u",
+      "o"
+    ],
+    "o": [
+      "ou",
+      "au"
+    ],
+    "eu": [
+      "e",
+      "œu",
+      "ou"
+    ],
+    "œu": [
+      "eu",
+      "eur"
+    ],
+    "i": [
+      "u",
+      "y"
+    ],
+    "r": [
+      "l"
+    ],
+    "l": [
+      "r"
+    ],
+    "y": [
+      "i",
+      "ill"
+    ],
+    "ill": [
+      "ill",
+      "y",
+      "ail"
+    ],
+    "oi": [
+      "oin",
+      "ou"
+    ],
+    "oin": [
+      "oi",
+      "on"
+    ],
+    "ien": [
+      "ion",
+      "in"
+    ],
+    "ion": [
+      "ien",
+      "on"
+    ],
+    "ail": [
+      "eil",
+      "aille"
+    ],
+    "eil": [
+      "ail",
+      "euil"
+    ],
+    "euil": [
+      "eil",
+      "eu"
+    ],
+    "ch": [
+      "j",
+      "s"
+    ],
+    "gn": [
+      "n",
+      "ni"
+    ],
+    "qu": [
+      "k",
+      "c",
+      "g"
+    ],
+    "ph": [
+      "f",
+      "p"
+    ],
+    "th": [
+      "t",
+      "h"
+    ],
+    "tion": [
+      "sion",
+      "tio"
+    ],
+    "ç": [
+      "c",
+      "s"
+    ]
+  },
+  "voicingPairs": [
+    [
+      "p",
+      "b"
+    ],
+    [
+      "t",
+      "d"
+    ],
+    [
+      "k",
+      "g"
+    ],
+    [
+      "f",
+      "v"
+    ],
+    [
+      "s",
+      "z"
+    ],
+    [
+      "ch",
+      "j"
+    ]
+  ],
+  "nasalTriad": [
+    "an",
+    "on",
+    "in"
+  ],
+  "validation": "The auditory sets must be re-checked against the FINAL recordings. They describe contrasts in the recorded Beninese French of this app, not in an abstract standard; if the voice does not distinguish a pair, that pair must be removed rather than drilled."
+}

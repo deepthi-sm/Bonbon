@@ -1,0 +1,80 @@
+{
+  "$comment": "NEW. The end-of-lesson check. Deliberately short, deliberately mixed, and deliberately NOT a gate: a Bilan below threshold schedules review, it never locks the next lesson. Locking an adult out of lesson 12 because she scored 0.6 on lesson 11 is how you lose her.",
+  "rules": [
+    "Items are drawn at tier 2 from the same generators, with a fresh seed.",
+    "Every Bilan item must target something introduced in THIS lesson.",
+    "Score ≥ 0.7 → « Bien lu ». Score < 0.7 → the weak targets enter the review queue.",
+    "Never below 0.7 → still advance. Repetition is the method (§B.5), not gating.",
+    "The comprehension item in the grapheme Bilan is omitted when the lesson has no text (L46, L48, L49, L54) — the blueprint shortens, no special case in code."
+  ],
+  "byArchetype": {
+    "vowel": {
+      "itemCount": 4,
+      "mix": [
+        [
+          "tap-identify",
+          2
+        ],
+        [
+          "listen-choose",
+          1
+        ],
+        [
+          "trace",
+          1
+        ]
+      ]
+    },
+    "consonant": {
+      "itemCount": 5,
+      "mix": [
+        [
+          "listen-choose",
+          2
+        ],
+        [
+          "syllable-build",
+          2
+        ],
+        [
+          "missing-letter",
+          1
+        ]
+      ]
+    },
+    "grapheme": {
+      "itemCount": 5,
+      "mix": [
+        [
+          "listen-choose",
+          2
+        ],
+        [
+          "missing-letter",
+          2
+        ],
+        [
+          "comprehension",
+          1
+        ]
+      ]
+    },
+    "numeral": {
+      "itemCount": 4,
+      "mix": [
+        [
+          "tap-identify",
+          1
+        ],
+        [
+          "listen-choose",
+          2
+        ],
+        [
+          "trace",
+          1
+        ]
+      ]
+    }
+  }
+}

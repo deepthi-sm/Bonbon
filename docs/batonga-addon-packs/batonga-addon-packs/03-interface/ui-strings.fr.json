@@ -1,0 +1,991 @@
+{
+  "$comment": "NEW. The complete French interface, in three channels at once. EVERY key carries `t` (written), `a` (spoken clip id) and `i` (icon id). A key with a null icon or a missing clip is a lint failure, not a style choice: the learner cannot read `t`, so `a` and `i` are not decoration, they are the interface. Keys with an empty string and a `ctx` note are deliberately empty — read the note before filling one in.",
+  "principle": "text + icon + voice, always all three",
+  "register": {
+    "address": "tutoiement",
+    "tone": "adulte, chaleureux, jamais enfantin",
+    "maxWords": 12,
+    "noJargon": true
+  },
+  "lint": [
+    "every key has i != null unless ctx explains why",
+    "every key has a matching row in the audio recording script",
+    "no key longer than 12 words in `t`",
+    "no key contains a digit above 9 spelled as a numeral in Unit 1–3 text",
+    "placeholders are named ({nom}), never positional ({0})"
+  ],
+  "namespaceCount": 14,
+  "stringCount": 179,
+  "namespaces": {
+    "common": {
+      "continue": {
+        "t": "Continuer",
+        "a": "ui.continue",
+        "i": "arrow-right",
+        "spoken": "Appuie pour continuer."
+      },
+      "start": {
+        "t": "Commencer",
+        "a": "ui.start",
+        "i": "play"
+      },
+      "back": {
+        "t": "Retour",
+        "a": "ui.back",
+        "i": "arrow-left"
+      },
+      "close": {
+        "t": "Fermer",
+        "a": "ui.close",
+        "i": "close"
+      },
+      "yes": {
+        "t": "Oui",
+        "a": "ui.yes",
+        "i": "check"
+      },
+      "no": {
+        "t": "Non",
+        "a": "ui.no",
+        "i": "close"
+      },
+      "listen": {
+        "t": "Écouter",
+        "a": "ui.listen",
+        "i": "speaker",
+        "spoken": "Appuie sur le haut-parleur pour écouter."
+      },
+      "listenAll": {
+        "t": "Tout écouter",
+        "a": "ui.listenAll",
+        "i": "speaker-list"
+      },
+      "again": {
+        "t": "Encore",
+        "a": "ui.again",
+        "i": "replay",
+        "spoken": "Appuie pour réécouter."
+      },
+      "slower": {
+        "t": "Plus lentement",
+        "a": "ui.slower",
+        "i": "turtle"
+      },
+      "next": {
+        "t": "Suivant",
+        "a": "ui.next",
+        "i": "arrow-right"
+      },
+      "previous": {
+        "t": "Précédent",
+        "a": "ui.previous",
+        "i": "arrow-left"
+      },
+      "skip": {
+        "t": "Passer",
+        "a": "ui.skip",
+        "i": "skip",
+        "ctx": "ALWAYS visible on every activity. §J.3 rule 4."
+      },
+      "done": {
+        "t": "Terminé",
+        "a": "ui.done",
+        "i": "check-circle"
+      },
+      "retry": {
+        "t": "Réessayer",
+        "a": "ui.retry",
+        "i": "replay"
+      },
+      "help": {
+        "t": "Aide",
+        "a": "ui.help",
+        "i": "hand",
+        "spoken": "Appuie longuement sur un bouton pour savoir à quoi il sert."
+      },
+      "script.print": {
+        "t": "Écriture normale",
+        "a": "ui.script.print",
+        "i": "letter-print"
+      },
+      "script.cursive": {
+        "t": "Écriture attachée",
+        "a": "ui.script.cursive",
+        "i": "letter-cursive"
+      },
+      "loading": {
+        "t": "Un instant…",
+        "a": "ui.loading",
+        "i": "hourglass"
+      }
+    },
+    "onboarding": {
+      "welcome.title": {
+        "t": "Bienvenue",
+        "a": "ui.welcome.title",
+        "i": "hand-wave",
+        "spoken": "Bienvenue. Cette application t'apprend à lire et à écrire le français. Tu n'as pas besoin de savoir lire pour t'en servir. Appuie sur le grand bouton vert."
+      },
+      "welcome.cta": {
+        "t": "Commencer",
+        "a": "ui.welcome.cta",
+        "i": "play"
+      },
+      "sound.title": {
+        "t": "Le son",
+        "a": "ui.sound.title",
+        "i": "speaker",
+        "spoken": "Est-ce que tu m'entends bien ? Si tu n'entends rien, monte le son de ton téléphone."
+      },
+      "sound.yes": {
+        "t": "Je t'entends",
+        "a": "ui.sound.yes",
+        "i": "check"
+      },
+      "sound.no": {
+        "t": "Je n'entends rien",
+        "a": "ui.sound.no",
+        "i": "ear-off"
+      },
+      "sound.help": {
+        "t": "Monte le son",
+        "a": "ui.sound.help",
+        "i": "volume-up",
+        "spoken": "Appuie sur le bouton du son, sur le côté de ton téléphone, vers le haut. Puis réessaie."
+      },
+      "name.title": {
+        "t": "Ton nom",
+        "a": "ui.name.title",
+        "i": "person",
+        "spoken": "Comment veux-tu qu'on t'appelle ? Tu peux écrire ton nom, ou choisir une image. Tu peux aussi passer."
+      },
+      "name.placeholder": {
+        "t": "Ton nom",
+        "a": "ui.name.placeholder",
+        "i": null
+      },
+      "name.orAvatar": {
+        "t": "Ou choisis une image",
+        "a": "ui.name.orAvatar",
+        "i": "image"
+      },
+      "name.skip": {
+        "t": "Passer",
+        "a": "ui.name.skip",
+        "i": "skip"
+      },
+      "tapTest.title": {
+        "t": "Essayons",
+        "a": "ui.tapTest.title",
+        "i": "target",
+        "spoken": "On va essayer ensemble. Touche le rond bleu."
+      },
+      "tapTest.ok": {
+        "t": "C'est ça.",
+        "a": "ui.tapTest.ok",
+        "i": "check-circle",
+        "spoken": "C'est ça. Tu sais te servir de l'application."
+      },
+      "tapTest.retry": {
+        "t": "Touche le rond bleu.",
+        "a": "ui.tapTest.retry",
+        "i": "target"
+      },
+      "listenTest.title": {
+        "t": "Écoute",
+        "a": "ui.listenTest.title",
+        "i": "speaker",
+        "spoken": "Maintenant, touche le haut-parleur pour entendre une lettre."
+      },
+      "placement.title": {
+        "t": "Par où commencer ?",
+        "a": "ui.placement.title",
+        "i": "signpost",
+        "spoken": "Veux-tu commencer au début, ou veux-tu que je regarde ce que tu sais déjà ?"
+      },
+      "placement.fromStart": {
+        "t": "Commencer au début",
+        "a": "ui.placement.fromStart",
+        "i": "book-open",
+        "spoken": "Commencer au début. C'est le meilleur choix si tu n'es pas sûre."
+      },
+      "placement.test": {
+        "t": "Je connais déjà des lettres",
+        "a": "ui.placement.test",
+        "i": "fast-forward",
+        "spoken": "Je vais te poser quelques questions courtes. Ce n'est pas un examen. Tu peux t'arrêter quand tu veux."
+      },
+      "placement.result": {
+        "t": "Tu peux commencer ici.",
+        "a": "ui.placement.result",
+        "i": "flag",
+        "ctx": "Followed by the lesson title. NEVER a score, NEVER a level name."
+      },
+      "done.title": {
+        "t": "C'est prêt",
+        "a": "ui.done.title",
+        "i": "check-circle",
+        "spoken": "C'est prêt. Prends ton temps. Tu peux revenir quand tu veux : l'application se souvient d'où tu t'es arrêtée."
+      }
+    },
+    "home": {
+      "resume": {
+        "t": "Continuer",
+        "a": "ui.resume",
+        "i": "play-circle",
+        "spoken": "Reprends là où tu t'es arrêtée.",
+        "ctx": "The single primary action. §K.1."
+      },
+      "resume.detail": {
+        "t": "Leçon {n} — {titre}",
+        "a": "ui.resume.detail",
+        "i": null
+      },
+      "startFirst": {
+        "t": "Commencer la leçon 1",
+        "a": "ui.startFirst",
+        "i": "play-circle"
+      },
+      "path": {
+        "t": "Mon parcours",
+        "a": "ui.path",
+        "i": "path"
+      },
+      "practice": {
+        "t": "M'entraîner",
+        "a": "ui.practice",
+        "i": "dumbbell"
+      },
+      "progress": {
+        "t": "Mes progrès",
+        "a": "ui.progress",
+        "i": "chart"
+      },
+      "settings": {
+        "t": "Réglages",
+        "a": "ui.settings",
+        "i": "gear"
+      },
+      "review.today": {
+        "t": "À revoir aujourd'hui",
+        "a": "ui.review.today",
+        "i": "refresh"
+      },
+      "review.count": {
+        "t": "{n} à revoir",
+        "a": "ui.review.count",
+        "i": null
+      },
+      "streak.days": {
+        "t": "{n} jours de suite",
+        "a": "ui.streak.days",
+        "i": "flame",
+        "ctx": "Counts DAYS SHE OPENED THE APP, never accuracy. §J.3 rule 3."
+      },
+      "streak.today": {
+        "t": "Tu es venue aujourd'hui.",
+        "a": "ui.streak.today",
+        "i": "flame"
+      },
+      "greeting.morning": {
+        "t": "Bonjour {nom}",
+        "a": "ui.greeting.morning",
+        "i": "sun"
+      },
+      "greeting.evening": {
+        "t": "Bonsoir {nom}",
+        "a": "ui.greeting.evening",
+        "i": "moon"
+      }
+    },
+    "path": {
+      "title": {
+        "t": "Mon parcours",
+        "a": "ui.title",
+        "i": "path"
+      },
+      "unit.voyelles": {
+        "t": "Les voyelles",
+        "a": "ui.unit.voyelles",
+        "i": "letter-a"
+      },
+      "unit.consonnes": {
+        "t": "Les consonnes",
+        "a": "ui.unit.consonnes",
+        "i": "letter-t"
+      },
+      "unit.graphemes": {
+        "t": "Les sons et les textes",
+        "a": "ui.unit.graphemes",
+        "i": "book-open"
+      },
+      "unit.chiffres": {
+        "t": "Les chiffres",
+        "a": "ui.unit.chiffres",
+        "i": "digits"
+      },
+      "unit.progress": {
+        "t": "{fait} sur {total}",
+        "a": "ui.unit.progress",
+        "i": null
+      },
+      "node.locked": {
+        "t": "Pas encore ouverte",
+        "a": "ui.node.locked",
+        "i": "lock",
+        "spoken": "Termine la leçon d'avant pour ouvrir celle-ci."
+      },
+      "node.available": {
+        "t": "À faire",
+        "a": "ui.node.available",
+        "i": "circle"
+      },
+      "node.current": {
+        "t": "À toi",
+        "a": "ui.node.current",
+        "i": "play-circle"
+      },
+      "node.completed": {
+        "t": "Terminée",
+        "a": "ui.node.completed",
+        "i": "check-circle"
+      },
+      "node.review": {
+        "t": "À revoir",
+        "a": "ui.node.review",
+        "i": "refresh"
+      }
+    },
+    "lesson": {
+      "objective": {
+        "t": "Aujourd'hui",
+        "a": "ui.objective",
+        "i": "target",
+        "ctx": "Followed by the lesson objective string from the content pack."
+      },
+      "block.keyword": {
+        "t": "Le mot",
+        "a": "ui.block.keyword",
+        "i": "image"
+      },
+      "block.forms": {
+        "t": "Les formes de la lettre",
+        "a": "ui.block.forms",
+        "i": "letters"
+      },
+      "block.repetition": {
+        "t": "Regarde bien",
+        "a": "ui.block.repetition",
+        "i": "eye"
+      },
+      "block.tree": {
+        "t": "Les syllabes",
+        "a": "ui.block.tree",
+        "i": "tree"
+      },
+      "block.strip": {
+        "t": "Lis les syllabes",
+        "a": "ui.block.strip",
+        "i": "list"
+      },
+      "block.words": {
+        "t": "Les mots",
+        "a": "ui.block.words",
+        "i": "word"
+      },
+      "block.sentences": {
+        "t": "Les phrases",
+        "a": "ui.block.sentences",
+        "i": "sentence"
+      },
+      "block.text": {
+        "t": "Le texte",
+        "a": "ui.block.text",
+        "i": "book-open"
+      },
+      "block.strokes": {
+        "t": "Comment on l'écrit",
+        "a": "ui.block.strokes",
+        "i": "pen"
+      },
+      "block.writing": {
+        "t": "À toi d'écrire",
+        "a": "ui.block.writing",
+        "i": "hand-pen"
+      },
+      "block.bilan": {
+        "t": "Ce que tu as appris",
+        "a": "ui.block.bilan",
+        "i": "check-list"
+      },
+      "tapToHear": {
+        "t": "Touche pour écouter",
+        "a": "ui.tapToHear",
+        "i": "speaker"
+      },
+      "longPressSyllables": {
+        "t": "Appuie longtemps pour entendre syllabe par syllabe",
+        "a": "ui.longPressSyllables",
+        "i": "speaker-slow"
+      },
+      "wordByWord": {
+        "t": "Mot à mot",
+        "a": "ui.wordByWord",
+        "i": "words-sequence"
+      },
+      "iReadIt": {
+        "t": "J'ai lu",
+        "a": "ui.iReadIt",
+        "i": "check",
+        "ctx": "Per sentence in a reading text."
+      },
+      "progress": {
+        "t": "{i} sur {n}",
+        "a": "ui.progress",
+        "i": null
+      },
+      "leave.title": {
+        "t": "Tu veux t'arrêter ?",
+        "a": "ui.leave.title",
+        "i": "pause",
+        "spoken": "Tu veux t'arrêter ? Je garde ta place."
+      },
+      "leave.confirm": {
+        "t": "Oui, je m'arrête",
+        "a": "ui.leave.confirm",
+        "i": "check"
+      },
+      "leave.cancel": {
+        "t": "Je continue",
+        "a": "ui.leave.cancel",
+        "i": "play"
+      },
+      "resumed": {
+        "t": "On reprend ici.",
+        "a": "ui.resumed",
+        "i": "bookmark"
+      }
+    },
+    "activity": {
+      "tapIdentify.prompt": {
+        "t": "Touche {cible}",
+        "a": "ui.tapIdentify.prompt",
+        "i": "target"
+      },
+      "listenChoose.prompt": {
+        "t": "Écoute, puis touche le bon",
+        "a": "ui.listenChoose.prompt",
+        "i": "ear"
+      },
+      "syllableBuild.prompt": {
+        "t": "Écoute et construis la syllabe",
+        "a": "ui.syllableBuild.prompt",
+        "i": "puzzle"
+      },
+      "missingLetter.prompt": {
+        "t": "Quelle lettre manque ?",
+        "a": "ui.missingLetter.prompt",
+        "i": "question"
+      },
+      "trace.prompt": {
+        "t": "Écris {cible}",
+        "a": "ui.trace.prompt",
+        "i": "pen"
+      },
+      "wordMatch.prompt": {
+        "t": "Relie le mot à l'image",
+        "a": "ui.wordMatch.prompt",
+        "i": "link"
+      },
+      "comprehension.prompt": {
+        "t": "Réponds à la question",
+        "a": "ui.comprehension.prompt",
+        "i": "question"
+      },
+      "correct": {
+        "t": "C'est ça",
+        "a": "ui.correct",
+        "i": "check-circle",
+        "spoken": "C'est ça."
+      },
+      "almost": {
+        "t": "Presque",
+        "a": "ui.almost",
+        "i": "half-circle",
+        "spoken": "Presque. Écoute encore."
+      },
+      "notYet": {
+        "t": "Pas encore",
+        "a": "ui.notYet",
+        "i": "circle",
+        "spoken": "Pas encore. On réessaie."
+      },
+      "hint.listenAgain": {
+        "t": "Écoute encore",
+        "a": "ui.hint.listenAgain",
+        "i": "replay"
+      },
+      "hint.narrow": {
+        "t": "C'est l'un des deux",
+        "a": "ui.hint.narrow",
+        "i": "filter"
+      },
+      "hint.show": {
+        "t": "Regarde",
+        "a": "ui.hint.show",
+        "i": "eye"
+      },
+      "moveOn": {
+        "t": "On continue. Tu la reverras.",
+        "a": "ui.moveOn",
+        "i": "arrow-right"
+      },
+      "skipConfirm": {
+        "t": "Passer cet exercice ?",
+        "a": "ui.skipConfirm",
+        "i": "skip"
+      },
+      "attemptsLeft": {
+        "t": "",
+        "a": "ui.attemptsLeft",
+        "i": null,
+        "ctx": "INTENTIONALLY EMPTY — we never show attempts left. There is no attempt limit in MVP."
+      }
+    },
+    "assessment": {
+      "bilan.title": {
+        "t": "Ce que tu as appris",
+        "a": "ui.bilan.title",
+        "i": "check-list",
+        "spoken": "Quelques questions pour voir ce que tu retiens. Ce n'est pas un examen."
+      },
+      "bilan.good": {
+        "t": "Bien lu",
+        "a": "ui.bilan.good",
+        "i": "star",
+        "spoken": "Bien lu. Tu as reconnu {n} choses sur {total}."
+      },
+      "bilan.partial": {
+        "t": "C'est en train de venir",
+        "a": "ui.bilan.partial",
+        "i": "seedling",
+        "spoken": "C'est en train de venir. On reverra {cible} bientôt."
+      },
+      "checkpoint.title": {
+        "t": "Fin de l'unité",
+        "a": "ui.checkpoint.title",
+        "i": "flag",
+        "spoken": "Tu arrives au bout de cette partie. On va revoir ensemble."
+      },
+      "checkpoint.pass": {
+        "t": "Unité terminée",
+        "a": "ui.checkpoint.pass",
+        "i": "trophy"
+      },
+      "result.count": {
+        "t": "{bon} sur {total}",
+        "a": "ui.result.count",
+        "i": null
+      },
+      "review.added": {
+        "t": "On reverra : {liste}",
+        "a": "ui.review.added",
+        "i": "refresh"
+      }
+    },
+    "writing": {
+      "watchFirst": {
+        "t": "Regarde d'abord",
+        "a": "ui.watchFirst",
+        "i": "eye",
+        "spoken": "Regarde comment on l'écrit."
+      },
+      "replayModel": {
+        "t": "Revoir le modèle",
+        "a": "ui.replayModel",
+        "i": "replay"
+      },
+      "nowYou": {
+        "t": "À toi",
+        "a": "ui.nowYou",
+        "i": "hand-pen",
+        "spoken": "À toi. Commence au point."
+      },
+      "startHere": {
+        "t": "Commence ici",
+        "a": "ui.startHere",
+        "i": "dot"
+      },
+      "stars": {
+        "t": "{n} étoiles sur 3",
+        "a": "ui.stars",
+        "i": "star"
+      },
+      "clear": {
+        "t": "Effacer",
+        "a": "ui.clear",
+        "i": "eraser"
+      },
+      "cue.start": {
+        "t": "Commence ici, en haut.",
+        "a": "ui.cue.start",
+        "i": "dot"
+      },
+      "cue.direction": {
+        "t": "Descends, ne monte pas.",
+        "a": "ui.cue.direction",
+        "i": "arrow-down"
+      },
+      "cue.checkpoint": {
+        "t": "Passe bien par le point.",
+        "a": "ui.cue.checkpoint",
+        "i": "dot"
+      },
+      "cue.slow": {
+        "t": "Doucement, suis le trait.",
+        "a": "ui.cue.slow",
+        "i": "turtle"
+      },
+      "cue.missing": {
+        "t": "Il manque un trait.",
+        "a": "ui.cue.missing",
+        "i": "pen"
+      },
+      "cue.good": {
+        "t": "C'est bien tracé.",
+        "a": "ui.cue.good",
+        "i": "check-circle"
+      }
+    },
+    "practice": {
+      "title": {
+        "t": "M'entraîner",
+        "a": "ui.title",
+        "i": "dumbbell"
+      },
+      "reviewLesson": {
+        "t": "Revoir une leçon",
+        "a": "ui.reviewLesson",
+        "i": "replay"
+      },
+      "letterWall": {
+        "t": "Le mur des lettres",
+        "a": "ui.letterWall",
+        "i": "letters",
+        "spoken": "Toutes les lettres, à regarder et à écouter quand tu veux."
+      },
+      "digits": {
+        "t": "Les chiffres",
+        "a": "ui.digits",
+        "i": "digits"
+      },
+      "notebook": {
+        "t": "Cahier d'écriture",
+        "a": "ui.notebook",
+        "i": "notebook",
+        "spoken": "Une page blanche pour t'entraîner à écrire."
+      },
+      "themes": {
+        "t": "Les mots par thème",
+        "a": "ui.themes",
+        "i": "tags",
+        "ctx": "Surfaces the thematic lexicon from Pack 1 — including « les mots du commerce », which are the book's OWN words, not a new curriculum."
+      },
+      "theme.commerce": {
+        "t": "Les mots du commerce",
+        "a": "ui.theme.commerce",
+        "i": "shop"
+      },
+      "theme.maison": {
+        "t": "À la maison",
+        "a": "ui.theme.maison",
+        "i": "house"
+      },
+      "theme.nourriture": {
+        "t": "La nourriture",
+        "a": "ui.theme.nourriture",
+        "i": "bowl"
+      },
+      "theme.ecole": {
+        "t": "À l'école",
+        "a": "ui.theme.ecole",
+        "i": "school"
+      },
+      "theme.village": {
+        "t": "Au village",
+        "a": "ui.theme.village",
+        "i": "village"
+      },
+      "freeBrowse": {
+        "t": "Tu peux tout regarder, rien n'est bloqué ici.",
+        "a": "ui.freeBrowse",
+        "i": "unlock"
+      }
+    },
+    "progress": {
+      "title": {
+        "t": "Mes progrès",
+        "a": "ui.title",
+        "i": "chart"
+      },
+      "lessonsDone": {
+        "t": "{n} leçons terminées",
+        "a": "ui.lessonsDone",
+        "i": "check-circle"
+      },
+      "lettersKnown": {
+        "t": "{n} lettres reconnues",
+        "a": "ui.lettersKnown",
+        "i": "letters"
+      },
+      "syllablesKnown": {
+        "t": "{n} syllabes lues",
+        "a": "ui.syllablesKnown",
+        "i": "puzzle"
+      },
+      "wordsHeard": {
+        "t": "{n} mots écoutés",
+        "a": "ui.wordsHeard",
+        "i": "ear"
+      },
+      "textsRead": {
+        "t": "{n} textes lus",
+        "a": "ui.textsRead",
+        "i": "book-open"
+      },
+      "daysActive": {
+        "t": "{n} jours",
+        "a": "ui.daysActive",
+        "i": "calendar"
+      },
+      "empty": {
+        "t": "Tu commences tout juste. Reviens après ta première leçon.",
+        "a": "ui.empty",
+        "i": "seedling"
+      },
+      "noComparison": {
+        "t": "",
+        "a": "ui.noComparison",
+        "i": null,
+        "ctx": "INTENTIONALLY EMPTY — no ranking, no comparison with other learners, ever. §J.5."
+      }
+    },
+    "settings": {
+      "title": {
+        "t": "Réglages",
+        "a": "ui.title",
+        "i": "gear"
+      },
+      "voice.speed": {
+        "t": "Vitesse de la voix",
+        "a": "ui.voice.speed",
+        "i": "speaker"
+      },
+      "voice.normal": {
+        "t": "Normale",
+        "a": "ui.voice.normal",
+        "i": "speaker"
+      },
+      "voice.slow": {
+        "t": "Lente",
+        "a": "ui.voice.slow",
+        "i": "turtle"
+      },
+      "script.default": {
+        "t": "Écriture affichée",
+        "a": "ui.script.default",
+        "i": "letters"
+      },
+      "textSize": {
+        "t": "Taille du texte",
+        "a": "ui.textSize",
+        "i": "text-size"
+      },
+      "haptics": {
+        "t": "Vibrations",
+        "a": "ui.haptics",
+        "i": "vibrate"
+      },
+      "profile": {
+        "t": "Mon profil",
+        "a": "ui.profile",
+        "i": "person"
+      },
+      "profile.switch": {
+        "t": "Changer de personne",
+        "a": "ui.profile.switch",
+        "i": "people",
+        "spoken": "Si quelqu'un d'autre utilise ce téléphone, choisis son nom ici.",
+        "ctx": "A shared family phone is normal. §K.1."
+      },
+      "profile.reset": {
+        "t": "Tout recommencer",
+        "a": "ui.profile.reset",
+        "i": "refresh",
+        "spoken": "Attention : tu perdras tes progrès. Es-tu sûre ?"
+      },
+      "about": {
+        "t": "À propos",
+        "a": "ui.about",
+        "i": "info"
+      },
+      "about.source": {
+        "t": "D'après le Syllabaire Alphanumérique de la Fondation Batonga, 2ᵉ édition.",
+        "a": "ui.about.source",
+        "i": "book-open"
+      },
+      "privacy": {
+        "t": "Tes données restent sur ce téléphone.",
+        "a": "ui.privacy",
+        "i": "shield",
+        "spoken": "Rien de ce que tu fais ici ne quitte ton téléphone."
+      },
+      "facilitator": {
+        "t": "Mode animatrice",
+        "a": "ui.facilitator",
+        "i": "people"
+      }
+    },
+    "celebration": {
+      "lesson.done": {
+        "t": "Leçon terminée",
+        "a": "ui.lesson.done",
+        "i": "check-circle"
+      },
+      "lesson.first": {
+        "t": "Ta première leçon est terminée.",
+        "a": "ui.lesson.first",
+        "i": "star"
+      },
+      "unit.done": {
+        "t": "Unité terminée",
+        "a": "ui.unit.done",
+        "i": "trophy"
+      },
+      "specific.letters": {
+        "t": "Tu as reconnu la lettre {lettre}.",
+        "a": "ui.specific.letters",
+        "i": "letters"
+      },
+      "specific.syllables": {
+        "t": "Tu as lu {n} syllabes.",
+        "a": "ui.specific.syllables",
+        "i": "puzzle"
+      },
+      "specific.words": {
+        "t": "Tu as lu {n} mots.",
+        "a": "ui.specific.words",
+        "i": "word"
+      },
+      "specific.text": {
+        "t": "Tu as lu un texte en entier.",
+        "a": "ui.specific.text",
+        "i": "book-open"
+      },
+      "keepGoing": {
+        "t": "On continue ?",
+        "a": "ui.keepGoing",
+        "i": "arrow-right"
+      },
+      "comeBack": {
+        "t": "Reviens quand tu veux.",
+        "a": "ui.comeBack",
+        "i": "door"
+      }
+    },
+    "errors": {
+      "audio.missing": {
+        "t": "",
+        "a": "ui.audio.missing",
+        "i": null,
+        "ctx": "INTENTIONALLY EMPTY. When audioService.has() is false the speaker icon is NOT RENDERED. There is no error message, because there is no error for the learner. §H.6."
+      },
+      "audio.failed": {
+        "t": "Le son ne marche pas. Vérifie le volume.",
+        "a": "ui.audio.failed",
+        "i": "volume-up"
+      },
+      "content.broken": {
+        "t": "Continuer",
+        "a": "ui.content.broken",
+        "i": "arrow-right",
+        "ctx": "A malformed activity payload renders a neutral Continuer card. A content bug must never look like the learner's fault, and must never crash a lesson. §H.2."
+      },
+      "storage.full": {
+        "t": "Ton téléphone est plein. Libère un peu de place.",
+        "a": "ui.storage.full",
+        "i": "warning"
+      },
+      "generic": {
+        "t": "Quelque chose n'a pas marché. Réessaie.",
+        "a": "ui.generic",
+        "i": "warning"
+      },
+      "offline": {
+        "t": "",
+        "a": "ui.offline",
+        "i": null,
+        "ctx": "INTENTIONALLY EMPTY. The app is offline by construction. There is no offline state and therefore no offline message. §C.4."
+      }
+    },
+    "facilitator": {
+      "title": {
+        "t": "Mode animatrice",
+        "a": "ui.title",
+        "i": "people"
+      },
+      "subtitle": {
+        "t": "Pour la personne qui accompagne le groupe.",
+        "a": "ui.subtitle",
+        "i": null
+      },
+      "enter": {
+        "t": "Entrer",
+        "a": "ui.enter",
+        "i": "arrow-right",
+        "ctx": "No password. A 4-digit PIN is optional and off by default — a lock the animatrice forgets is worse than no lock."
+      },
+      "learners": {
+        "t": "Les apprenantes",
+        "a": "ui.learners",
+        "i": "people"
+      },
+      "learner.at": {
+        "t": "En est à : {leçon}",
+        "a": "ui.learner.at",
+        "i": null
+      },
+      "learner.lastSeen": {
+        "t": "Vue le {date}",
+        "a": "ui.learner.lastSeen",
+        "i": null
+      },
+      "learner.weak": {
+        "t": "À travailler : {liste}",
+        "a": "ui.learner.weak",
+        "i": null
+      },
+      "addLearner": {
+        "t": "Ajouter une apprenante",
+        "a": "ui.addLearner",
+        "i": "person-plus"
+      },
+      "groupSummary": {
+        "t": "{n} apprenantes · {m} leçons terminées cette semaine",
+        "a": "ui.groupSummary",
+        "i": null
+      },
+      "suggest": {
+        "t": "À faire ensemble aujourd'hui",
+        "a": "ui.suggest",
+        "i": "clipboard"
+      },
+      "export": {
+        "t": "",
+        "a": "ui.export",
+        "i": null,
+        "ctx": "INTENTIONALLY EMPTY in MVP — no export, no upload, no report leaves the phone."
+      }
+    }
+  }
+}

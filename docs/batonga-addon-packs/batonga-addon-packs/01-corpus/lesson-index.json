@@ -1,0 +1,1761 @@
+{
+  "$comment": "DERIVED — the frozen spine. Order is authoritative; never recompute, never sort.",
+  "source": "Batonga Syllabaire Alphanumérique, 2e éd., T2 2025",
+  "generatedBy": "gen_corpus.py",
+  "lessonCount": 66,
+  "units": [
+    {
+      "id": "voyelles",
+      "order": 1,
+      "title": "Les voyelles",
+      "lessonIds": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07"
+      ],
+      "sourcePages": [
+        7,
+        19
+      ]
+    },
+    {
+      "id": "consonnes",
+      "order": 2,
+      "title": "Les consonnes",
+      "lessonIds": [
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L21",
+        "L22",
+        "L23",
+        "L24"
+      ],
+      "sourcePages": [
+        20,
+        53
+      ]
+    },
+    {
+      "id": "graphemes",
+      "order": 3,
+      "title": "Diphtongues et textes",
+      "lessonIds": [
+        "L25",
+        "L26",
+        "L27",
+        "L28",
+        "L29",
+        "L30",
+        "L31",
+        "L32",
+        "L33",
+        "L34",
+        "L35",
+        "L36",
+        "L37",
+        "L38",
+        "L39",
+        "L40",
+        "L41",
+        "L42",
+        "L43",
+        "L44",
+        "L45",
+        "L46",
+        "L47",
+        "L48",
+        "L49",
+        "L50",
+        "L51",
+        "L52",
+        "L53",
+        "L54",
+        "L55",
+        "L56"
+      ],
+      "sourcePages": [
+        55,
+        87
+      ]
+    },
+    {
+      "id": "chiffres",
+      "order": 4,
+      "title": "Les chiffres",
+      "lessonIds": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9"
+      ],
+      "sourcePages": [
+        88,
+        98
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "order": 1,
+      "unitId": "voyelles",
+      "archetype": "vowel",
+      "focusKind": "letter",
+      "glyphs": [
+        "i"
+      ],
+      "phonemes": [
+        "i"
+      ],
+      "keyword": "épi",
+      "keywordArticle": "un",
+      "illustrationId": "ill_epi",
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "L02",
+      "order": 2,
+      "unitId": "voyelles",
+      "archetype": "vowel",
+      "focusKind": "letter",
+      "glyphs": [
+        "u"
+      ],
+      "phonemes": [
+        "y"
+      ],
+      "keyword": "lune",
+      "keywordArticle": "une",
+      "illustrationId": "ill_lune",
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "L03",
+      "order": 3,
+      "unitId": "voyelles",
+      "archetype": "vowel",
+      "focusKind": "letter",
+      "glyphs": [
+        "o"
+      ],
+      "phonemes": [
+        "o"
+      ],
+      "keyword": "pot",
+      "keywordArticle": "un",
+      "illustrationId": "ill_pot",
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "L04",
+      "order": 4,
+      "unitId": "voyelles",
+      "archetype": "vowel",
+      "focusKind": "letter",
+      "glyphs": [
+        "a"
+      ],
+      "phonemes": [
+        "a"
+      ],
+      "keyword": "ananas",
+      "keywordArticle": "un",
+      "illustrationId": "ill_ananas",
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "L05",
+      "order": 5,
+      "unitId": "voyelles",
+      "archetype": "vowel",
+      "focusKind": "letter",
+      "glyphs": [
+        "e",
+        "ê"
+      ],
+      "phonemes": [
+        "ə",
+        "ɛ"
+      ],
+      "keyword": "fenêtre",
+      "keywordArticle": "une",
+      "illustrationId": "ill_fenetre",
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "L06",
+      "order": 6,
+      "unitId": "voyelles",
+      "archetype": "vowel",
+      "focusKind": "letter",
+      "glyphs": [
+        "é",
+        "è"
+      ],
+      "phonemes": [
+        "e",
+        "ɛ"
+      ],
+      "keyword": "élève",
+      "keywordArticle": "une",
+      "illustrationId": "ill_eleve",
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        17,
+        18
+      ]
+    },
+    {
+      "id": "L07",
+      "order": 7,
+      "unitId": "voyelles",
+      "archetype": "vowel",
+      "focusKind": "letter",
+      "glyphs": [
+        "y"
+      ],
+      "phonemes": [
+        "j",
+        "i"
+      ],
+      "keyword": "yeux",
+      "keywordArticle": "mes",
+      "illustrationId": "ill_yeux",
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        19,
+        20
+      ]
+    },
+    {
+      "id": "L08",
+      "order": 8,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "t"
+      ],
+      "phonemes": [
+        "t"
+      ],
+      "keyword": "tête",
+      "keywordArticle": "une",
+      "illustrationId": "ill_tete",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        20,
+        21
+      ]
+    },
+    {
+      "id": "L09",
+      "order": 9,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "p"
+      ],
+      "phonemes": [
+        "p"
+      ],
+      "keyword": "pipe",
+      "keywordArticle": "une",
+      "illustrationId": "ill_pipe",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        22,
+        23
+      ]
+    },
+    {
+      "id": "L10",
+      "order": 10,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "n"
+      ],
+      "phonemes": [
+        "n"
+      ],
+      "keyword": "nez",
+      "keywordArticle": "un",
+      "illustrationId": "ill_nez",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        24,
+        25
+      ]
+    },
+    {
+      "id": "L11",
+      "order": 11,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "m"
+      ],
+      "phonemes": [
+        "m"
+      ],
+      "keyword": "montre",
+      "keywordArticle": "une",
+      "illustrationId": "ill_montre",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        26,
+        27
+      ]
+    },
+    {
+      "id": "L12",
+      "order": 12,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "r"
+      ],
+      "phonemes": [
+        "ʁ"
+      ],
+      "keyword": "radio",
+      "keywordArticle": "une",
+      "illustrationId": "ill_radio",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        28,
+        29
+      ]
+    },
+    {
+      "id": "L13",
+      "order": 13,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "v"
+      ],
+      "phonemes": [
+        "v"
+      ],
+      "keyword": "vélo",
+      "keywordArticle": "un",
+      "illustrationId": "ill_velo",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        30,
+        31
+      ]
+    },
+    {
+      "id": "L14",
+      "order": 14,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "l"
+      ],
+      "phonemes": [
+        "l"
+      ],
+      "keyword": "livre",
+      "keywordArticle": "un",
+      "illustrationId": "ill_livre",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        32,
+        33
+      ]
+    },
+    {
+      "id": "L15",
+      "order": 15,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "d"
+      ],
+      "phonemes": [
+        "d"
+      ],
+      "keyword": "datte",
+      "keywordArticle": "une",
+      "illustrationId": "ill_datte",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        34,
+        35
+      ]
+    },
+    {
+      "id": "L16",
+      "order": 16,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "b"
+      ],
+      "phonemes": [
+        "b"
+      ],
+      "keyword": "bassine",
+      "keywordArticle": "une",
+      "illustrationId": "ill_bassine",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        36,
+        37
+      ]
+    },
+    {
+      "id": "L17",
+      "order": 17,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "j"
+      ],
+      "phonemes": [
+        "ʒ"
+      ],
+      "keyword": "jupe",
+      "keywordArticle": "une",
+      "illustrationId": "ill_jupe",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        38,
+        39
+      ]
+    },
+    {
+      "id": "L18",
+      "order": 18,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "f"
+      ],
+      "phonemes": [
+        "f"
+      ],
+      "keyword": "feu",
+      "keywordArticle": "un",
+      "illustrationId": "ill_feu",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        40,
+        41
+      ]
+    },
+    {
+      "id": "L19",
+      "order": 19,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "s"
+      ],
+      "phonemes": [
+        "s"
+      ],
+      "keyword": "sac",
+      "keywordArticle": "un",
+      "illustrationId": "ill_sac",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        42,
+        43
+      ]
+    },
+    {
+      "id": "L20",
+      "order": 20,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "c"
+      ],
+      "phonemes": [
+        "k"
+      ],
+      "keyword": "couteau",
+      "keywordArticle": "un",
+      "illustrationId": "ill_couteau",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        44,
+        45
+      ]
+    },
+    {
+      "id": "L21",
+      "order": 21,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "g"
+      ],
+      "phonemes": [
+        "ɡ"
+      ],
+      "keyword": "guitare",
+      "keywordArticle": "une",
+      "illustrationId": "ill_guitare",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        46,
+        47
+      ]
+    },
+    {
+      "id": "L22",
+      "order": 22,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "k"
+      ],
+      "phonemes": [
+        "k"
+      ],
+      "keyword": "képi",
+      "keywordArticle": "un",
+      "illustrationId": "ill_kepi",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        48,
+        49
+      ]
+    },
+    {
+      "id": "L23",
+      "order": 23,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "z"
+      ],
+      "phonemes": [
+        "z"
+      ],
+      "keyword": "zébu",
+      "keywordArticle": "un",
+      "illustrationId": "ill_zebu",
+      "hasTree": true,
+      "hasSentences": true,
+      "sourcePages": [
+        52,
+        53
+      ]
+    },
+    {
+      "id": "L24",
+      "order": 24,
+      "unitId": "consonnes",
+      "archetype": "consonant",
+      "focusKind": "letter",
+      "glyphs": [
+        "h"
+      ],
+      "phonemes": [
+        "∅"
+      ],
+      "keyword": "hache",
+      "keywordArticle": "une",
+      "illustrationId": "ill_hache",
+      "hasTree": true,
+      "hasSentences": false,
+      "sourcePages": [
+        50,
+        51
+      ]
+    },
+    {
+      "id": "L25",
+      "order": 25,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "an",
+        "am",
+        "en",
+        "em"
+      ],
+      "phonemes": [
+        "ɑ̃",
+        "ɑ̃",
+        "ɑ̃",
+        "ɑ̃"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T25",
+        "title": "Les vacances",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        55
+      ]
+    },
+    {
+      "id": "L26",
+      "order": 26,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "on",
+        "om"
+      ],
+      "phonemes": [
+        "ɔ̃",
+        "ɔ̃"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T26",
+        "title": "La fête",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        56
+      ]
+    },
+    {
+      "id": "L27",
+      "order": 27,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "oin"
+      ],
+      "phonemes": [
+        "wɛ̃"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T27",
+        "title": "Le marché",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        57
+      ]
+    },
+    {
+      "id": "L28",
+      "order": 28,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "ien",
+        "ion"
+      ],
+      "phonemes": [
+        "jɛ̃",
+        "jɔ̃"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T28",
+        "title": "La ferme",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        58
+      ]
+    },
+    {
+      "id": "L29",
+      "order": 29,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "eau",
+        "au",
+        "os",
+        "ot"
+      ],
+      "phonemes": [
+        "o",
+        "o",
+        "o",
+        "o"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T29",
+        "title": "Mon village",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        59
+      ]
+    },
+    {
+      "id": "L30",
+      "order": 30,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "oi",
+        "oix",
+        "oit"
+      ],
+      "phonemes": [
+        "wa",
+        "wa",
+        "wa"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T30",
+        "title": "Des amis",
+        "kind": "dialogue"
+      },
+      "sourcePages": [
+        60
+      ]
+    },
+    {
+      "id": "L31",
+      "order": 31,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "ain",
+        "ein",
+        "in",
+        "aim"
+      ],
+      "phonemes": [
+        "ɛ̃",
+        "ɛ̃",
+        "ɛ̃",
+        "ɛ̃"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T31",
+        "title": "Mon papa",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        61
+      ]
+    },
+    {
+      "id": "L32",
+      "order": 32,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "ou",
+        "ouille"
+      ],
+      "phonemes": [
+        "u",
+        "uj"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T32",
+        "title": "La boullie",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        62
+      ]
+    },
+    {
+      "id": "L33",
+      "order": 33,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "ay",
+        "oy",
+        "uy"
+      ],
+      "phonemes": [
+        "ɛj",
+        "waj",
+        "ɥij"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T33",
+        "title": "Chaque Samedi",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        63
+      ]
+    },
+    {
+      "id": "L34",
+      "order": 34,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "ail",
+        "aille"
+      ],
+      "phonemes": [
+        "aj",
+        "aj"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T34",
+        "title": "Des conseils",
+        "kind": "advice-list"
+      },
+      "sourcePages": [
+        64
+      ]
+    },
+    {
+      "id": "L35",
+      "order": 35,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "eil",
+        "eille"
+      ],
+      "phonemes": [
+        "ɛj",
+        "ɛj"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T35",
+        "title": "Au réveil",
+        "kind": "dialogue"
+      },
+      "sourcePages": [
+        65
+      ]
+    },
+    {
+      "id": "L36",
+      "order": 36,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "ai",
+        "ei",
+        "ais",
+        "ait"
+      ],
+      "phonemes": [
+        "ɛ",
+        "ɛ",
+        "ɛ",
+        "ɛ"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T36",
+        "title": "En classe",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        66
+      ]
+    },
+    {
+      "id": "L37",
+      "order": 37,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "et",
+        "ez",
+        "ai",
+        "ed"
+      ],
+      "phonemes": [
+        "e",
+        "e",
+        "e",
+        "e"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T37",
+        "title": "À l'école",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        67
+      ]
+    },
+    {
+      "id": "L38",
+      "order": 38,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "euil",
+        "euille"
+      ],
+      "phonemes": [
+        "œj",
+        "œj"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T38",
+        "title": "Un visiteur",
+        "kind": "dialogue"
+      },
+      "sourcePages": [
+        68
+      ]
+    },
+    {
+      "id": "L39",
+      "order": 39,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "ill",
+        "ille"
+      ],
+      "phonemes": [
+        "ij",
+        "ij"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T39",
+        "title": "Une pluie surprise",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        69
+      ]
+    },
+    {
+      "id": "L40",
+      "order": 40,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "eu",
+        "œu"
+      ],
+      "phonemes": [
+        "ø",
+        "œ"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T40",
+        "title": "Les conseils",
+        "kind": "advice-list"
+      },
+      "sourcePages": [
+        70
+      ]
+    },
+    {
+      "id": "L41",
+      "order": 41,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "eur",
+        "eure",
+        "œur"
+      ],
+      "phonemes": [
+        "œʁ",
+        "œʁ",
+        "œʁ"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T41",
+        "title": "Les deux sœurs",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        71
+      ]
+    },
+    {
+      "id": "L42",
+      "order": 42,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "oir",
+        "oire"
+      ],
+      "phonemes": [
+        "waʁ",
+        "waʁ"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T42",
+        "title": "Une histoire",
+        "kind": "dialogue"
+      },
+      "sourcePages": [
+        72
+      ]
+    },
+    {
+      "id": "L43",
+      "order": 43,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "g"
+      ],
+      "phonemes": [
+        "ʒ"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T43",
+        "title": "Le forgeron",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        73
+      ]
+    },
+    {
+      "id": "L44",
+      "order": 44,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "gu"
+      ],
+      "phonemes": [
+        "ɡ"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T44",
+        "title": "Les mangues",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        74
+      ]
+    },
+    {
+      "id": "L45",
+      "order": 45,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "gn"
+      ],
+      "phonemes": [
+        "ɲ"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T45",
+        "title": "Un bon repas",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        75
+      ]
+    },
+    {
+      "id": "L46",
+      "order": 46,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "qu",
+        "k",
+        "c"
+      ],
+      "phonemes": [
+        "k",
+        "k",
+        "k"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": null,
+      "sourcePages": [
+        76
+      ]
+    },
+    {
+      "id": "L47",
+      "order": 47,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "s"
+      ],
+      "phonemes": [
+        "z"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T47",
+        "title": "Le magasin",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        77
+      ]
+    },
+    {
+      "id": "L48",
+      "order": 48,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "c",
+        "ç"
+      ],
+      "phonemes": [
+        "s",
+        "s"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": null,
+      "sourcePages": [
+        78
+      ]
+    },
+    {
+      "id": "L49",
+      "order": 49,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "iez",
+        "ier",
+        "ied"
+      ],
+      "phonemes": [
+        "je",
+        "je",
+        "je"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": null,
+      "sourcePages": [
+        79
+      ]
+    },
+    {
+      "id": "L50",
+      "order": 50,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "ch"
+      ],
+      "phonemes": [
+        "ʃ"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T50",
+        "title": "Le domaine",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        80
+      ]
+    },
+    {
+      "id": "L51",
+      "order": 51,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "ph",
+        "th"
+      ],
+      "phonemes": [
+        "f",
+        "t"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T51",
+        "title": "Le photographe",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        81
+      ]
+    },
+    {
+      "id": "L52",
+      "order": 52,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "ac",
+        "oc",
+        "ic"
+      ],
+      "phonemes": [
+        "ak",
+        "ɔk",
+        "ik"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T52",
+        "title": "Les vacances",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        82
+      ]
+    },
+    {
+      "id": "L53",
+      "order": 53,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "tion",
+        "sion"
+      ],
+      "phonemes": [
+        "sjɔ̃",
+        "sjɔ̃"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T53",
+        "title": "Les opérations",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        83
+      ]
+    },
+    {
+      "id": "L54",
+      "order": 54,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "bl",
+        "pl",
+        "vl",
+        "fl",
+        "cl"
+      ],
+      "phonemes": [
+        "bl",
+        "pl",
+        "vl",
+        "fl",
+        "kl"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": null,
+      "sourcePages": [
+        84
+      ]
+    },
+    {
+      "id": "L55",
+      "order": 55,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "ar",
+        "or"
+      ],
+      "phonemes": [
+        "aʁ",
+        "ɔʁ"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T55",
+        "title": "Les préparatifs",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        85
+      ]
+    },
+    {
+      "id": "L56",
+      "order": 56,
+      "unitId": "graphemes",
+      "archetype": "grapheme",
+      "focusKind": "grapheme",
+      "glyphs": [
+        "br",
+        "tr",
+        "cr",
+        "pr",
+        "dr",
+        "gr",
+        "vr",
+        "fr"
+      ],
+      "phonemes": [
+        "bʁ",
+        "tʁ",
+        "kʁ",
+        "pʁ",
+        "dʁ",
+        "ɡʁ",
+        "vʁ",
+        "fʁ"
+      ],
+      "keyword": null,
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "readingText": {
+        "id": "T56",
+        "title": "L'hôpital",
+        "kind": "narrative"
+      },
+      "sourcePages": [
+        86
+      ]
+    },
+    {
+      "id": "D0",
+      "order": 100,
+      "unitId": "chiffres",
+      "archetype": "numeral",
+      "focusKind": "digit",
+      "glyphs": [
+        "0"
+      ],
+      "phonemes": [],
+      "keyword": "zéro",
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        89
+      ]
+    },
+    {
+      "id": "D1",
+      "order": 101,
+      "unitId": "chiffres",
+      "archetype": "numeral",
+      "focusKind": "digit",
+      "glyphs": [
+        "1"
+      ],
+      "phonemes": [],
+      "keyword": "un",
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        90
+      ]
+    },
+    {
+      "id": "D2",
+      "order": 102,
+      "unitId": "chiffres",
+      "archetype": "numeral",
+      "focusKind": "digit",
+      "glyphs": [
+        "2"
+      ],
+      "phonemes": [],
+      "keyword": "deux",
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        91
+      ]
+    },
+    {
+      "id": "D3",
+      "order": 103,
+      "unitId": "chiffres",
+      "archetype": "numeral",
+      "focusKind": "digit",
+      "glyphs": [
+        "3"
+      ],
+      "phonemes": [],
+      "keyword": "trois",
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        92
+      ]
+    },
+    {
+      "id": "D4",
+      "order": 104,
+      "unitId": "chiffres",
+      "archetype": "numeral",
+      "focusKind": "digit",
+      "glyphs": [
+        "4"
+      ],
+      "phonemes": [],
+      "keyword": "quatre",
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        93
+      ]
+    },
+    {
+      "id": "D5",
+      "order": 105,
+      "unitId": "chiffres",
+      "archetype": "numeral",
+      "focusKind": "digit",
+      "glyphs": [
+        "5"
+      ],
+      "phonemes": [],
+      "keyword": "cinq",
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        94
+      ]
+    },
+    {
+      "id": "D6",
+      "order": 106,
+      "unitId": "chiffres",
+      "archetype": "numeral",
+      "focusKind": "digit",
+      "glyphs": [
+        "6"
+      ],
+      "phonemes": [],
+      "keyword": "six",
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        95
+      ]
+    },
+    {
+      "id": "D7",
+      "order": 107,
+      "unitId": "chiffres",
+      "archetype": "numeral",
+      "focusKind": "digit",
+      "glyphs": [
+        "7"
+      ],
+      "phonemes": [],
+      "keyword": "sept",
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        96
+      ]
+    },
+    {
+      "id": "D8",
+      "order": 108,
+      "unitId": "chiffres",
+      "archetype": "numeral",
+      "focusKind": "digit",
+      "glyphs": [
+        "8"
+      ],
+      "phonemes": [],
+      "keyword": "huit",
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        97
+      ]
+    },
+    {
+      "id": "D9",
+      "order": 109,
+      "unitId": "chiffres",
+      "archetype": "numeral",
+      "focusKind": "digit",
+      "glyphs": [
+        "9"
+      ],
+      "phonemes": [],
+      "keyword": "neuf",
+      "keywordArticle": null,
+      "illustrationId": null,
+      "hasTree": false,
+      "hasSentences": false,
+      "sourcePages": [
+        98
+      ]
+    }
+  ]
+}

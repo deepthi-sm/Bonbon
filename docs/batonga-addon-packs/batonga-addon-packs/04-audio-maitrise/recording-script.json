@@ -1,0 +1,4754 @@
+{
+  "$comment": "NEW. GENERATED from Packs 1 and 3 — never hand-maintained. Re-run gen_audio.py after any content or string change and the script regenerates. This covers every clip that is derivable today. Word, sentence and reading-text clips are emitted by the same scanner once Dev A's lesson JSON lands; their estimated counts are in `pendingFromContent`.",
+  "totalDerivableNow": 590,
+  "bySession": {
+    "1": 327,
+    "2": 241,
+    "3": 22
+  },
+  "pendingFromContent": [
+    {
+      "ns": "word",
+      "estimate": "≈ 420",
+      "source": "un clip par VocabularyItem unique des 56 listes de mots"
+    },
+    {
+      "ns": "sent",
+      "estimate": "≈ 190",
+      "source": "un clip par phrase des blocs phrases (leçons 8–24)"
+    },
+    {
+      "ns": "text",
+      "estimate": "≈ 28 entiers + ≈ 250 par phrase",
+      "source": "les 28 textes de lecture"
+    },
+    {
+      "ns": "q",
+      "estimate": "≈ 70",
+      "source": "2–3 questions par texte, après validation Batonga"
+    }
+  ],
+  "grandTotalEstimate": "≈ 1 548",
+  "rows": [
+    {
+      "id": "letter.i.name",
+      "text": "i",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L01"
+    },
+    {
+      "id": "letter.i.sound",
+      "text": "[son de « i »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L01"
+    },
+    {
+      "id": "letter.u.name",
+      "text": "u",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L02"
+    },
+    {
+      "id": "letter.u.sound",
+      "text": "[son de « u »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L02"
+    },
+    {
+      "id": "letter.o.name",
+      "text": "o",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L03"
+    },
+    {
+      "id": "letter.o.sound",
+      "text": "[son de « o »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L03"
+    },
+    {
+      "id": "letter.a.name",
+      "text": "a",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L04"
+    },
+    {
+      "id": "letter.a.sound",
+      "text": "[son de « a »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L04"
+    },
+    {
+      "id": "letter.e.name",
+      "text": "e",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L05"
+    },
+    {
+      "id": "letter.e.sound",
+      "text": "[son de « e »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L05"
+    },
+    {
+      "id": "letter.e.name",
+      "text": "e accent circonflexe",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L05"
+    },
+    {
+      "id": "letter.e.sound",
+      "text": "[son de « ê »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L05"
+    },
+    {
+      "id": "letter.e.name",
+      "text": "e accent aigu",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L06"
+    },
+    {
+      "id": "letter.e.sound",
+      "text": "[son de « é »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L06"
+    },
+    {
+      "id": "letter.e.name",
+      "text": "e accent grave",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L06"
+    },
+    {
+      "id": "letter.e.sound",
+      "text": "[son de « è »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L06"
+    },
+    {
+      "id": "letter.y.name",
+      "text": "i grec",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L07"
+    },
+    {
+      "id": "letter.y.sound",
+      "text": "[son de « y »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L07"
+    },
+    {
+      "id": "letter.t.name",
+      "text": "té",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L08"
+    },
+    {
+      "id": "letter.t.sound",
+      "text": "[son de « t »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L08"
+    },
+    {
+      "id": "letter.p.name",
+      "text": "pé",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L09"
+    },
+    {
+      "id": "letter.p.sound",
+      "text": "[son de « p »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L09"
+    },
+    {
+      "id": "letter.n.name",
+      "text": "enne",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L10"
+    },
+    {
+      "id": "letter.n.sound",
+      "text": "[son de « n »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L10"
+    },
+    {
+      "id": "letter.m.name",
+      "text": "emme",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L11"
+    },
+    {
+      "id": "letter.m.sound",
+      "text": "[son de « m »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L11"
+    },
+    {
+      "id": "letter.r.name",
+      "text": "erre",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L12"
+    },
+    {
+      "id": "letter.r.sound",
+      "text": "[son de « r »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L12"
+    },
+    {
+      "id": "letter.v.name",
+      "text": "vé",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L13"
+    },
+    {
+      "id": "letter.v.sound",
+      "text": "[son de « v »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L13"
+    },
+    {
+      "id": "letter.l.name",
+      "text": "elle",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L14"
+    },
+    {
+      "id": "letter.l.sound",
+      "text": "[son de « l »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L14"
+    },
+    {
+      "id": "letter.d.name",
+      "text": "dé",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L15"
+    },
+    {
+      "id": "letter.d.sound",
+      "text": "[son de « d »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L15"
+    },
+    {
+      "id": "letter.b.name",
+      "text": "bé",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L16"
+    },
+    {
+      "id": "letter.b.sound",
+      "text": "[son de « b »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L16"
+    },
+    {
+      "id": "letter.j.name",
+      "text": "ji",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L17"
+    },
+    {
+      "id": "letter.j.sound",
+      "text": "[son de « j »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L17"
+    },
+    {
+      "id": "letter.f.name",
+      "text": "effe",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L18"
+    },
+    {
+      "id": "letter.f.sound",
+      "text": "[son de « f »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L18"
+    },
+    {
+      "id": "letter.s.name",
+      "text": "esse",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L19"
+    },
+    {
+      "id": "letter.s.sound",
+      "text": "[son de « s »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L19"
+    },
+    {
+      "id": "letter.c.name",
+      "text": "cé",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L20"
+    },
+    {
+      "id": "letter.c.sound",
+      "text": "[son de « c »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L20"
+    },
+    {
+      "id": "letter.g.name",
+      "text": "gé",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L21"
+    },
+    {
+      "id": "letter.g.sound",
+      "text": "[son de « g »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L21"
+    },
+    {
+      "id": "letter.k.name",
+      "text": "ka",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L22"
+    },
+    {
+      "id": "letter.k.sound",
+      "text": "[son de « k »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L22"
+    },
+    {
+      "id": "letter.z.name",
+      "text": "zède",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L23"
+    },
+    {
+      "id": "letter.z.sound",
+      "text": "[son de « z »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L23"
+    },
+    {
+      "id": "letter.h.name",
+      "text": "ache",
+      "kind": "lettre — nom",
+      "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
+      "session": 1,
+      "note": "leçon L24"
+    },
+    {
+      "id": "letter.h.sound",
+      "text": "[son de « h »]",
+      "kind": "lettre — son",
+      "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
+      "session": 1,
+      "note": "leçon L24"
+    },
+    {
+      "id": "letter.q.name",
+      "text": "ku",
+      "kind": "lettre — nom (mur des lettres)",
+      "direction": "Nom seul. Ces lettres n'ont pas de leçon : q ne s'écrit jamais seul en français (enseigné dans « qu », leçon 46) ; w et x sont des lettres d'emprunt. Elles figurent uniquement sur le mur des lettres.",
+      "session": 1,
+      "note": "référence p.5"
+    },
+    {
+      "id": "letter.w.name",
+      "text": "double vé",
+      "kind": "lettre — nom (mur des lettres)",
+      "direction": "Nom seul. Ces lettres n'ont pas de leçon : q ne s'écrit jamais seul en français (enseigné dans « qu », leçon 46) ; w et x sont des lettres d'emprunt. Elles figurent uniquement sur le mur des lettres.",
+      "session": 1,
+      "note": "référence p.5"
+    },
+    {
+      "id": "letter.x.name",
+      "text": "iks",
+      "kind": "lettre — nom (mur des lettres)",
+      "direction": "Nom seul. Ces lettres n'ont pas de leçon : q ne s'écrit jamais seul en français (enseigné dans « qu », leçon 46) ; w et x sont des lettres d'emprunt. Elles figurent uniquement sur le mur des lettres.",
+      "session": 1,
+      "note": "référence p.5"
+    },
+    {
+      "id": "syll.ti",
+      "text": "ti",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L08"
+    },
+    {
+      "id": "blend.ti",
+      "text": "t … i … ti",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.tu",
+      "text": "tu",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L08"
+    },
+    {
+      "id": "blend.tu",
+      "text": "t … u … tu",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.to",
+      "text": "to",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L08"
+    },
+    {
+      "id": "blend.to",
+      "text": "t … o … to",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ta",
+      "text": "ta",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L08"
+    },
+    {
+      "id": "blend.ta",
+      "text": "t … a … ta",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.te",
+      "text": "te",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L08"
+    },
+    {
+      "id": "blend.te",
+      "text": "t … e … te",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.te_acute",
+      "text": "té",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L08"
+    },
+    {
+      "id": "blend.te_acute",
+      "text": "t … é … té",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.te_grave",
+      "text": "tè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L08"
+    },
+    {
+      "id": "blend.te_grave",
+      "text": "t … è … tè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.te_circ",
+      "text": "tê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L08"
+    },
+    {
+      "id": "blend.te_circ",
+      "text": "t … ê … tê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.pi",
+      "text": "pi",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L09"
+    },
+    {
+      "id": "blend.pi",
+      "text": "p … i … pi",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.pu",
+      "text": "pu",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L09"
+    },
+    {
+      "id": "blend.pu",
+      "text": "p … u … pu",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.po",
+      "text": "po",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L09"
+    },
+    {
+      "id": "blend.po",
+      "text": "p … o … po",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.pa",
+      "text": "pa",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L09"
+    },
+    {
+      "id": "blend.pa",
+      "text": "p … a … pa",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.pe",
+      "text": "pe",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L09"
+    },
+    {
+      "id": "blend.pe",
+      "text": "p … e … pe",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.pe_acute",
+      "text": "pé",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L09"
+    },
+    {
+      "id": "blend.pe_acute",
+      "text": "p … é … pé",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.pe_grave",
+      "text": "pè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L09"
+    },
+    {
+      "id": "blend.pe_grave",
+      "text": "p … è … pè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.pe_circ",
+      "text": "pê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L09"
+    },
+    {
+      "id": "blend.pe_circ",
+      "text": "p … ê … pê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ni",
+      "text": "ni",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L10"
+    },
+    {
+      "id": "blend.ni",
+      "text": "n … i … ni",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.nu",
+      "text": "nu",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L10"
+    },
+    {
+      "id": "blend.nu",
+      "text": "n … u … nu",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.no",
+      "text": "no",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L10"
+    },
+    {
+      "id": "blend.no",
+      "text": "n … o … no",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.na",
+      "text": "na",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L10"
+    },
+    {
+      "id": "blend.na",
+      "text": "n … a … na",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ne",
+      "text": "ne",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L10"
+    },
+    {
+      "id": "blend.ne",
+      "text": "n … e … ne",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ne_acute",
+      "text": "né",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L10"
+    },
+    {
+      "id": "blend.ne_acute",
+      "text": "n … é … né",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ne_grave",
+      "text": "nè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L10"
+    },
+    {
+      "id": "blend.ne_grave",
+      "text": "n … è … nè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ne_circ",
+      "text": "nê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L10"
+    },
+    {
+      "id": "blend.ne_circ",
+      "text": "n … ê … nê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.mi",
+      "text": "mi",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L11"
+    },
+    {
+      "id": "blend.mi",
+      "text": "m … i … mi",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.mu",
+      "text": "mu",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L11"
+    },
+    {
+      "id": "blend.mu",
+      "text": "m … u … mu",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.mo",
+      "text": "mo",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L11"
+    },
+    {
+      "id": "blend.mo",
+      "text": "m … o … mo",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ma",
+      "text": "ma",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L11"
+    },
+    {
+      "id": "blend.ma",
+      "text": "m … a … ma",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.me",
+      "text": "me",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L11"
+    },
+    {
+      "id": "blend.me",
+      "text": "m … e … me",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.me_acute",
+      "text": "mé",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L11"
+    },
+    {
+      "id": "blend.me_acute",
+      "text": "m … é … mé",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.me_grave",
+      "text": "mè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L11"
+    },
+    {
+      "id": "blend.me_grave",
+      "text": "m … è … mè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.me_circ",
+      "text": "mê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L11"
+    },
+    {
+      "id": "blend.me_circ",
+      "text": "m … ê … mê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ri",
+      "text": "ri",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L12"
+    },
+    {
+      "id": "blend.ri",
+      "text": "r … i … ri",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ru",
+      "text": "ru",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L12"
+    },
+    {
+      "id": "blend.ru",
+      "text": "r … u … ru",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ro",
+      "text": "ro",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L12"
+    },
+    {
+      "id": "blend.ro",
+      "text": "r … o … ro",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ra",
+      "text": "ra",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L12"
+    },
+    {
+      "id": "blend.ra",
+      "text": "r … a … ra",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.re",
+      "text": "re",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L12"
+    },
+    {
+      "id": "blend.re",
+      "text": "r … e … re",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.re_acute",
+      "text": "ré",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L12"
+    },
+    {
+      "id": "blend.re_acute",
+      "text": "r … é … ré",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.re_grave",
+      "text": "rè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L12"
+    },
+    {
+      "id": "blend.re_grave",
+      "text": "r … è … rè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.re_circ",
+      "text": "rê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L12"
+    },
+    {
+      "id": "blend.re_circ",
+      "text": "r … ê … rê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.vi",
+      "text": "vi",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L13"
+    },
+    {
+      "id": "blend.vi",
+      "text": "v … i … vi",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.vu",
+      "text": "vu",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L13"
+    },
+    {
+      "id": "blend.vu",
+      "text": "v … u … vu",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.vo",
+      "text": "vo",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L13"
+    },
+    {
+      "id": "blend.vo",
+      "text": "v … o … vo",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.va",
+      "text": "va",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L13"
+    },
+    {
+      "id": "blend.va",
+      "text": "v … a … va",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ve",
+      "text": "ve",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L13"
+    },
+    {
+      "id": "blend.ve",
+      "text": "v … e … ve",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ve_acute",
+      "text": "vé",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L13"
+    },
+    {
+      "id": "blend.ve_acute",
+      "text": "v … é … vé",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ve_grave",
+      "text": "vè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L13"
+    },
+    {
+      "id": "blend.ve_grave",
+      "text": "v … è … vè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ve_circ",
+      "text": "vê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L13"
+    },
+    {
+      "id": "blend.ve_circ",
+      "text": "v … ê … vê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.li",
+      "text": "li",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L14"
+    },
+    {
+      "id": "blend.li",
+      "text": "l … i … li",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.lu",
+      "text": "lu",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L14"
+    },
+    {
+      "id": "blend.lu",
+      "text": "l … u … lu",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.lo",
+      "text": "lo",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L14"
+    },
+    {
+      "id": "blend.lo",
+      "text": "l … o … lo",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.la",
+      "text": "la",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L14"
+    },
+    {
+      "id": "blend.la",
+      "text": "l … a … la",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.le",
+      "text": "le",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L14"
+    },
+    {
+      "id": "blend.le",
+      "text": "l … e … le",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.le_acute",
+      "text": "lé",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L14"
+    },
+    {
+      "id": "blend.le_acute",
+      "text": "l … é … lé",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.le_grave",
+      "text": "lè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L14"
+    },
+    {
+      "id": "blend.le_grave",
+      "text": "l … è … lè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.le_circ",
+      "text": "lê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L14"
+    },
+    {
+      "id": "blend.le_circ",
+      "text": "l … ê … lê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.di",
+      "text": "di",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L15"
+    },
+    {
+      "id": "blend.di",
+      "text": "d … i … di",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.du",
+      "text": "du",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L15"
+    },
+    {
+      "id": "blend.du",
+      "text": "d … u … du",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.do",
+      "text": "do",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L15"
+    },
+    {
+      "id": "blend.do",
+      "text": "d … o … do",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.da",
+      "text": "da",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L15"
+    },
+    {
+      "id": "blend.da",
+      "text": "d … a … da",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.de",
+      "text": "de",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L15"
+    },
+    {
+      "id": "blend.de",
+      "text": "d … e … de",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.de_acute",
+      "text": "dé",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L15"
+    },
+    {
+      "id": "blend.de_acute",
+      "text": "d … é … dé",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.de_grave",
+      "text": "dè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L15"
+    },
+    {
+      "id": "blend.de_grave",
+      "text": "d … è … dè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.de_circ",
+      "text": "dê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L15"
+    },
+    {
+      "id": "blend.de_circ",
+      "text": "d … ê … dê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.bi",
+      "text": "bi",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L16"
+    },
+    {
+      "id": "blend.bi",
+      "text": "b … i … bi",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.bu",
+      "text": "bu",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L16"
+    },
+    {
+      "id": "blend.bu",
+      "text": "b … u … bu",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.bo",
+      "text": "bo",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L16"
+    },
+    {
+      "id": "blend.bo",
+      "text": "b … o … bo",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ba",
+      "text": "ba",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L16"
+    },
+    {
+      "id": "blend.ba",
+      "text": "b … a … ba",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.be",
+      "text": "be",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L16"
+    },
+    {
+      "id": "blend.be",
+      "text": "b … e … be",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.be_acute",
+      "text": "bé",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L16"
+    },
+    {
+      "id": "blend.be_acute",
+      "text": "b … é … bé",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.be_grave",
+      "text": "bè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L16"
+    },
+    {
+      "id": "blend.be_grave",
+      "text": "b … è … bè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.be_circ",
+      "text": "bê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L16"
+    },
+    {
+      "id": "blend.be_circ",
+      "text": "b … ê … bê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ji",
+      "text": "ji",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L17"
+    },
+    {
+      "id": "blend.ji",
+      "text": "j … i … ji",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ju",
+      "text": "ju",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L17"
+    },
+    {
+      "id": "blend.ju",
+      "text": "j … u … ju",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.jo",
+      "text": "jo",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L17"
+    },
+    {
+      "id": "blend.jo",
+      "text": "j … o … jo",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ja",
+      "text": "ja",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L17"
+    },
+    {
+      "id": "blend.ja",
+      "text": "j … a … ja",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.je",
+      "text": "je",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L17"
+    },
+    {
+      "id": "blend.je",
+      "text": "j … e … je",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.je_acute",
+      "text": "jé",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L17"
+    },
+    {
+      "id": "blend.je_acute",
+      "text": "j … é … jé",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.je_grave",
+      "text": "jè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L17"
+    },
+    {
+      "id": "blend.je_grave",
+      "text": "j … è … jè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.je_circ",
+      "text": "jê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L17"
+    },
+    {
+      "id": "blend.je_circ",
+      "text": "j … ê … jê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.fi",
+      "text": "fi",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L18"
+    },
+    {
+      "id": "blend.fi",
+      "text": "f … i … fi",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.fu",
+      "text": "fu",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L18"
+    },
+    {
+      "id": "blend.fu",
+      "text": "f … u … fu",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.fo",
+      "text": "fo",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L18"
+    },
+    {
+      "id": "blend.fo",
+      "text": "f … o … fo",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.fa",
+      "text": "fa",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L18"
+    },
+    {
+      "id": "blend.fa",
+      "text": "f … a … fa",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.fe",
+      "text": "fe",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L18"
+    },
+    {
+      "id": "blend.fe",
+      "text": "f … e … fe",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.fe_acute",
+      "text": "fé",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L18"
+    },
+    {
+      "id": "blend.fe_acute",
+      "text": "f … é … fé",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.fe_grave",
+      "text": "fè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L18"
+    },
+    {
+      "id": "blend.fe_grave",
+      "text": "f … è … fè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.fe_circ",
+      "text": "fê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L18"
+    },
+    {
+      "id": "blend.fe_circ",
+      "text": "f … ê … fê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.si",
+      "text": "si",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "s intervocalique se lit /z/ — voir leçon 47"
+    },
+    {
+      "id": "blend.si",
+      "text": "s … i … si",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.su",
+      "text": "su",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L19"
+    },
+    {
+      "id": "blend.su",
+      "text": "s … u … su",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.so",
+      "text": "so",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L19"
+    },
+    {
+      "id": "blend.so",
+      "text": "s … o … so",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.sa",
+      "text": "sa",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L19"
+    },
+    {
+      "id": "blend.sa",
+      "text": "s … a … sa",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.se",
+      "text": "se",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L19"
+    },
+    {
+      "id": "blend.se",
+      "text": "s … e … se",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.se_acute",
+      "text": "sé",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L19"
+    },
+    {
+      "id": "blend.se_acute",
+      "text": "s … é … sé",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.se_grave",
+      "text": "sè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L19"
+    },
+    {
+      "id": "blend.se_grave",
+      "text": "s … è … sè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.se_circ",
+      "text": "sê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L19"
+    },
+    {
+      "id": "blend.se_circ",
+      "text": "s … ê … sê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ci",
+      "text": "ci",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "c + i se lit /s/ — non enseigné avant la leçon 48"
+    },
+    {
+      "id": "blend.ci",
+      "text": "c … i … ci",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.cu",
+      "text": "cu",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L20"
+    },
+    {
+      "id": "blend.cu",
+      "text": "c … u … cu",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.co",
+      "text": "co",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L20"
+    },
+    {
+      "id": "blend.co",
+      "text": "c … o … co",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ca",
+      "text": "ca",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L20"
+    },
+    {
+      "id": "blend.ca",
+      "text": "c … a … ca",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ce",
+      "text": "ce",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "c + e se lit /s/ — non enseigné avant la leçon 48"
+    },
+    {
+      "id": "blend.ce",
+      "text": "c … e … ce",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ce_acute",
+      "text": "cé",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "c + é se lit /s/ — non enseigné avant la leçon 48"
+    },
+    {
+      "id": "blend.ce_acute",
+      "text": "c … é … cé",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ce_grave",
+      "text": "cè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "c + è se lit /s/ — non enseigné avant la leçon 48"
+    },
+    {
+      "id": "blend.ce_grave",
+      "text": "c … è … cè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ce_circ",
+      "text": "cê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "c + ê se lit /s/ — non enseigné avant la leçon 48"
+    },
+    {
+      "id": "blend.ce_circ",
+      "text": "c … ê … cê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.gu",
+      "text": "gu",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L21"
+    },
+    {
+      "id": "blend.gu",
+      "text": "g … u … gu",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.go",
+      "text": "go",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L21"
+    },
+    {
+      "id": "blend.go",
+      "text": "g … o … go",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ga",
+      "text": "ga",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L21"
+    },
+    {
+      "id": "blend.ga",
+      "text": "g … a … ga",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ki",
+      "text": "ki",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L22"
+    },
+    {
+      "id": "blend.ki",
+      "text": "k … i … ki",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ku",
+      "text": "ku",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L22"
+    },
+    {
+      "id": "blend.ku",
+      "text": "k … u … ku",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ko",
+      "text": "ko",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L22"
+    },
+    {
+      "id": "blend.ko",
+      "text": "k … o … ko",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ka",
+      "text": "ka",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L22"
+    },
+    {
+      "id": "blend.ka",
+      "text": "k … a … ka",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ke",
+      "text": "ke",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L22"
+    },
+    {
+      "id": "blend.ke",
+      "text": "k … e … ke",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ke_acute",
+      "text": "ké",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L22"
+    },
+    {
+      "id": "blend.ke_acute",
+      "text": "k … é … ké",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ke_grave",
+      "text": "kè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L22"
+    },
+    {
+      "id": "blend.ke_grave",
+      "text": "k … è … kè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ke_circ",
+      "text": "kê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L22"
+    },
+    {
+      "id": "blend.ke_circ",
+      "text": "k … ê … kê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.zi",
+      "text": "zi",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L23"
+    },
+    {
+      "id": "blend.zi",
+      "text": "z … i … zi",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.zu",
+      "text": "zu",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L23"
+    },
+    {
+      "id": "blend.zu",
+      "text": "z … u … zu",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.zo",
+      "text": "zo",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L23"
+    },
+    {
+      "id": "blend.zo",
+      "text": "z … o … zo",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.za",
+      "text": "za",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L23"
+    },
+    {
+      "id": "blend.za",
+      "text": "z … a … za",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ze",
+      "text": "ze",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L23"
+    },
+    {
+      "id": "blend.ze",
+      "text": "z … e … ze",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ze_acute",
+      "text": "zé",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L23"
+    },
+    {
+      "id": "blend.ze_acute",
+      "text": "z … é … zé",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ze_grave",
+      "text": "zè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L23"
+    },
+    {
+      "id": "blend.ze_grave",
+      "text": "z … è … zè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ze_circ",
+      "text": "zê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L23"
+    },
+    {
+      "id": "blend.ze_circ",
+      "text": "z … ê … zê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.hi",
+      "text": "hi",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L24"
+    },
+    {
+      "id": "blend.hi",
+      "text": "h … i … hi",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.hu",
+      "text": "hu",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L24"
+    },
+    {
+      "id": "blend.hu",
+      "text": "h … u … hu",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ho",
+      "text": "ho",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L24"
+    },
+    {
+      "id": "blend.ho",
+      "text": "h … o … ho",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.ha",
+      "text": "ha",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L24"
+    },
+    {
+      "id": "blend.ha",
+      "text": "h … a … ha",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.he",
+      "text": "he",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L24"
+    },
+    {
+      "id": "blend.he",
+      "text": "h … e … he",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.he_acute",
+      "text": "hé",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L24"
+    },
+    {
+      "id": "blend.he_acute",
+      "text": "h … é … hé",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.he_grave",
+      "text": "hè",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L24"
+    },
+    {
+      "id": "blend.he_grave",
+      "text": "h … è … hè",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "syll.he_circ",
+      "text": "hê",
+      "kind": "syllabe",
+      "direction": "Syllabe fondue, d'un seul souffle. Ni « t-a », ni « teu-a ».",
+      "session": 1,
+      "note": "leçon L24"
+    },
+    {
+      "id": "blend.he_circ",
+      "text": "h … ê … hê",
+      "kind": "syllabe — fusion",
+      "direction": "Les deux sons séparés par une pause d'environ une demi-seconde, puis la syllabe fondue. C'est le geste que le livre dessine avec ses flèches.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "digit.0.name",
+      "text": "zéro",
+      "kind": "chiffre — nom",
+      "direction": "Nom du chiffre, isolé.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "cue.digit.0.1",
+      "text": "Un seul tracé : partir en haut, tourner vers la gauche, faire le tour, refermer en haut.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 1"
+    },
+    {
+      "id": "digit.1.name",
+      "text": "un",
+      "kind": "chiffre — nom",
+      "direction": "Nom du chiffre, isolé.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "cue.digit.1.1",
+      "text": "Le petit trait oblique, du bas vers le haut à gauche.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 1"
+    },
+    {
+      "id": "cue.digit.1.2",
+      "text": "La barre verticale, du haut vers le bas.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 2"
+    },
+    {
+      "id": "digit.2.name",
+      "text": "deux",
+      "kind": "chiffre — nom",
+      "direction": "Nom du chiffre, isolé.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "cue.digit.2.1",
+      "text": "Une courbe en haut vers la droite, redescendre en diagonale, puis la barre horizontale du bas, de gauche à droite.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 1"
+    },
+    {
+      "id": "digit.3.name",
+      "text": "trois",
+      "kind": "chiffre — nom",
+      "direction": "Nom du chiffre, isolé.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "cue.digit.3.1",
+      "text": "La première boucle en haut, de gauche à droite.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 1"
+    },
+    {
+      "id": "cue.digit.3.2",
+      "text": "La seconde boucle en bas, de gauche à droite.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 2"
+    },
+    {
+      "id": "digit.4.name",
+      "text": "quatre",
+      "kind": "chiffre — nom",
+      "direction": "Nom du chiffre, isolé.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "cue.digit.4.1",
+      "text": "Le trait oblique descendant, puis la verticale courte.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 1"
+    },
+    {
+      "id": "cue.digit.4.2",
+      "text": "La barre horizontale, de gauche à droite.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 2"
+    },
+    {
+      "id": "digit.5.name",
+      "text": "cinq",
+      "kind": "chiffre — nom",
+      "direction": "Nom du chiffre, isolé.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "cue.digit.5.1",
+      "text": "La barre du haut, de gauche à droite, puis descendre à gauche.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 1"
+    },
+    {
+      "id": "cue.digit.5.2",
+      "text": "La panse, de la gauche vers la droite et refermer.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 2"
+    },
+    {
+      "id": "digit.6.name",
+      "text": "six",
+      "kind": "chiffre — nom",
+      "direction": "Nom du chiffre, isolé.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "cue.digit.6.1",
+      "text": "Partir en haut à droite, descendre en courbe vers la gauche, puis fermer la boucle du bas.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 1"
+    },
+    {
+      "id": "digit.7.name",
+      "text": "sept",
+      "kind": "chiffre — nom",
+      "direction": "Nom du chiffre, isolé.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "cue.digit.7.1",
+      "text": "La barre du haut, de gauche à droite.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 1"
+    },
+    {
+      "id": "cue.digit.7.2",
+      "text": "Le trait oblique, du haut vers le bas à gauche.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 2"
+    },
+    {
+      "id": "digit.8.name",
+      "text": "huit",
+      "kind": "chiffre — nom",
+      "direction": "Nom du chiffre, isolé.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "cue.digit.8.1",
+      "text": "Partir en haut, descendre en diagonale vers la gauche, boucle du bas, remonter en diagonale, refermer en haut.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 1"
+    },
+    {
+      "id": "digit.9.name",
+      "text": "neuf",
+      "kind": "chiffre — nom",
+      "direction": "Nom du chiffre, isolé.",
+      "session": 1,
+      "note": null
+    },
+    {
+      "id": "cue.digit.9.1",
+      "text": "La boucle du haut, refermée.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 1"
+    },
+    {
+      "id": "cue.digit.9.2",
+      "text": "La descente verticale, du haut vers le bas.",
+      "kind": "chiffre — consigne de tracé",
+      "direction": "Consigne calme, comme une main qui guide.",
+      "session": 3,
+      "note": "trait 2"
+    },
+    {
+      "id": "ui.common.continue",
+      "text": "Appuie pour continuer.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.start",
+      "text": "Commencer",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.back",
+      "text": "Retour",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.close",
+      "text": "Fermer",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.yes",
+      "text": "Oui",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.no",
+      "text": "Non",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.listen",
+      "text": "Appuie sur le haut-parleur pour écouter.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.listenAll",
+      "text": "Tout écouter",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.again",
+      "text": "Appuie pour réécouter.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.slower",
+      "text": "Plus lentement",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.next",
+      "text": "Suivant",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.previous",
+      "text": "Précédent",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.skip",
+      "text": "Passer",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": "ALWAYS visible on every activity. §J.3 rule 4."
+    },
+    {
+      "id": "ui.common.done",
+      "text": "Terminé",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.retry",
+      "text": "Réessayer",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.help",
+      "text": "Appuie longuement sur un bouton pour savoir à quoi il sert.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.script.print",
+      "text": "Écriture normale",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.script.cursive",
+      "text": "Écriture attachée",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.common.loading",
+      "text": "Un instant…",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.welcome.title",
+      "text": "Bienvenue. Cette application t'apprend à lire et à écrire le français. Tu n'as pas besoin de savoir lire pour t'en servir. Appuie sur le grand bouton vert.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.welcome.cta",
+      "text": "Commencer",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.sound.title",
+      "text": "Est-ce que tu m'entends bien ? Si tu n'entends rien, monte le son de ton téléphone.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.sound.yes",
+      "text": "Je t'entends",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.sound.no",
+      "text": "Je n'entends rien",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.sound.help",
+      "text": "Appuie sur le bouton du son, sur le côté de ton téléphone, vers le haut. Puis réessaie.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.name.title",
+      "text": "Comment veux-tu qu'on t'appelle ? Tu peux écrire ton nom, ou choisir une image. Tu peux aussi passer.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.name.placeholder",
+      "text": "Ton nom",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.name.orAvatar",
+      "text": "Ou choisis une image",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.name.skip",
+      "text": "Passer",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.tapTest.title",
+      "text": "On va essayer ensemble. Touche le rond bleu.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.tapTest.ok",
+      "text": "C'est ça. Tu sais te servir de l'application.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.tapTest.retry",
+      "text": "Touche le rond bleu.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.listenTest.title",
+      "text": "Maintenant, touche le haut-parleur pour entendre une lettre.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.placement.title",
+      "text": "Veux-tu commencer au début, ou veux-tu que je regarde ce que tu sais déjà ?",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.placement.fromStart",
+      "text": "Commencer au début. C'est le meilleur choix si tu n'es pas sûre.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.placement.test",
+      "text": "Je vais te poser quelques questions courtes. Ce n'est pas un examen. Tu peux t'arrêter quand tu veux.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.onboarding.placement.result",
+      "text": "Tu peux commencer ici.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": "Followed by the lesson title. NEVER a score, NEVER a level name."
+    },
+    {
+      "id": "ui.onboarding.done.title",
+      "text": "C'est prêt. Prends ton temps. Tu peux revenir quand tu veux : l'application se souvient d'où tu t'es arrêtée.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.home.resume",
+      "text": "Reprends là où tu t'es arrêtée.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": "The single primary action. §K.1."
+    },
+    {
+      "id": "ui.home.resume.detail",
+      "text": "Leçon {n} — {titre}",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.home.startFirst",
+      "text": "Commencer la leçon 1",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.home.path",
+      "text": "Mon parcours",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.home.practice",
+      "text": "M'entraîner",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.home.progress",
+      "text": "Mes progrès",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.home.settings",
+      "text": "Réglages",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.home.review.today",
+      "text": "À revoir aujourd'hui",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.home.review.count",
+      "text": "{n} à revoir",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.home.streak.days",
+      "text": "{n} jours de suite",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": "Counts DAYS SHE OPENED THE APP, never accuracy. §J.3 rule 3."
+    },
+    {
+      "id": "ui.home.streak.today",
+      "text": "Tu es venue aujourd'hui.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.home.greeting.morning",
+      "text": "Bonjour {nom}",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.home.greeting.evening",
+      "text": "Bonsoir {nom}",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.path.title",
+      "text": "Mon parcours",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.path.unit.voyelles",
+      "text": "Les voyelles",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.path.unit.consonnes",
+      "text": "Les consonnes",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.path.unit.graphemes",
+      "text": "Les sons et les textes",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.path.unit.chiffres",
+      "text": "Les chiffres",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.path.unit.progress",
+      "text": "{fait} sur {total}",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.path.node.locked",
+      "text": "Termine la leçon d'avant pour ouvrir celle-ci.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.path.node.available",
+      "text": "À faire",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.path.node.current",
+      "text": "À toi",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.path.node.completed",
+      "text": "Terminée",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.path.node.review",
+      "text": "À revoir",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.objective",
+      "text": "Aujourd'hui",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": "Followed by the lesson objective string from the content pack."
+    },
+    {
+      "id": "ui.lesson.block.keyword",
+      "text": "Le mot",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.block.forms",
+      "text": "Les formes de la lettre",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.block.repetition",
+      "text": "Regarde bien",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.block.tree",
+      "text": "Les syllabes",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.block.strip",
+      "text": "Lis les syllabes",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.block.words",
+      "text": "Les mots",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.block.sentences",
+      "text": "Les phrases",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.block.text",
+      "text": "Le texte",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.block.strokes",
+      "text": "Comment on l'écrit",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.block.writing",
+      "text": "À toi d'écrire",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.block.bilan",
+      "text": "Ce que tu as appris",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.tapToHear",
+      "text": "Touche pour écouter",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.longPressSyllables",
+      "text": "Appuie longtemps pour entendre syllabe par syllabe",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.wordByWord",
+      "text": "Mot à mot",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.iReadIt",
+      "text": "J'ai lu",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": "Per sentence in a reading text."
+    },
+    {
+      "id": "ui.lesson.progress",
+      "text": "{i} sur {n}",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.leave.title",
+      "text": "Tu veux t'arrêter ? Je garde ta place.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.leave.confirm",
+      "text": "Oui, je m'arrête",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.leave.cancel",
+      "text": "Je continue",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.lesson.resumed",
+      "text": "On reprend ici.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.tapIdentify.prompt",
+      "text": "Touche {cible}",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.listenChoose.prompt",
+      "text": "Écoute, puis touche le bon",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.syllableBuild.prompt",
+      "text": "Écoute et construis la syllabe",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.missingLetter.prompt",
+      "text": "Quelle lettre manque ?",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.trace.prompt",
+      "text": "Écris {cible}",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.wordMatch.prompt",
+      "text": "Relie le mot à l'image",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.comprehension.prompt",
+      "text": "Réponds à la question",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.correct",
+      "text": "C'est ça.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.almost",
+      "text": "Presque. Écoute encore.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.notYet",
+      "text": "Pas encore. On réessaie.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.hint.listenAgain",
+      "text": "Écoute encore",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.hint.narrow",
+      "text": "C'est l'un des deux",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.hint.show",
+      "text": "Regarde",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.moveOn",
+      "text": "On continue. Tu la reverras.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.activity.skipConfirm",
+      "text": "Passer cet exercice ?",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.assessment.bilan.title",
+      "text": "Quelques questions pour voir ce que tu retiens. Ce n'est pas un examen.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.assessment.bilan.good",
+      "text": "Bien lu. Tu as reconnu {n} choses sur {total}.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.assessment.bilan.partial",
+      "text": "C'est en train de venir. On reverra {cible} bientôt.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.assessment.checkpoint.title",
+      "text": "Tu arrives au bout de cette partie. On va revoir ensemble.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.assessment.checkpoint.pass",
+      "text": "Unité terminée",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.assessment.result.count",
+      "text": "{bon} sur {total}",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.assessment.review.added",
+      "text": "On reverra : {liste}",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.writing.watchFirst",
+      "text": "Regarde comment on l'écrit.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.writing.replayModel",
+      "text": "Revoir le modèle",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.writing.nowYou",
+      "text": "À toi. Commence au point.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.writing.startHere",
+      "text": "Commence ici",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.writing.stars",
+      "text": "{n} étoiles sur 3",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.writing.clear",
+      "text": "Effacer",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.writing.cue.start",
+      "text": "Commence ici, en haut.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.writing.cue.direction",
+      "text": "Descends, ne monte pas.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.writing.cue.checkpoint",
+      "text": "Passe bien par le point.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.writing.cue.slow",
+      "text": "Doucement, suis le trait.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.writing.cue.missing",
+      "text": "Il manque un trait.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.writing.cue.good",
+      "text": "C'est bien tracé.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.practice.title",
+      "text": "M'entraîner",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.practice.reviewLesson",
+      "text": "Revoir une leçon",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.practice.letterWall",
+      "text": "Toutes les lettres, à regarder et à écouter quand tu veux.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.practice.digits",
+      "text": "Les chiffres",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.practice.notebook",
+      "text": "Une page blanche pour t'entraîner à écrire.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.practice.themes",
+      "text": "Les mots par thème",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": "Surfaces the thematic lexicon from Pack 1 — including « les mots du commerce », which are the book's OWN words, not a new curriculum."
+    },
+    {
+      "id": "ui.practice.theme.commerce",
+      "text": "Les mots du commerce",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.practice.theme.maison",
+      "text": "À la maison",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.practice.theme.nourriture",
+      "text": "La nourriture",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.practice.theme.ecole",
+      "text": "À l'école",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.practice.theme.village",
+      "text": "Au village",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.practice.freeBrowse",
+      "text": "Tu peux tout regarder, rien n'est bloqué ici.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.progress.title",
+      "text": "Mes progrès",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.progress.lessonsDone",
+      "text": "{n} leçons terminées",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.progress.lettersKnown",
+      "text": "{n} lettres reconnues",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.progress.syllablesKnown",
+      "text": "{n} syllabes lues",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.progress.wordsHeard",
+      "text": "{n} mots écoutés",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.progress.textsRead",
+      "text": "{n} textes lus",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.progress.daysActive",
+      "text": "{n} jours",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.progress.empty",
+      "text": "Tu commences tout juste. Reviens après ta première leçon.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.settings.title",
+      "text": "Réglages",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.settings.voice.speed",
+      "text": "Vitesse de la voix",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.settings.voice.normal",
+      "text": "Normale",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.settings.voice.slow",
+      "text": "Lente",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.settings.script.default",
+      "text": "Écriture affichée",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.settings.textSize",
+      "text": "Taille du texte",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.settings.haptics",
+      "text": "Vibrations",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.settings.profile",
+      "text": "Mon profil",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.settings.profile.switch",
+      "text": "Si quelqu'un d'autre utilise ce téléphone, choisis son nom ici.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": "A shared family phone is normal. §K.1."
+    },
+    {
+      "id": "ui.settings.profile.reset",
+      "text": "Attention : tu perdras tes progrès. Es-tu sûre ?",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.settings.about",
+      "text": "À propos",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.settings.about.source",
+      "text": "D'après le Syllabaire Alphanumérique de la Fondation Batonga, 2ᵉ édition.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.settings.privacy",
+      "text": "Rien de ce que tu fais ici ne quitte ton téléphone.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.settings.facilitator",
+      "text": "Mode animatrice",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.celebration.lesson.done",
+      "text": "Leçon terminée",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.celebration.lesson.first",
+      "text": "Ta première leçon est terminée.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.celebration.unit.done",
+      "text": "Unité terminée",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.celebration.specific.letters",
+      "text": "Tu as reconnu la lettre {lettre}.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.celebration.specific.syllables",
+      "text": "Tu as lu {n} syllabes.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.celebration.specific.words",
+      "text": "Tu as lu {n} mots.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.celebration.specific.text",
+      "text": "Tu as lu un texte en entier.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.celebration.keepGoing",
+      "text": "On continue ?",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.celebration.comeBack",
+      "text": "Reviens quand tu veux.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.errors.audio.failed",
+      "text": "Le son ne marche pas. Vérifie le volume.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.errors.content.broken",
+      "text": "Continuer",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": "A malformed activity payload renders a neutral Continuer card. A content bug must never look like the learner's fault, and must never crash a lesson. §H.2."
+    },
+    {
+      "id": "ui.errors.storage.full",
+      "text": "Ton téléphone est plein. Libère un peu de place.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.errors.generic",
+      "text": "Quelque chose n'a pas marché. Réessaie.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.facilitator.title",
+      "text": "Mode animatrice",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.facilitator.subtitle",
+      "text": "Pour la personne qui accompagne le groupe.",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.facilitator.enter",
+      "text": "Entrer",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": "No password. A 4-digit PIN is optional and off by default — a lock the animatrice forgets is worse than no lock."
+    },
+    {
+      "id": "ui.facilitator.learners",
+      "text": "Les apprenantes",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.facilitator.learner.at",
+      "text": "En est à : {leçon}",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.facilitator.learner.lastSeen",
+      "text": "Vue le {date}",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.facilitator.learner.weak",
+      "text": "À travailler : {liste}",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.facilitator.addLearner",
+      "text": "Ajouter une apprenante",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.facilitator.groupSummary",
+      "text": "{n} apprenantes · {m} leçons terminées cette semaine",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "ui.facilitator.suggest",
+      "text": "À faire ensemble aujourd'hui",
+      "kind": "interface",
+      "direction": "Ton d'accompagnatrice. Phrase entière à l'oral même si l'écrit est court.",
+      "session": 2,
+      "note": null
+    },
+    {
+      "id": "vo.onb.01",
+      "text": "Bienvenue. Cette application t'apprend à lire et à écrire le français. Tu n'as pas besoin de savoir lire pour t'en servir. Appuie sur le grand bouton vert.",
+      "kind": "voix off — premier lancement",
+      "direction": "Le tout premier contact. Lent, accueillant, sans emphase.",
+      "session": 2,
+      "note": "étape 1 — welcome"
+    },
+    {
+      "id": "vo.onb.02",
+      "text": "Est-ce que tu m'entends bien ? Si tu ne m'entends pas, monte le son de ton téléphone, sur le côté, vers le haut.",
+      "kind": "voix off — premier lancement",
+      "direction": "Le tout premier contact. Lent, accueillant, sans emphase.",
+      "session": 2,
+      "note": "étape 2 — sound"
+    },
+    {
+      "id": "vo.onb.03",
+      "text": "Comment veux-tu qu'on t'appelle ? Tu peux écrire ton nom, ou choisir une image. Tu peux aussi passer, ça n'a pas d'importance.",
+      "kind": "voix off — premier lancement",
+      "direction": "Le tout premier contact. Lent, accueillant, sans emphase.",
+      "session": 2,
+      "note": "étape 3 — name"
+    },
+    {
+      "id": "vo.onb.04",
+      "text": "On essaie ensemble. Touche le rond bleu.",
+      "kind": "voix off — premier lancement",
+      "direction": "Le tout premier contact. Lent, accueillant, sans emphase.",
+      "session": 2,
+      "note": "étape 4 — tap-test"
+    },
+    {
+      "id": "vo.onb.05",
+      "text": "Quand tu vois ce dessin — un haut-parleur — tu peux toujours appuyer pour écouter. Essaie.",
+      "kind": "voix off — premier lancement",
+      "direction": "Le tout premier contact. Lent, accueillant, sans emphase.",
+      "session": 2,
+      "note": "étape 5 — listen-test"
+    },
+    {
+      "id": "vo.onb.06",
+      "text": "Veux-tu commencer au début, ou veux-tu que je regarde d'abord ce que tu sais déjà ? Si tu n'es pas sûre, commence au début.",
+      "kind": "voix off — premier lancement",
+      "direction": "Le tout premier contact. Lent, accueillant, sans emphase.",
+      "session": 2,
+      "note": "étape 6 — placement"
+    },
+    {
+      "id": "vo.onb.07",
+      "text": "C'est prêt. Prends ton temps. Tu peux t'arrêter quand tu veux : l'application se souvient d'où tu t'es arrêtée.",
+      "kind": "voix off — premier lancement",
+      "direction": "Le tout premier contact. Lent, accueillant, sans emphase.",
+      "session": 2,
+      "note": "étape 7 — ready"
+    },
+    {
+      "id": "vo.return.01",
+      "text": "Te revoilà. On reprend à la leçon {n} ?",
+      "kind": "voix off — retour",
+      "direction": "Chaleureux, sans reproche sur l'absence.",
+      "session": 2,
+      "note": "1–2 days"
+    },
+    {
+      "id": "vo.return.02",
+      "text": "Contente de te revoir. On reprend doucement : je te remets d'abord ce que tu as vu la dernière fois.",
+      "kind": "voix off — retour",
+      "direction": "Chaleureux, sans reproche sur l'absence.",
+      "session": 2,
+      "note": "3–13 days"
+    },
+    {
+      "id": "vo.return.03",
+      "text": "Ça fait un moment. On va revoir ensemble avant de continuer. Rien n'est perdu.",
+      "kind": "voix off — retour",
+      "direction": "Chaleureux, sans reproche sur l'absence.",
+      "session": 2,
+      "note": "14+ days"
+    },
+    {
+      "id": "fb.micro.01",
+      "text": "C'est ça.",
+      "kind": "encouragement — micro",
+      "direction": "Très court, presque murmuré. Moins d'une seconde.",
+      "session": 2,
+      "note": "bonne réponse ordinaire"
+    },
+    {
+      "id": "fb.micro.02",
+      "text": "Oui.",
+      "kind": "encouragement — micro",
+      "direction": "Très court, presque murmuré. Moins d'une seconde.",
+      "session": 2,
+      "note": "bonne réponse ordinaire"
+    },
+    {
+      "id": "fb.micro.03",
+      "text": "Exact.",
+      "kind": "encouragement — micro",
+      "direction": "Très court, presque murmuré. Moins d'une seconde.",
+      "session": 2,
+      "note": "bonne réponse ordinaire"
+    },
+    {
+      "id": "fb.micro.04",
+      "text": "Bien.",
+      "kind": "encouragement — micro",
+      "direction": "Très court, presque murmuré. Moins d'une seconde.",
+      "session": 2,
+      "note": "bonne réponse ordinaire"
+    },
+    {
+      "id": "fb.micro.05",
+      "text": "Voilà.",
+      "kind": "encouragement — micro",
+      "direction": "Très court, presque murmuré. Moins d'une seconde.",
+      "session": 2,
+      "note": "bonne réponse ordinaire"
+    },
+    {
+      "id": "fb.micro.06",
+      "text": "C'est bon.",
+      "kind": "encouragement — micro",
+      "direction": "Très court, presque murmuré. Moins d'une seconde.",
+      "session": 2,
+      "note": "bonne réponse ordinaire"
+    },
+    {
+      "id": "fb.micro.07",
+      "text": "Tu l'as.",
+      "kind": "encouragement — micro",
+      "direction": "Très court, presque murmuré. Moins d'une seconde.",
+      "session": 2,
+      "note": "bonne réponse ordinaire"
+    },
+    {
+      "id": "fb.specific.01",
+      "text": "Tu as reconnu la lettre {lettre}.",
+      "kind": "encouragement — specific",
+      "direction": "Posé, on entend qu'on nomme un fait.",
+      "session": 2,
+      "note": "fin de bloc — nomme ce qu'elle vient de faire"
+    },
+    {
+      "id": "fb.specific.02",
+      "text": "Tu as lu {n} syllabes.",
+      "kind": "encouragement — specific",
+      "direction": "Posé, on entend qu'on nomme un fait.",
+      "session": 2,
+      "note": "fin de bloc — nomme ce qu'elle vient de faire"
+    },
+    {
+      "id": "fb.specific.03",
+      "text": "Tu as lu {n} mots.",
+      "kind": "encouragement — specific",
+      "direction": "Posé, on entend qu'on nomme un fait.",
+      "session": 2,
+      "note": "fin de bloc — nomme ce qu'elle vient de faire"
+    },
+    {
+      "id": "fb.specific.04",
+      "text": "Tu as lu la phrase en entier.",
+      "kind": "encouragement — specific",
+      "direction": "Posé, on entend qu'on nomme un fait.",
+      "session": 2,
+      "note": "fin de bloc — nomme ce qu'elle vient de faire"
+    },
+    {
+      "id": "fb.specific.05",
+      "text": "Tu as écouté tout le texte.",
+      "kind": "encouragement — specific",
+      "direction": "Posé, on entend qu'on nomme un fait.",
+      "session": 2,
+      "note": "fin de bloc — nomme ce qu'elle vient de faire"
+    },
+    {
+      "id": "fb.specific.06",
+      "text": "Tu as trouvé les {n} lettres.",
+      "kind": "encouragement — specific",
+      "direction": "Posé, on entend qu'on nomme un fait.",
+      "session": 2,
+      "note": "fin de bloc — nomme ce qu'elle vient de faire"
+    },
+    {
+      "id": "fb.specific.07",
+      "text": "Tu as construit {n} syllabes.",
+      "kind": "encouragement — specific",
+      "direction": "Posé, on entend qu'on nomme un fait.",
+      "session": 2,
+      "note": "fin de bloc — nomme ce qu'elle vient de faire"
+    },
+    {
+      "id": "fb.specific.08",
+      "text": "Tu as écrit {lettre} trois fois.",
+      "kind": "encouragement — specific",
+      "direction": "Posé, on entend qu'on nomme un fait.",
+      "session": 2,
+      "note": "fin de bloc — nomme ce qu'elle vient de faire"
+    },
+    {
+      "id": "fb.specific.09",
+      "text": "Tu reconnais {lettre} même en écriture attachée.",
+      "kind": "encouragement — specific",
+      "direction": "Posé, on entend qu'on nomme un fait.",
+      "session": 2,
+      "note": "fin de bloc — nomme ce qu'elle vient de faire"
+    },
+    {
+      "id": "fb.specific.10",
+      "text": "Tu as lu un texte de {n} phrases.",
+      "kind": "encouragement — specific",
+      "direction": "Posé, on entend qu'on nomme un fait.",
+      "session": 2,
+      "note": "fin de bloc — nomme ce qu'elle vient de faire"
+    },
+    {
+      "id": "fb.effort.01",
+      "text": "Tu as réessayé, et tu l'as eu.",
+      "kind": "encouragement — effort",
+      "direction": "Reconnaissance sincère, sans exagération.",
+      "session": 2,
+      "note": "après une difficulté surmontée"
+    },
+    {
+      "id": "fb.effort.02",
+      "text": "Celle-là était difficile.",
+      "kind": "encouragement — effort",
+      "direction": "Reconnaissance sincère, sans exagération.",
+      "session": 2,
+      "note": "après une difficulté surmontée"
+    },
+    {
+      "id": "fb.effort.03",
+      "text": "Tu ne t'es pas arrêtée.",
+      "kind": "encouragement — effort",
+      "direction": "Reconnaissance sincère, sans exagération.",
+      "session": 2,
+      "note": "après une difficulté surmontée"
+    },
+    {
+      "id": "fb.effort.04",
+      "text": "Tu as pris ton temps, c'est bien.",
+      "kind": "encouragement — effort",
+      "direction": "Reconnaissance sincère, sans exagération.",
+      "session": 2,
+      "note": "après une difficulté surmontée"
+    },
+    {
+      "id": "fb.effort.05",
+      "text": "Tu l'avais ratée la première fois. Plus maintenant.",
+      "kind": "encouragement — effort",
+      "direction": "Reconnaissance sincère, sans exagération.",
+      "session": 2,
+      "note": "après une difficulté surmontée"
+    },
+    {
+      "id": "fb.repair.01",
+      "text": "Pas encore. Écoute encore.",
+      "kind": "encouragement — repair",
+      "direction": "Doux, jamais déçu.",
+      "session": 2,
+      "note": "après une erreur — jamais de blâme"
+    },
+    {
+      "id": "fb.repair.02",
+      "text": "On réessaie.",
+      "kind": "encouragement — repair",
+      "direction": "Doux, jamais déçu.",
+      "session": 2,
+      "note": "après une erreur — jamais de blâme"
+    },
+    {
+      "id": "fb.repair.03",
+      "text": "Presque.",
+      "kind": "encouragement — repair",
+      "direction": "Doux, jamais déçu.",
+      "session": 2,
+      "note": "après une erreur — jamais de blâme"
+    },
+    {
+      "id": "fb.repair.04",
+      "text": "C'est celle-là : {réponse}.",
+      "kind": "encouragement — repair",
+      "direction": "Doux, jamais déçu.",
+      "session": 2,
+      "note": "après une erreur — jamais de blâme"
+    },
+    {
+      "id": "fb.repair.05",
+      "text": "On continue, tu la reverras.",
+      "kind": "encouragement — repair",
+      "direction": "Doux, jamais déçu.",
+      "session": 2,
+      "note": "après une erreur — jamais de blâme"
+    },
+    {
+      "id": "fb.repair.06",
+      "text": "Ce n'est pas grave. Écoute.",
+      "kind": "encouragement — repair",
+      "direction": "Doux, jamais déçu.",
+      "session": 2,
+      "note": "après une erreur — jamais de blâme"
+    },
+    {
+      "id": "fb.celebration.01",
+      "text": "Leçon terminée.",
+      "kind": "encouragement — celebration",
+      "direction": "Chaleureux mais sobre. Pas de cri.",
+      "session": 2,
+      "note": "fin de leçon ou d'unité seulement"
+    },
+    {
+      "id": "fb.celebration.02",
+      "text": "Tu as terminé la leçon {n}.",
+      "kind": "encouragement — celebration",
+      "direction": "Chaleureux mais sobre. Pas de cri.",
+      "session": 2,
+      "note": "fin de leçon ou d'unité seulement"
+    },
+    {
+      "id": "fb.celebration.03",
+      "text": "Première leçon terminée. C'est le plus difficile qui est fait.",
+      "kind": "encouragement — celebration",
+      "direction": "Chaleureux mais sobre. Pas de cri.",
+      "session": 2,
+      "note": "fin de leçon ou d'unité seulement"
+    },
+    {
+      "id": "fb.celebration.04",
+      "text": "Unité terminée. Tu connais maintenant toutes les voyelles.",
+      "kind": "encouragement — celebration",
+      "direction": "Chaleureux mais sobre. Pas de cri.",
+      "session": 2,
+      "note": "fin de leçon ou d'unité seulement"
+    },
+    {
+      "id": "fb.celebration.05",
+      "text": "Unité terminée. Tu peux lire des syllabes et des phrases courtes.",
+      "kind": "encouragement — celebration",
+      "direction": "Chaleureux mais sobre. Pas de cri.",
+      "session": 2,
+      "note": "fin de leçon ou d'unité seulement"
+    },
+    {
+      "id": "fb.celebration.06",
+      "text": "Tu as lu ton premier texte en entier.",
+      "kind": "encouragement — celebration",
+      "direction": "Chaleureux mais sobre. Pas de cri.",
+      "session": 2,
+      "note": "fin de leçon ou d'unité seulement"
+    },
+    {
+      "id": "fb.celebration.07",
+      "text": "Tu connais les chiffres de zéro à neuf.",
+      "kind": "encouragement — celebration",
+      "direction": "Chaleureux mais sobre. Pas de cri.",
+      "session": 2,
+      "note": "fin de leçon ou d'unité seulement"
+    },
+    {
+      "id": "fb.return.01",
+      "text": "Te revoilà.",
+      "kind": "encouragement — return",
+      "direction": "Accueillant.",
+      "session": 2,
+      "note": "ouverture de l'application"
+    },
+    {
+      "id": "fb.return.02",
+      "text": "Bonjour {nom}.",
+      "kind": "encouragement — return",
+      "direction": "Accueillant.",
+      "session": 2,
+      "note": "ouverture de l'application"
+    },
+    {
+      "id": "fb.return.03",
+      "text": "Contente de te revoir.",
+      "kind": "encouragement — return",
+      "direction": "Accueillant.",
+      "session": 2,
+      "note": "ouverture de l'application"
+    },
+    {
+      "id": "fb.return.04",
+      "text": "Tu es venue {n} jours de suite.",
+      "kind": "encouragement — return",
+      "direction": "Accueillant.",
+      "session": 2,
+      "note": "ouverture de l'application"
+    },
+    {
+      "id": "fb.return.05",
+      "text": "On reprend où tu t'es arrêtée.",
+      "kind": "encouragement — return",
+      "direction": "Accueillant.",
+      "session": 2,
+      "note": "ouverture de l'application"
+    },
+    {
+      "id": "fb.closing.01",
+      "text": "À bientôt.",
+      "kind": "encouragement — closing",
+      "direction": "Calme, on se quitte bien.",
+      "session": 2,
+      "note": "sortie de l'application"
+    },
+    {
+      "id": "fb.closing.02",
+      "text": "Reviens quand tu veux.",
+      "kind": "encouragement — closing",
+      "direction": "Calme, on se quitte bien.",
+      "session": 2,
+      "note": "sortie de l'application"
+    },
+    {
+      "id": "fb.closing.03",
+      "text": "Je garde ta place.",
+      "kind": "encouragement — closing",
+      "direction": "Calme, on se quitte bien.",
+      "session": 2,
+      "note": "sortie de l'application"
+    },
+    {
+      "id": "fb.closing.04",
+      "text": "Tu as travaillé {n} minutes aujourd'hui.",
+      "kind": "encouragement — closing",
+      "direction": "Calme, on se quitte bien.",
+      "session": 2,
+      "note": "sortie de l'application"
+    },
+    {
+      "id": "cue.startWrong",
+      "text": "Commence ici, en haut.",
+      "kind": "consigne de tracé",
+      "direction": "Comme une main qui guide, pas comme une correction.",
+      "session": 3,
+      "note": null
+    },
+    {
+      "id": "cue.directionWrong",
+      "text": "Descends, ne monte pas.",
+      "kind": "consigne de tracé",
+      "direction": "Comme une main qui guide, pas comme une correction.",
+      "session": 3,
+      "note": null
+    },
+    {
+      "id": "cue.missedCheckpoint",
+      "text": "Passe bien par le point.",
+      "kind": "consigne de tracé",
+      "direction": "Comme une main qui guide, pas comme une correction.",
+      "session": 3,
+      "note": null
+    },
+    {
+      "id": "cue.tooFast",
+      "text": "Doucement, suis le trait.",
+      "kind": "consigne de tracé",
+      "direction": "Comme une main qui guide, pas comme une correction.",
+      "session": 3,
+      "note": null
+    },
+    {
+      "id": "cue.strokeMissing",
+      "text": "Il manque un trait.",
+      "kind": "consigne de tracé",
+      "direction": "Comme une main qui guide, pas comme une correction.",
+      "session": 3,
+      "note": null
+    },
+    {
+      "id": "cue.good",
+      "text": "C'est bien tracé.",
+      "kind": "consigne de tracé",
+      "direction": "Comme une main qui guide, pas comme une correction.",
+      "session": 3,
+      "note": null
+    },
+    {
+      "id": "prompt.tap-identify.letter",
+      "text": "Touche la lettre {lettre}.",
+      "kind": "consigne d'exercice",
+      "direction": "Consigne, pas question. Débit égal. Les accolades sont remplacées à l'enregistrement par chaque valeur : prévoir une prise par lettre / chiffre.",
+      "session": 2,
+      "note": "gabarit — voir la liste des variantes"
+    },
+    {
+      "id": "prompt.tap-identify.grapheme",
+      "text": "Touche {graphème}.",
+      "kind": "consigne d'exercice",
+      "direction": "Consigne, pas question. Débit égal. Les accolades sont remplacées à l'enregistrement par chaque valeur : prévoir une prise par lettre / chiffre.",
+      "session": 2,
+      "note": "gabarit — voir la liste des variantes"
+    },
+    {
+      "id": "prompt.tap-identify.digit",
+      "text": "Touche le chiffre {chiffre}.",
+      "kind": "consigne d'exercice",
+      "direction": "Consigne, pas question. Débit égal. Les accolades sont remplacées à l'enregistrement par chaque valeur : prévoir une prise par lettre / chiffre.",
+      "session": 2,
+      "note": "gabarit — voir la liste des variantes"
+    },
+    {
+      "id": "prompt.listen-choose.letter",
+      "text": "Écoute, puis touche la bonne lettre.",
+      "kind": "consigne d'exercice",
+      "direction": "Consigne, pas question. Débit égal. Les accolades sont remplacées à l'enregistrement par chaque valeur : prévoir une prise par lettre / chiffre.",
+      "session": 2,
+      "note": "gabarit — voir la liste des variantes"
+    },
+    {
+      "id": "prompt.listen-choose.syllable",
+      "text": "Écoute, puis touche la bonne syllabe.",
+      "kind": "consigne d'exercice",
+      "direction": "Consigne, pas question. Débit égal. Les accolades sont remplacées à l'enregistrement par chaque valeur : prévoir une prise par lettre / chiffre.",
+      "session": 2,
+      "note": "gabarit — voir la liste des variantes"
+    },
+    {
+      "id": "prompt.listen-choose.word",
+      "text": "Écoute, puis touche le bon mot.",
+      "kind": "consigne d'exercice",
+      "direction": "Consigne, pas question. Débit égal. Les accolades sont remplacées à l'enregistrement par chaque valeur : prévoir une prise par lettre / chiffre.",
+      "session": 2,
+      "note": "gabarit — voir la liste des variantes"
+    },
+    {
+      "id": "prompt.listen-choose.digit",
+      "text": "Écoute, puis touche le bon chiffre.",
+      "kind": "consigne d'exercice",
+      "direction": "Consigne, pas question. Débit égal. Les accolades sont remplacées à l'enregistrement par chaque valeur : prévoir une prise par lettre / chiffre.",
+      "session": 2,
+      "note": "gabarit — voir la liste des variantes"
+    },
+    {
+      "id": "prompt.syllable-build.default",
+      "text": "Écoute et construis la syllabe.",
+      "kind": "consigne d'exercice",
+      "direction": "Consigne, pas question. Débit égal. Les accolades sont remplacées à l'enregistrement par chaque valeur : prévoir une prise par lettre / chiffre.",
+      "session": 2,
+      "note": "gabarit — voir la liste des variantes"
+    },
+    {
+      "id": "prompt.missing-letter.default",
+      "text": "Quelle lettre manque ?",
+      "kind": "consigne d'exercice",
+      "direction": "Consigne, pas question. Débit égal. Les accolades sont remplacées à l'enregistrement par chaque valeur : prévoir une prise par lettre / chiffre.",
+      "session": 2,
+      "note": "gabarit — voir la liste des variantes"
+    },
+    {
+      "id": "prompt.trace.letter",
+      "text": "Écris la lettre {lettre}.",
+      "kind": "consigne d'exercice",
+      "direction": "Consigne, pas question. Débit égal. Les accolades sont remplacées à l'enregistrement par chaque valeur : prévoir une prise par lettre / chiffre.",
+      "session": 2,
+      "note": "gabarit — voir la liste des variantes"
+    },
+    {
+      "id": "prompt.trace.digit",
+      "text": "Écris le chiffre {chiffre}.",
+      "kind": "consigne d'exercice",
+      "direction": "Consigne, pas question. Débit égal. Les accolades sont remplacées à l'enregistrement par chaque valeur : prévoir une prise par lettre / chiffre.",
+      "session": 2,
+      "note": "gabarit — voir la liste des variantes"
+    },
+    {
+      "id": "prompt.word-match.default",
+      "text": "Relie le mot à l'image.",
+      "kind": "consigne d'exercice",
+      "direction": "Consigne, pas question. Débit égal. Les accolades sont remplacées à l'enregistrement par chaque valeur : prévoir une prise par lettre / chiffre.",
+      "session": 2,
+      "note": "gabarit — voir la liste des variantes"
+    },
+    {
+      "id": "prompt.comprehension.default",
+      "text": "Écoute la question.",
+      "kind": "consigne d'exercice",
+      "direction": "Consigne, pas question. Débit égal. Les accolades sont remplacées à l'enregistrement par chaque valeur : prévoir une prise par lettre / chiffre.",
+      "session": 2,
+      "note": "gabarit — voir la liste des variantes"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "$comment": "NEW. 44 spoken lines. Generic praise (« Bravo ! ») stops meaning anything by the fourth time and reads as childish to an adult. Every line here is either SPECIFIC (names what she actually did) or QUIET. Rotation is enforced: no line repeats within 8 plays, and the celebratory tier only fires on genuine milestones, never on a routine correct answer.",
+  "register": "adulte, chaleureux, sobre. Jamais de diminutif, jamais de voix d'enfant, jamais de superlatif répété.",
+  "rotation": {
+    "noRepeatWithin": 8,
+    "perSessionCap": {
+      "celebration": 3
+    }
+  },
+  "tiers": {
+    "micro": {
+      "when": "bonne réponse ordinaire",
+      "runtime": "< 1 s",
+      "lines": [
+        "C'est ça.",
+        "Oui.",
+        "Exact.",
+        "Bien.",
+        "Voilà.",
+        "C'est bon.",
+        "Tu l'as."
+      ]
+    },
+    "specific": {
+      "when": "fin de bloc — nomme ce qu'elle vient de faire",
+      "lines": [
+        "Tu as reconnu la lettre {lettre}.",
+        "Tu as lu {n} syllabes.",
+        "Tu as lu {n} mots.",
+        "Tu as lu la phrase en entier.",
+        "Tu as écouté tout le texte.",
+        "Tu as trouvé les {n} lettres.",
+        "Tu as construit {n} syllabes.",
+        "Tu as écrit {lettre} trois fois.",
+        "Tu reconnais {lettre} même en écriture attachée.",
+        "Tu as lu un texte de {n} phrases."
+      ]
+    },
+    "effort": {
+      "when": "après une difficulté surmontée",
+      "lines": [
+        "Tu as réessayé, et tu l'as eu.",
+        "Celle-là était difficile.",
+        "Tu ne t'es pas arrêtée.",
+        "Tu as pris ton temps, c'est bien.",
+        "Tu l'avais ratée la première fois. Plus maintenant."
+      ]
+    },
+    "repair": {
+      "when": "après une erreur — jamais de blâme",
+      "lines": [
+        "Pas encore. Écoute encore.",
+        "On réessaie.",
+        "Presque.",
+        "C'est celle-là : {réponse}.",
+        "On continue, tu la reverras.",
+        "Ce n'est pas grave. Écoute."
+      ]
+    },
+    "celebration": {
+      "when": "fin de leçon ou d'unité seulement",
+      "lines": [
+        "Leçon terminée.",
+        "Tu as terminé la leçon {n}.",
+        "Première leçon terminée. C'est le plus difficile qui est fait.",
+        "Unité terminée. Tu connais maintenant toutes les voyelles.",
+        "Unité terminée. Tu peux lire des syllabes et des phrases courtes.",
+        "Tu as lu ton premier texte en entier.",
+        "Tu connais les chiffres de zéro à neuf."
+      ]
+    },
+    "return": {
+      "when": "ouverture de l'application",
+      "lines": [
+        "Te revoilà.",
+        "Bonjour {nom}.",
+        "Contente de te revoir.",
+        "Tu es venue {n} jours de suite.",
+        "On reprend où tu t'es arrêtée."
+      ]
+    },
+    "closing": {
+      "when": "sortie de l'application",
+      "lines": [
+        "À bientôt.",
+        "Reviens quand tu veux.",
+        "Je garde ta place.",
+        "Tu as travaillé {n} minutes aujourd'hui."
+      ]
+    }
+  },
+  "banned": [
+    "Bravo !!!",
+    "Super !",
+    "Génial !",
+    "Tu es la meilleure",
+    "Waouh",
+    "Tu as gagné",
+    "Tu as perdu",
+    "Faux",
+    "Erreur",
+    "Mauvaise réponse",
+    "Essaie encore ma belle",
+    "Ma chérie",
+    "Petite"
+  ],
+  "why": "Les trois derniers sont bannis pour la même raison que les leaderboards (§J.5) : le public est composé d'adultes exclues de l'école. Un ton infantilisant sape exactement l'estime de soi que la préface du livre cherche à renforcer."
+}

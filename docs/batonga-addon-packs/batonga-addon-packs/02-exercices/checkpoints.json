@@ -1,0 +1,170 @@
+{
+  "$comment": "NEW. Six checkpoints, not four: Unit 3 is 32 lessons long and a single checkpoint after L56 would be a wall. The four sub-blocks match the pacing grouping already in the Parcours (§C.2).",
+  "checkpoints": [
+    {
+      "id": "CP1",
+      "afterUnit": "voyelles",
+      "afterLesson": "L07",
+      "itemCount": 10,
+      "coverage": "les 9 graphies de voyelles",
+      "mix": [
+        [
+          "tap-identify",
+          3
+        ],
+        [
+          "listen-choose",
+          4
+        ],
+        [
+          "trace",
+          3
+        ]
+      ],
+      "passRule": "≥ 0.7 → célébration d'unité. < 0.7 → révision proposée, jamais imposée.",
+      "celebration": "Unité 1 terminée : tu connais toutes les voyelles."
+    },
+    {
+      "id": "CP2",
+      "afterUnit": "consonnes",
+      "afterLesson": "L24",
+      "itemCount": 14,
+      "coverage": "17 consonnes + un échantillon de 12 syllabes des 131",
+      "mix": [
+        [
+          "listen-choose",
+          5
+        ],
+        [
+          "syllable-build",
+          5
+        ],
+        [
+          "missing-letter",
+          3
+        ],
+        [
+          "trace",
+          1
+        ]
+      ],
+      "passRule": "≥ 0.7 → célébration. Les cibles faibles alimentent la file de révision.",
+      "celebration": "Unité 2 terminée : tu peux lire des syllabes et des phrases courtes."
+    },
+    {
+      "id": "CP3a",
+      "afterUnit": "graphemes",
+      "afterLesson": "L32",
+      "itemCount": 10,
+      "coverage": "leçons 25–32 : les nasales et les premiers digrammes",
+      "mix": [
+        [
+          "listen-choose",
+          5
+        ],
+        [
+          "missing-letter",
+          4
+        ],
+        [
+          "comprehension",
+          1
+        ]
+      ],
+      "passRule": "≥ 0.7",
+      "celebration": "Bloc 1 des diphtongues terminé."
+    },
+    {
+      "id": "CP3b",
+      "afterUnit": "graphemes",
+      "afterLesson": "L40",
+      "itemCount": 10,
+      "coverage": "leçons 33–40",
+      "mix": [
+        [
+          "listen-choose",
+          5
+        ],
+        [
+          "missing-letter",
+          4
+        ],
+        [
+          "comprehension",
+          1
+        ]
+      ],
+      "passRule": "≥ 0.7",
+      "celebration": "Bloc 2 terminé."
+    },
+    {
+      "id": "CP3c",
+      "afterUnit": "graphemes",
+      "afterLesson": "L48",
+      "itemCount": 10,
+      "coverage": "leçons 41–48 : les lettres à deux sons (g, s, c, ç)",
+      "mix": [
+        [
+          "listen-choose",
+          6
+        ],
+        [
+          "missing-letter",
+          3
+        ],
+        [
+          "comprehension",
+          1
+        ]
+      ],
+      "passRule": "≥ 0.7",
+      "celebration": "Bloc 3 terminé : tu sais qu'une lettre peut avoir deux sons."
+    },
+    {
+      "id": "CP3d",
+      "afterUnit": "graphemes",
+      "afterLesson": "L56",
+      "itemCount": 12,
+      "coverage": "leçons 49–56 : groupes consonantiques et textes longs",
+      "mix": [
+        [
+          "listen-choose",
+          4
+        ],
+        [
+          "missing-letter",
+          4
+        ],
+        [
+          "comprehension",
+          4
+        ]
+      ],
+      "passRule": "≥ 0.7",
+      "celebration": "Unité 3 terminée : tu lis des textes."
+    },
+    {
+      "id": "CP4",
+      "afterUnit": "chiffres",
+      "afterLesson": "D9",
+      "itemCount": 10,
+      "coverage": "les 10 chiffres, forme et nom",
+      "mix": [
+        [
+          "tap-identify",
+          3
+        ],
+        [
+          "listen-choose",
+          4
+        ],
+        [
+          "trace",
+          3
+        ]
+      ],
+      "passRule": "≥ 0.7",
+      "celebration": "Tu connais les chiffres de zéro à neuf."
+    }
+  ]
+}

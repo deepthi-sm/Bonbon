@@ -1,0 +1,48 @@
+{
+  "$comment": "NEW. The information architecture already offers « J'en connais déjà » at first run (§C.2) but nothing behind it existed. This is that. It must be fully spoken, skippable at any point, and it must never tell a learner she failed — it only chooses a starting point, and « Commencer au début » stays one tap away on every screen of it.",
+  "design": {
+    "form": "adaptive ladder, 3 rungs, max 12 items, ~4 minutes",
+    "entryPoint": "onboarding step 5",
+    "abandonPolicy": "quitting at any point starts her at L01 with no message about the test",
+    "resultMessage": "« Tu peux commencer ici. » + the lesson title. Never a score, never a level name."
+  },
+  "rungs": [
+    {
+      "rung": 1,
+      "probes": "voyelles i u o a e é",
+      "items": 4,
+      "type": "listen-choose",
+      "advanceIf": "≥ 3/4",
+      "onFail": {
+        "startAt": "L01"
+      }
+    },
+    {
+      "rung": 2,
+      "probes": "syllabes ta pi mo ne lu ré",
+      "items": 4,
+      "type": "listen-choose",
+      "advanceIf": "≥ 3/4",
+      "onFail": {
+        "startAt": "L08",
+        "note": "connaît les voyelles, pas la fusion"
+      }
+    },
+    {
+      "rung": 3,
+      "probes": "graphèmes an ou oi ain ch eu",
+      "items": 4,
+      "type": "listen-choose",
+      "advanceIf": "≥ 3/4",
+      "onFail": {
+        "startAt": "L15",
+        "note": "fusionne, consonnes incomplètes"
+      },
+      "onPass": {
+        "startAt": "L25",
+        "note": "prête pour les diphtongues"
+      }
+    }
+  ],
+  "guardrail": "A placement result NEVER locks earlier lessons. Everything before the entry point is marked `available`, not `completed` — she can go back, and the Parcours shows the earlier lessons as open, not as skipped."
+}

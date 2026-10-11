@@ -111,7 +111,7 @@
       "note": "leçon L05"
     },
     {
-      "id": "letter.e.name",
+      "id": "letter.e_circ.name",
       "text": "e accent circonflexe",
       "kind": "lettre — nom",
       "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
@@ -119,7 +119,7 @@
       "note": "leçon L05"
     },
     {
-      "id": "letter.e.sound",
+      "id": "letter.e_circ.sound",
       "text": "[son de « ê »]",
       "kind": "lettre — son",
       "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
@@ -127,7 +127,7 @@
       "note": "leçon L05"
     },
     {
-      "id": "letter.e.name",
+      "id": "letter.e_acute.name",
       "text": "e accent aigu",
       "kind": "lettre — nom",
       "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
@@ -135,7 +135,7 @@
       "note": "leçon L06"
     },
     {
-      "id": "letter.e.sound",
+      "id": "letter.e_acute.sound",
       "text": "[son de « é »]",
       "kind": "lettre — son",
       "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",
@@ -143,7 +143,7 @@
       "note": "leçon L06"
     },
     {
-      "id": "letter.e.name",
+      "id": "letter.e_grave.name",
       "text": "e accent grave",
       "kind": "lettre — nom",
       "direction": "Le NOM de la lettre, comme on l'épelle. Débit posé, ton neutre.",
@@ -151,7 +151,7 @@
       "note": "leçon L06"
     },
     {
-      "id": "letter.e.sound",
+      "id": "letter.e_grave.sound",
       "text": "[son de « è »]",
       "kind": "lettre — son",
       "direction": "Le SON seul, pas le nom. Pour une consonne, sans voyelle d'appui : « t », pas « teu ». C'est le point le plus difficile de la séance — prévoir une écoute de contrôle avec un·e alphabétiseur·rice.",

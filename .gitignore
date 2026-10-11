@@ -11,3 +11,5 @@ LOGO_files/
 .vercel
 .env*
 >>>>>>> origin/main
+voice-sample-clean.wav
+.DS_Store

@@ -1,0 +1,2513 @@
+﻿id,kind,text,phonemes,verify,sources
+blend.ba,syllabe — fusion,b … a … ba,,,pack4 content
+blend.be,syllabe — fusion,b … e … be,,,pack4 content
+blend.be_acute,syllabe — fusion,b … é … bé,,,pack4 content
+blend.be_circ,syllabe — fusion,b … ê … bê,,,pack4 content
+blend.be_grave,syllabe — fusion,b … è … bè,,,pack4 content
+blend.bem,fusion,b … e … m … bem,,,content content
+blend.bi,syllabe — fusion,b … i … bi,,,pack4 content
+blend.bien,fusion,b … i … e … n … bien,,,content
+blend.bo,syllabe — fusion,b … o … bo,,,pack4 content
+blend.boi,fusion,b … o … i … boi,,,content content
+blend.bom,fusion,b … o … m … bom,,,content content
+blend.bon,fusion,b … o … n … bon,,,content content
+blend.bu,syllabe — fusion,b … u … bu,,,pack4 content
+blend.c_est,fusion,c … ’ … e … s … t … c’est,,,content content
+blend.ca,syllabe — fusion,c … a … ca,,,pack4 content content
+blend.ce,syllabe — fusion,c … e … ce,,,pack4 content content content
+blend.ce_acute,syllabe — fusion,c … é … cé,,,pack4 content
+blend.ce_circ,syllabe — fusion,c … ê … cê,,,pack4 content
+blend.ce_grave,syllabe — fusion,c … è … cè,,,pack4 content
+blend.ceci,fusion,c … e … c … i … ceci,,,content content
+blend.cein,fusion,c … e … i … n … cein,,,content content
+blend.cela,fusion,c … e … l … a … cela,,,content content
+blend.celle,fusion,c … e … l … l … e … celle,,,content content
+blend.celui,fusion,c … e … l … u … i … celui,,,content
+blend.cette,fusion,c … e … t … t … e … cette,,,content content
+blend.cha,fusion,c … h … a … cha,,,content
+blend.chai_circ,fusion,c … h … a … î … chaî,,,content
+blend.chan,fusion,c … h … a … n … chan,,,content
+blend.chau,fusion,c … h … a … u … chau,,,content
+blend.che,fusion,c … h … e … che,,,content
+blend.che_acute,fusion,c … h … é … ché,,,content
+blend.chi,fusion,c … h … i … chi,,,content
+blend.cho,fusion,c … h … o … cho,,,content
+blend.chu,fusion,c … h … u … chu,,,content
+blend.ci,syllabe — fusion,c … i … ci,,,pack4 content
+blend.cin,fusion,c … i … n … cin,,,content content
+blend.co,syllabe — fusion,c … o … co,,,pack4 content content
+blend.com,fusion,c … o … m … com,,,content content
+blend.cou,fusion,c … o … u … cou,,,content content
+blend.cu,syllabe — fusion,c … u … cu,,,pack4 content content
+blend.da,syllabe — fusion,d … a … da,,,pack4 content
+blend.dan,fusion,d … a … n … dan,,,content content
+blend.de,syllabe — fusion,d … e … de,,,pack4 content
+blend.de_acute,syllabe — fusion,d … é … dé,,,pack4 content
+blend.de_circ,syllabe — fusion,d … ê … dê,,,pack4 content
+blend.de_grave,syllabe — fusion,d … è … dè,,,pack4 content
+blend.den,fusion,d … e … n … den,,,content content
+blend.di,syllabe — fusion,d … i … di,,,pack4 content
+blend.din,fusion,d … i … n … din,,,content content
+blend.do,syllabe — fusion,d … o … do,,,pack4 content
+blend.doi,fusion,d … o … i … doi,,,content content
+blend.dom,fusion,d … o … m … dom,,,content content
+blend.dou,fusion,d … o … u … dou,,,content
+blend.du,syllabe — fusion,d … u … du,,,pack4 content
+blend.ein,fusion,e … i … n … ein,,,content
+blend.fa,syllabe — fusion,f … a … fa,,,pack4 content
+blend.faim,fusion,f … a … i … m … faim,,,content content
+blend.fe,syllabe — fusion,f … e … fe,,,pack4 content
+blend.fe_acute,syllabe — fusion,f … é … fé,,,pack4 content
+blend.fe_circ,syllabe — fusion,f … ê … fê,,,pack4 content
+blend.fe_grave,syllabe — fusion,f … è … fè,,,pack4 content
+blend.fi,syllabe — fusion,f … i … fi,,,pack4 content
+blend.fo,syllabe — fusion,f … o … fo,,,pack4 content
+blend.fon,fusion,f … o … n … fon,,,content content
+blend.fou,fusion,f … o … u … fou,,,content content
+blend.fu,syllabe — fusion,f … u … fu,,,pack4 content
+blend.ga,syllabe — fusion,g … a … ga,,,pack4 content
+blend.ge,fusion,g … e … ge,,,content
+blend.ge_acute,fusion,g … é … gé,,,content
+blend.geant,fusion,g … e … a … n … t … geant,,,content
+blend.geon,fusion,g … e … o … n … geon,,,content
+blend.gi,fusion,g … i … gi,,,content
+blend.gna,fusion,g … n … a … gna,,,content
+blend.gne,fusion,g … n … e … gne,,,content
+blend.gne_acute,fusion,g … n … é … gné,,,content
+blend.gni,fusion,g … n … i … gni,,,content
+blend.gnon,fusion,g … n … o … n … gnon,,,content
+blend.gnu,fusion,g … n … u … gnu,,,content
+blend.go,syllabe — fusion,g … o … go,,,pack4 content
+blend.gu,syllabe — fusion,g … u … gu,,,pack4 content
+blend.gue,fusion,g … u … e … gue,,,content
+blend.gue_acute,fusion,g … u … é … gué,,,content
+blend.gue_circ,fusion,g … u … ê … guê,,,content
+blend.gui,fusion,g … u … i … gui,,,content
+blend.ha,syllabe — fusion,h … a … ha,,,pack4 content
+blend.he,syllabe — fusion,h … e … he,,,pack4 content
+blend.he_acute,syllabe — fusion,h … é … hé,,,pack4 content
+blend.he_circ,syllabe — fusion,h … ê … hê,,,pack4 content
+blend.he_grave,syllabe — fusion,h … è … hè,,,pack4 content
+blend.hi,syllabe — fusion,h … i … hi,,,pack4 content
+blend.ho,syllabe — fusion,h … o … ho,,,pack4 content
+blend.hou,fusion,h … o … u … hou,,,content content
+blend.hu,syllabe — fusion,h … u … hu,,,pack4 content
+blend.ja,syllabe — fusion,j … a … ja,,,pack4 content
+blend.je,syllabe — fusion,j … e … je,,,pack4 content
+blend.je_acute,syllabe — fusion,j … é … jé,,,pack4 content
+blend.je_circ,syllabe — fusion,j … ê … jê,,,pack4 content
+blend.je_grave,syllabe — fusion,j … è … jè,,,pack4 content
+blend.ji,syllabe — fusion,j … i … ji,,,pack4 content
+blend.jo,syllabe — fusion,j … o … jo,,,pack4 content
+blend.jon,fusion,j … o … n … jon,,,content content
+blend.jou,fusion,j … o … u … jou,,,content content
+blend.ju,syllabe — fusion,j … u … ju,,,pack4 content
+blend.ka,syllabe — fusion,k … a … ka,,,pack4 content content
+blend.ke,syllabe — fusion,k … e … ke,,,pack4 content
+blend.ke_acute,syllabe — fusion,k … é … ké,,,pack4 content content
+blend.ke_circ,syllabe — fusion,k … ê … kê,,,pack4 content
+blend.ke_grave,syllabe — fusion,k … è … kè,,,pack4 content
+blend.ki,syllabe — fusion,k … i … ki,,,pack4 content content
+blend.ko,syllabe — fusion,k … o … ko,,,pack4 content content
+blend.ku,syllabe — fusion,k … u … ku,,,pack4 content content
+blend.la,syllabe — fusion,l … a … la,,,pack4 content
+blend.lam,fusion,l … a … m … lam,,,content content
+blend.le,syllabe — fusion,l … e … le,,,pack4 content
+blend.le_acute,syllabe — fusion,l … é … lé,,,pack4 content
+blend.le_circ,syllabe — fusion,l … ê … lê,,,pack4 content
+blend.le_grave,syllabe — fusion,l … è … lè,,,pack4 content
+blend.lem,fusion,l … e … m … lem,,,content content
+blend.len,fusion,l … e … n … len,,,content content
+blend.li,syllabe — fusion,l … i … li,,,pack4 content
+blend.lin,fusion,l … i … n … lin,,,content content
+blend.lo,syllabe — fusion,l … o … lo,,,pack4 content
+blend.loi,fusion,l … o … i … loi,,,content content
+blend.loin,fusion,l … o … i … n … loin,,,content
+blend.lon,fusion,l … o … n … lon,,,content content
+blend.lou,fusion,l … o … u … lou,,,content
+blend.lu,syllabe — fusion,l … u … lu,,,pack4 content
+blend.ma,syllabe — fusion,m … a … ma,,,pack4 content
+blend.main,fusion,m … a … i … n … main,,,content content
+blend.mam,fusion,m … a … m … mam,,,content content
+blend.man,fusion,m … a … n … man,,,content content
+blend.me,syllabe — fusion,m … e … me,,,pack4 content
+blend.me_acute,syllabe — fusion,m … é … mé,,,pack4 content
+blend.me_circ,syllabe — fusion,m … ê … mê,,,pack4 content
+blend.me_grave,syllabe — fusion,m … è … mè,,,pack4 content
+blend.ment,fusion,m … e … n … t … ment,,,content content
+blend.mi,syllabe — fusion,m … i … mi,,,pack4 content
+blend.mien,fusion,m … i … e … n … mien,,,content
+blend.min,fusion,m … i … n … min,,,content content
+blend.mo,syllabe — fusion,m … o … mo,,,pack4 content
+blend.moi,fusion,m … o … i … moi,,,content content
+blend.mon,fusion,m … o … n … mon,,,content content
+blend.mou,fusion,m … o … u … mou,,,content content
+blend.mu,syllabe — fusion,m … u … mu,,,pack4 content
+blend.na,syllabe — fusion,n … a … na,,,pack4 content
+blend.ne,syllabe — fusion,n … e … ne,,,pack4 content
+blend.ne_acute,syllabe — fusion,n … é … né,,,pack4 content
+blend.ne_circ,syllabe — fusion,n … ê … nê,,,pack4 content
+blend.ne_grave,syllabe — fusion,n … è … nè,,,pack4 content
+blend.ni,syllabe — fusion,n … i … ni,,,pack4 content
+blend.no,syllabe — fusion,n … o … no,,,pack4 content
+blend.noi,fusion,n … o … i … noi,,,content content
+blend.non,fusion,n … o … n … non,,,content content
+blend.nu,syllabe — fusion,n … u … nu,,,pack4 content
+blend.pa,syllabe — fusion,p … a … pa,,,pack4 content
+blend.pain,fusion,p … a … i … n … pain,,,content content
+blend.pam,fusion,p … a … m … pam,,,content content
+blend.pan,fusion,p … a … n … pan,,,content content
+blend.pe,syllabe — fusion,p … e … pe,,,pack4 content
+blend.pe_acute,syllabe — fusion,p … é … pé,,,pack4 content
+blend.pe_circ,syllabe — fusion,p … ê … pê,,,pack4 content
+blend.pe_grave,syllabe — fusion,p … è … pè,,,pack4 content
+blend.pein,fusion,p … e … i … n … pein,,,content content
+blend.pen,fusion,p … e … n … pen,,,content content
+blend.pi,syllabe — fusion,p … i … pi,,,pack4 content
+blend.pin,fusion,p … i … n … pin,,,content content
+blend.po,syllabe — fusion,p … o … po,,,pack4 content
+blend.poi,fusion,p … o … i … poi,,,content content
+blend.poin,fusion,p … o … i … n … poin,,,content
+blend.pom,fusion,p … o … m … pom,,,content content
+blend.pon,fusion,p … o … n … pon,,,content content
+blend.pu,syllabe — fusion,p … u … pu,,,pack4 content
+blend.qua,fusion,q … u … a … qua,,,content
+blend.que,fusion,q … u … e … que,,,content
+blend.que_acute,fusion,q … u … é … qué,,,content
+blend.qui,fusion,q … u … i … qui,,,content
+blend.quo,fusion,q … u … o … quo,,,content
+blend.ra,syllabe — fusion,r … a … ra,,,pack4 content
+blend.re,syllabe — fusion,r … e … re,,,pack4 content
+blend.re_acute,syllabe — fusion,r … é … ré,,,pack4 content
+blend.re_circ,syllabe — fusion,r … ê … rê,,,pack4 content
+blend.re_grave,syllabe — fusion,r … è … rè,,,pack4 content
+blend.ri,syllabe — fusion,r … i … ri,,,pack4 content
+blend.rin,fusion,r … i … n … rin,,,content content
+blend.ro,syllabe — fusion,r … o … ro,,,pack4 content
+blend.roi,fusion,r … o … i … roi,,,content
+blend.ron,fusion,r … o … n … ron,,,content
+blend.rou,fusion,r … o … u … rou,,,content content
+blend.ru,syllabe — fusion,r … u … ru,,,pack4 content
+blend.sa,syllabe — fusion,s … a … sa,,,pack4 content
+blend.sam,fusion,s … a … m … sam,,,content
+blend.san,fusion,s … a … n … san,,,content content
+blend.se,syllabe — fusion,s … e … se,,,pack4 content
+blend.se_acute,syllabe — fusion,s … é … sé,,,pack4 content
+blend.se_circ,syllabe — fusion,s … ê … sê,,,pack4 content
+blend.se_grave,syllabe — fusion,s … è … sè,,,pack4 content
+blend.si,syllabe — fusion,s … i … si,,,pack4 content
+blend.sien,fusion,s … i … e … n … sien,,,content
+blend.sin,fusion,s … i … n … sin,,,content content
+blend.so,syllabe — fusion,s … o … so,,,pack4 content
+blend.soi,fusion,s … o … i … soi,,,content content
+blend.soin,fusion,s … o … i … n … soin,,,content
+blend.son,fusion,s … o … n … son,,,content
+blend.sou,fusion,s … o … u … sou,,,content content
+blend.su,syllabe — fusion,s … u … su,,,pack4 content
+blend.ta,syllabe — fusion,t … a … ta,,,pack4 content content
+blend.te,syllabe — fusion,t … e … te,,,pack4 content content
+blend.te_acute,syllabe — fusion,t … é … té,,,pack4 content content
+blend.te_circ,syllabe — fusion,t … ê … tê,,,pack4 content content
+blend.te_grave,syllabe — fusion,t … è … tè,,,pack4 content
+blend.tein,fusion,t … e … i … n … tein,,,content
+blend.tend,fusion,t … e … n … d … tend,,,content content
+blend.ti,syllabe — fusion,t … i … ti,,,pack4 content content
+blend.tien,fusion,t … i … e … n … tien,,,content
+blend.tion,fusion,t … i … o … n … tion,,,content
+blend.to,syllabe — fusion,t … o … to,,,pack4 content content
+blend.toi,fusion,t … o … i … toi,,,content content
+blend.ton,fusion,t … o … n … ton,,,content content
+blend.tu,syllabe — fusion,t … u … tu,,,pack4 content content
+blend.va,syllabe — fusion,v … a … va,,,pack4 content
+blend.vam,fusion,v … a … m … vam,,,content content
+blend.van,fusion,v … a … n … van,,,content content
+blend.vant,fusion,v … a … n … t … vant,,,content content
+blend.ve,syllabe — fusion,v … e … ve,,,pack4 content
+blend.ve_acute,syllabe — fusion,v … é … vé,,,pack4 content
+blend.ve_circ,syllabe — fusion,v … ê … vê,,,pack4 content
+blend.ve_grave,syllabe — fusion,v … è … vè,,,pack4 content
+blend.vi,syllabe — fusion,v … i … vi,,,pack4 content
+blend.vien,fusion,v … i … e … n … vien,,,content
+blend.vin,fusion,v … i … n … vin,,,content content
+blend.vo,syllabe — fusion,v … o … vo,,,pack4 content
+blend.voi,fusion,v … o … i … voi,,,content content
+blend.voici,fusion,v … o … i … c … i … voici,,,content content
+blend.vom,fusion,v … o … m … vom,,,content content
+blend.von,fusion,v … o … n … von,,,content
+blend.vu,syllabe — fusion,v … u … vu,,,pack4 content
+blend.za,syllabe — fusion,z … a … za,,,pack4 content
+blend.ze,syllabe — fusion,z … e … ze,,,pack4 content
+blend.ze_acute,syllabe — fusion,z … é … zé,,,pack4 content
+blend.ze_circ,syllabe — fusion,z … ê … zê,,,pack4 content
+blend.ze_grave,syllabe — fusion,z … è … zè,,,pack4 content
+blend.zi,syllabe — fusion,z … i … zi,,,pack4 content
+blend.zo,syllabe — fusion,z … o … zo,,,pack4 content
+blend.zu,syllabe — fusion,z … u … zu,,,pack4 content
+cue.digit.0.1,chiffre — consigne de tracé,"Un seul tracé : partir en haut, tourner vers la gauche, faire le tour, refermer en haut.",,,pack4
+cue.digit.1.1,chiffre — consigne de tracé,"Le petit trait oblique, du bas vers le haut à gauche.",,,pack4
+cue.digit.1.2,chiffre — consigne de tracé,"La barre verticale, du haut vers le bas.",,,pack4
+cue.digit.2.1,chiffre — consigne de tracé,"Une courbe en haut vers la droite, redescendre en diagonale, puis la barre horizontale du bas, de gauche à droite.",,,pack4
+cue.digit.3.1,chiffre — consigne de tracé,"La première boucle en haut, de gauche à droite.",,,pack4
+cue.digit.3.2,chiffre — consigne de tracé,"La seconde boucle en bas, de gauche à droite.",,,pack4
+cue.digit.4.1,chiffre — consigne de tracé,"Le trait oblique descendant, puis la verticale courte.",,,pack4
+cue.digit.4.2,chiffre — consigne de tracé,"La barre horizontale, de gauche à droite.",,,pack4
+cue.digit.5.1,chiffre — consigne de tracé,"La barre du haut, de gauche à droite, puis descendre à gauche.",,,pack4
+cue.digit.5.2,chiffre — consigne de tracé,"La panse, de la gauche vers la droite et refermer.",,,pack4
+cue.digit.6.1,chiffre — consigne de tracé,"Partir en haut à droite, descendre en courbe vers la gauche, puis fermer la boucle du bas.",,,pack4
+cue.digit.7.1,chiffre — consigne de tracé,"La barre du haut, de gauche à droite.",,,pack4
+cue.digit.7.2,chiffre — consigne de tracé,"Le trait oblique, du haut vers le bas à gauche.",,,pack4
+cue.digit.8.1,chiffre — consigne de tracé,"Partir en haut, descendre en diagonale vers la gauche, boucle du bas, remonter en diagonale, refermer en haut.",,,pack4
+cue.digit.9.1,chiffre — consigne de tracé,"La boucle du haut, refermée.",,,pack4
+cue.digit.9.2,chiffre — consigne de tracé,"La descente verticale, du haut vers le bas.",,,pack4
+cue.directionWrong,consigne de tracé,"Descends, ne monte pas.",,,pack4
+cue.good,consigne de tracé,C'est bien tracé.,,,pack4
+cue.missedCheckpoint,consigne de tracé,Passe bien par le point.,,,pack4
+cue.startWrong,consigne de tracé,"Commence ici, en haut.",,,pack4
+cue.strokeMissing,consigne de tracé,Il manque un trait.,,,pack4
+cue.tooFast,consigne de tracé,"Doucement, suis le trait.",,,pack4
+digit.0.name,chiffre — nom,zéro,,,pack4 content content content
+digit.1.name,chiffre — nom,un,,,pack4 content content content
+digit.2.name,chiffre — nom,deux,,,pack4 content content content
+digit.3.name,chiffre — nom,trois,,,pack4 content content content
+digit.4.name,chiffre — nom,quatre,,,pack4 content content content
+digit.5.name,chiffre — nom,cinq,,,pack4 content content content
+digit.6.name,chiffre — nom,six,,,pack4 content content content
+digit.7.name,chiffre — nom,sept,,,pack4 content content content
+digit.8.name,chiffre — nom,huit,,,pack4 content content content
+digit.9.name,chiffre — nom,neuf,,,pack4 content content content
+fb.celebration.01,encouragement — celebration,Leçon terminée.,,,pack4
+fb.celebration.02,encouragement — celebration,Tu as terminé la leçon {n}.,,,pack4
+fb.celebration.03,encouragement — celebration,Première leçon terminée. C'est le plus difficile qui est fait.,,,pack4
+fb.celebration.04,encouragement — celebration,Unité terminée. Tu connais maintenant toutes les voyelles.,,,pack4
+fb.celebration.05,encouragement — celebration,Unité terminée. Tu peux lire des syllabes et des phrases courtes.,,,pack4
+fb.celebration.06,encouragement — celebration,Tu as lu ton premier texte en entier.,,,pack4
+fb.celebration.07,encouragement — celebration,Tu connais les chiffres de zéro à neuf.,,,pack4
+fb.closing.01,encouragement — closing,À bientôt.,,,pack4
+fb.closing.02,encouragement — closing,Reviens quand tu veux.,,,pack4
+fb.closing.03,encouragement — closing,Je garde ta place.,,,pack4
+fb.closing.04,encouragement — closing,Tu as travaillé {n} minutes aujourd'hui.,,,pack4
+fb.effort.01,encouragement — effort,"Tu as réessayé, et tu l'as eu.",,,pack4
+fb.effort.02,encouragement — effort,Celle-là était difficile.,,,pack4
+fb.effort.03,encouragement — effort,Tu ne t'es pas arrêtée.,,,pack4
+fb.effort.04,encouragement — effort,"Tu as pris ton temps, c'est bien.",,,pack4
+fb.effort.05,encouragement — effort,Tu l'avais ratée la première fois. Plus maintenant.,,,pack4
+fb.micro.01,encouragement — micro,C'est ça.,,,pack4
+fb.micro.02,encouragement — micro,Oui.,,,pack4
+fb.micro.03,encouragement — micro,Exact.,,,pack4
+fb.micro.04,encouragement — micro,Bien.,,,pack4
+fb.micro.05,encouragement — micro,Voilà.,,,pack4
+fb.micro.06,encouragement — micro,C'est bon.,,,pack4
+fb.micro.07,encouragement — micro,Tu l'as.,,,pack4
+fb.repair.01,encouragement — repair,Pas encore. Écoute encore.,,,pack4
+fb.repair.02,encouragement — repair,On réessaie.,,,pack4
+fb.repair.03,encouragement — repair,Presque.,,,pack4
+fb.repair.04,encouragement — repair,C'est celle-là : {réponse}.,,,pack4
+fb.repair.05,encouragement — repair,"On continue, tu la reverras.",,,pack4
+fb.repair.06,encouragement — repair,Ce n'est pas grave. Écoute.,,,pack4
+fb.return.01,encouragement — return,Te revoilà.,,,pack4
+fb.return.02,encouragement — return,Bonjour {nom}.,,,pack4
+fb.return.03,encouragement — return,Contente de te revoir.,,,pack4
+fb.return.04,encouragement — return,Tu es venue {n} jours de suite.,,,pack4
+fb.return.05,encouragement — return,On reprend où tu t'es arrêtée.,,,pack4
+fb.specific.01,encouragement — specific,Tu as reconnu la lettre {lettre}.,,,pack4
+fb.specific.02,encouragement — specific,Tu as lu {n} syllabes.,,,pack4
+fb.specific.03,encouragement — specific,Tu as lu {n} mots.,,,pack4
+fb.specific.04,encouragement — specific,Tu as lu la phrase en entier.,,,pack4
+fb.specific.05,encouragement — specific,Tu as écouté tout le texte.,,,pack4
+fb.specific.06,encouragement — specific,Tu as trouvé les {n} lettres.,,,pack4
+fb.specific.07,encouragement — specific,Tu as construit {n} syllabes.,,,pack4
+fb.specific.08,encouragement — specific,Tu as écrit {lettre} trois fois.,,,pack4
+fb.specific.09,encouragement — specific,Tu reconnais {lettre} même en écriture attachée.,,,pack4
+fb.specific.10,encouragement — specific,Tu as lu un texte de {n} phrases.,,,pack4
+letter.a.name,lettre — nom,a,,,pack4 content content
+letter.a.sound,lettre — son,[son de « a »],,,pack4 content content
+letter.ac.sound,grapheme-sound,ac,,yes,content content
+letter.ai.sound,grapheme-sound,ai,,yes,content content content content
+letter.ail.sound,grapheme-sound,ail,,yes,content content
+letter.aille.sound,grapheme-sound,aille,,yes,content content
+letter.aim.sound,grapheme-sound,aim,,yes,content content
+letter.ain.sound,grapheme-sound,ain,,yes,content content
+letter.ais.sound,grapheme-sound,ais,,yes,content content
+letter.ait.sound,grapheme-sound,ait,,yes,content content
+letter.am.sound,grapheme-sound,am,,yes,content content
+letter.an.sound,grapheme-sound,an,,yes,content content
+letter.ar.sound,grapheme-sound,ar,,yes,content content
+letter.au.sound,grapheme-sound,au,,yes,content content
+letter.ay.sound,grapheme-sound,ay,,yes,content content
+letter.b.name,lettre — nom,bé,,,pack4 content content
+letter.b.sound,lettre — son,[son de « b »],,,pack4 content content
+letter.bl.sound,grapheme-sound,bl,,yes,content content
+letter.br.sound,grapheme-sound,br,,yes,content content
+letter.c.name,lettre — nom,cé,,,pack4 content content
+letter.c.sound,lettre — son,[son de « c »],,,pack4 content content
+letter.c_s.sound,grapheme-sound,c = s,,yes,content content content content
+letter.ch.sound,grapheme-sound,ch,,yes,content content
+letter.cl.sound,grapheme-sound,cl,,yes,content content
+letter.cr.sound,grapheme-sound,cr,,yes,content content
+letter.d.name,lettre — nom,dé,,,pack4 content content
+letter.d.sound,lettre — son,[son de « d »],,,pack4 content content
+letter.dr.sound,grapheme-sound,dr,,yes,content content
+letter.e.name,lettre — nom,e,,,pack4 content content
+letter.e.sound,lettre — son,[son de « e »],,,pack4 pack4 pack4 pack4 content content
+letter.e_acute.name,lettre — nom,e accent aigu,,,pack4 content content
+letter.e_acute.sound,letter-sound,é,e,yes,content content
+letter.e_circ.name,lettre — nom,e accent circonflexe,,,pack4 content content
+letter.e_circ.sound,letter-sound,ê,ɛ,yes,content content
+letter.e_grave.name,lettre — nom,e accent grave,,,pack4 content content
+letter.e_grave.sound,letter-sound,è,ɛ,yes,content content
+letter.eau.sound,grapheme-sound,eau,,yes,content content
+letter.ed.sound,grapheme-sound,ed,,yes,content content
+letter.ei.sound,grapheme-sound,ei,,yes,content content
+letter.eil.sound,grapheme-sound,eil,,yes,content content
+letter.eille.sound,grapheme-sound,eille,,yes,content content
+letter.ein.sound,grapheme-sound,ein,,yes,content content
+letter.em.sound,grapheme-sound,em,,yes,content content
+letter.en.sound,grapheme-sound,en,,yes,content content
+letter.et.sound,grapheme-sound,et,,yes,content content
+letter.eu.sound,grapheme-sound,eu,,yes,content content
+letter.euil.sound,grapheme-sound,euil,,yes,content content
+letter.euille.sound,grapheme-sound,euille,,yes,content content
+letter.eur.sound,grapheme-sound,eur,,yes,content content
+letter.eure.sound,grapheme-sound,eure,,yes,content content
+letter.ez.sound,grapheme-sound,ez,,yes,content content
+letter.f.name,lettre — nom,effe,,,pack4 content content
+letter.f.sound,lettre — son,[son de « f »],,,pack4 content content
+letter.fl.sound,grapheme-sound,fl,,yes,content content
+letter.fr.sound,grapheme-sound,fr,,yes,content content
+letter.g.name,lettre — nom,gé,,,pack4 content content
+letter.g.sound,lettre — son,[son de « g »],,,pack4 content content
+letter.g_j.sound,grapheme-sound,g = j,,yes,content content
+letter.gn.sound,grapheme-sound,gn,,yes,content content
+letter.gr.sound,grapheme-sound,gr,,yes,content content
+letter.gu.sound,grapheme-sound,gu,,yes,content content
+letter.h.name,lettre — nom,ache,,,pack4 content content
+letter.h.sound,lettre — son,[son de « h »],,,pack4 content content
+letter.i.name,lettre — nom,i,,,pack4 content content
+letter.i.sound,lettre — son,[son de « i »],,,pack4 content content
+letter.ic.sound,grapheme-sound,ic,,yes,content content
+letter.ied.sound,grapheme-sound,ied,,yes,content content
+letter.ien.sound,grapheme-sound,ien,,yes,content content
+letter.ier.sound,grapheme-sound,ier,,yes,content content
+letter.iez.sound,grapheme-sound,iez,,yes,content content
+letter.ill.sound,grapheme-sound,ill,,yes,content content
+letter.ille.sound,grapheme-sound,ille,,yes,content content
+letter.in.sound,grapheme-sound,in,,yes,content content
+letter.ion.sound,grapheme-sound,ion,,yes,content content
+letter.j.name,lettre — nom,ji,,,pack4 content content
+letter.j.sound,lettre — son,[son de « j »],,,pack4 content content
+letter.k.name,lettre — nom,ka,,,pack4 content content
+letter.k.sound,lettre — son,[son de « k »],,,pack4 content content
+letter.l.name,lettre — nom,elle,,,pack4 content content
+letter.l.sound,lettre — son,[son de « l »],,,pack4 content content
+letter.m.name,lettre — nom,emme,,,pack4 content content
+letter.m.sound,lettre — son,[son de « m »],,,pack4 content content
+letter.n.name,lettre — nom,enne,,,pack4 content content
+letter.n.sound,lettre — son,[son de « n »],,,pack4 content content
+letter.o.name,lettre — nom,o,,,pack4 content content
+letter.o.sound,lettre — son,[son de « o »],,,pack4 content content
+letter.oc.sound,grapheme-sound,oc,,yes,content content
+letter.oi.sound,grapheme-sound,oi,,yes,content content
+letter.oin.sound,grapheme-sound,oin,,yes,content content
+letter.oir.sound,grapheme-sound,oir,,yes,content content
+letter.oire.sound,grapheme-sound,oire,,yes,content content
+letter.oit.sound,grapheme-sound,oit,,yes,content content
+letter.oix.sound,grapheme-sound,oix,,yes,content content
+letter.om.sound,grapheme-sound,om,,yes,content content
+letter.on.sound,grapheme-sound,on,,yes,content content
+letter.or.sound,grapheme-sound,or,,yes,content content
+letter.os.sound,grapheme-sound,os,,yes,content content
+letter.ot.sound,grapheme-sound,ot,,yes,content content
+letter.ou.sound,grapheme-sound,ou,,yes,content content
+letter.ouille.sound,grapheme-sound,ouille,,yes,content content
+letter.oy.sound,grapheme-sound,oy,,yes,content content
+letter.p.name,lettre — nom,pé,,,pack4 content content
+letter.p.sound,lettre — son,[son de « p »],,,pack4 content content
+letter.ph_f.sound,grapheme-sound,ph = f,,yes,content content
+letter.pl.sound,grapheme-sound,pl,,yes,content content
+letter.pr.sound,grapheme-sound,pr,,yes,content content
+letter.q.name,lettre — nom (mur des lettres),ku,,,pack4
+letter.qu_k_c.sound,grapheme-sound,qu = k = c,,yes,content content
+letter.r.name,lettre — nom,erre,,,pack4 content content
+letter.r.sound,lettre — son,[son de « r »],,,pack4 content content
+letter.s.name,lettre — nom,esse,,,pack4 content content
+letter.s.sound,lettre — son,[son de « s »],,,pack4 content content
+letter.s_z.sound,grapheme-sound,s = z,,yes,content content
+letter.t.name,lettre — nom,té,,,pack4 content content
+letter.t.sound,lettre — son,[son de « t »],,,pack4 content content
+letter.th_t.sound,grapheme-sound,th = t,,yes,content content
+letter.tion_sion.sound,grapheme-sound,tion = sion,,yes,content content
+letter.tr.sound,grapheme-sound,tr,,yes,content content
+letter.u.name,lettre — nom,u,,,pack4 content content
+letter.u.sound,lettre — son,[son de « u »],,,pack4 content content content content
+letter.ur.sound,grapheme-sound,œur,,yes,content content
+letter.uy.sound,grapheme-sound,uy,,yes,content content
+letter.v.name,lettre — nom,vé,,,pack4 content content
+letter.v.sound,lettre — son,[son de « v »],,,pack4 content content
+letter.vl.sound,grapheme-sound,vl,,yes,content content
+letter.vr.sound,grapheme-sound,vr,,yes,content content
+letter.w.name,lettre — nom (mur des lettres),double vé,,,pack4
+letter.x.name,lettre — nom (mur des lettres),iks,,,pack4
+letter.y.name,lettre — nom,i grec,,,pack4 content content
+letter.y.sound,lettre — son,[son de « y »],,,pack4 content content
+letter.z.name,lettre — nom,zède,,,pack4 content content
+letter.z.sound,lettre — son,[son de « z »],,,pack4 content content
+prompt.comprehension.default,consigne d'exercice,Écoute la question.,,,pack4
+prompt.listen-choose.digit,consigne d'exercice,"Écoute, puis touche le bon chiffre.",,,pack4
+prompt.listen-choose.letter,consigne d'exercice,"Écoute, puis touche la bonne lettre.",,,pack4
+prompt.listen-choose.syllable,consigne d'exercice,"Écoute, puis touche la bonne syllabe.",,,pack4
+prompt.listen-choose.word,consigne d'exercice,"Écoute, puis touche le bon mot.",,,pack4
+prompt.missing-letter.default,consigne d'exercice,Quelle lettre manque ?,,,pack4
+prompt.syllable-build.default,consigne d'exercice,Écoute et construis la syllabe.,,,pack4
+prompt.tap-identify.digit,consigne d'exercice,Touche le chiffre {chiffre}.,,,pack4
+prompt.tap-identify.grapheme,consigne d'exercice,Touche {graphème}.,,,pack4
+prompt.tap-identify.letter,consigne d'exercice,Touche la lettre {lettre}.,,,pack4
+prompt.trace.digit,consigne d'exercice,Écris le chiffre {chiffre}.,,,pack4
+prompt.trace.letter,consigne d'exercice,Écris la lettre {lettre}.,,,pack4
+prompt.word-match.default,consigne d'exercice,Relie le mot à l'image.,,,pack4
+sent.L01.lecon_01_la_lettre_i,interface,Leçon 01. La lettre i,,,prototype
+sent.L01.touche_la_lettre_i,interface,Touche la lettre i,,,prototype
+sent.L01.touche_la_lettre_i_en_ecritu,interface,Touche la lettre i en écriture cursive,,,prototype
+sent.L01.touche_la_lettre_i_majuscule,interface,Touche la lettre i majuscule,,,prototype
+sent.L02.lecon_02_la_lettre_u,interface,Leçon 02. La lettre u,,,prototype
+sent.L02.touche_la_lettre_u,interface,Touche la lettre u,,,prototype
+sent.L02.touche_la_lettre_u_en_ecritu,interface,Touche la lettre u en écriture cursive,,,prototype
+sent.L02.touche_la_lettre_u_majuscule,interface,Touche la lettre u majuscule,,,prototype
+sent.L03.lecon_03_la_lettre_o,interface,Leçon 03. La lettre o,,,prototype
+sent.L03.touche_la_lettre_o,interface,Touche la lettre o,,,prototype
+sent.L03.touche_la_lettre_o_en_ecritu,interface,Touche la lettre o en écriture cursive,,,prototype
+sent.L03.touche_la_lettre_o_majuscule,interface,Touche la lettre o majuscule,,,prototype
+sent.L04.lecon_04_la_lettre_a,interface,Leçon 04. La lettre a,,,prototype
+sent.L04.touche_la_lettre_a,interface,Touche la lettre a,,,prototype
+sent.L04.touche_la_lettre_a_en_ecritu,interface,Touche la lettre a en écriture cursive,,,prototype
+sent.L04.touche_la_lettre_a_majuscule,interface,Touche la lettre a majuscule,,,prototype
+sent.L05.lecon_05_les_lettres_e_et_e,interface,Leçon 05. Les lettres e et ê,,,prototype
+sent.L05.touche_la_lettre_e,interface,Touche la lettre e,,,prototype prototype
+sent.L05.touche_la_lettre_e_en_ecritu,interface,Touche la lettre e en écriture cursive,,,prototype
+sent.L05.touche_la_lettre_e_majuscule,interface,Touche la lettre e majuscule,,,prototype
+sent.L06.lecon_06_les_lettres_e_et_e,interface,Leçon 06. Les lettres é et è,,,prototype
+sent.L06.touche_la_lettre_e,interface,Touche la lettre é,,,prototype prototype
+sent.L06.touche_la_lettre_e_en_ecritu,interface,Touche la lettre é en écriture cursive,,,prototype
+sent.L06.touche_la_lettre_e_majuscule,interface,Touche la lettre é majuscule,,,prototype
+sent.L07.lecon_07_la_lettre_y,interface,Leçon 07. La lettre y,,,prototype
+sent.L07.touche_la_lettre_y,interface,Touche la lettre y,,,prototype
+sent.L07.touche_la_lettre_y_en_ecritu,interface,Touche la lettre y en écriture cursive,,,prototype
+sent.L07.touche_la_lettre_y_majuscule,interface,Touche la lettre y majuscule,,,prototype
+sent.L08.01,sentence,toto tâte ta tête.,,,content
+sent.L08.02,sentence,tata est têtu.,,,content
+sent.L08.03,sentence,toto as-tu ta tête ?,,,content
+sent.L08.04,sentence,tata ôte ta tête.,,,content
+sent.L08.as_tu,interface,as-tu,,,prototype
+sent.L08.est,interface,est,,,prototype
+sent.L08.lecon_08_la_lettre_t,interface,Leçon 08. La lettre t,,,prototype
+sent.L08.tate,interface,taté,,,prototype prototype
+sent.L08.touche_la_lettre_t,interface,Touche la lettre t,,,prototype
+sent.L08.touche_la_lettre_t_en_ecritu,interface,Touche la lettre t en écriture cursive,,,prototype
+sent.L08.touche_la_lettre_t_majuscule,interface,Touche la lettre t majuscule,,,prototype
+sent.L09.01,sentence,papa tape toto.,,,content
+sent.L09.02,sentence,papa ôte toto.,,,content
+sent.L09.03,sentence,toto tape paté.,,,content
+sent.L09.04,sentence,papa tape paté et toto.,,,content
+sent.L09.lecon_09_la_lettre_p,interface,Leçon 09. La lettre p,,,prototype
+sent.L09.touche_la_lettre_p,interface,Touche la lettre p,,,prototype
+sent.L09.touche_la_lettre_p_en_ecritu,interface,Touche la lettre p en écriture cursive,,,prototype
+sent.L09.touche_la_lettre_p_majuscule,interface,Touche la lettre p majuscule,,,prototype
+sent.L10.01,sentence,papa tape anani.,,,content
+sent.L10.02,sentence,nono a une natte.,,,content
+sent.L10.lecon_10_la_lettre_n,interface,Leçon 10. La lettre n,,,prototype
+sent.L10.touche_la_lettre_n,interface,Touche la lettre n,,,prototype
+sent.L10.touche_la_lettre_n_en_ecritu,interface,Touche la lettre n en écriture cursive,,,prototype
+sent.L10.touche_la_lettre_n_majuscule,interface,Touche la lettre n majuscule,,,prototype
+sent.L11.01,sentence,mémé a une tomate.,,,content
+sent.L11.02,sentence,mimi aime momo.,,,content
+sent.L11.03,sentence,une même tomate pour mémé et mimi.,,,content
+sent.L11.aime,interface,aime,,,prototype
+sent.L11.lecon_11_la_lettre_m,interface,Leçon 11. La lettre m,,,prototype
+sent.L11.meme,interface,même,,,prototype
+sent.L11.pour,interface,pour,,,prototype
+sent.L11.touche_la_lettre_m,interface,Touche la lettre m,,,prototype
+sent.L11.touche_la_lettre_m_en_ecritu,interface,Touche la lettre m en écriture cursive,,,prototype
+sent.L11.touche_la_lettre_m_majuscule,interface,Touche la lettre m majuscule,,,prototype
+sent.L12.01,sentence,papa allume la radio.,,,content
+sent.L12.02,sentence,le riz de maman.,,,content
+sent.L12.03,sentence,la rentrée des classes.,,,content
+sent.L12.04,sentence,la robe rose de mémé,,,content
+sent.L12.allume,interface,allume,,,prototype
+sent.L12.classes,interface,classes,,,prototype
+sent.L12.des,interface,des,,,prototype
+sent.L12.lecon_12_la_lettre_r,interface,Leçon 12. La lettre r,,,prototype
+sent.L12.radio,interface,radio,,,prototype
+sent.L12.rose,interface,rose,,,prototype
+sent.L12.touche_la_lettre_r,interface,Touche la lettre r,,,prototype
+sent.L12.touche_la_lettre_r_en_ecritu,interface,Touche la lettre r en écriture cursive,,,prototype
+sent.L12.touche_la_lettre_r_majuscule,interface,Touche la lettre r majuscule,,,prototype
+sent.L13.01,sentence,les élèves vont au village.,,,content
+sent.L13.02,sentence,la voiture roule sur la voie.,,,content
+sent.L13.03,sentence,la vieille case.,,,content
+sent.L13.04,sentence,papa boit du vin,,,content
+sent.L13.boit,interface,boit,,,prototype
+sent.L13.case,interface,case,,,prototype
+sent.L13.eleves,interface,élèves,,,prototype
+sent.L13.lecon_13_la_lettre_v,interface,Leçon 13. La lettre v,,,prototype
+sent.L13.les,interface,les,,,prototype
+sent.L13.roule,interface,roule,,,prototype
+sent.L13.sur,interface,sur,,,prototype
+sent.L13.touche_la_lettre_v,interface,Touche la lettre v,,,prototype
+sent.L13.touche_la_lettre_v_en_ecritu,interface,Touche la lettre v en écriture cursive,,,prototype
+sent.L13.touche_la_lettre_v_majuscule,interface,Touche la lettre v majuscule,,,prototype
+sent.L13.vont,interface,vont,,,prototype
+sent.L14.01,sentence,la pile de lili.,,,content
+sent.L14.02,sentence,lulu à une patate.,,,content
+sent.L14.03,sentence,lulu est une élève.,,,content
+sent.L14.a,interface,à,,,prototype
+sent.L14.lecon_14_la_lettre_l,interface,Leçon 14. La lettre l,,,prototype
+sent.L14.touche_la_lettre_l,interface,Touche la lettre l,,,prototype
+sent.L14.touche_la_lettre_l_en_ecritu,interface,Touche la lettre l en écriture cursive,,,prototype
+sent.L14.touche_la_lettre_l_majuscule,interface,Touche la lettre l majuscule,,,prototype
+sent.L15.01,sentence,la daba de dado.,,,content
+sent.L15.02,sentence,papa est debout.,,,content
+sent.L15.03,sentence,le doigt de maman.,,,content
+sent.L15.04,sentence,le dindon dort dehors.,,,content
+sent.L15.daba,interface,daba,,,prototype
+sent.L15.dado,interface,dado,,,prototype
+sent.L15.dehors,interface,dehors,,,prototype
+sent.L15.dort,interface,dort,,,prototype
+sent.L15.lecon_15_la_lettre_d,interface,Leçon 15. La lettre d,,,prototype
+sent.L15.touche_la_lettre_d,interface,Touche la lettre d,,,prototype
+sent.L15.touche_la_lettre_d_en_ecritu,interface,Touche la lettre d en écriture cursive,,,prototype
+sent.L15.touche_la_lettre_d_majuscule,interface,Touche la lettre d majuscule,,,prototype
+sent.L16.01,sentence,un beau bébé.,,,content
+sent.L16.02,sentence,le bouc de papa.,,,content
+sent.L16.03,sentence,le bonbon est très bon.,,,content
+sent.L16.04,sentence,la belle robe bleue.,,,content
+sent.L16.beau,interface,beau,,,prototype
+sent.L16.belle,interface,belle,,,prototype
+sent.L16.bleue,interface,bleue,,,prototype
+sent.L16.bouc,interface,bouc,,,prototype
+sent.L16.lecon_16_la_lettre_b,interface,Leçon 16. La lettre b,,,prototype
+sent.L16.touche_la_lettre_b,interface,Touche la lettre b,,,prototype
+sent.L16.touche_la_lettre_b_en_ecritu,interface,Touche la lettre b en écriture cursive,,,prototype
+sent.L16.touche_la_lettre_b_majuscule,interface,Touche la lettre b majuscule,,,prototype
+sent.L16.tres,interface,très,,,prototype
+sent.L17.01,sentence,le jus est jaune.,,,content
+sent.L17.02,sentence,la jupe de maman.,,,content
+sent.L17.03,sentence,le jeudi toto fait du judo.,,,content
+sent.L17.fait,interface,fait,,,prototype
+sent.L17.lecon_17_la_lettre_j,interface,Leçon 17. La lettre j,,,prototype
+sent.L17.touche_la_lettre_j,interface,Touche la lettre j,,,prototype
+sent.L17.touche_la_lettre_j_en_ecritu,interface,Touche la lettre j en écriture cursive,,,prototype
+sent.L17.touche_la_lettre_j_majuscule,interface,Touche la lettre j majuscule,,,prototype
+sent.L18.01,sentence,maman allume le feu.,,,content
+sent.L18.02,sentence,le fonio de papa.,,,content
+sent.L18.lecon_18_la_lettre_f,interface,Leçon 18. La lettre f,,,prototype
+sent.L18.touche_la_lettre_f,interface,Touche la lettre f,,,prototype
+sent.L18.touche_la_lettre_f_en_ecritu,interface,Touche la lettre f en écriture cursive,,,prototype
+sent.L18.touche_la_lettre_f_majuscule,interface,Touche la lettre f majuscule,,,prototype
+sent.L19.01,sentence,le sel de marie.,,,content
+sent.L19.02,sentence,la salle est grande.,,,content
+sent.L19.03,sentence,le sac de mémé.,,,content
+sent.L19.04,sentence,la soupe est salée .,,,content
+sent.L19.grande,interface,grande,,,prototype
+sent.L19.lecon_19_la_lettre_s,interface,Leçon 19. La lettre s,,,prototype
+sent.L19.marie,interface,marie,,,prototype
+sent.L19.sac,interface,sac,,,prototype
+sent.L19.salee,interface,salée,,,prototype
+sent.L19.touche_la_lettre_s,interface,Touche la lettre s,,,prototype
+sent.L19.touche_la_lettre_s_en_ecritu,interface,Touche la lettre s en écriture cursive,,,prototype
+sent.L19.touche_la_lettre_s_majuscule,interface,Touche la lettre s majuscule,,,prototype
+sent.L20.01,sentence,le concombre vert.,,,content
+sent.L20.02,sentence,le casque de toni.,,,content
+sent.L20.03,sentence,la cola de papa.,,,content
+sent.L20.04,sentence,la corde de l’école .,,,content
+sent.L20.casque,interface,casque,,,prototype
+sent.L20.lecon_20_la_lettre_c,interface,Leçon 20. La lettre c,,,prototype
+sent.L20.toni,interface,toni,,,prototype
+sent.L20.touche_la_lettre_c,interface,Touche la lettre c,,,prototype
+sent.L20.touche_la_lettre_c_en_ecritu,interface,Touche la lettre c en écriture cursive,,,prototype
+sent.L20.touche_la_lettre_c_majuscule,interface,Touche la lettre c majuscule,,,prototype
+sent.L20.vert,interface,vert,,,prototype
+sent.L21.01,sentence,la gourde de pépé.,,,content
+sent.L21.02,sentence,le guide de la classe.,,,content
+sent.L21.03,sentence,le gong de l’école.,,,content
+sent.L21.04,sentence,la gardien de la gare.,,,content
+sent.L21.classe,interface,classe,,,prototype
+sent.L21.gardien,interface,gardien,,,prototype
+sent.L21.gare,interface,gare,,,prototype
+sent.L21.lecon_21_la_lettre_g,interface,Leçon 21. La lettre g,,,prototype
+sent.L21.pepe,interface,pépé,,,prototype
+sent.L21.touche_la_lettre_g,interface,Touche la lettre g,,,prototype
+sent.L21.touche_la_lettre_g_en_ecritu,interface,Touche la lettre g en écriture cursive,,,prototype
+sent.L21.touche_la_lettre_g_majuscule,interface,Touche la lettre g majuscule,,,prototype
+sent.L22.01,sentence,le kaki de toto.,,,content
+sent.L22.02,sentence,le képi du policier.,,,content
+sent.L22.03,sentence,le kapok de mémé.,,,content
+sent.L22.lecon_22_la_lettre_k,interface,Leçon 22. La lettre k,,,prototype
+sent.L22.policier,interface,policier,,,prototype
+sent.L22.touche_la_lettre_k,interface,Touche la lettre k,,,prototype
+sent.L22.touche_la_lettre_k_en_ecritu,interface,Touche la lettre k en écriture cursive,,,prototype
+sent.L22.touche_la_lettre_k_majuscule,interface,Touche la lettre k majuscule,,,prototype
+sent.L23.01,sentence,Le zèbre du zoo boit à la rivière.,,,content content
+sent.L23.lecon_23_la_lettre_z,interface,Leçon 23. La lettre z,,,prototype
+sent.L23.riziere,interface,rizière,,,prototype
+sent.L23.touche_la_lettre_z,interface,Touche la lettre z,,,prototype
+sent.L23.touche_la_lettre_z_en_ecritu,interface,Touche la lettre z en écriture cursive,,,prototype
+sent.L23.touche_la_lettre_z_majuscule,interface,Touche la lettre z majuscule,,,prototype
+sent.L23.zebre,interface,zèbre,,,prototype
+sent.L24.habit,interface,habit,,,prototype
+sent.L24.haricot,interface,haricot,,,prototype
+sent.L24.hibou,interface,hibou,,,prototype
+sent.L24.hopital,interface,hôpital,,,prototype
+sent.L24.humide,interface,humide,,,prototype
+sent.L24.lecon_24_la_lettre_h,interface,Leçon 24. La lettre h,,,prototype
+sent.L24.touche_la_lettre_h,interface,Touche la lettre h,,,prototype
+sent.L24.touche_la_lettre_h_en_ecritu,interface,Touche la lettre h en écriture cursive,,,prototype
+sent.L24.touche_la_lettre_h_majuscule,interface,Touche la lettre h majuscule,,,prototype
+sent.L25.01,sentence,Je passe souvent les vacances avec ma tante Baké à Kandi. Elle habite une grande maison située à l’entrée de la ville en venant de Cotonou.,,,content content content
+sent.L25.assiettes,interface,assiettes,,,prototype
+sent.L25.aussi,interface,aussi,,,prototype
+sent.L25.avec,interface,avec,,,prototype
+sent.L25.bake,interface,Baké,,,prototype
+sent.L25.banc,interface,banc,,,prototype
+sent.L25.beaucoup,interface,beaucoup,,,prototype
+sent.L25.c_est_toujours_une_joie_pour,interface,C’est toujours une joie pour moi quand je pars en vacances.,,,prototype
+sent.L25.clients,interface,clients,,,prototype
+sent.L25.cotonou,interface,Cotonou,,,prototype
+sent.L25.danse,interface,danse,,,prototype
+sent.L25.demandes,interface,demandes,,,prototype
+sent.L25.differents,interface,différents,,,prototype
+sent.L25.habite,interface,habite,,,prototype
+sent.L25.j_aime,interface,J’aime,,,prototype
+sent.L25.jambe,interface,jambe,,,prototype
+sent.L25.kandi,interface,Kandi,,,prototype
+sent.L25.l_aide,interface,l’aide,,,prototype
+sent.L25.l_entree,interface,l’entrée,,,prototype
+sent.L25.lave,interface,lave,,,prototype
+sent.L25.lecon_25_les_sons_an_am_en_e,interface,Leçon 25. Les sons an · am · en · em,,,prototype
+sent.L25.les_vacances,interface,Les vacances,,,prototype
+sent.L25.m_empresse,interface,m’empresse,,,prototype
+sent.L25.ma_tante_a_un_restaurant_ou_,interface,"Ma tante a un restaurant où elle vend des différents mets. De temps en temps, je l’aide à servir les clients, je lave aussi les assiettes sales utilisées par les clients. J’aime beaucoup ce travail et je m’empresse pour satisfaire les demandes des clients.",,,prototype
+sent.L25.maison,interface,maison,,,prototype
+sent.L25.mets,interface,mets,,,prototype
+sent.L25.ou,interface,où,,,prototype
+sent.L25.par,interface,par,,,prototype
+sent.L25.pars,interface,pars,,,prototype
+sent.L25.passe,interface,passe,,,prototype
+sent.L25.quand,interface,quand,,,prototype
+sent.L25.rang,interface,rang,,,prototype
+sent.L25.restaurant,interface,restaurant,,,prototype
+sent.L25.sales,interface,sales,,,prototype
+sent.L25.satisfaire,interface,satisfaire,,,prototype
+sent.L25.servir,interface,servir,,,prototype
+sent.L25.situee,interface,située,,,prototype
+sent.L25.souvent,interface,souvent,,,prototype
+sent.L25.tante,interface,tante,,,prototype
+sent.L25.temps,interface,temps,,,prototype
+sent.L25.toujours,interface,toujours,,,prototype
+sent.L25.travail,interface,travail,,,prototype
+sent.L25.utilisees,interface,utilisées,,,prototype
+sent.L25.vacances,interface,vacances,,,prototype
+sent.L25.venant,interface,venant,,,prototype
+sent.L25.vend,interface,vend,,,prototype
+sent.L25.ville,interface,ville,,,prototype
+sent.L26.01,sentence,"Aujourd’hui, c’est la fête de ramadan.",,,content content
+sent.L26.aller,interface,aller,,,prototype
+sent.L26.aujourd_hui,interface,Aujourd’hui,,,prototype
+sent.L26.avons,interface,avons,,,prototype
+sent.L26.beaux,interface,beaux,,,prototype
+sent.L26.boubou,interface,boubou,,,prototype
+sent.L26.chaque,interface,chaque,,,prototype
+sent.L26.compagnie,interface,compagnie,,,prototype
+sent.L26.enfants,interface,enfants,,,prototype
+sent.L26.famille,interface,famille,,,prototype
+sent.L26.idi,interface,“Idi”,,,prototype
+sent.L26.j_ai,interface,J’ai,,,prototype
+sent.L26.la_fete,interface,La fête,,,prototype
+sent.L26.lecon_26_les_sons_on_om,interface,Leçon 26. Les sons on · om,,,prototype
+sent.L26.lion,interface,lion,,,prototype
+sent.L26.long,interface,long,,,prototype
+sent.L26.matin,interface,matin,,,prototype
+sent.L26.monde,interface,monde,,,prototype
+sent.L26.mouton,interface,mouton,,,prototype
+sent.L26.musulmans,interface,musulmans,,,prototype
+sent.L26.nous,interface,Nous,,,prototype
+sent.L26.oncle,interface,oncle,,,prototype
+sent.L26.ont,interface,ont,,,prototype
+sent.L26.pantalon,interface,pantalon,,,prototype
+sent.L26.place,interface,place,,,prototype
+sent.L26.poisson,interface,poisson,,,prototype
+sent.L26.porte,interface,porté,,,prototype
+sent.L26.prie,interface,prié,,,prototype
+sent.L26.priere,interface,prière,,,prototype
+sent.L26.quartier,interface,quartier,,,prototype
+sent.L26.ramadan,interface,ramadan,,,prototype
+sent.L26.retoune,interface,retoune,,,prototype
+sent.L26.reveille,interface,réveillé,,,prototype
+sent.L26.s_est,interface,s’est,,,prototype
+sent.L26.ses,interface,ses,,,prototype
+sent.L26.tot,interface,tôt,,,prototype
+sent.L26.tout,interface,Tout,,,prototype
+sent.L26.tout_le_monde_s_est_reveille,interface,Tout le monde s’est réveillé tôt le matin pour aller à la prière. J’ai porté un beau pantalon et un long boubou. Mon oncle et ses enfants ont porté aussi de beaux vêtements. Nous avons prié à la place “Idi” en compagnie des musulmans venus de tout le quartier. À la fin de la prière chaque famille retoune à la maison pour continuer la fête.,,,prototype
+sent.L26.venus,interface,venus,,,prototype
+sent.L26.vetements,interface,vêtements,,,prototype
+sent.L27.01,sentence,ma plume est pointue,,,content content
+sent.L27.02,sentence,mon amie habite loin,,,content
+sent.L27.acheter,interface,acheter,,,prototype
+sent.L27.allant,interface,allant,,,prototype
+sent.L27.amie,interface,amie,,,prototype
+sent.L27.attirer,interface,attirer,,,prototype
+sent.L27.balafon,interface,balafon,,,prototype
+sent.L27.besoin,interface,besoin,,,prototype
+sent.L27.coin,interface,coin,,,prototype
+sent.L27.condiments,interface,condiments,,,prototype
+sent.L27.cuisine,interface,cuisine,,,prototype
+sent.L27.dans,interface,dans,,,prototype
+sent.L27.dont,interface,dont,,,prototype
+sent.L27.enfant,interface,enfant,,,prototype
+sent.L27.etalage,interface,étalage,,,prototype
+sent.L27.faire,interface,faire,,,prototype
+sent.L27.fais,interface,fais,,,prototype
+sent.L27.jouait,interface,jouait,,,prototype
+sent.L27.jour,interface,jour,,,prototype
+sent.L27.le_marche,interface,Le marché,,,prototype
+sent.L27.le_marche_de_nikki_n_est_pas,interface,"Le marché de Nikki n’est pas loin de la maison de ma tante. Je m’y rends souvent pour acheter les condiments dont nous avons besoin pour faire la cuisine. Un jour, en allant au marché, j’ai vu de loin un enfant qui jouait au balafon dans un coin de la rue. Au marché chaque vendeuse prend soin de son étalage pour attirer les clients. À mon retour, je fais le point pour m’assurer de n’avoir rien oublié.",,,prototype
+sent.L27.lecon_27_les_sons_oin,interface,Leçon 27. Les sons oin,,,prototype
+sent.L27.m_assurer,interface,m’assurer,,,prototype
+sent.L27.m_y,interface,m’y,,,prototype
+sent.L27.marche,interface,marché,,,prototype
+sent.L27.n_avoir,interface,n’avoir,,,prototype
+sent.L27.n_est,interface,n’est,,,prototype
+sent.L27.nikki,interface,Nikki,,,prototype
+sent.L27.oublie,interface,oublié,,,prototype
+sent.L27.plume,interface,plume,,,prototype
+sent.L27.poing,interface,poing,,,prototype
+sent.L27.point,interface,point,,,prototype
+sent.L27.prend,interface,prend,,,prototype
+sent.L27.rends,interface,rends,,,prototype
+sent.L27.rien,interface,rien,,,prototype
+sent.L27.rue,interface,rue,,,prototype
+sent.L27.soins,interface,soins,,,prototype
+sent.L27.vendeuse,interface,vendeuse,,,prototype
+sent.L28.01,sentence,"La ferme de mon oncle est très loin de la ville. Elle est dans un village où la population est jeune. Sur sa ferme, mon oncle a des plantations d’ignames et élève aussi des animaux. Le gardien de la ferme est un jeune qui a suivi une formation d’agent de sécurité. Mon oncle a un ancien fusil pour éloigner les animaux sauvages qui tentent de dévorer les bêtes de la ferme.",,,content
+sent.L28.ancien,interface,ancien,,,prototype
+sent.L28.animaux,interface,animaux,,,prototype
+sent.L28.avion,interface,avion,,,prototype
+sent.L28.betes,interface,bêtes,,,prototype
+sent.L28.chien,interface,chien,,,prototype
+sent.L28.d_agent,interface,d’agent,,,prototype
+sent.L28.d_ignames,interface,d’ignames,,,prototype
+sent.L28.devorer,interface,dévorer,,,prototype
+sent.L28.division,interface,division,,,prototype
+sent.L28.eloigner,interface,éloigner,,,prototype
+sent.L28.ferme,interface,ferme,,,prototype
+sent.L28.formation,interface,formation,,,prototype
+sent.L28.jeune,interface,jeune,,,prototype
+sent.L28.la_ferme,interface,La ferme,,,prototype
+sent.L28.lecon_28_les_sons_ien_ion,interface,Leçon 28. Les sons ien · ion,,,prototype
+sent.L28.operation,interface,opération,,,prototype
+sent.L28.plantations,interface,plantations,,,prototype
+sent.L28.population,interface,population,,,prototype
+sent.L28.sauvages,interface,sauvages,,,prototype
+sent.L28.securite,interface,sécurité,,,prototype
+sent.L28.soustraction,interface,soustraction,,,prototype
+sent.L28.suivi,interface,suivi,,,prototype
+sent.L28.tentent,interface,tentent,,,prototype
+sent.L29.01,sentence,"Mon beau village est entouré de collines et d’arbres. Un beau lieu de repos est situé à côté d’une forêt non loin d’un marigot. Très tôt le matin, des jeunes filles et femmes viennent au marigot pour puiser de l’eau et ramasser du bois. Elles font des petits fagots qu’ elles portent sur la tête.",,,content
+sent.L29.auto,interface,auto,,,prototype
+sent.L29.bateau,interface,bateau,,,prototype
+sent.L29.bois,interface,bois,,,prototype
+sent.L29.cauri,interface,cauri,,,prototype
+sent.L29.chapeau,interface,chapeau,,,prototype
+sent.L29.collines,interface,collines,,,prototype
+sent.L29.cote,interface,côté,,,prototype
+sent.L29.couteau,interface,couteau,,,prototype
+sent.L29.d_arbres,interface,d’arbres,,,prototype
+sent.L29.d_un,interface,d’un,,,prototype
+sent.L29.d_une,interface,d’une,,,prototype
+sent.L29.drapeau,interface,drapeau,,,prototype
+sent.L29.elles,interface,Elles,,,prototype
+sent.L29.entoure,interface,entouré,,,prototype
+sent.L29.epaule,interface,épaule,,,prototype
+sent.L29.fagots,interface,fagots,,,prototype
+sent.L29.femmes,interface,femmes,,,prototype
+sent.L29.filles,interface,filles,,,prototype
+sent.L29.font,interface,font,,,prototype
+sent.L29.jeunes,interface,jeunes,,,prototype
+sent.L29.l_eau,interface,l’eau,,,prototype
+sent.L29.lecon_29_les_sons_eau_au_os_,interface,Leçon 29. Les sons eau · au · os · ot,,,prototype
+sent.L29.lieu,interface,lieu,,,prototype
+sent.L29.marigot,interface,marigot,,,prototype
+sent.L29.mon_village,interface,Mon village,,,prototype
+sent.L29.petits,interface,petits,,,prototype
+sent.L29.portent,interface,portent,,,prototype
+sent.L29.puiser,interface,puiser,,,prototype
+sent.L29.qu,interface,qu’,,,prototype
+sent.L29.ramasser,interface,ramasser,,,prototype
+sent.L29.repos,interface,repos,,,prototype
+sent.L29.saute,interface,saute,,,prototype
+sent.L29.seau,interface,seau,,,prototype
+sent.L29.situe,interface,situé,,,prototype
+sent.L29.tableau,interface,tableau,,,prototype
+sent.L29.viennent,interface,viennent,,,prototype
+sent.L30.01,sentence,Antoine voit son ami Benoît.,,,content content content content
+sent.L30.antoine,interface,Antoine,,,prototype
+sent.L30.benoit,interface,Benoît,,,prototype
+sent.L30.bonsoir,interface,Bonsoir,,,prototype
+sent.L30.bonsoir_benoit_ou_vas_tu_de_,interface,"Bonsoir Benoît, où vas tu de ce pas ?",,,prototype
+sent.L30.choix,interface,choix,,,prototype
+sent.L30.coco,interface,coco,,,prototype
+sent.L30.des_amis,interface,Des amis,,,prototype
+sent.L30.donc,interface,donc,,,prototype
+sent.L30.je_vais_acheter_des_noix_de_,interface,Je vais acheter des noix de coco dans la maison sans toit que tu vois là-bas.,,,prototype
+sent.L30.la_bas,interface,là-bas,,,prototype
+sent.L30.laisse_moi,interface,Laisse-moi,,,prototype
+sent.L30.laisse_moi_donc_t_accompagne,interface,Laisse-moi donc t’accompagner.,,,prototype
+sent.L30.lecon_30_les_sons_oi_oix_oit,interface,Leçon 30. Les sons oi · oix · oit,,,prototype
+sent.L30.moitie,interface,moitié,,,prototype
+sent.L30.noire,interface,noire,,,prototype
+sent.L30.noix,interface,noix,,,prototype
+sent.L30.sans,interface,sans,,,prototype
+sent.L30.soiree,interface,soirée,,,prototype
+sent.L30.t_accompagner,interface,t’accompagner,,,prototype
+sent.L30.toit,interface,toit,,,prototype
+sent.L30.toiture,interface,toiture,,,prototype
+sent.L30.vais,interface,vais,,,prototype
+sent.L30.vas,interface,vas,,,prototype
+sent.L30.vois,interface,vois,,,prototype
+sent.L30.voit,interface,voit,,,prototype
+sent.L31.01,sentence,Mon papa est médecin. Chaque matin il part à la clinique soigner des malades. Sur la route Il achète du pain chez Samira la commerçante de notre quartier. Papa a aussi des poussins à la maison.,,,content
+sent.L31.achete,interface,achète,,,prototype
+sent.L31.ceinture,interface,ceinture,,,prototype
+sent.L31.chez,interface,chez,,,prototype
+sent.L31.clinique,interface,clinique,,,prototype
+sent.L31.commercante,interface,commerçante,,,prototype
+sent.L31.il,interface,il,,,prototype
+sent.L31.lecon_31_les_sons_ain_ein_in,interface,Leçon 31. Les sons ain · ein · in · aim,,,prototype
+sent.L31.malades,interface,malades,,,prototype
+sent.L31.medecin,interface,médecin,,,prototype
+sent.L31.mon_papa,interface,Mon papa,,,prototype
+sent.L31.notre,interface,notre,,,prototype
+sent.L31.part,interface,part,,,prototype
+sent.L31.pintade,interface,pintade,,,prototype
+sent.L31.poussin,interface,poussin,,,prototype
+sent.L31.poussins,interface,poussins,,,prototype
+sent.L31.samira,interface,Samira,,,prototype
+sent.L31.singe,interface,singe,,,prototype
+sent.L31.soigner,interface,soigner,,,prototype
+sent.L31.teint,interface,teint,,,prototype
+sent.L32.01,sentence,"Aujourd’hui, il y a du brouillard, et il fait froid. Dossou boit de la bouillie bien chaude. Sur la toiture rouillée de sa chambre se trouve un margouillat qui regarde les mouches qui volent autour du bol de bouillie que Dossou a déposé sur la table.",,,content
+sent.L32.autour,interface,autour,,,prototype
+sent.L32.bol,interface,bol,,,prototype
+sent.L32.bouillie,interface,bouillie,,,prototype
+sent.L32.bouton,interface,bouton,,,prototype
+sent.L32.brouillard,interface,brouillard,,,prototype
+sent.L32.chambre,interface,chambre,,,prototype
+sent.L32.chaude,interface,chaude,,,prototype
+sent.L32.depose,interface,déposé,,,prototype
+sent.L32.dossou,interface,Dossou,,,prototype
+sent.L32.froid,interface,froid,,,prototype
+sent.L32.grenouille,interface,grenouille,,,prototype
+sent.L32.houe,interface,houe,,,prototype
+sent.L32.houille,interface,houille,,,prototype
+sent.L32.la_bouillie,interface,La bouillie,,,prototype
+sent.L32.lecon_32_les_sons_ou_ouille,interface,Leçon 32. Les sons ou · ouille,,,prototype
+sent.L32.margouillat,interface,margouillat,,,prototype
+sent.L32.mouches,interface,mouches,,,prototype
+sent.L32.poule,interface,poule,,,prototype
+sent.L32.rouillee,interface,rouillée,,,prototype
+sent.L32.table,interface,table,,,prototype
+sent.L32.trouve,interface,trouve,,,prototype
+sent.L32.volent,interface,volent,,,prototype
+sent.L33.01,sentence,"Le matin, à mon réveil je me débarbouille à la douche avant de balayer ma chambre, et essuyer mes meubles ensuite je nettoie les rayons de mon nouveau vélo. Après le nettoyage je fais mes exercices d’école.",,,content
+sent.L33.apres,interface,Après,,,prototype
+sent.L33.avant,interface,avant,,,prototype
+sent.L33.chaque_samedi,interface,Chaque Samedi,,,prototype
+sent.L33.crayon,interface,crayon,,,prototype
+sent.L33.d_ecole,interface,d’école,,,prototype
+sent.L33.debarbouille,interface,débarbouille,,,prototype
+sent.L33.douche,interface,douche,,,prototype
+sent.L33.ensuite,interface,ensuite,,,prototype
+sent.L33.essuyer,interface,essuyer,,,prototype
+sent.L33.exercices,interface,exercices,,,prototype
+sent.L33.lecon_33_les_sons_ay_oy_uy,interface,Leçon 33. Les sons ay · oy · uy,,,prototype
+sent.L33.mes,interface,mes,,,prototype
+sent.L33.meubles,interface,meubles,,,prototype
+sent.L33.nettoie,interface,nettoie,,,prototype
+sent.L33.nettoyage,interface,nettoyage,,,prototype
+sent.L33.nouveau,interface,nouveau,,,prototype
+sent.L33.noyade,interface,noyade,,,prototype
+sent.L33.noyau,interface,noyau,,,prototype
+sent.L33.paysan,interface,paysan,,,prototype
+sent.L33.rayons,interface,rayons,,,prototype
+sent.L33.rayures,interface,rayures,,,prototype
+sent.L33.reveil,interface,réveil,,,prototype
+sent.L33.tuyau,interface,tuyau,,,prototype
+sent.L33.velo,interface,vélo,,,prototype
+sent.L33.voyage,interface,voyage,,,prototype
+sent.L33.voyageur,interface,voyageur,,,prototype
+sent.L34.aide,interface,aide,,,prototype
+sent.L34.aide_tes_parents_a_la_maison,interface,aide tes parents à la maison;,,,prototype
+sent.L34.aime_le_travail,interface,aime le travail;,,,prototype
+sent.L34.baille,interface,baille,,,prototype
+sent.L34.bataille,interface,bataille,,,prototype
+sent.L34.ecoute,interface,écoute,,,prototype
+sent.L34.ecoute_bien_ton_maitre_et_ne,interface,écoute bien ton maître et ne baille pas en classe;,,,prototype
+sent.L34.ferraille,interface,ferraille,,,prototype
+sent.L34.forces,interface,forces,,,prototype
+sent.L34.lecon_34_les_sons_ail_aille,interface,Leçon 34. Les sons ail · aille,,,prototype
+sent.L34.maitre,interface,maître,,,prototype
+sent.L34.mon_enfant,interface,Mon enfant :,,,prototype
+sent.L34.muraille,interface,muraille,,,prototype
+sent.L34.n_oublie,interface,n’oublie,,,prototype
+sent.L34.n_oublie_pas_que_la_vie_est_,interface,n’oublie pas que : «La vie est une bataille.»,,,prototype
+sent.L34.ne_joue_pas_pres_des_rails_o,interface,ne joue pas près des rails ou d’un tas de ferraille;,,,prototype
+sent.L34.parents,interface,parents,,,prototype
+sent.L34.rail,interface,rail,,,prototype
+sent.L34.rails,interface,rails,,,prototype
+sent.L34.taille,interface,taille,,,prototype
+sent.L34.tas,interface,tas,,,prototype
+sent.L34.tes,interface,tes,,,prototype
+sent.L34.toutes,interface,toutes,,,prototype
+sent.L34.travaille,interface,travaille,,,prototype
+sent.L34.travaille_bien_en_classe,interface,travaille bien en classe;,,,prototype
+sent.L34.travaille_toujours_de_toutes,interface,travaille toujours de toutes tes forces;,,,prototype
+sent.L34.vie,interface,vie,,,prototype
+sent.L35.01,sentence,Le réveil de Samira sonne. Le soleil s’est levé Samira n’a plus sommeil mais elle est toujours dans son lit. Elle est en éveil.,,,content content content
+sent.L35.au_reveil,interface,Au réveil,,,prototype
+sent.L35.bouteille,interface,bouteille,,,prototype
+sent.L35.dois,interface,dois,,,prototype
+sent.L35.eveil,interface,éveil,,,prototype
+sent.L35.je_suis_en_eveil_maman_seule,interface,"Je suis en éveil maman ! Seulement, j’ai mal à l’oreille.",,,prototype
+sent.L35.lecon_35_les_sons_eil_eille,interface,Leçon 35. Les sons eil · eille,,,prototype
+sent.L35.leve,interface,levé,,,prototype
+sent.L35.lit,interface,lit,,,prototype
+sent.L35.mais,interface,mais,,,prototype
+sent.L35.mal,interface,mal,,,prototype
+sent.L35.n_a,interface,n’a,,,prototype
+sent.L35.orteil,interface,orteil,,,prototype
+sent.L35.plus,interface,plus,,,prototype
+sent.L35.reveille,interface,réveille,,,prototype
+sent.L35.reveille_toi_samira_tu_dois_,interface,Réveille - toi Samira ! Tu dois aller à l’école !,,,prototype
+sent.L35.seulement,interface,Seulement,,,prototype
+sent.L35.soleil,interface,soleil,,,prototype
+sent.L35.sommeil,interface,sommeil,,,prototype
+sent.L35.sonne,interface,sonne,,,prototype
+sent.L35.suis,interface,suis,,,prototype
+sent.L35.x,interface,-,,,prototype
+sent.L36.01,sentence,"Baké prend son sac, son balai et un peigne pour aller à l’école. L’instituteur utilise de la craie rouge au tableau. Parfait le voisin de Baké aime utiliser le bâton de craie jaune comme relais quand il n’a plus de craie blanche. Baké et son voisin aiment le bon lait de vache vendu par les vendeuses toute la semaine.",,,content
+sent.L36.aiment,interface,aiment,,,prototype
+sent.L36.balai,interface,balai,,,prototype
+sent.L36.baton,interface,bâton,,,prototype
+sent.L36.comme,interface,comme,,,prototype
+sent.L36.craie,interface,craie,,,prototype
+sent.L36.en_classe,interface,En classe,,,prototype
+sent.L36.l_instituteur,interface,L’instituteur,,,prototype
+sent.L36.lait,interface,lait,,,prototype
+sent.L36.lecon_36_les_sons_ai_ei_ais_,interface,Leçon 36. Les sons ai · ei · ais · ait,,,prototype
+sent.L36.pagaie,interface,pagaie,,,prototype
+sent.L36.parfait,interface,Parfait,,,prototype
+sent.L36.peigne,interface,peigne,,,prototype
+sent.L36.plaie,interface,plaie,,,prototype
+sent.L36.reine,interface,reine,,,prototype
+sent.L36.relais,interface,relais,,,prototype
+sent.L36.semaine,interface,semaine,,,prototype
+sent.L36.toute,interface,toute,,,prototype
+sent.L36.utilise,interface,utilise,,,prototype
+sent.L36.utiliser,interface,utiliser,,,prototype
+sent.L36.vache,interface,vache,,,prototype
+sent.L36.vendeuses,interface,vendeuses,,,prototype
+sent.L36.vendu,interface,vendu,,,prototype
+sent.L36.voisin,interface,voisin,,,prototype
+sent.L37.01,sentence,"Chaque élève a apporté son balai. Les enfants sont contents de rendre l’école propre. Les tout petits ramassent les papiers et vont les jeter au pied d’un cocotier. Il y a beaucoup de poussière. Monsieur Orou, le directeur, arrive et dit, en se pinçant le nez :",,,content content
+sent.L37.a_l_ecole,interface,À l’école,,,prototype
+sent.L37.apporte,interface,apporté,,,prototype
+sent.L37.arrive,interface,arrive,,,prototype
+sent.L37.attention,interface,Attention,,,prototype
+sent.L37.attention_balayez_doucement,interface,"Attention, balayez doucement.",,,prototype
+sent.L37.balayez,interface,balayez,,,prototype
+sent.L37.cocotier,interface,cocotier,,,prototype
+sent.L37.contents,interface,contents,,,prototype
+sent.L37.directeur,interface,directeur,,,prototype
+sent.L37.dit,interface,dit,,,prototype
+sent.L37.doucement,interface,doucement,,,prototype
+sent.L37.jeter,interface,jeter,,,prototype
+sent.L37.lecon_37_les_sons_et_ez_ai_e,interface,Leçon 37. Les sons et · ez · ai · ed,,,prototype
+sent.L37.met,interface,met,,,prototype
+sent.L37.monsieur,interface,Monsieur,,,prototype
+sent.L37.nez,interface,nez,,,prototype
+sent.L37.orou,interface,Orou,,,prototype
+sent.L37.papiers,interface,papiers,,,prototype
+sent.L37.pied,interface,pied,,,prototype
+sent.L37.pincant,interface,pinçant,,,prototype
+sent.L37.poussiere,interface,poussière,,,prototype
+sent.L37.ramassent,interface,ramassent,,,prototype
+sent.L37.rendre,interface,rendre,,,prototype
+sent.L37.sont,interface,sont,,,prototype
+sent.L38.01,sentence,"Papa est dans un fauteuil sous le feuillage du grand manguier au milieu de la maison. Béré, va voir qui frappe à la porte, me dit papa. Sur le seuil de la maison, je salue le visiteur.",,,content content content content
+sent.L38.avec_ces_feuilles_on_prepare,interface,"Avec ces feuilles, on prépare une bonne tisane. Ce sont des feuilles médicinales qui servent à se soigner.",,,prototype
+sent.L38.bere,interface,Béré,,,prototype
+sent.L38.bonne,interface,bonne,,,prototype
+sent.L38.ces,interface,ces,,,prototype
+sent.L38.cueille,interface,cueille,,,prototype
+sent.L38.fauteuil,interface,fauteuil,,,prototype
+sent.L38.feuillage,interface,feuillage,,,prototype
+sent.L38.feuille,interface,feuille,,,prototype
+sent.L38.feuilles,interface,feuilles,,,prototype
+sent.L38.frappe,interface,frappe,,,prototype
+sent.L38.grand,interface,grand,,,prototype
+sent.L38.lecon_38_les_sons_euil_euill,interface,Leçon 38. Les sons euil · euille,,,prototype
+sent.L38.mangue,interface,mangue,,,prototype
+sent.L38.manguier,interface,manguier,,,prototype
+sent.L38.medicinales,interface,médicinales,,,prototype
+sent.L38.merci_monsieur,interface,Merci monsieur.,,,prototype
+sent.L38.milieu,interface,milieu,,,prototype
+sent.L38.pere,interface,père,,,prototype
+sent.L38.porte,interface,porte,,,prototype
+sent.L38.prepare,interface,prépare,,,prototype
+sent.L38.remettre,interface,remettre,,,prototype
+sent.L38.salue,interface,salue,,,prototype
+sent.L38.servent,interface,servent,,,prototype
+sent.L38.seuil,interface,seuil,,,prototype
+sent.L38.sous,interface,sous,,,prototype
+sent.L38.tisane,interface,tisane,,,prototype
+sent.L38.un_visiteur,interface,Un visiteur,,,prototype
+sent.L38.veuillez,interface,Veuillez,,,prototype
+sent.L38.veuillez_bien_remettre_ces_f,interface,Veuillez bien remettre ces feuilles à ton père.,,,prototype
+sent.L38.visiteur,interface,visiteur,,,prototype
+sent.L38.voir,interface,voir,,,prototype
+sent.L39.01,sentence,"Alors que le soleil brille encore dans le ciel, la pluie arrive brusquement et surprend les filles au marché. De grosses gouttes d’eau tombent sur les feuillages des arbres. Les papillons s’envolent dans le ciel. Nos vêtements sont mouillés. La famille de Sidi court se mettre à l’abri.",,,content
+sent.L39.aiguille,interface,aiguille,,,prototype
+sent.L39.alors,interface,Alors,,,prototype
+sent.L39.arbres,interface,arbres,,,prototype
+sent.L39.brille,interface,brille,,,prototype
+sent.L39.brusquement,interface,brusquement,,,prototype
+sent.L39.chenille,interface,chenille,,,prototype
+sent.L39.ciel,interface,ciel,,,prototype
+sent.L39.coquille,interface,coquille,,,prototype
+sent.L39.court,interface,court,,,prototype
+sent.L39.d_eau,interface,d’eau,,,prototype
+sent.L39.encore,interface,encore,,,prototype
+sent.L39.feuillages,interface,feuillages,,,prototype
+sent.L39.fille,interface,fille,,,prototype
+sent.L39.gouttes,interface,gouttes,,,prototype
+sent.L39.grosses,interface,grosses,,,prototype
+sent.L39.l_abri,interface,l’abri,,,prototype
+sent.L39.lecon_39_les_sons_ill_ille,interface,Leçon 39. Les sons ill · ille,,,prototype
+sent.L39.m_habille,interface,m’habille,,,prototype
+sent.L39.mettre,interface,mettre,,,prototype
+sent.L39.mouilles,interface,mouillés,,,prototype
+sent.L39.nos,interface,Nos,,,prototype
+sent.L39.papillon,interface,papillon,,,prototype
+sent.L39.papillons,interface,papillons,,,prototype
+sent.L39.pluie,interface,pluie,,,prototype
+sent.L39.s_envolent,interface,s’envolent,,,prototype
+sent.L39.sidi,interface,Sidi,,,prototype
+sent.L39.surprend,interface,surprend,,,prototype
+sent.L39.tombent,interface,tombent,,,prototype
+sent.L39.une_pluie_surprise,interface,Une pluie surprise,,,prototype
+sent.L40.b_uf,interface,bœuf,,,prototype
+sent.L40.bleu,interface,bleu,,,prototype
+sent.L40.cause,interface,cause,,,prototype
+sent.L40.chaussures,interface,chaussures,,,prototype
+sent.L40.dado_est_tout_joyeux_parce_q,interface,Dado est tout joyeux parce que son maître vient de lui donner un œuf .,,,prototype
+sent.L40.devant,interface,devant,,,prototype
+sent.L40.donner,interface,donner,,,prototype
+sent.L40.jeu,interface,jeu,,,prototype
+sent.L40.joyeux,interface,joyeux,,,prototype
+sent.L40.la_vendeuse_de_l_ecole_n_aim,interface,La vendeuse de l’école n’aime pas le jeu devant son étalage à cause du feu.,,,prototype
+sent.L40.lacets,interface,lacets,,,prototype
+sent.L40.lecon_40_les_sons_eu_u,interface,Leçon 40. Les sons eu · œu,,,prototype
+sent.L40.lui,interface,lui,,,prototype
+sent.L40.marche,interface,marche,,,prototype
+sent.L40.mets_tes_chaussures,interface,Mets tes chaussures.,,,prototype
+sent.L40.n_aime,interface,n’aime,,,prototype
+sent.L40.n_ud,interface,nœud,,,prototype
+sent.L40.ne_marche_pas_les_pieds_nus,interface,Ne marche pas les pieds nus.,,,prototype
+sent.L40.nus,interface,nus,,,prototype
+sent.L40.parce,interface,parce,,,prototype
+sent.L40.pieds,interface,pieds,,,prototype
+sent.L40.pneu,interface,pneu,,,prototype
+sent.L40.queue,interface,queue,,,prototype
+sent.L40.serre,interface,Serre,,,prototype
+sent.L40.serre_les_lacets_et_fais_un_,interface,Serre les lacets et fais un nœud.,,,prototype
+sent.L40.u,interface,œu,,,prototype
+sent.L40.uf,interface,œuf,,,prototype
+sent.L40.v_u,interface,vœu,,,prototype
+sent.L40.vient,interface,vient,,,prototype
+sent.L41.01,sentence,"C’est le soir. Les deux sœurs Flore et Rose jouent au jeu de cache - cache dans la haie de fleurs. Flore voulant se cacher, voit un bâton ayant la forme d’un serpent. Apeurée, elle crie très fort. Sa maman entend son cri de peur. Elle surgit de la demeure. Le cœur de Flore bat sans arrêt. Sa sœur Rose la serre dans ses bras. Maman la console et lui promet du pain avec du beurre.",,,content
+sent.L41.acheteur,interface,acheteur,,,prototype
+sent.L41.apeuree,interface,Apeurée,,,prototype
+sent.L41.arret,interface,arrêt,,,prototype
+sent.L41.ayant,interface,ayant,,,prototype
+sent.L41.bat,interface,bat,,,prototype
+sent.L41.beurre,interface,beurre,,,prototype
+sent.L41.bras,interface,bras,,,prototype
+sent.L41.c_ur,interface,cœur,,,prototype
+sent.L41.cache,interface,cache,,,prototype
+sent.L41.cacher,interface,cacher,,,prototype
+sent.L41.chasseur,interface,chasseur,,,prototype
+sent.L41.console,interface,console,,,prototype
+sent.L41.cri,interface,cri,,,prototype
+sent.L41.crie,interface,crie,,,prototype
+sent.L41.cultivateur,interface,cultivateur,,,prototype
+sent.L41.demeure,interface,demeure,,,prototype
+sent.L41.entend,interface,entend,,,prototype
+sent.L41.fleurs,interface,fleurs,,,prototype
+sent.L41.flore,interface,Flore,,,prototype
+sent.L41.forme,interface,forme,,,prototype
+sent.L41.fort,interface,fort,,,prototype
+sent.L41.haie,interface,haie,,,prototype
+sent.L41.jouent,interface,jouent,,,prototype
+sent.L41.joueur,interface,joueur,,,prototype
+sent.L41.lecon_41_les_sons_eur_eure_u,interface,Leçon 41. Les sons eur · eure · œur,,,prototype
+sent.L41.les_deux_s_urs,interface,Les deux sœurs,,,prototype
+sent.L41.peur,interface,peur,,,prototype
+sent.L41.promet,interface,promet,,,prototype
+sent.L41.s_ur,interface,sœur,,,prototype
+sent.L41.s_urs,interface,sœurs,,,prototype
+sent.L41.serpent,interface,serpent,,,prototype
+sent.L41.soir,interface,soir,,,prototype
+sent.L41.surgit,interface,surgit,,,prototype
+sent.L41.voulant,interface,voulant,,,prototype
+sent.L42.01,sentence,"Le Samedi soir, Victoire va voir sa mère.",,,content content content content
+sent.L42.allume_moi,interface,allume-moi,,,prototype
+sent.L42.armoire,interface,armoire,,,prototype
+sent.L42.arrosoir,interface,arrosoir,,,prototype
+sent.L42.boire,interface,boire,,,prototype
+sent.L42.bonsoir_maman_je_veux_m_asse,interface,"Bonsoir maman, je veux m’asseoir sur vos genoux pour écouter une belle histoire. Êtes-vous d’accord maman ?",,,prototype
+sent.L42.d_abord,interface,d’abord,,,prototype
+sent.L42.d_accord,interface,d’accord,,,prototype
+sent.L42.deja,interface,déjà,,,prototype
+sent.L42.demande,interface,demande,,,prototype
+sent.L42.devoirs,interface,devoirs,,,prototype
+sent.L42.donne_moi,interface,donne-moi,,,prototype
+sent.L42.ecouter,interface,écouter,,,prototype
+sent.L42.etes_vous,interface,Êtes-vous,,,prototype
+sent.L42.genoux,interface,genoux,,,prototype
+sent.L42.histoire,interface,histoire,,,prototype
+sent.L42.lampe,interface,lampe,,,prototype
+sent.L42.lecon_42_les_sons_oir_oire,interface,Leçon 42. Les sons oir · oire,,,prototype
+sent.L42.m_asseoir,interface,m’asseoir,,,prototype
+sent.L42.mere,interface,mère,,,prototype
+sent.L42.mouchoir,interface,mouchoir,,,prototype
+sent.L42.noir,interface,noir,,,prototype
+sent.L42.oui_mais_donne_moi_a_boire_d,interface,"Oui mais donne-moi à boire d’abord. Ensuite, allume-moi la lampe à pétrole car il fait déjà noir.",,,prototype
+sent.L42.petrole,interface,pétrole,,,prototype
+sent.L42.qu_elle,interface,qu’elle,,,prototype
+sent.L42.tiroir,interface,tiroir,,,prototype
+sent.L42.une_histoire,interface,Une histoire,,,prototype
+sent.L42.veut,interface,veut,,,prototype
+sent.L42.veux,interface,veux,,,prototype
+sent.L42.victoire,interface,Victoire,,,prototype
+sent.L42.victoire_fait_tout_ce_que_sa,interface,Victoire fait tout ce que sa mère lui demande parce qu’elle veut écouter sa belle histoire.,,,prototype
+sent.L42.vos,interface,vos,,,prototype
+sent.L43.01,sentence,"Au village, on entend le forgeron qui tape sur son enclume. Le bruit se fait entendre dans le garage du père de Gildas. Le forgeron Gédéon fabrique dans sa forge des instruments pour les vendre aux étrangers en voyage pendant leur passage dans notre village.",,,content
+sent.L43.aux,interface,aux,,,prototype
+sent.L43.berger,interface,berger,,,prototype
+sent.L43.bougie,interface,bougie,,,prototype
+sent.L43.bruit,interface,bruit,,,prototype
+sent.L43.enclume,interface,enclume,,,prototype
+sent.L43.entendre,interface,entendre,,,prototype
+sent.L43.etranger,interface,étranger,,,prototype
+sent.L43.etrangers,interface,étrangers,,,prototype
+sent.L43.fabrique,interface,fabrique,,,prototype
+sent.L43.forge,interface,forge,,,prototype
+sent.L43.forgeron,interface,forgeron,,,prototype
+sent.L43.garage,interface,garage,,,prototype
+sent.L43.gedeon,interface,Gédéon,,,prototype
+sent.L43.genou,interface,genou,,,prototype
+sent.L43.gildas,interface,Gildas,,,prototype
+sent.L43.instruments,interface,instruments,,,prototype
+sent.L43.le_forgeron,interface,Le forgeron,,,prototype
+sent.L43.lecon_43_les_sons_g_j,interface,Leçon 43. Les sons g = j,,,prototype
+sent.L43.leur,interface,leur,,,prototype
+sent.L43.livre,interface,livre,,,prototype
+sent.L43.mangeant,interface,mangeant,,,prototype
+sent.L43.page,interface,page,,,prototype
+sent.L43.passage,interface,passage,,,prototype
+sent.L43.pendant,interface,pendant,,,prototype
+sent.L43.regime,interface,régime,,,prototype
+sent.L43.vendre,interface,vendre,,,prototype
+sent.L44.01,sentence,"Auguste est allé marauder. Il ramène beaucoup de mangues qu’il distribue à Hugues, Rodrigue, Agathe et Marguerite. Les mangues sont si juteuses que Hugues se blesse la langue en les mangeant. Les mangues ont si bon goût que Marguerite les déguste avec plaisir.",,,content
+sent.L44.agathe,interface,Agathe,,,prototype
+sent.L44.alle,interface,allé,,,prototype
+sent.L44.auguste,interface,Auguste,,,prototype
+sent.L44.bague,interface,bague,,,prototype
+sent.L44.blesse,interface,blesse,,,prototype
+sent.L44.deguste,interface,déguste,,,prototype
+sent.L44.distribue,interface,distribue,,,prototype
+sent.L44.gout,interface,goût,,,prototype
+sent.L44.guepe,interface,guêpe,,,prototype
+sent.L44.guidon,interface,guidon,,,prototype
+sent.L44.guitare,interface,guitare,,,prototype
+sent.L44.hugues,interface,Hugues,,,prototype
+sent.L44.juteuses,interface,juteuses,,,prototype
+sent.L44.langue,interface,langue,,,prototype
+sent.L44.lecon_44_les_sons_gu,interface,Leçon 44. Les sons gu,,,prototype
+sent.L44.les_mangues,interface,Les mangues,,,prototype
+sent.L44.mangues,interface,mangues,,,prototype
+sent.L44.marauder,interface,marauder,,,prototype
+sent.L44.marguerite,interface,Marguerite,,,prototype
+sent.L44.pirogue,interface,pirogue,,,prototype
+sent.L44.plaisir,interface,plaisir,,,prototype
+sent.L44.qu_il,interface,qu’il,,,prototype
+sent.L44.ramene,interface,ramène,,,prototype
+sent.L44.rodrigue,interface,Rodrigue,,,prototype
+sent.L45.01,sentence,"Ignace, l’ami de Bio est allé en vacances à Gamia, un village du Nord-Bénin. Sous un arbre où des araignées avaient tissé leur toile, un repas fait d’ignames pilées, d’une sauce d’oignons accompagnée de viandes séchées, est offert au jeune Ignace qui a mangé avec appétit. Avec quelques poignées, le repas est terminé.",,,content
+sent.L45.accompagnee,interface,accompagnée,,,prototype
+sent.L45.agneau,interface,agneau,,,prototype
+sent.L45.appetit,interface,appétit,,,prototype
+sent.L45.araignee,interface,araignée,,,prototype
+sent.L45.araignees,interface,araignées,,,prototype
+sent.L45.arbre,interface,arbre,,,prototype
+sent.L45.avaient,interface,avaient,,,prototype
+sent.L45.bio,interface,Bio,,,prototype
+sent.L45.campagne,interface,campagne,,,prototype
+sent.L45.champignon,interface,champignon,,,prototype
+sent.L45.d_oignons,interface,d’oignons,,,prototype
+sent.L45.gamia,interface,Gamia,,,prototype
+sent.L45.ignace,interface,Ignace,,,prototype
+sent.L45.l_ami,interface,l’ami,,,prototype
+sent.L45.lecon_45_les_sons_gn,interface,Leçon 45. Les sons gn,,,prototype
+sent.L45.ligne,interface,ligne,,,prototype
+sent.L45.mange,interface,mangé,,,prototype
+sent.L45.montagne,interface,montagne,,,prototype
+sent.L45.nord_benin,interface,Nord-Bénin,,,prototype
+sent.L45.offert,interface,offert,,,prototype
+sent.L45.oignon,interface,oignon,,,prototype
+sent.L45.pagne,interface,pagne,,,prototype
+sent.L45.pilees,interface,pilées,,,prototype
+sent.L45.poignee,interface,poignée,,,prototype
+sent.L45.poignees,interface,poignées,,,prototype
+sent.L45.quelques,interface,quelques,,,prototype
+sent.L45.repas,interface,repas,,,prototype
+sent.L45.sechees,interface,séchées,,,prototype
+sent.L45.tisse,interface,tissé,,,prototype
+sent.L45.toile,interface,toile,,,prototype
+sent.L45.un_bon_repas,interface,Un bon repas,,,prototype
+sent.L45.viandes,interface,viandes,,,prototype
+sent.L46.banque,interface,banque,,,prototype
+sent.L46.brique,interface,brique,,,prototype
+sent.L46.copie,interface,copie,,,prototype
+sent.L46.culotte,interface,culotte,,,prototype
+sent.L46.karite,interface,karité,,,prototype
+sent.L46.lecon_46_les_sons_qu_k_c,interface,Leçon 46. Les sons qu = k = c,,,prototype
+sent.L46.quinine,interface,quinine,,,prototype
+sent.L46.quinqueliba,interface,quinquéliba,,,prototype
+sent.L46.requin,interface,requin,,,prototype
+sent.L47.01,sentence,"Le plus grand magasin de notre ville a été créé par Maryse. Il se trouve à l’entrée de la ville, très loin de notre maison. On y trouve beaucoup de choses comme des chaises, des vases, des petites cases en bois, des blouses blanches, et beaucoup d’autres objets. Chaque fois que je le visite, il y a toujours des surprises.",,,content
+sent.L47.blanches,interface,blanches,,,prototype
+sent.L47.blouses,interface,blouses,,,prototype
+sent.L47.camisole,interface,camisole,,,prototype
+sent.L47.cases,interface,cases,,,prototype
+sent.L47.chaise,interface,chaise,,,prototype
+sent.L47.chaises,interface,chaises,,,prototype
+sent.L47.choses,interface,choses,,,prototype
+sent.L47.cree,interface,créé,,,prototype
+sent.L47.d_autres,interface,d’autres,,,prototype
+sent.L47.ete,interface,été,,,prototype
+sent.L47.fois,interface,fois,,,prototype
+sent.L47.lecon_47_les_sons_s_z,interface,Leçon 47. Les sons s = z,,,prototype
+sent.L47.magasin,interface,magasin,,,prototype
+sent.L47.maryse,interface,Maryse,,,prototype
+sent.L47.objets,interface,objets,,,prototype
+sent.L47.oiseaux,interface,oiseaux,,,prototype
+sent.L47.petites,interface,petites,,,prototype
+sent.L47.surprises,interface,surprises,,,prototype
+sent.L47.valise,interface,valise,,,prototype
+sent.L47.vases,interface,vases,,,prototype
+sent.L47.visage,interface,visage,,,prototype
+sent.L47.visite,interface,visite,,,prototype
+sent.L48.c_s,interface,ç = s,,,prototype
+sent.L48.calebasse,interface,calebasse,,,prototype
+sent.L48.calecon,interface,caleçon,,,prototype
+sent.L48.cigarette,interface,cigarette,,,prototype
+sent.L48.garcon,interface,garçon,,,prototype
+sent.L48.hamecon,interface,hameçon,,,prototype
+sent.L48.lecon,interface,leçon,,,prototype
+sent.L48.lecon_48_les_sons_c_s_c_s,interface,Leçon 48. Les sons c = s · ç = s,,,prototype
+sent.L48.macon,interface,maçon,,,prototype
+sent.L48.pouce,interface,pouce,,,prototype
+sent.L49.bananier,interface,bananier,,,prototype
+sent.L49.bijoutier,interface,bijoutier,,,prototype
+sent.L49.cahier,interface,cahier,,,prototype
+sent.L49.casier,interface,casier,,,prototype
+sent.L49.collier,interface,collier,,,prototype
+sent.L49.dernier,interface,dernier,,,prototype
+sent.L49.ecolier,interface,écolier,,,prototype
+sent.L49.encrier,interface,encrier,,,prototype
+sent.L49.kapokier,interface,kapokier,,,prototype
+sent.L49.lecon_49_les_sons_iez_ier_ie,interface,Leçon 49. Les sons iez · ier · ied,,,prototype
+sent.L49.panier,interface,panier,,,prototype
+sent.L49.papier,interface,papier,,,prototype
+sent.L49.premier,interface,premier,,,prototype
+sent.L49.riez,interface,riez,,,prototype
+sent.L49.soulier,interface,soulier,,,prototype
+sent.L49.trepied,interface,trépied,,,prototype
+sent.L49.vous,interface,vous,,,prototype
+sent.L50.01,sentence,"À kérou, nous avons un voisin qui a un domaine avec beaucoup d’animaux. Chaque fois que je monte sur une chaise pour les regarder je vois des vaches, des chevaux, des chiens et des chats. Quand je saute de ma chaise pour descendre je fais tomber mon chapeau.",,,content
+sent.L50.bouche,interface,bouche,,,prototype
+sent.L50.chameau,interface,chameau,,,prototype
+sent.L50.champ,interface,champ,,,prototype
+sent.L50.chant,interface,chant,,,prototype
+sent.L50.chat,interface,chat,,,prototype
+sent.L50.chats,interface,chats,,,prototype
+sent.L50.chaussure,interface,chaussure,,,prototype
+sent.L50.chemise,interface,chemise,,,prototype
+sent.L50.chevaux,interface,chevaux,,,prototype
+sent.L50.chiens,interface,chiens,,,prototype
+sent.L50.d_animaux,interface,d’animaux,,,prototype
+sent.L50.descendre,interface,descendre,,,prototype
+sent.L50.domaine,interface,domaine,,,prototype
+sent.L50.kerou,interface,kérou,,,prototype
+sent.L50.l_arachide,interface,l’arachide,,,prototype
+sent.L50.le_domaine,interface,Le domaine,,,prototype
+sent.L50.lecon_50_les_sons_ch,interface,Leçon 50. Les sons ch,,,prototype
+sent.L50.monte,interface,monte,,,prototype
+sent.L50.mouche,interface,mouche,,,prototype
+sent.L50.regarder,interface,regarder,,,prototype
+sent.L50.tomber,interface,tomber,,,prototype
+sent.L50.vaches,interface,vaches,,,prototype
+sent.L51.01,sentence,L’oncle Mathieu a une belle voiture avec des phares ronds. Il vient d’appeler sa nièce au téléphone. Ensemble ils iront acheter du pain et un médicament à la pharmacie. Au retour ils iront prendre une photo chez Moustapha l’un des photographes du village,,,content
+sent.L51.d_appeler,interface,d’appeler,,,prototype
+sent.L51.ensemble,interface,Ensemble,,,prototype
+sent.L51.ils,interface,ils,,,prototype
+sent.L51.iront,interface,iront,,,prototype
+sent.L51.l_oncle,interface,L’oncle,,,prototype
+sent.L51.l_un,interface,l’un,,,prototype
+sent.L51.le_photographe,interface,Le photographe,,,prototype
+sent.L51.lecon_51_les_sons_ph_f_th_t,interface,Leçon 51. Les sons ph = f · th = t,,,prototype
+sent.L51.mathieu,interface,Mathieu,,,prototype
+sent.L51.medicament,interface,médicament,,,prototype
+sent.L51.moustapha,interface,Moustapha,,,prototype
+sent.L51.niece,interface,nièce,,,prototype
+sent.L51.panthere,interface,panthère,,,prototype
+sent.L51.phare,interface,phare,,,prototype
+sent.L51.phares,interface,phares,,,prototype
+sent.L51.pharmacie,interface,pharmacie,,,prototype
+sent.L51.phonographe,interface,phonographe,,,prototype
+sent.L51.photo,interface,photo,,,prototype
+sent.L51.photographe,interface,photographe,,,prototype
+sent.L51.photographes,interface,photographes,,,prototype
+sent.L51.prendre,interface,prendre,,,prototype
+sent.L51.ronds,interface,ronds,,,prototype
+sent.L51.telephone,interface,téléphone,,,prototype
+sent.L51.the,interface,thé,,,prototype
+sent.L52.01,sentence,Pendant les vacances papa nous accompagne avec sa charette en campagne faire du pique-nique et aussi des parties de chasse. Chacun de nous profite pour se reposer loin de la chaleur de la ville et des accidents. Sur le chemin de retour nous chantons tout en traversant les grands champs étendus à perte de vue.,,,content
+sent.L52.accidents,interface,accidents,,,prototype
+sent.L52.accompagne,interface,accompagne,,,prototype
+sent.L52.attraction,interface,attraction,,,prototype
+sent.L52.chacun,interface,Chacun,,,prototype
+sent.L52.chaleur,interface,chaleur,,,prototype
+sent.L52.champs,interface,champs,,,prototype
+sent.L52.chantons,interface,chantons,,,prototype
+sent.L52.charette,interface,charette,,,prototype
+sent.L52.chasse,interface,chasse,,,prototype
+sent.L52.chemin,interface,chemin,,,prototype
+sent.L52.choc,interface,choc,,,prototype
+sent.L52.etendus,interface,étendus,,,prototype
+sent.L52.grands,interface,grands,,,prototype
+sent.L52.lecon_52_les_sons_ac_oc_ic,interface,Leçon 52. Les sons ac · oc · ic,,,prototype
+sent.L52.parties,interface,parties,,,prototype
+sent.L52.perte,interface,perte,,,prototype
+sent.L52.pique_nique,interface,pique-nique,,,prototype
+sent.L52.profite,interface,profite,,,prototype
+sent.L52.reposer,interface,reposer,,,prototype
+sent.L52.traversant,interface,traversant,,,prototype
+sent.L53.01,sentence,"À l’école nous apprenons à faire des calculs d’addition, de soustraction, de multiplication et de division. Pendant la récréation, le directeur de l’école va à la banque faire des opérations, il fait attention aux voitures et aux motos en traversant la route.",,,content
+sent.L53.application,interface,application,,,prototype
+sent.L53.apprenons,interface,apprenons,,,prototype
+sent.L53.calculs,interface,calculs,,,prototype
+sent.L53.d_addition,interface,d’addition,,,prototype
+sent.L53.habitation,interface,habitation,,,prototype
+sent.L53.lecon_53_les_sons_tion_sion,interface,Leçon 53. Les sons tion = sion,,,prototype
+sent.L53.les_operations,interface,Les opérations,,,prototype
+sent.L53.motos,interface,motos,,,prototype
+sent.L53.multiplication,interface,multiplication,,,prototype
+sent.L53.operations,interface,opérations,,,prototype
+sent.L53.punition,interface,punition,,,prototype
+sent.L53.recreation,interface,récréation,,,prototype
+sent.L53.tension,interface,tension,,,prototype
+sent.L53.voitures,interface,voitures,,,prototype
+sent.L54.blanc,interface,blanc,,,prototype
+sent.L54.boucle,interface,boucle,,,prototype
+sent.L54.cle,interface,clé,,,prototype
+sent.L54.epingle,interface,épingle,,,prototype
+sent.L54.flacon,interface,flacon,,,prototype
+sent.L54.flamme,interface,flamme,,,prototype
+sent.L54.fleur,interface,fleur,,,prototype
+sent.L54.lecon_54_les_sons_bl_pl_vl_f,interface,Leçon 54. Les sons bl · pl · vl · fl · cl,,,prototype
+sent.L54.pantoufle,interface,pantoufle,,,prototype
+sent.L54.plafond,interface,plafond,,,prototype
+sent.L54.plan,interface,plan,,,prototype
+sent.L54.regle,interface,règle,,,prototype
+sent.L55.01,sentence,"Avant la nouvelle année, maman dégage toutes les ordures de la maison. Mon frère est chargé d’orner le salon et le rendre beau. Papa aussi ne se repose pas, il arrache les mauvaises herbes autour de la maison. Pour aller retirer de l’argent à la banque, papa prend l’autocar.",,,content
+sent.L55.annee,interface,année,,,prototype
+sent.L55.ardoise,interface,ardoise,,,prototype
+sent.L55.arrache,interface,arrache,,,prototype
+sent.L55.canard,interface,canard,,,prototype
+sent.L55.cartouche,interface,cartouche,,,prototype
+sent.L55.charge,interface,chargé,,,prototype
+sent.L55.charognard,interface,charognard,,,prototype
+sent.L55.cornes,interface,cornes,,,prototype
+sent.L55.d_orner,interface,d’orner,,,prototype
+sent.L55.degage,interface,dégage,,,prototype
+sent.L55.herbes,interface,herbes,,,prototype
+sent.L55.l_autocar,interface,l’autocar,,,prototype
+sent.L55.l_or,interface,l’or,,,prototype
+sent.L55.lecon_55_les_sons_ar_or,interface,Leçon 55. Les sons ar · or,,,prototype
+sent.L55.les_preparatifs,interface,Les préparatifs,,,prototype
+sent.L55.marchand,interface,marchand,,,prototype
+sent.L55.marmite,interface,marmite,,,prototype
+sent.L55.mauvaises,interface,mauvaises,,,prototype
+sent.L55.nouvelle,interface,nouvelle,,,prototype
+sent.L55.ordures,interface,ordures,,,prototype
+sent.L55.repose,interface,repose,,,prototype
+sent.L55.retirer,interface,retirer,,,prototype
+sent.L55.salon,interface,salon,,,prototype
+sent.L56.01,sentence,"L’hôpital du village est près du grand fromager. Un autre grand arbre donne de l’ombre dans la cour. Notre hôpital compte un grand bâtiment administratif près du grand portail, trois salles de soins sont construites et trois autres attendent d’être en matériaux définitifs, une décision prise par le directeur du personnel soignant après la réunion du dernier vendredi du mois passé. Mes amis Brigitte, Crépin, Grégoire et moi préparons un test pour y travailler.",,,content
+sent.L56.administratif,interface,administratif,,,prototype
+sent.L56.amis,interface,amis,,,prototype
+sent.L56.attendent,interface,attendent,,,prototype
+sent.L56.autre,interface,autre,,,prototype
+sent.L56.autres,interface,autres,,,prototype
+sent.L56.batiment,interface,bâtiment,,,prototype
+sent.L56.brigitte,interface,Brigitte,,,prototype
+sent.L56.compte,interface,compte,,,prototype
+sent.L56.construites,interface,construites,,,prototype
+sent.L56.cour,interface,cour,,,prototype
+sent.L56.crepin,interface,Crépin,,,prototype
+sent.L56.crocodile,interface,crocodile,,,prototype
+sent.L56.d_etre,interface,d’être,,,prototype
+sent.L56.decision,interface,décision,,,prototype
+sent.L56.definitifs,interface,définitifs,,,prototype
+sent.L56.donne,interface,donne,,,prototype
+sent.L56.fromager,interface,fromager,,,prototype
+sent.L56.gregoire,interface,Grégoire,,,prototype
+sent.L56.griffes,interface,griffes,,,prototype
+sent.L56.l_hopital,interface,L’hôpital,,,prototype
+sent.L56.lecon_56_les_sons_br_tr_cr_p,interface,Leçon 56. Les sons br · tr · cr · pr · dr · gr · vr · fr,,,prototype
+sent.L56.levre,interface,lèvre,,,prototype
+sent.L56.materiaux,interface,matériaux,,,prototype
+sent.L56.mois,interface,mois,,,prototype
+sent.L56.passe,interface,passé,,,prototype
+sent.L56.personnel,interface,personnel,,,prototype
+sent.L56.portail,interface,portail,,,prototype
+sent.L56.preparons,interface,préparons,,,prototype
+sent.L56.prise,interface,prise,,,prototype
+sent.L56.promenade,interface,promenade,,,prototype
+sent.L56.reunion,interface,réunion,,,prototype
+sent.L56.sabre,interface,sabre,,,prototype
+sent.L56.salles,interface,salles,,,prototype
+sent.L56.soignant,interface,soignant,,,prototype
+sent.L56.sucre,interface,sucre,,,prototype
+sent.L56.test,interface,test,,,prototype
+sent.L56.timbre,interface,timbre,,,prototype
+sent.L56.traite,interface,traité,,,prototype
+sent.L56.travailler,interface,travailler,,,prototype
+sent.L56.vendredi,interface,vendredi,,,prototype
+syll.ba,syllabe,ba,,,pack4 content
+syll.be,syllabe,be,,,pack4 content
+syll.be_acute,syllabe,bé,,,pack4 content
+syll.be_circ,syllabe,bê,,,pack4 content
+syll.be_grave,syllabe,bè,,,pack4 content
+syll.bem,syllable,bem,,,content content
+syll.bi,syllabe,bi,,,pack4 content
+syll.bien,syllable,bien,,,content
+syll.bo,syllabe,bo,,,pack4 content
+syll.boi,syllable,boi,,,content content
+syll.bom,syllable,bom,,,content content
+syll.bon,syllable,bon,,,content content
+syll.bu,syllabe,bu,,,pack4 content
+syll.c_est,syllable,c’est,,,content content
+syll.ca,syllabe,ca,,,pack4 content content
+syll.ce,syllabe,ce,,,pack4 content content content
+syll.ce_acute,syllabe,cé,,,pack4 content
+syll.ce_circ,syllabe,cê,,,pack4 content
+syll.ce_grave,syllabe,cè,,,pack4 content
+syll.ceci,syllable,ceci,,,content content
+syll.cein,syllable,cein,,,content content
+syll.cela,syllable,cela,,,content content
+syll.celle,syllable,celle,,,content content
+syll.celui,syllable,celui,,,content
+syll.cette,syllable,cette,,,content content
+syll.cha,syllable,cha,,,content
+syll.chai_circ,syllable,chaî,,,content
+syll.chan,syllable,chan,,,content
+syll.chau,syllable,chau,,,content
+syll.che,syllable,che,,,content
+syll.che_acute,syllable,ché,,,content
+syll.chi,syllable,chi,,,content
+syll.cho,syllable,cho,,,content
+syll.chu,syllable,chu,,,content
+syll.ci,syllabe,ci,,,pack4 content
+syll.cin,syllable,cin,,,content content
+syll.co,syllabe,co,,,pack4 content content
+syll.com,syllable,com,,,content content
+syll.cou,syllable,cou,,,content content
+syll.cu,syllabe,cu,,,pack4 content content
+syll.da,syllabe,da,,,pack4 content
+syll.dan,syllable,dan,,,content content
+syll.de,syllabe,de,,,pack4 content
+syll.de_acute,syllabe,dé,,,pack4 content
+syll.de_circ,syllabe,dê,,,pack4 content
+syll.de_grave,syllabe,dè,,,pack4 content
+syll.den,syllable,den,,,content content
+syll.di,syllabe,di,,,pack4 content
+syll.din,syllable,din,,,content content
+syll.do,syllabe,do,,,pack4 content
+syll.doi,syllable,doi,,,content content
+syll.dom,syllable,dom,,,content content
+syll.dou,syllable,dou,,,content
+syll.du,syllabe,du,,,pack4 content
+syll.ein,syllable,ein,,,content
+syll.fa,syllabe,fa,,,pack4 content
+syll.faim,syllable,faim,,,content content
+syll.fe,syllabe,fe,,,pack4 content
+syll.fe_acute,syllabe,fé,,,pack4 content
+syll.fe_circ,syllabe,fê,,,pack4 content
+syll.fe_grave,syllabe,fè,,,pack4 content
+syll.fi,syllabe,fi,,,pack4 content
+syll.fo,syllabe,fo,,,pack4 content
+syll.fon,syllable,fon,,,content content
+syll.fou,syllable,fou,,,content content
+syll.fu,syllabe,fu,,,pack4 content
+syll.ga,syllabe,ga,,,pack4 content
+syll.ge,syllable,ge,,,content
+syll.ge_acute,syllable,gé,,,content
+syll.geant,syllable,geant,,,content
+syll.geon,syllable,geon,,,content
+syll.gi,syllable,gi,,,content
+syll.gna,syllable,gna,,,content
+syll.gne,syllable,gne,,,content
+syll.gne_acute,syllable,gné,,,content
+syll.gni,syllable,gni,,,content
+syll.gnon,syllable,gnon,,,content
+syll.gnu,syllable,gnu,,,content
+syll.go,syllabe,go,,,pack4 content
+syll.gu,syllabe,gu,,,pack4 content
+syll.gue,syllable,gue,,,content
+syll.gue_acute,syllable,gué,,,content
+syll.gue_circ,syllable,guê,,,content
+syll.gui,syllable,gui,,,content
+syll.ha,syllabe,ha,,,pack4 content
+syll.he,syllabe,he,,,pack4 content
+syll.he_acute,syllabe,hé,,,pack4 content
+syll.he_circ,syllabe,hê,,,pack4 content
+syll.he_grave,syllabe,hè,,,pack4 content
+syll.hi,syllabe,hi,,,pack4 content
+syll.ho,syllabe,ho,,,pack4 content
+syll.hou,syllable,hou,,,content content
+syll.hu,syllabe,hu,,,pack4 content
+syll.ja,syllabe,ja,,,pack4 content
+syll.je,syllabe,je,,,pack4 content
+syll.je_acute,syllabe,jé,,,pack4 content
+syll.je_circ,syllabe,jê,,,pack4 content
+syll.je_grave,syllabe,jè,,,pack4 content
+syll.ji,syllabe,ji,,,pack4 content
+syll.jo,syllabe,jo,,,pack4 content
+syll.jon,syllable,jon,,,content content
+syll.jou,syllable,jou,,,content content
+syll.ju,syllabe,ju,,,pack4 content
+syll.ka,syllabe,ka,,,pack4 content content
+syll.ke,syllabe,ke,,,pack4 content
+syll.ke_acute,syllabe,ké,,,pack4 content content
+syll.ke_circ,syllabe,kê,,,pack4 content
+syll.ke_grave,syllabe,kè,,,pack4 content
+syll.ki,syllabe,ki,,,pack4 content content
+syll.ko,syllabe,ko,,,pack4 content content
+syll.ku,syllabe,ku,,,pack4 content content
+syll.la,syllabe,la,,,pack4 content
+syll.lam,syllable,lam,,,content content
+syll.le,syllabe,le,,,pack4 content
+syll.le_acute,syllabe,lé,,,pack4 content
+syll.le_circ,syllabe,lê,,,pack4 content
+syll.le_grave,syllabe,lè,,,pack4 content
+syll.lem,syllable,lem,,,content content
+syll.len,syllable,len,,,content content
+syll.li,syllabe,li,,,pack4 content
+syll.lin,syllable,lin,,,content content
+syll.lo,syllabe,lo,,,pack4 content
+syll.loi,syllable,loi,,,content content
+syll.loin,syllable,loin,,,content
+syll.lon,syllable,lon,,,content content
+syll.lou,syllable,lou,,,content
+syll.lu,syllabe,lu,,,pack4 content
+syll.ma,syllabe,ma,,,pack4 content
+syll.main,syllable,main,,,content content
+syll.mam,syllable,mam,,,content content
+syll.man,syllable,man,,,content content
+syll.me,syllabe,me,,,pack4 content
+syll.me_acute,syllabe,mé,,,pack4 content
+syll.me_circ,syllabe,mê,,,pack4 content
+syll.me_grave,syllabe,mè,,,pack4 content
+syll.ment,syllable,ment,,,content content
+syll.mi,syllabe,mi,,,pack4 content
+syll.mien,syllable,mien,,,content
+syll.min,syllable,min,,,content content
+syll.mo,syllabe,mo,,,pack4 content
+syll.moi,syllable,moi,,,content content
+syll.mon,syllable,mon,,,content content
+syll.mou,syllable,mou,,,content content
+syll.mu,syllabe,mu,,,pack4 content
+syll.na,syllabe,na,,,pack4 content
+syll.ne,syllabe,ne,,,pack4 content
+syll.ne_acute,syllabe,né,,,pack4 content
+syll.ne_circ,syllabe,nê,,,pack4 content
+syll.ne_grave,syllabe,nè,,,pack4 content
+syll.ni,syllabe,ni,,,pack4 content
+syll.no,syllabe,no,,,pack4 content
+syll.noi,syllable,noi,,,content content
+syll.non,syllable,non,,,content content
+syll.nu,syllabe,nu,,,pack4 content
+syll.pa,syllabe,pa,,,pack4 content
+syll.pain,syllable,pain,,,content content
+syll.pam,syllable,pam,,,content content
+syll.pan,syllable,pan,,,content content
+syll.pe,syllabe,pe,,,pack4 content
+syll.pe_acute,syllabe,pé,,,pack4 content
+syll.pe_circ,syllabe,pê,,,pack4 content
+syll.pe_grave,syllabe,pè,,,pack4 content
+syll.pein,syllable,pein,,,content content
+syll.pen,syllable,pen,,,content content
+syll.pi,syllabe,pi,,,pack4 content
+syll.pin,syllable,pin,,,content content
+syll.po,syllabe,po,,,pack4 content
+syll.poi,syllable,poi,,,content content
+syll.poin,syllable,poin,,,content
+syll.pom,syllable,pom,,,content content
+syll.pon,syllable,pon,,,content content
+syll.pu,syllabe,pu,,,pack4 content
+syll.qua,syllable,qua,,,content
+syll.que,syllable,que,,,content
+syll.que_acute,syllable,qué,,,content
+syll.qui,syllable,qui,,,content
+syll.quo,syllable,quo,,,content
+syll.ra,syllabe,ra,,,pack4 content
+syll.re,syllabe,re,,,pack4 content
+syll.re_acute,syllabe,ré,,,pack4 content
+syll.re_circ,syllabe,rê,,,pack4 content
+syll.re_grave,syllabe,rè,,,pack4 content
+syll.ri,syllabe,ri,,,pack4 content
+syll.rin,syllable,rin,,,content content
+syll.ro,syllabe,ro,,,pack4 content
+syll.roi,syllable,roi,,,content
+syll.ron,syllable,ron,,,content
+syll.rou,syllable,rou,,,content content
+syll.ru,syllabe,ru,,,pack4 content
+syll.sa,syllabe,sa,,,pack4 content
+syll.sam,syllable,sam,,,content
+syll.san,syllable,san,,,content content
+syll.se,syllabe,se,,,pack4 content
+syll.se_acute,syllabe,sé,,,pack4 content
+syll.se_circ,syllabe,sê,,,pack4 content
+syll.se_grave,syllabe,sè,,,pack4 content
+syll.si,syllabe,si,,,pack4 content
+syll.sien,syllable,sien,,,content
+syll.sin,syllable,sin,,,content content
+syll.so,syllabe,so,,,pack4 content
+syll.soi,syllable,soi,,,content content
+syll.soin,syllable,soin,,,content
+syll.son,syllable,son,,,content
+syll.sou,syllable,sou,,,content content
+syll.su,syllabe,su,,,pack4 content
+syll.ta,syllabe,ta,,,pack4 content content
+syll.te,syllabe,te,,,pack4 content content
+syll.te_acute,syllabe,té,,,pack4 content content
+syll.te_circ,syllabe,tê,,,pack4 content content
+syll.te_grave,syllabe,tè,,,pack4 content
+syll.tein,syllable,tein,,,content
+syll.tend,syllable,tend,,,content content
+syll.ti,syllabe,ti,,,pack4 content content
+syll.tien,syllable,tien,,,content
+syll.tion,syllable,tion,,,content
+syll.to,syllabe,to,,,pack4 content content
+syll.toi,syllable,toi,,,content content
+syll.ton,syllable,ton,,,content content
+syll.tu,syllabe,tu,,,pack4 content content
+syll.va,syllabe,va,,,pack4 content
+syll.vam,syllable,vam,,,content content
+syll.van,syllable,van,,,content content
+syll.vant,syllable,vant,,,content content
+syll.ve,syllabe,ve,,,pack4 content
+syll.ve_acute,syllabe,vé,,,pack4 content
+syll.ve_circ,syllabe,vê,,,pack4 content
+syll.ve_grave,syllabe,vè,,,pack4 content
+syll.vi,syllabe,vi,,,pack4 content
+syll.vien,syllable,vien,,,content
+syll.vin,syllable,vin,,,content content
+syll.vo,syllabe,vo,,,pack4 content
+syll.voi,syllable,voi,,,content content
+syll.voici,syllable,voici,,,content content
+syll.vom,syllable,vom,,,content content
+syll.von,syllable,von,,,content
+syll.vu,syllabe,vu,,,pack4 content
+syll.za,syllabe,za,,,pack4 content
+syll.ze,syllabe,ze,,,pack4 content
+syll.ze_acute,syllabe,zé,,,pack4 content
+syll.ze_circ,syllabe,zê,,,pack4 content
+syll.ze_grave,syllabe,zè,,,pack4 content
+syll.zi,syllabe,zi,,,pack4 content
+syll.zo,syllabe,zo,,,pack4 content
+syll.zu,syllabe,zu,,,pack4 content
+ui.activity.almost,interface,Presque. Écoute encore.,,,pack4
+ui.activity.comprehension.prompt,interface,Réponds à la question,,,pack4
+ui.activity.correct,interface,C'est ça.,,,pack4
+ui.activity.hint.listenAgain,interface,Écoute encore,,,pack4
+ui.activity.hint.narrow,interface,C'est l'un des deux,,,pack4
+ui.activity.hint.show,interface,Regarde,,,pack4
+ui.activity.listenChoose.prompt,interface,"Écoute, puis touche le bon",,,pack4
+ui.activity.missingLetter.prompt,interface,Quelle lettre manque ?,,,pack4
+ui.activity.moveOn,interface,On continue. Tu la reverras.,,,pack4
+ui.activity.notYet,interface,Pas encore. On réessaie.,,,pack4
+ui.activity.skipConfirm,interface,Passer cet exercice ?,,,pack4
+ui.activity.syllableBuild.prompt,interface,Écoute et construis la syllabe,,,pack4
+ui.activity.tapIdentify.prompt,interface,Touche {cible},,,pack4
+ui.activity.trace.prompt,interface,Écris {cible},,,pack4
+ui.activity.wordMatch.prompt,interface,Relie le mot à l'image,,,pack4
+ui.app.accueil,interface,Accueil,,,prototype
+ui.app.bien_suis_bien_le_modele_gris,interface,Bien. Suis bien le modèle gris.,,,prototype
+ui.app.bienvenue_a_bonbon_apprenons_a_lire_et_a,interface,"Bienvenue à Bonbon ! Apprenons à lire et à écrire ensemble, pas à pas.",,,prototype
+ui.app.bonjour_heureuse_de_te_revoir,interface,Bonjour ! Heureuse de te revoir.,,,prototype
+ui.app.cahier_d_ecriture_trace_une_lettre_avec_,interface,Cahier d'écriture. Trace une lettre avec ton doigt.,,,prototype
+ui.app.choisis_ton_image_tu_peux_aussi_ecrire_t,interface,Choisis ton image. Tu peux aussi écrire ton prénom.,,,prototype
+ui.app.ecoute,interface,Écoute :,,,prototype
+ui.app.ecoute_et_touche_la_syllabe,interface,Écoute et touche la syllabe,,,prototype
+ui.app.ecoute_et_touche_le_chiffre,interface,Écoute et touche le chiffre,,,prototype
+ui.app.ecoute_et_touche_le_mot,interface,Écoute et touche le mot,,,prototype
+ui.app.ecoute_et_touche_le_son,interface,Écoute et touche le son,,,prototype
+ui.app.ecriture_cursive_par_defaut,interface,Écriture cursive par défaut.,,,prototype
+ui.app.grand_texte,interface,Grand texte.,,,prototype
+ui.app.je_parle_lentement,interface,Je parle lentement.,,,prototype
+ui.app.je_parle_normalement,interface,Je parle normalement.,,,prototype
+ui.app.l_atelier_choisis_une_activite_libre,interface,L'atelier. Choisis une activité libre.,,,prototype
+ui.app.le_mur_des_lettres_les_26_lettres_a_ecou,interface,"Le mur des lettres. Les 26 lettres, à écouter et à tracer.",,,prototype
+ui.app.les_chiffres_de_0_a_9_ecoute_et_ecris,interface,Les chiffres. De 0 à 9 : écoute et écris.,,,prototype
+ui.app.les_chiffres_le_chiffre_0,interface,Les chiffres. Le chiffre 0,,,prototype
+ui.app.les_chiffres_le_chiffre_1,interface,Les chiffres. Le chiffre 1,,,prototype
+ui.app.les_chiffres_le_chiffre_2,interface,Les chiffres. Le chiffre 2,,,prototype
+ui.app.les_chiffres_le_chiffre_3,interface,Les chiffres. Le chiffre 3,,,prototype
+ui.app.les_chiffres_le_chiffre_4,interface,Les chiffres. Le chiffre 4,,,prototype
+ui.app.les_chiffres_le_chiffre_5,interface,Les chiffres. Le chiffre 5,,,prototype
+ui.app.les_chiffres_le_chiffre_6,interface,Les chiffres. Le chiffre 6,,,prototype
+ui.app.les_chiffres_le_chiffre_7,interface,Les chiffres. Le chiffre 7,,,prototype
+ui.app.les_chiffres_le_chiffre_8,interface,Les chiffres. Le chiffre 8,,,prototype
+ui.app.les_chiffres_le_chiffre_9,interface,Les chiffres. Le chiffre 9,,,prototype
+ui.app.les_lecons_touche_une_lecon,interface,Les leçons. Touche une leçon.,,,prototype
+ui.app.ouvrir_toutes_les_lecons,interface,Ouvrir toutes les leçons.,,,prototype
+ui.app.pas_encore_commence_en_haut_et_suis_le_m,interface,Pas encore. Commence en haut et suis le modèle.,,,prototype
+ui.app.presque_passe_sur_toute_la_lettre,interface,Presque. Passe sur toute la lettre.,,,prototype
+ui.app.q,interface,q,,,prototype
+ui.app.termine_d_abord_la_lecon_d_avant,interface,Termine d'abord la leçon d'avant.,,,prototype
+ui.app.trace_la_lettre_avec_ton_doigt_sur_le_mo,interface,"Trace la lettre avec ton doigt, sur le modèle gris.",,,prototype
+ui.app.tres_bien_trace,interface,Très bien tracé.,,,prototype
+ui.app.tu_as_trouve_0_sur_1,interface,Tu as trouvé 0 sur 1.,,,prototype
+ui.app.tu_as_trouve_0_sur_2,interface,Tu as trouvé 0 sur 2.,,,prototype
+ui.app.tu_as_trouve_0_sur_3,interface,Tu as trouvé 0 sur 3.,,,prototype
+ui.app.tu_as_trouve_0_sur_4,interface,Tu as trouvé 0 sur 4.,,,prototype
+ui.app.tu_as_trouve_1_sur_1,interface,Tu as trouvé 1 sur 1.,,,prototype
+ui.app.tu_as_trouve_1_sur_2,interface,Tu as trouvé 1 sur 2.,,,prototype
+ui.app.tu_as_trouve_1_sur_3,interface,Tu as trouvé 1 sur 3.,,,prototype
+ui.app.tu_as_trouve_1_sur_4,interface,Tu as trouvé 1 sur 4.,,,prototype
+ui.app.tu_as_trouve_2_sur_2,interface,Tu as trouvé 2 sur 2.,,,prototype
+ui.app.tu_as_trouve_2_sur_3,interface,Tu as trouvé 2 sur 3.,,,prototype
+ui.app.tu_as_trouve_2_sur_4,interface,Tu as trouvé 2 sur 4.,,,prototype
+ui.app.tu_as_trouve_3_sur_3,interface,Tu as trouvé 3 sur 3.,,,prototype
+ui.app.tu_as_trouve_3_sur_4,interface,Tu as trouvé 3 sur 4.,,,prototype
+ui.app.tu_as_trouve_4_sur_4,interface,Tu as trouvé 4 sur 4.,,,prototype
+ui.app.unite_1_les_voyelles,interface,Unité 1. Les voyelles.,,,prototype
+ui.app.unite_2_les_consonnes,interface,Unité 2. Les consonnes.,,,prototype
+ui.app.unite_3_les_sons_et_les_textes,interface,Unité 3. Les sons et les textes.,,,prototype
+ui.app.unite_4_les_chiffres,interface,Unité 4. Les chiffres.,,,prototype
+ui.app.voix_lente_la_voix_parle_plus_doucement,interface,Voix lente. La voix parle plus doucement.,,,prototype
+ui.app.w,interface,w,,,prototype
+ui.app.x,interface,x,,,prototype
+ui.assessment.bilan.good,interface,Bien lu. Tu as reconnu {n} choses sur {total}.,,,pack4
+ui.assessment.bilan.partial,interface,C'est en train de venir. On reverra {cible} bientôt.,,,pack4
+ui.assessment.bilan.title,interface,Quelques questions pour voir ce que tu retiens. Ce n'est pas un examen.,,,pack4
+ui.assessment.checkpoint.pass,interface,Unité terminée,,,pack4
+ui.assessment.checkpoint.title,interface,Tu arrives au bout de cette partie. On va revoir ensemble.,,,pack4
+ui.assessment.result.count,interface,{bon} sur {total},,,pack4
+ui.assessment.review.added,interface,On reverra : {liste},,,pack4
+ui.celebration.comeBack,interface,Reviens quand tu veux.,,,pack4
+ui.celebration.keepGoing,interface,On continue ?,,,pack4
+ui.celebration.lesson.done,interface,Leçon terminée,,,pack4
+ui.celebration.lesson.first,interface,Ta première leçon est terminée.,,,pack4
+ui.celebration.specific.letters,interface,Tu as reconnu la lettre {lettre}.,,,pack4
+ui.celebration.specific.syllables,interface,Tu as lu {n} syllabes.,,,pack4
+ui.celebration.specific.text,interface,Tu as lu un texte en entier.,,,pack4
+ui.celebration.specific.words,interface,Tu as lu {n} mots.,,,pack4
+ui.celebration.unit.done,interface,Unité terminée,,,pack4
+ui.common.again,interface,Appuie pour réécouter.,,,pack4
+ui.common.back,interface,Retour,,,pack4
+ui.common.close,interface,Fermer,,,pack4
+ui.common.continue,interface,Appuie pour continuer.,,,pack4
+ui.common.done,interface,Terminé,,,pack4
+ui.common.help,interface,Appuie longuement sur un bouton pour savoir à quoi il sert.,,,pack4
+ui.common.listen,interface,Appuie sur le haut-parleur pour écouter.,,,pack4
+ui.common.listenAll,interface,Tout écouter,,,pack4
+ui.common.loading,interface,Un instant…,,,pack4
+ui.common.next,interface,Suivant,,,pack4
+ui.common.no,interface,Non,,,pack4
+ui.common.previous,interface,Précédent,,,pack4
+ui.common.retry,interface,Réessayer,,,pack4
+ui.common.script.cursive,interface,Écriture attachée,,,pack4
+ui.common.script.print,interface,Écriture normale,,,pack4
+ui.common.skip,interface,Passer,,,pack4
+ui.common.slower,interface,Plus lentement,,,pack4
+ui.common.start,interface,Commencer,,,pack4
+ui.common.yes,interface,Oui,,,pack4
+ui.errors.audio.failed,interface,Le son ne marche pas. Vérifie le volume.,,,pack4
+ui.errors.content.broken,interface,Continuer,,,pack4
+ui.errors.generic,interface,Quelque chose n'a pas marché. Réessaie.,,,pack4
+ui.errors.storage.full,interface,Ton téléphone est plein. Libère un peu de place.,,,pack4
+ui.facilitator.addLearner,interface,Ajouter une apprenante,,,pack4
+ui.facilitator.enter,interface,Entrer,,,pack4
+ui.facilitator.groupSummary,interface,{n} apprenantes · {m} leçons terminées cette semaine,,,pack4
+ui.facilitator.learner.at,interface,En est à : {leçon},,,pack4
+ui.facilitator.learner.lastSeen,interface,Vue le {date},,,pack4
+ui.facilitator.learner.weak,interface,À travailler : {liste},,,pack4
+ui.facilitator.learners,interface,Les apprenantes,,,pack4
+ui.facilitator.subtitle,interface,Pour la personne qui accompagne le groupe.,,,pack4
+ui.facilitator.suggest,interface,À faire ensemble aujourd'hui,,,pack4
+ui.facilitator.title,interface,Mode animatrice,,,pack4
+ui.home.greeting.evening,interface,Bonsoir {nom},,,pack4
+ui.home.greeting.morning,interface,Bonjour {nom},,,pack4
+ui.home.path,interface,Mon parcours,,,pack4
+ui.home.practice,interface,M'entraîner,,,pack4
+ui.home.progress,interface,Mes progrès,,,pack4
+ui.home.resume,interface,Reprends là où tu t'es arrêtée.,,,pack4
+ui.home.resume.detail,interface,Leçon {n} — {titre},,,pack4
+ui.home.review.count,interface,{n} à revoir,,,pack4
+ui.home.review.today,interface,À revoir aujourd'hui,,,pack4
+ui.home.settings,interface,Réglages,,,pack4
+ui.home.startFirst,interface,Commencer la leçon 1,,,pack4
+ui.home.streak.days,interface,{n} jours de suite,,,pack4
+ui.home.streak.today,interface,Tu es venue aujourd'hui.,,,pack4
+ui.lesson.block.bilan,interface,Ce que tu as appris,,,pack4
+ui.lesson.block.forms,interface,Les formes de la lettre,,,pack4
+ui.lesson.block.keyword,interface,Le mot,,,pack4
+ui.lesson.block.repetition,interface,Regarde bien,,,pack4
+ui.lesson.block.sentences,interface,Les phrases,,,pack4
+ui.lesson.block.strip,interface,Lis les syllabes,,,pack4
+ui.lesson.block.strokes,interface,Comment on l'écrit,,,pack4
+ui.lesson.block.text,interface,Le texte,,,pack4
+ui.lesson.block.tree,interface,Les syllabes,,,pack4
+ui.lesson.block.words,interface,Les mots,,,pack4
+ui.lesson.block.writing,interface,À toi d'écrire,,,pack4
+ui.lesson.iReadIt,interface,J'ai lu,,,pack4
+ui.lesson.leave.cancel,interface,Je continue,,,pack4
+ui.lesson.leave.confirm,interface,"Oui, je m'arrête",,,pack4
+ui.lesson.leave.title,interface,Tu veux t'arrêter ? Je garde ta place.,,,pack4
+ui.lesson.longPressSyllables,interface,Appuie longtemps pour entendre syllabe par syllabe,,,pack4
+ui.lesson.objective,interface,Aujourd'hui,,,pack4
+ui.lesson.progress,interface,{i} sur {n},,,pack4
+ui.lesson.resumed,interface,On reprend ici.,,,pack4
+ui.lesson.tapToHear,interface,Touche pour écouter,,,pack4
+ui.lesson.wordByWord,interface,Mot à mot,,,pack4
+ui.onboarding.done.title,interface,C'est prêt. Prends ton temps. Tu peux revenir quand tu veux : l'application se souvient d'où tu t'es arrêtée.,,,pack4
+ui.onboarding.listenTest.title,interface,"Maintenant, touche le haut-parleur pour entendre une lettre.",,,pack4
+ui.onboarding.name.orAvatar,interface,Ou choisis une image,,,pack4
+ui.onboarding.name.placeholder,interface,Ton nom,,,pack4
+ui.onboarding.name.skip,interface,Passer,,,pack4
+ui.onboarding.name.title,interface,"Comment veux-tu qu'on t'appelle ? Tu peux écrire ton nom, ou choisir une image. Tu peux aussi passer.",,,pack4
+ui.onboarding.placement.fromStart,interface,Commencer au début. C'est le meilleur choix si tu n'es pas sûre.,,,pack4
+ui.onboarding.placement.result,interface,Tu peux commencer ici.,,,pack4
+ui.onboarding.placement.test,interface,Je vais te poser quelques questions courtes. Ce n'est pas un examen. Tu peux t'arrêter quand tu veux.,,,pack4
+ui.onboarding.placement.title,interface,"Veux-tu commencer au début, ou veux-tu que je regarde ce que tu sais déjà ?",,,pack4
+ui.onboarding.sound.help,interface,"Appuie sur le bouton du son, sur le côté de ton téléphone, vers le haut. Puis réessaie.",,,pack4
+ui.onboarding.sound.no,interface,Je n'entends rien,,,pack4
+ui.onboarding.sound.title,interface,"Est-ce que tu m'entends bien ? Si tu n'entends rien, monte le son de ton téléphone.",,,pack4
+ui.onboarding.sound.yes,interface,Je t'entends,,,pack4
+ui.onboarding.tapTest.ok,interface,C'est ça. Tu sais te servir de l'application.,,,pack4
+ui.onboarding.tapTest.retry,interface,Touche le rond bleu.,,,pack4
+ui.onboarding.tapTest.title,interface,On va essayer ensemble. Touche le rond bleu.,,,pack4
+ui.onboarding.welcome.cta,interface,Commencer,,,pack4
+ui.onboarding.welcome.title,interface,Bienvenue. Cette application t'apprend à lire et à écrire le français. Tu n'as pas besoin de savoir lire pour t'en servir. Appuie sur le grand bouton vert.,,,pack4
+ui.path.node.available,interface,À faire,,,pack4
+ui.path.node.completed,interface,Terminée,,,pack4
+ui.path.node.current,interface,À toi,,,pack4
+ui.path.node.locked,interface,Termine la leçon d'avant pour ouvrir celle-ci.,,,pack4
+ui.path.node.review,interface,À revoir,,,pack4
+ui.path.title,interface,Mon parcours,,,pack4
+ui.path.unit.chiffres,interface,Les chiffres,,,pack4
+ui.path.unit.consonnes,interface,Les consonnes,,,pack4
+ui.path.unit.graphemes,interface,Les sons et les textes,,,pack4
+ui.path.unit.progress,interface,{fait} sur {total},,,pack4
+ui.path.unit.voyelles,interface,Les voyelles,,,pack4
+ui.practice.digits,interface,Les chiffres,,,pack4
+ui.practice.freeBrowse,interface,"Tu peux tout regarder, rien n'est bloqué ici.",,,pack4
+ui.practice.letterWall,interface,"Toutes les lettres, à regarder et à écouter quand tu veux.",,,pack4
+ui.practice.notebook,interface,Une page blanche pour t'entraîner à écrire.,,,pack4
+ui.practice.reviewLesson,interface,Revoir une leçon,,,pack4
+ui.practice.theme.commerce,interface,Les mots du commerce,,,pack4
+ui.practice.theme.ecole,interface,À l'école,,,pack4
+ui.practice.theme.maison,interface,À la maison,,,pack4
+ui.practice.theme.nourriture,interface,La nourriture,,,pack4
+ui.practice.theme.village,interface,Au village,,,pack4
+ui.practice.themes,interface,Les mots par thème,,,pack4
+ui.practice.title,interface,M'entraîner,,,pack4
+ui.progress.daysActive,interface,{n} jours,,,pack4
+ui.progress.empty,interface,Tu commences tout juste. Reviens après ta première leçon.,,,pack4
+ui.progress.lessonsDone,interface,{n} leçons terminées,,,pack4
+ui.progress.lettersKnown,interface,{n} lettres reconnues,,,pack4
+ui.progress.syllablesKnown,interface,{n} syllabes lues,,,pack4
+ui.progress.textsRead,interface,{n} textes lus,,,pack4
+ui.progress.title,interface,Mes progrès,,,pack4
+ui.progress.wordsHeard,interface,{n} mots écoutés,,,pack4
+ui.settings.about,interface,À propos,,,pack4
+ui.settings.about.source,interface,"D'après le Syllabaire Alphanumérique de la Fondation Batonga, 2ᵉ édition.",,,pack4
+ui.settings.facilitator,interface,Mode animatrice,,,pack4
+ui.settings.haptics,interface,Vibrations,,,pack4
+ui.settings.privacy,interface,Rien de ce que tu fais ici ne quitte ton téléphone.,,,pack4
+ui.settings.profile,interface,Mon profil,,,pack4
+ui.settings.profile.reset,interface,Attention : tu perdras tes progrès. Es-tu sûre ?,,,pack4
+ui.settings.profile.switch,interface,"Si quelqu'un d'autre utilise ce téléphone, choisis son nom ici.",,,pack4
+ui.settings.script.default,interface,Écriture affichée,,,pack4
+ui.settings.textSize,interface,Taille du texte,,,pack4
+ui.settings.title,interface,Réglages,,,pack4
+ui.settings.voice.normal,interface,Normale,,,pack4
+ui.settings.voice.slow,interface,Lente,,,pack4
+ui.settings.voice.speed,interface,Vitesse de la voix,,,pack4
+ui.writing.clear,interface,Effacer,,,pack4
+ui.writing.cue.checkpoint,interface,Passe bien par le point.,,,pack4
+ui.writing.cue.direction,interface,"Descends, ne monte pas.",,,pack4
+ui.writing.cue.good,interface,C'est bien tracé.,,,pack4
+ui.writing.cue.missing,interface,Il manque un trait.,,,pack4
+ui.writing.cue.slow,interface,"Doucement, suis le trait.",,,pack4
+ui.writing.cue.start,interface,"Commence ici, en haut.",,,pack4
+ui.writing.nowYou,interface,À toi. Commence au point.,,,pack4
+ui.writing.replayModel,interface,Revoir le modèle,,,pack4
+ui.writing.stars,interface,{n} étoiles sur 3,,,pack4
+ui.writing.startHere,interface,Commence ici,,,pack4
+ui.writing.watchFirst,interface,Regarde comment on l'écrit.,,,pack4
+vo.onb.01,voix off — premier lancement,Bienvenue. Cette application t'apprend à lire et à écrire le français. Tu n'as pas besoin de savoir lire pour t'en servir. Appuie sur le grand bouton vert.,,,pack4
+vo.onb.02,voix off — premier lancement,"Est-ce que tu m'entends bien ? Si tu ne m'entends pas, monte le son de ton téléphone, sur le côté, vers le haut.",,,pack4
+vo.onb.03,voix off — premier lancement,"Comment veux-tu qu'on t'appelle ? Tu peux écrire ton nom, ou choisir une image. Tu peux aussi passer, ça n'a pas d'importance.",,,pack4
+vo.onb.04,voix off — premier lancement,On essaie ensemble. Touche le rond bleu.,,,pack4
+vo.onb.05,voix off — premier lancement,Quand tu vois ce dessin — un haut-parleur — tu peux toujours appuyer pour écouter. Essaie.,,,pack4
+vo.onb.06,voix off — premier lancement,"Veux-tu commencer au début, ou veux-tu que je regarde d'abord ce que tu sais déjà ? Si tu n'es pas sûre, commence au début.",,,pack4
+vo.onb.07,voix off — premier lancement,C'est prêt. Prends ton temps. Tu peux t'arrêter quand tu veux : l'application se souvient d'où tu t'es arrêtée.,,,pack4
+vo.return.01,voix off — retour,Te revoilà. On reprend à la leçon {n} ?,,,pack4
+vo.return.02,voix off — retour,Contente de te revoir. On reprend doucement : je te remets d'abord ce que tu as vu la dernière fois.,,,pack4
+vo.return.03,voix off — retour,Ça fait un moment. On va revoir ensemble avant de continuer. Rien n'est perdu.,,,pack4
+word.a,word,a,,,content content
+word.accompagner,word,accompagner,,,content content
+word.accord,word,accord,,,content content
+word.accoucher,word,accoucher,,,content
+word.ami,word,ami,,,content content
+word.anani,word,anani,,,content
+word.ane,word,âne,,,content
+word.b,word,b,,,content content content
+word.baba,word,baba,,,content
+word.balayer,word,balayer,,,content
+word.bas,word,bas,,,content content
+word.bebe,word,bébé,,,content content content
+word.bebi,word,bebi,,,content
+word.beche,word,bèche,,,content
+word.bete,word,bête,,,content content
+word.bibi,word,bibi,,,content
+word.bicyclette,word,bicyclette,,,content
+word.bidon,word,bidon,,,content
+word.blanche,word,blanche,,,content
+word.bobo,word,bobo,,,content
+word.bonbon,word,bonbon,,,content content
+word.bout,word,bout,,,content
+word.bubu,word,bubu,,,content
+word.but,word,but,,,content
+word.c,word,c,,,content content content
+word.cacao,word,cacao,,,content
+word.calcul,word,calcul,,,content
+word.camarade,word,camarade,,,content
+word.canari,word,canari,,,content
+word.car,word,car,,,content
+word.cave,word,cave,,,content
+word.cible,word,cible,,,content
+word.cola,word,cola,,,content
+word.combien,word,combien,,,content content
+word.concombre,word,concombre,,,content
+word.conte,word,conte,,,content content
+word.corde,word,corde,,,content
+word.cou,word,cou,,,content
+word.d,word,d,,,content content content
+word.dame,word,dame,,,content
+word.date,word,date,,,content content content
+word.de_l_arachide,phrase,de l’arachide,,,content
+word.de_l_or,phrase,de l’or,,,content content
+word.debout,word,debout,,,content
+word.demain,word,demain,,,content
+word.des_griffes,phrase,des griffes,,,content content
+word.des_rayures,phrase,des rayures,,,content
+word.deux,word,deux,,,content
+word.dinde,word,dinde,,,content
+word.dindon,word,dindon,,,content
+word.doigt,word,doigt,,,content
+word.don,word,don,,,content content content
+word.dos,word,dos,,,content content
+word.drap,word,drap,,,content
+word.duree,word,durée,,,content
+word.e,word,e,,,content content content content content content content content
+word.ecole,word,école,,,content
+word.eleve,word,élève,,,content content
+word.en_mangeant,phrase,en mangeant,,,content
+word.epais,word,épais,,,content
+word.epi,word,épi,,,content
+word.etre,word,être,,,content
+word.f,word,f,,,content content content
+word.fagot,word,fagot,,,content
+word.farine,word,farine,,,content content content
+word.fenetre,word,fenêtre,,,content content content
+word.ferme,word,fermé,,,content
+word.fete,word,fête,,,content content
+word.feu,word,feu,,,content
+word.fil,word,fil,,,content
+word.fin,word,fin,,,content
+word.fini,word,fini,,,content
+word.foire,word,foire,,,content
+word.fonio,word,fonio,,,content content content content
+word.foret,word,forêt,,,content
+word.frere,word,frère,,,content
+word.front,word,front,,,content
+word.fusil,word,fusil,,,content
+word.g,word,g,,,content content content
+word.garde,word,garde,,,content
+word.gari,word,gari,,,content
+word.gong,word,gong,,,content content content
+word.gourde,word,gourde,,,content
+word.gros,word,gros,,,content content
+word.guide,word,guide,,,content
+word.h,word,h,,,content content content
+word.hache,word,hache,,,content
+word.honneur,word,honneur,,,content content
+word.hyene,word,hyène,,,content
+word.hygiene,word,hygiène,,,content
+word.ici,word,ici,,,content content
+word.image,word,image,,,content
+word.j,word,j,,,content content content
+word.jaune,word,jaune,,,content content content
+word.je_cueille_une_mangue,phrase,je cueille une mangue,,,content
+word.je_danse,phrase,je danse,,,content
+word.je_frappe,phrase,je frappe,,,content content
+word.je_guide,phrase,je guide,,,content
+word.je_m_habille,phrase,je m’habille,,,content
+word.je_me_reveille,phrase,je me réveille,,,content
+word.je_regarde,phrase,je regarde,,,content content
+word.je_saute_un_chapeau,phrase,je saute un chapeau,,,content
+word.je_travaille,phrase,je travaille,,,content
+word.jeudi,word,jeudi,,,content content content content
+word.joie,word,joie,,,content
+word.joue,word,joue,,,content
+word.journee,word,journée,,,content
+word.judo,word,judo,,,content
+word.jupe,word,jupe,,,content
+word.jus,word,jus,,,content
+word.k,word,k,,,content content content
+word.kadidia,word,Kadidia,,,content
+word.kaki,word,kaki,,,content
+word.kapok,word,kapok,,,content
+word.kepi,word,képi,,,content content content content
+word.kola,word,kola,,,content
+word.konate,word,Konaté,,,content
+word.l,word,l,,,content content content
+word.l_action,word,l’action,,,content
+word.l_addition,word,l’addition,,,content content content
+word.l_ail,word,l’ail,,,content content
+word.l_akassa,word,l’akassa,,,content content
+word.l_arbre,word,l’arbre,,,content content
+word.l_arc,word,l’arc,,,content content
+word.l_ardoise,word,l’ardoise,,,content
+word.l_argent,word,l’argent,,,content
+word.l_eau_du_marigot,phrase,l’eau du marigot,,,content content
+word.l_ecole,word,l’école,,,content content
+word.l_elephant,word,l’éléphant,,,content
+word.l_encre,word,l’encre,,,content content
+word.l_encrier,word,l’encrier,,,content content
+word.l_eventail,word,l’éventail,,,content content
+word.l_habitation,word,l’habitation,,,content
+word.l_heure,word,l’heure,,,content
+word.l_igname,word,l’igname,,,content content
+word.l_ombre,word,L’ombre,,,content content
+word.l_ongle,word,l’ongle,,,content
+word.l_operation,word,l’opération,,,content
+word.l_oreille,word,l’oreille,,,content
+word.la_bataille,phrase,la bataille,,,content content
+word.la_bouche,phrase,la bouche,,,content
+word.la_boucle,phrase,la boucle,,,content
+word.la_bougie,phrase,la bougie,,,content
+word.la_calebasse,phrase,la calebasse,,,content content
+word.la_camarade,phrase,la camarade,,,content
+word.la_ceinture,phrase,la ceinture,,,content
+word.la_chemise,phrase,la chemise,,,content
+word.la_classe,phrase,la classe,,,content
+word.la_cle,phrase,la clé,,,content
+word.la_copie,phrase,la copie,,,content content
+word.la_craie,phrase,la craie,,,content content
+word.la_culotte,phrase,la culotte,,,content content
+word.la_famille,phrase,la famille,,,content
+word.la_fenetre,phrase,la fenêtre,,,content content
+word.la_ferraille,phrase,la ferraille,,,content content
+word.la_fille,phrase,la fille,,,content
+word.la_guitare,phrase,la guitare,,,content
+word.la_houe,phrase,la houe,,,content content
+word.la_houille,phrase,la houille,,,content
+word.la_jambe,phrase,la jambe,,,content
+word.la_kola,phrase,la kola,,,content content
+word.la_langue,phrase,la langue,,,content
+word.la_lecon,phrase,la leçon,,,content content
+word.la_ligne,phrase,la ligne,,,content
+word.la_maison,phrase,la maison,,,content
+word.la_marche,phrase,la marche,,,content content
+word.la_marmite,phrase,la marmite,,,content content
+word.la_moitie,phrase,la moitié,,,content content
+word.la_montagne,phrase,la montagne,,,content content
+word.la_mouche,phrase,la mouche,,,content
+word.la_multiplication,phrase,la multiplication,,,content content
+word.la_muraille,phrase,la muraille,,,content content
+word.la_noix,phrase,la noix,,,content
+word.la_noyade,phrase,la noyade,,,content
+word.la_page_du_livre,phrase,la page du livre,,,content
+word.la_panthere,phrase,la panthère,,,content
+word.la_pharmacie,phrase,la pharmacie,,,content
+word.la_photo,phrase,la photo,,,content
+word.la_place,phrase,la place,,,content content
+word.la_plaie,phrase,la plaie,,,content
+word.la_porte,phrase,la porte,,,content content
+word.la_promenade,phrase,la promenade,,,content content
+word.la_punition,phrase,la punition,,,content content
+word.la_queue,phrase,la queue,,,content content content
+word.la_quinine,phrase,la quinine,,,content content
+word.la_recreation,phrase,la récréation,,,content content
+word.la_regle,phrase,la règle,,,content
+word.la_reine,phrase,la reine,,,content
+word.la_s_ur,phrase,la sœur,,,content
+word.la_semaine,phrase,la semaine,,,content
+word.la_soiree,phrase,la soirée,,,content content
+word.la_soustraction,phrase,la soustraction,,,content content content content content
+word.la_table,phrase,la table,,,content
+word.la_taille,phrase,la taille,,,content content
+word.la_tension,phrase,la tension,,,content content
+word.la_toiture,phrase,la toiture,,,content
+word.la_valise,phrase,la valise,,,content
+word.la_vendeuse,phrase,la vendeuse,,,content content
+word.lalo,word,lalo,,,content content
+word.le_b_uf,phrase,le bœuf,,,content content
+word.le_bananier,phrase,le bananier,,,content
+word.le_banc,phrase,le banc,,,content
+word.le_berger,phrase,le berger,,,content
+word.le_beurre,phrase,le beurre,,,content
+word.le_bijoutier,phrase,le bijoutier,,,content
+word.le_blanc,phrase,le blanc,,,content
+word.le_bleu,phrase,le bleu,,,content
+word.le_bois,phrase,le bois,,,content content
+word.le_bouton,phrase,le bouton,,,content content
+word.le_cacao,phrase,le cacao,,,content content
+word.le_cahier,phrase,le cahier,,,content
+word.le_canard,phrase,le canard,,,content content
+word.le_canari,phrase,le canari,,,content content
+word.le_casier,phrase,le casier,,,content
+word.le_cauri,phrase,le cauri,,,content content
+word.le_chant,phrase,le chant,,,content
+word.le_chapeau,phrase,le chapeau,,,content
+word.le_charognard,phrase,le charognard,,,content content
+word.le_chasseur,phrase,le chasseur,,,content
+word.le_chat,phrase,le chat,,,content
+word.le_chien,phrase,le chien,,,content content content
+word.le_choix,phrase,le choix,,,content
+word.le_collier,phrase,le collier,,,content
+word.le_cultivateur,phrase,le cultivateur,,,content
+word.le_dernier,phrase,le dernier,,,content
+word.le_drapeau,phrase,le drapeau,,,content
+word.le_fauteuil,phrase,le fauteuil,,,content
+word.le_feu,phrase,le feu,,,content content
+word.le_froid,phrase,le froid,,,content content
+word.le_fusil,phrase,le fusil,,,content
+word.le_genou,phrase,le genou,,,content
+word.le_guidon,phrase,le guidon,,,content
+word.le_joueur,phrase,le joueur,,,content
+word.le_kapokier,phrase,le kapokier,,,content
+word.le_karite,phrase,le karité,,,content
+word.le_kepi,phrase,le képi,,,content content
+word.le_lait,phrase,le lait,,,content content
+word.le_macon,phrase,le maçon,,,content content
+word.le_magasin,phrase,le magasin,,,content
+word.le_maitre,phrase,le maître,,,content content
+word.le_marchand,phrase,le marchand,,,content content
+word.le_margouillat,phrase,le margouillat,,,content
+word.le_matin,phrase,le matin,,,content content
+word.le_medecin,phrase,le médecin,,,content
+word.le_nez,phrase,le nez,,,content
+word.le_panier,phrase,le panier,,,content
+word.le_peigne,phrase,le peigne,,,content
+word.le_phonographe,phrase,le phonographe,,,content
+word.le_pied,phrase,le pied,,,content
+word.le_plafond,phrase,le plafond,,,content
+word.le_pneu,phrase,le pneu,,,content
+word.le_point,phrase,le point,,,content content
+word.le_pouce,phrase,le pouce,,,content content
+word.le_premier,phrase,le premier,,,content
+word.le_quinqueliba,phrase,le quinquéliba,,,content
+word.le_rail,phrase,le rail,,,content content
+word.le_rang,phrase,le rang,,,content
+word.le_requin,phrase,le requin,,,content
+word.le_sabre,phrase,le sabre,,,content content
+word.le_singe,phrase,le singe,,,content content content
+word.le_soir,phrase,le soir,,,content
+word.le_soleil,phrase,le soleil,,,content
+word.le_sommeil,phrase,le sommeil,,,content
+word.le_soulier,phrase,le soulier,,,content
+word.le_sucre,phrase,le sucre,,,content content
+word.le_tableau,phrase,le tableau,,,content content
+word.le_teint,phrase,le teint,,,content
+word.le_telephone,phrase,le téléphone,,,content
+word.le_the,phrase,le thé,,,content
+word.le_timbre,phrase,le timbre,,,content content
+word.le_toit,phrase,le toit,,,content
+word.le_travail,phrase,le travail,,,content content
+word.le_trepied,phrase,le trépied,,,content
+word.le_village,phrase,le village,,,content
+word.le_visage,phrase,le visage,,,content
+word.le_voyage,phrase,le voyage,,,content
+word.lentement,word,lentement,,,content
+word.les_cornes,phrase,les cornes,,,content content
+word.les_oiseaux,phrase,les oiseaux,,,content
+word.les_rayons,phrase,les rayons,,,content
+word.les_soins,phrase,les soins,,,content content
+word.lili,word,lili,,,content content
+word.lola,word,lola,,,content
+word.lolo,word,lolo,,,content content
+word.lot,word,lot,,,content
+word.lulu,word,lulu,,,content content
+word.lune,word,lune,,,content content content content content
+word.m,word,m,,,content content content
+word.ma_levre,phrase,ma lèvre,,,content content
+word.maigre,word,maigre,,,content content
+word.maman,word,maman,,,content
+word.meme,word,mémé,,,content content
+word.merci,word,merci,,,content content content content
+word.mes_devoirs,phrase,mes devoirs,,,content
+word.mes_yeux,phrase,mes yeux,,,content
+word.mil,word,mil,,,content
+word.mimi,word,mimi,,,content
+word.momo,word,momo,,,content
+word.mon_epaule,phrase,mon épaule,,,content content
+word.mon_frere,phrase,mon frère,,,content content
+word.mon_pied,phrase,mon pied,,,content
+word.mon_poing,phrase,mon poing,,,content content
+word.mon_ventre,phrase,mon ventre,,,content content
+word.n,word,n,,,content content content
+word.natte,word,natte,,,content content
+word.nettoyer,word,nettoyer,,,content
+word.neuf,word,neuf,,,content content
+word.nini,word,nini,,,content
+word.nono,word,nono,,,content
+word.nord,word,nord,,,content
+word.note,word,note,,,content
+word.nu,word,nu,,,content
+word.o,word,o,,,content content
+word.occuper,word,occuper,,,content content
+word.or,word,or,,,content content content
+word.os,word,os,,,content
+word.ote,word,ôte,,,content
+word.p,word,p,,,content content
+word.papa,word,papa,,,content content
+word.parure,word,parure,,,content
+word.pas,word,pas,,,content
+word.patate,word,patate,,,content content
+word.pate,word,paté,,,content
+word.patte,word,patte,,,content content
+word.petite,word,petite,,,content
+word.pile,word,pile,,,content content content
+word.pipe,word,pipe,,,content content
+word.pipo,word,pipo,,,content
+word.pointue,word,pointue,,,content
+word.pot,word,pot,,,content
+word.pres,word,près,,,content
+word.pretre,word,prêtre,,,content
+word.propre,word,propre,,,content content
+word.puce,word,puce,,,content
+word.quatorze,word,quatorze,,,content
+word.quatre,word,quatre,,,content content
+word.quinze,word,quinze,,,content
+word.r,word,r,,,content content content
+word.rat,word,rat,,,content
+word.recopiez,word,recopiez,,,content
+word.rentree,word,rentrée,,,content
+word.reussir,word,réussir,,,content
+word.rire,word,rire,,,content content
+word.riviere,word,rivière,,,content
+word.riz,word,riz,,,content
+word.robe,word,robe,,,content
+word.rouge,word,rouge,,,content
+word.route,word,route,,,content
+word.s,word,s,,,content content content
+word.salle,word,salle,,,content
+word.samedi,word,samedi,,,content
+word.sauce,word,sauce,,,content
+word.seize,word,seize,,,content
+word.sel,word,sel,,,content
+word.site,word,site,,,content
+word.sol,word,sol,,,content content
+word.son,word,son,,,content
+word.soupe,word,soupe,,,content
+word.source,word,source,,,content content
+word.stylo,word,stylo,,,content
+word.t,word,t,,,content content
+word.tape,word,tape,,,content content
+word.tata,word,tata,,,content content content
+word.tate,word,tate,,,content content content content content
+word.tete,word,tête,,,content content content content content
+word.tetu,word,têtu,,,content
+word.tite,word,tite,,,content
+word.titi,word,titi,,,content
+word.tole,word,tôle,,,content content
+word.tomate,word,tomate,,,content
+word.toto,word,toto,,,content content content
+word.tu,word,tu,,,content
+word.tutu,word,tutu,,,content content
+word.u,word,u,,,content content
+word.un,word,un,,,content
+word.un_acheteur,phrase,un acheteur,,,content
+word.un_agneau,phrase,un agneau,,,content content
+word.un_ananas,phrase,un ananas,,,content
+word.un_arrosoir,phrase,un arrosoir,,,content
+word.un_avion,phrase,un avion,,,content content
+word.un_balai,phrase,un balai,,,content
+word.un_bateau,phrase,un bateau,,,content content
+word.un_calecon,phrase,un caleçon,,,content content
+word.un_casque,phrase,un casque,,,content content
+word.un_chameau,phrase,un chameau,,,content
+word.un_champ,phrase,un champ,,,content
+word.un_champignon,phrase,un champignon,,,content
+word.un_chapeau,phrase,un chapeau,,,content
+word.un_choc,phrase,un choc,,,content content
+word.un_coin,phrase,un coin,,,content content
+word.un_couteau,phrase,un couteau,,,content content content
+word.un_crayon,phrase,un crayon,,,content content content
+word.un_dindon,phrase,un dindon,,,content
+word.un_doigt,phrase,un doigt,,,content content
+word.un_ecolier,phrase,un écolier,,,content
+word.un_encrier,phrase,un encrier,,,content
+word.un_epi,phrase,un épi,,,content
+word.un_etranger,phrase,un étranger,,,content
+word.un_fait,phrase,un fait,,,content
+word.un_feu,phrase,un feu,,,content
+word.un_flacon,phrase,un flacon,,,content
+word.un_garcon,phrase,un garçon,,,content content
+word.un_grand_enfant,phrase,un grand enfant,,,content content
+word.un_gros_crocodile,phrase,un gros crocodile,,,content content
+word.un_habit_humide,phrase,un habit humide,,,content
+word.un_hamecon,phrase,un hameçon,,,content content
+word.un_haricot,phrase,un haricot,,,content
+word.un_hibou,phrase,un hibou,,,content
+word.un_hopital,phrase,un hôpital,,,content
+word.un_jeu,phrase,un jeu,,,content content
+word.un_kepi,phrase,un képi,,,content
+word.un_lion,phrase,un lion,,,content content
+word.un_livre,phrase,un livre,,,content content content
+word.un_marche,phrase,un marché,,,content content
+word.un_met,phrase,un met,,,content
+word.un_mouchoir,phrase,un mouchoir,,,content
+word.un_mouton,phrase,un mouton,,,content
+word.un_n_ud,phrase,un nœud,,,content content
+word.un_nez,phrase,un nez,,,content
+word.un_noyau,phrase,un noyau,,,content
+word.un_oignon,phrase,un oignon,,,content content
+word.un_orteil,phrase,un orteil,,,content
+word.un_pagne,phrase,un pagne,,,content content
+word.un_papier,phrase,un papier,,,content
+word.un_papillon,phrase,un papillon,,,content
+word.un_paysan,phrase,un paysan,,,content
+word.un_peigne,phrase,un peigne,,,content content
+word.un_phare,phrase,un phare,,,content
+word.un_photographe,phrase,un photographe,,,content
+word.un_plan,phrase,un plan,,,content
+word.un_poisson,phrase,un poisson,,,content
+word.un_pot,phrase,un pot,,,content
+word.un_poussin,phrase,un poussin,,,content content
+word.un_regime,phrase,un régime,,,content
+word.un_reveil,phrase,un réveil,,,content
+word.un_sac,phrase,un sac,,,content content content
+word.un_seau,phrase,un seau,,,content content
+word.un_tableau,phrase,un tableau,,,content
+word.un_tableau_noir,phrase,un tableau noir,,,content
+word.un_tiroir,phrase,un tiroir,,,content
+word.un_traite,phrase,un traité,,,content content
+word.un_tuyau,phrase,un tuyau,,,content
+word.un_uf,phrase,un œuf,,,content content
+word.un_v_u,phrase,un vœu,,,content
+word.un_velo,phrase,un vélo,,,content
+word.un_voyageur,phrase,un voyageur,,,content
+word.un_zebre,phrase,un zèbre,,,content
+word.un_zebu,phrase,un zébu,,,content
+word.un_zero,phrase,un zéro,,,content
+word.un_zoo,phrase,un zoo,,,content
+word.une,word,une,,,content
+word.une_aiguille,phrase,une aiguille,,,content
+word.une_application,phrase,une application,,,content content
+word.une_araignee,phrase,une araignée,,,content content
+word.une_ardoise,phrase,une ardoise.,,,content
+word.une_armoire,phrase,une armoire,,,content
+word.une_attention,phrase,une attention,,,content content
+word.une_attraction,phrase,une attraction,,,content content
+word.une_auto,phrase,une auto,,,content content
+word.une_bague,phrase,une bague,,,content
+word.une_banque,phrase,une banque,,,content content
+word.une_bassine,phrase,une bassine,,,content
+word.une_bouteille,phrase,une bouteille,,,content
+word.une_brique,phrase,une brique,,,content
+word.une_brique_de_quinze,phrase,une brique de quinze,,,content
+word.une_camisole,phrase,une camisole,,,content
+word.une_campagne,phrase,une campagne,,,content content
+word.une_cartouche,phrase,une cartouche,,,content content
+word.une_case,phrase,une case,,,content
+word.une_chaise,phrase,une chaise,,,content
+word.une_chaussure,phrase,une chaussure,,,content
+word.une_chenille,phrase,une chenille,,,content
+word.une_cigarette,phrase,une cigarette,,,content content
+word.une_coquille,phrase,une coquille,,,content
+word.une_datte,phrase,une datte,,,content
+word.une_division,phrase,une division,,,content content
+word.une_eleve,phrase,une élève,,,content
+word.une_epingle,phrase,une épingle,,,content
+word.une_fenetre,phrase,une fenêtre,,,content
+word.une_feuille,phrase,une feuille,,,content
+word.une_flamme,phrase,une flamme,,,content
+word.une_fleur,phrase,une fleur,,,content
+word.une_grenouille,phrase,Une grenouille,,,content
+word.une_guepe,phrase,une guêpe,,,content
+word.une_guitare,phrase,une guitare,,,content
+word.une_habitation,phrase,une habitation,,,content
+word.une_hache,phrase,une hache,,,content
+word.une_hyene,phrase,une hyène,,,content
+word.une_image,phrase,une image,,,content
+word.une_jupe,phrase,une jupe,,,content
+word.une_lune,phrase,une lune,,,content
+word.une_mangue,phrase,une mangue,,,content
+word.une_montre,phrase,une montre,,,content
+word.une_operation,phrase,une opération,,,content content
+word.une_pagaie,phrase,une pagaie,,,content
+word.une_pantoufle,phrase,une pantoufle,,,content
+word.une_pintade,phrase,une pintade,,,content content
+word.une_pipe,phrase,une pipe,,,content
+word.une_pirogue,phrase,une pirogue,,,content
+word.une_plume,phrase,une plume,,,content
+word.une_poignee,phrase,une poignée,,,content content
+word.une_poule,phrase,une poule,,,content content
+word.une_radio,phrase,une radio,,,content
+word.une_riziere,phrase,une rizière,,,content
+word.une_robe_noire,phrase,une robe noire,,,content
+word.une_tete,phrase,une tête,,,content
+word.une_vache,phrase,une vache,,,content
+word.urne,word,Urne,,,content content
+word.v,word,v,,,content content content
+word.ventre,word,ventre,,,content content content content
+word.vieille,word,vieille,,,content
+word.village,word,village,,,content
+word.vin,word,vin,,,content
+word.voie,word,voie,,,content
+word.voiture,word,voiture,,,content
+word.vous_riez,phrase,vous riez,,,content
+word.vue,word,vue,,,content
+word.y,word,y,,,content content
+word.yeux,word,yeux,,,content content content
+word.z,word,z,,,content content content
+word.zebu,word,zébu,,,content
+word.zoo,word,zoo,,,content content content

@@ -1,6 +1,6 @@
 {
   "$comment": "NEW (formalised). The audio ID is the seam between Dev A's content and Dev D's studio. It has to be MECHANICAL — derivable from the content with no conversation — or the two streams block each other every week. This is that grammar, written as a regex CI can enforce.",
-  "regex": "^(letter|syll|blend|word|sent|text|digit|prompt|fb|cue|ui|vo|q)\\.[a-z0-9_.-]+$",
+  "regex": "^(letter|syll|blend|word|sent|text|digit|prompt|fb|cue|ui|vo|q)\\.[A-Za-z0-9_.-]+$",
   "namespaces": [
     {
       "ns": "letter",
@@ -113,6 +113,7 @@
     "IDs are lowercase ASCII. Diacritics are transliterated, never embedded.",
     "An ID is derived from content, never hand-assigned.",
     "tools/generate-audio-manifest.ts scans content/ and src/i18n/ and emits every ID it finds with status 'missing'. Nobody types an ID into the manifest by hand.",
-    "CI fails if content references an ID absent from the manifest, and WARNS (does not fail) if the manifest holds an ID nothing references — orphans are cheap, gaps are not."
+    "CI fails if content references an ID absent from the manifest, and WARNS (does not fail) if the manifest holds an ID nothing references — orphans are cheap, gaps are not.",
+    "Uppercase is permitted after the namespace because lesson IDs are uppercase (sent.L08.01) and UI keys are camelCase. The lowercase-only form of this regex could never match the spec's own examples. Filename safety is enforced instead by a case-insensitive collision check: two IDs differing only in case are a CI failure, because they are one file on a case-insensitive volume."
   ]
 }

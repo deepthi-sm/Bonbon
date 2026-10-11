@@ -1,0 +1,7806 @@
+[
+  {
+    "text": "Bienvenue à Bonbon ! Apprenons à lire et à écrire ensemble, pas à pas.",
+    "where": "Interface"
+  },
+  {
+    "text": "Choisis ton image. Tu peux aussi écrire ton prénom.",
+    "where": "Interface"
+  },
+  {
+    "text": "Bonjour ! Heureuse de te revoir.",
+    "where": "Interface"
+  },
+  {
+    "text": "Accueil",
+    "where": "Interface"
+  },
+  {
+    "text": "Les leçons. Touche une leçon.",
+    "where": "Interface"
+  },
+  {
+    "text": "L'atelier. Choisis une activité libre.",
+    "where": "Interface"
+  },
+  {
+    "text": "Mes progrès",
+    "where": "Interface"
+  },
+  {
+    "text": "Réglages",
+    "where": "Interface"
+  },
+  {
+    "text": "Termine d'abord la leçon d'avant.",
+    "where": "Interface"
+  },
+  {
+    "text": "Leçon terminée.",
+    "where": "Interface"
+  },
+  {
+    "text": "Écoute :",
+    "where": "Interface"
+  },
+  {
+    "text": "C'est ça.",
+    "where": "Interface"
+  },
+  {
+    "text": "Oui.",
+    "where": "Interface"
+  },
+  {
+    "text": "Exact.",
+    "where": "Interface"
+  },
+  {
+    "text": "Bien.",
+    "where": "Interface"
+  },
+  {
+    "text": "Voilà.",
+    "where": "Interface"
+  },
+  {
+    "text": "C'est bon.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu l'as.",
+    "where": "Interface"
+  },
+  {
+    "text": "Pas encore. Écoute encore.",
+    "where": "Interface"
+  },
+  {
+    "text": "Presque.",
+    "where": "Interface"
+  },
+  {
+    "text": "On réessaie.",
+    "where": "Interface"
+  },
+  {
+    "text": "Écoute et touche la syllabe",
+    "where": "Interface"
+  },
+  {
+    "text": "Écoute et touche le mot",
+    "where": "Interface"
+  },
+  {
+    "text": "Écoute et touche le chiffre",
+    "where": "Interface"
+  },
+  {
+    "text": "Écoute et touche le son",
+    "where": "Interface"
+  },
+  {
+    "text": "Le mur des lettres. Les 26 lettres, à écouter et à tracer.",
+    "where": "Interface"
+  },
+  {
+    "text": "Les chiffres. De 0 à 9 : écoute et écris.",
+    "where": "Interface"
+  },
+  {
+    "text": "Cahier d'écriture. Trace une lettre avec ton doigt.",
+    "where": "Interface"
+  },
+  {
+    "text": "Trace la lettre avec ton doigt, sur le modèle gris.",
+    "where": "Interface"
+  },
+  {
+    "text": "Pas encore. Commence en haut et suis le modèle.",
+    "where": "Interface"
+  },
+  {
+    "text": "Presque. Passe sur toute la lettre.",
+    "where": "Interface"
+  },
+  {
+    "text": "Bien. Suis bien le modèle gris.",
+    "where": "Interface"
+  },
+  {
+    "text": "Très bien tracé.",
+    "where": "Interface"
+  },
+  {
+    "text": "Voix lente. La voix parle plus doucement.",
+    "where": "Interface"
+  },
+  {
+    "text": "Je parle lentement.",
+    "where": "Interface"
+  },
+  {
+    "text": "Je parle normalement.",
+    "where": "Interface"
+  },
+  {
+    "text": "Écriture cursive par défaut.",
+    "where": "Interface"
+  },
+  {
+    "text": "Grand texte.",
+    "where": "Interface"
+  },
+  {
+    "text": "Ouvrir toutes les leçons.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 0 sur 1.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 1 sur 1.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 0 sur 2.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 1 sur 2.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 2 sur 2.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 0 sur 3.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 1 sur 3.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 2 sur 3.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 3 sur 3.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 0 sur 4.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 1 sur 4.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 2 sur 4.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 3 sur 4.",
+    "where": "Interface"
+  },
+  {
+    "text": "Tu as trouvé 4 sur 4.",
+    "where": "Interface"
+  },
+  {
+    "text": "Unité 1. Les voyelles.",
+    "where": "Interface"
+  },
+  {
+    "text": "Unité 2. Les consonnes.",
+    "where": "Interface"
+  },
+  {
+    "text": "Unité 3. Les sons et les textes.",
+    "where": "Interface"
+  },
+  {
+    "text": "Unité 4. Les chiffres.",
+    "where": "Interface"
+  },
+  {
+    "text": "a",
+    "where": "Interface"
+  },
+  {
+    "text": "b",
+    "where": "Interface"
+  },
+  {
+    "text": "c",
+    "where": "Interface"
+  },
+  {
+    "text": "d",
+    "where": "Interface"
+  },
+  {
+    "text": "e",
+    "where": "Interface"
+  },
+  {
+    "text": "f",
+    "where": "Interface"
+  },
+  {
+    "text": "g",
+    "where": "Interface"
+  },
+  {
+    "text": "h",
+    "where": "Interface"
+  },
+  {
+    "text": "i",
+    "where": "Interface"
+  },
+  {
+    "text": "j",
+    "where": "Interface"
+  },
+  {
+    "text": "k",
+    "where": "Interface"
+  },
+  {
+    "text": "l",
+    "where": "Interface"
+  },
+  {
+    "text": "m",
+    "where": "Interface"
+  },
+  {
+    "text": "n",
+    "where": "Interface"
+  },
+  {
+    "text": "o",
+    "where": "Interface"
+  },
+  {
+    "text": "p",
+    "where": "Interface"
+  },
+  {
+    "text": "q",
+    "where": "Interface"
+  },
+  {
+    "text": "r",
+    "where": "Interface"
+  },
+  {
+    "text": "s",
+    "where": "Interface"
+  },
+  {
+    "text": "t",
+    "where": "Interface"
+  },
+  {
+    "text": "u",
+    "where": "Interface"
+  },
+  {
+    "text": "v",
+    "where": "Interface"
+  },
+  {
+    "text": "w",
+    "where": "Interface"
+  },
+  {
+    "text": "x",
+    "where": "Interface"
+  },
+  {
+    "text": "y",
+    "where": "Interface"
+  },
+  {
+    "text": "z",
+    "where": "Interface"
+  },
+  {
+    "text": "Leçon 01. La lettre i",
+    "where": "Leçon 01"
+  },
+  {
+    "text": "un épi",
+    "where": "Leçon 01"
+  },
+  {
+    "text": "fil",
+    "where": "Leçon 01"
+  },
+  {
+    "text": "image",
+    "where": "Leçon 01"
+  },
+  {
+    "text": "canari",
+    "where": "Leçon 01"
+  },
+  {
+    "text": "farine",
+    "where": "Leçon 01"
+  },
+  {
+    "text": "rivière",
+    "where": "Leçon 01"
+  },
+  {
+    "text": "fini",
+    "where": "Leçon 01"
+  },
+  {
+    "text": "mil",
+    "where": "Leçon 01"
+  },
+  {
+    "text": "Touche la lettre i",
+    "where": "Leçon 01"
+  },
+  {
+    "text": "Touche la lettre i majuscule",
+    "where": "Leçon 01"
+  },
+  {
+    "text": "Touche la lettre i en écriture cursive",
+    "where": "Leçon 01"
+  },
+  {
+    "text": "é",
+    "where": "Leçon 01"
+  },
+  {
+    "text": "Leçon 02. La lettre u",
+    "where": "Leçon 02"
+  },
+  {
+    "text": "une lune",
+    "where": "Leçon 02"
+  },
+  {
+    "text": "tu",
+    "where": "Leçon 02"
+  },
+  {
+    "text": "nu",
+    "where": "Leçon 02"
+  },
+  {
+    "text": "une",
+    "where": "Leçon 02"
+  },
+  {
+    "text": "parure",
+    "where": "Leçon 02"
+  },
+  {
+    "text": "fusil",
+    "where": "Leçon 02"
+  },
+  {
+    "text": "puce",
+    "where": "Leçon 02"
+  },
+  {
+    "text": "lune",
+    "where": "Leçon 02"
+  },
+  {
+    "text": "vue",
+    "where": "Leçon 02"
+  },
+  {
+    "text": "Touche la lettre u",
+    "where": "Leçon 02"
+  },
+  {
+    "text": "Touche la lettre u majuscule",
+    "where": "Leçon 02"
+  },
+  {
+    "text": "Touche la lettre u en écriture cursive",
+    "where": "Leçon 02"
+  },
+  {
+    "text": "Leçon 03. La lettre o",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "un pot",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "pot",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "lot",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "fonio",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "dos",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "os",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "or",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "nord",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "sol",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "zoo",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "Touche la lettre o",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "Touche la lettre o majuscule",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "Touche la lettre o en écriture cursive",
+    "where": "Leçon 03"
+  },
+  {
+    "text": "Leçon 04. La lettre a",
+    "where": "Leçon 04"
+  },
+  {
+    "text": "un ananas",
+    "where": "Leçon 04"
+  },
+  {
+    "text": "pas",
+    "where": "Leçon 04"
+  },
+  {
+    "text": "bas",
+    "where": "Leçon 04"
+  },
+  {
+    "text": "car",
+    "where": "Leçon 04"
+  },
+  {
+    "text": "date",
+    "where": "Leçon 04"
+  },
+  {
+    "text": "camarade",
+    "where": "Leçon 04"
+  },
+  {
+    "text": "fagot",
+    "where": "Leçon 04"
+  },
+  {
+    "text": "Touche la lettre a",
+    "where": "Leçon 04"
+  },
+  {
+    "text": "Touche la lettre a majuscule",
+    "where": "Leçon 04"
+  },
+  {
+    "text": "Touche la lettre a en écriture cursive",
+    "where": "Leçon 04"
+  },
+  {
+    "text": "Leçon 05. Les lettres e et ê",
+    "where": "Leçon 05"
+  },
+  {
+    "text": "une fenêtre",
+    "where": "Leçon 05"
+  },
+  {
+    "text": "ê",
+    "where": "Leçon 05"
+  },
+  {
+    "text": "dame",
+    "where": "Leçon 05"
+  },
+  {
+    "text": "pile",
+    "where": "Leçon 05"
+  },
+  {
+    "text": "cave",
+    "where": "Leçon 05"
+  },
+  {
+    "text": "fenêtre",
+    "where": "Leçon 05"
+  },
+  {
+    "text": "être",
+    "where": "Leçon 05"
+  },
+  {
+    "text": "prêtre",
+    "where": "Leçon 05"
+  },
+  {
+    "text": "Touche la lettre e",
+    "where": "Leçon 05"
+  },
+  {
+    "text": "Touche la lettre e majuscule",
+    "where": "Leçon 05"
+  },
+  {
+    "text": "Touche la lettre e en écriture cursive",
+    "where": "Leçon 05"
+  },
+  {
+    "text": "Touche la lettre ê",
+    "where": "Leçon 05"
+  },
+  {
+    "text": "Leçon 06. Les lettres é et è",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "une élève",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "è",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "école",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "fermé",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "durée",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "élève",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "frère",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "près",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "Touche la lettre é",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "Touche la lettre é majuscule",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "Touche la lettre é en écriture cursive",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "Touche la lettre è",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "Leçon 07. La lettre y",
+    "where": "Leçon 07"
+  },
+  {
+    "text": "mes yeux",
+    "where": "Leçon 07"
+  },
+  {
+    "text": "yeux",
+    "where": "Leçon 07"
+  },
+  {
+    "text": "stylo",
+    "where": "Leçon 07"
+  },
+  {
+    "text": "bicyclette",
+    "where": "Leçon 07"
+  },
+  {
+    "text": "hyène",
+    "where": "Leçon 07"
+  },
+  {
+    "text": "hygiène",
+    "where": "Leçon 07"
+  },
+  {
+    "text": "Touche la lettre y",
+    "where": "Leçon 07"
+  },
+  {
+    "text": "Touche la lettre y majuscule",
+    "where": "Leçon 07"
+  },
+  {
+    "text": "Touche la lettre y en écriture cursive",
+    "where": "Leçon 07"
+  },
+  {
+    "text": "Leçon 08. La lettre t",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "une tête",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "ti",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "to",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "ta",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "te",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "té",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "tê",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "tite",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "tutu",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "toto",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "tata",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "tate",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "taté",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "tête",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "titi",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "tè",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "tâte",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "ôte",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "têtu",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "toto tâte ta tête.",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "tata est têtu.",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "est",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "toto as-tu ta tête ?",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "as-tu",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "tata ôte ta tête.",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "Touche la lettre t",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "Touche la lettre t majuscule",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "Touche la lettre t en écriture cursive",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "Leçon 09. La lettre p",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "une pipe",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "pi",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "pu",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "po",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "pa",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "pe",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "pé",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "pè",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "pê",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "papa",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "paté",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "tape",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "patate",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "patte",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "petite",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "papa tape toto.",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "papa ôte toto.",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "toto tape paté.",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "papa tape paté et toto.",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "et",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "épi",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "pipo",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "Touche la lettre p",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "Touche la lettre p majuscule",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "Touche la lettre p en écriture cursive",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "Leçon 10. La lettre n",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "un nez",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "ni",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "no",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "na",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "ne",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "né",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "nè",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "nê",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "note",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "natte",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "âne",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "anani",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "nono",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "nini",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "papa tape anani.",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "nono a une natte.",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "Touche la lettre n",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "Touche la lettre n majuscule",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "Touche la lettre n en écriture cursive",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "Leçon 11. La lettre m",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "une montre",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "mi",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "mu",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "mo",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "ma",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "me",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "mé",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "mè",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "mê",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "mimi",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "tomate",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "mémé",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "momo",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "même",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "mémé a une tomate.",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "mimi aime momo.",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "aime",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "une même tomate pour mémé et mimi.",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "pour",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "Touche la lettre m",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "Touche la lettre m majuscule",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "Touche la lettre m en écriture cursive",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "Leçon 12. La lettre r",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "une radio",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "ri",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "ru",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "ro",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "ra",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "re",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "ré",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "rè",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "rê",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "riz",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "rat",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "rouge",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "rentrée",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "robe",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "réussir",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "papa allume la radio.",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "allume",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "la",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "radio",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "le riz de maman.",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "le",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "de",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "maman",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "la rentrée des classes.",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "des",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "classes",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "la robe rose de mémé",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "rose",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "Touche la lettre r",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "Touche la lettre r majuscule",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "Touche la lettre r en écriture cursive",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "Leçon 13. La lettre v",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "un vélo",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "vi",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "vu",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "vo",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "va",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "ve",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "vé",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "vè",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "vê",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "voiture",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "vin",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "village",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "ventre",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "vieille",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "voie",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "les élèves vont au village.",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "les",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "élèves",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "vont",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "au",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "la voiture roule sur la voie.",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "roule",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "sur",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "la vieille case.",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "case",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "papa boit du vin",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "boit",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "du",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "Touche la lettre v",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "Touche la lettre v majuscule",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "Touche la lettre v en écriture cursive",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "Leçon 14. La lettre l",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "un livre",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "li",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "lu",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "lo",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "lé",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "lè",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "lê",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "lili",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "lolo",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "lalo",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "lulu",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "tôle",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "lola",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "la pile de lili.",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "lulu à une patate.",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "à",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "lulu est une élève.",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "Touche la lettre l",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "Touche la lettre l majuscule",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "Touche la lettre l en écriture cursive",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "Leçon 15. La lettre d",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "une datte",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "di",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "do",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "da",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "dé",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "dè",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "dê",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "don",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "debout",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "dindon",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "doigt",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "drap",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "la daba de dado.",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "daba",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "dado",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "papa est debout.",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "le doigt de maman.",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "le dindon dort dehors.",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "dort",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "dehors",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "Touche la lettre d",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "Touche la lettre d majuscule",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "Touche la lettre d en écriture cursive",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "Leçon 16. La lettre b",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "une bassine",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bi",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bu",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bo",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "ba",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "be",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bé",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bè",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bê",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bibi",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bubu",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bobo",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "baba",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bebi",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bébé",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bèche",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bête",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bidon",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bout",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bonbon",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "but",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "un beau bébé.",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "un",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "beau",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "le bouc de papa.",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bouc",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "le bonbon est très bon.",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "très",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bon",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "la belle robe bleue.",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "belle",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "bleue",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "Touche la lettre b",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "Touche la lettre b majuscule",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "Touche la lettre b en écriture cursive",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "Leçon 17. La lettre j",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "une jupe",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "ji",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "ju",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "jo",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "ja",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "je",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "jé",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "jè",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "jê",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "judo",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "jaune",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "jeudi",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "joue",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "joie",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "jupe",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "jus",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "le jus est jaune.",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "la jupe de maman.",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "le jeudi toto fait du judo.",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "fait",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "Touche la lettre j",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "Touche la lettre j majuscule",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "Touche la lettre j en écriture cursive",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "Leçon 18. La lettre f",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "un feu",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "fi",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "fu",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "fo",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "fa",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "fe",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "fé",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "fè",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "fê",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "feu",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "fête",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "front",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "forêt",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "fin",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "foire",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "maman allume le feu.",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "le fonio de papa.",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "Touche la lettre f",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "Touche la lettre f majuscule",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "Touche la lettre f en écriture cursive",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "Leçon 19. La lettre s",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "un sac",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "si",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "su",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "so",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "sa",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "se",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "sé",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "sè",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "sê",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "salle",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "son",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "site",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "soupe",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "sauce",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "sel",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "le sel de marie.",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "marie",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "la salle est grande.",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "grande",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "le sac de mémé.",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "sac",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "la soupe est salée .",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "salée",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "Touche la lettre s",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "Touche la lettre s majuscule",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "Touche la lettre s en écriture cursive",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "Leçon 20. La lettre c",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "un couteau",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "ci",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "cu",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "co",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "ca",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "ce",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "cé",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "cè",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "cê",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "cacao",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "cola",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "cou",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "corde",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "cible",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "concombre",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "le concombre vert.",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "vert",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "le casque de toni.",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "casque",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "toni",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "la cola de papa.",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "la corde de l’école .",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "l’école",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "Touche la lettre c",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "Touche la lettre c majuscule",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "Touche la lettre c en écriture cursive",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "Leçon 21. La lettre g",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "une guitare",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "gu",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "go",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "ga",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "guide",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "garde",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "gourde",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "gong",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "la gourde de pépé.",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "pépé",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "le guide de la classe.",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "classe",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "le gong de l’école.",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "la gardien de la gare.",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "gardien",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "gare",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "Touche la lettre g",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "Touche la lettre g majuscule",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "Touche la lettre g en écriture cursive",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "Leçon 22. La lettre k",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "un képi",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "ki",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "ku",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "ko",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "ka",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "ke",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "ké",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "kè",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "kê",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "kaki",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "képi",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "kapok",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "kola",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "le kaki de toto.",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "le képi du policier.",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "policier",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "le kapok de mémé.",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "Touche la lettre k",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "Touche la lettre k majuscule",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "Touche la lettre k en écriture cursive",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "Leçon 23. La lettre z",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "un zébu",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "zi",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "zu",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "zo",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "za",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "ze",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "zé",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "zè",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "zê",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "un zoo",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "un zèbre",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "zèbre",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "une rizière",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "rizière",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "un zéro",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "zéro",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "Le zèbre du zoo boit à la rivière.",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "Touche la lettre z",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "Touche la lettre z majuscule",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "Touche la lettre z en écriture cursive",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "Leçon 24. La lettre h",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "une hache",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "hi",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "hu",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "ho",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "ha",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "he",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "hé",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "hè",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "hê",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "un habit humide",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "habit",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "humide",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "un haricot",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "haricot",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "une hyène",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "un hibou",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "hibou",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "un hôpital",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "hôpital",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "Touche la lettre h",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "Touche la lettre h majuscule",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "Touche la lettre h en écriture cursive",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "Leçon 25. Les sons an · am · en · em",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "an",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "am",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "en",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "em",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "dan",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "pan",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "man",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "san",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "van",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "vant",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "lam",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "pam",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "mam",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "sam",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "vam",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "den",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "pen",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "len",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "tend",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "ment",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "bem",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "lem",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "le banc",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "banc",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "la jambe",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "jambe",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "lentement",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "je danse",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "danse",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "le rang",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "rang",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "Les vacances",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "Je passe souvent les vacances avec ma tante Baké à Kandi. Elle habite une grande maison située à l’entrée de la ville en venant de Cotonou.",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "passe",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "souvent",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "vacances",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "avec",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "tante",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "Baké",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "Kandi",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "Elle",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "habite",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "maison",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "située",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "l’entrée",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "ville",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "venant",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "Cotonou",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "Ma tante a un restaurant où elle vend des différents mets. De temps en temps, je l’aide à servir les clients, je lave aussi les assiettes sales utilisées par les clients. J’aime beaucoup ce travail et je m’empresse pour satisfaire les demandes des clients.",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "restaurant",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "où",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "vend",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "différents",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "mets",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "temps",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "l’aide",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "servir",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "clients",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "lave",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "aussi",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "assiettes",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "sales",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "utilisées",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "par",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "J’aime",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "beaucoup",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "travail",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "m’empresse",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "satisfaire",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "demandes",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "C’est toujours une joie pour moi quand je pars en vacances.",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "C’est",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "toujours",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "moi",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "quand",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "pars",
+    "where": "Leçon 25"
+  },
+  {
+    "text": "Leçon 26. Les sons on · om",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "on",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "om",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "fon",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "ton",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "pon",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "non",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "mon",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "lon",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "jon",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "ron",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "von",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "dom",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "com",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "bom",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "pom",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "vom",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "un mouton",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "mouton",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "un dindon",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "un lion",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "lion",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "un poisson",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "poisson",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "La fête",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "Aujourd’hui, c’est la fête de ramadan.",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "Aujourd’hui",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "ramadan",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "Tout le monde s’est réveillé tôt le matin pour aller à la prière. J’ai porté un beau pantalon et un long boubou. Mon oncle et ses enfants ont porté aussi de beaux vêtements. Nous avons prié à la place “Idi” en compagnie des musulmans venus de tout le quartier. À la fin de la prière chaque famille retoune à la maison pour continuer la fête.",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "Tout",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "monde",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "s’est",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "réveillé",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "tôt",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "matin",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "aller",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "prière",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "J’ai",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "porté",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "pantalon",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "long",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "boubou",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "oncle",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "ses",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "enfants",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "ont",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "beaux",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "vêtements",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "Nous",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "avons",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "prié",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "place",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "“Idi”",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "compagnie",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "musulmans",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "venus",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "quartier",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "chaque",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "famille",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "retoune",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "continuer",
+    "where": "Leçon 26"
+  },
+  {
+    "text": "Leçon 27. Les sons oin",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "oin",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "poin",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "loin",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "soin",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "le point",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "point",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "les soins",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "soins",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "mon poing",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "poing",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "un coin",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "coin",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "pointue",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "ma plume est pointue",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "plume",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "mon amie habite loin",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "amie",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "Le marché",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "Le marché de Nikki n’est pas loin de la maison de ma tante. Je m’y rends souvent pour acheter les condiments dont nous avons besoin pour faire la cuisine. Un jour, en allant au marché, j’ai vu de loin un enfant qui jouait au balafon dans un coin de la rue. Au marché chaque vendeuse prend soin de son étalage pour attirer les clients. À mon retour, je fais le point pour m’assurer de n’avoir rien oublié.",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "marché",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "Nikki",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "n’est",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "m’y",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "rends",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "acheter",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "condiments",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "dont",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "besoin",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "faire",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "cuisine",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "jour",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "allant",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "enfant",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "qui",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "jouait",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "balafon",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "dans",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "rue",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "vendeuse",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "prend",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "étalage",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "attirer",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "retour",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "fais",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "m’assurer",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "n’avoir",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "rien",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "oublié",
+    "where": "Leçon 27"
+  },
+  {
+    "text": "Leçon 28. Les sons ien · ion",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "ien",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "ion",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "mien",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "tien",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "sien",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "vien",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "bien",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "tion",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "l’addition",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "une opération",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "opération",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "la soustraction",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "soustraction",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "le chien",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "chien",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "combien",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "une division",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "division",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "un avion",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "avion",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "La ferme",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "La ferme de mon oncle est très loin de la ville. Elle est dans un village où la population est jeune. Sur sa ferme, mon oncle a des plantations d’ignames et élève aussi des animaux. Le gardien de la ferme est un jeune qui a suivi une formation d’agent de sécurité. Mon oncle a un ancien fusil pour éloigner les animaux sauvages qui tentent de dévorer les bêtes de la ferme.",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "ferme",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "population",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "jeune",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "plantations",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "d’ignames",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "animaux",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "suivi",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "formation",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "d’agent",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "sécurité",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "ancien",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "éloigner",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "sauvages",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "tentent",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "dévorer",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "bêtes",
+    "where": "Leçon 28"
+  },
+  {
+    "text": "Leçon 29. Les sons eau · au · os · ot",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "eau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "ot",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "une auto",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "auto",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "un bateau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "bateau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "couteau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "un seau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "seau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "mon épaule",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "épaule",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "l’eau du marigot",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "l’eau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "marigot",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "le cauri",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "cauri",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "un chapeau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "chapeau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "le tableau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "tableau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "le drapeau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "drapeau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "je saute un chapeau",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "saute",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "Mon village",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "Mon beau village est entouré de collines et d’arbres. Un beau lieu de repos est situé à côté d’une forêt non loin d’un marigot. Très tôt le matin, des jeunes filles et femmes viennent au marigot pour puiser de l’eau et ramasser du bois. Elles font des petits fagots qu’ elles portent sur la tête.",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "entouré",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "collines",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "d’arbres",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "lieu",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "repos",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "situé",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "côté",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "d’une",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "d’un",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "jeunes",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "filles",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "femmes",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "viennent",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "puiser",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "ramasser",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "bois",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "Elles",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "font",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "petits",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "fagots",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "qu’",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "portent",
+    "where": "Leçon 29"
+  },
+  {
+    "text": "Leçon 30. Les sons oi · oix · oit",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "oi",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "oix",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "oit",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "boi",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "soi",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "noi",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "poi",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "loi",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "toi",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "voi",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "doi",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "le bois",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "un doigt",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "la moitié",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "moitié",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "la soirée",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "soirée",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "le toit",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "toit",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "la toiture",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "toiture",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "la noix",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "noix",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "le choix",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "choix",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "une robe noire",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "noire",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "roi",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "Des amis",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "Antoine voit son ami Benoît.",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "Antoine",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "voit",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "ami",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "Benoît",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "Bonsoir Benoît, où vas tu de ce pas ?",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "Bonsoir",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "vas",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "Je vais acheter des noix de coco dans la maison sans toit que tu vois là-bas.",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "vais",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "coco",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "sans",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "que",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "vois",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "là-bas",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "Laisse-moi donc t’accompagner.",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "Laisse-moi",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "donc",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "t’accompagner",
+    "where": "Leçon 30"
+  },
+  {
+    "text": "Leçon 31. Les sons ain · ein · in · aim",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "ain",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "ein",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "in",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "aim",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "pain",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "main",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "faim",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "pin",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "sin",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "din",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "min",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "cin",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "rin",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "lin",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "tein",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "cein",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "pein",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "une pintade",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "pintade",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "un poussin",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "poussin",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "le singe",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "singe",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "le matin",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "le médecin",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "médecin",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "la ceinture",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "ceinture",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "le teint",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "teint",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "demain",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "Mon papa",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "Mon papa est médecin. Chaque matin il part à la clinique soigner des malades. Sur la route Il achète du pain chez Samira la commerçante de notre quartier. Papa a aussi des poussins à la maison.",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "il",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "part",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "clinique",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "soigner",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "malades",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "route",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "achète",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "chez",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "Samira",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "commerçante",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "notre",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "poussins",
+    "where": "Leçon 31"
+  },
+  {
+    "text": "Leçon 32. Les sons ou · ouille",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "ou",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "ouille",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "sou",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "jou",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "mou",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "fou",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "rou",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "hou",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "dou",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "lou",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "le bouton",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "bouton",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "la houe",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "houe",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "une poule",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "poule",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "Une grenouille",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "grenouille",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "la houille",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "houille",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "le margouillat",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "margouillat",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "La bouillie",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "Aujourd’hui, il y a du brouillard, et il fait froid. Dossou boit de la bouillie bien chaude. Sur la toiture rouillée de sa chambre se trouve un margouillat qui regarde les mouches qui volent autour du bol de bouillie que Dossou a déposé sur la table.",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "brouillard",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "froid",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "Dossou",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "bouillie",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "chaude",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "rouillée",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "chambre",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "trouve",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "regarde",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "mouches",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "volent",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "autour",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "bol",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "déposé",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "table",
+    "where": "Leçon 32"
+  },
+  {
+    "text": "Leçon 33. Les sons ay · oy · uy",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "ay",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "oy",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "uy",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "un noyau",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "noyau",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "un tuyau",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "tuyau",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "un crayon",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "crayon",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "le voyage",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "voyage",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "les rayons",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "rayons",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "un paysan",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "paysan",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "des rayures",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "rayures",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "balayer",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "nettoyer",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "un voyageur",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "voyageur",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "la noyade",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "noyade",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "Chaque Samedi",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "Le matin, à mon réveil je me débarbouille à la douche avant de balayer ma chambre, et essuyer mes meubles ensuite je nettoie les rayons de mon nouveau vélo. Après le nettoyage je fais mes exercices d’école.",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "réveil",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "débarbouille",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "douche",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "avant",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "essuyer",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "mes",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "meubles",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "ensuite",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "nettoie",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "nouveau",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "vélo",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "Après",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "nettoyage",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "exercices",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "d’école",
+    "where": "Leçon 33"
+  },
+  {
+    "text": "Leçon 34. Les sons ail · aille",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "ail",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "aille",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "le travail",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "l’éventail",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "la muraille",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "muraille",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "l’ail",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "le rail",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "rail",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "la ferraille",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "ferraille",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "la taille",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "taille",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "la bataille",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "bataille",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "je travaille",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "travaille",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "Mon enfant :",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "aime le travail;",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "travaille bien en classe;",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "aide tes parents à la maison;",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "aide",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "tes",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "parents",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "écoute bien ton maître et ne baille pas en classe;",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "écoute",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "maître",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "baille",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "ne joue pas près des rails ou d’un tas de ferraille;",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "rails",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "tas",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "travaille toujours de toutes tes forces;",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "toutes",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "forces",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "n’oublie pas que : «La vie est une bataille.»",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "n’oublie",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "vie",
+    "where": "Leçon 34"
+  },
+  {
+    "text": "Leçon 35. Les sons eil · eille",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "eil",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "eille",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "un réveil",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "le soleil",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "soleil",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "le sommeil",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "sommeil",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "un orteil",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "orteil",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "une bouteille",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "bouteille",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "l’oreille",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "je me réveille",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "réveille",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "Au réveil",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "Le réveil de Samira sonne. Le soleil s’est levé Samira n’a plus sommeil mais elle est toujours dans son lit. Elle est en éveil.",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "sonne",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "levé",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "n’a",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "plus",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "mais",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "lit",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "éveil",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "Réveille - toi Samira ! Tu dois aller à l’école !",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "-",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "dois",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "Je suis en éveil maman ! Seulement, j’ai mal à l’oreille.",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "suis",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "Seulement",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "mal",
+    "where": "Leçon 35"
+  },
+  {
+    "text": "Leçon 36. Les sons ai · ei · ais · ait",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "ai",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "ei",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "ais",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "ait",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "une pagaie",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "pagaie",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "la semaine",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "semaine",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "la reine",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "reine",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "seize",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "épais",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "un fait",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "le peigne",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "peigne",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "un balai",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "balai",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "le lait",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "lait",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "la plaie",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "plaie",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "En classe",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "Baké prend son sac, son balai et un peigne pour aller à l’école. L’instituteur utilise de la craie rouge au tableau. Parfait le voisin de Baké aime utiliser le bâton de craie jaune comme relais quand il n’a plus de craie blanche. Baké et son voisin aiment le bon lait de vache vendu par les vendeuses toute la semaine.",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "L’instituteur",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "utilise",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "craie",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "Parfait",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "voisin",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "utiliser",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "bâton",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "comme",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "relais",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "blanche",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "aiment",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "vache",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "vendu",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "vendeuses",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "toute",
+    "where": "Leçon 36"
+  },
+  {
+    "text": "Leçon 37. Les sons et · ez · ai · ed",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "ez",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "ed",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "mon pied",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "pied",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "le nez",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "nez",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "un met",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "met",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "À l’école",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "Chaque élève a apporté son balai. Les enfants sont contents de rendre l’école propre. Les tout petits ramassent les papiers et vont les jeter au pied d’un cocotier. Il y a beaucoup de poussière. Monsieur Orou, le directeur, arrive et dit, en se pinçant le nez :",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "apporté",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "sont",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "contents",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "rendre",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "propre",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "ramassent",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "papiers",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "jeter",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "cocotier",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "poussière",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "Monsieur",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "Orou",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "directeur",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "arrive",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "dit",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "pinçant",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "Attention, balayez doucement.",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "Attention",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "balayez",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "doucement",
+    "where": "Leçon 37"
+  },
+  {
+    "text": "Leçon 38. Les sons euil · euille",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "euil",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "euille",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "une feuille",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "feuille",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "le fauteuil",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "fauteuil",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "je cueille une mangue",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "cueille",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "mangue",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "Un visiteur",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "Papa est dans un fauteuil sous le feuillage du grand manguier au milieu de la maison. Béré, va voir qui frappe à la porte, me dit papa. Sur le seuil de la maison, je salue le visiteur.",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "sous",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "feuillage",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "grand",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "manguier",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "milieu",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "Béré",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "voir",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "frappe",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "porte",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "seuil",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "salue",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "visiteur",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "Veuillez bien remettre ces feuilles à ton père.",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "Veuillez",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "remettre",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "ces",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "feuilles",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "père",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "Avec ces feuilles, on prépare une bonne tisane. Ce sont des feuilles médicinales qui servent à se soigner.",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "prépare",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "bonne",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "tisane",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "médicinales",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "servent",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "Merci monsieur.",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "Merci",
+    "where": "Leçon 38"
+  },
+  {
+    "text": "Leçon 39. Les sons ill · ille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "ill",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "ille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "une aiguille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "aiguille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "la famille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "une chenille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "chenille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "la fille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "fille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "je m’habille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "m’habille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "un papillon",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "papillon",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "une coquille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "coquille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "Une pluie surprise",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "Alors que le soleil brille encore dans le ciel, la pluie arrive brusquement et surprend les filles au marché. De grosses gouttes d’eau tombent sur les feuillages des arbres. Les papillons s’envolent dans le ciel. Nos vêtements sont mouillés. La famille de Sidi court se mettre à l’abri.",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "Alors",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "brille",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "encore",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "ciel",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "pluie",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "brusquement",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "surprend",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "grosses",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "gouttes",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "d’eau",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "tombent",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "feuillages",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "arbres",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "papillons",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "s’envolent",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "Nos",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "mouillés",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "Sidi",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "court",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "mettre",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "l’abri",
+    "where": "Leçon 39"
+  },
+  {
+    "text": "Leçon 40. Les sons eu · œu",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "eu",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "œu",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "le feu",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "un jeu",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "jeu",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "un vœu",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "vœu",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "la queue",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "queue",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "la vendeuse",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "le bœuf",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "bœuf",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "un nœud",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "nœud",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "un œuf",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "œuf",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "le bleu",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "bleu",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "le pneu",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "pneu",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "deux",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "Ne marche pas les pieds nus.",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "marche",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "pieds",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "nus",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "Mets tes chaussures.",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "chaussures",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "Serre les lacets et fais un nœud.",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "Serre",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "lacets",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "Dado est tout joyeux parce que son maître vient de lui donner un œuf .",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "joyeux",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "parce",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "vient",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "lui",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "donner",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "La vendeuse de l’école n’aime pas le jeu devant son étalage à cause du feu.",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "n’aime",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "devant",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "cause",
+    "where": "Leçon 40"
+  },
+  {
+    "text": "Leçon 41. Les sons eur · eure · œur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "eur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "eure",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "œur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "un acheteur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "acheteur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "le cultivateur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "cultivateur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "la sœur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "sœur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "le beurre",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "beurre",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "le joueur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "joueur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "le chasseur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "chasseur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "l’heure",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "Les deux sœurs",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "C’est le soir. Les deux sœurs Flore et Rose jouent au jeu de cache - cache dans la haie de fleurs. Flore voulant se cacher, voit un bâton ayant la forme d’un serpent. Apeurée, elle crie très fort. Sa maman entend son cri de peur. Elle surgit de la demeure. Le cœur de Flore bat sans arrêt. Sa sœur Rose la serre dans ses bras. Maman la console et lui promet du pain avec du beurre.",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "soir",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "sœurs",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "Flore",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "jouent",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "cache",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "haie",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "fleurs",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "voulant",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "cacher",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "ayant",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "forme",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "serpent",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "Apeurée",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "crie",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "fort",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "entend",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "cri",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "peur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "surgit",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "demeure",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "cœur",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "bat",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "arrêt",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "bras",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "console",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "promet",
+    "where": "Leçon 41"
+  },
+  {
+    "text": "Leçon 42. Les sons oir · oire",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "oir",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "oire",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "une armoire",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "armoire",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "le soir",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "un mouchoir",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "mouchoir",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "mes devoirs",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "devoirs",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "un tiroir",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "tiroir",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "un tableau noir",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "noir",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "un arrosoir",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "arrosoir",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "Une histoire",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "Le Samedi soir, Victoire va voir sa mère.",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "Samedi",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "Victoire",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "mère",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "Bonsoir maman, je veux m’asseoir sur vos genoux pour écouter une belle histoire. Êtes-vous d’accord maman ?",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "veux",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "m’asseoir",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "vos",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "genoux",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "écouter",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "histoire",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "Êtes-vous",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "d’accord",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "Oui mais donne-moi à boire d’abord. Ensuite, allume-moi la lampe à pétrole car il fait déjà noir.",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "Oui",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "donne-moi",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "boire",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "d’abord",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "allume-moi",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "lampe",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "pétrole",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "déjà",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "Victoire fait tout ce que sa mère lui demande parce qu’elle veut écouter sa belle histoire.",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "demande",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "qu’elle",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "veut",
+    "where": "Leçon 42"
+  },
+  {
+    "text": "Leçon 43. Les sons g = j",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "g = j",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "ge",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "gi",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "gé",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "geon",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "geant",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "le genou",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "genou",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "une image",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "le village",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "la bougie",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "bougie",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "l’argent",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "en mangeant",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "mangeant",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "la page du livre",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "page",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "livre",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "un régime",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "régime",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "le berger",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "berger",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "un étranger",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "étranger",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "Le forgeron",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "Au village, on entend le forgeron qui tape sur son enclume. Le bruit se fait entendre dans le garage du père de Gildas. Le forgeron Gédéon fabrique dans sa forge des instruments pour les vendre aux étrangers en voyage pendant leur passage dans notre village.",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "forgeron",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "enclume",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "bruit",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "entendre",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "garage",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "Gildas",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "Gédéon",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "fabrique",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "forge",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "instruments",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "vendre",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "aux",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "étrangers",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "pendant",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "leur",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "passage",
+    "where": "Leçon 43"
+  },
+  {
+    "text": "Leçon 44. Les sons gu",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "gué",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "gue",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "gui",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "guê",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "une bague",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "bague",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "le guidon",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "guidon",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "une pirogue",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "pirogue",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "la langue",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "langue",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "je guide",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "une guêpe",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "guêpe",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "une mangue",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "la guitare",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "guitare",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "Les mangues",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "Auguste est allé marauder. Il ramène beaucoup de mangues qu’il distribue à Hugues, Rodrigue, Agathe et Marguerite. Les mangues sont si juteuses que Hugues se blesse la langue en les mangeant. Les mangues ont si bon goût que Marguerite les déguste avec plaisir.",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "Auguste",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "allé",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "marauder",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "ramène",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "mangues",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "qu’il",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "distribue",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "Hugues",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "Rodrigue",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "Agathe",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "Marguerite",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "juteuses",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "blesse",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "goût",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "déguste",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "plaisir",
+    "where": "Leçon 44"
+  },
+  {
+    "text": "Leçon 45. Les sons gn",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "gn",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "gna",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "gne",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "gnu",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "gni",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "gné",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "gnon",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "un pagne",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "pagne",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "l’igname",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "un peigne",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "un champignon",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "champignon",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "une araignée",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "araignée",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "la montagne",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "montagne",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "une campagne",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "campagne",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "un agneau",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "agneau",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "un oignon",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "oignon",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "une poignée",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "poignée",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "la ligne",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "ligne",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "Un bon repas",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "Ignace, l’ami de Bio est allé en vacances à Gamia, un village du Nord-Bénin. Sous un arbre où des araignées avaient tissé leur toile, un repas fait d’ignames pilées, d’une sauce d’oignons accompagnée de viandes séchées, est offert au jeune Ignace qui a mangé avec appétit. Avec quelques poignées, le repas est terminé.",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "Ignace",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "l’ami",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "Bio",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "Gamia",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "Nord-Bénin",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "arbre",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "araignées",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "avaient",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "tissé",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "toile",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "repas",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "pilées",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "d’oignons",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "accompagnée",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "viandes",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "séchées",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "offert",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "mangé",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "appétit",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "quelques",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "poignées",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "terminé",
+    "where": "Leçon 45"
+  },
+  {
+    "text": "Leçon 46. Les sons qu = k = c",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "qu = k = c",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "qua",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "quo",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "qué",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "le canari",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "la culotte",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "culotte",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "la copie",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "copie",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "le cacao",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "la camarade",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "le képi",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "la kola",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "le karité",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "karité",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "l’akassa",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "Konaté",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "Kadidia",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "un casque",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "une brique",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "brique",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "quatre",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "la quinine",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "quinine",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "le requin",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "requin",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "le quinquéliba",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "quinquéliba",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "quinze",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "quatorze",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "une banque",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "banque",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "une brique de quinze",
+    "where": "Leçon 46"
+  },
+  {
+    "text": "Leçon 47. Les sons s = z",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "s = z",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "une case",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "la maison",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "la valise",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "valise",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "le fusil",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "les oiseaux",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "oiseaux",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "une chaise",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "chaise",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "l’ardoise",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "une camisole",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "camisole",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "le visage",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "visage",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "le magasin",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "magasin",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "Le plus grand magasin de notre ville a été créé par Maryse. Il se trouve à l’entrée de la ville, très loin de notre maison. On y trouve beaucoup de choses comme des chaises, des vases, des petites cases en bois, des blouses blanches, et beaucoup d’autres objets. Chaque fois que je le visite, il y a toujours des surprises.",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "été",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "créé",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "Maryse",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "choses",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "chaises",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "vases",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "petites",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "cases",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "blouses",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "blanches",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "d’autres",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "objets",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "fois",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "visite",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "surprises",
+    "where": "Leçon 47"
+  },
+  {
+    "text": "Leçon 48. Les sons c = s · ç = s",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "c = s",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "ç = s",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "cette",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "celle",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "ceci",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "cela",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "voici",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "celui",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "le pouce",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "pouce",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "la place",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "ici",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "la calebasse",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "calebasse",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "une cigarette",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "cigarette",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "la leçon",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "leçon",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "un hameçon",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "hameçon",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "le maçon",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "maçon",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "un caleçon",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "caleçon",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "un garçon",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "garçon",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "Leçon 49. Les sons iez · ier · ied",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "iez",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "ier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "ied",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "le pied",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "le panier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "panier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "vous riez",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "vous",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "riez",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "le cahier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "cahier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "recopiez",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "le soulier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "soulier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "un écolier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "écolier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "le collier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "collier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "le bananier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "bananier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "le casier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "casier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "le dernier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "dernier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "le premier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "premier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "un papier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "papier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "le bijoutier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "bijoutier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "un encrier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "encrier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "le kapokier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "kapokier",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "le trépied",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "trépied",
+    "where": "Leçon 49"
+  },
+  {
+    "text": "Leçon 50. Les sons ch",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "ch",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "che",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "cho",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "chu",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "cha",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "ché",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "chaî",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "chau",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "chi",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "chan",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "une vache",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "le chapeau",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "une chaussure",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "chaussure",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "le chat",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "chat",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "la mouche",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "mouche",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "un chameau",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "chameau",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "un champ",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "champ",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "la bouche",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "bouche",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "le chant",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "chant",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "de l’arachide",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "l’arachide",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "la chemise",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "chemise",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "Le domaine",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "À kérou, nous avons un voisin qui a un domaine avec beaucoup d’animaux. Chaque fois que je monte sur une chaise pour les regarder je vois des vaches, des chevaux, des chiens et des chats. Quand je saute de ma chaise pour descendre je fais tomber mon chapeau.",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "kérou",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "domaine",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "d’animaux",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "monte",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "regarder",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "vaches",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "chevaux",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "chiens",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "chats",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "descendre",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "tomber",
+    "where": "Leçon 50"
+  },
+  {
+    "text": "Leçon 51. Les sons ph = f · th = t",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "ph = f",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "th = t",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "le téléphone",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "téléphone",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "la pharmacie",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "pharmacie",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "le thé",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "thé",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "la photo",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "photo",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "un photographe",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "photographe",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "le phonographe",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "phonographe",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "un phare",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "phare",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "l’éléphant",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "la panthère",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "panthère",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "Le photographe",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "L’oncle Mathieu a une belle voiture avec des phares ronds. Il vient d’appeler sa nièce au téléphone. Ensemble ils iront acheter du pain et un médicament à la pharmacie. Au retour ils iront prendre une photo chez Moustapha l’un des photographes du village",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "L’oncle",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "Mathieu",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "phares",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "ronds",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "d’appeler",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "nièce",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "Ensemble",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "ils",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "iront",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "médicament",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "prendre",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "Moustapha",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "l’un",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "photographes",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "Leçon 52. Les sons ac · oc · ic",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "ac",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "oc",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "ic",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "accompagner",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "occuper",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "accord",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "un choc",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "choc",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "accoucher",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "une attraction",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "attraction",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "Pendant les vacances papa nous accompagne avec sa charette en campagne faire du pique-nique et aussi des parties de chasse. Chacun de nous profite pour se reposer loin de la chaleur de la ville et des accidents. Sur le chemin de retour nous chantons tout en traversant les grands champs étendus à perte de vue.",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "accompagne",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "charette",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "pique-nique",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "parties",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "chasse",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "Chacun",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "profite",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "reposer",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "chaleur",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "accidents",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "chemin",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "chantons",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "traversant",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "grands",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "champs",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "étendus",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "perte",
+    "where": "Leçon 52"
+  },
+  {
+    "text": "Leçon 53. Les sons tion = sion",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "tion = sion",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "une attention",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "la tension",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "tension",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "l’habitation",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "la récréation",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "récréation",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "la punition",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "punition",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "la multiplication",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "multiplication",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "une application",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "application",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "l’action",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "l’opération",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "une habitation",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "habitation",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "Les opérations",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "À l’école nous apprenons à faire des calculs d’addition, de soustraction, de multiplication et de division. Pendant la récréation, le directeur de l’école va à la banque faire des opérations, il fait attention aux voitures et aux motos en traversant la route.",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "apprenons",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "calculs",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "d’addition",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "opérations",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "voitures",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "motos",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "Leçon 54. Les sons bl · pl · vl · fl · cl",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "bl",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "pl",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "vl",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "fl",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "cl",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "le blanc",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "blanc",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "un plan",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "plan",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "une fleur",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "fleur",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "la table",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "un tableau",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "la classe",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "la clé",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "clé",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "une flamme",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "flamme",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "une pantoufle",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "pantoufle",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "la boucle",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "boucle",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "une plume",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "le plafond",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "plafond",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "un flacon",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "flacon",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "la règle",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "règle",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "une épingle",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "épingle",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "l’ongle",
+    "where": "Leçon 54"
+  },
+  {
+    "text": "Leçon 55. Les sons ar · or",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "ar",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "la marmite",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "marmite",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "la porte",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "je regarde",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "un marché",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "le canard",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "canard",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "le charognard",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "charognard",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "une cartouche",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "cartouche",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "l’arc",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "les cornes",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "cornes",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "la marche",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "le marchand",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "marchand",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "de l’or",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "l’or",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "une ardoise.",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "ardoise",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "Les préparatifs",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "Avant la nouvelle année, maman dégage toutes les ordures de la maison. Mon frère est chargé d’orner le salon et le rendre beau. Papa aussi ne se repose pas, il arrache les mauvaises herbes autour de la maison. Pour aller retirer de l’argent à la banque, papa prend l’autocar.",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "nouvelle",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "année",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "dégage",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "ordures",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "chargé",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "d’orner",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "salon",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "repose",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "arrache",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "mauvaises",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "herbes",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "retirer",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "l’autocar",
+    "where": "Leçon 55"
+  },
+  {
+    "text": "Leçon 56. Les sons br · tr · cr · pr · dr · gr · vr · fr",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "br",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "tr",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "cr",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "pr",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "dr",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "gr",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "vr",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "fr",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "L’ombre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "le timbre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "timbre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "le sabre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "sabre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "l’encre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "la craie",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "l’encrier",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "la fenêtre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "le maître",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "mon ventre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "ma lèvre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "lèvre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "un grand enfant",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "gros",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "maigre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "le froid",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "mon frère",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "je frappe",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "l’arbre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "le sucre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "sucre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "des griffes",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "griffes",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "un traité",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "traité",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "un gros crocodile",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "crocodile",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "la promenade",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "promenade",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "L’hôpital",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "L’hôpital du village est près du grand fromager. Un autre grand arbre donne de l’ombre dans la cour. Notre hôpital compte un grand bâtiment administratif près du grand portail, trois salles de soins sont construites et trois autres attendent d’être en matériaux définitifs, une décision prise par le directeur du personnel soignant après la réunion du dernier vendredi du mois passé. Mes amis Brigitte, Crépin, Grégoire et moi préparons un test pour y travailler.",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "fromager",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "autre",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "donne",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "cour",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "compte",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "bâtiment",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "administratif",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "portail",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "trois",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "salles",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "construites",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "autres",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "attendent",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "d’être",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "matériaux",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "définitifs",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "décision",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "prise",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "personnel",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "soignant",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "réunion",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "vendredi",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "mois",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "passé",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "amis",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "Brigitte",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "Crépin",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "Grégoire",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "préparons",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "test",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "travailler",
+    "where": "Leçon 56"
+  },
+  {
+    "text": "Les chiffres. Le chiffre 0",
+    "where": "Chiffre 0"
+  },
+  {
+    "text": "neuf",
+    "where": "Chiffre 0"
+  },
+  {
+    "text": "sept",
+    "where": "Chiffre 0"
+  },
+  {
+    "text": "Les chiffres. Le chiffre 1",
+    "where": "Chiffre 1"
+  },
+  {
+    "text": "Les chiffres. Le chiffre 2",
+    "where": "Chiffre 2"
+  },
+  {
+    "text": "huit",
+    "where": "Chiffre 2"
+  },
+  {
+    "text": "Les chiffres. Le chiffre 3",
+    "where": "Chiffre 3"
+  },
+  {
+    "text": "cinq",
+    "where": "Chiffre 3"
+  },
+  {
+    "text": "Les chiffres. Le chiffre 4",
+    "where": "Chiffre 4"
+  },
+  {
+    "text": "Les chiffres. Le chiffre 5",
+    "where": "Chiffre 5"
+  },
+  {
+    "text": "six",
+    "where": "Chiffre 5"
+  },
+  {
+    "text": "Les chiffres. Le chiffre 6",
+    "where": "Chiffre 6"
+  },
+  {
+    "text": "Les chiffres. Le chiffre 7",
+    "where": "Chiffre 7"
+  },
+  {
+    "text": "Les chiffres. Le chiffre 8",
+    "where": "Chiffre 8"
+  },
+  {
+    "text": "Les chiffres. Le chiffre 9",
+    "where": "Chiffre 9"
+  }
+]

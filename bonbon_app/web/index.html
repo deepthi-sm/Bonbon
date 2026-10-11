@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Bonbon : apprendre à lire et à écrire, pas à pas.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Bonbon">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Bonbon</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#FBF8F3">
+  <style>
+    /* Loading screen, shown until the app draws its first frame. The app then
+       shows the same screen (lib/screens/splash.dart) while it loads content,
+       so the hand-over is seamless. */
+    html, body { margin: 0; height: 100%; background: #FBF8F3; }
+    #splash {
+      position: fixed; inset: 0; z-index: 10;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      background: #FBF8F3; transition: opacity .35s ease;
+    }
+    #splash.gone { opacity: 0; pointer-events: none; }
+    #splash img {
+      width: min(70vw, 340px); height: auto;
+      animation: bonbon-float 1.8s ease-in-out infinite alternate;
+    }
+    #splash .shadow {
+      width: min(40vw, 190px); height: 16px; margin-top: 22px; border-radius: 50%;
+      background: rgba(31, 41, 55, .12);
+      animation: bonbon-shadow 1.8s ease-in-out infinite alternate;
+    }
+    #splash .dots { display: flex; gap: 10px; margin-top: 34px; }
+    #splash .dots span {
+      width: 12px; height: 12px; border-radius: 50%; background: #0A6B6B; opacity: .25;
+      animation: bonbon-dot 1.2s ease-in-out infinite;
+    }
+    #splash .dots span:nth-child(2) { animation-delay: .2s; background: #C51C4E; }
+    #splash .dots span:nth-child(3) { animation-delay: .4s; background: #F59E0B; }
+    @keyframes bonbon-float { from { transform: translateY(6px); } to { transform: translateY(-16px); } }
+    @keyframes bonbon-shadow { from { transform: scaleX(1); opacity: 1; } to { transform: scaleX(.72); opacity: .55; } }
+    @keyframes bonbon-dot { 0%, 100% { opacity: .25; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.1); } }
+    @media (prefers-reduced-motion: reduce) { #splash img, #splash .shadow, #splash .dots span { animation: none; } }
+  </style>
+</head>
+<body>
+  <div id="splash" role="img" aria-label="Bonbon">
+    <img src="splash-logo.png" alt="Bonbon">
+    <div class="shadow"></div>
+    <div class="dots"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var s = document.getElementById('splash');
+      if (!s) return;
+      s.classList.add('gone');
+      setTimeout(function () { s.remove(); }, 400);
+    });
+  </script>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

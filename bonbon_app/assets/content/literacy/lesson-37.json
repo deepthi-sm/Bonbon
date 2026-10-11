@@ -1,0 +1,195 @@
+{
+  "id": "lesson-37",
+  "lessonNumber": 37,
+  "targets": [
+    {
+      "id": "target-lesson-37-1",
+      "kind": "grapheme",
+      "value": "et",
+      "audio": {
+        "key": "fr:grapheme:et-f056b8ca",
+        "fallbackText": "et"
+      }
+    },
+    {
+      "id": "target-lesson-37-2",
+      "kind": "grapheme",
+      "value": "ez",
+      "audio": {
+        "key": "fr:grapheme:ez-ea7ea1e7",
+        "fallbackText": "ez"
+      }
+    },
+    {
+      "id": "target-lesson-37-3",
+      "kind": "grapheme",
+      "value": "ai",
+      "audio": {
+        "key": "fr:grapheme:ai-32e83e92",
+        "fallbackText": "ai"
+      }
+    },
+    {
+      "id": "target-lesson-37-4",
+      "kind": "grapheme",
+      "value": "ed",
+      "audio": {
+        "key": "fr:grapheme:ed-9c1623f0",
+        "fallbackText": "ed"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [68],
+    "printedPages": [67]
+  },
+  "blocks": [
+    {
+      "id": "lesson-37-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [68],
+        "printedPages": [67]
+      },
+      "grapheme": "et",
+      "uppercase": "ET",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:et-f056b8ca",
+        "fallbackText": "et"
+      }
+    },
+    {
+      "id": "lesson-37-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [68],
+        "printedPages": [67]
+      },
+      "grapheme": "ez",
+      "uppercase": "EZ",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ez-ea7ea1e7",
+        "fallbackText": "ez"
+      }
+    },
+    {
+      "id": "lesson-37-block-03",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [68],
+        "printedPages": [67]
+      },
+      "grapheme": "ai",
+      "uppercase": "AI",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ai-32e83e92",
+        "fallbackText": "ai"
+      }
+    },
+    {
+      "id": "lesson-37-block-04",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [68],
+        "printedPages": [67]
+      },
+      "grapheme": "ed",
+      "uppercase": "ED",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ed-9c1623f0",
+        "fallbackText": "ed"
+      }
+    },
+    {
+      "id": "lesson-37-block-05",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [68],
+        "printedPages": [67]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-37-block-05-item-01",
+          "text": "mon pied",
+          "audio": {
+            "key": "fr:phrase:mon-pied-8ac0a505",
+            "fallbackText": "mon pied"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-37-block-05-item-02",
+          "text": "le nez",
+          "audio": {
+            "key": "fr:phrase:le-nez-29cb32e8",
+            "fallbackText": "le nez"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-37-block-05-item-03",
+          "text": "le lait",
+          "audio": {
+            "key": "fr:phrase:le-lait-aa38c858",
+            "fallbackText": "le lait"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-37-block-05-item-04",
+          "text": "un met",
+          "audio": {
+            "key": "fr:phrase:un-met-67553b5f",
+            "fallbackText": "un met"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-37-block-06",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [68],
+        "printedPages": [67]
+      },
+      "title": "À l’école",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-37-block-06-segment-1",
+          "type": "narration",
+          "text": "Chaque élève a apporté son balai. Les enfants sont contents de rendre l’école propre. Les tout petits ramassent les papiers et vont les jeter au pied d’un cocotier. Il y a beaucoup de poussière. Monsieur Orou, le directeur, arrive et dit, en se pinçant le nez :",
+          "audio": {
+            "key": "fr:lesson-37:passage-6-segment-1",
+            "fallbackText": "Chaque élève a apporté son balai. Les enfants sont contents de rendre l’école propre. Les tout petits ramassent les papiers et vont les jeter au pied d’un cocotier. Il y a beaucoup de poussière. Monsieur Orou, le directeur, arrive et dit, en se pinçant le nez :"
+          }
+        },
+        {
+          "id": "lesson-37-block-06-segment-2",
+          "type": "dialogue",
+          "turns": [
+            {
+              "id": "lesson-37-block-06-segment-2-turn-1",
+              "text": "Attention, balayez doucement.",
+              "audio": {
+                "key": "fr:lesson-37:passage-6-turn-2-1",
+                "fallbackText": "Attention, balayez doucement."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

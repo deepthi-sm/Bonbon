@@ -1,0 +1,182 @@
+{
+  "id": "lesson-35",
+  "lessonNumber": 35,
+  "targets": [
+    {
+      "id": "target-lesson-35-1",
+      "kind": "grapheme",
+      "value": "eil",
+      "audio": {
+        "key": "fr:grapheme:eil-ffb00cc7",
+        "fallbackText": "eil"
+      }
+    },
+    {
+      "id": "target-lesson-35-2",
+      "kind": "grapheme",
+      "value": "eille",
+      "audio": {
+        "key": "fr:grapheme:eille-b026fcec",
+        "fallbackText": "eille"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [66],
+    "printedPages": [65]
+  },
+  "blocks": [
+    {
+      "id": "lesson-35-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [66],
+        "printedPages": [65]
+      },
+      "grapheme": "eil",
+      "uppercase": "EIL",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:eil-ffb00cc7",
+        "fallbackText": "eil"
+      }
+    },
+    {
+      "id": "lesson-35-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [66],
+        "printedPages": [65]
+      },
+      "grapheme": "eille",
+      "uppercase": "EILLE",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:eille-b026fcec",
+        "fallbackText": "eille"
+      }
+    },
+    {
+      "id": "lesson-35-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [66],
+        "printedPages": [65]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-35-block-03-item-01",
+          "text": "un réveil",
+          "audio": {
+            "key": "fr:phrase:un-reveil-22e46b9b",
+            "fallbackText": "un réveil"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-35-block-03-item-02",
+          "text": "le soleil",
+          "audio": {
+            "key": "fr:phrase:le-soleil-f95f1f17",
+            "fallbackText": "le soleil"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-35-block-03-item-03",
+          "text": "le sommeil",
+          "audio": {
+            "key": "fr:phrase:le-sommeil-b90cf492",
+            "fallbackText": "le sommeil"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-35-block-03-item-04",
+          "text": "un orteil",
+          "audio": {
+            "key": "fr:phrase:un-orteil-1b77b2c9",
+            "fallbackText": "un orteil"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-35-block-03-item-05",
+          "text": "une bouteille",
+          "audio": {
+            "key": "fr:phrase:une-bouteille-98960cf1",
+            "fallbackText": "une bouteille"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-35-block-03-item-06",
+          "text": "l’oreille",
+          "audio": {
+            "key": "fr:word:loreille-216f7cc0",
+            "fallbackText": "l’oreille"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-35-block-03-item-07",
+          "text": "je me réveille",
+          "audio": {
+            "key": "fr:phrase:je-me-reveille-bef7cb7e",
+            "fallbackText": "je me réveille"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-35-block-04",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [66],
+        "printedPages": [65]
+      },
+      "title": "Au réveil",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-35-block-04-segment-1",
+          "type": "narration",
+          "text": "Le réveil de Samira sonne. Le soleil s’est levé Samira n’a plus sommeil mais elle est toujours dans son lit. Elle est en éveil.",
+          "audio": {
+            "key": "fr:lesson-35:passage-4-segment-1",
+            "fallbackText": "Le réveil de Samira sonne. Le soleil s’est levé Samira n’a plus sommeil mais elle est toujours dans son lit. Elle est en éveil."
+          }
+        },
+        {
+          "id": "lesson-35-block-04-segment-2",
+          "type": "dialogue",
+          "turns": [
+            {
+              "id": "lesson-35-block-04-segment-2-turn-1",
+              "text": "Réveille - toi Samira ! Tu dois aller à l’école !",
+              "audio": {
+                "key": "fr:lesson-35:passage-4-turn-2-1",
+                "fallbackText": "Réveille - toi Samira ! Tu dois aller à l’école !"
+              }
+            },
+            {
+              "id": "lesson-35-block-04-segment-2-turn-2",
+              "text": "Je suis en éveil maman ! Seulement, j’ai mal à l’oreille.",
+              "audio": {
+                "key": "fr:lesson-35:passage-4-turn-2-2",
+                "fallbackText": "Je suis en éveil maman ! Seulement, j’ai mal à l’oreille."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-35-review-1"]
+  }
+}

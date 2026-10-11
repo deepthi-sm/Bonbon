@@ -1,0 +1,351 @@
+{
+  "id": "lesson-15",
+  "lessonNumber": 15,
+  "targets": [
+    {
+      "id": "target-lesson-15-1",
+      "kind": "grapheme",
+      "value": "d",
+      "audio": {
+        "key": "fr:grapheme:d-18ac3e73",
+        "fallbackText": "d"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [35, 36],
+    "printedPages": [34, 35]
+  },
+  "blocks": [
+    {
+      "id": "lesson-15-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [35],
+        "printedPages": [34]
+      },
+      "grapheme": "d",
+      "uppercase": "D",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:d-18ac3e73",
+        "fallbackText": "d"
+      }
+    },
+    {
+      "id": "lesson-15-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [35],
+        "printedPages": [34]
+      },
+      "assetId": "lesson-15-illustration",
+      "caption": {
+        "id": "lesson-15-caption",
+        "text": "une datte",
+        "audio": {
+          "key": "fr:phrase:une-datte-4119cb7e",
+          "fallbackText": "une datte"
+        }
+      }
+    },
+    {
+      "id": "lesson-15-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [35],
+        "printedPages": [34]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-15-block-03-item-01",
+          "text": "di",
+          "audio": {
+            "key": "fr:syllable:di-225ed656",
+            "fallbackText": "di"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-15-block-03-item-02",
+          "text": "du",
+          "audio": {
+            "key": "fr:syllable:du-601b2c24",
+            "fallbackText": "du"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-15-block-03-item-03",
+          "text": "do",
+          "audio": {
+            "key": "fr:syllable:do-ac0b52a2",
+            "fallbackText": "do"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-15-block-03-item-04",
+          "text": "da",
+          "audio": {
+            "key": "fr:syllable:da-aa58b21b",
+            "fallbackText": "da"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-15-block-03-item-05",
+          "text": "de",
+          "audio": {
+            "key": "fr:syllable:de-959a45d4",
+            "fallbackText": "de"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-15-block-03-item-06",
+          "text": "dé",
+          "audio": {
+            "key": "fr:syllable:de-42e8f0ef",
+            "fallbackText": "dé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-15-block-03-item-07",
+          "text": "dè",
+          "audio": {
+            "key": "fr:syllable:de-6ea8a2c4",
+            "fallbackText": "dè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-15-block-03-item-08",
+          "text": "dê",
+          "audio": {
+            "key": "fr:syllable:de-c371099c",
+            "fallbackText": "dê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-15-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [35],
+        "printedPages": [34]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-15-block-04-item-01",
+          "text": "date",
+          "audio": {
+            "key": "fr:word:date-0e87632c",
+            "fallbackText": "date"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-15-block-04-item-02",
+          "text": "don",
+          "audio": {
+            "key": "fr:word:don-4a2326c6",
+            "fallbackText": "don"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-15-block-04-item-03",
+          "text": "debout",
+          "audio": {
+            "key": "fr:word:debout-684c70f0",
+            "fallbackText": "debout"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-15-block-04-item-04",
+          "text": "dindon",
+          "audio": {
+            "key": "fr:word:dindon-9c8d0fcb",
+            "fallbackText": "dindon"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-15-block-04-item-05",
+          "text": "doigt",
+          "audio": {
+            "key": "fr:word:doigt-6e904ea1",
+            "fallbackText": "doigt"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-15-block-04-item-06",
+          "text": "drap",
+          "audio": {
+            "key": "fr:word:drap-f62985bf",
+            "fallbackText": "drap"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-15-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [35],
+        "printedPages": [34]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-15-block-05-item-01",
+          "text": "la daba de dado.",
+          "audio": {
+            "key": "fr:lesson-15:b5-item-1",
+            "fallbackText": "la daba de dado."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-15-block-05-item-02",
+          "text": "papa est debout.",
+          "audio": {
+            "key": "fr:lesson-15:b5-item-2",
+            "fallbackText": "papa est debout."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-15-block-05-item-03",
+          "text": "le doigt de maman.",
+          "audio": {
+            "key": "fr:lesson-15:b5-item-3",
+            "fallbackText": "le doigt de maman."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-15-block-05-item-04",
+          "text": "le dindon dort dehors.",
+          "audio": {
+            "key": "fr:lesson-15:b5-item-4",
+            "fallbackText": "le dindon dort dehors."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-15-block-06",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [36],
+        "printedPages": [35]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-15-hand-1",
+          "text": "d"
+        },
+        {
+          "id": "lesson-15-hand-2",
+          "text": "D"
+        }
+      ],
+      "glyphAssetIds": ["lesson-15-glyph-1", "lesson-15-glyph-2"]
+    },
+    {
+      "id": "lesson-15-block-07",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [36],
+        "printedPages": [35]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-15-block-07-item-01",
+          "text": "d",
+          "audio": {
+            "key": "fr:word:d-18ac3e73",
+            "fallbackText": "d"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-15-block-07-item-02",
+          "text": "don",
+          "audio": {
+            "key": "fr:word:don-4a2326c6",
+            "fallbackText": "don"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-15-block-07-item-03",
+          "text": "D",
+          "audio": {
+            "key": "fr:word:d-3f39d5c3",
+            "fallbackText": "D"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-15-block-07-item-04",
+          "text": "Don",
+          "audio": {
+            "key": "fr:word:don-24b6bef2",
+            "fallbackText": "Don"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-15-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [36],
+        "printedPages": [35]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-15-block-08-item-01",
+          "text": "d",
+          "audio": {
+            "key": "fr:word:d-18ac3e73",
+            "fallbackText": "d"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-15-block-08-item-02",
+          "text": "dinde",
+          "audio": {
+            "key": "fr:word:dinde-1a9449bb",
+            "fallbackText": "dinde"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-15-review-1"]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": "lesson-41",
+  "lessonNumber": 41,
+  "targets": [
+    {
+      "id": "target-lesson-41-1",
+      "kind": "grapheme",
+      "value": "eur",
+      "audio": {
+        "key": "fr:grapheme:eur-ba1e95c8",
+        "fallbackText": "eur"
+      }
+    },
+    {
+      "id": "target-lesson-41-2",
+      "kind": "grapheme",
+      "value": "eure",
+      "audio": {
+        "key": "fr:grapheme:eure-c5cc99e3",
+        "fallbackText": "eure"
+      }
+    },
+    {
+      "id": "target-lesson-41-3",
+      "kind": "grapheme",
+      "value": "œur",
+      "audio": {
+        "key": "fr:grapheme:ur-2790a2a9",
+        "fallbackText": "œur"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [72],
+    "printedPages": [71]
+  },
+  "blocks": [
+    {
+      "id": "lesson-41-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [72],
+        "printedPages": [71]
+      },
+      "grapheme": "eur",
+      "uppercase": "EUR",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:eur-ba1e95c8",
+        "fallbackText": "eur"
+      }
+    },
+    {
+      "id": "lesson-41-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [72],
+        "printedPages": [71]
+      },
+      "grapheme": "eure",
+      "uppercase": "EURE",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:eure-c5cc99e3",
+        "fallbackText": "eure"
+      }
+    },
+    {
+      "id": "lesson-41-block-03",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [72],
+        "printedPages": [71]
+      },
+      "grapheme": "œur",
+      "uppercase": "ŒUR",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ur-2790a2a9",
+        "fallbackText": "œur"
+      }
+    },
+    {
+      "id": "lesson-41-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [72],
+        "printedPages": [71]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-41-block-04-item-01",
+          "text": "un acheteur",
+          "audio": {
+            "key": "fr:phrase:un-acheteur-3bdbe76c",
+            "fallbackText": "un acheteur"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-41-block-04-item-02",
+          "text": "le cultivateur",
+          "audio": {
+            "key": "fr:phrase:le-cultivateur-0fdfb5ae",
+            "fallbackText": "le cultivateur"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-41-block-04-item-03",
+          "text": "la sœur",
+          "audio": {
+            "key": "fr:phrase:la-sur-30f13969",
+            "fallbackText": "la sœur"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-41-block-04-item-04",
+          "text": "le beurre",
+          "audio": {
+            "key": "fr:phrase:le-beurre-0603e3e9",
+            "fallbackText": "le beurre"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-41-block-04-item-05",
+          "text": "le joueur",
+          "audio": {
+            "key": "fr:phrase:le-joueur-aa60676d",
+            "fallbackText": "le joueur"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-41-block-04-item-06",
+          "text": "le chasseur",
+          "audio": {
+            "key": "fr:phrase:le-chasseur-21c70c12",
+            "fallbackText": "le chasseur"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-41-block-04-item-07",
+          "text": "l’heure",
+          "audio": {
+            "key": "fr:word:lheure-7d0d13b6",
+            "fallbackText": "l’heure"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-41-block-05",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [72],
+        "printedPages": [71]
+      },
+      "title": "Les deux sœurs",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-41-block-05-segment-1",
+          "type": "narration",
+          "text": "C’est le soir. Les deux sœurs Flore et Rose jouent au jeu de cache - cache dans la haie de fleurs. Flore voulant se cacher, voit un bâton ayant la forme d’un serpent. Apeurée, elle crie très fort. Sa maman entend son cri de peur. Elle surgit de la demeure. Le cœur de Flore bat sans arrêt. Sa sœur Rose la serre dans ses bras. Maman la console et lui promet du pain avec du beurre.",
+          "audio": {
+            "key": "fr:lesson-41:passage-5-segment-1",
+            "fallbackText": "C’est le soir. Les deux sœurs Flore et Rose jouent au jeu de cache - cache dans la haie de fleurs. Flore voulant se cacher, voit un bâton ayant la forme d’un serpent. Apeurée, elle crie très fort. Sa maman entend son cri de peur. Elle surgit de la demeure. Le cœur de Flore bat sans arrêt. Sa sœur Rose la serre dans ses bras. Maman la console et lui promet du pain avec du beurre."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

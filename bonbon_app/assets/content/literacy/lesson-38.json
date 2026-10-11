@@ -1,0 +1,161 @@
+{
+  "id": "lesson-38",
+  "lessonNumber": 38,
+  "targets": [
+    {
+      "id": "target-lesson-38-1",
+      "kind": "grapheme",
+      "value": "euil",
+      "audio": {
+        "key": "fr:grapheme:euil-aa0b7460",
+        "fallbackText": "euil"
+      }
+    },
+    {
+      "id": "target-lesson-38-2",
+      "kind": "grapheme",
+      "value": "euille",
+      "audio": {
+        "key": "fr:grapheme:euille-59820a64",
+        "fallbackText": "euille"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [69],
+    "printedPages": [68]
+  },
+  "blocks": [
+    {
+      "id": "lesson-38-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [69],
+        "printedPages": [68]
+      },
+      "grapheme": "euil",
+      "uppercase": "EUIL",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:euil-aa0b7460",
+        "fallbackText": "euil"
+      }
+    },
+    {
+      "id": "lesson-38-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [69],
+        "printedPages": [68]
+      },
+      "grapheme": "euille",
+      "uppercase": "EUILLE",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:euille-59820a64",
+        "fallbackText": "euille"
+      }
+    },
+    {
+      "id": "lesson-38-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [69],
+        "printedPages": [68]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-38-block-03-item-01",
+          "text": "une feuille",
+          "audio": {
+            "key": "fr:phrase:une-feuille-05efd1c9",
+            "fallbackText": "une feuille"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-38-block-03-item-02",
+          "text": "le fauteuil",
+          "audio": {
+            "key": "fr:phrase:le-fauteuil-beafe0d4",
+            "fallbackText": "le fauteuil"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-38-block-03-item-03",
+          "text": "je cueille une mangue",
+          "audio": {
+            "key": "fr:phrase:je-cueille-une-mangue-3120ee21",
+            "fallbackText": "je cueille une mangue"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-38-block-04",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [69],
+        "printedPages": [68]
+      },
+      "title": "Un visiteur",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-38-block-04-segment-1",
+          "type": "narration",
+          "text": "Papa est dans un fauteuil sous le feuillage du grand manguier au milieu de la maison. Béré, va voir qui frappe à la porte, me dit papa. Sur le seuil de la maison, je salue le visiteur.",
+          "audio": {
+            "key": "fr:lesson-38:passage-4-segment-1",
+            "fallbackText": "Papa est dans un fauteuil sous le feuillage du grand manguier au milieu de la maison. Béré, va voir qui frappe à la porte, me dit papa. Sur le seuil de la maison, je salue le visiteur."
+          }
+        },
+        {
+          "id": "lesson-38-block-04-segment-2",
+          "type": "dialogue",
+          "turns": [
+            {
+              "id": "lesson-38-block-04-segment-2-turn-1",
+              "text": "Veuillez bien remettre ces feuilles à ton père.",
+              "audio": {
+                "key": "fr:lesson-38:passage-4-turn-2-1",
+                "fallbackText": "Veuillez bien remettre ces feuilles à ton père."
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson-38-block-04-segment-3",
+          "type": "narration",
+          "text": "Avec ces feuilles, on prépare une bonne tisane. Ce sont des feuilles médicinales qui servent à se soigner.",
+          "audio": {
+            "key": "fr:lesson-38:passage-4-segment-3",
+            "fallbackText": "Avec ces feuilles, on prépare une bonne tisane. Ce sont des feuilles médicinales qui servent à se soigner."
+          }
+        },
+        {
+          "id": "lesson-38-block-04-segment-4",
+          "type": "dialogue",
+          "turns": [
+            {
+              "id": "lesson-38-block-04-segment-4-turn-1",
+              "text": "Merci monsieur.",
+              "audio": {
+                "key": "fr:lesson-38:passage-4-turn-4-1",
+                "fallbackText": "Merci monsieur."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

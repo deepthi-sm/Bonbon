@@ -1,0 +1,235 @@
+{
+  "id": "lesson-36",
+  "lessonNumber": 36,
+  "targets": [
+    {
+      "id": "target-lesson-36-1",
+      "kind": "grapheme",
+      "value": "ai",
+      "audio": {
+        "key": "fr:grapheme:ai-32e83e92",
+        "fallbackText": "ai"
+      }
+    },
+    {
+      "id": "target-lesson-36-2",
+      "kind": "grapheme",
+      "value": "ei",
+      "audio": {
+        "key": "fr:grapheme:ei-39d633dc",
+        "fallbackText": "ei"
+      }
+    },
+    {
+      "id": "target-lesson-36-3",
+      "kind": "grapheme",
+      "value": "ais",
+      "audio": {
+        "key": "fr:grapheme:ais-08239627",
+        "fallbackText": "ais"
+      }
+    },
+    {
+      "id": "target-lesson-36-4",
+      "kind": "grapheme",
+      "value": "ait",
+      "audio": {
+        "key": "fr:grapheme:ait-7cb0d761",
+        "fallbackText": "ait"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [67],
+    "printedPages": [66]
+  },
+  "blocks": [
+    {
+      "id": "lesson-36-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [67],
+        "printedPages": [66]
+      },
+      "grapheme": "ai",
+      "uppercase": "AI",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ai-32e83e92",
+        "fallbackText": "ai"
+      }
+    },
+    {
+      "id": "lesson-36-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [67],
+        "printedPages": [66]
+      },
+      "grapheme": "ei",
+      "uppercase": "EI",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ei-39d633dc",
+        "fallbackText": "ei"
+      }
+    },
+    {
+      "id": "lesson-36-block-03",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [67],
+        "printedPages": [66]
+      },
+      "grapheme": "ais",
+      "uppercase": "AIS",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ais-08239627",
+        "fallbackText": "ais"
+      }
+    },
+    {
+      "id": "lesson-36-block-04",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [67],
+        "printedPages": [66]
+      },
+      "grapheme": "ait",
+      "uppercase": "AIT",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ait-7cb0d761",
+        "fallbackText": "ait"
+      }
+    },
+    {
+      "id": "lesson-36-block-05",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [67],
+        "printedPages": [66]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-36-block-05-item-01",
+          "text": "une pagaie",
+          "audio": {
+            "key": "fr:phrase:une-pagaie-143069a6",
+            "fallbackText": "une pagaie"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-36-block-05-item-02",
+          "text": "la semaine",
+          "audio": {
+            "key": "fr:phrase:la-semaine-1387874a",
+            "fallbackText": "la semaine"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-36-block-05-item-03",
+          "text": "la reine",
+          "audio": {
+            "key": "fr:phrase:la-reine-68eec0cf",
+            "fallbackText": "la reine"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-36-block-05-item-04",
+          "text": "seize",
+          "audio": {
+            "key": "fr:word:seize-313fac08",
+            "fallbackText": "seize"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-36-block-05-item-05",
+          "text": "épais",
+          "audio": {
+            "key": "fr:word:epais-822ae154",
+            "fallbackText": "épais"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-36-block-05-item-06",
+          "text": "un fait",
+          "audio": {
+            "key": "fr:phrase:un-fait-18025449",
+            "fallbackText": "un fait"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-36-block-05-item-07",
+          "text": "le peigne",
+          "audio": {
+            "key": "fr:phrase:le-peigne-1b67598f",
+            "fallbackText": "le peigne"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-36-block-05-item-08",
+          "text": "un balai",
+          "audio": {
+            "key": "fr:phrase:un-balai-5e8f3d80",
+            "fallbackText": "un balai"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-36-block-05-item-09",
+          "text": "le lait",
+          "audio": {
+            "key": "fr:phrase:le-lait-aa38c858",
+            "fallbackText": "le lait"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-36-block-05-item-10",
+          "text": "la plaie",
+          "audio": {
+            "key": "fr:phrase:la-plaie-337a359a",
+            "fallbackText": "la plaie"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-36-block-06",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [67],
+        "printedPages": [66]
+      },
+      "title": "En classe",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-36-block-06-segment-1",
+          "type": "narration",
+          "text": "Baké prend son sac, son balai et un peigne pour aller à l’école. L’instituteur utilise de la craie rouge au tableau. Parfait le voisin de Baké aime utiliser le bâton de craie jaune comme relais quand il n’a plus de craie blanche. Baké et son voisin aiment le bon lait de vache vendu par les vendeuses toute la semaine.",
+          "audio": {
+            "key": "fr:lesson-36:passage-6-segment-1",
+            "fallbackText": "Baké prend son sac, son balai et un peigne pour aller à l’école. L’instituteur utilise de la craie rouge au tableau. Parfait le voisin de Baké aime utiliser le bâton de craie jaune comme relais quand il n’a plus de craie blanche. Baké et son voisin aiment le bon lait de vache vendu par les vendeuses toute la semaine."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

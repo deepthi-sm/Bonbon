@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="fr"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_blank" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24..48,400..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-dim":"#d0dbed","surface-tint":"#066969","on-tertiary":"#ffffff","on-surface":"#121c2a","outline":"#6f7979","error":"#ba1a1a","surface-bright":"#f8f9ff","on-primary-container":"#9ae9e8","on-primary-fixed":"#002020","inverse-on-surface":"#eaf1ff","surface-container-highest":"#d9e3f6","on-background":"#121c2a","tertiary-container":"#875500","primary-fixed":"#a1f0ef","error-container":"#ffdad6","on-tertiary-fixed-variant":"#653e00","on-secondary-container":"#fffbff","surface-container-lowest":"#ffffff","on-primary":"#ffffff","primary":"#005151","on-error-container":"#93000a","secondary-fixed":"#ffd9dd","inverse-surface":"#27313f","on-error":"#ffffff","surface-variant":"#d9e3f6","secondary-fixed-dim":"#ffb2bb","on-surface-variant":"#3e4948","secondary-container":"#da2f5c","inverse-primary":"#85d4d3","on-tertiary-container":"#ffd4a2","tertiary":"#674000","surface":"#f8f9ff","on-tertiary-fixed":"#2a1700","secondary":"#b70a45","on-secondary-fixed":"#400012","surface-container-high":"#dee9fc","surface-container-low":"#eff4ff","background":"#f8f9ff","on-secondary":"#ffffff","on-primary-fixed-variant":"#004f50","on-secondary-fixed-variant":"#910033","tertiary-fixed-dim":"#ffb95f","primary-container":"#0a6b6b","surface-container":"#e6eeff","tertiary-fixed":"#ffddb8","outline-variant":"#bec9c8","primary-fixed-dim":"#85d4d3"},"borderRadius":{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},"spacing":{"margin":"1.25rem","space-xs":"0.25rem","space-md":"1rem","space-xl":"2.25rem","space-sm":"0.5rem","gutter":"1rem","space-lg":"1.5rem"},"fontFamily":{"body-lg":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"]},"fontSize":{"body-lg":["19px",{"lineHeight":"30px","fontWeight":"500"}],"headline-md":["26px",{"lineHeight":"34px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-md":["17px",{"lineHeight":"26px","fontWeight":"500"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"800"}],"label-lg":["18px",{"lineHeight":"24px","fontWeight":"700"}],"label-md":["16px",{"lineHeight":"22px","fontWeight":"700"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"700"}],"label-sm":["14px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"700"}],"body-sm":["15px",{"lineHeight":"22px","fontWeight":"500"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col antialiased selection:bg-primary-fixed selection:text-on-primary-fixed"><main class="flex flex-col relative w-full pt-safe pb-safe bg-surface min-h-screen"><div class="flex flex-col w-full px-margin pb-space-xl gap-space-lg">
+<!-- Audio Guidance Header Card -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-md shadow-sm flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-12 h-12 rounded-full bg-primary-container/15 flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">volume_up</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Aide vocale</span>
+<span class="font-body-sm text-body-sm text-on-surface truncate">Écouter la consigne</span>
+</div>
+</div>
+<button aria-label="Écouter la consigne audio" class="h-12 px-space-md bg-secondary-container text-on-secondary-container rounded-full font-label-md text-label-md flex items-center gap-space-xs shadow-sm active:scale-95 transition-transform flex-shrink-0" id="play-prompt-btn" type="button">
+<span class="material-symbols-outlined text-[22px]">play_arrow</span>
+<span>Écouter</span>
+</button>
+</div>
+<!-- Section 1: User Name Input -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<label class="flex items-center gap-space-xs font-headline-sm text-headline-sm text-on-surface" for="user-name">
+<span class="material-symbols-outlined text-primary text-[28px]" style="font-variation-settings: 'FILL' 1;">record_voice_over</span>
+<span>Quel est ton prénom ?</span>
+</label>
+<button aria-label="Écouter la question du prénom" class="w-11 h-11 rounded-full bg-surface-container flex items-center justify-center text-primary active:scale-90 transition-transform" type="button">
+<span class="material-symbols-outlined text-[24px]">volume_up</span>
+</button>
+</div>
+<div class="relative w-full">
+<input autocomplete="off" class="w-full h-16 pl-space-md pr-14 rounded-lg bg-surface-container-lowest font-body-lg text-body-lg text-on-surface placeholder:text-outline shadow-sm focus:outline-none focus:bg-surface-container-low transition-colors" id="user-name" placeholder="Écris ton prénom..." type="text" value="Amina"/>
+<div class="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1">
+<button aria-label="Dicter le prénom par la voix" class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed active:bg-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[22px]">mic</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Section 2: Avatar Selection -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[28px]" style="font-variation-settings: 'FILL' 1;">face_4</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Choisis ton avatar :</h2>
+</div>
+<button aria-label="Écouter le choix d'avatar" class="w-11 h-11 rounded-full bg-surface-container flex items-center justify-center text-primary active:scale-90 transition-transform" type="button">
+<span class="material-symbols-outlined text-[24px]">volume_up</span>
+</button>
+</div>
+<!-- 2x4 Avatar Grid -->
+<div class="grid grid-cols-3 gap-space-sm bg-surface-container-lowest p-space-md rounded-lg shadow-sm" id="avatar-grid">
+<!-- Avatar 1 (Selected) -->
+<button class="avatar-option group relative flex flex-col items-center justify-center p-space-xs rounded-lg transition-transform active:scale-95" data-avatar-id="1" type="button">
+<div class="avatar-ring relative w-20 h-20 rounded-full p-1 bg-primary flex items-center justify-center shadow-md">
+<img class="w-full h-full rounded-full object-cover" data-alt="Portrait illustration of a beaming young West African woman with an intricate golden yellow and turquoise patterned headwrap, wearing warm terracotta earrings, gentle morning light, celebratory folk modern aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0ZI3a34_YVWrQyMqBEaKF_QEbEXcQFjwCqrdWS6QQ0qhetYSh3-0VxUEvBUFC-2q_qEtG5P2RazrUW3WBn0R0apzCm5zZjR44uq0E6myVNIW7wEXTCZJQurVSr0AN-7QJazYWOPE24kXE83SBaul7ZZyrq4N3-OVmF0uzCEv5FwHz_Mg8brCDGa9BCMt-QngyX4DPKB3YZDRALcnUzKCLj6WEMK_kuLVTAboB9WVtDO82A95xOyRX2A"/>
+<span class="avatar-badge absolute -top-1 -right-1 w-7 h-7 rounded-full bg-secondary text-on-secondary flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</span>
+</div>
+<span class="mt-space-xs font-label-sm text-label-sm text-on-surface">Kadi</span>
+</button>
+<!-- Avatar 2 -->
+<button class="avatar-option group relative flex flex-col items-center justify-center p-space-xs rounded-lg transition-transform active:scale-95" data-avatar-id="2" type="button">
+<div class="avatar-ring relative w-20 h-20 rounded-full p-1 bg-surface-container flex items-center justify-center">
+<img class="w-full h-full rounded-full object-cover" data-alt="Portrait illustration of an adolescent African young woman with braided crown hairstyle adorned with wooden beads, bright smiling eyes, wearing an emerald green collar, radiant natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxGscceh9FFMHstE28uW0lOPlMH5bn5IgOQ5avsSH2T6kpwBpfhScbfzg0j0nYole_beXyekqacbbK2_Hd0r64wspe5qvmtFJIaepl8uBqdWAdNSkZzpKODNq6X1Bbm4I4ZgkvfzREnUXXGaNfR0fi9rqgZcZRJdzJt7SV2nE4wZ3UkApsC9bTJ3h_Gc380YoLgIRRqImHGWnHoGHQotqD8cyoYRfYRau0wHtuT5CpevL8oMb99BFfIQ"/>
+<span class="avatar-badge hidden absolute -top-1 -right-1 w-7 h-7 rounded-full bg-secondary text-on-secondary items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</span>
+</div>
+<span class="mt-space-xs font-label-sm text-label-sm text-on-surface-variant">Fatou</span>
+</button>
+<!-- Avatar 3 -->
+<button class="avatar-option group relative flex flex-col items-center justify-center p-space-xs rounded-lg transition-transform active:scale-95" data-avatar-id="3" type="button">
+<div class="avatar-ring relative w-20 h-20 rounded-full p-1 bg-surface-container flex items-center justify-center">
+<img class="w-full h-full rounded-full object-cover" data-alt="Portrait illustration of a young Senegalese woman wearing a vibrant indigo blue wax print tie wrap, warm welcoming smile, soft rose gold stud jewelry, high clarity digital art" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcvJBDHv7jOSXdbwPRFr3Dk5gSS9FSkLiEwbFEoOpPwpruPy2-eVl7c0rpYGB17H5I8aBuB0J12vVPiGprdRayQAoWvqbR6IbFjCYnKihpUEFT7Mwu1RwXWnr52Ajso-MbRVkYHHJyuPAz5fDVhDCVbFWrDd7fCEA86o9-vr26iCIXa8EcIH0Gg9SfZ78Jqrg-tMuJIbfsltZqjH5yf3zS0KOipHIconBryxqz019-FtKxUXCtf-brsQ"/>
+<span class="avatar-badge hidden absolute -top-1 -right-1 w-7 h-7 rounded-full bg-secondary text-on-secondary items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</span>
+</div>
+<span class="mt-space-xs font-label-sm text-label-sm text-on-surface-variant">Aïcha</span>
+</button>
+<!-- Avatar 4 -->
+<button class="avatar-option group relative flex flex-col items-center justify-center p-space-xs rounded-lg transition-transform active:scale-95" data-avatar-id="4" type="button">
+<div class="avatar-ring relative w-20 h-20 rounded-full p-1 bg-surface-container flex items-center justify-center">
+<img class="w-full h-full rounded-full object-cover" data-alt="Portrait illustration of a cheerful young Malian woman with short natural textured hair, stylish colorful frames, ochre yellow blouse, uplifting and friendly classroom vibe" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMdgqZWYHplzTvC9wuOXEEfAf3OlyBeC3gaj_aKLTS-U1J4dVhhtrqag0t_iwQ3oFs-yUI-dkccYtdpzEOng8806zCJx1qXb80rMigjUmhDTdp8bm-EAsxFXu6KaXTRRM4a1_boj-nIGHXAcHxia3QS1SPnWun85BdxB-EtR-CYIOseSJBKXaq-HDllPoJA_K5PRcEzp7WkrI1MObGoYxPhKm6Uec7xj5o1vxZIJ6jcCoWiNUuLt_3eg"/>
+<span class="avatar-badge hidden absolute -top-1 -right-1 w-7 h-7 rounded-full bg-secondary text-on-secondary items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</span>
+</div>
+<span class="mt-space-xs font-label-sm text-label-sm text-on-surface-variant">Mariam</span>
+</button>
+<!-- Avatar 5 -->
+<button class="avatar-option group relative flex flex-col items-center justify-center p-space-xs rounded-lg transition-transform active:scale-95" data-avatar-id="5" type="button">
+<div class="avatar-ring relative w-20 h-20 rounded-full p-1 bg-surface-container flex items-center justify-center">
+<img class="w-full h-full rounded-full object-cover" data-alt="Portrait illustration of an empowered young African student with neatly parted cornrows, pastel peach head scarf, confident and gentle expression, bright warm studio light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbn7UQ0jW1PcHBDH_baR0VP6_YRaDdLrbsDcn-VaUH4YJPPkgLmOEYI_MR0aooc6PDVtsN1DFl9f5qosWmv2OSObqaUEl3Mz-fPJA8Mpd2Khuzo22lfVdf1PUjJ0CwAIvcEKW2PeMFTJvQwGbaZShT6FqWFPAdUeQpFNstdDnGlppyr4AEFiu7t92XtFAmhnvYfk70IgimCP_tJ2J32yIfq5VQUU-yntOmKplYogY35xPxR1hO4lgsGg"/>
+<span class="avatar-badge hidden absolute -top-1 -right-1 w-7 h-7 rounded-full bg-secondary text-on-secondary items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</span>
+</div>
+<span class="mt-space-xs font-label-sm text-label-sm text-on-surface-variant">Binta</span>
+</button>
+<!-- Avatar 6 -->
+<button class="avatar-option group relative flex flex-col items-center justify-center p-space-xs rounded-lg transition-transform active:scale-95" data-avatar-id="6" type="button">
+<div class="avatar-ring relative w-20 h-20 rounded-full p-1 bg-surface-container flex items-center justify-center">
+<img class="w-full h-full rounded-full object-cover" data-alt="Portrait illustration of an adolescent West African girl smiling broadly, wearing a coral pink and mint green printed fabric turban, warm brown skin, joyful empowered spirit" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDySA8PWkXZGhnbEtok4qPOYeKJfgSMoCguJIaXdrvXywK_GnJqqVqgBdlX0Ph4GxwncgHXYc50DJsSl2xI7Vk5wjgOIYAI2xSOC1c_oL4R6ndjg8-f19sSUcPEb70mJbjUIP0f910B0tzuVQw6XKY5o6-POeEcivxBiuPhGRuteemeujP74VCMpz0WOftpP3OKbcmoacmEwC8yEQ7ck9EsvJhLeepoBdIzh3emvxMvhDpxkOEhNk5aRw"/>
+<span class="avatar-badge hidden absolute -top-1 -right-1 w-7 h-7 rounded-full bg-secondary text-on-secondary items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</span>
+</div>
+<span class="mt-space-xs font-label-sm text-label-sm text-on-surface-variant">Oumou</span>
+</button>
+</div>
+</section>
+<!-- Bottom Action Button -->
+<div class="pt-space-sm">
+<button class="w-full min-h-[56px] h-16 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-space-sm shadow-md active:translate-y-1 transition-all" id="submit-profile-btn" type="button">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span>C'est bon !</span>
+</button>
+</div>
+</div>
+<script>
+  (function () {
+    const avatarOptions = document.querySelectorAll('.avatar-option');
+    avatarOptions.forEach((option) => {
+      option.addEventListener('click', () => {
+        avatarOptions.forEach((btn) => {
+          const ring = btn.querySelector('.avatar-ring');
+          const badge = btn.querySelector('.avatar-badge');
+          const label = btn.querySelector('span:last-child');
+          ring.classList.remove('bg-primary', 'shadow-md');
+          ring.classList.add('bg-surface-container');
+          badge.classList.add('hidden');
+          badge.classList.remove('flex');
+          label.classList.remove('text-on-surface');
+          label.classList.add('text-on-surface-variant');
+        });
+
+        const activeRing = option.querySelector('.avatar-ring');
+        const activeBadge = option.querySelector('.avatar-badge');
+        const activeLabel = option.querySelector('span:last-child');
+        activeRing.classList.add('bg-primary', 'shadow-md');
+        activeRing.classList.remove('bg-surface-container');
+        activeBadge.classList.remove('hidden');
+        activeBadge.classList.add('flex');
+        activeLabel.classList.add('text-on-surface');
+        activeLabel.classList.remove('text-on-surface-variant');
+      });
+    });
+
+    const playPromptBtn = document.getElementById('play-prompt-btn');
+    if (playPromptBtn) {
+      playPromptBtn.addEventListener('click', () => {
+        playPromptBtn.classList.add('scale-95');
+        setTimeout(() => playPromptBtn.classList.remove('scale-95'), 180);
+      });
+    }
+  })();
+</script></main></body></html>

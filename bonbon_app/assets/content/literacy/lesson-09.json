@@ -1,0 +1,386 @@
+{
+  "id": "lesson-09",
+  "lessonNumber": 9,
+  "targets": [
+    {
+      "id": "target-lesson-09-1",
+      "kind": "grapheme",
+      "value": "p",
+      "audio": {
+        "key": "fr:grapheme:p-148de9c5",
+        "fallbackText": "p"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [23, 24],
+    "printedPages": [22, 23]
+  },
+  "blocks": [
+    {
+      "id": "lesson-09-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [23],
+        "printedPages": [22]
+      },
+      "grapheme": "p",
+      "uppercase": "P",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:p-148de9c5",
+        "fallbackText": "p"
+      }
+    },
+    {
+      "id": "lesson-09-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [23],
+        "printedPages": [22]
+      },
+      "assetId": "lesson-09-illustration",
+      "caption": {
+        "id": "lesson-09-caption",
+        "text": "une pipe",
+        "audio": {
+          "key": "fr:phrase:une-pipe-f59e3084",
+          "fallbackText": "une pipe"
+        }
+      }
+    },
+    {
+      "id": "lesson-09-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [23],
+        "printedPages": [22]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-09-block-03-item-01",
+          "text": "pi",
+          "audio": {
+            "key": "fr:syllable:pi-85b42e17",
+            "fallbackText": "pi"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-09-block-03-item-02",
+          "text": "pu",
+          "audio": {
+            "key": "fr:syllable:pu-4b4d5589",
+            "fallbackText": "pu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-09-block-03-item-03",
+          "text": "po",
+          "audio": {
+            "key": "fr:syllable:po-6199aecf",
+            "fallbackText": "po"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-09-block-03-item-04",
+          "text": "pa",
+          "audio": {
+            "key": "fr:syllable:pa-9513229d",
+            "fallbackText": "pa"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-09-block-03-item-05",
+          "text": "pe",
+          "audio": {
+            "key": "fr:syllable:pe-cdf69b25",
+            "fallbackText": "pe"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-09-block-03-item-06",
+          "text": "pé",
+          "audio": {
+            "key": "fr:syllable:pe-c26c0a1f",
+            "fallbackText": "pé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-09-block-03-item-07",
+          "text": "pè",
+          "audio": {
+            "key": "fr:syllable:pe-b3b83bc5",
+            "fallbackText": "pè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-09-block-03-item-08",
+          "text": "pê",
+          "audio": {
+            "key": "fr:syllable:pe-e1a09436",
+            "fallbackText": "pê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-09-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [23],
+        "printedPages": [22]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-09-block-04-item-01",
+          "text": "papa",
+          "audio": {
+            "key": "fr:word:papa-58cc6181",
+            "fallbackText": "papa"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-09-block-04-item-02",
+          "text": "paté",
+          "audio": {
+            "key": "fr:word:pate-ad72a129",
+            "fallbackText": "paté"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-09-block-04-item-03",
+          "text": "tape",
+          "audio": {
+            "key": "fr:word:tape-8ba4ec7d",
+            "fallbackText": "tape"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-09-block-04-item-04",
+          "text": "patate",
+          "audio": {
+            "key": "fr:word:patate-cf046115",
+            "fallbackText": "patate"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-09-block-04-item-05",
+          "text": "patte",
+          "audio": {
+            "key": "fr:word:patte-b771aad6",
+            "fallbackText": "patte"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-09-block-04-item-06",
+          "text": "petite",
+          "audio": {
+            "key": "fr:word:petite-9d11836c",
+            "fallbackText": "petite"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-09-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [23],
+        "printedPages": [22]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-09-block-05-item-01",
+          "text": "papa tape toto.",
+          "audio": {
+            "key": "fr:lesson-09:b5-item-1",
+            "fallbackText": "papa tape toto."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-09-block-05-item-02",
+          "text": "papa ôte toto.",
+          "audio": {
+            "key": "fr:lesson-09:b5-item-2",
+            "fallbackText": "papa ôte toto."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-09-block-05-item-03",
+          "text": "toto tape paté.",
+          "audio": {
+            "key": "fr:lesson-09:b5-item-3",
+            "fallbackText": "toto tape paté."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-09-block-05-item-04",
+          "text": "papa tape paté et toto.",
+          "audio": {
+            "key": "fr:lesson-09:b5-item-4",
+            "fallbackText": "papa tape paté et toto."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-09-block-06",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [23],
+        "printedPages": [22]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-09-block-06-item-01",
+          "text": "papa",
+          "audio": {
+            "key": "fr:word:papa-58cc6181",
+            "fallbackText": "papa"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-09-block-06-item-02",
+          "text": "patate",
+          "audio": {
+            "key": "fr:word:patate-cf046115",
+            "fallbackText": "patate"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-09-block-06-item-03",
+          "text": "tape",
+          "audio": {
+            "key": "fr:word:tape-8ba4ec7d",
+            "fallbackText": "tape"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-09-block-06-item-04",
+          "text": "épi",
+          "audio": {
+            "key": "fr:word:epi-86ef44f5",
+            "fallbackText": "épi"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-09-block-06-item-05",
+          "text": "patte",
+          "audio": {
+            "key": "fr:word:patte-b771aad6",
+            "fallbackText": "patte"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-09-block-06-item-06",
+          "text": "pipo",
+          "audio": {
+            "key": "fr:word:pipo-2e530316",
+            "fallbackText": "pipo"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-09-block-07",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [24],
+        "printedPages": [23]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-09-hand-1",
+          "text": "p"
+        },
+        {
+          "id": "lesson-09-hand-2",
+          "text": "P"
+        }
+      ],
+      "glyphAssetIds": ["lesson-09-glyph-1", "lesson-09-glyph-2"]
+    },
+    {
+      "id": "lesson-09-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [24],
+        "printedPages": [23]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-09-block-08-item-01",
+          "text": "p",
+          "audio": {
+            "key": "fr:word:p-148de9c5",
+            "fallbackText": "p"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-09-block-08-item-02",
+          "text": "pipe",
+          "audio": {
+            "key": "fr:word:pipe-40082947",
+            "fallbackText": "pipe"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-09-block-08-item-03",
+          "text": "P",
+          "audio": {
+            "key": "fr:word:p-5c62e091",
+            "fallbackText": "P"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-09-block-08-item-04",
+          "text": "Pipe",
+          "audio": {
+            "key": "fr:word:pipe-3725dbfe",
+            "fallbackText": "Pipe"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ],
+      "representations": ["print", "cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "reviewed",
+    "issueIds": ["lesson-09-review-1", "lesson-09-review-2"]
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "id": "lesson-25",
+  "lessonNumber": 25,
+  "targets": [
+    {
+      "id": "target-lesson-25-1",
+      "kind": "grapheme",
+      "value": "an",
+      "audio": {
+        "key": "fr:grapheme:an-ea325d76",
+        "fallbackText": "an"
+      }
+    },
+    {
+      "id": "target-lesson-25-2",
+      "kind": "grapheme",
+      "value": "am",
+      "audio": {
+        "key": "fr:grapheme:am-ab6db599",
+        "fallbackText": "am"
+      }
+    },
+    {
+      "id": "target-lesson-25-3",
+      "kind": "grapheme",
+      "value": "en",
+      "audio": {
+        "key": "fr:grapheme:en-dbd3a49d",
+        "fallbackText": "en"
+      }
+    },
+    {
+      "id": "target-lesson-25-4",
+      "kind": "grapheme",
+      "value": "em",
+      "audio": {
+        "key": "fr:grapheme:em-84a47f61",
+        "fallbackText": "em"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [56],
+    "printedPages": [55]
+  },
+  "blocks": [
+    {
+      "id": "lesson-25-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [56],
+        "printedPages": [55]
+      },
+      "grapheme": "an",
+      "uppercase": "AN",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:an-ea325d76",
+        "fallbackText": "an"
+      }
+    },
+    {
+      "id": "lesson-25-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [56],
+        "printedPages": [55]
+      },
+      "grapheme": "am",
+      "uppercase": "AM",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:am-ab6db599",
+        "fallbackText": "am"
+      }
+    },
+    {
+      "id": "lesson-25-block-03",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [56],
+        "printedPages": [55]
+      },
+      "grapheme": "en",
+      "uppercase": "EN",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:en-dbd3a49d",
+        "fallbackText": "en"
+      }
+    },
+    {
+      "id": "lesson-25-block-04",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [56],
+        "printedPages": [55]
+      },
+      "grapheme": "em",
+      "uppercase": "EM",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:em-84a47f61",
+        "fallbackText": "em"
+      }
+    },
+    {
+      "id": "lesson-25-block-05",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [56],
+        "printedPages": [55]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-25-block-05-item-01",
+          "text": "dan",
+          "audio": {
+            "key": "fr:syllable:dan-ec4f2dbb",
+            "fallbackText": "dan"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-02",
+          "text": "pan",
+          "audio": {
+            "key": "fr:syllable:pan-00e37ffa",
+            "fallbackText": "pan"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-03",
+          "text": "man",
+          "audio": {
+            "key": "fr:syllable:man-48b676e2",
+            "fallbackText": "man"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-04",
+          "text": "san",
+          "audio": {
+            "key": "fr:syllable:san-6b9cd787",
+            "fallbackText": "san"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-05",
+          "text": "van",
+          "audio": {
+            "key": "fr:syllable:van-970b1897",
+            "fallbackText": "van"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-06",
+          "text": "vant",
+          "audio": {
+            "key": "fr:syllable:vant-34239317",
+            "fallbackText": "vant"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-07",
+          "text": "lam",
+          "audio": {
+            "key": "fr:syllable:lam-7f1b55b8",
+            "fallbackText": "lam"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-08",
+          "text": "pam",
+          "audio": {
+            "key": "fr:syllable:pam-ee96e48a",
+            "fallbackText": "pam"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-09",
+          "text": "mam",
+          "audio": {
+            "key": "fr:syllable:mam-24b6b279",
+            "fallbackText": "mam"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-10",
+          "text": "sam",
+          "audio": {
+            "key": "fr:syllable:sam-e96e02d8",
+            "fallbackText": "sam"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-11",
+          "text": "vam",
+          "audio": {
+            "key": "fr:syllable:vam-ac309aa1",
+            "fallbackText": "vam"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-12",
+          "text": "den",
+          "audio": {
+            "key": "fr:syllable:den-8a8a1a9f",
+            "fallbackText": "den"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-13",
+          "text": "pen",
+          "audio": {
+            "key": "fr:syllable:pen-e21a6b0c",
+            "fallbackText": "pen"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-14",
+          "text": "len",
+          "audio": {
+            "key": "fr:syllable:len-71fa9faa",
+            "fallbackText": "len"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-15",
+          "text": "tend",
+          "audio": {
+            "key": "fr:syllable:tend-4f0a1f5a",
+            "fallbackText": "tend"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-16",
+          "text": "ment",
+          "audio": {
+            "key": "fr:syllable:ment-b46058c8",
+            "fallbackText": "ment"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-17",
+          "text": "bem",
+          "audio": {
+            "key": "fr:syllable:bem-6900dfb5",
+            "fallbackText": "bem"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-05-item-18",
+          "text": "lem",
+          "audio": {
+            "key": "fr:syllable:lem-6f17fbde",
+            "fallbackText": "lem"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-25-block-06",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [56],
+        "printedPages": [55]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-25-block-06-item-01",
+          "text": "le banc",
+          "audio": {
+            "key": "fr:phrase:le-banc-ed93e4ed",
+            "fallbackText": "le banc"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-06-item-02",
+          "text": "la jambe",
+          "audio": {
+            "key": "fr:phrase:la-jambe-635f21f9",
+            "fallbackText": "la jambe"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-06-item-03",
+          "text": "lentement",
+          "audio": {
+            "key": "fr:word:lentement-35c8da5a",
+            "fallbackText": "lentement"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-06-item-04",
+          "text": "je danse",
+          "audio": {
+            "key": "fr:phrase:je-danse-64a5d61c",
+            "fallbackText": "je danse"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-25-block-06-item-05",
+          "text": "le rang",
+          "audio": {
+            "key": "fr:phrase:le-rang-b227b8b1",
+            "fallbackText": "le rang"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-25-block-07",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [56],
+        "printedPages": [55]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-25-block-07-item-01",
+          "text": "dan",
+          "audio": {
+            "key": "fr:syllable:dan-ec4f2dbb",
+            "fallbackText": "dan"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-02",
+          "text": "pan",
+          "audio": {
+            "key": "fr:syllable:pan-00e37ffa",
+            "fallbackText": "pan"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-03",
+          "text": "man",
+          "audio": {
+            "key": "fr:syllable:man-48b676e2",
+            "fallbackText": "man"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-04",
+          "text": "san",
+          "audio": {
+            "key": "fr:syllable:san-6b9cd787",
+            "fallbackText": "san"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-05",
+          "text": "van",
+          "audio": {
+            "key": "fr:syllable:van-970b1897",
+            "fallbackText": "van"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-06",
+          "text": "vant",
+          "audio": {
+            "key": "fr:syllable:vant-34239317",
+            "fallbackText": "vant"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-07",
+          "text": "lam",
+          "audio": {
+            "key": "fr:syllable:lam-7f1b55b8",
+            "fallbackText": "lam"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-08",
+          "text": "pam",
+          "audio": {
+            "key": "fr:syllable:pam-ee96e48a",
+            "fallbackText": "pam"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-09",
+          "text": "mam",
+          "audio": {
+            "key": "fr:syllable:mam-24b6b279",
+            "fallbackText": "mam"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-10",
+          "text": "vam",
+          "audio": {
+            "key": "fr:syllable:vam-ac309aa1",
+            "fallbackText": "vam"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-11",
+          "text": "den",
+          "audio": {
+            "key": "fr:syllable:den-8a8a1a9f",
+            "fallbackText": "den"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-12",
+          "text": "pen",
+          "audio": {
+            "key": "fr:syllable:pen-e21a6b0c",
+            "fallbackText": "pen"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-13",
+          "text": "len",
+          "audio": {
+            "key": "fr:syllable:len-71fa9faa",
+            "fallbackText": "len"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-14",
+          "text": "tend",
+          "audio": {
+            "key": "fr:syllable:tend-4f0a1f5a",
+            "fallbackText": "tend"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-15",
+          "text": "ment",
+          "audio": {
+            "key": "fr:syllable:ment-b46058c8",
+            "fallbackText": "ment"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-16",
+          "text": "bem",
+          "audio": {
+            "key": "fr:syllable:bem-6900dfb5",
+            "fallbackText": "bem"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-25-block-07-item-17",
+          "text": "lem",
+          "audio": {
+            "key": "fr:syllable:lem-6f17fbde",
+            "fallbackText": "lem"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-25-block-08",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [56],
+        "printedPages": [55]
+      },
+      "title": "Les vacances",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-25-block-08-segment-1",
+          "type": "narration",
+          "text": "Je passe souvent les vacances avec ma tante Baké à Kandi. Elle habite une grande maison située à l’entrée de la ville en venant de Cotonou.",
+          "audio": {
+            "key": "fr:lesson-25:passage-8-segment-1",
+            "fallbackText": "Je passe souvent les vacances avec ma tante Baké à Kandi. Elle habite une grande maison située à l’entrée de la ville en venant de Cotonou."
+          }
+        },
+        {
+          "id": "lesson-25-block-08-segment-2",
+          "type": "narration",
+          "text": "Ma tante a un restaurant où elle vend des différents mets. De temps en temps, je l’aide à servir les clients, je lave aussi les assiettes sales utilisées par les clients. J’aime beaucoup ce travail et je m’empresse pour satisfaire les demandes des clients.",
+          "audio": {
+            "key": "fr:lesson-25:passage-8-segment-2",
+            "fallbackText": "Ma tante a un restaurant où elle vend des différents mets. De temps en temps, je l’aide à servir les clients, je lave aussi les assiettes sales utilisées par les clients. J’aime beaucoup ce travail et je m’empresse pour satisfaire les demandes des clients."
+          }
+        },
+        {
+          "id": "lesson-25-block-08-segment-3",
+          "type": "narration",
+          "text": "C’est toujours une joie pour moi quand je pars en vacances.",
+          "audio": {
+            "key": "fr:lesson-25:passage-8-segment-3",
+            "fallbackText": "C’est toujours une joie pour moi quand je pars en vacances."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-25-review-1"]
+  }
+}

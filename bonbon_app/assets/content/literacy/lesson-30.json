@@ -1,0 +1,472 @@
+{
+  "id": "lesson-30",
+  "lessonNumber": 30,
+  "targets": [
+    {
+      "id": "target-lesson-30-1",
+      "kind": "grapheme",
+      "value": "oi",
+      "audio": {
+        "key": "fr:grapheme:oi-87f63363",
+        "fallbackText": "oi"
+      }
+    },
+    {
+      "id": "target-lesson-30-2",
+      "kind": "grapheme",
+      "value": "oix",
+      "audio": {
+        "key": "fr:grapheme:oix-312f8a24",
+        "fallbackText": "oix"
+      }
+    },
+    {
+      "id": "target-lesson-30-3",
+      "kind": "grapheme",
+      "value": "oit",
+      "audio": {
+        "key": "fr:grapheme:oit-70c43e13",
+        "fallbackText": "oit"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [61],
+    "printedPages": [60]
+  },
+  "blocks": [
+    {
+      "id": "lesson-30-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [61],
+        "printedPages": [60]
+      },
+      "grapheme": "oi",
+      "uppercase": "OI",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:oi-87f63363",
+        "fallbackText": "oi"
+      }
+    },
+    {
+      "id": "lesson-30-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [61],
+        "printedPages": [60]
+      },
+      "grapheme": "oix",
+      "uppercase": "OIX",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:oix-312f8a24",
+        "fallbackText": "oix"
+      }
+    },
+    {
+      "id": "lesson-30-block-03",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [61],
+        "printedPages": [60]
+      },
+      "grapheme": "oit",
+      "uppercase": "OIT",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:oit-70c43e13",
+        "fallbackText": "oit"
+      }
+    },
+    {
+      "id": "lesson-30-block-04",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [61],
+        "printedPages": [60]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-30-block-04-item-01",
+          "text": "boi",
+          "audio": {
+            "key": "fr:syllable:boi-1759f7a2",
+            "fallbackText": "boi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-04-item-02",
+          "text": "soi",
+          "audio": {
+            "key": "fr:syllable:soi-9eba12ac",
+            "fallbackText": "soi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-04-item-03",
+          "text": "moi",
+          "audio": {
+            "key": "fr:syllable:moi-a4f0e1d1",
+            "fallbackText": "moi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-04-item-04",
+          "text": "noi",
+          "audio": {
+            "key": "fr:syllable:noi-7c45d237",
+            "fallbackText": "noi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-04-item-05",
+          "text": "poi",
+          "audio": {
+            "key": "fr:syllable:poi-fb071661",
+            "fallbackText": "poi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-04-item-06",
+          "text": "loi",
+          "audio": {
+            "key": "fr:syllable:loi-61a54dbf",
+            "fallbackText": "loi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-04-item-07",
+          "text": "toi",
+          "audio": {
+            "key": "fr:syllable:toi-d19cc6e9",
+            "fallbackText": "toi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-04-item-08",
+          "text": "voi",
+          "audio": {
+            "key": "fr:syllable:voi-c08c0d27",
+            "fallbackText": "voi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-04-item-09",
+          "text": "doi",
+          "audio": {
+            "key": "fr:syllable:doi-cc19ad25",
+            "fallbackText": "doi"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-30-block-05",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [61],
+        "printedPages": [60]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-30-block-05-item-01",
+          "text": "le bois",
+          "audio": {
+            "key": "fr:phrase:le-bois-22a77e91",
+            "fallbackText": "le bois"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-05-item-02",
+          "text": "un doigt",
+          "audio": {
+            "key": "fr:phrase:un-doigt-dfcd3ee9",
+            "fallbackText": "un doigt"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-05-item-03",
+          "text": "la moitié",
+          "audio": {
+            "key": "fr:phrase:la-moitie-2e9557fe",
+            "fallbackText": "la moitié"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-05-item-04",
+          "text": "la soirée",
+          "audio": {
+            "key": "fr:phrase:la-soiree-9b92c09c",
+            "fallbackText": "la soirée"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-05-item-05",
+          "text": "le toit",
+          "audio": {
+            "key": "fr:phrase:le-toit-c98da496",
+            "fallbackText": "le toit"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-05-item-06",
+          "text": "la toiture",
+          "audio": {
+            "key": "fr:phrase:la-toiture-9d9f0636",
+            "fallbackText": "la toiture"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-05-item-07",
+          "text": "la noix",
+          "audio": {
+            "key": "fr:phrase:la-noix-2a58bd13",
+            "fallbackText": "la noix"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-05-item-08",
+          "text": "le choix",
+          "audio": {
+            "key": "fr:phrase:le-choix-858a0a71",
+            "fallbackText": "le choix"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-30-block-05-item-09",
+          "text": "une robe noire",
+          "audio": {
+            "key": "fr:phrase:une-robe-noire-54b88197",
+            "fallbackText": "une robe noire"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-30-block-06",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [61],
+        "printedPages": [60]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-30-block-06-item-01",
+          "text": "boi",
+          "audio": {
+            "key": "fr:syllable:boi-1759f7a2",
+            "fallbackText": "boi"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-30-block-06-item-02",
+          "text": "soi",
+          "audio": {
+            "key": "fr:syllable:soi-9eba12ac",
+            "fallbackText": "soi"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-30-block-06-item-03",
+          "text": "moi",
+          "audio": {
+            "key": "fr:syllable:moi-a4f0e1d1",
+            "fallbackText": "moi"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-30-block-06-item-04",
+          "text": "noi",
+          "audio": {
+            "key": "fr:syllable:noi-7c45d237",
+            "fallbackText": "noi"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-30-block-06-item-05",
+          "text": "poi",
+          "audio": {
+            "key": "fr:syllable:poi-fb071661",
+            "fallbackText": "poi"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-30-block-06-item-06",
+          "text": "loi",
+          "audio": {
+            "key": "fr:syllable:loi-61a54dbf",
+            "fallbackText": "loi"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-30-block-06-item-07",
+          "text": "toi",
+          "audio": {
+            "key": "fr:syllable:toi-d19cc6e9",
+            "fallbackText": "toi"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-30-block-06-item-08",
+          "text": "voi",
+          "audio": {
+            "key": "fr:syllable:voi-c08c0d27",
+            "fallbackText": "voi"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-30-block-06-item-09",
+          "text": "doi",
+          "audio": {
+            "key": "fr:syllable:doi-cc19ad25",
+            "fallbackText": "doi"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-30-block-06-item-10",
+          "text": "roi",
+          "audio": {
+            "key": "fr:syllable:roi-23c8f1bd",
+            "fallbackText": "roi"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-30-block-07",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [61],
+        "printedPages": [60]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-30-block-07-item-01",
+          "text": "le bois",
+          "audio": {
+            "key": "fr:phrase:le-bois-22a77e91",
+            "fallbackText": "le bois"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-30-block-07-item-02",
+          "text": "un doigt",
+          "audio": {
+            "key": "fr:phrase:un-doigt-dfcd3ee9",
+            "fallbackText": "un doigt"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-30-block-07-item-03",
+          "text": "la moitié",
+          "audio": {
+            "key": "fr:phrase:la-moitie-2e9557fe",
+            "fallbackText": "la moitié"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-30-block-07-item-04",
+          "text": "la soirée",
+          "audio": {
+            "key": "fr:phrase:la-soiree-9b92c09c",
+            "fallbackText": "la soirée"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-30-block-08",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [61],
+        "printedPages": [60]
+      },
+      "title": "Des amis",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-30-block-08-segment-1",
+          "type": "narration",
+          "text": "Antoine voit son ami Benoît.",
+          "audio": {
+            "key": "fr:lesson-30:passage-8-segment-1",
+            "fallbackText": "Antoine voit son ami Benoît."
+          }
+        },
+        {
+          "id": "lesson-30-block-08-segment-2",
+          "type": "dialogue",
+          "turns": [
+            {
+              "id": "lesson-30-block-08-segment-2-turn-1",
+              "text": "Bonsoir Benoît, où vas tu de ce pas ?",
+              "audio": {
+                "key": "fr:lesson-30:passage-8-turn-2-1",
+                "fallbackText": "Bonsoir Benoît, où vas tu de ce pas ?"
+              }
+            },
+            {
+              "id": "lesson-30-block-08-segment-2-turn-2",
+              "text": "Je vais acheter des noix de coco dans la maison sans toit que tu vois là-bas.",
+              "audio": {
+                "key": "fr:lesson-30:passage-8-turn-2-2",
+                "fallbackText": "Je vais acheter des noix de coco dans la maison sans toit que tu vois là-bas."
+              }
+            },
+            {
+              "id": "lesson-30-block-08-segment-2-turn-3",
+              "text": "Laisse-moi donc t’accompagner.",
+              "audio": {
+                "key": "fr:lesson-30:passage-8-turn-2-3",
+                "fallbackText": "Laisse-moi donc t’accompagner."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

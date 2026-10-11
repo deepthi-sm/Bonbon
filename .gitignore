@@ -4,3 +4,6 @@ LOGO_files/
 
 # Local tooling
 .vercel/
+
+.vercel
+.env*

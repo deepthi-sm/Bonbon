@@ -25,7 +25,7 @@ Android: `flutter.bat build apk` (needs the Android SDK).
 
 ## Deploying (Vercel)
 
-Live site: **https://bonbon-batonga.vercel.app**
+Live site: **https://ldi-bonbon.vercel.app** (also https://bonbon-batonga.vercel.app)
 
 Every push to `main` on https://github.com/kodie003/Bonbon deploys automatically. Vercel runs
 `bonbon_app/tool/vercel_build.sh` (see `vercel.json` at the repository root), which installs Flutter 3.47.5

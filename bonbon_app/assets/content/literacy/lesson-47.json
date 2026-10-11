@@ -1,0 +1,163 @@
+{
+  "id": "lesson-47",
+  "lessonNumber": 47,
+  "targets": [
+    {
+      "id": "target-lesson-47-1",
+      "kind": "grapheme",
+      "value": "s = z",
+      "audio": {
+        "key": "fr:grapheme:s-z-cc286722",
+        "fallbackText": "s = z"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [78],
+    "printedPages": [77]
+  },
+  "blocks": [
+    {
+      "id": "lesson-47-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [78],
+        "printedPages": [77]
+      },
+      "grapheme": "s = z",
+      "uppercase": "S = Z",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:s-z-cc286722",
+        "fallbackText": "s = z"
+      }
+    },
+    {
+      "id": "lesson-47-block-02",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [78],
+        "printedPages": [77]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-47-block-02-item-01",
+          "text": "une case",
+          "audio": {
+            "key": "fr:phrase:une-case-87f13ff1",
+            "fallbackText": "une case"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-47-block-02-item-02",
+          "text": "la maison",
+          "audio": {
+            "key": "fr:phrase:la-maison-cb19b5ee",
+            "fallbackText": "la maison"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-47-block-02-item-03",
+          "text": "la valise",
+          "audio": {
+            "key": "fr:phrase:la-valise-dad282ef",
+            "fallbackText": "la valise"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-47-block-02-item-04",
+          "text": "le fusil",
+          "audio": {
+            "key": "fr:phrase:le-fusil-4d311748",
+            "fallbackText": "le fusil"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-47-block-02-item-05",
+          "text": "les oiseaux",
+          "audio": {
+            "key": "fr:phrase:les-oiseaux-d10466aa",
+            "fallbackText": "les oiseaux"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-47-block-02-item-06",
+          "text": "une chaise",
+          "audio": {
+            "key": "fr:phrase:une-chaise-c80955c0",
+            "fallbackText": "une chaise"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-47-block-02-item-07",
+          "text": "l’ardoise",
+          "audio": {
+            "key": "fr:word:lardoise-e341274e",
+            "fallbackText": "l’ardoise"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-47-block-02-item-08",
+          "text": "une camisole",
+          "audio": {
+            "key": "fr:phrase:une-camisole-0f2790ad",
+            "fallbackText": "une camisole"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-47-block-02-item-09",
+          "text": "le visage",
+          "audio": {
+            "key": "fr:phrase:le-visage-6a4e467d",
+            "fallbackText": "le visage"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-47-block-02-item-10",
+          "text": "le magasin",
+          "audio": {
+            "key": "fr:phrase:le-magasin-7e86bf5e",
+            "fallbackText": "le magasin"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-47-block-03",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [78],
+        "printedPages": [77]
+      },
+      "title": "Le magasin",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-47-block-03-segment-1",
+          "type": "narration",
+          "text": "Le plus grand magasin de notre ville a été créé par Maryse. Il se trouve à l’entrée de la ville, très loin de notre maison. On y trouve beaucoup de choses comme des chaises, des vases, des petites cases en bois, des blouses blanches, et beaucoup d’autres objets. Chaque fois que je le visite, il y a toujours des surprises.",
+          "audio": {
+            "key": "fr:lesson-47:passage-3-segment-1",
+            "fallbackText": "Le plus grand magasin de notre ville a été créé par Maryse. Il se trouve à l’entrée de la ville, très loin de notre maison. On y trouve beaucoup de choses comme des chaises, des vases, des petites cases en bois, des blouses blanches, et beaucoup d’autres objets. Chaque fois que je le visite, il y a toujours des surprises."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "id": "lesson-05",
+  "lessonNumber": 5,
+  "targets": [
+    {
+      "id": "target-lesson-05-1",
+      "kind": "grapheme",
+      "value": "e",
+      "audio": {
+        "key": "fr:grapheme:e-3f79bb7b",
+        "fallbackText": "e"
+      }
+    },
+    {
+      "id": "target-lesson-05-2",
+      "kind": "grapheme",
+      "value": "ê",
+      "audio": {
+        "key": "fr:grapheme:e-e87b18a0",
+        "fallbackText": "ê"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [15, 16],
+    "printedPages": [14, 15]
+  },
+  "blocks": [
+    {
+      "id": "lesson-05-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [15],
+        "printedPages": [14]
+      },
+      "grapheme": "e",
+      "uppercase": "E",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:e-3f79bb7b",
+        "fallbackText": "e"
+      }
+    },
+    {
+      "id": "lesson-05-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [15],
+        "printedPages": [14]
+      },
+      "grapheme": "ê",
+      "uppercase": "Ê",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:e-e87b18a0",
+        "fallbackText": "ê"
+      }
+    },
+    {
+      "id": "lesson-05-block-03",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [15],
+        "printedPages": [14]
+      },
+      "assetId": "lesson-05-illustration",
+      "caption": {
+        "id": "lesson-05-caption",
+        "text": "une fenêtre",
+        "audio": {
+          "key": "fr:phrase:une-fenetre-5561d1fb",
+          "fallbackText": "une fenêtre"
+        }
+      }
+    },
+    {
+      "id": "lesson-05-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [15],
+        "printedPages": [14]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-05-block-04-item-01",
+          "text": "dame",
+          "audio": {
+            "key": "fr:word:dame-50ce1261",
+            "fallbackText": "dame"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-05-block-04-item-02",
+          "text": "pile",
+          "audio": {
+            "key": "fr:word:pile-2eb8272d",
+            "fallbackText": "pile"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-05-block-04-item-03",
+          "text": "cave",
+          "audio": {
+            "key": "fr:word:cave-b89a199e",
+            "fallbackText": "cave"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-05-block-04-item-04",
+          "text": "date",
+          "audio": {
+            "key": "fr:word:date-0e87632c",
+            "fallbackText": "date"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-05-block-04-item-05",
+          "text": "fenêtre",
+          "audio": {
+            "key": "fr:word:fenetre-99ea6cdc",
+            "fallbackText": "fenêtre"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-05-block-04-item-06",
+          "text": "être",
+          "audio": {
+            "key": "fr:word:etre-e927fa95",
+            "fallbackText": "être"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-05-block-04-item-07",
+          "text": "prêtre",
+          "audio": {
+            "key": "fr:word:pretre-2fbce5fb",
+            "fallbackText": "prêtre"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-05-block-05",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [15],
+        "printedPages": [14]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-05-hand-1",
+          "text": "e"
+        },
+        {
+          "id": "lesson-05-hand-2",
+          "text": "ê"
+        }
+      ],
+      "glyphAssetIds": ["lesson-05-glyph-1", "lesson-05-glyph-2"]
+    },
+    {
+      "id": "lesson-05-block-06",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [16],
+        "printedPages": [15]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-05-block-06-item-01",
+          "text": "e",
+          "audio": {
+            "key": "fr:word:e-3f79bb7b",
+            "fallbackText": "e"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-05-block-06-item-02",
+          "text": "ê",
+          "audio": {
+            "key": "fr:word:e-e87b18a0",
+            "fallbackText": "ê"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-05-block-06-item-03",
+          "text": "fête",
+          "audio": {
+            "key": "fr:word:fete-da0cc8a6",
+            "fallbackText": "fête"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-05-block-06-item-04",
+          "text": "E",
+          "audio": {
+            "key": "fr:word:e-a9f51566",
+            "fallbackText": "E"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-05-block-06-item-05",
+          "text": "Ê",
+          "audio": {
+            "key": "fr:word:e-745ed529",
+            "fallbackText": "Ê"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-05-block-06-item-06",
+          "text": "fenêtre",
+          "audio": {
+            "key": "fr:word:fenetre-99ea6cdc",
+            "fallbackText": "fenêtre"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ],
+      "representations": ["print", "cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-05-review-1"]
+  }
+}

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html lang="fr"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24..48,400..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-dim":"#d0dbed","surface-tint":"#066969","on-tertiary":"#ffffff","on-surface":"#121c2a","outline":"#6f7979","error":"#ba1a1a","surface-bright":"#f8f9ff","on-primary-container":"#9ae9e8","on-primary-fixed":"#002020","inverse-on-surface":"#eaf1ff","surface-container-highest":"#d9e3f6","on-background":"#121c2a","tertiary-container":"#875500","primary-fixed":"#a1f0ef","error-container":"#ffdad6","on-tertiary-fixed-variant":"#653e00","on-secondary-container":"#fffbff","surface-container-lowest":"#ffffff","on-primary":"#ffffff","primary":"#005151","on-error-container":"#93000a","secondary-fixed":"#ffd9dd","inverse-surface":"#27313f","on-error":"#ffffff","surface-variant":"#d9e3f6","secondary-fixed-dim":"#ffb2bb","on-surface-variant":"#3e4948","secondary-container":"#da2f5c","inverse-primary":"#85d4d3","on-tertiary-container":"#ffd4a2","tertiary":"#674000","surface":"#f8f9ff","on-tertiary-fixed":"#2a1700","secondary":"#b70a45","on-secondary-fixed":"#400012","surface-container-high":"#dee9fc","surface-container-low":"#eff4ff","background":"#f8f9ff","on-secondary":"#ffffff","on-primary-fixed-variant":"#004f50","on-secondary-fixed-variant":"#910033","tertiary-fixed-dim":"#ffb95f","primary-container":"#0a6b6b","surface-container":"#e6eeff","tertiary-fixed":"#ffddb8","outline-variant":"#bec9c8","primary-fixed-dim":"#85d4d3"},"borderRadius":{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},"spacing":{"margin":"1.25rem","space-xs":"0.25rem","space-md":"1rem","space-xl":"2.25rem","space-sm":"0.5rem","gutter":"1rem","space-lg":"1.5rem"},"fontFamily":{"body-lg":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"]},"fontSize":{"body-lg":["19px",{"lineHeight":"30px","fontWeight":"500"}],"headline-md":["26px",{"lineHeight":"34px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-md":["17px",{"lineHeight":"26px","fontWeight":"500"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"800"}],"label-lg":["18px",{"lineHeight":"24px","fontWeight":"700"}],"label-md":["16px",{"lineHeight":"22px","fontWeight":"700"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"700"}],"label-sm":["14px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"700"}],"body-sm":["15px",{"lineHeight":"22px","fontWeight":"500"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col antialiased selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Bonbon App Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmm_XXPFToqPfTNJpmZdwy6_KdxzRKVVgdkttYp62cHNCsO4cqh0SQmbu7ijfQ8IiEP_pvJpbf7st5ls5y71uz9Ij6G2AYh0VDXy3Ljg2IYzUcXQe7isRA1nDiPP0k3cONN9S1VAcyvpX4NNoCEnSEU449fhjxhXqCUtshQt-Rx-RsUAjtAcfEdfFF-356FPebOh5c3nl3a80o4b8AwNkB9AMmYpV9M7DHemHCAjdLVlZPaeOTl22bqA"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Bonbon</span><span class="h-4 w-[1.5px] bg-outline-variant/60 mx-1"></span><span class="font-label-md text-label-md text-on-surface-variant truncate max-w-[130px]">Entraînement</span></div><div class="flex items-center gap-space-sm"><button aria-label="Écouter l'assistant audio" class="h-11 w-11 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shadow-[0_2px_4px_rgba(31,41,55,0.08)] active:translate-y-0.5 transition-transform" type="button"><span class="material-symbols-outlined text-[24px]">volume_up</span></button><div class="relative flex items-center justify-center p-0.5 rounded-full ring-2 ring-primary/20"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQdFCKRQdzUm8EgC2dIXrHfTL4hyLiEN1Y6U_BsrlpUp0Pjf6vxbYOikzph1cjL5DhmoJmNJciGuebY1s38u-RatPve2ztgDbwoVFe5M4BPhjOuPaNMDqlSTOuZqwhqNZUiak7TK1dtvpWYpx3O4bUztISH-XBvQ9-SYKZ_osieVjty3kU37UfHKUHddCPdcpKfCbMZOeELqPquzX557WCCy_9NIneqWSgrq2iMXNt8ssEVsshUMd3hg"/></div></div></div></header><main class="flex flex-col relative w-full px-margin pt-16 pb-28 bg-surface min-h-screen"><div class="flex flex-col w-full pb-6">
+<!-- Interactive Feedback Pill Notification -->
+<div class="fixed top-20 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 pointer-events-none opacity-0 translate-y-[-10px] flex items-center gap-space-sm bg-inverse-surface text-inverse-on-surface px-5 py-2.5 rounded-full shadow-xl" id="toast-audio">
+<span class="material-symbols-outlined text-[20px] text-primary-fixed animate-pulse">volume_up</span>
+<span class="font-label-md text-label-md" id="toast-text">Lecture audio en cours...</span>
+</div>
+<!-- Header Guidance Banner -->
+<section class="mt-2 mb-6 flex flex-col gap-space-xs">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[28px]">draw</span>
+<h1 class="font-headline-md text-headline-md text-on-surface">Entraînement Libre</h1>
+</div>
+<!-- Vocal Prompt Button -->
+<button aria-label="Écouter les consignes" class="flex items-center gap-2 px-3.5 py-2 rounded-full bg-secondary-container text-on-secondary-container shadow-sm active:scale-95 transition-transform" onclick="playAudioFeedback('Choisis une activité pour t’exercer à ton rythme.')" type="button">
+<span class="material-symbols-outlined text-[22px]">volume_up</span>
+<span class="font-label-md text-label-md">Écouter</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+      Choisis une activité autonome pour perfectionner ta voix et ton tracé.
+    </p>
+</section>
+<!-- Section 1: 3 Stacked High-Affordance Practice Cards -->
+<section class="flex flex-col gap-space-md mb-8">
+<!-- Card 1: Alphabet & Sons -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-md shadow-sm transition-all hover:shadow-md flex items-center justify-between gap-space-md relative overflow-hidden group active:scale-[0.99]">
+<div class="flex items-center gap-space-md min-w-0">
+<!-- Visual Phonics Badge -->
+<div class="w-20 h-20 shrink-0 rounded-2xl bg-tertiary-fixed flex flex-col items-center justify-center text-on-tertiary-fixed shadow-inner">
+<span class="font-headline-lg text-headline-lg leading-none select-none">Aa</span>
+<span class="font-label-sm text-label-sm tracking-wide text-on-tertiary-fixed/80">Sons</span>
+</div>
+<!-- Content -->
+<div class="flex flex-col min-w-0 pr-2">
+<div class="flex items-center gap-2 mb-1">
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate">Alphabet &amp; Sons</h2>
+<button aria-label="Écouter le titre Alphabet" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary active:bg-primary-fixed" onclick="event.stopPropagation(); playAudioFeedback('Alphabet et sons: Écoute et reconnais les 26 lettres');" type="button">
+<span class="material-symbols-outlined text-[18px]">volume_up</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+            Écoute, prononce et reconnais les 26 lettres et leurs syllabes.
+          </p>
+</div>
+</div>
+<!-- Action Button (56dp min tap target) -->
+<button aria-label="Commencer Alphabet" class="w-14 h-14 shrink-0 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-[0_3px_0_#002020] active:translate-y-0.5 active:shadow-none transition-all" onclick="playAudioFeedback('Ouverture de l’atelier Alphabet')" type="button">
+<span class="material-symbols-outlined text-[30px]">arrow_forward</span>
+</button>
+</div>
+<!-- Card 2: Les Chiffres -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-md shadow-sm transition-all hover:shadow-md flex items-center justify-between gap-space-md relative overflow-hidden group active:scale-[0.99]">
+<div class="flex items-center gap-space-md min-w-0">
+<!-- Visual Numbers Tile -->
+<div class="w-20 h-20 shrink-0 rounded-2xl bg-primary-fixed flex flex-col items-center justify-center text-on-primary-fixed shadow-inner">
+<span class="font-headline-lg text-headline-lg leading-none select-none">1 2 3</span>
+<span class="font-label-sm text-label-sm tracking-wide text-on-primary-fixed/80">Calcul</span>
+</div>
+<!-- Content -->
+<div class="flex flex-col min-w-0 pr-2">
+<div class="flex items-center gap-2 mb-1">
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate">Les Chiffres</h2>
+<button aria-label="Écouter le titre Les Chiffres" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary active:bg-primary-fixed" onclick="event.stopPropagation(); playAudioFeedback('Les Chiffres: Compte et trace les chiffres de 0 à 9');" type="button">
+<span class="material-symbols-outlined text-[18px]">volume_up</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+            Compte, écris et reconnais la monnaie et les chiffres de 0 à 9.
+          </p>
+</div>
+</div>
+<!-- Action Button (56dp min tap target) -->
+<button aria-label="Commencer Les Chiffres" class="w-14 h-14 shrink-0 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-[0_3px_0_#002020] active:translate-y-0.5 active:shadow-none transition-all" onclick="playAudioFeedback('Ouverture de l’atelier des Chiffres')" type="button">
+<span class="material-symbols-outlined text-[30px]">arrow_forward</span>
+</button>
+</div>
+<!-- Card 3: Cahier d'Écriture -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-md shadow-sm transition-all hover:shadow-md flex items-center justify-between gap-space-md relative overflow-hidden group active:scale-[0.99]">
+<div class="flex items-center gap-space-md min-w-0">
+<!-- Visual Slate & Cursive Badge -->
+<div class="w-20 h-20 shrink-0 rounded-2xl bg-secondary-fixed flex flex-col items-center justify-center text-on-secondary-fixed shadow-inner">
+<span class="material-symbols-outlined text-[36px]">history_edu</span>
+<span class="font-label-sm text-label-sm tracking-wide text-on-secondary-fixed/80">Tracé</span>
+</div>
+<!-- Content -->
+<div class="flex flex-col min-w-0 pr-2">
+<div class="flex items-center gap-2 mb-1">
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate">Cahier d’Écriture</h2>
+<button aria-label="Écouter le titre Cahier d’écriture" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-secondary active:bg-secondary-fixed" onclick="event.stopPropagation(); playAudioFeedback('Cahier d’Écriture: Entraîne-toi à tracer avec ton doigt');" type="button">
+<span class="material-symbols-outlined text-[18px]">volume_up</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+            Entraîne-toi au geste souple et trace des mots complets au doigt.
+          </p>
+</div>
+</div>
+<!-- Action Button (56dp min tap target) -->
+<button aria-label="Commencer Cahier d'écriture" class="w-14 h-14 shrink-0 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shadow-[0_3px_0_#910033] active:translate-y-0.5 active:shadow-none transition-all" onclick="playAudioFeedback('Ouverture du Cahier d’Écriture')" type="button">
+<span class="material-symbols-outlined text-[30px]">arrow_forward</span>
+</button>
+</div>
+</section>
+<!-- Section 2: Interactive Showcase "Tracer la lettre T" -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between mb-1">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[24px]">gesture</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Atelier Tactile Rapide</h2>
+</div>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed px-2.5 py-1 rounded-full uppercase tracking-wider">Modèle</span>
+</div>
+<!-- The Interactive Canvas Slate -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-md shadow-md flex flex-col gap-space-md">
+<!-- Slate Header with prompt & Audio Help -->
+<div class="flex items-center justify-between bg-surface-container-low p-3 rounded-2xl">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed font-headline-sm">
+            T
+          </div>
+<div>
+<p class="font-label-md text-label-md text-on-surface leading-tight">Trace la lettre majuscule <span class="text-primary font-bold">« T »</span></p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Fais glisser ton doigt sur les pointillés</p>
+</div>
+</div>
+<button aria-label="Écouter le son de la lettre T" class="flex items-center justify-center w-12 h-12 rounded-full bg-secondary text-on-secondary shadow-[0_2px_0_#910033] active:translate-y-0.5 transition-transform" id="listen-letter-btn" onclick="playLetterSound()" type="button">
+<span class="material-symbols-outlined text-[24px]">campaign</span>
+</button>
+</div>
+<!-- Seyès School Lined Canvas Container -->
+<div class="relative w-full h-56 rounded-2xl bg-surface-bright overflow-hidden touch-none select-none flex items-center justify-center">
+<!-- Seyès Guidelines Background -->
+<svg class="absolute inset-0 w-full h-full opacity-35 pointer-events-none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="36" id="seyes-lines" patternunits="userSpaceOnUse" width="100">
+<line stroke="#005151" stroke-width="1.5" x1="0" x2="100" y1="0" y2="0"></line>
+<line stroke="#6f7979" stroke-dasharray="2,2" stroke-width="0.75" x1="0" x2="100" y1="9" y2="9"></line>
+<line stroke="#6f7979" stroke-dasharray="2,2" stroke-width="0.75" x1="0" x2="100" y1="18" y2="18"></line>
+<line stroke="#6f7979" stroke-dasharray="2,2" stroke-width="0.75" x1="0" x2="100" y1="27" y2="27"></line>
+<line stroke="#005151" stroke-width="1.5" x1="0" x2="100" y1="36" y2="36"></line>
+</pattern>
+</defs>
+<rect fill="url(#seyes-lines)" height="100%" width="100%"></rect>
+</svg>
+<!-- Dotted Guide Glyph "T" -->
+<svg class="absolute inset-0 w-full h-full pointer-events-none" viewbox="0 0 300 200">
+<!-- Horizontal Bar -->
+<line stroke="#bec9c8" stroke-dasharray="14 10" stroke-linecap="round" stroke-width="12" x1="70" x2="230" y1="50" y2="50"></line>
+<!-- Vertical Stem -->
+<line stroke="#bec9c8" stroke-dasharray="14 10" stroke-linecap="round" stroke-width="12" x1="150" x2="150" y1="50" y2="170"></line>
+<!-- Direction Arrows / Touch Guides -->
+<circle class="animate-ping opacity-75" cx="70" cy="50" fill="#da2f5c" r="10"></circle>
+<circle cx="70" cy="50" fill="#b70a45" r="8"></circle>
+<text fill="#ffffff" font-size="11" font-weight="bold" x="66" y="54">1</text>
+<circle cx="150" cy="50" fill="#005151" r="8"></circle>
+<text fill="#ffffff" font-size="11" font-weight="bold" x="146" y="54">2</text>
+</svg>
+<!-- Interactive HTML5 Drawing Layer -->
+<canvas class="absolute inset-0 w-full h-full cursor-crosshair z-10" id="tracing-slate"></canvas>
+<!-- Success Toast Overlay inside Canvas -->
+<div class="absolute inset-0 z-20 bg-primary/90 backdrop-blur-sm flex flex-col items-center justify-center gap-2 opacity-0 pointer-events-none transition-opacity duration-300" id="canvas-success-badge">
+<div class="w-16 h-16 rounded-full bg-surface text-primary flex items-center justify-center shadow-lg animate-bounce">
+<span class="material-symbols-outlined text-[38px]">check</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-primary">Bravo ! C'est réussi !</span>
+<p class="font-body-sm text-body-sm text-on-primary-container">Tu as très bien tracé le « T ».</p>
+</div>
+</div>
+<!-- Canvas Action Bar (Min 56dp Touch Targets) -->
+<div class="grid grid-cols-2 gap-space-sm pt-1">
+<!-- Clear Action -->
+<button class="h-14 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center gap-2 shadow-[0_2px_0_#bec9c8] active:translate-y-0.5 active:shadow-none transition-all" id="clear-btn" onclick="clearSlate()" type="button">
+<span class="material-symbols-outlined text-[24px]">delete</span>
+<span class="font-label-lg text-label-lg">Effacer</span>
+</button>
+<!-- Validate Action -->
+<button class="h-14 rounded-full bg-primary text-on-primary flex items-center justify-center gap-2 shadow-[0_3px_0_#002020] active:translate-y-0.5 active:shadow-none transition-all" id="verify-btn" onclick="validateTracing()" type="button">
+<span class="material-symbols-outlined text-[24px]">task_alt</span>
+<span class="font-label-lg text-label-lg">Vérifier</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Sisterly Encouragement Banner -->
+<section class="mt-6 p-space-md rounded-2xl bg-surface-container-low flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[28px]">thumb_up</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-label-lg text-label-lg text-on-surface">La pratique rend forte</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Chaque tracé au doigt muscle ta mémoire pour la lecture et la vie quotidienne.</p>
+</div>
+</section>
+</div>
+<script>
+  // Canvas Tracing Logic
+  const slateCanvas = document.getElementById('tracing-slate');
+  let ctx = null;
+  let isDrawing = false;
+  let strokePoints = 0;
+
+  function initSlate() {
+    if (!slateCanvas) return;
+    const rect = slateCanvas.getBoundingClientRect();
+    slateCanvas.width = rect.width;
+    slateCanvas.height = rect.height;
+    ctx = slateCanvas.getContext('2d');
+    ctx.strokeStyle = '#da2f5c'; // Secondary magenta trace
+    ctx.lineWidth = 14;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+
+    function getCoords(e) {
+      const b = slateCanvas.getBoundingClientRect();
+      const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+      return {
+        x: clientX - b.left,
+        y: clientY - b.top
+      };
+    }
+
+    function startDraw(e) {
+      isDrawing = true;
+      const { x, y } = getCoords(e);
+      ctx.beginPath();
+      ctx.moveTo(x, y);
+      strokePoints++;
+    }
+
+    function draw(e) {
+      if (!isDrawing) return;
+      e.preventDefault();
+      const { x, y } = getCoords(e);
+      ctx.lineTo(x, y);
+      ctx.stroke();
+      strokePoints++;
+    }
+
+    function stopDraw() {
+      if (isDrawing) {
+        ctx.closePath();
+        isDrawing = false;
+      }
+    }
+
+    slateCanvas.addEventListener('mousedown', startDraw);
+    slateCanvas.addEventListener('mousemove', draw);
+    window.addEventListener('mouseup', stopDraw);
+
+    slateCanvas.addEventListener('touchstart', startDraw, { passive: false });
+    slateCanvas.addEventListener('touchmove', draw, { passive: false });
+    window.addEventListener('touchend', stopDraw);
+  }
+
+  function clearSlate() {
+    if (!ctx || !slateCanvas) return;
+    ctx.clearRect(0, 0, slateCanvas.width, slateCanvas.height);
+    strokePoints = 0;
+    const badge = document.getElementById('canvas-success-badge');
+    badge.classList.remove('opacity-100', 'pointer-events-auto');
+    badge.classList.add('opacity-0', 'pointer-events-none');
+    playAudioFeedback('Tableau effacé. Recommence ton tracé.');
+  }
+
+  function validateTracing() {
+    const badge = document.getElementById('canvas-success-badge');
+    if (strokePoints > 15) {
+      badge.classList.remove('opacity-0', 'pointer-events-none');
+      badge.classList.add('opacity-100', 'pointer-events-auto');
+      playAudioFeedback('Merveilleux ! La lettre T est correctement tracée.');
+      setTimeout(() => {
+        badge.classList.remove('opacity-100', 'pointer-events-auto');
+        badge.classList.add('opacity-0', 'pointer-events-none');
+      }, 3000);
+    } else {
+      playAudioFeedback('Passe ton doigt le long des pointillés du T avant de valider.');
+    }
+  }
+
+  function playLetterSound() {
+    playAudioFeedback('Lettre T : [t]. Comme dans Tam-tam ou Tomate.');
+  }
+
+  let toastTimeout = null;
+  function playAudioFeedback(text) {
+    const toast = document.getElementById('toast-audio');
+    const label = document.getElementById('toast-text');
+    if (!toast || !label) return;
+
+    label.textContent = text;
+    toast.classList.remove('opacity-0', 'translate-y-[-10px]');
+    toast.classList.add('opacity-100', 'translate-y-0');
+
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = 'fr-FR';
+      utter.rate = 0.9;
+      window.speechSynthesis.speak(utter);
+    }
+
+    clearTimeout(toastTimeout);
+    toastTimeout = setTimeout(() => {
+      toast.classList.remove('opacity-100', 'translate-y-0');
+      toast.classList.add('opacity-0', 'translate-y-[-10px]');
+    }, 3200);
+  }
+
+  // Handle active navigation state on Entraînement
+  document.addEventListener('DOMContentLoaded', () => {
+    initSlate();
+    const navLinks = document.querySelectorAll('nav a[data-path]');
+    navLinks.forEach(link => {
+      if (link.getAttribute('data-path') === 'entrainement') {
+        link.classList.add('text-on-primary', 'bg-primary-container', 'shadow-[0_2px_0_#074c4c]');
+        link.classList.remove('text-on-surface-variant');
+      } else {
+        link.classList.remove('text-on-primary', 'bg-primary-container', 'shadow-[0_2px_0_#074c4c]');
+      }
+    });
+  });
+
+  // Re-size slate if screen changes
+  window.addEventListener('resize', () => {
+    initSlate();
+  });
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.05)]" data-active-classes="text-on-primary bg-primary-container shadow-[0_2px_0_#074c4c]"><div class="flex justify-around items-center h-20 px-space-xs"><a class="flex flex-col items-center justify-center gap-1 min-h-[56px] min-w-[56px] py-1 px-2.5 rounded-full text-on-surface-variant hover:text-on-surface transition-all active:translate-y-0.5" data-path="accueil" href="#"><span class="material-symbols-outlined text-[26px]">home</span><span class="font-label-sm text-label-sm leading-none">Accueil</span></a><a class="flex flex-col items-center justify-center gap-1 min-h-[56px] min-w-[56px] py-1 px-2.5 rounded-full text-on-surface-variant hover:text-on-surface transition-all active:translate-y-0.5" data-path="parcours" href="#"><span class="material-symbols-outlined text-[26px]">auto_stories</span><span class="font-label-sm text-label-sm leading-none">Parcours</span></a><a class="flex flex-col items-center justify-center gap-1 min-h-[56px] min-w-[56px] py-1 px-2.5 rounded-full text-on-surface-variant hover:text-on-surface transition-all active:translate-y-0.5" data-path="entrainement" href="#"><span class="material-symbols-outlined text-[26px]">fitness_center</span><span class="font-label-sm text-label-sm leading-none">Atelier</span></a><a class="flex flex-col items-center justify-center gap-1 min-h-[56px] min-w-[56px] py-1 px-2.5 rounded-full text-on-surface-variant hover:text-on-surface transition-all active:translate-y-0.5" data-path="progres" href="#"><span class="material-symbols-outlined text-[26px]">emoji_events</span><span class="font-label-sm text-label-sm leading-none">Progrès</span></a><a class="flex flex-col items-center justify-center gap-1 min-h-[56px] min-w-[56px] py-1 px-2.5 rounded-full text-on-surface-variant hover:text-on-surface transition-all active:translate-y-0.5" data-path="reglages" href="#"><span class="material-symbols-outlined text-[26px]">settings</span><span class="font-label-sm text-label-sm leading-none">Réglages</span></a></div></nav></body></html>

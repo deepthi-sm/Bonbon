@@ -1,0 +1,192 @@
+{
+  "id": "lesson-44",
+  "lessonNumber": 44,
+  "targets": [
+    {
+      "id": "target-lesson-44-1",
+      "kind": "grapheme",
+      "value": "gu",
+      "audio": {
+        "key": "fr:grapheme:gu-6152d43c",
+        "fallbackText": "gu"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [75],
+    "printedPages": [74]
+  },
+  "blocks": [
+    {
+      "id": "lesson-44-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [75],
+        "printedPages": [74]
+      },
+      "grapheme": "gu",
+      "uppercase": "GU",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:gu-6152d43c",
+        "fallbackText": "gu"
+      }
+    },
+    {
+      "id": "lesson-44-block-02",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [75],
+        "printedPages": [74]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-44-block-02-item-01",
+          "text": "gué",
+          "audio": {
+            "key": "fr:syllable:gue-26012e2b",
+            "fallbackText": "gué"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-44-block-02-item-02",
+          "text": "gue",
+          "audio": {
+            "key": "fr:syllable:gue-acd2261c",
+            "fallbackText": "gue"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-44-block-02-item-03",
+          "text": "gui",
+          "audio": {
+            "key": "fr:syllable:gui-04700787",
+            "fallbackText": "gui"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-44-block-02-item-04",
+          "text": "guê",
+          "audio": {
+            "key": "fr:syllable:gue-b82d2d07",
+            "fallbackText": "guê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-44-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [75],
+        "printedPages": [74]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-44-block-03-item-01",
+          "text": "une bague",
+          "audio": {
+            "key": "fr:phrase:une-bague-8cbd747f",
+            "fallbackText": "une bague"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-44-block-03-item-02",
+          "text": "le guidon",
+          "audio": {
+            "key": "fr:phrase:le-guidon-72de9b8e",
+            "fallbackText": "le guidon"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-44-block-03-item-03",
+          "text": "une pirogue",
+          "audio": {
+            "key": "fr:phrase:une-pirogue-344a5598",
+            "fallbackText": "une pirogue"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-44-block-03-item-04",
+          "text": "la langue",
+          "audio": {
+            "key": "fr:phrase:la-langue-5038624f",
+            "fallbackText": "la langue"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-44-block-03-item-05",
+          "text": "je guide",
+          "audio": {
+            "key": "fr:phrase:je-guide-642de205",
+            "fallbackText": "je guide"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-44-block-03-item-06",
+          "text": "une guêpe",
+          "audio": {
+            "key": "fr:phrase:une-guepe-689caf11",
+            "fallbackText": "une guêpe"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-44-block-03-item-07",
+          "text": "une mangue",
+          "audio": {
+            "key": "fr:phrase:une-mangue-1386a51d",
+            "fallbackText": "une mangue"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-44-block-03-item-08",
+          "text": "la guitare",
+          "audio": {
+            "key": "fr:phrase:la-guitare-b8b35694",
+            "fallbackText": "la guitare"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-44-block-04",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [75],
+        "printedPages": [74]
+      },
+      "title": "Les mangues",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-44-block-04-segment-1",
+          "type": "narration",
+          "text": "Auguste est allé marauder. Il ramène beaucoup de mangues qu’il distribue à Hugues, Rodrigue, Agathe et Marguerite. Les mangues sont si juteuses que Hugues se blesse la langue en les mangeant. Les mangues ont si bon goût que Marguerite les déguste avec plaisir.",
+          "audio": {
+            "key": "fr:lesson-44:passage-4-segment-1",
+            "fallbackText": "Auguste est allé marauder. Il ramène beaucoup de mangues qu’il distribue à Hugues, Rodrigue, Agathe et Marguerite. Les mangues sont si juteuses que Hugues se blesse la langue en les mangeant. Les mangues ont si bon goût que Marguerite les déguste avec plaisir."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

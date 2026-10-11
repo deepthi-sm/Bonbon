@@ -1,0 +1,351 @@
+{
+  "id": "lesson-13",
+  "lessonNumber": 13,
+  "targets": [
+    {
+      "id": "target-lesson-13-1",
+      "kind": "grapheme",
+      "value": "v",
+      "audio": {
+        "key": "fr:grapheme:v-4c94485e",
+        "fallbackText": "v"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [31, 32],
+    "printedPages": [30, 31]
+  },
+  "blocks": [
+    {
+      "id": "lesson-13-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [31],
+        "printedPages": [30]
+      },
+      "grapheme": "v",
+      "uppercase": "V",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:v-4c94485e",
+        "fallbackText": "v"
+      }
+    },
+    {
+      "id": "lesson-13-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [31],
+        "printedPages": [30]
+      },
+      "assetId": "lesson-13-illustration",
+      "caption": {
+        "id": "lesson-13-caption",
+        "text": "un vélo",
+        "audio": {
+          "key": "fr:phrase:un-velo-dd22e021",
+          "fallbackText": "un vélo"
+        }
+      }
+    },
+    {
+      "id": "lesson-13-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [31],
+        "printedPages": [30]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-13-block-03-item-01",
+          "text": "vi",
+          "audio": {
+            "key": "fr:syllable:vi-c0ff93ea",
+            "fallbackText": "vi"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-13-block-03-item-02",
+          "text": "vu",
+          "audio": {
+            "key": "fr:syllable:vu-b944fc09",
+            "fallbackText": "vu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-13-block-03-item-03",
+          "text": "vo",
+          "audio": {
+            "key": "fr:syllable:vo-3f98114b",
+            "fallbackText": "vo"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-13-block-03-item-04",
+          "text": "va",
+          "audio": {
+            "key": "fr:syllable:va-198dea39",
+            "fallbackText": "va"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-13-block-03-item-05",
+          "text": "ve",
+          "audio": {
+            "key": "fr:syllable:ve-4bd2c412",
+            "fallbackText": "ve"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-13-block-03-item-06",
+          "text": "vé",
+          "audio": {
+            "key": "fr:syllable:ve-01cb7923",
+            "fallbackText": "vé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-13-block-03-item-07",
+          "text": "vè",
+          "audio": {
+            "key": "fr:syllable:ve-bd7b6707",
+            "fallbackText": "vè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-13-block-03-item-08",
+          "text": "vê",
+          "audio": {
+            "key": "fr:syllable:ve-3b5d9140",
+            "fallbackText": "vê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-13-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [31],
+        "printedPages": [30]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-13-block-04-item-01",
+          "text": "voiture",
+          "audio": {
+            "key": "fr:word:voiture-6ac56698",
+            "fallbackText": "voiture"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-13-block-04-item-02",
+          "text": "vin",
+          "audio": {
+            "key": "fr:word:vin-8a2539e2",
+            "fallbackText": "vin"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-13-block-04-item-03",
+          "text": "village",
+          "audio": {
+            "key": "fr:word:village-05cfbe28",
+            "fallbackText": "village"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-13-block-04-item-04",
+          "text": "ventre",
+          "audio": {
+            "key": "fr:word:ventre-77ce3dcc",
+            "fallbackText": "ventre"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-13-block-04-item-05",
+          "text": "vieille",
+          "audio": {
+            "key": "fr:word:vieille-c2d5f058",
+            "fallbackText": "vieille"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-13-block-04-item-06",
+          "text": "voie",
+          "audio": {
+            "key": "fr:word:voie-3f4d2efe",
+            "fallbackText": "voie"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-13-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [31],
+        "printedPages": [30]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-13-block-05-item-01",
+          "text": "les élèves vont au village.",
+          "audio": {
+            "key": "fr:lesson-13:b5-item-1",
+            "fallbackText": "les élèves vont au village."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-13-block-05-item-02",
+          "text": "la voiture roule sur la voie.",
+          "audio": {
+            "key": "fr:lesson-13:b5-item-2",
+            "fallbackText": "la voiture roule sur la voie."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-13-block-05-item-03",
+          "text": "la vieille case.",
+          "audio": {
+            "key": "fr:lesson-13:b5-item-3",
+            "fallbackText": "la vieille case."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-13-block-05-item-04",
+          "text": "papa boit du vin",
+          "audio": {
+            "key": "fr:lesson-13:b5-item-4",
+            "fallbackText": "papa boit du vin"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-13-block-06",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [32],
+        "printedPages": [31]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-13-hand-1",
+          "text": "v"
+        },
+        {
+          "id": "lesson-13-hand-2",
+          "text": "V"
+        }
+      ],
+      "glyphAssetIds": ["lesson-13-glyph-1", "lesson-13-glyph-2"]
+    },
+    {
+      "id": "lesson-13-block-07",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [32],
+        "printedPages": [31]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-13-block-07-item-01",
+          "text": "v",
+          "audio": {
+            "key": "fr:word:v-4c94485e",
+            "fallbackText": "v"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-13-block-07-item-02",
+          "text": "ventre",
+          "audio": {
+            "key": "fr:word:ventre-77ce3dcc",
+            "fallbackText": "ventre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-13-block-07-item-03",
+          "text": "V",
+          "audio": {
+            "key": "fr:word:v-de5a6f78",
+            "fallbackText": "V"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-13-block-07-item-04",
+          "text": "Ventre",
+          "audio": {
+            "key": "fr:word:ventre-fa8a4615",
+            "fallbackText": "Ventre"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-13-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [32],
+        "printedPages": [31]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-13-block-08-item-01",
+          "text": "v",
+          "audio": {
+            "key": "fr:word:v-4c94485e",
+            "fallbackText": "v"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-13-block-08-item-02",
+          "text": "ventre",
+          "audio": {
+            "key": "fr:word:ventre-77ce3dcc",
+            "fallbackText": "ventre"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-13-review-1"]
+  }
+}

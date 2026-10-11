@@ -1,0 +1,253 @@
+{
+  "id": "lesson-49",
+  "lessonNumber": 49,
+  "targets": [
+    {
+      "id": "target-lesson-49-1",
+      "kind": "grapheme",
+      "value": "iez",
+      "audio": {
+        "key": "fr:grapheme:iez-9f424b30",
+        "fallbackText": "iez"
+      }
+    },
+    {
+      "id": "target-lesson-49-2",
+      "kind": "grapheme",
+      "value": "ier",
+      "audio": {
+        "key": "fr:grapheme:ier-14ea798e",
+        "fallbackText": "ier"
+      }
+    },
+    {
+      "id": "target-lesson-49-3",
+      "kind": "grapheme",
+      "value": "ied",
+      "audio": {
+        "key": "fr:grapheme:ied-f3c5e65e",
+        "fallbackText": "ied"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [80, 81],
+    "printedPages": [79]
+  },
+  "blocks": [
+    {
+      "id": "lesson-49-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [80],
+        "printedPages": [79]
+      },
+      "grapheme": "iez",
+      "uppercase": "IEZ",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:iez-9f424b30",
+        "fallbackText": "iez"
+      }
+    },
+    {
+      "id": "lesson-49-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [80],
+        "printedPages": [79]
+      },
+      "grapheme": "ier",
+      "uppercase": "IER",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ier-14ea798e",
+        "fallbackText": "ier"
+      }
+    },
+    {
+      "id": "lesson-49-block-03",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [80],
+        "printedPages": [79]
+      },
+      "grapheme": "ied",
+      "uppercase": "IED",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ied-f3c5e65e",
+        "fallbackText": "ied"
+      }
+    },
+    {
+      "id": "lesson-49-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [80],
+        "printedPages": [79]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-49-block-04-item-01",
+          "text": "le pied",
+          "audio": {
+            "key": "fr:phrase:le-pied-1858228f",
+            "fallbackText": "le pied"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-02",
+          "text": "le panier",
+          "audio": {
+            "key": "fr:phrase:le-panier-afff636f",
+            "fallbackText": "le panier"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-03",
+          "text": "vous riez",
+          "audio": {
+            "key": "fr:phrase:vous-riez-b6d545d3",
+            "fallbackText": "vous riez"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-04",
+          "text": "le cahier",
+          "audio": {
+            "key": "fr:phrase:le-cahier-4b4a5294",
+            "fallbackText": "le cahier"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-05",
+          "text": "recopiez",
+          "audio": {
+            "key": "fr:word:recopiez-b518f6d5",
+            "fallbackText": "recopiez"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-06",
+          "text": "le soulier",
+          "audio": {
+            "key": "fr:phrase:le-soulier-312ac3a1",
+            "fallbackText": "le soulier"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-07",
+          "text": "un écolier",
+          "audio": {
+            "key": "fr:phrase:un-ecolier-d6625383",
+            "fallbackText": "un écolier"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-08",
+          "text": "le collier",
+          "audio": {
+            "key": "fr:phrase:le-collier-455c1374",
+            "fallbackText": "le collier"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-09",
+          "text": "le bananier",
+          "audio": {
+            "key": "fr:phrase:le-bananier-73ce370d",
+            "fallbackText": "le bananier"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-10",
+          "text": "le casier",
+          "audio": {
+            "key": "fr:phrase:le-casier-df694619",
+            "fallbackText": "le casier"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-11",
+          "text": "le dernier",
+          "audio": {
+            "key": "fr:phrase:le-dernier-ecd45030",
+            "fallbackText": "le dernier"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-12",
+          "text": "le premier",
+          "audio": {
+            "key": "fr:phrase:le-premier-24e6bdd4",
+            "fallbackText": "le premier"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-13",
+          "text": "un papier",
+          "audio": {
+            "key": "fr:phrase:un-papier-47a58a37",
+            "fallbackText": "un papier"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-14",
+          "text": "le bijoutier",
+          "audio": {
+            "key": "fr:phrase:le-bijoutier-9ffc8a14",
+            "fallbackText": "le bijoutier"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-15",
+          "text": "un encrier",
+          "audio": {
+            "key": "fr:phrase:un-encrier-61451971",
+            "fallbackText": "un encrier"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-16",
+          "text": "le kapokier",
+          "audio": {
+            "key": "fr:phrase:le-kapokier-d3f2fc31",
+            "fallbackText": "le kapokier"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-49-block-04-item-17",
+          "text": "le trépied",
+          "audio": {
+            "key": "fr:phrase:le-trepied-f354bb94",
+            "fallbackText": "le trépied"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-49-review-1"]
+  }
+}

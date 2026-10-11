@@ -1,0 +1,191 @@
+{
+  "id": "lesson-42",
+  "lessonNumber": 42,
+  "targets": [
+    {
+      "id": "target-grapheme-oir",
+      "kind": "grapheme",
+      "value": "oir",
+      "audio": {
+        "key": "fr:grapheme:oir",
+        "fallbackText": "oir"
+      }
+    },
+    {
+      "id": "target-grapheme-oire",
+      "kind": "grapheme",
+      "value": "oire",
+      "audio": {
+        "key": "fr:grapheme:oire",
+        "fallbackText": "oire"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [73],
+    "printedPages": [72]
+  },
+  "blocks": [
+    {
+      "id": "lesson-42-target-oir",
+      "type": "grapheme",
+      "grapheme": "oir",
+      "uppercase": "OIR",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:oir",
+        "fallbackText": "oir"
+      },
+      "source": {
+        "pdfPages": [73],
+        "printedPages": [72]
+      }
+    },
+    {
+      "id": "lesson-42-target-oire",
+      "type": "grapheme",
+      "grapheme": "oire",
+      "uppercase": "OIRE",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:oire",
+        "fallbackText": "oire"
+      },
+      "source": {
+        "pdfPages": [73],
+        "printedPages": [72]
+      }
+    },
+    {
+      "id": "lesson-42-vocabulary",
+      "type": "word_list",
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-42-word-armoire",
+          "text": "une armoire",
+          "audio": {
+            "key": "fr:phrase:une-armoire",
+            "fallbackText": "une armoire"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-42-word-soir",
+          "text": "le soir",
+          "audio": {
+            "key": "fr:phrase:le-soir",
+            "fallbackText": "le soir"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-42-word-mouchoir",
+          "text": "un mouchoir",
+          "audio": {
+            "key": "fr:phrase:un-mouchoir",
+            "fallbackText": "un mouchoir"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-42-word-devoirs",
+          "text": "mes devoirs",
+          "audio": {
+            "key": "fr:phrase:mes-devoirs",
+            "fallbackText": "mes devoirs"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-42-word-tiroir",
+          "text": "un tiroir",
+          "audio": {
+            "key": "fr:phrase:un-tiroir",
+            "fallbackText": "un tiroir"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-42-word-tableau-noir",
+          "text": "un tableau noir",
+          "audio": {
+            "key": "fr:phrase:un-tableau-noir",
+            "fallbackText": "un tableau noir"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-42-word-arrosoir",
+          "text": "un arrosoir",
+          "audio": {
+            "key": "fr:phrase:un-arrosoir",
+            "fallbackText": "un arrosoir"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ],
+      "source": {
+        "pdfPages": [73],
+        "printedPages": [72]
+      }
+    },
+    {
+      "id": "lesson-42-reading",
+      "type": "reading_passage",
+      "title": "Une histoire",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-42-narration-01",
+          "type": "narration",
+          "text": "Le Samedi soir, Victoire va voir sa mère.",
+          "audio": {
+            "key": "fr:lesson-42:narration-01",
+            "fallbackText": "Le Samedi soir, Victoire va voir sa mère."
+          }
+        },
+        {
+          "id": "lesson-42-dialogue",
+          "type": "dialogue",
+          "turns": [
+            {
+              "id": "lesson-42-dialogue-01",
+              "text": "Bonsoir maman, je veux m’asseoir sur vos genoux pour écouter une belle histoire. Êtes-vous d’accord maman ?",
+              "audio": {
+                "key": "fr:lesson-42:dialogue-01",
+                "fallbackText": "Bonsoir maman, je veux m’asseoir sur vos genoux pour écouter une belle histoire. Êtes-vous d’accord maman ?"
+              }
+            },
+            {
+              "id": "lesson-42-dialogue-02",
+              "text": "Oui mais donne-moi à boire d’abord. Ensuite, allume-moi la lampe à pétrole car il fait déjà noir.",
+              "audio": {
+                "key": "fr:lesson-42:dialogue-02",
+                "fallbackText": "Oui mais donne-moi à boire d’abord. Ensuite, allume-moi la lampe à pétrole car il fait déjà noir."
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson-42-narration-02",
+          "type": "narration",
+          "text": "Victoire fait tout ce que sa mère lui demande parce qu’elle veut écouter sa belle histoire.",
+          "audio": {
+            "key": "fr:lesson-42:narration-02",
+            "fallbackText": "Victoire fait tout ce que sa mère lui demande parce qu’elle veut écouter sa belle histoire."
+          }
+        }
+      ],
+      "source": {
+        "pdfPages": [73],
+        "printedPages": [72]
+      }
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

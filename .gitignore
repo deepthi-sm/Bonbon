@@ -1,0 +1,6 @@
+# Saved WhatsApp Web page (private group chat) - never commit
+LOGO.html
+LOGO_files/
+
+# Local tooling
+.vercel/

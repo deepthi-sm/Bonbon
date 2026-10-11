@@ -156,9 +156,18 @@ class ContentRepo {
   static Future<ContentRepo> load() async {
     Future<dynamic> read(String p) async => jsonDecode(await rootBundle.loadString(p));
 
+    // Fetch every file at once: on the web each one is a network request, and
+    // loading the 56 lessons one after another took ~15 s on a slow connection.
+    final files = await Future.wait([
+      for (var n = 1; n <= 56; n++) read('assets/content/literacy/lesson-${n.toString().padLeft(2, '0')}.json'),
+      read('assets/content/numeracy/units.json'),
+      read('assets/content/assets.json'),
+      read('assets/content/literacy/reference-materials.json'),
+    ]);
+
     final literacy = <Lesson>[];
     for (var n = 1; n <= 56; n++) {
-      final j = await read('assets/content/literacy/lesson-${n.toString().padLeft(2, '0')}.json') as Json;
+      final j = files[n - 1] as Json;
       literacy.add(Lesson(
         key: 'L${n.toString().padLeft(2, '0')}',
         number: n,
@@ -173,7 +182,7 @@ class ContentRepo {
       ));
     }
 
-    final numeracy = await read('assets/content/numeracy/units.json') as Json;
+    final numeracy = files[56] as Json;
     final digits = [
       for (final u in numeracy['units'] as List)
         Lesson(
@@ -186,12 +195,12 @@ class ContentRepo {
     ];
 
     final assets = <String, String>{
-      for (final a in await read('assets/content/assets.json') as List)
+      for (final a in files[57] as List)
         if ((a as Json)['status'] == 'available')
           a['id'] as String: 'assets/images/${(a['path'] as String).replaceFirst('assets/', '')}',
     };
 
-    final refs = await read('assets/content/literacy/reference-materials.json') as List;
+    final refs = files[58] as List;
     final chart = refs.cast<Json>().firstWhere((r) => r['id'] == 'alphabet-chart');
     final alphabet = [
       for (final e in chart['entries'] as List)

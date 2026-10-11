@@ -44,7 +44,9 @@ class _RootState extends State<Root> {
         SharedPreferences.getInstance(),
         Speech.load(),
         // Fonts and the logo, so the first screen doesn't flash in a fallback font.
+        // Capped so a slow font download never holds the loading screen.
         GoogleFonts.pendingFonts([GoogleFonts.plusJakartaSans(), GoogleFonts.playwriteFrModerne()])
+            .timeout(const Duration(seconds: 3), onTimeout: () => const <void>[])
             .catchError((_) => const <void>[]),
         // Keep the logo up long enough to read as a loading screen, not a flicker.
         Future<void>.delayed(const Duration(milliseconds: 900)),

@@ -25,14 +25,12 @@ Android: `flutter.bat build apk` (needs the Android SDK).
 
 ## Deploying (Vercel)
 
-Live site: **https://ldi-bonbon.vercel.app** (also https://bonbon-batonga.vercel.app)
+Live site: **https://bonbon-phi.vercel.app**
 
-Every push to `main` on https://github.com/kodie003/Bonbon deploys automatically. Vercel runs
+Every push to `main` on https://github.com/deepthi-sm/Bonbon deploys automatically. Vercel runs
 `bonbon_app/tool/vercel_build.sh` (see `vercel.json` at the repository root), which installs Flutter 3.47.5
-and builds the web app. A deploy takes about 3–5 minutes; follow it on the Vercel dashboard, project
-**bonbon**. Pushes to other branches create preview links; `dev/*` and `develop` don't deploy.
-
-To deploy by hand from this computer, run `vercel --prod` in the repository root.
+and builds the web app. A deploy takes about 3–5 minutes; follow it on the Vercel dashboard.
+Pushes to other branches create preview links; `dev/*` and `develop` don't deploy.
 
 ## Logo
 

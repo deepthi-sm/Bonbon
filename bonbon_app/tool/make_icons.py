@@ -53,7 +53,8 @@ def main():
     # Loading screen: the web page shows it before the app code arrives,
     # Android draws it while the app process starts.
     splash = img.copy()
-    splash.thumbnail((680, 680), Image.LANCZOS)
+    splash.thumbnail((520, 520), Image.LANCZOS)
+    splash = splash.quantize(colors=128, method=Image.FASTOCTREE, dither=Image.NONE)
     out['web/splash-logo.png'] = splash
     out['android/app/src/main/res/drawable-nodpi/splash_logo.png'] = splash
 

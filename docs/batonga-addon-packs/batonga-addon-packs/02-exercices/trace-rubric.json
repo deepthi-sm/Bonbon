@@ -1,0 +1,87 @@
+{
+  "$comment": "NEW. scoreTrace is a pure function; this file is its parameter set, kept out of code so it can be tuned from field-test data without a release. Path-following, never recognition (§J.4).",
+  "scoreComponents": [
+    {
+      "key": "startProximity",
+      "weight": 0.2,
+      "desc": "Distance du premier point au point de départ imposé.",
+      "pass": "≤ 12 % de la hauteur du glyphe"
+    },
+    {
+      "key": "checkpointCoverage",
+      "weight": 0.35,
+      "desc": "Part des jalons atteints DANS L'ORDRE.",
+      "pass": "≥ 80 % des jalons, ordre respecté"
+    },
+    {
+      "key": "directionAgreement",
+      "weight": 0.25,
+      "desc": "Le sens du tracé correspond au sens imposé.",
+      "pass": "≥ 75 % des segments dans le bon sens",
+      "why": "C'est ce que le livre enseigne réellement : l'ordre et le sens, pas la forme. Un « t » tracé de bas en haut est faux même s'il ressemble à un t."
+    },
+    {
+      "key": "maxDeviation",
+      "weight": 0.15,
+      "desc": "Écart maximal au trait modèle.",
+      "pass": "≤ 18 % de la hauteur"
+    },
+    {
+      "key": "strokeCount",
+      "weight": 0.05,
+      "desc": "Nombre de traits attendu.",
+      "pass": "exact"
+    }
+  ],
+  "stars": [
+    {
+      "stars": 1,
+      "min": 0.35
+    },
+    {
+      "stars": 2,
+      "min": 0.55
+    },
+    {
+      "stars": 3,
+      "min": 0.78
+    }
+  ],
+  "tolerancesByClass": {
+    "vowel-simple": {
+      "note": "i o u a — formes rondes ou droites",
+      "toleranceMultiplier": 1.0
+    },
+    "vowel-accented": {
+      "note": "é è ê — l'accent est un trait à part entière",
+      "toleranceMultiplier": 1.2,
+      "special": "L'accent compte comme un trait ; il peut être tracé en dernier."
+    },
+    "ascender": {
+      "note": "b d f h k l t",
+      "toleranceMultiplier": 0.95
+    },
+    "descender": {
+      "note": "g j p q y",
+      "toleranceMultiplier": 0.95
+    },
+    "uppercase": {
+      "note": "formes majuscules imprimées",
+      "toleranceMultiplier": 1.1
+    },
+    "digit": {
+      "note": "0–9",
+      "toleranceMultiplier": 1.05,
+      "special": "Le livre numérote les traits des chiffres plus précisément que ceux des lettres (pp. 89–98) : suivre cette numérotation."
+    }
+  },
+  "spokenCues": {
+    "startWrong": "Commence ici, en haut.",
+    "directionWrong": "Descends, ne monte pas.",
+    "missedCheckpoint": "Passe bien par le point.",
+    "tooFast": "Doucement, suis le trait.",
+    "strokeMissing": "Il manque un trait.",
+    "good": "C'est bien tracé."
+  },
+  "hardRule": "A low trace score NEVER blocks the lesson. After three attempts the app plays the animated model once more and moves on with « On réessaiera plus tard. »"
+}

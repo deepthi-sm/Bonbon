@@ -1,0 +1,281 @@
+{
+  "id": "lesson-28",
+  "lessonNumber": 28,
+  "targets": [
+    {
+      "id": "target-lesson-28-1",
+      "kind": "grapheme",
+      "value": "ien",
+      "audio": {
+        "key": "fr:grapheme:ien-82ddd4af",
+        "fallbackText": "ien"
+      }
+    },
+    {
+      "id": "target-lesson-28-2",
+      "kind": "grapheme",
+      "value": "ion",
+      "audio": {
+        "key": "fr:grapheme:ion-d6806158",
+        "fallbackText": "ion"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [59],
+    "printedPages": [58]
+  },
+  "blocks": [
+    {
+      "id": "lesson-28-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [59],
+        "printedPages": [58]
+      },
+      "grapheme": "ien",
+      "uppercase": "IEN",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ien-82ddd4af",
+        "fallbackText": "ien"
+      }
+    },
+    {
+      "id": "lesson-28-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [59],
+        "printedPages": [58]
+      },
+      "grapheme": "ion",
+      "uppercase": "ION",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ion-d6806158",
+        "fallbackText": "ion"
+      }
+    },
+    {
+      "id": "lesson-28-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [59],
+        "printedPages": [58]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-28-block-03-item-01",
+          "text": "mien",
+          "audio": {
+            "key": "fr:syllable:mien-53000e19",
+            "fallbackText": "mien"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-28-block-03-item-02",
+          "text": "tien",
+          "audio": {
+            "key": "fr:syllable:tien-4edd7747",
+            "fallbackText": "tien"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-28-block-03-item-03",
+          "text": "sien",
+          "audio": {
+            "key": "fr:syllable:sien-de20f5bf",
+            "fallbackText": "sien"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-28-block-03-item-04",
+          "text": "vien",
+          "audio": {
+            "key": "fr:syllable:vien-1d773683",
+            "fallbackText": "vien"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-28-block-03-item-05",
+          "text": "bien",
+          "audio": {
+            "key": "fr:syllable:bien-48b3f839",
+            "fallbackText": "bien"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-28-block-03-item-06",
+          "text": "tion",
+          "audio": {
+            "key": "fr:syllable:tion-6ce2a937",
+            "fallbackText": "tion"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-28-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [59],
+        "printedPages": [58]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-28-block-04-item-01",
+          "text": "l’addition",
+          "audio": {
+            "key": "fr:word:laddition-15810e34",
+            "fallbackText": "l’addition"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-28-block-04-item-02",
+          "text": "une opération",
+          "audio": {
+            "key": "fr:phrase:une-operation-525bbc28",
+            "fallbackText": "une opération"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-28-block-04-item-03",
+          "text": "un lion",
+          "audio": {
+            "key": "fr:phrase:un-lion-b756a020",
+            "fallbackText": "un lion"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-28-block-04-item-04",
+          "text": "la soustraction",
+          "audio": {
+            "key": "fr:phrase:la-soustraction-e2931e1e",
+            "fallbackText": "la soustraction"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-28-block-04-item-05",
+          "text": "le chien",
+          "audio": {
+            "key": "fr:phrase:le-chien-33775ec6",
+            "fallbackText": "le chien"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-28-block-04-item-06",
+          "text": "combien",
+          "audio": {
+            "key": "fr:word:combien-5b62d9f1",
+            "fallbackText": "combien"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-28-block-04-item-07",
+          "text": "une division",
+          "audio": {
+            "key": "fr:phrase:une-division-c273c298",
+            "fallbackText": "une division"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-28-block-04-item-08",
+          "text": "un avion",
+          "audio": {
+            "key": "fr:phrase:un-avion-d826da5f",
+            "fallbackText": "un avion"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-28-block-05",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [59],
+        "printedPages": [58]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-28-block-05-item-01",
+          "text": "le chien",
+          "audio": {
+            "key": "fr:phrase:le-chien-33775ec6",
+            "fallbackText": "le chien"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-28-block-05-item-02",
+          "text": "combien",
+          "audio": {
+            "key": "fr:word:combien-5b62d9f1",
+            "fallbackText": "combien"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-28-block-05-item-03",
+          "text": "un avion",
+          "audio": {
+            "key": "fr:phrase:un-avion-d826da5f",
+            "fallbackText": "un avion"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-28-block-05-item-04",
+          "text": "une division",
+          "audio": {
+            "key": "fr:phrase:une-division-c273c298",
+            "fallbackText": "une division"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-28-block-06",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [59],
+        "printedPages": [58]
+      },
+      "title": "La ferme",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-28-block-06-segment-1",
+          "type": "narration",
+          "text": "La ferme de mon oncle est très loin de la ville. Elle est dans un village où la population est jeune. Sur sa ferme, mon oncle a des plantations d’ignames et élève aussi des animaux. Le gardien de la ferme est un jeune qui a suivi une formation d’agent de sécurité. Mon oncle a un ancien fusil pour éloigner les animaux sauvages qui tentent de dévorer les bêtes de la ferme.",
+          "audio": {
+            "key": "fr:lesson-28:passage-6-segment-1",
+            "fallbackText": "La ferme de mon oncle est très loin de la ville. Elle est dans un village où la population est jeune. Sur sa ferme, mon oncle a des plantations d’ignames et élève aussi des animaux. Le gardien de la ferme est un jeune qui a suivi une formation d’agent de sécurité. Mon oncle a un ancien fusil pour éloigner les animaux sauvages qui tentent de dévorer les bêtes de la ferme."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

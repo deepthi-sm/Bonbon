@@ -1,0 +1,160 @@
+{
+  "id": "lesson-39",
+  "lessonNumber": 39,
+  "targets": [
+    {
+      "id": "target-lesson-39-1",
+      "kind": "grapheme",
+      "value": "ill",
+      "audio": {
+        "key": "fr:grapheme:ill-c426a5fe",
+        "fallbackText": "ill"
+      }
+    },
+    {
+      "id": "target-lesson-39-2",
+      "kind": "grapheme",
+      "value": "ille",
+      "audio": {
+        "key": "fr:grapheme:ille-44bc45ae",
+        "fallbackText": "ille"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [70],
+    "printedPages": [69]
+  },
+  "blocks": [
+    {
+      "id": "lesson-39-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [70],
+        "printedPages": [69]
+      },
+      "grapheme": "ill",
+      "uppercase": "ILL",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ill-c426a5fe",
+        "fallbackText": "ill"
+      }
+    },
+    {
+      "id": "lesson-39-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [70],
+        "printedPages": [69]
+      },
+      "grapheme": "ille",
+      "uppercase": "ILLE",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ille-44bc45ae",
+        "fallbackText": "ille"
+      }
+    },
+    {
+      "id": "lesson-39-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [70],
+        "printedPages": [69]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-39-block-03-item-01",
+          "text": "une aiguille",
+          "audio": {
+            "key": "fr:phrase:une-aiguille-8f570fee",
+            "fallbackText": "une aiguille"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-39-block-03-item-02",
+          "text": "la famille",
+          "audio": {
+            "key": "fr:phrase:la-famille-68ae0daa",
+            "fallbackText": "la famille"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-39-block-03-item-03",
+          "text": "une chenille",
+          "audio": {
+            "key": "fr:phrase:une-chenille-abd4b8e4",
+            "fallbackText": "une chenille"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-39-block-03-item-04",
+          "text": "la fille",
+          "audio": {
+            "key": "fr:phrase:la-fille-03e11c6e",
+            "fallbackText": "la fille"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-39-block-03-item-05",
+          "text": "je m’habille",
+          "audio": {
+            "key": "fr:phrase:je-mhabille-c01a29df",
+            "fallbackText": "je m’habille"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-39-block-03-item-06",
+          "text": "un papillon",
+          "audio": {
+            "key": "fr:phrase:un-papillon-380a9b73",
+            "fallbackText": "un papillon"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-39-block-03-item-07",
+          "text": "une coquille",
+          "audio": {
+            "key": "fr:phrase:une-coquille-9d27a7f7",
+            "fallbackText": "une coquille"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-39-block-04",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [70],
+        "printedPages": [69]
+      },
+      "title": "Une pluie surprise",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-39-block-04-segment-1",
+          "type": "narration",
+          "text": "Alors que le soleil brille encore dans le ciel, la pluie arrive brusquement et surprend les filles au marché. De grosses gouttes d’eau tombent sur les feuillages des arbres. Les papillons s’envolent dans le ciel. Nos vêtements sont mouillés. La famille de Sidi court se mettre à l’abri.",
+          "audio": {
+            "key": "fr:lesson-39:passage-4-segment-1",
+            "fallbackText": "Alors que le soleil brille encore dans le ciel, la pluie arrive brusquement et surprend les filles au marché. De grosses gouttes d’eau tombent sur les feuillages des arbres. Les papillons s’envolent dans le ciel. Nos vêtements sont mouillés. La famille de Sidi court se mettre à l’abri."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

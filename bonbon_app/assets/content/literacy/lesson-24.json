@@ -1,0 +1,295 @@
+{
+  "id": "lesson-24",
+  "lessonNumber": 24,
+  "targets": [
+    {
+      "id": "target-lesson-24-1",
+      "kind": "grapheme",
+      "value": "h",
+      "audio": {
+        "key": "fr:grapheme:h-aaa94026",
+        "fallbackText": "h"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [51, 52],
+    "printedPages": [50, 51]
+  },
+  "blocks": [
+    {
+      "id": "lesson-24-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [51],
+        "printedPages": [50]
+      },
+      "grapheme": "h",
+      "uppercase": "H",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:h-aaa94026",
+        "fallbackText": "h"
+      }
+    },
+    {
+      "id": "lesson-24-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [51],
+        "printedPages": [50]
+      },
+      "assetId": "lesson-24-illustration",
+      "caption": {
+        "id": "lesson-24-caption",
+        "text": "une hache",
+        "audio": {
+          "key": "fr:phrase:une-hache-840e9b2b",
+          "fallbackText": "une hache"
+        }
+      }
+    },
+    {
+      "id": "lesson-24-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [51],
+        "printedPages": [50]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-24-block-03-item-01",
+          "text": "hi",
+          "audio": {
+            "key": "fr:syllable:hi-8f434346",
+            "fallbackText": "hi"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-24-block-03-item-02",
+          "text": "hu",
+          "audio": {
+            "key": "fr:syllable:hu-ffd3d21b",
+            "fallbackText": "hu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-24-block-03-item-03",
+          "text": "ho",
+          "audio": {
+            "key": "fr:syllable:ho-a821c62e",
+            "fallbackText": "ho"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-24-block-03-item-04",
+          "text": "ha",
+          "audio": {
+            "key": "fr:syllable:ha-8693873c",
+            "fallbackText": "ha"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-24-block-03-item-05",
+          "text": "he",
+          "audio": {
+            "key": "fr:syllable:he-372f7e2f",
+            "fallbackText": "he"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-24-block-03-item-06",
+          "text": "hé",
+          "audio": {
+            "key": "fr:syllable:he-7dfbe0ea",
+            "fallbackText": "hé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-24-block-03-item-07",
+          "text": "hè",
+          "audio": {
+            "key": "fr:syllable:he-4e1ddd7d",
+            "fallbackText": "hè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-24-block-03-item-08",
+          "text": "hê",
+          "audio": {
+            "key": "fr:syllable:he-4130dbb1",
+            "fallbackText": "hê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-24-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [51],
+        "printedPages": [50]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-24-block-04-item-01",
+          "text": "un habit humide",
+          "audio": {
+            "key": "fr:phrase:un-habit-humide-d8d5b57e",
+            "fallbackText": "un habit humide"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-24-block-04-item-02",
+          "text": "un haricot",
+          "audio": {
+            "key": "fr:phrase:un-haricot-55ef8ecf",
+            "fallbackText": "un haricot"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-24-block-04-item-03",
+          "text": "une hyène",
+          "audio": {
+            "key": "fr:phrase:une-hyene-aba8eb53",
+            "fallbackText": "une hyène"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-24-block-04-item-04",
+          "text": "un hibou",
+          "audio": {
+            "key": "fr:phrase:un-hibou-baec613e",
+            "fallbackText": "un hibou"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-24-block-04-item-05",
+          "text": "un hôpital",
+          "audio": {
+            "key": "fr:phrase:un-hopital-e714bc68",
+            "fallbackText": "un hôpital"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-24-block-05",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [52],
+        "printedPages": [51]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-24-hand-1",
+          "text": "h"
+        },
+        {
+          "id": "lesson-24-hand-2",
+          "text": "H"
+        }
+      ],
+      "glyphAssetIds": ["lesson-24-glyph-1", "lesson-24-glyph-2"]
+    },
+    {
+      "id": "lesson-24-block-06",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [52],
+        "printedPages": [51]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-24-block-06-item-01",
+          "text": "h",
+          "audio": {
+            "key": "fr:word:h-aaa94026",
+            "fallbackText": "h"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-24-block-06-item-02",
+          "text": "honneur",
+          "audio": {
+            "key": "fr:word:honneur-7b900be4",
+            "fallbackText": "honneur"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-24-block-06-item-03",
+          "text": "H",
+          "audio": {
+            "key": "fr:word:h-44bd7ae6",
+            "fallbackText": "H"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-24-block-06-item-04",
+          "text": "Honneur",
+          "audio": {
+            "key": "fr:word:honneur-426f4a45",
+            "fallbackText": "Honneur"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-24-block-07",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [52],
+        "printedPages": [51]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-24-block-07-item-01",
+          "text": "h",
+          "audio": {
+            "key": "fr:word:h-aaa94026",
+            "fallbackText": "h"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-24-block-07-item-02",
+          "text": "hache",
+          "audio": {
+            "key": "fr:word:hache-60854daa",
+            "fallbackText": "hache"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-24-review-1"]
+  }
+}

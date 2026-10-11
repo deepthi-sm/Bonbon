@@ -1,0 +1,70 @@
+{
+  "$comment": "CI fails loudly if a diff removes or alters any of these. This is what stops a well-meaning spellcheck turning « margouillat » into « lézard ».",
+  "places": [
+    "Kandi",
+    "Cotonou",
+    "Nikki",
+    "Kérou",
+    "Gamia",
+    "Nord-Bénin",
+    "Bohicon"
+  ],
+  "foods": [
+    "fonio",
+    "igname",
+    "igname pilée",
+    "akassa",
+    "karité",
+    "quinquéliba",
+    "bouillie",
+    "mangue",
+    "arachide",
+    "mil",
+    "farine"
+  ],
+  "life": [
+    "marigot",
+    "marché",
+    "case",
+    "pagne",
+    "boubou",
+    "ramadan",
+    "forgeron",
+    "margouillat",
+    "canari",
+    "kapokier"
+  ],
+  "names": [
+    "Baké",
+    "Samira",
+    "Dossou",
+    "Ignace",
+    "Bio",
+    "Konaté",
+    "Kadidia",
+    "Orou",
+    "Gildas",
+    "Gédéon",
+    "Victoire",
+    "Flore",
+    "Rose",
+    "Marguerite",
+    "Hugues"
+  ],
+  "commerce": [
+    "vendeuse",
+    "marchand",
+    "acheteur",
+    "magasin",
+    "banque",
+    "client",
+    "étalage",
+    "vendre",
+    "acheter",
+    "opérations",
+    "addition",
+    "soustraction",
+    "multiplication",
+    "division"
+  ]
+}

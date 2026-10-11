@@ -1,0 +1,1066 @@
+[
+  {
+    "id": "lesson-01-epi-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "Illustration source associée à « un épi »",
+    "source": {
+      "pdfPages": [7],
+      "printedPages": [6]
+    },
+    "path": "assets/illustrations/lesson-01-epi-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop; no redraw, trace, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "cursive-lowercase-i",
+    "kind": "glyph",
+    "status": "available",
+    "character": "i",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [7, 8],
+      "printedPages": [6, 7]
+    },
+    "path": "assets/glyphs/cursive-lowercase-i.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop; no redraw, trace, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "cursive-uppercase-i",
+    "kind": "glyph",
+    "status": "available",
+    "character": "I",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [7, 8],
+      "printedPages": [6, 7]
+    },
+    "path": "assets/glyphs/cursive-uppercase-i.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop; no redraw, trace, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-02-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "une lune",
+    "source": {
+      "pdfPages": [9],
+      "printedPages": [8]
+    },
+    "path": "assets/illustrations/lesson-02-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-02-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "u",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [9],
+      "printedPages": [8]
+    },
+    "path": "assets/glyphs/lesson-02-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-03-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "un pot",
+    "source": {
+      "pdfPages": [11],
+      "printedPages": [10]
+    },
+    "path": "assets/illustrations/lesson-03-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-03-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "o",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [11],
+      "printedPages": [10]
+    },
+    "path": "assets/glyphs/lesson-03-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-04-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "un ananas",
+    "source": {
+      "pdfPages": [13],
+      "printedPages": [12]
+    },
+    "path": "assets/illustrations/lesson-04-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-04-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "a",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [13],
+      "printedPages": [12]
+    },
+    "path": "assets/glyphs/lesson-04-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-05-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "une fenêtre",
+    "source": {
+      "pdfPages": [15],
+      "printedPages": [14]
+    },
+    "path": "assets/illustrations/lesson-05-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-05-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "e",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [15],
+      "printedPages": [14]
+    },
+    "path": "assets/glyphs/lesson-05-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-05-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "ê",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [15],
+      "printedPages": [14]
+    },
+    "path": "assets/glyphs/lesson-05-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-06-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "une élève",
+    "source": {
+      "pdfPages": [17],
+      "printedPages": [16]
+    },
+    "path": "assets/illustrations/lesson-06-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop; no redraw, trace, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-06-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "é",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [17],
+      "printedPages": [16]
+    },
+    "path": "assets/glyphs/lesson-06-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop; no redraw, trace, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-06-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "è",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [17],
+      "printedPages": [16]
+    },
+    "path": "assets/glyphs/lesson-06-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop; no redraw, trace, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-07-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "mes yeux",
+    "source": {
+      "pdfPages": [19],
+      "printedPages": [18]
+    },
+    "path": "assets/illustrations/lesson-07-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-07-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "y",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [19],
+      "printedPages": [18]
+    },
+    "path": "assets/glyphs/lesson-07-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-08-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "une tête",
+    "source": {
+      "pdfPages": [21],
+      "printedPages": [20]
+    },
+    "path": "assets/illustrations/lesson-08-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-08-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "t",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [22],
+      "printedPages": [21]
+    },
+    "path": "assets/glyphs/lesson-08-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-08-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "T",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [22],
+      "printedPages": [21]
+    },
+    "path": "assets/glyphs/lesson-08-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-09-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "une pipe",
+    "source": {
+      "pdfPages": [23],
+      "printedPages": [22]
+    },
+    "path": "assets/illustrations/lesson-09-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-09-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "p",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [24],
+      "printedPages": [23]
+    },
+    "path": "assets/glyphs/lesson-09-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-09-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "P",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [24],
+      "printedPages": [23]
+    },
+    "path": "assets/glyphs/lesson-09-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-10-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "un nez",
+    "source": {
+      "pdfPages": [25],
+      "printedPages": [24]
+    },
+    "path": "assets/illustrations/lesson-10-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-10-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "n",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [26],
+      "printedPages": [25]
+    },
+    "path": "assets/glyphs/lesson-10-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-10-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "N",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [26],
+      "printedPages": [25]
+    },
+    "path": "assets/glyphs/lesson-10-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-11-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "une montre",
+    "source": {
+      "pdfPages": [27],
+      "printedPages": [26]
+    },
+    "path": "assets/illustrations/lesson-11-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-11-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "m",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [28],
+      "printedPages": [27]
+    },
+    "path": "assets/glyphs/lesson-11-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-11-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "M",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [28],
+      "printedPages": [27]
+    },
+    "path": "assets/glyphs/lesson-11-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-12-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "une radio",
+    "source": {
+      "pdfPages": [29],
+      "printedPages": [28]
+    },
+    "path": "assets/illustrations/lesson-12-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-12-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "r",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [30],
+      "printedPages": [29]
+    },
+    "path": "assets/glyphs/lesson-12-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-12-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "R",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [30],
+      "printedPages": [29]
+    },
+    "path": "assets/glyphs/lesson-12-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-13-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "un vélo",
+    "source": {
+      "pdfPages": [31],
+      "printedPages": [30]
+    },
+    "path": "assets/illustrations/lesson-13-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-13-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "v",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [32],
+      "printedPages": [31]
+    },
+    "path": "assets/glyphs/lesson-13-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-13-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "V",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [32],
+      "printedPages": [31]
+    },
+    "path": "assets/glyphs/lesson-13-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-14-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "un livre",
+    "source": {
+      "pdfPages": [33],
+      "printedPages": [32]
+    },
+    "path": "assets/illustrations/lesson-14-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-14-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "l",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [34],
+      "printedPages": [33]
+    },
+    "path": "assets/glyphs/lesson-14-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-14-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "L",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [34],
+      "printedPages": [33]
+    },
+    "path": "assets/glyphs/lesson-14-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-15-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "une datte",
+    "source": {
+      "pdfPages": [35],
+      "printedPages": [34]
+    },
+    "path": "assets/illustrations/lesson-15-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-15-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "d",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [36],
+      "printedPages": [35]
+    },
+    "path": "assets/glyphs/lesson-15-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-15-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "D",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [36],
+      "printedPages": [35]
+    },
+    "path": "assets/glyphs/lesson-15-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-16-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "une bassine",
+    "source": {
+      "pdfPages": [37],
+      "printedPages": [36]
+    },
+    "path": "assets/illustrations/lesson-16-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-16-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "b",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [38],
+      "printedPages": [37]
+    },
+    "path": "assets/glyphs/lesson-16-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-16-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "B",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [38],
+      "printedPages": [37]
+    },
+    "path": "assets/glyphs/lesson-16-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-17-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "une jupe",
+    "source": {
+      "pdfPages": [39],
+      "printedPages": [38]
+    },
+    "path": "assets/illustrations/lesson-17-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-17-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "j",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [40],
+      "printedPages": [39]
+    },
+    "path": "assets/glyphs/lesson-17-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-17-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "J",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [40],
+      "printedPages": [39]
+    },
+    "path": "assets/glyphs/lesson-17-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-18-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "un feu",
+    "source": {
+      "pdfPages": [41],
+      "printedPages": [40]
+    },
+    "path": "assets/illustrations/lesson-18-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-18-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "f",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [42],
+      "printedPages": [41]
+    },
+    "path": "assets/glyphs/lesson-18-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-18-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "F",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [42],
+      "printedPages": [41]
+    },
+    "path": "assets/glyphs/lesson-18-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-19-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "un sac",
+    "source": {
+      "pdfPages": [43],
+      "printedPages": [42]
+    },
+    "path": "assets/illustrations/lesson-19-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-19-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "s",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [44],
+      "printedPages": [43]
+    },
+    "path": "assets/glyphs/lesson-19-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-19-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "S",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [44],
+      "printedPages": [43]
+    },
+    "path": "assets/glyphs/lesson-19-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-20-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "un couteau",
+    "source": {
+      "pdfPages": [45],
+      "printedPages": [44]
+    },
+    "path": "assets/illustrations/lesson-20-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-20-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "c",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [46],
+      "printedPages": [45]
+    },
+    "path": "assets/glyphs/lesson-20-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-20-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "C",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [46],
+      "printedPages": [45]
+    },
+    "path": "assets/glyphs/lesson-20-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-21-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "une guitare",
+    "source": {
+      "pdfPages": [47],
+      "printedPages": [46]
+    },
+    "path": "assets/illustrations/lesson-21-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-21-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "g",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [48],
+      "printedPages": [47]
+    },
+    "path": "assets/glyphs/lesson-21-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-21-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "G",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [48],
+      "printedPages": [47]
+    },
+    "path": "assets/glyphs/lesson-21-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-22-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "un képi",
+    "source": {
+      "pdfPages": [49],
+      "printedPages": [48]
+    },
+    "path": "assets/illustrations/lesson-22-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-22-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "k",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [50],
+      "printedPages": [49]
+    },
+    "path": "assets/glyphs/lesson-22-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-22-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "K",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [50],
+      "printedPages": [49]
+    },
+    "path": "assets/glyphs/lesson-22-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-23-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "un zébu",
+    "source": {
+      "pdfPages": [53],
+      "printedPages": [52]
+    },
+    "path": "assets/illustrations/lesson-23-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-23-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "z",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [54],
+      "printedPages": [53]
+    },
+    "path": "assets/glyphs/lesson-23-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-23-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "Z",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [54],
+      "printedPages": [53]
+    },
+    "path": "assets/glyphs/lesson-23-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-24-illustration",
+    "kind": "image",
+    "status": "available",
+    "alt": "une hache",
+    "source": {
+      "pdfPages": [51],
+      "printedPages": [50]
+    },
+    "path": "assets/illustrations/lesson-24-illustration.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-24-glyph-1",
+    "kind": "glyph",
+    "status": "available",
+    "character": "h",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [52],
+      "printedPages": [51]
+    },
+    "path": "assets/glyphs/lesson-24-glyph-1.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  },
+  {
+    "id": "lesson-24-glyph-2",
+    "kind": "glyph",
+    "status": "available",
+    "character": "H",
+    "representation": "cursive",
+    "source": {
+      "pdfPages": [52],
+      "printedPages": [51]
+    },
+    "path": "assets/glyphs/lesson-24-glyph-2.png",
+    "processing": {
+      "operations": ["crop", "background_cleanup", "format_conversion"],
+      "notes": "Direct 600 DPI source-PDF extraction with palette-constrained white-matte cleanup; visually verified against the source crop and checkerboard preview; source stroke geometry, accents, arrows, and starting points preserved; no redraw, tracing, font substitution, or generative processing."
+    }
+  }
+]

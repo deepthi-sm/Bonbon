@@ -1,0 +1,324 @@
+{
+  "id": "lesson-22",
+  "lessonNumber": 22,
+  "targets": [
+    {
+      "id": "target-lesson-22-1",
+      "kind": "grapheme",
+      "value": "k",
+      "audio": {
+        "key": "fr:grapheme:k-8254c329",
+        "fallbackText": "k"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [49, 50],
+    "printedPages": [48, 49]
+  },
+  "blocks": [
+    {
+      "id": "lesson-22-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [49],
+        "printedPages": [48]
+      },
+      "grapheme": "k",
+      "uppercase": "K",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:k-8254c329",
+        "fallbackText": "k"
+      }
+    },
+    {
+      "id": "lesson-22-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [49],
+        "printedPages": [48]
+      },
+      "assetId": "lesson-22-illustration",
+      "caption": {
+        "id": "lesson-22-caption",
+        "text": "un képi",
+        "audio": {
+          "key": "fr:phrase:un-kepi-9459b2cb",
+          "fallbackText": "un képi"
+        }
+      }
+    },
+    {
+      "id": "lesson-22-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [49],
+        "printedPages": [48]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-22-block-03-item-01",
+          "text": "ki",
+          "audio": {
+            "key": "fr:syllable:ki-2b84b2a9",
+            "fallbackText": "ki"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-22-block-03-item-02",
+          "text": "ku",
+          "audio": {
+            "key": "fr:syllable:ku-88d178d7",
+            "fallbackText": "ku"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-22-block-03-item-03",
+          "text": "ko",
+          "audio": {
+            "key": "fr:syllable:ko-1fdbc74c",
+            "fallbackText": "ko"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-22-block-03-item-04",
+          "text": "ka",
+          "audio": {
+            "key": "fr:syllable:ka-3ebb1c99",
+            "fallbackText": "ka"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-22-block-03-item-05",
+          "text": "ke",
+          "audio": {
+            "key": "fr:syllable:ke-8e520270",
+            "fallbackText": "ke"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-22-block-03-item-06",
+          "text": "ké",
+          "audio": {
+            "key": "fr:syllable:ke-246f7f0f",
+            "fallbackText": "ké"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-22-block-03-item-07",
+          "text": "kè",
+          "audio": {
+            "key": "fr:syllable:ke-19604a2f",
+            "fallbackText": "kè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-22-block-03-item-08",
+          "text": "kê",
+          "audio": {
+            "key": "fr:syllable:ke-75c5e790",
+            "fallbackText": "kê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-22-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [49],
+        "printedPages": [48]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-22-block-04-item-01",
+          "text": "kaki",
+          "audio": {
+            "key": "fr:word:kaki-8ecee8bd",
+            "fallbackText": "kaki"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-22-block-04-item-02",
+          "text": "képi",
+          "audio": {
+            "key": "fr:word:kepi-551aa694",
+            "fallbackText": "képi"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-22-block-04-item-03",
+          "text": "kapok",
+          "audio": {
+            "key": "fr:word:kapok-80e0c598",
+            "fallbackText": "kapok"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-22-block-04-item-04",
+          "text": "kola",
+          "audio": {
+            "key": "fr:word:kola-9676b21c",
+            "fallbackText": "kola"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-22-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [49],
+        "printedPages": [48]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-22-block-05-item-01",
+          "text": "le kaki de toto.",
+          "audio": {
+            "key": "fr:lesson-22:b5-item-1",
+            "fallbackText": "le kaki de toto."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-22-block-05-item-02",
+          "text": "le képi du policier.",
+          "audio": {
+            "key": "fr:lesson-22:b5-item-2",
+            "fallbackText": "le képi du policier."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-22-block-05-item-03",
+          "text": "le kapok de mémé.",
+          "audio": {
+            "key": "fr:lesson-22:b5-item-3",
+            "fallbackText": "le kapok de mémé."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-22-block-06",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [50],
+        "printedPages": [49]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-22-hand-1",
+          "text": "k"
+        },
+        {
+          "id": "lesson-22-hand-2",
+          "text": "K"
+        }
+      ],
+      "glyphAssetIds": ["lesson-22-glyph-1", "lesson-22-glyph-2"]
+    },
+    {
+      "id": "lesson-22-block-07",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [50],
+        "printedPages": [49]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-22-block-07-item-01",
+          "text": "k",
+          "audio": {
+            "key": "fr:word:k-8254c329",
+            "fallbackText": "k"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-22-block-07-item-02",
+          "text": "képi",
+          "audio": {
+            "key": "fr:word:kepi-551aa694",
+            "fallbackText": "képi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-22-block-07-item-03",
+          "text": "K",
+          "audio": {
+            "key": "fr:word:k-86be9a55",
+            "fallbackText": "K"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-22-block-07-item-04",
+          "text": "Képi",
+          "audio": {
+            "key": "fr:word:kepi-4e9d05cb",
+            "fallbackText": "Képi"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-22-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [50],
+        "printedPages": [49]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-22-block-08-item-01",
+          "text": "k",
+          "audio": {
+            "key": "fr:word:k-8254c329",
+            "fallbackText": "k"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-22-block-08-item-02",
+          "text": "képi",
+          "audio": {
+            "key": "fr:word:kepi-551aa694",
+            "fallbackText": "képi"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-22-review-1"]
+  }
+}

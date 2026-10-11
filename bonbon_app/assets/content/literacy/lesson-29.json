@@ -1,0 +1,345 @@
+{
+  "id": "lesson-29",
+  "lessonNumber": 29,
+  "targets": [
+    {
+      "id": "target-lesson-29-1",
+      "kind": "grapheme",
+      "value": "eau",
+      "audio": {
+        "key": "fr:grapheme:eau-c9b12f5e",
+        "fallbackText": "eau"
+      }
+    },
+    {
+      "id": "target-lesson-29-2",
+      "kind": "grapheme",
+      "value": "au",
+      "audio": {
+        "key": "fr:grapheme:au-632cd2fe",
+        "fallbackText": "au"
+      }
+    },
+    {
+      "id": "target-lesson-29-3",
+      "kind": "grapheme",
+      "value": "os",
+      "audio": {
+        "key": "fr:grapheme:os-840a8dcf",
+        "fallbackText": "os"
+      }
+    },
+    {
+      "id": "target-lesson-29-4",
+      "kind": "grapheme",
+      "value": "ot",
+      "audio": {
+        "key": "fr:grapheme:ot-0a19b472",
+        "fallbackText": "ot"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [60],
+    "printedPages": [59]
+  },
+  "blocks": [
+    {
+      "id": "lesson-29-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [60],
+        "printedPages": [59]
+      },
+      "grapheme": "eau",
+      "uppercase": "EAU",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:eau-c9b12f5e",
+        "fallbackText": "eau"
+      }
+    },
+    {
+      "id": "lesson-29-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [60],
+        "printedPages": [59]
+      },
+      "grapheme": "au",
+      "uppercase": "AU",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:au-632cd2fe",
+        "fallbackText": "au"
+      }
+    },
+    {
+      "id": "lesson-29-block-03",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [60],
+        "printedPages": [59]
+      },
+      "grapheme": "os",
+      "uppercase": "OS",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:os-840a8dcf",
+        "fallbackText": "os"
+      }
+    },
+    {
+      "id": "lesson-29-block-04",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [60],
+        "printedPages": [59]
+      },
+      "grapheme": "ot",
+      "uppercase": "OT",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ot-0a19b472",
+        "fallbackText": "ot"
+      }
+    },
+    {
+      "id": "lesson-29-block-05",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [60],
+        "printedPages": [59]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-29-block-05-item-01",
+          "text": "une auto",
+          "audio": {
+            "key": "fr:phrase:une-auto-af54d082",
+            "fallbackText": "une auto"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-29-block-05-item-02",
+          "text": "un bateau",
+          "audio": {
+            "key": "fr:phrase:un-bateau-99390955",
+            "fallbackText": "un bateau"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-29-block-05-item-03",
+          "text": "un couteau",
+          "audio": {
+            "key": "fr:phrase:un-couteau-9b49ef21",
+            "fallbackText": "un couteau"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-29-block-05-item-04",
+          "text": "un seau",
+          "audio": {
+            "key": "fr:phrase:un-seau-b7f08cc1",
+            "fallbackText": "un seau"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-29-block-05-item-05",
+          "text": "mon épaule",
+          "audio": {
+            "key": "fr:phrase:mon-epaule-8cfa3869",
+            "fallbackText": "mon épaule"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-29-block-05-item-06",
+          "text": "l’eau du marigot",
+          "audio": {
+            "key": "fr:phrase:leau-du-marigot-90d35863",
+            "fallbackText": "l’eau du marigot"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-29-block-05-item-07",
+          "text": "le cauri",
+          "audio": {
+            "key": "fr:phrase:le-cauri-cae5184c",
+            "fallbackText": "le cauri"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-29-block-05-item-08",
+          "text": "jaune",
+          "audio": {
+            "key": "fr:word:jaune-d0a127e3",
+            "fallbackText": "jaune"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-29-block-05-item-09",
+          "text": "un chapeau",
+          "audio": {
+            "key": "fr:phrase:un-chapeau-b09e2599",
+            "fallbackText": "un chapeau"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-29-block-05-item-10",
+          "text": "le tableau",
+          "audio": {
+            "key": "fr:phrase:le-tableau-431365bf",
+            "fallbackText": "le tableau"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-29-block-05-item-11",
+          "text": "le drapeau",
+          "audio": {
+            "key": "fr:phrase:le-drapeau-1322549a",
+            "fallbackText": "le drapeau"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-29-block-06",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [60],
+        "printedPages": [59]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-29-block-06-item-01",
+          "text": "une auto",
+          "audio": {
+            "key": "fr:phrase:une-auto-af54d082",
+            "fallbackText": "une auto"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-29-block-06-item-02",
+          "text": "un bateau",
+          "audio": {
+            "key": "fr:phrase:un-bateau-99390955",
+            "fallbackText": "un bateau"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-29-block-06-item-03",
+          "text": "un couteau",
+          "audio": {
+            "key": "fr:phrase:un-couteau-9b49ef21",
+            "fallbackText": "un couteau"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-29-block-06-item-04",
+          "text": "un seau",
+          "audio": {
+            "key": "fr:phrase:un-seau-b7f08cc1",
+            "fallbackText": "un seau"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-29-block-06-item-05",
+          "text": "mon épaule",
+          "audio": {
+            "key": "fr:phrase:mon-epaule-8cfa3869",
+            "fallbackText": "mon épaule"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-29-block-06-item-06",
+          "text": "l’eau du marigot",
+          "audio": {
+            "key": "fr:phrase:leau-du-marigot-90d35863",
+            "fallbackText": "l’eau du marigot"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-29-block-06-item-07",
+          "text": "le cauri",
+          "audio": {
+            "key": "fr:phrase:le-cauri-cae5184c",
+            "fallbackText": "le cauri"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-29-block-06-item-08",
+          "text": "jaune",
+          "audio": {
+            "key": "fr:word:jaune-d0a127e3",
+            "fallbackText": "jaune"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-29-block-06-item-09",
+          "text": "je saute un chapeau",
+          "audio": {
+            "key": "fr:phrase:je-saute-un-chapeau-de690a36",
+            "fallbackText": "je saute un chapeau"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-29-block-06-item-10",
+          "text": "le tableau",
+          "audio": {
+            "key": "fr:phrase:le-tableau-431365bf",
+            "fallbackText": "le tableau"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-29-block-07",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [60],
+        "printedPages": [59]
+      },
+      "title": "Mon village",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-29-block-07-segment-1",
+          "type": "narration",
+          "text": "Mon beau village est entouré de collines et d’arbres. Un beau lieu de repos est situé à côté d’une forêt non loin d’un marigot. Très tôt le matin, des jeunes filles et femmes viennent au marigot pour puiser de l’eau et ramasser du bois. Elles font des petits fagots qu’ elles portent sur la tête.",
+          "audio": {
+            "key": "fr:lesson-29:passage-7-segment-1",
+            "fallbackText": "Mon beau village est entouré de collines et d’arbres. Un beau lieu de repos est situé à côté d’une forêt non loin d’un marigot. Très tôt le matin, des jeunes filles et femmes viennent au marigot pour puiser de l’eau et ramasser du bois. Elles font des petits fagots qu’ elles portent sur la tête."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-29-review-1"]
+  }
+}

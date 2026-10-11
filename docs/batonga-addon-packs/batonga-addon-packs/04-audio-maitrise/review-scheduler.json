@@ -1,0 +1,45 @@
+{
+  "$comment": "NEW. The original plan parked spaced review in V2 for good reason — the intervals are guesswork without data. Since the MVP is now the full product, it ships, but with the honest posture: fixed conservative intervals, and an explicit plan to retune from real MasteryRecord data after the field test.",
+  "queueComposition": {
+    "dailyCap": 12,
+    "perSessionCap": 6,
+    "order": [
+      "fragile (s < 0.5) la plus ancienne d'abord",
+      "cibles ayant échoué au dernier Bilan",
+      "en cours (0.5 ≤ s < 0.75) arrivée à échéance"
+    ],
+    "neverInclude": [
+      "une cible introduite il y a moins de 24 h",
+      "une cible d'une leçon non terminée",
+      "plus de 4 cibles de la même leçon dans une même session"
+    ]
+  },
+  "intervals": {
+    "unit": "jours",
+    "byBand": {
+      "fragile": [
+        1,
+        2,
+        4
+      ],
+      "en cours": [
+        3,
+        7,
+        14
+      ],
+      "acquise": [
+        21,
+        45
+      ]
+    },
+    "jitter": "±20 % pour éviter que tout tombe le même jour",
+    "provenance": "Intervalles conservateurs inspirés de la pratique courante en répétition espacée. À RECALIBRER sur les données réelles après le test terrain — ne pas les traiter comme validés."
+  },
+  "presentation": {
+    "entry": "Accueil → « À revoir aujourd'hui »",
+    "optional": true,
+    "vo": "On revoit cinq choses, puis on continue.",
+    "never": "Jamais imposé avant une leçon, sauf après 14 jours d'absence."
+  },
+  "flag": "features.spacedReview — activable, ON par défaut, désactivable si le test terrain montre que la file décourage."
+}

@@ -1,0 +1,223 @@
+{
+  "id": "lesson-03",
+  "lessonNumber": 3,
+  "targets": [
+    {
+      "id": "target-lesson-03-1",
+      "kind": "grapheme",
+      "value": "o",
+      "audio": {
+        "key": "fr:grapheme:o-65c74c15",
+        "fallbackText": "o"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [11, 12],
+    "printedPages": [10, 11]
+  },
+  "blocks": [
+    {
+      "id": "lesson-03-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [11],
+        "printedPages": [10]
+      },
+      "grapheme": "o",
+      "uppercase": "O",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:o-65c74c15",
+        "fallbackText": "o"
+      }
+    },
+    {
+      "id": "lesson-03-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [11],
+        "printedPages": [10]
+      },
+      "assetId": "lesson-03-illustration",
+      "caption": {
+        "id": "lesson-03-caption",
+        "text": "un pot",
+        "audio": {
+          "key": "fr:phrase:un-pot-4b8e75bf",
+          "fallbackText": "un pot"
+        }
+      }
+    },
+    {
+      "id": "lesson-03-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [11],
+        "printedPages": [10]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-03-block-03-item-01",
+          "text": "pot",
+          "audio": {
+            "key": "fr:word:pot-74a51c3c",
+            "fallbackText": "pot"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-03-block-03-item-02",
+          "text": "lot",
+          "audio": {
+            "key": "fr:word:lot-b7b30d6e",
+            "fallbackText": "lot"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-03-block-03-item-03",
+          "text": "fonio",
+          "audio": {
+            "key": "fr:word:fonio-58759523",
+            "fallbackText": "fonio"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-03-block-03-item-04",
+          "text": "dos",
+          "audio": {
+            "key": "fr:word:dos-c1299854",
+            "fallbackText": "dos"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-03-block-03-item-05",
+          "text": "os",
+          "audio": {
+            "key": "fr:word:os-840a8dcf",
+            "fallbackText": "os"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-03-block-03-item-06",
+          "text": "or",
+          "audio": {
+            "key": "fr:word:or-7175517a",
+            "fallbackText": "or"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-03-block-03-item-07",
+          "text": "nord",
+          "audio": {
+            "key": "fr:word:nord-77e82140",
+            "fallbackText": "nord"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-03-block-03-item-08",
+          "text": "sol",
+          "audio": {
+            "key": "fr:word:sol-8db59feb",
+            "fallbackText": "sol"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-03-block-03-item-09",
+          "text": "zoo",
+          "audio": {
+            "key": "fr:word:zoo-24fe93c9",
+            "fallbackText": "zoo"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-03-block-04",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [11],
+        "printedPages": [10]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-03-hand-1",
+          "text": "o"
+        }
+      ],
+      "glyphAssetIds": ["lesson-03-glyph-1"]
+    },
+    {
+      "id": "lesson-03-block-05",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [12],
+        "printedPages": [11]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-03-block-05-item-01",
+          "text": "o",
+          "audio": {
+            "key": "fr:word:o-65c74c15",
+            "fallbackText": "o"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-03-block-05-item-02",
+          "text": "dos",
+          "audio": {
+            "key": "fr:word:dos-c1299854",
+            "fallbackText": "dos"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-03-block-05-item-03",
+          "text": "O",
+          "audio": {
+            "key": "fr:word:o-c4694f2e",
+            "fallbackText": "O"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-03-block-05-item-04",
+          "text": "Or",
+          "audio": {
+            "key": "fr:word:or-0568bd03",
+            "fallbackText": "Or"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-03-block-05-item-05",
+          "text": "or",
+          "audio": {
+            "key": "fr:word:or-7175517a",
+            "fallbackText": "or"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ],
+      "representations": ["print", "cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-03-review-1"]
+  }
+}

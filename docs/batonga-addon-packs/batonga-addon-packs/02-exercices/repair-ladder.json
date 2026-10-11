@@ -1,0 +1,54 @@
+{
+  "$comment": "NEW. What happens when she gets it wrong — the single most important UX surface in a literacy app, and the one the book (which assumes a patient human beside her) never had to specify. Four rungs, then always forward.",
+  "principle": "Une lectrice bloquée abandonne l'application. Il n'existe aucun état d'échec.",
+  "ladder": [
+    {
+      "attempt": 1,
+      "action": "replay-target",
+      "spoken": "Écoute encore.",
+      "visual": "la bonne réponse n'est PAS montrée",
+      "hintCost": 0
+    },
+    {
+      "attempt": 2,
+      "action": "narrow",
+      "spoken": "Écoute bien. C'est l'un des deux.",
+      "visual": "deux options sont estompées, il en reste deux",
+      "hintCost": 0.25
+    },
+    {
+      "attempt": 3,
+      "action": "model",
+      "spoken": "Regarde : c'est {réponse}. Écoute : {réponse}.",
+      "visual": "la bonne réponse s'illumine, puis l'item est rejoué à vide",
+      "hintCost": 0.5
+    },
+    {
+      "attempt": 4,
+      "action": "give-and-go",
+      "spoken": "On continue. Tu la reverras.",
+      "visual": "la bonne réponse est validée pour elle",
+      "hintCost": 1.0,
+      "sideEffect": "la cible entre dans la file de révision avec strength = 0.15"
+    }
+  ],
+  "neverDo": [
+    "buzzer sonore",
+    "croix rouge",
+    "vie perdue",
+    "chronomètre",
+    "score négatif",
+    "message qui nomme l'échec",
+    "blocage de la leçon suivante"
+  ],
+  "wrongAnswerFeedback": {
+    "rule": "On joue TOUJOURS la bonne réponse. On joue le choix erroné seulement quand l'entendre est instructif — c'est le cas de missing-letter, où entendre le mot qu'elle a construit explique l'erreur mieux que n'importe quel message.",
+    "byType": {
+      "tap-identify": "jouer la lettre correcte",
+      "listen-choose": "jouer la cible, puis le choix",
+      "syllable-build": "jouer la syllabe construite, puis la cible",
+      "missing-letter": "jouer le mot construit, puis le mot correct",
+      "trace": "rejouer l'animation du tracé"
+    }
+  }
+}

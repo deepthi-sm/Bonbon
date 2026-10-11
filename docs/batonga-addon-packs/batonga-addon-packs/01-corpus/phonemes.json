@@ -1,0 +1,633 @@
+{
+  "$comment": "DERIVED — the sound inventory the book actually teaches. The book never tabulates this; the app needs it for distractor generation and for the grapheme-hunt activity.",
+  "count": 65,
+  "phonemes": [
+    {
+      "ipa": "i",
+      "cls": "voyelle-orale",
+      "label": "i de « épi »",
+      "introducedIn": "L01",
+      "spellings": [
+        "i"
+      ]
+    },
+    {
+      "ipa": "y",
+      "cls": "voyelle-orale",
+      "label": "u de « lune »",
+      "introducedIn": "L02",
+      "spellings": [
+        "u"
+      ]
+    },
+    {
+      "ipa": "o",
+      "cls": "voyelle-orale",
+      "label": "o fermé de « pot »",
+      "introducedIn": "L03",
+      "spellings": [
+        "o",
+        "eau",
+        "au",
+        "os",
+        "ot"
+      ]
+    },
+    {
+      "ipa": "a",
+      "cls": "voyelle-orale",
+      "label": "a de « ananas »",
+      "introducedIn": "L04",
+      "spellings": [
+        "a"
+      ]
+    },
+    {
+      "ipa": "ə",
+      "cls": "voyelle-orale",
+      "label": "e muet de « fenêtre »",
+      "introducedIn": "L05",
+      "spellings": [
+        "e"
+      ]
+    },
+    {
+      "ipa": "ɛ",
+      "cls": "voyelle-orale",
+      "label": "è ouvert de « fenêtre »",
+      "introducedIn": "L05",
+      "spellings": [
+        "ê",
+        "è",
+        "ai",
+        "ei",
+        "ais",
+        "ait"
+      ]
+    },
+    {
+      "ipa": "e",
+      "cls": "voyelle-orale",
+      "label": "é fermé de « élève »",
+      "introducedIn": "L06",
+      "spellings": [
+        "é",
+        "et",
+        "ez",
+        "ai",
+        "ed"
+      ]
+    },
+    {
+      "ipa": "j",
+      "cls": "semi-voyelle",
+      "label": "y / ill de « yeux »",
+      "introducedIn": "L07",
+      "spellings": [
+        "y"
+      ]
+    },
+    {
+      "ipa": "t",
+      "cls": "consonne",
+      "label": "t de « tête »",
+      "introducedIn": "L08",
+      "spellings": [
+        "t",
+        "th"
+      ]
+    },
+    {
+      "ipa": "p",
+      "cls": "consonne",
+      "label": "p de « pipe »",
+      "introducedIn": "L09",
+      "spellings": [
+        "p"
+      ]
+    },
+    {
+      "ipa": "n",
+      "cls": "consonne",
+      "label": "n de « nez »",
+      "introducedIn": "L10",
+      "spellings": [
+        "n"
+      ]
+    },
+    {
+      "ipa": "m",
+      "cls": "consonne",
+      "label": "m de « montre »",
+      "introducedIn": "L11",
+      "spellings": [
+        "m"
+      ]
+    },
+    {
+      "ipa": "ʁ",
+      "cls": "consonne",
+      "label": "r de « radio »",
+      "introducedIn": "L12",
+      "spellings": [
+        "r"
+      ]
+    },
+    {
+      "ipa": "v",
+      "cls": "consonne",
+      "label": "v de « vélo »",
+      "introducedIn": "L13",
+      "spellings": [
+        "v"
+      ]
+    },
+    {
+      "ipa": "l",
+      "cls": "consonne",
+      "label": "l de « livre »",
+      "introducedIn": "L14",
+      "spellings": [
+        "l"
+      ]
+    },
+    {
+      "ipa": "d",
+      "cls": "consonne",
+      "label": "d de « datte »",
+      "introducedIn": "L15",
+      "spellings": [
+        "d"
+      ]
+    },
+    {
+      "ipa": "b",
+      "cls": "consonne",
+      "label": "b de « bassine »",
+      "introducedIn": "L16",
+      "spellings": [
+        "b"
+      ]
+    },
+    {
+      "ipa": "ʒ",
+      "cls": "consonne",
+      "label": "j de « jupe »",
+      "introducedIn": "L17",
+      "spellings": [
+        "j",
+        "g"
+      ]
+    },
+    {
+      "ipa": "f",
+      "cls": "consonne",
+      "label": "f de « feu »",
+      "introducedIn": "L18",
+      "spellings": [
+        "f",
+        "ph"
+      ]
+    },
+    {
+      "ipa": "s",
+      "cls": "consonne",
+      "label": "s de « sac »",
+      "introducedIn": "L19",
+      "spellings": [
+        "s",
+        "c",
+        "ç"
+      ]
+    },
+    {
+      "ipa": "k",
+      "cls": "consonne",
+      "label": "c de « couteau »",
+      "introducedIn": "L20",
+      "spellings": [
+        "c",
+        "k",
+        "qu"
+      ]
+    },
+    {
+      "ipa": "ɡ",
+      "cls": "consonne",
+      "label": "g de « guitare »",
+      "introducedIn": "L21",
+      "spellings": [
+        "g",
+        "gu"
+      ]
+    },
+    {
+      "ipa": "z",
+      "cls": "consonne",
+      "label": "z de « zébu »",
+      "introducedIn": "L23",
+      "spellings": [
+        "z",
+        "s"
+      ]
+    },
+    {
+      "ipa": "∅",
+      "cls": "muette",
+      "label": "lettre muette",
+      "introducedIn": "L24",
+      "spellings": [
+        "h"
+      ]
+    },
+    {
+      "ipa": "ɑ̃",
+      "cls": "voyelle-nasale",
+      "label": "an nasal de « vacances »",
+      "introducedIn": "L25",
+      "spellings": [
+        "an",
+        "am",
+        "en",
+        "em"
+      ]
+    },
+    {
+      "ipa": "ɔ̃",
+      "cls": "voyelle-nasale",
+      "label": "on nasal de « fête »",
+      "introducedIn": "L26",
+      "spellings": [
+        "on",
+        "om"
+      ]
+    },
+    {
+      "ipa": "wɛ̃",
+      "cls": "voyelle-nasale",
+      "label": "oin de « loin »",
+      "introducedIn": "L27",
+      "spellings": [
+        "oin"
+      ]
+    },
+    {
+      "ipa": "jɛ̃",
+      "cls": "voyelle-nasale",
+      "label": "ien de « bien »",
+      "introducedIn": "L28",
+      "spellings": [
+        "ien"
+      ]
+    },
+    {
+      "ipa": "jɔ̃",
+      "cls": "voyelle-nasale",
+      "label": "ion de « camion »",
+      "introducedIn": "L28",
+      "spellings": [
+        "ion"
+      ]
+    },
+    {
+      "ipa": "wa",
+      "cls": "semi-voyelle",
+      "label": "oi de « voix »",
+      "introducedIn": "L30",
+      "spellings": [
+        "oi",
+        "oix",
+        "oit"
+      ]
+    },
+    {
+      "ipa": "ɛ̃",
+      "cls": "voyelle-nasale",
+      "label": "in nasal de « pain »",
+      "introducedIn": "L31",
+      "spellings": [
+        "ain",
+        "ein",
+        "in",
+        "aim"
+      ]
+    },
+    {
+      "ipa": "u",
+      "cls": "voyelle-orale",
+      "label": "ou de « bouillie »",
+      "introducedIn": "L32",
+      "spellings": [
+        "ou"
+      ]
+    },
+    {
+      "ipa": "uj",
+      "cls": "semi-voyelle",
+      "label": "ouille de « bouillie »",
+      "introducedIn": "L32",
+      "spellings": [
+        "ouille"
+      ]
+    },
+    {
+      "ipa": "ɛj",
+      "cls": "semi-voyelle",
+      "label": "eil de « réveil »",
+      "introducedIn": "L33",
+      "spellings": [
+        "ay",
+        "eil",
+        "eille"
+      ]
+    },
+    {
+      "ipa": "waj",
+      "cls": "consonne",
+      "label": "waj",
+      "introducedIn": "L33",
+      "spellings": [
+        "oy"
+      ]
+    },
+    {
+      "ipa": "ɥij",
+      "cls": "semi-voyelle",
+      "label": "uy de « appuyer »",
+      "introducedIn": "L33",
+      "spellings": [
+        "uy"
+      ]
+    },
+    {
+      "ipa": "aj",
+      "cls": "semi-voyelle",
+      "label": "ail de « travail »",
+      "introducedIn": "L34",
+      "spellings": [
+        "ail",
+        "aille"
+      ]
+    },
+    {
+      "ipa": "œj",
+      "cls": "semi-voyelle",
+      "label": "euil de « fauteuil »",
+      "introducedIn": "L38",
+      "spellings": [
+        "euil",
+        "euille"
+      ]
+    },
+    {
+      "ipa": "ij",
+      "cls": "semi-voyelle",
+      "label": "ill de « famille »",
+      "introducedIn": "L39",
+      "spellings": [
+        "ill",
+        "ille"
+      ]
+    },
+    {
+      "ipa": "ø",
+      "cls": "voyelle-orale",
+      "label": "eu fermé de « feu »",
+      "introducedIn": "L40",
+      "spellings": [
+        "eu"
+      ]
+    },
+    {
+      "ipa": "œ",
+      "cls": "voyelle-orale",
+      "label": "eu ouvert de « sœur »",
+      "introducedIn": "L40",
+      "spellings": [
+        "œu"
+      ]
+    },
+    {
+      "ipa": "œʁ",
+      "cls": "voyelle-orale",
+      "label": "eur de « sœur »",
+      "introducedIn": "L41",
+      "spellings": [
+        "eur",
+        "eure",
+        "œur"
+      ]
+    },
+    {
+      "ipa": "waʁ",
+      "cls": "consonne",
+      "label": "oir de « histoire »",
+      "introducedIn": "L42",
+      "spellings": [
+        "oir",
+        "oire"
+      ]
+    },
+    {
+      "ipa": "ɲ",
+      "cls": "consonne",
+      "label": "gn de « pagne »",
+      "introducedIn": "L45",
+      "spellings": [
+        "gn"
+      ]
+    },
+    {
+      "ipa": "je",
+      "cls": "semi-voyelle",
+      "label": "ier de « premier »",
+      "introducedIn": "L49",
+      "spellings": [
+        "iez",
+        "ier",
+        "ied"
+      ]
+    },
+    {
+      "ipa": "ʃ",
+      "cls": "consonne",
+      "label": "ch de « chose »",
+      "introducedIn": "L50",
+      "spellings": [
+        "ch"
+      ]
+    },
+    {
+      "ipa": "ak",
+      "cls": "voyelle-orale",
+      "label": "ac de « sac »",
+      "introducedIn": "L52",
+      "spellings": [
+        "ac"
+      ]
+    },
+    {
+      "ipa": "ɔk",
+      "cls": "voyelle-orale",
+      "label": "oc de « bloc »",
+      "introducedIn": "L52",
+      "spellings": [
+        "oc"
+      ]
+    },
+    {
+      "ipa": "ik",
+      "cls": "voyelle-orale",
+      "label": "ic de « pic »",
+      "introducedIn": "L52",
+      "spellings": [
+        "ic"
+      ]
+    },
+    {
+      "ipa": "sjɔ̃",
+      "cls": "voyelle-nasale",
+      "label": "tion de « opération »",
+      "introducedIn": "L53",
+      "spellings": [
+        "tion",
+        "sion"
+      ]
+    },
+    {
+      "ipa": "bl",
+      "cls": "groupe-consonantique",
+      "label": "bl",
+      "introducedIn": "L54",
+      "spellings": [
+        "bl"
+      ]
+    },
+    {
+      "ipa": "pl",
+      "cls": "groupe-consonantique",
+      "label": "pl",
+      "introducedIn": "L54",
+      "spellings": [
+        "pl"
+      ]
+    },
+    {
+      "ipa": "vl",
+      "cls": "groupe-consonantique",
+      "label": "vl",
+      "introducedIn": "L54",
+      "spellings": [
+        "vl"
+      ]
+    },
+    {
+      "ipa": "fl",
+      "cls": "groupe-consonantique",
+      "label": "fl",
+      "introducedIn": "L54",
+      "spellings": [
+        "fl"
+      ]
+    },
+    {
+      "ipa": "kl",
+      "cls": "groupe-consonantique",
+      "label": "kl",
+      "introducedIn": "L54",
+      "spellings": [
+        "cl"
+      ]
+    },
+    {
+      "ipa": "aʁ",
+      "cls": "voyelle-orale",
+      "label": "ar de « marché »",
+      "introducedIn": "L55",
+      "spellings": [
+        "ar"
+      ]
+    },
+    {
+      "ipa": "ɔʁ",
+      "cls": "voyelle-orale",
+      "label": "or de « fort »",
+      "introducedIn": "L55",
+      "spellings": [
+        "or"
+      ]
+    },
+    {
+      "ipa": "bʁ",
+      "cls": "groupe-consonantique",
+      "label": "bʁ",
+      "introducedIn": "L56",
+      "spellings": [
+        "br"
+      ]
+    },
+    {
+      "ipa": "tʁ",
+      "cls": "groupe-consonantique",
+      "label": "tʁ",
+      "introducedIn": "L56",
+      "spellings": [
+        "tr"
+      ]
+    },
+    {
+      "ipa": "kʁ",
+      "cls": "groupe-consonantique",
+      "label": "kʁ",
+      "introducedIn": "L56",
+      "spellings": [
+        "cr"
+      ]
+    },
+    {
+      "ipa": "pʁ",
+      "cls": "groupe-consonantique",
+      "label": "pʁ",
+      "introducedIn": "L56",
+      "spellings": [
+        "pr"
+      ]
+    },
+    {
+      "ipa": "dʁ",
+      "cls": "groupe-consonantique",
+      "label": "dʁ",
+      "introducedIn": "L56",
+      "spellings": [
+        "dr"
+      ]
+    },
+    {
+      "ipa": "ɡʁ",
+      "cls": "groupe-consonantique",
+      "label": "ɡʁ",
+      "introducedIn": "L56",
+      "spellings": [
+        "gr"
+      ]
+    },
+    {
+      "ipa": "vʁ",
+      "cls": "groupe-consonantique",
+      "label": "vʁ",
+      "introducedIn": "L56",
+      "spellings": [
+        "vr"
+      ]
+    },
+    {
+      "ipa": "fʁ",
+      "cls": "groupe-consonantique",
+      "label": "fʁ",
+      "introducedIn": "L56",
+      "spellings": [
+        "fr"
+      ]
+    }
+  ]
+}

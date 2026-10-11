@@ -1,0 +1,284 @@
+{
+  "id": "lesson-34",
+  "lessonNumber": 34,
+  "targets": [
+    {
+      "id": "target-lesson-34-1",
+      "kind": "grapheme",
+      "value": "ail",
+      "audio": {
+        "key": "fr:grapheme:ail-8a21a9fb",
+        "fallbackText": "ail"
+      }
+    },
+    {
+      "id": "target-lesson-34-2",
+      "kind": "grapheme",
+      "value": "aille",
+      "audio": {
+        "key": "fr:grapheme:aille-97181135",
+        "fallbackText": "aille"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [65],
+    "printedPages": [64]
+  },
+  "blocks": [
+    {
+      "id": "lesson-34-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [65],
+        "printedPages": [64]
+      },
+      "grapheme": "ail",
+      "uppercase": "AIL",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ail-8a21a9fb",
+        "fallbackText": "ail"
+      }
+    },
+    {
+      "id": "lesson-34-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [65],
+        "printedPages": [64]
+      },
+      "grapheme": "aille",
+      "uppercase": "AILLE",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:aille-97181135",
+        "fallbackText": "aille"
+      }
+    },
+    {
+      "id": "lesson-34-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [65],
+        "printedPages": [64]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-34-block-03-item-01",
+          "text": "le travail",
+          "audio": {
+            "key": "fr:phrase:le-travail-095cdb21",
+            "fallbackText": "le travail"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-34-block-03-item-02",
+          "text": "l’éventail",
+          "audio": {
+            "key": "fr:word:leventail-5fdf78c0",
+            "fallbackText": "l’éventail"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-34-block-03-item-03",
+          "text": "la muraille",
+          "audio": {
+            "key": "fr:phrase:la-muraille-fd9d1b57",
+            "fallbackText": "la muraille"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-34-block-03-item-04",
+          "text": "l’ail",
+          "audio": {
+            "key": "fr:word:lail-cdd70266",
+            "fallbackText": "l’ail"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-34-block-03-item-05",
+          "text": "le rail",
+          "audio": {
+            "key": "fr:phrase:le-rail-527641b6",
+            "fallbackText": "le rail"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-34-block-03-item-06",
+          "text": "la ferraille",
+          "audio": {
+            "key": "fr:phrase:la-ferraille-d649bdf8",
+            "fallbackText": "la ferraille"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-34-block-03-item-07",
+          "text": "la taille",
+          "audio": {
+            "key": "fr:phrase:la-taille-3fa0cd93",
+            "fallbackText": "la taille"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-34-block-03-item-08",
+          "text": "la bataille",
+          "audio": {
+            "key": "fr:phrase:la-bataille-466043c2",
+            "fallbackText": "la bataille"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-34-block-03-item-09",
+          "text": "je travaille",
+          "audio": {
+            "key": "fr:phrase:je-travaille-e727b2d1",
+            "fallbackText": "je travaille"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-34-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [65],
+        "printedPages": [64]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-34-block-04-item-01",
+          "text": "le travail",
+          "audio": {
+            "key": "fr:phrase:le-travail-095cdb21",
+            "fallbackText": "le travail"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-34-block-04-item-02",
+          "text": "l’éventail",
+          "audio": {
+            "key": "fr:word:leventail-5fdf78c0",
+            "fallbackText": "l’éventail"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-34-block-04-item-03",
+          "text": "la muraille",
+          "audio": {
+            "key": "fr:phrase:la-muraille-fd9d1b57",
+            "fallbackText": "la muraille"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-34-block-04-item-04",
+          "text": "l’ail",
+          "audio": {
+            "key": "fr:word:lail-cdd70266",
+            "fallbackText": "l’ail"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-34-block-04-item-05",
+          "text": "la bataille",
+          "audio": {
+            "key": "fr:phrase:la-bataille-466043c2",
+            "fallbackText": "la bataille"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-34-block-04-item-06",
+          "text": "la ferraille",
+          "audio": {
+            "key": "fr:phrase:la-ferraille-d649bdf8",
+            "fallbackText": "la ferraille"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-34-block-04-item-07",
+          "text": "la taille",
+          "audio": {
+            "key": "fr:phrase:la-taille-3fa0cd93",
+            "fallbackText": "la taille"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-34-block-04-item-08",
+          "text": "le rail",
+          "audio": {
+            "key": "fr:phrase:le-rail-527641b6",
+            "fallbackText": "le rail"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-34-block-05",
+      "type": "section_text",
+      "source": {
+        "pdfPages": [65],
+        "printedPages": [64]
+      },
+      "heading": "Des conseils",
+      "preserveSourceOrder": true,
+      "paragraphs": [
+        {
+          "id": "lesson-34-advice-01",
+          "text": "Mon enfant :"
+        },
+        {
+          "id": "lesson-34-advice-02",
+          "text": "aime le travail;"
+        },
+        {
+          "id": "lesson-34-advice-03",
+          "text": "travaille bien en classe;"
+        },
+        {
+          "id": "lesson-34-advice-04",
+          "text": "aide tes parents à la maison;"
+        },
+        {
+          "id": "lesson-34-advice-05",
+          "text": "écoute bien ton maître et ne baille pas en classe;"
+        },
+        {
+          "id": "lesson-34-advice-06",
+          "text": "ne joue pas près des rails ou d’un tas de ferraille;"
+        },
+        {
+          "id": "lesson-34-advice-07",
+          "text": "travaille toujours de toutes tes forces;"
+        },
+        {
+          "id": "lesson-34-advice-08",
+          "text": "n’oublie pas que : «La vie est une bataille.»"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "$comment": "SRC for digit ↔ name (book p.88) and stroke count (pp.89–98). The stroke DESCRIPTIONS are ADAPT: French school stroke order written out so the trace canvas has spoken remediation cues. Verify each against the numbered arrows on the printed page before recording the audio. Numeracy stops here by decision: no counting, no arithmetic, no quantities. See §S.2.",
+  "digits": [
+    {
+      "id": "D0",
+      "digit": 0,
+      "word": "zéro",
+      "article": null,
+      "glyphId": "0_numeral",
+      "audioDigit": "digit.0.name",
+      "audioWord": "word.zero",
+      "strokeCount": 1,
+      "strokeCues": [
+        "Un seul tracé : partir en haut, tourner vers la gauche, faire le tour, refermer en haut."
+      ],
+      "sourcePages": [
+        88,
+        89
+      ]
+    },
+    {
+      "id": "D1",
+      "digit": 1,
+      "word": "un",
+      "article": null,
+      "glyphId": "1_numeral",
+      "audioDigit": "digit.1.name",
+      "audioWord": "word.un",
+      "strokeCount": 2,
+      "strokeCues": [
+        "Le petit trait oblique, du bas vers le haut à gauche.",
+        "La barre verticale, du haut vers le bas."
+      ],
+      "sourcePages": [
+        88,
+        90
+      ]
+    },
+    {
+      "id": "D2",
+      "digit": 2,
+      "word": "deux",
+      "article": null,
+      "glyphId": "2_numeral",
+      "audioDigit": "digit.2.name",
+      "audioWord": "word.deux",
+      "strokeCount": 1,
+      "strokeCues": [
+        "Une courbe en haut vers la droite, redescendre en diagonale, puis la barre horizontale du bas, de gauche à droite."
+      ],
+      "sourcePages": [
+        88,
+        91
+      ]
+    },
+    {
+      "id": "D3",
+      "digit": 3,
+      "word": "trois",
+      "article": null,
+      "glyphId": "3_numeral",
+      "audioDigit": "digit.3.name",
+      "audioWord": "word.trois",
+      "strokeCount": 2,
+      "strokeCues": [
+        "La première boucle en haut, de gauche à droite.",
+        "La seconde boucle en bas, de gauche à droite."
+      ],
+      "sourcePages": [
+        88,
+        92
+      ]
+    },
+    {
+      "id": "D4",
+      "digit": 4,
+      "word": "quatre",
+      "article": null,
+      "glyphId": "4_numeral",
+      "audioDigit": "digit.4.name",
+      "audioWord": "word.quatre",
+      "strokeCount": 2,
+      "strokeCues": [
+        "Le trait oblique descendant, puis la verticale courte.",
+        "La barre horizontale, de gauche à droite."
+      ],
+      "sourcePages": [
+        88,
+        93
+      ]
+    },
+    {
+      "id": "D5",
+      "digit": 5,
+      "word": "cinq",
+      "article": null,
+      "glyphId": "5_numeral",
+      "audioDigit": "digit.5.name",
+      "audioWord": "word.cinq",
+      "strokeCount": 2,
+      "strokeCues": [
+        "La barre du haut, de gauche à droite, puis descendre à gauche.",
+        "La panse, de la gauche vers la droite et refermer."
+      ],
+      "sourcePages": [
+        88,
+        94
+      ]
+    },
+    {
+      "id": "D6",
+      "digit": 6,
+      "word": "six",
+      "article": null,
+      "glyphId": "6_numeral",
+      "audioDigit": "digit.6.name",
+      "audioWord": "word.six",
+      "strokeCount": 1,
+      "strokeCues": [
+        "Partir en haut à droite, descendre en courbe vers la gauche, puis fermer la boucle du bas."
+      ],
+      "sourcePages": [
+        88,
+        95
+      ]
+    },
+    {
+      "id": "D7",
+      "digit": 7,
+      "word": "sept",
+      "article": null,
+      "glyphId": "7_numeral",
+      "audioDigit": "digit.7.name",
+      "audioWord": "word.sept",
+      "strokeCount": 2,
+      "strokeCues": [
+        "La barre du haut, de gauche à droite.",
+        "Le trait oblique, du haut vers le bas à gauche."
+      ],
+      "sourcePages": [
+        88,
+        96
+      ]
+    },
+    {
+      "id": "D8",
+      "digit": 8,
+      "word": "huit",
+      "article": null,
+      "glyphId": "8_numeral",
+      "audioDigit": "digit.8.name",
+      "audioWord": "word.huit",
+      "strokeCount": 1,
+      "strokeCues": [
+        "Partir en haut, descendre en diagonale vers la gauche, boucle du bas, remonter en diagonale, refermer en haut."
+      ],
+      "sourcePages": [
+        88,
+        97
+      ]
+    },
+    {
+      "id": "D9",
+      "digit": 9,
+      "word": "neuf",
+      "article": null,
+      "glyphId": "9_numeral",
+      "audioDigit": "digit.9.name",
+      "audioWord": "word.neuf",
+      "strokeCount": 2,
+      "strokeCues": [
+        "La boucle du haut, refermée.",
+        "La descente verticale, du haut vers le bas."
+      ],
+      "sourcePages": [
+        88,
+        98
+      ]
+    }
+  ]
+}

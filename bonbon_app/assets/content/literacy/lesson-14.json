@@ -1,0 +1,416 @@
+{
+  "id": "lesson-14",
+  "lessonNumber": 14,
+  "targets": [
+    {
+      "id": "target-lesson-14-1",
+      "kind": "grapheme",
+      "value": "l",
+      "audio": {
+        "key": "fr:grapheme:l-acac86c0",
+        "fallbackText": "l"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [33, 34],
+    "printedPages": [32, 33]
+  },
+  "blocks": [
+    {
+      "id": "lesson-14-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [33],
+        "printedPages": [32]
+      },
+      "grapheme": "l",
+      "uppercase": "L",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:l-acac86c0",
+        "fallbackText": "l"
+      }
+    },
+    {
+      "id": "lesson-14-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [33],
+        "printedPages": [32]
+      },
+      "assetId": "lesson-14-illustration",
+      "caption": {
+        "id": "lesson-14-caption",
+        "text": "un livre",
+        "audio": {
+          "key": "fr:phrase:un-livre-648042b1",
+          "fallbackText": "un livre"
+        }
+      }
+    },
+    {
+      "id": "lesson-14-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [33],
+        "printedPages": [32]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-14-block-03-item-01",
+          "text": "li",
+          "audio": {
+            "key": "fr:syllable:li-00a9e425",
+            "fallbackText": "li"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-14-block-03-item-02",
+          "text": "lu",
+          "audio": {
+            "key": "fr:syllable:lu-80c0fcbb",
+            "fallbackText": "lu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-14-block-03-item-03",
+          "text": "lo",
+          "audio": {
+            "key": "fr:syllable:lo-9294ab38",
+            "fallbackText": "lo"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-14-block-03-item-04",
+          "text": "la",
+          "audio": {
+            "key": "fr:syllable:la-b737ca7e",
+            "fallbackText": "la"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-14-block-03-item-05",
+          "text": "le",
+          "audio": {
+            "key": "fr:syllable:le-61098a4b",
+            "fallbackText": "le"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-14-block-03-item-06",
+          "text": "lé",
+          "audio": {
+            "key": "fr:syllable:le-9337093d",
+            "fallbackText": "lé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-14-block-03-item-07",
+          "text": "lè",
+          "audio": {
+            "key": "fr:syllable:le-e3e9a352",
+            "fallbackText": "lè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-14-block-03-item-08",
+          "text": "lê",
+          "audio": {
+            "key": "fr:syllable:le-51d3f334",
+            "fallbackText": "lê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-14-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [33],
+        "printedPages": [32]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-14-block-04-item-01",
+          "text": "lili",
+          "audio": {
+            "key": "fr:word:lili-6c1ccd1f",
+            "fallbackText": "lili"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-14-block-04-item-02",
+          "text": "lolo",
+          "audio": {
+            "key": "fr:word:lolo-abd8cfba",
+            "fallbackText": "lolo"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-14-block-04-item-03",
+          "text": "lalo",
+          "audio": {
+            "key": "fr:word:lalo-01c16a9f",
+            "fallbackText": "lalo"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-14-block-04-item-04",
+          "text": "lulu",
+          "audio": {
+            "key": "fr:word:lulu-d2435e88",
+            "fallbackText": "lulu"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-14-block-04-item-05",
+          "text": "tôle",
+          "audio": {
+            "key": "fr:word:tole-3dd86db1",
+            "fallbackText": "tôle"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-14-block-04-item-06",
+          "text": "pile",
+          "audio": {
+            "key": "fr:word:pile-2eb8272d",
+            "fallbackText": "pile"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-14-block-04-item-07",
+          "text": "lola",
+          "audio": {
+            "key": "fr:word:lola-47acf82a",
+            "fallbackText": "lola"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-14-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [33],
+        "printedPages": [32]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-14-block-05-item-01",
+          "text": "la pile de lili.",
+          "audio": {
+            "key": "fr:lesson-14:b5-item-1",
+            "fallbackText": "la pile de lili."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-14-block-05-item-02",
+          "text": "lulu à une patate.",
+          "audio": {
+            "key": "fr:lesson-14:b5-item-2",
+            "fallbackText": "lulu à une patate."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-14-block-05-item-03",
+          "text": "lulu est une élève.",
+          "audio": {
+            "key": "fr:lesson-14:b5-item-3",
+            "fallbackText": "lulu est une élève."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-14-block-06",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [33],
+        "printedPages": [32]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-14-block-06-item-01",
+          "text": "lili",
+          "audio": {
+            "key": "fr:word:lili-6c1ccd1f",
+            "fallbackText": "lili"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-14-block-06-item-02",
+          "text": "lolo",
+          "audio": {
+            "key": "fr:word:lolo-abd8cfba",
+            "fallbackText": "lolo"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-14-block-06-item-03",
+          "text": "lalo",
+          "audio": {
+            "key": "fr:word:lalo-01c16a9f",
+            "fallbackText": "lalo"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-14-block-06-item-04",
+          "text": "lulu",
+          "audio": {
+            "key": "fr:word:lulu-d2435e88",
+            "fallbackText": "lulu"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-14-block-06-item-05",
+          "text": "tôle",
+          "audio": {
+            "key": "fr:word:tole-3dd86db1",
+            "fallbackText": "tôle"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-14-block-06-item-06",
+          "text": "pile",
+          "audio": {
+            "key": "fr:word:pile-2eb8272d",
+            "fallbackText": "pile"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-14-block-07",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [34],
+        "printedPages": [33]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-14-hand-1",
+          "text": "l"
+        },
+        {
+          "id": "lesson-14-hand-2",
+          "text": "L"
+        }
+      ],
+      "glyphAssetIds": ["lesson-14-glyph-1", "lesson-14-glyph-2"]
+    },
+    {
+      "id": "lesson-14-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [34],
+        "printedPages": [33]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-14-block-08-item-01",
+          "text": "l",
+          "audio": {
+            "key": "fr:word:l-acac86c0",
+            "fallbackText": "l"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-14-block-08-item-02",
+          "text": "lune",
+          "audio": {
+            "key": "fr:word:lune-5c7f259c",
+            "fallbackText": "lune"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-14-block-08-item-03",
+          "text": "L",
+          "audio": {
+            "key": "fr:word:l-72dfcfb0",
+            "fallbackText": "L"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-14-block-08-item-04",
+          "text": "Lune",
+          "audio": {
+            "key": "fr:word:lune-ac32bd27",
+            "fallbackText": "Lune"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-14-block-09",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [34],
+        "printedPages": [33]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-14-block-09-item-01",
+          "text": "l",
+          "audio": {
+            "key": "fr:word:l-acac86c0",
+            "fallbackText": "l"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-14-block-09-item-02",
+          "text": "lune",
+          "audio": {
+            "key": "fr:word:lune-5c7f259c",
+            "fallbackText": "lune"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "reviewed",
+    "issueIds": ["lesson-14-review-1", "lesson-14-review-2"]
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Bonbon",
+    "short_name": "Bonbon",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FBF8F3",
+    "theme_color": "#0A6B6B",
+    "description": "Bonbon : apprendre à lire et à écrire, pas à pas.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+  "$comment": "NEW. Local-only, no third party, nothing leaves the phone in MVP. The point is not analytics — it is being able to answer « pourquoi s'est-elle arrêtée là ? » during the field test, from the device, with the learner present.",
+  "storage": "table `event_log` SQLite, plafonnée à 5 000 lignes en anneau",
+  "privacy": [
+    "aucun identifiant réseau",
+    "aucune position",
+    "aucun contenu saisi",
+    "l'écran Réglages → À propos permet d'effacer le journal",
+    "rien n'est transmis : le sync_outbox ne contient PAS d'événements"
+  ],
+  "events": [
+    {
+      "e": "app.open",
+      "props": [
+        "daysSinceLast"
+      ],
+      "why": "rythme réel d'utilisation"
+    },
+    {
+      "e": "lesson.start",
+      "props": [
+        "lessonId",
+        "entry(path|resume|practice)"
+      ]
+    },
+    {
+      "e": "block.view",
+      "props": [
+        "lessonId",
+        "blockIndex",
+        "blockType",
+        "dwellMs"
+      ],
+      "why": "le bloc où le temps s'effondre est le bloc à refaire"
+    },
+    {
+      "e": "audio.play",
+      "props": [
+        "audioId",
+        "rate",
+        "repeatIndex"
+      ],
+      "why": "un clip réécouté 5 fois signale soit un mot difficile, soit un mauvais enregistrement"
+    },
+    {
+      "e": "activity.result",
+      "props": [
+        "activityId",
+        "type",
+        "outcome",
+        "attempts",
+        "hintsUsed",
+        "durationMs"
+      ]
+    },
+    {
+      "e": "activity.skip",
+      "props": [
+        "activityId",
+        "type",
+        "afterAttempts"
+      ],
+      "why": "LE signal le plus important de l'application : où elle abandonne"
+    },
+    {
+      "e": "trace.attempt",
+      "props": [
+        "glyphId",
+        "score",
+        "strokeScores"
+      ]
+    },
+    {
+      "e": "lesson.abandon",
+      "props": [
+        "lessonId",
+        "blockIndex",
+        "secondsIn"
+      ]
+    },
+    {
+      "e": "session.end",
+      "props": [
+        "durationMs",
+        "lessonsTouched",
+        "cause(background|idle|exit)"
+      ]
+    },
+    {
+      "e": "error.content",
+      "props": [
+        "lessonId",
+        "blockIndex",
+        "reason"
+      ],
+      "why": "un payload malformé rend une carte neutre — sans cet événement, personne ne le sait"
+    },
+    {
+      "e": "audio.missing",
+      "props": [
+        "audioId",
+        "context"
+      ],
+      "why": "détecte un identifiant référencé mais jamais enregistré, en production"
+    }
+  ],
+  "fieldTestUse": "Exporter le journal d'un appareil de test via adb / Xcode, pas via le réseau. Une page cachée Réglages → À propos → appui long affiche un résumé lisible à l'écran pour l'observateur."
+}

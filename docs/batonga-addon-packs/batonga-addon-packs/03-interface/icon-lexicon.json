@@ -1,0 +1,505 @@
+{
+  "$comment": "NEW. For a learner who cannot read, the icon IS the label — so an icon that means two things is a bug of the same severity as a mistranslation. This is a CLOSED set: adding an icon is a design decision made once, by Dev C, and recorded here. Style: single-weight line art, 2 dp stroke, no colour carrying meaning, drawn from the same visual world as the book's own illustrations (adult, Beninese, uncluttered) — never a children's icon set.",
+  "rules": [
+    "one icon, one meaning, app-wide",
+    "an icon never carries meaning by colour alone (§J.3)",
+    "every icon has a spoken label reachable by long-press",
+    "minimum rendered size 32 dp inside a 56 dp target",
+    "no emoji, ever — they render differently per device and read as childish"
+  ],
+  "count": 82,
+  "icons": [
+    {
+      "id": "speaker",
+      "drawing": "haut-parleur",
+      "means": "écouter ce qui est à côté",
+      "note": "le seul sens autorisé : ÉCOUTER. Jamais « son activé »."
+    },
+    {
+      "id": "speaker-slow",
+      "drawing": "haut-parleur + tortue",
+      "means": "écouter lentement, syllabe par syllabe",
+      "note": null
+    },
+    {
+      "id": "speaker-list",
+      "drawing": "haut-parleur + lignes",
+      "means": "tout écouter à la suite",
+      "note": null
+    },
+    {
+      "id": "replay",
+      "drawing": "flèche circulaire",
+      "means": "recommencer, réécouter",
+      "note": null
+    },
+    {
+      "id": "play",
+      "drawing": "triangle",
+      "means": "démarrer",
+      "note": null
+    },
+    {
+      "id": "play-circle",
+      "drawing": "triangle dans un rond",
+      "means": "action principale de l'écran",
+      "note": "un seul par écran"
+    },
+    {
+      "id": "pause",
+      "drawing": "deux barres",
+      "means": "mettre en pause",
+      "note": null
+    },
+    {
+      "id": "arrow-right",
+      "drawing": "flèche droite",
+      "means": "avancer",
+      "note": null
+    },
+    {
+      "id": "arrow-left",
+      "drawing": "flèche gauche",
+      "means": "reculer",
+      "note": null
+    },
+    {
+      "id": "arrow-down",
+      "drawing": "flèche bas",
+      "means": "sens du tracé, vers le bas",
+      "note": null
+    },
+    {
+      "id": "check",
+      "drawing": "coche",
+      "means": "validé",
+      "note": null
+    },
+    {
+      "id": "check-circle",
+      "drawing": "coche dans un rond",
+      "means": "terminé, réussi",
+      "note": null
+    },
+    {
+      "id": "circle",
+      "drawing": "rond vide",
+      "means": "à faire",
+      "note": "jamais rouge"
+    },
+    {
+      "id": "half-circle",
+      "drawing": "demi-rond",
+      "means": "presque",
+      "note": null
+    },
+    {
+      "id": "close",
+      "drawing": "croix",
+      "means": "fermer",
+      "note": "JAMAIS pour signaler une erreur"
+    },
+    {
+      "id": "lock",
+      "drawing": "cadenas",
+      "means": "pas encore ouvert",
+      "note": null
+    },
+    {
+      "id": "unlock",
+      "drawing": "cadenas ouvert",
+      "means": "libre d'accès",
+      "note": null
+    },
+    {
+      "id": "star",
+      "drawing": "étoile",
+      "means": "réussite, qualité du tracé",
+      "note": null
+    },
+    {
+      "id": "trophy",
+      "drawing": "coupe",
+      "means": "fin d'unité",
+      "note": null
+    },
+    {
+      "id": "flame",
+      "drawing": "flamme",
+      "means": "jours de suite",
+      "note": "compte les jours de présence, pas les réussites"
+    },
+    {
+      "id": "flag",
+      "drawing": "drapeau",
+      "means": "point de départ, jalon",
+      "note": null
+    },
+    {
+      "id": "target",
+      "drawing": "cible",
+      "means": "touche ceci",
+      "note": null
+    },
+    {
+      "id": "dot",
+      "drawing": "point",
+      "means": "point de départ du tracé",
+      "note": null
+    },
+    {
+      "id": "pen",
+      "drawing": "stylo",
+      "means": "écriture, modèle de tracé",
+      "note": null
+    },
+    {
+      "id": "hand-pen",
+      "drawing": "main qui écrit",
+      "means": "à toi d'écrire",
+      "note": null
+    },
+    {
+      "id": "eraser",
+      "drawing": "gomme",
+      "means": "effacer",
+      "note": null
+    },
+    {
+      "id": "eye",
+      "drawing": "œil",
+      "means": "regarde",
+      "note": null
+    },
+    {
+      "id": "ear",
+      "drawing": "oreille",
+      "means": "écoute puis choisis",
+      "note": null
+    },
+    {
+      "id": "ear-off",
+      "drawing": "oreille barrée",
+      "means": "je n'entends rien",
+      "note": null
+    },
+    {
+      "id": "letters",
+      "drawing": "plusieurs lettres",
+      "means": "alphabet, formes",
+      "note": null
+    },
+    {
+      "id": "letter-print",
+      "drawing": "a droit",
+      "means": "écriture scripte",
+      "note": null
+    },
+    {
+      "id": "letter-cursive",
+      "drawing": "a attaché",
+      "means": "écriture cursive",
+      "note": null
+    },
+    {
+      "id": "puzzle",
+      "drawing": "deux pièces",
+      "means": "construire une syllabe",
+      "note": null
+    },
+    {
+      "id": "tree",
+      "drawing": "arbre de flèches",
+      "means": "l'arbre des syllabes",
+      "note": "reprend le graphisme du livre"
+    },
+    {
+      "id": "word",
+      "drawing": "un mot encadré",
+      "means": "mot",
+      "note": null
+    },
+    {
+      "id": "sentence",
+      "drawing": "une ligne de mots",
+      "means": "phrase",
+      "note": null
+    },
+    {
+      "id": "book-open",
+      "drawing": "livre ouvert",
+      "means": "texte, lecture",
+      "note": null
+    },
+    {
+      "id": "path",
+      "drawing": "chemin",
+      "means": "le parcours",
+      "note": null
+    },
+    {
+      "id": "digits",
+      "drawing": "1 2 3",
+      "means": "les chiffres",
+      "note": null
+    },
+    {
+      "id": "chart",
+      "drawing": "barres",
+      "means": "mes progrès",
+      "note": null
+    },
+    {
+      "id": "calendar",
+      "drawing": "calendrier",
+      "means": "jours",
+      "note": null
+    },
+    {
+      "id": "person",
+      "drawing": "silhouette",
+      "means": "mon profil",
+      "note": null
+    },
+    {
+      "id": "people",
+      "drawing": "deux silhouettes",
+      "means": "autres personnes, animatrice",
+      "note": null
+    },
+    {
+      "id": "person-plus",
+      "drawing": "silhouette +",
+      "means": "ajouter",
+      "note": null
+    },
+    {
+      "id": "gear",
+      "drawing": "roue dentée",
+      "means": "réglages",
+      "note": null
+    },
+    {
+      "id": "info",
+      "drawing": "i dans un rond",
+      "means": "à propos",
+      "note": null
+    },
+    {
+      "id": "shield",
+      "drawing": "bouclier",
+      "means": "tes données restent ici",
+      "note": null
+    },
+    {
+      "id": "warning",
+      "drawing": "triangle",
+      "means": "problème technique",
+      "note": "jamais pour une réponse fausse"
+    },
+    {
+      "id": "skip",
+      "drawing": "double flèche",
+      "means": "passer",
+      "note": null
+    },
+    {
+      "id": "refresh",
+      "drawing": "flèches circulaires",
+      "means": "à revoir",
+      "note": null
+    },
+    {
+      "id": "turtle",
+      "drawing": "tortue",
+      "means": "plus lentement",
+      "note": null
+    },
+    {
+      "id": "volume-up",
+      "drawing": "haut-parleur +",
+      "means": "monter le son du téléphone",
+      "note": null
+    },
+    {
+      "id": "hand",
+      "drawing": "main ouverte",
+      "means": "aide",
+      "note": null
+    },
+    {
+      "id": "hand-wave",
+      "drawing": "main qui salue",
+      "means": "bienvenue",
+      "note": null
+    },
+    {
+      "id": "seedling",
+      "drawing": "jeune pousse",
+      "means": "ça vient",
+      "note": "remplace toute idée d'échec"
+    },
+    {
+      "id": "shop",
+      "drawing": "étal",
+      "means": "les mots du commerce",
+      "note": null
+    },
+    {
+      "id": "house",
+      "drawing": "maison",
+      "means": "à la maison",
+      "note": null
+    },
+    {
+      "id": "bowl",
+      "drawing": "calebasse",
+      "means": "la nourriture",
+      "note": null
+    },
+    {
+      "id": "school",
+      "drawing": "école",
+      "means": "à l'école",
+      "note": null
+    },
+    {
+      "id": "village",
+      "drawing": "cases",
+      "means": "au village",
+      "note": null
+    },
+    {
+      "id": "tags",
+      "drawing": "étiquettes",
+      "means": "thèmes",
+      "note": null
+    },
+    {
+      "id": "image",
+      "drawing": "cadre photo",
+      "means": "dessin",
+      "note": null
+    },
+    {
+      "id": "notebook",
+      "drawing": "cahier ligné",
+      "means": "cahier d'écriture",
+      "note": "reprend la réglure Seyès du livre"
+    },
+    {
+      "id": "clipboard",
+      "drawing": "porte-bloc",
+      "means": "à faire ensemble",
+      "note": null
+    },
+    {
+      "id": "signpost",
+      "drawing": "panneau",
+      "means": "par où commencer",
+      "note": null
+    },
+    {
+      "id": "bookmark",
+      "drawing": "marque-page",
+      "means": "on reprend ici",
+      "note": null
+    },
+    {
+      "id": "door",
+      "drawing": "porte",
+      "means": "reviens quand tu veux",
+      "note": null
+    },
+    {
+      "id": "sun",
+      "drawing": "soleil",
+      "means": "bonjour",
+      "note": null
+    },
+    {
+      "id": "moon",
+      "drawing": "lune",
+      "means": "bonsoir",
+      "note": null
+    },
+    {
+      "id": "hourglass",
+      "drawing": "sablier",
+      "means": "un instant",
+      "note": null
+    },
+    {
+      "id": "filter",
+      "drawing": "entonnoir",
+      "means": "il en reste deux",
+      "note": null
+    },
+    {
+      "id": "link",
+      "drawing": "chaînon",
+      "means": "relier",
+      "note": null
+    },
+    {
+      "id": "question",
+      "drawing": "point d'interrogation",
+      "means": "question",
+      "note": null
+    },
+    {
+      "id": "check-list",
+      "drawing": "liste cochée",
+      "means": "bilan",
+      "note": null
+    },
+    {
+      "id": "dumbbell",
+      "drawing": "haltère",
+      "means": "m'entraîner",
+      "note": null
+    },
+    {
+      "id": "text-size",
+      "drawing": "Aa",
+      "means": "taille du texte",
+      "note": null
+    },
+    {
+      "id": "vibrate",
+      "drawing": "téléphone qui vibre",
+      "means": "vibrations",
+      "note": null
+    },
+    {
+      "id": "fast-forward",
+      "drawing": "double triangle",
+      "means": "je connais déjà",
+      "note": null
+    },
+    {
+      "id": "words-sequence",
+      "drawing": "mots surlignés l'un après l'autre",
+      "means": "mot à mot",
+      "note": null
+    },
+    {
+      "id": "letter-a",
+      "drawing": "un a",
+      "means": "unité des voyelles",
+      "note": null
+    },
+    {
+      "id": "letter-t",
+      "drawing": "un t",
+      "means": "unité des consonnes",
+      "note": null
+    },
+    {
+      "id": "list",
+      "drawing": "lignes",
+      "means": "bande de syllabes",
+      "note": null
+    }
+  ]
+}

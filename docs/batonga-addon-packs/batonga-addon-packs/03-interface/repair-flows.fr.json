@@ -1,0 +1,63 @@
+{
+  "$comment": "NEW. The moments a paper book never has to handle. Each flow is defined by what the app SAYS, because the learner cannot read what it writes.",
+  "flows": [
+    {
+      "id": "stuck-3-times",
+      "trigger": "3 échecs consécutifs sur la même cible",
+      "vo": "On laisse celle-ci pour aujourd'hui. Tu la reverras.",
+      "action": "valider pour elle, marquer strength = 0.15, continuer",
+      "never": "ne jamais bloquer, ne jamais répéter une quatrième fois"
+    },
+    {
+      "id": "no-audio-yet",
+      "trigger": "audioService.has(id) === false",
+      "vo": null,
+      "action": "ne pas afficher l'icône haut-parleur",
+      "never": "aucun message, aucune icône grisée, aucune explication — pour l'apprenante, ce bouton n'a jamais existé"
+    },
+    {
+      "id": "volume-zero",
+      "trigger": "volume système à 0 au lancement d'une leçon",
+      "vo": "Le son de ton téléphone est coupé. Monte-le sur le côté.",
+      "action": "bandeau persistant avec icône volume, non bloquant"
+    },
+    {
+      "id": "wrong-profile",
+      "trigger": "profil actif ≠ dernier profil actif il y a < 2 min",
+      "vo": "Est-ce bien toi, {nom} ?",
+      "action": "deux visages/noms à toucher",
+      "why": "Le téléphone familial est la norme (§K.1)."
+    },
+    {
+      "id": "long-absence",
+      "trigger": "≥ 14 jours sans ouverture",
+      "vo": "Ça fait un moment. On va revoir ensemble avant de continuer. Rien n'est perdu.",
+      "action": "session de révision de 5 items avant de reprendre le parcours"
+    },
+    {
+      "id": "interrupted-lesson",
+      "trigger": "leçon quittée en cours",
+      "vo": "On reprend ici.",
+      "action": "reprise exacte au bloc quitté, sans résumé"
+    },
+    {
+      "id": "locked-node-tapped",
+      "trigger": "nœud verrouillé touché dans le parcours",
+      "vo": "Termine la leçon d'avant pour ouvrir celle-ci.",
+      "action": "animer le nœud précédent, ne pas ouvrir de dialogue"
+    },
+    {
+      "id": "trace-illegible",
+      "trigger": "score de tracé < 0.2 trois fois",
+      "vo": "Regarde encore comment on l'écrit.",
+      "action": "rejouer l'animation au ralenti, puis passer",
+      "never": "ne jamais dire que le tracé est mauvais"
+    },
+    {
+      "id": "storage-full",
+      "trigger": "écriture SQLite échouée",
+      "vo": "Ton téléphone est plein. Libère un peu de place.",
+      "action": "la leçon continue en mémoire ; la progression est réécrite au prochain lancement réussi (l'échec DB ne remonte jamais à l'UI — §H.3)"
+    }
+  ]
+}

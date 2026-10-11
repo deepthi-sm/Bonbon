@@ -1,0 +1,115 @@
+{
+  "$comment": "Every known deviation between the printed book and what the app renders. Default policy: ship the source verbatim, correction behind a flag, Batonga decides. Nothing is silently fixed.",
+  "policy": {
+    "default": "verbatim",
+    "correctionFlag": "content.applyErrata",
+    "signOff": "Batonga"
+  },
+  "entries": [
+    {
+      "id": "E-001",
+      "page": [
+        50,
+        52
+      ],
+      "kind": "ordering",
+      "lessonIds": [
+        "L23",
+        "L24"
+      ],
+      "found": "La leçon 24 (h / hache) est imprimée p.50, la leçon 23 (z / zébu) p.52.",
+      "action": "Livrer dans l'ordre numérique : 23 = z, 24 = h.",
+      "status": "applied"
+    },
+    {
+      "id": "E-002",
+      "page": 62,
+      "kind": "spelling",
+      "lessonIds": [
+        "L32"
+      ],
+      "found": "« La boullie »",
+      "expected": "« La bouillie »",
+      "action": "Conserver tel quel ; corriger seulement après accord Batonga.",
+      "status": "verbatim"
+    },
+    {
+      "id": "E-003",
+      "page": 46,
+      "kind": "grammar",
+      "lessonIds": [
+        "L21"
+      ],
+      "found": "« la gardien »",
+      "expected": "« le gardien »",
+      "action": "Conserver tel quel.",
+      "status": "verbatim"
+    },
+    {
+      "id": "E-004",
+      "page": 67,
+      "kind": "spelling",
+      "lessonIds": [
+        "L37"
+      ],
+      "found": "« un met »",
+      "expected": "« un mets »",
+      "action": "Conserver tel quel.",
+      "status": "verbatim"
+    },
+    {
+      "id": "E-005",
+      "page": 56,
+      "kind": "spelling",
+      "lessonIds": [
+        "L26"
+      ],
+      "found": "« retoune »",
+      "expected": "« retourne »",
+      "action": "Conserver tel quel.",
+      "status": "verbatim"
+    },
+    {
+      "id": "E-006",
+      "page": 70,
+      "kind": "omission",
+      "lessonIds": [
+        "L40"
+      ],
+      "found": "La ligne cursive s'arrête après « un » ; « un vœu » est attendu.",
+      "action": "Rendre la ligne telle qu'imprimée ; signaler à Batonga.",
+      "status": "verbatim"
+    },
+    {
+      "id": "E-007",
+      "page": 84,
+      "kind": "typography",
+      "lessonIds": [
+        "L54"
+      ],
+      "found": "« Bl » capitalisé de façon incohérente dans le titre.",
+      "action": "Conserver.",
+      "status": "verbatim"
+    },
+    {
+      "id": "E-008",
+      "page": 79,
+      "kind": "duplication",
+      "lessonIds": [
+        "L49"
+      ],
+      "found": "La page 79 apparaît deux fois dans le rendu PDF.",
+      "action": "Ne livrer la leçon qu'une fois.",
+      "status": "applied"
+    },
+    {
+      "id": "E-009",
+      "page": 5,
+      "kind": "count",
+      "lessonIds": [],
+      "found": "La page alphabet annonce « 20 consonnes » ; 17 seulement font l'objet d'une leçon.",
+      "action": "q est enseigné en leçon 46 dans « qu » (q ne s'écrit jamais seul en français). w et x ne sont pas enseignés : lettres d'emprunt, présentes uniquement sur le mur des lettres. Aucune leçon inventée.",
+      "status": "documented"
+    }
+  ]
+}

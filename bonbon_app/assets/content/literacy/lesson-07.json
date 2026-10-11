@@ -1,0 +1,178 @@
+{
+  "id": "lesson-07",
+  "lessonNumber": 7,
+  "targets": [
+    {
+      "id": "target-lesson-07-1",
+      "kind": "grapheme",
+      "value": "y",
+      "audio": {
+        "key": "fr:grapheme:y-a1fce436",
+        "fallbackText": "y"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [19, 20],
+    "printedPages": [18, 19]
+  },
+  "blocks": [
+    {
+      "id": "lesson-07-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [19],
+        "printedPages": [18]
+      },
+      "grapheme": "y",
+      "uppercase": "Y",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:y-a1fce436",
+        "fallbackText": "y"
+      }
+    },
+    {
+      "id": "lesson-07-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [19],
+        "printedPages": [18]
+      },
+      "assetId": "lesson-07-illustration",
+      "caption": {
+        "id": "lesson-07-caption",
+        "text": "mes yeux",
+        "audio": {
+          "key": "fr:phrase:mes-yeux-ae163a2e",
+          "fallbackText": "mes yeux"
+        }
+      }
+    },
+    {
+      "id": "lesson-07-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [19],
+        "printedPages": [18]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-07-block-03-item-01",
+          "text": "yeux",
+          "audio": {
+            "key": "fr:word:yeux-62f6f9f5",
+            "fallbackText": "yeux"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-07-block-03-item-02",
+          "text": "stylo",
+          "audio": {
+            "key": "fr:word:stylo-c9c24ee4",
+            "fallbackText": "stylo"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-07-block-03-item-03",
+          "text": "bicyclette",
+          "audio": {
+            "key": "fr:word:bicyclette-4438572e",
+            "fallbackText": "bicyclette"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-07-block-03-item-04",
+          "text": "hyène",
+          "audio": {
+            "key": "fr:word:hyene-10783022",
+            "fallbackText": "hyène"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-07-block-03-item-05",
+          "text": "hygiène",
+          "audio": {
+            "key": "fr:word:hygiene-d86d99fd",
+            "fallbackText": "hygiène"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-07-block-04",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [19],
+        "printedPages": [18]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-07-hand-1",
+          "text": "y"
+        }
+      ],
+      "glyphAssetIds": ["lesson-07-glyph-1"]
+    },
+    {
+      "id": "lesson-07-block-05",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [20],
+        "printedPages": [19]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-07-block-05-item-01",
+          "text": "y",
+          "audio": {
+            "key": "fr:word:y-a1fce436",
+            "fallbackText": "y"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-07-block-05-item-02",
+          "text": "yeux",
+          "audio": {
+            "key": "fr:word:yeux-62f6f9f5",
+            "fallbackText": "yeux"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-07-block-05-item-03",
+          "text": "Y",
+          "audio": {
+            "key": "fr:word:y-18f5384d",
+            "fallbackText": "Y"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-07-block-05-item-04",
+          "text": "Yeux",
+          "audio": {
+            "key": "fr:word:yeux-1fb4723d",
+            "fallbackText": "Yeux"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ],
+      "representations": ["print", "cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-07-review-1"]
+  }
+}

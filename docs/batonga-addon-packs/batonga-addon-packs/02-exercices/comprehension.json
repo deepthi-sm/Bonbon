@@ -1,0 +1,144 @@
+{
+  "$comment": "NEW and NOT developer-authorable alone. The 28 reading texts carry no questions, no answer key, no comprehension guidance. This file is the SYSTEM — taxonomy, answer modes, French templates, authoring workflow — so that Batonga (or a literacy specialist) can fill 2–3 questions per text into a fixed shape instead of starting from a blank page. The templates are worked examples of form, not approved content: every instantiated question needs Batonga's sign-off before it ships.",
+  "taxonomy": [
+    {
+      "kind": "littérale",
+      "share": "1 par texte, toujours en premier",
+      "asks": "Une information écrite en toutes lettres dans le texte.",
+      "why": "Vérifie le décodage, pas l'inférence. Une lectrice débutante doit pouvoir réussir celle-ci en relisant une phrase.",
+      "templates": [
+        "Qui {verbe} ?",
+        "Où va {personnage} ?",
+        "Quand {événement} ?",
+        "Qu'est-ce que {personnage} {verbe} ?",
+        "Combien de {nom} ?"
+      ]
+    },
+    {
+      "kind": "lexicale",
+      "share": "1 par texte",
+      "asks": "Le sens d'un mot du texte, appuyé par une image ou deux choix.",
+      "why": "Le vocabulaire béninois du livre (fonio, marigot, canari) est le vocabulaire de la lectrice : la question doit confirmer le lien mot ↔ chose, pas l'enseigner.",
+      "templates": [
+        "Dans le texte, « {mot} » veut dire…",
+        "Montre {mot}.",
+        "Quel dessin montre « {mot} » ?"
+      ]
+    },
+    {
+      "kind": "inférentielle",
+      "share": "0–1, seulement à partir de la leçon 36",
+      "asks": "Quelque chose de vrai dans le texte mais non écrit.",
+      "why": "Trop tôt, l'inférence punit une lectrice qui a pourtant bien décodé. Elle n'apparaît qu'une fois les textes assez longs pour la porter.",
+      "templates": [
+        "Pourquoi {personnage} {verbe} ?",
+        "Comment se sent {personnage} ?",
+        "Que va faire {personnage} après ?"
+      ]
+    },
+    {
+      "kind": "personnelle",
+      "share": "0–1, jamais notée",
+      "asks": "Un lien avec sa propre vie. Aucune bonne réponse.",
+      "why": "C'est ce qui transforme un exercice de décodage en lecture. Non notée, sans mauvaise réponse, réponse orale ou par image.",
+      "templates": [
+        "Et toi, {question} ?",
+        "As-tu déjà {verbe} ?",
+        "Chez toi, {question} ?"
+      ]
+    }
+  ],
+  "answerModes": [
+    {
+      "mode": "image-2",
+      "use": "unités 1–2 et tout texte court",
+      "desc": "Deux dessins, un seul correct."
+    },
+    {
+      "mode": "image-3",
+      "use": "à partir de la leçon 30",
+      "desc": "Trois dessins."
+    },
+    {
+      "mode": "phrase-pick",
+      "use": "à partir de la leçon 36",
+      "desc": "Trois phrases COURTES tirées du texte ; la lectrice touche la bonne. Les distracteurs sont d'autres phrases du MÊME texte — jamais des phrases inventées, qui contiendraient des graphies non enseignées."
+    },
+    {
+      "mode": "replay-only",
+      "use": "question personnelle",
+      "desc": "Pas de réponse à saisir ; la question est posée à voix haute et la lectrice répond à l'oral ou passe."
+    }
+  ],
+  "hardRules": [
+    "A question may contain no grapheme not taught by its own lesson. Run it through the same decodability check as the lesson text — comprehension.spec.ts enforces this.",
+    "Every question is spoken as well as written. A comprehension question a learner cannot read is a decoding test wearing a disguise.",
+    "Every wrong answer replays the sentence of the text that holds the answer, highlighted.",
+    "Max 3 questions per text. The text is the lesson; the questions are the check.",
+    "No question about the moral, the author's intent, or the title."
+  ],
+  "workedExample": {
+    "textId": "T27",
+    "title": "Le marché",
+    "lessonId": "L27",
+    "status": "EXAMPLE — awaiting Batonga",
+    "questions": [
+      {
+        "id": "T27.q1",
+        "kind": "littérale",
+        "mode": "image-2",
+        "prompt": "Où va-t-elle ?",
+        "audioId": "q.T27.q1",
+        "options": [
+          {
+            "illustrationId": "ill_marche",
+            "correct": true
+          },
+          {
+            "illustrationId": "ill_marigot",
+            "correct": false
+          }
+        ],
+        "onWrong": {
+          "replaySegment": "T27.s01"
+        }
+      },
+      {
+        "id": "T27.q2",
+        "kind": "lexicale",
+        "mode": "image-3",
+        "prompt": "Montre le canari.",
+        "audioId": "q.T27.q2",
+        "options": [
+          {
+            "illustrationId": "ill_canari",
+            "correct": true
+          },
+          {
+            "illustrationId": "ill_bassine",
+            "correct": false
+          },
+          {
+            "illustrationId": "ill_pot",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "T27.q3",
+        "kind": "personnelle",
+        "mode": "replay-only",
+        "prompt": "Et toi, que achètes-tu au marché ?",
+        "audioId": "q.T27.q3",
+        "scored": false
+      }
+    ]
+  },
+  "authoringWorkflow": [
+    "1. Dev A exports the 28 texts to docs/textes-a-questionner.md, one page per text.",
+    "2. Batonga (or the literacy lead) writes 2–3 questions per text into the fixed shape.",
+    "3. Dev B runs tools/validate-comprehension.ts: decodability, spoken-prompt presence, answer-mode legality.",
+    "4. Illustrations needed by image-mode answers go on Dev A's illustration backlog.",
+    "5. Nothing ships without a named sign-off row in docs/comprehension-signoff.md."
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "id": "lesson-08",
+  "lessonNumber": 8,
+  "targets": [
+    {
+      "id": "target-lesson-08-1",
+      "kind": "grapheme",
+      "value": "t",
+      "audio": {
+        "key": "fr:grapheme:t-e3b98a4d",
+        "fallbackText": "t"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [21, 22],
+    "printedPages": [20, 21]
+  },
+  "blocks": [
+    {
+      "id": "lesson-08-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [21],
+        "printedPages": [20]
+      },
+      "grapheme": "t",
+      "uppercase": "T",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:t-e3b98a4d",
+        "fallbackText": "t"
+      }
+    },
+    {
+      "id": "lesson-08-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [21],
+        "printedPages": [20]
+      },
+      "assetId": "lesson-08-illustration",
+      "caption": {
+        "id": "lesson-08-caption",
+        "text": "une tête",
+        "audio": {
+          "key": "fr:phrase:une-tete-726d6fdf",
+          "fallbackText": "une tête"
+        }
+      }
+    },
+    {
+      "id": "lesson-08-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [21],
+        "printedPages": [20]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-08-block-03-item-01",
+          "text": "ti",
+          "audio": {
+            "key": "fr:syllable:ti-cfccfcde",
+            "fallbackText": "ti"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-03-item-02",
+          "text": "tu",
+          "audio": {
+            "key": "fr:syllable:tu-764c4c7b",
+            "fallbackText": "tu"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-03-item-03",
+          "text": "to",
+          "audio": {
+            "key": "fr:syllable:to-663ea1bf",
+            "fallbackText": "to"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-03-item-04",
+          "text": "ta",
+          "audio": {
+            "key": "fr:syllable:ta-76592b9d",
+            "fallbackText": "ta"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-03-item-05",
+          "text": "te",
+          "audio": {
+            "key": "fr:syllable:te-2d6c9a90",
+            "fallbackText": "te"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-03-item-06",
+          "text": "té",
+          "audio": {
+            "key": "fr:syllable:te-7e6e466f",
+            "fallbackText": "té"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-03-item-07",
+          "text": "tê",
+          "audio": {
+            "key": "fr:syllable:te-45518b7e",
+            "fallbackText": "tê"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-08-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [21],
+        "printedPages": [20]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-08-block-04-item-01",
+          "text": "tite",
+          "audio": {
+            "key": "fr:word:tite-24134886",
+            "fallbackText": "tite"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-04-item-02",
+          "text": "tutu",
+          "audio": {
+            "key": "fr:word:tutu-eb0295d9",
+            "fallbackText": "tutu"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-04-item-03",
+          "text": "toto",
+          "audio": {
+            "key": "fr:word:toto-31f7a65e",
+            "fallbackText": "toto"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-04-item-04",
+          "text": "tata",
+          "audio": {
+            "key": "fr:word:tata-d1c7c99c",
+            "fallbackText": "tata"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-04-item-05",
+          "text": "tate",
+          "audio": {
+            "key": "fr:word:tate-4bc560e7",
+            "fallbackText": "tate"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-04-item-06",
+          "text": "taté",
+          "audio": {
+            "key": "fr:word:tate-7c4694e8",
+            "fallbackText": "taté"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-04-item-07",
+          "text": "tête",
+          "audio": {
+            "key": "fr:word:tete-71c78bae",
+            "fallbackText": "tête"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-08-block-05",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [21],
+        "printedPages": [20]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-08-block-05-item-01",
+          "text": "titi",
+          "audio": {
+            "key": "fr:word:titi-cce66316",
+            "fallbackText": "titi"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-08-block-05-item-02",
+          "text": "tutu",
+          "audio": {
+            "key": "fr:word:tutu-eb0295d9",
+            "fallbackText": "tutu"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-08-block-05-item-03",
+          "text": "toto",
+          "audio": {
+            "key": "fr:word:toto-31f7a65e",
+            "fallbackText": "toto"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-08-block-05-item-04",
+          "text": "tata",
+          "audio": {
+            "key": "fr:word:tata-d1c7c99c",
+            "fallbackText": "tata"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-08-block-05-item-05",
+          "text": "tate",
+          "audio": {
+            "key": "fr:word:tate-4bc560e7",
+            "fallbackText": "tate"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-08-block-05-item-06",
+          "text": "taté",
+          "audio": {
+            "key": "fr:word:tate-7c4694e8",
+            "fallbackText": "taté"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-08-block-05-item-07",
+          "text": "tête",
+          "audio": {
+            "key": "fr:word:tete-71c78bae",
+            "fallbackText": "tête"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-08-block-06",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [21],
+        "printedPages": [20]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-08-block-06-item-01",
+          "text": "ti",
+          "audio": {
+            "key": "fr:syllable:ti-cfccfcde",
+            "fallbackText": "ti"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-06-item-02",
+          "text": "tu",
+          "audio": {
+            "key": "fr:syllable:tu-764c4c7b",
+            "fallbackText": "tu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-06-item-03",
+          "text": "to",
+          "audio": {
+            "key": "fr:syllable:to-663ea1bf",
+            "fallbackText": "to"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-06-item-04",
+          "text": "ta",
+          "audio": {
+            "key": "fr:syllable:ta-76592b9d",
+            "fallbackText": "ta"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-06-item-05",
+          "text": "te",
+          "audio": {
+            "key": "fr:syllable:te-2d6c9a90",
+            "fallbackText": "te"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-06-item-06",
+          "text": "té",
+          "audio": {
+            "key": "fr:syllable:te-7e6e466f",
+            "fallbackText": "té"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-06-item-07",
+          "text": "tè",
+          "audio": {
+            "key": "fr:syllable:te-860b6238",
+            "fallbackText": "tè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-06-item-08",
+          "text": "tê",
+          "audio": {
+            "key": "fr:syllable:te-45518b7e",
+            "fallbackText": "tê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-08-block-07",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [21],
+        "printedPages": [20]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-08-block-07-item-01",
+          "text": "tête",
+          "audio": {
+            "key": "fr:word:tete-71c78bae",
+            "fallbackText": "tête"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-07-item-02",
+          "text": "toto",
+          "audio": {
+            "key": "fr:word:toto-31f7a65e",
+            "fallbackText": "toto"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-07-item-03",
+          "text": "tâte",
+          "audio": {
+            "key": "fr:word:tate-874ab635",
+            "fallbackText": "tâte"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-07-item-04",
+          "text": "ôte",
+          "audio": {
+            "key": "fr:word:ote-bfea1f35",
+            "fallbackText": "ôte"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-07-item-05",
+          "text": "tata",
+          "audio": {
+            "key": "fr:word:tata-d1c7c99c",
+            "fallbackText": "tata"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-07-item-06",
+          "text": "têtu",
+          "audio": {
+            "key": "fr:word:tetu-248f62b0",
+            "fallbackText": "têtu"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-08-block-08",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [21],
+        "printedPages": [20]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-08-block-08-item-01",
+          "text": "toto tâte ta tête.",
+          "audio": {
+            "key": "fr:lesson-08:b8-item-1",
+            "fallbackText": "toto tâte ta tête."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-08-item-02",
+          "text": "tata est têtu.",
+          "audio": {
+            "key": "fr:lesson-08:b8-item-2",
+            "fallbackText": "tata est têtu."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-08-item-03",
+          "text": "toto as-tu ta tête ?",
+          "audio": {
+            "key": "fr:lesson-08:b8-item-3",
+            "fallbackText": "toto as-tu ta tête ?"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-08-block-08-item-04",
+          "text": "tata ôte ta tête.",
+          "audio": {
+            "key": "fr:lesson-08:b8-item-4",
+            "fallbackText": "tata ôte ta tête."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-08-block-09",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [22],
+        "printedPages": [21]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-08-hand-1",
+          "text": "t"
+        },
+        {
+          "id": "lesson-08-hand-2",
+          "text": "T"
+        }
+      ],
+      "glyphAssetIds": ["lesson-08-glyph-1", "lesson-08-glyph-2"]
+    },
+    {
+      "id": "lesson-08-block-10",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [22],
+        "printedPages": [21]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-08-block-10-item-01",
+          "text": "t",
+          "audio": {
+            "key": "fr:word:t-e3b98a4d",
+            "fallbackText": "t"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-10-item-02",
+          "text": "tête",
+          "audio": {
+            "key": "fr:word:tete-71c78bae",
+            "fallbackText": "tête"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-10-item-03",
+          "text": "T",
+          "audio": {
+            "key": "fr:word:t-e632b709",
+            "fallbackText": "T"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-08-block-10-item-04",
+          "text": "Tête",
+          "audio": {
+            "key": "fr:word:tete-c03098ad",
+            "fallbackText": "Tête"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ],
+      "representations": ["print", "cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "reviewed",
+    "issueIds": ["lesson-08-review-1", "lesson-08-review-2"]
+  }
+}

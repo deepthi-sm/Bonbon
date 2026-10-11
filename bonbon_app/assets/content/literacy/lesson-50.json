@@ -1,0 +1,273 @@
+{
+  "id": "lesson-50",
+  "lessonNumber": 50,
+  "targets": [
+    {
+      "id": "target-lesson-50-1",
+      "kind": "grapheme",
+      "value": "ch",
+      "audio": {
+        "key": "fr:grapheme:ch-34367776",
+        "fallbackText": "ch"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [82],
+    "printedPages": [80]
+  },
+  "blocks": [
+    {
+      "id": "lesson-50-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [82],
+        "printedPages": [80]
+      },
+      "grapheme": "ch",
+      "uppercase": "CH",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ch-34367776",
+        "fallbackText": "ch"
+      }
+    },
+    {
+      "id": "lesson-50-block-02",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [82],
+        "printedPages": [80]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-50-block-02-item-01",
+          "text": "che",
+          "audio": {
+            "key": "fr:syllable:che-250fccd5",
+            "fallbackText": "che"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-50-block-02-item-02",
+          "text": "cho",
+          "audio": {
+            "key": "fr:syllable:cho-560c48d6",
+            "fallbackText": "cho"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-50-block-02-item-03",
+          "text": "chu",
+          "audio": {
+            "key": "fr:syllable:chu-6eff9efb",
+            "fallbackText": "chu"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-50-block-02-item-04",
+          "text": "cha",
+          "audio": {
+            "key": "fr:syllable:cha-d602c74b",
+            "fallbackText": "cha"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-50-block-02-item-05",
+          "text": "ché",
+          "audio": {
+            "key": "fr:syllable:che-3c8867e3",
+            "fallbackText": "ché"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-50-block-02-item-06",
+          "text": "chaî",
+          "audio": {
+            "key": "fr:syllable:chai-9c79bb48",
+            "fallbackText": "chaî"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-50-block-02-item-07",
+          "text": "chau",
+          "audio": {
+            "key": "fr:syllable:chau-2274631b",
+            "fallbackText": "chau"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-50-block-02-item-08",
+          "text": "chi",
+          "audio": {
+            "key": "fr:syllable:chi-dffe602c",
+            "fallbackText": "chi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-50-block-02-item-09",
+          "text": "chan",
+          "audio": {
+            "key": "fr:syllable:chan-2466fcaf",
+            "fallbackText": "chan"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-50-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [82],
+        "printedPages": [80]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-50-block-03-item-01",
+          "text": "une vache",
+          "audio": {
+            "key": "fr:phrase:une-vache-c34ae03e",
+            "fallbackText": "une vache"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-50-block-03-item-02",
+          "text": "le chapeau",
+          "audio": {
+            "key": "fr:phrase:le-chapeau-fc12e70f",
+            "fallbackText": "le chapeau"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-50-block-03-item-03",
+          "text": "une chaussure",
+          "audio": {
+            "key": "fr:phrase:une-chaussure-d81257b9",
+            "fallbackText": "une chaussure"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-50-block-03-item-04",
+          "text": "le chat",
+          "audio": {
+            "key": "fr:phrase:le-chat-d6a9b244",
+            "fallbackText": "le chat"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-50-block-03-item-05",
+          "text": "le chien",
+          "audio": {
+            "key": "fr:phrase:le-chien-33775ec6",
+            "fallbackText": "le chien"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-50-block-03-item-06",
+          "text": "la mouche",
+          "audio": {
+            "key": "fr:phrase:la-mouche-abe81e18",
+            "fallbackText": "la mouche"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-50-block-03-item-07",
+          "text": "un chameau",
+          "audio": {
+            "key": "fr:phrase:un-chameau-b2ab8b3e",
+            "fallbackText": "un chameau"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-50-block-03-item-08",
+          "text": "un champ",
+          "audio": {
+            "key": "fr:phrase:un-champ-87aae7bc",
+            "fallbackText": "un champ"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-50-block-03-item-09",
+          "text": "la bouche",
+          "audio": {
+            "key": "fr:phrase:la-bouche-acfd05e7",
+            "fallbackText": "la bouche"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-50-block-03-item-10",
+          "text": "le chant",
+          "audio": {
+            "key": "fr:phrase:le-chant-5292154d",
+            "fallbackText": "le chant"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-50-block-03-item-11",
+          "text": "de l’arachide",
+          "audio": {
+            "key": "fr:phrase:de-larachide-1cda0c4f",
+            "fallbackText": "de l’arachide"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-50-block-03-item-12",
+          "text": "la chemise",
+          "audio": {
+            "key": "fr:phrase:la-chemise-6a81af8a",
+            "fallbackText": "la chemise"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-50-block-04",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [82],
+        "printedPages": [80]
+      },
+      "title": "Le domaine",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-50-block-04-segment-1",
+          "type": "narration",
+          "text": "À kérou, nous avons un voisin qui a un domaine avec beaucoup d’animaux. Chaque fois que je monte sur une chaise pour les regarder je vois des vaches, des chevaux, des chiens et des chats. Quand je saute de ma chaise pour descendre je fais tomber mon chapeau.",
+          "audio": {
+            "key": "fr:lesson-50:passage-4-segment-1",
+            "fallbackText": "À kérou, nous avons un voisin qui a un domaine avec beaucoup d’animaux. Chaque fois que je monte sur une chaise pour les regarder je vois des vaches, des chevaux, des chiens et des chats. Quand je saute de ma chaise pour descendre je fais tomber mon chapeau."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-50-review-1"]
+  }
+}

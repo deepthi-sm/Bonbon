@@ -1,0 +1,442 @@
+{
+  "id": "lesson-48",
+  "lessonNumber": 48,
+  "targets": [
+    {
+      "id": "target-lesson-48-1",
+      "kind": "grapheme",
+      "value": "c = s",
+      "audio": {
+        "key": "fr:grapheme:c-s-19b6a34e",
+        "fallbackText": "c = s"
+      }
+    },
+    {
+      "id": "target-lesson-48-2",
+      "kind": "grapheme",
+      "value": "ç = s",
+      "audio": {
+        "key": "fr:grapheme:c-s-2ad2556d",
+        "fallbackText": "ç = s"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [79],
+    "printedPages": [78]
+  },
+  "blocks": [
+    {
+      "id": "lesson-48-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [79],
+        "printedPages": [78]
+      },
+      "grapheme": "c = s",
+      "uppercase": "C = S",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:c-s-19b6a34e",
+        "fallbackText": "c = s"
+      }
+    },
+    {
+      "id": "lesson-48-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [79],
+        "printedPages": [78]
+      },
+      "grapheme": "ç = s",
+      "uppercase": "Ç = S",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:c-s-2ad2556d",
+        "fallbackText": "ç = s"
+      }
+    },
+    {
+      "id": "lesson-48-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [79],
+        "printedPages": [78]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-48-block-03-item-01",
+          "text": "ce",
+          "audio": {
+            "key": "fr:syllable:ce-e64c826b",
+            "fallbackText": "ce"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-03-item-02",
+          "text": "c’est",
+          "audio": {
+            "key": "fr:syllable:cest-1d4fe560",
+            "fallbackText": "c’est"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-03-item-03",
+          "text": "cette",
+          "audio": {
+            "key": "fr:syllable:cette-14831aec",
+            "fallbackText": "cette"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-03-item-04",
+          "text": "celle",
+          "audio": {
+            "key": "fr:syllable:celle-d7b041cb",
+            "fallbackText": "celle"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-03-item-05",
+          "text": "ceci",
+          "audio": {
+            "key": "fr:syllable:ceci-fa9aaa3b",
+            "fallbackText": "ceci"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-03-item-06",
+          "text": "cela",
+          "audio": {
+            "key": "fr:syllable:cela-12d3fca8",
+            "fallbackText": "cela"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-03-item-07",
+          "text": "voici",
+          "audio": {
+            "key": "fr:syllable:voici-a9f187df",
+            "fallbackText": "voici"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-03-item-08",
+          "text": "celui",
+          "audio": {
+            "key": "fr:syllable:celui-8b7c4762",
+            "fallbackText": "celui"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-48-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [79],
+        "printedPages": [78]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-48-block-04-item-01",
+          "text": "le pouce",
+          "audio": {
+            "key": "fr:phrase:le-pouce-5515045c",
+            "fallbackText": "le pouce"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-04-item-02",
+          "text": "la place",
+          "audio": {
+            "key": "fr:phrase:la-place-a5328bfc",
+            "fallbackText": "la place"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-04-item-03",
+          "text": "ici",
+          "audio": {
+            "key": "fr:word:ici-af133f1c",
+            "fallbackText": "ici"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-04-item-04",
+          "text": "la calebasse",
+          "audio": {
+            "key": "fr:phrase:la-calebasse-87eb16dd",
+            "fallbackText": "la calebasse"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-04-item-05",
+          "text": "une cigarette",
+          "audio": {
+            "key": "fr:phrase:une-cigarette-e7d16ef7",
+            "fallbackText": "une cigarette"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-04-item-06",
+          "text": "merci",
+          "audio": {
+            "key": "fr:word:merci-38dbfe0f",
+            "fallbackText": "merci"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-04-item-07",
+          "text": "la leçon",
+          "audio": {
+            "key": "fr:phrase:la-lecon-5d976631",
+            "fallbackText": "la leçon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-04-item-08",
+          "text": "un hameçon",
+          "audio": {
+            "key": "fr:phrase:un-hamecon-f49d5b80",
+            "fallbackText": "un hameçon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-04-item-09",
+          "text": "le maçon",
+          "audio": {
+            "key": "fr:phrase:le-macon-02fd0e60",
+            "fallbackText": "le maçon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-04-item-10",
+          "text": "un caleçon",
+          "audio": {
+            "key": "fr:phrase:un-calecon-10679606",
+            "fallbackText": "un caleçon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-48-block-04-item-11",
+          "text": "un garçon",
+          "audio": {
+            "key": "fr:phrase:un-garcon-c5662f9f",
+            "fallbackText": "un garçon"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-48-block-05",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [79],
+        "printedPages": [78]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-48-block-05-item-01",
+          "text": "ce",
+          "audio": {
+            "key": "fr:syllable:ce-e64c826b",
+            "fallbackText": "ce"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-05-item-02",
+          "text": "c’est",
+          "audio": {
+            "key": "fr:syllable:cest-1d4fe560",
+            "fallbackText": "c’est"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-05-item-03",
+          "text": "cette",
+          "audio": {
+            "key": "fr:syllable:cette-14831aec",
+            "fallbackText": "cette"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-05-item-04",
+          "text": "celle",
+          "audio": {
+            "key": "fr:syllable:celle-d7b041cb",
+            "fallbackText": "celle"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-05-item-05",
+          "text": "ceci",
+          "audio": {
+            "key": "fr:syllable:ceci-fa9aaa3b",
+            "fallbackText": "ceci"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-05-item-06",
+          "text": "cela",
+          "audio": {
+            "key": "fr:syllable:cela-12d3fca8",
+            "fallbackText": "cela"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-05-item-07",
+          "text": "voici",
+          "audio": {
+            "key": "fr:syllable:voici-a9f187df",
+            "fallbackText": "voici"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-48-block-06",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [79],
+        "printedPages": [78]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-48-block-06-item-01",
+          "text": "le pouce",
+          "audio": {
+            "key": "fr:phrase:le-pouce-5515045c",
+            "fallbackText": "le pouce"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-06-item-02",
+          "text": "la place",
+          "audio": {
+            "key": "fr:phrase:la-place-a5328bfc",
+            "fallbackText": "la place"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-06-item-03",
+          "text": "ici",
+          "audio": {
+            "key": "fr:word:ici-af133f1c",
+            "fallbackText": "ici"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-06-item-04",
+          "text": "la calebasse",
+          "audio": {
+            "key": "fr:phrase:la-calebasse-87eb16dd",
+            "fallbackText": "la calebasse"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-06-item-05",
+          "text": "une cigarette",
+          "audio": {
+            "key": "fr:phrase:une-cigarette-e7d16ef7",
+            "fallbackText": "une cigarette"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-06-item-06",
+          "text": "merci",
+          "audio": {
+            "key": "fr:word:merci-38dbfe0f",
+            "fallbackText": "merci"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-06-item-07",
+          "text": "la leçon",
+          "audio": {
+            "key": "fr:phrase:la-lecon-5d976631",
+            "fallbackText": "la leçon"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-06-item-08",
+          "text": "un hameçon",
+          "audio": {
+            "key": "fr:phrase:un-hamecon-f49d5b80",
+            "fallbackText": "un hameçon"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-06-item-09",
+          "text": "le maçon",
+          "audio": {
+            "key": "fr:phrase:le-macon-02fd0e60",
+            "fallbackText": "le maçon"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-06-item-10",
+          "text": "un caleçon",
+          "audio": {
+            "key": "fr:phrase:un-calecon-10679606",
+            "fallbackText": "un caleçon"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-48-block-06-item-11",
+          "text": "un garçon",
+          "audio": {
+            "key": "fr:phrase:un-garcon-c5662f9f",
+            "fallbackText": "un garçon"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-48-review-1"]
+  }
+}

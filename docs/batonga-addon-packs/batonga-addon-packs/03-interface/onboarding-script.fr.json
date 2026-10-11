@@ -1,0 +1,94 @@
+{
+  "$comment": "NEW. The book presumes a facilitator who says « ouvre à la page 20 ». Nobody says that here, so the app must. This is the full voice-over script for first run, written to be operable by someone who reads nothing at all. Total runtime ≈ 2 minutes. Every step is skippable; no step needs the keyboard.",
+  "designRules": [
+    "Nothing in onboarding requires reading.",
+    "Nothing in onboarding requires typing (the name step is optional and offers avatars).",
+    "The learner performs a real tap before Lesson 1 — we verify she can operate the app.",
+    "Audio auto-plays on entering each step, and replays on tapping the screen anywhere.",
+    "Total ≤ 6 steps. Every step has exactly one primary action."
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "id": "welcome",
+      "auto": "vo.onb.01",
+      "vo": "Bienvenue. Cette application t'apprend à lire et à écrire le français. Tu n'as pas besoin de savoir lire pour t'en servir. Appuie sur le grand bouton vert.",
+      "screen": "Logo Batonga, un seul grand bouton vert au centre.",
+      "action": "tap primary",
+      "fallbackAfterMs": 8000,
+      "fallbackVo": "Appuie sur le grand bouton vert, au milieu de l'écran."
+    },
+    {
+      "n": 2,
+      "id": "sound",
+      "auto": "vo.onb.02",
+      "vo": "Est-ce que tu m'entends bien ? Si tu ne m'entends pas, monte le son de ton téléphone, sur le côté, vers le haut.",
+      "screen": "Deux boutons : « Je t'entends » et « Je n'entends rien ».",
+      "action": "choose 1 of 2",
+      "branch": {
+        "no": "Play vo.onb.02b: « Monte le son sur le côté du téléphone, vers le haut. Puis appuie encore. » — loops, never blocks."
+      }
+    },
+    {
+      "n": 3,
+      "id": "name",
+      "auto": "vo.onb.03",
+      "vo": "Comment veux-tu qu'on t'appelle ? Tu peux écrire ton nom, ou choisir une image. Tu peux aussi passer, ça n'a pas d'importance.",
+      "screen": "Champ de texte optionnel + grille de 12 images + bouton « Passer ».",
+      "action": "type OR pick OR skip",
+      "note": "Aucun email. Aucun mot de passe. Aucun numéro. §C.6."
+    },
+    {
+      "n": 4,
+      "id": "tap-test",
+      "auto": "vo.onb.04",
+      "vo": "On essaie ensemble. Touche le rond bleu.",
+      "screen": "Un grand rond bleu, un carré gris à côté.",
+      "action": "tap the blue circle",
+      "onWrong": "vo.onb.04b: « Le rond bleu, celui qui est rond. »",
+      "onRight": "vo.onb.04c: « C'est ça. Tu sais te servir de l'application. »",
+      "why": "This is the only place we verify she can operate the interface before the content starts. Three seconds now prevents a silent abandonment in lesson 1."
+    },
+    {
+      "n": 5,
+      "id": "listen-test",
+      "auto": "vo.onb.05",
+      "vo": "Quand tu vois ce dessin — un haut-parleur — tu peux toujours appuyer pour écouter. Essaie.",
+      "screen": "Une grande icône haut-parleur au centre.",
+      "action": "tap the speaker",
+      "onRight": "plays letter.a.sound, then vo.onb.05b: « Voilà. Le haut-parleur, c'est pour écouter. »"
+    },
+    {
+      "n": 6,
+      "id": "placement",
+      "auto": "vo.onb.06",
+      "vo": "Veux-tu commencer au début, ou veux-tu que je regarde d'abord ce que tu sais déjà ? Si tu n'es pas sûre, commence au début.",
+      "screen": "Deux boutons ; « Commencer au début » est visuellement dominant.",
+      "action": "choose 1 of 2",
+      "default": "Commencer au début"
+    },
+    {
+      "n": 7,
+      "id": "ready",
+      "auto": "vo.onb.07",
+      "vo": "C'est prêt. Prends ton temps. Tu peux t'arrêter quand tu veux : l'application se souvient d'où tu t'es arrêtée.",
+      "screen": "Bouton « Commencer la leçon 1 ».",
+      "action": "tap primary"
+    }
+  ],
+  "returningLearner": [
+    {
+      "gap": "1–2 days",
+      "vo": "Te revoilà. On reprend à la leçon {n} ?"
+    },
+    {
+      "gap": "3–13 days",
+      "vo": "Contente de te revoir. On reprend doucement : je te remets d'abord ce que tu as vu la dernière fois."
+    },
+    {
+      "gap": "14+ days",
+      "vo": "Ça fait un moment. On va revoir ensemble avant de continuer. Rien n'est perdu.",
+      "sideEffect": "insert a 5-item review session drawn from the weakest mastery rows before resuming the path"
+    }
+  ]
+}

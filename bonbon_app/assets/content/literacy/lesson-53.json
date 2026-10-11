@@ -1,0 +1,273 @@
+{
+  "id": "lesson-53",
+  "lessonNumber": 53,
+  "targets": [
+    {
+      "id": "target-lesson-53-1",
+      "kind": "grapheme",
+      "value": "tion = sion",
+      "audio": {
+        "key": "fr:grapheme:tion-sion-9ec7a70d",
+        "fallbackText": "tion = sion"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [85],
+    "printedPages": [83]
+  },
+  "blocks": [
+    {
+      "id": "lesson-53-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [85],
+        "printedPages": [83]
+      },
+      "grapheme": "tion = sion",
+      "uppercase": "TION = SION",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:tion-sion-9ec7a70d",
+        "fallbackText": "tion = sion"
+      }
+    },
+    {
+      "id": "lesson-53-block-02",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [85],
+        "printedPages": [83]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-53-block-02-item-01",
+          "text": "une attention",
+          "audio": {
+            "key": "fr:phrase:une-attention-369c8933",
+            "fallbackText": "une attention"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-53-block-02-item-02",
+          "text": "la tension",
+          "audio": {
+            "key": "fr:phrase:la-tension-45506d26",
+            "fallbackText": "la tension"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-53-block-02-item-03",
+          "text": "l’addition",
+          "audio": {
+            "key": "fr:word:laddition-15810e34",
+            "fallbackText": "l’addition"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-53-block-02-item-04",
+          "text": "l’habitation",
+          "audio": {
+            "key": "fr:word:lhabitation-eafc76a7",
+            "fallbackText": "l’habitation"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-53-block-02-item-05",
+          "text": "la soustraction",
+          "audio": {
+            "key": "fr:phrase:la-soustraction-e2931e1e",
+            "fallbackText": "la soustraction"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-53-block-02-item-06",
+          "text": "une opération",
+          "audio": {
+            "key": "fr:phrase:une-operation-525bbc28",
+            "fallbackText": "une opération"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-53-block-02-item-07",
+          "text": "la récréation",
+          "audio": {
+            "key": "fr:phrase:la-recreation-5095c199",
+            "fallbackText": "la récréation"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-53-block-02-item-08",
+          "text": "la punition",
+          "audio": {
+            "key": "fr:phrase:la-punition-f7c1c5f2",
+            "fallbackText": "la punition"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-53-block-02-item-09",
+          "text": "la multiplication",
+          "audio": {
+            "key": "fr:phrase:la-multiplication-a0b17676",
+            "fallbackText": "la multiplication"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-53-block-02-item-10",
+          "text": "une application",
+          "audio": {
+            "key": "fr:phrase:une-application-2e636f5a",
+            "fallbackText": "une application"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-53-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [85],
+        "printedPages": [83]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-53-block-03-item-01",
+          "text": "une attention",
+          "audio": {
+            "key": "fr:phrase:une-attention-369c8933",
+            "fallbackText": "une attention"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-53-block-03-item-02",
+          "text": "la tension",
+          "audio": {
+            "key": "fr:phrase:la-tension-45506d26",
+            "fallbackText": "la tension"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-53-block-03-item-03",
+          "text": "l’addition",
+          "audio": {
+            "key": "fr:word:laddition-15810e34",
+            "fallbackText": "l’addition"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-53-block-03-item-04",
+          "text": "l’action",
+          "audio": {
+            "key": "fr:word:laction-dddd2e30",
+            "fallbackText": "l’action"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-53-block-03-item-05",
+          "text": "la soustraction",
+          "audio": {
+            "key": "fr:phrase:la-soustraction-e2931e1e",
+            "fallbackText": "la soustraction"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-53-block-03-item-06",
+          "text": "l’opération",
+          "audio": {
+            "key": "fr:word:loperation-0c0e55fd",
+            "fallbackText": "l’opération"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-53-block-03-item-07",
+          "text": "la récréation",
+          "audio": {
+            "key": "fr:phrase:la-recreation-5095c199",
+            "fallbackText": "la récréation"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-53-block-03-item-08",
+          "text": "la punition",
+          "audio": {
+            "key": "fr:phrase:la-punition-f7c1c5f2",
+            "fallbackText": "la punition"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-53-block-03-item-09",
+          "text": "une habitation",
+          "audio": {
+            "key": "fr:phrase:une-habitation-05df765a",
+            "fallbackText": "une habitation"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-53-block-03-item-10",
+          "text": "la multiplication",
+          "audio": {
+            "key": "fr:phrase:la-multiplication-a0b17676",
+            "fallbackText": "la multiplication"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-53-block-03-item-11",
+          "text": "une application",
+          "audio": {
+            "key": "fr:phrase:une-application-2e636f5a",
+            "fallbackText": "une application"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-53-block-04",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [85],
+        "printedPages": [83]
+      },
+      "title": "Les opérations",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-53-block-04-segment-1",
+          "type": "narration",
+          "text": "À l’école nous apprenons à faire des calculs d’addition, de soustraction, de multiplication et de division. Pendant la récréation, le directeur de l’école va à la banque faire des opérations, il fait attention aux voitures et aux motos en traversant la route.",
+          "audio": {
+            "key": "fr:lesson-53:passage-4-segment-1",
+            "fallbackText": "À l’école nous apprenons à faire des calculs d’addition, de soustraction, de multiplication et de division. Pendant la récréation, le directeur de l’école va à la banque faire des opérations, il fait attention aux voitures et aux motos en traversant la route."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-53-review-1"]
+  }
+}

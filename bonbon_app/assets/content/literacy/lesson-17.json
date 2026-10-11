@@ -1,0 +1,351 @@
+{
+  "id": "lesson-17",
+  "lessonNumber": 17,
+  "targets": [
+    {
+      "id": "target-lesson-17-1",
+      "kind": "grapheme",
+      "value": "j",
+      "audio": {
+        "key": "fr:grapheme:j-189f4003",
+        "fallbackText": "j"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [39, 40],
+    "printedPages": [38, 39]
+  },
+  "blocks": [
+    {
+      "id": "lesson-17-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [39],
+        "printedPages": [38]
+      },
+      "grapheme": "j",
+      "uppercase": "J",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:j-189f4003",
+        "fallbackText": "j"
+      }
+    },
+    {
+      "id": "lesson-17-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [39],
+        "printedPages": [38]
+      },
+      "assetId": "lesson-17-illustration",
+      "caption": {
+        "id": "lesson-17-caption",
+        "text": "une jupe",
+        "audio": {
+          "key": "fr:phrase:une-jupe-d5b2fcd5",
+          "fallbackText": "une jupe"
+        }
+      }
+    },
+    {
+      "id": "lesson-17-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [39],
+        "printedPages": [38]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-17-block-03-item-01",
+          "text": "ji",
+          "audio": {
+            "key": "fr:syllable:ji-bddf2d25",
+            "fallbackText": "ji"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-17-block-03-item-02",
+          "text": "ju",
+          "audio": {
+            "key": "fr:syllable:ju-27c47b28",
+            "fallbackText": "ju"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-17-block-03-item-03",
+          "text": "jo",
+          "audio": {
+            "key": "fr:syllable:jo-c278ec5a",
+            "fallbackText": "jo"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-17-block-03-item-04",
+          "text": "ja",
+          "audio": {
+            "key": "fr:syllable:ja-3702fc18",
+            "fallbackText": "ja"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-17-block-03-item-05",
+          "text": "je",
+          "audio": {
+            "key": "fr:syllable:je-9e507a6d",
+            "fallbackText": "je"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-17-block-03-item-06",
+          "text": "jé",
+          "audio": {
+            "key": "fr:syllable:je-d0f664fb",
+            "fallbackText": "jé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-17-block-03-item-07",
+          "text": "jè",
+          "audio": {
+            "key": "fr:syllable:je-fa68e36a",
+            "fallbackText": "jè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-17-block-03-item-08",
+          "text": "jê",
+          "audio": {
+            "key": "fr:syllable:je-684bf5dd",
+            "fallbackText": "jê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-17-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [39],
+        "printedPages": [38]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-17-block-04-item-01",
+          "text": "judo",
+          "audio": {
+            "key": "fr:word:judo-289856b4",
+            "fallbackText": "judo"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-17-block-04-item-02",
+          "text": "jaune",
+          "audio": {
+            "key": "fr:word:jaune-d0a127e3",
+            "fallbackText": "jaune"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-17-block-04-item-03",
+          "text": "jeudi",
+          "audio": {
+            "key": "fr:word:jeudi-1b855bb0",
+            "fallbackText": "jeudi"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-17-block-04-item-04",
+          "text": "joue",
+          "audio": {
+            "key": "fr:word:joue-de4b90d9",
+            "fallbackText": "joue"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-17-block-04-item-05",
+          "text": "joie",
+          "audio": {
+            "key": "fr:word:joie-b62018d0",
+            "fallbackText": "joie"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-17-block-04-item-06",
+          "text": "jupe",
+          "audio": {
+            "key": "fr:word:jupe-b613d138",
+            "fallbackText": "jupe"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-17-block-04-item-07",
+          "text": "jus",
+          "audio": {
+            "key": "fr:word:jus-06db4ae1",
+            "fallbackText": "jus"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-17-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [39],
+        "printedPages": [38]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-17-block-05-item-01",
+          "text": "le jus est jaune.",
+          "audio": {
+            "key": "fr:lesson-17:b5-item-1",
+            "fallbackText": "le jus est jaune."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-17-block-05-item-02",
+          "text": "la jupe de maman.",
+          "audio": {
+            "key": "fr:lesson-17:b5-item-2",
+            "fallbackText": "la jupe de maman."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-17-block-05-item-03",
+          "text": "le jeudi toto fait du judo.",
+          "audio": {
+            "key": "fr:lesson-17:b5-item-3",
+            "fallbackText": "le jeudi toto fait du judo."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-17-block-06",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [40],
+        "printedPages": [39]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-17-hand-1",
+          "text": "j"
+        },
+        {
+          "id": "lesson-17-hand-2",
+          "text": "J"
+        }
+      ],
+      "glyphAssetIds": ["lesson-17-glyph-1", "lesson-17-glyph-2"]
+    },
+    {
+      "id": "lesson-17-block-07",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [40],
+        "printedPages": [39]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-17-block-07-item-01",
+          "text": "j",
+          "audio": {
+            "key": "fr:word:j-189f4003",
+            "fallbackText": "j"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-17-block-07-item-02",
+          "text": "jeudi",
+          "audio": {
+            "key": "fr:word:jeudi-1b855bb0",
+            "fallbackText": "jeudi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-17-block-07-item-03",
+          "text": "J",
+          "audio": {
+            "key": "fr:word:j-6da43b94",
+            "fallbackText": "J"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-17-block-07-item-04",
+          "text": "Jeudi",
+          "audio": {
+            "key": "fr:word:jeudi-a9691b35",
+            "fallbackText": "Jeudi"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-17-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [40],
+        "printedPages": [39]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-17-block-08-item-01",
+          "text": "j",
+          "audio": {
+            "key": "fr:word:j-189f4003",
+            "fallbackText": "j"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-17-block-08-item-02",
+          "text": "journée",
+          "audio": {
+            "key": "fr:word:journee-1baf25cd",
+            "fallbackText": "journée"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-17-review-1"]
+  }
+}

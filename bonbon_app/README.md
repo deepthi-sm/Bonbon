@@ -23,6 +23,17 @@ python tool\serve.py 8080 --lan # also reachable from a phone on the same Wi-Fi:
 
 Android: `flutter.bat build apk` (needs the Android SDK).
 
+## Deploying (Vercel)
+
+Live site: **https://bonbon-batonga.vercel.app**
+
+Every push to `main` on https://github.com/kodie003/Bonbon deploys automatically. Vercel runs
+`bonbon_app/tool/vercel_build.sh` (see `vercel.json` at the repository root), which installs Flutter 3.47.5
+and builds the web app. A deploy takes about 3–5 minutes; follow it on the Vercel dashboard, project
+**bonbon**. Pushes to other branches create preview links; `dev/*` and `develop` don't deploy.
+
+To deploy by hand from this computer, run `vercel --prod` in the repository root.
+
 ## Logo
 
 The logo lives in one file: `assets/brand/logo.png` (transparent PNG, square-ish, at least 512 px).

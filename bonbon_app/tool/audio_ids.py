@@ -75,6 +75,43 @@ def slug(text):
     return s or 'x'
 
 
+DIRECTION = re.compile(r'^\s*[\[(].*[\])]\s*$')
+
+
+def is_direction(text):
+    """True for '[son de « t »]' — a note to a human reader, not a line."""
+    return bool(text) and bool(DIRECTION.match(text))
+
+
+def split_syllable(t):
+    """'ta' -> ('t','a')   'te_acute'/'té' -> ('t','é')   'bla' -> ('bl','a')"""
+    vowels = 'aeiouyàâéèêëîïôöùûü'
+    t = t.strip().lower()
+    for i, ch in enumerate(t):
+        if ch in vowels:
+            return t[:i], t[i:]
+    return t, ''
+
+
+def fusion_parts(syl):
+    """The three takes of a fusion clip: consonant sound, vowel sound, syllable.
+
+    The book draws this as an arrow; the clip has to perform it. Each sound is
+    synthesised from its phoneme, never from its letter, or the clip teaches
+    « té … a … ta » and the whole method breaks at Lesson 8.
+    """
+    cons, vow = split_syllable(syl)
+    parts = []
+    cp = ''.join(LETTER_SOUND.get(c, '') for c in cons)
+    if cp:
+        parts.append({'phonemes': cp})
+    vp = LETTER_SOUND.get(vow)
+    if vp:
+        parts.append({'phonemes': vp})
+    parts.append({'text': syl})
+    return parts if len(parts) > 1 else None
+
+
 def letter_key(ch):
     """'t' -> 't'   'é' -> 'e_acute'.  Without this, e/é/è/ê collide."""
     ch = ch.strip().lower()
@@ -170,6 +207,7 @@ def map_content_key(key, text):
             {'id': sid, 'text': t, 'kind': 'syllable'},
             {'id': sid.replace('syll.', 'blend.', 1),
              'text': ' … '.join(list(t)) + f' … {t}',
+             'parts': fusion_parts(t),
              'kind': 'fusion',
              'note': 'the two sounds separated, then fused — the arrow the '
                      'book draws, performed aloud'},
@@ -206,10 +244,20 @@ def main():
     def add(row, source):
         rid = row['id']
         if rid in plan:
-            plan[rid].setdefault('sources', []).append(source)
-            # keep the richer text (a fusion/phoneme row must not be clobbered)
-            if not plan[rid].get('text') and row.get('text'):
-                plan[rid]['text'] = row['text']
+            cur = plan[rid]
+            cur.setdefault('sources', []).append(source)
+            # Merge the richer row in. A phoneme or a parts list is what makes
+            # a clip correct; whichever source supplies it wins, regardless of
+            # which source got here first.
+            for k in ('phonemes', 'parts', 'verify', 'note'):
+                if row.get(k) is not None and cur.get(k) is None:
+                    cur[k] = row[k]
+            if not cur.get('text') and row.get('text'):
+                cur['text'] = row['text']
+            # Bracketed text is a direction to a human reader, never a line to
+            # speak: "[son de « t »]" is an instruction, not a sound.
+            if cur.get('phonemes') and is_direction(cur.get('text')):
+                cur['speakText'] = False
             return
         row['sources'] = [source]
         plan[rid] = row

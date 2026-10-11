@@ -320,7 +320,7 @@ fb.specific.08,encouragement — specific,Tu as écrit {lettre} trois fois.,,,pa
 fb.specific.09,encouragement — specific,Tu reconnais {lettre} même en écriture attachée.,,,pack4
 fb.specific.10,encouragement — specific,Tu as lu un texte de {n} phrases.,,,pack4
 letter.a.name,lettre — nom,a,,,pack4 content content
-letter.a.sound,lettre — son,[son de « a »],,,pack4 content content
+letter.a.sound,lettre — son,[son de « a »],a,yes,pack4 content content
 letter.ac.sound,grapheme-sound,ac,,yes,content content
 letter.ai.sound,grapheme-sound,ai,,yes,content content content content
 letter.ail.sound,grapheme-sound,ail,,yes,content content
@@ -335,26 +335,26 @@ letter.ar.sound,grapheme-sound,ar,,yes,content content
 letter.au.sound,grapheme-sound,au,,yes,content content
 letter.ay.sound,grapheme-sound,ay,,yes,content content
 letter.b.name,lettre — nom,bé,,,pack4 content content
-letter.b.sound,lettre — son,[son de « b »],,,pack4 content content
+letter.b.sound,lettre — son,[son de « b »],b,yes,pack4 content content
 letter.bl.sound,grapheme-sound,bl,,yes,content content
 letter.br.sound,grapheme-sound,br,,yes,content content
 letter.c.name,lettre — nom,cé,,,pack4 content content
-letter.c.sound,lettre — son,[son de « c »],,,pack4 content content
+letter.c.sound,lettre — son,[son de « c »],k,yes,pack4 content content
 letter.c_s.sound,grapheme-sound,c = s,,yes,content content content content
 letter.ch.sound,grapheme-sound,ch,,yes,content content
 letter.cl.sound,grapheme-sound,cl,,yes,content content
 letter.cr.sound,grapheme-sound,cr,,yes,content content
 letter.d.name,lettre — nom,dé,,,pack4 content content
-letter.d.sound,lettre — son,[son de « d »],,,pack4 content content
+letter.d.sound,lettre — son,[son de « d »],d,yes,pack4 content content
 letter.dr.sound,grapheme-sound,dr,,yes,content content
 letter.e.name,lettre — nom,e,,,pack4 content content
-letter.e.sound,lettre — son,[son de « e »],,,pack4 pack4 pack4 pack4 content content
+letter.e.sound,lettre — son,[son de « e »],ə,yes,pack4 content content
 letter.e_acute.name,lettre — nom,e accent aigu,,,pack4 content content
-letter.e_acute.sound,letter-sound,é,e,yes,content content
+letter.e_acute.sound,lettre — son,[son de « é »],e,yes,pack4 content content
 letter.e_circ.name,lettre — nom,e accent circonflexe,,,pack4 content content
-letter.e_circ.sound,letter-sound,ê,ɛ,yes,content content
+letter.e_circ.sound,lettre — son,[son de « ê »],ɛ,yes,pack4 content content
 letter.e_grave.name,lettre — nom,e accent grave,,,pack4 content content
-letter.e_grave.sound,letter-sound,è,ɛ,yes,content content
+letter.e_grave.sound,lettre — son,[son de « è »],ɛ,yes,pack4 content content
 letter.eau.sound,grapheme-sound,eau,,yes,content content
 letter.ed.sound,grapheme-sound,ed,,yes,content content
 letter.ei.sound,grapheme-sound,ei,,yes,content content
@@ -371,19 +371,19 @@ letter.eur.sound,grapheme-sound,eur,,yes,content content
 letter.eure.sound,grapheme-sound,eure,,yes,content content
 letter.ez.sound,grapheme-sound,ez,,yes,content content
 letter.f.name,lettre — nom,effe,,,pack4 content content
-letter.f.sound,lettre — son,[son de « f »],,,pack4 content content
+letter.f.sound,lettre — son,[son de « f »],f,yes,pack4 content content
 letter.fl.sound,grapheme-sound,fl,,yes,content content
 letter.fr.sound,grapheme-sound,fr,,yes,content content
 letter.g.name,lettre — nom,gé,,,pack4 content content
-letter.g.sound,lettre — son,[son de « g »],,,pack4 content content
+letter.g.sound,lettre — son,[son de « g »],ɡ,yes,pack4 content content
 letter.g_j.sound,grapheme-sound,g = j,,yes,content content
 letter.gn.sound,grapheme-sound,gn,,yes,content content
 letter.gr.sound,grapheme-sound,gr,,yes,content content
 letter.gu.sound,grapheme-sound,gu,,yes,content content
 letter.h.name,lettre — nom,ache,,,pack4 content content
-letter.h.sound,lettre — son,[son de « h »],,,pack4 content content
+letter.h.sound,lettre — son,[son de « h »],,yes,pack4 content content
 letter.i.name,lettre — nom,i,,,pack4 content content
-letter.i.sound,lettre — son,[son de « i »],,,pack4 content content
+letter.i.sound,lettre — son,[son de « i »],i,yes,pack4 content content
 letter.ic.sound,grapheme-sound,ic,,yes,content content
 letter.ied.sound,grapheme-sound,ied,,yes,content content
 letter.ien.sound,grapheme-sound,ien,,yes,content content
@@ -394,17 +394,17 @@ letter.ille.sound,grapheme-sound,ille,,yes,content content
 letter.in.sound,grapheme-sound,in,,yes,content content
 letter.ion.sound,grapheme-sound,ion,,yes,content content
 letter.j.name,lettre — nom,ji,,,pack4 content content
-letter.j.sound,lettre — son,[son de « j »],,,pack4 content content
+letter.j.sound,lettre — son,[son de « j »],ʒ,yes,pack4 content content
 letter.k.name,lettre — nom,ka,,,pack4 content content
-letter.k.sound,lettre — son,[son de « k »],,,pack4 content content
+letter.k.sound,lettre — son,[son de « k »],k,yes,pack4 content content
 letter.l.name,lettre — nom,elle,,,pack4 content content
-letter.l.sound,lettre — son,[son de « l »],,,pack4 content content
+letter.l.sound,lettre — son,[son de « l »],l,yes,pack4 content content
 letter.m.name,lettre — nom,emme,,,pack4 content content
-letter.m.sound,lettre — son,[son de « m »],,,pack4 content content
+letter.m.sound,lettre — son,[son de « m »],m,yes,pack4 content content
 letter.n.name,lettre — nom,enne,,,pack4 content content
-letter.n.sound,lettre — son,[son de « n »],,,pack4 content content
+letter.n.sound,lettre — son,[son de « n »],n,yes,pack4 content content
 letter.o.name,lettre — nom,o,,,pack4 content content
-letter.o.sound,lettre — son,[son de « o »],,,pack4 content content
+letter.o.sound,lettre — son,[son de « o »],o,yes,pack4 content content
 letter.oc.sound,grapheme-sound,oc,,yes,content content
 letter.oi.sound,grapheme-sound,oi,,yes,content content
 letter.oin.sound,grapheme-sound,oin,,yes,content content
@@ -421,36 +421,36 @@ letter.ou.sound,grapheme-sound,ou,,yes,content content
 letter.ouille.sound,grapheme-sound,ouille,,yes,content content
 letter.oy.sound,grapheme-sound,oy,,yes,content content
 letter.p.name,lettre — nom,pé,,,pack4 content content
-letter.p.sound,lettre — son,[son de « p »],,,pack4 content content
+letter.p.sound,lettre — son,[son de « p »],p,yes,pack4 content content
 letter.ph_f.sound,grapheme-sound,ph = f,,yes,content content
 letter.pl.sound,grapheme-sound,pl,,yes,content content
 letter.pr.sound,grapheme-sound,pr,,yes,content content
 letter.q.name,lettre — nom (mur des lettres),ku,,,pack4
 letter.qu_k_c.sound,grapheme-sound,qu = k = c,,yes,content content
 letter.r.name,lettre — nom,erre,,,pack4 content content
-letter.r.sound,lettre — son,[son de « r »],,,pack4 content content
+letter.r.sound,lettre — son,[son de « r »],ʁ,yes,pack4 content content
 letter.s.name,lettre — nom,esse,,,pack4 content content
-letter.s.sound,lettre — son,[son de « s »],,,pack4 content content
+letter.s.sound,lettre — son,[son de « s »],s,yes,pack4 content content
 letter.s_z.sound,grapheme-sound,s = z,,yes,content content
 letter.t.name,lettre — nom,té,,,pack4 content content
-letter.t.sound,lettre — son,[son de « t »],,,pack4 content content
+letter.t.sound,lettre — son,[son de « t »],t,yes,pack4 content content
 letter.th_t.sound,grapheme-sound,th = t,,yes,content content
 letter.tion_sion.sound,grapheme-sound,tion = sion,,yes,content content
 letter.tr.sound,grapheme-sound,tr,,yes,content content
 letter.u.name,lettre — nom,u,,,pack4 content content
-letter.u.sound,lettre — son,[son de « u »],,,pack4 content content content content
+letter.u.sound,lettre — son,[son de « u »],y,yes,pack4 content content content content
 letter.ur.sound,grapheme-sound,œur,,yes,content content
 letter.uy.sound,grapheme-sound,uy,,yes,content content
 letter.v.name,lettre — nom,vé,,,pack4 content content
-letter.v.sound,lettre — son,[son de « v »],,,pack4 content content
+letter.v.sound,lettre — son,[son de « v »],v,yes,pack4 content content
 letter.vl.sound,grapheme-sound,vl,,yes,content content
 letter.vr.sound,grapheme-sound,vr,,yes,content content
 letter.w.name,lettre — nom (mur des lettres),double vé,,,pack4
 letter.x.name,lettre — nom (mur des lettres),iks,,,pack4
 letter.y.name,lettre — nom,i grec,,,pack4 content content
-letter.y.sound,lettre — son,[son de « y »],,,pack4 content content
+letter.y.sound,lettre — son,[son de « y »],i,yes,pack4 content content
 letter.z.name,lettre — nom,zède,,,pack4 content content
-letter.z.sound,lettre — son,[son de « z »],,,pack4 content content
+letter.z.sound,lettre — son,[son de « z »],z,yes,pack4 content content
 prompt.comprehension.default,consigne d'exercice,Écoute la question.,,,pack4
 prompt.listen-choose.digit,consigne d'exercice,"Écoute, puis touche le bon chiffre.",,,pack4
 prompt.listen-choose.letter,consigne d'exercice,"Écoute, puis touche la bonne lettre.",,,pack4
@@ -464,6 +464,7 @@ prompt.tap-identify.letter,consigne d'exercice,Touche la lettre {lettre}.,,,pack
 prompt.trace.digit,consigne d'exercice,Écris le chiffre {chiffre}.,,,pack4
 prompt.trace.letter,consigne d'exercice,Écris la lettre {lettre}.,,,pack4
 prompt.word-match.default,consigne d'exercice,Relie le mot à l'image.,,,pack4
+sent.L01.e,interface,é,,,prototype
 sent.L01.lecon_01_la_lettre_i,interface,Leçon 01. La lettre i,,,prototype
 sent.L01.touche_la_lettre_i,interface,Touche la lettre i,,,prototype
 sent.L01.touche_la_lettre_i_en_ecritu,interface,Touche la lettre i en écriture cursive,,,prototype
@@ -480,10 +481,12 @@ sent.L04.lecon_04_la_lettre_a,interface,Leçon 04. La lettre a,,,prototype
 sent.L04.touche_la_lettre_a,interface,Touche la lettre a,,,prototype
 sent.L04.touche_la_lettre_a_en_ecritu,interface,Touche la lettre a en écriture cursive,,,prototype
 sent.L04.touche_la_lettre_a_majuscule,interface,Touche la lettre a majuscule,,,prototype
+sent.L05.e,interface,ê,,,prototype
 sent.L05.lecon_05_les_lettres_e_et_e,interface,Leçon 05. Les lettres e et ê,,,prototype
 sent.L05.touche_la_lettre_e,interface,Touche la lettre e,,,prototype prototype
 sent.L05.touche_la_lettre_e_en_ecritu,interface,Touche la lettre e en écriture cursive,,,prototype
 sent.L05.touche_la_lettre_e_majuscule,interface,Touche la lettre e majuscule,,,prototype
+sent.L06.e,interface,è,,,prototype
 sent.L06.lecon_06_les_lettres_e_et_e,interface,Leçon 06. Les lettres é et è,,,prototype
 sent.L06.touche_la_lettre_e,interface,Touche la lettre é,,,prototype prototype
 sent.L06.touche_la_lettre_e_en_ecritu,interface,Touche la lettre é en écriture cursive,,,prototype

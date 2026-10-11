@@ -67,6 +67,64 @@ def synth(text, voice, wav_path):
     return None
 
 
+def silence(seconds, rate, path):
+    subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y',
+                    '-f', 'lavfi', '-i',
+                    f'anullsrc=r={rate}:cl=mono', '-t', str(seconds),
+                    '-c:a', 'pcm_s16le', path],
+                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+
+def rate_of(path):
+    p = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'a:0',
+                        '-show_entries', 'stream=sample_rate',
+                        '-of', 'csv=p=0', path], capture_output=True)
+    try:
+        return int(p.stdout.decode().strip())
+    except ValueError:
+        return 22050
+
+
+def synth_parts(parts, voice, out_wav, tmp, gap=0.5):
+    """A fusion clip: « t … a … ta », with an exact half-second between parts.
+
+    Piper treats an ellipsis as ordinary punctuation and races past it, so the
+    gap is cut in, not spoken. The regularity is the point — every fusion clip
+    has the identical rhythm, which is what makes the pattern learnable, and
+    docs/audio-production.md fixes it at 500 ms.
+    """
+    pieces = []
+    for i, part in enumerate(parts):
+        w = os.path.join(tmp, f'p{i}.wav')
+        payload = (f"[[ {part['phonemes']} ]]" if part.get('phonemes')
+                   else (part.get('text') or '').strip())
+        if not payload:
+            continue
+        err = synth(payload, voice, w)
+        if err:
+            return err
+        pieces.append(w)
+    if not pieces:
+        return 'no parts produced audio'
+
+    sil = os.path.join(tmp, 'sil.wav')
+    silence(gap, rate_of(pieces[0]), sil)
+
+    listing = os.path.join(tmp, 'concat.txt')
+    with open(listing, 'w', encoding='utf-8') as f:
+        for i, w in enumerate(pieces):
+            if i:
+                f.write(f"file '{sil}'\n")
+            f.write(f"file '{w}'\n")
+    r = subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y',
+                        '-f', 'concat', '-safe', '0', '-i', listing,
+                        '-c', 'copy', out_wav],
+                       stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+    if r.returncode != 0:
+        return r.stderr.decode('utf-8', 'replace').strip()[:200]
+    return None
+
+
 def encode(wav_path, out_path):
     """Normalise and encode to the spec in docs/audio-production.md.
 
@@ -135,17 +193,22 @@ def main():
             # A letter's SOUND is synthesised from its phoneme, never from
             # its spelling: fed the text "t", any synthesiser says the letter
             # NAME. Piper takes eSpeak phonemes inline in [[ ]].
-            if r.get('phonemes'):
-                payload = f"[[ {r['phonemes']} ]]"
-            else:
-                payload = (r.get('text') or '').strip()
-            if not payload:
-                failed += 1
-                errors.append((rid, 'nothing to say'))
-                continue
-
             wav = os.path.join(tmp, 'c.wav')
-            err = synth(payload, args.voice, wav)
+
+            if r.get('parts'):
+                err = synth_parts(r['parts'], args.voice, wav, tmp)
+            else:
+                if r.get('phonemes'):
+                    payload = f"[[ {r['phonemes']} ]]"
+                elif r.get('speakText') is False:
+                    payload = ''
+                else:
+                    payload = (r.get('text') or '').strip()
+                if not payload:
+                    failed += 1
+                    errors.append((rid, 'nothing to say'))
+                    continue
+                err = synth(payload, args.voice, wav)
             if err is None:
                 err = encode(wav, out)
             if err:

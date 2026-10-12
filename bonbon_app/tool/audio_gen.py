@@ -67,6 +67,9 @@ def synth(text, voice, wav_path):
     return None
 
 
+RATE = 22050
+
+
 def silence(seconds, rate, path):
     subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y',
                     '-f', 'lavfi', '-i',
@@ -96,6 +99,21 @@ def synth_parts(parts, voice, out_wav, tmp, gap=0.5):
     pieces = []
     for i, part in enumerate(parts):
         w = os.path.join(tmp, f'p{i}.wav')
+        if part.get('use'):
+            # A recorded clip — a plosive, which no synthesiser can produce in
+            # isolation. Decoded to the same wav format as the synthesised
+            # parts so the concat demuxer can stitch them without re-encoding.
+            src = os.path.join(OUT_DIR, f"{part['use']}.m4a")
+            if not os.path.exists(src):
+                return f"missing recorded clip {part['use']}"
+            r = subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error',
+                                '-y', '-i', src, '-ar', str(RATE), '-ac', '1',
+                                '-c:a', 'pcm_s16le', w],
+                               stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+            if r.returncode != 0:
+                return r.stderr.decode('utf-8', 'replace')[:200]
+            pieces.append(w)
+            continue
         payload = (f"[[ {part['phonemes']} ]]" if part.get('phonemes')
                    else (part.get('text') or '').strip())
         if not payload:
@@ -103,12 +121,17 @@ def synth_parts(parts, voice, out_wav, tmp, gap=0.5):
         err = synth(payload, voice, w)
         if err:
             return err
-        pieces.append(w)
+        norm_w = w + '.r.wav'
+        subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y',
+                        '-i', w, '-ar', str(RATE), '-ac', '1',
+                        '-c:a', 'pcm_s16le', norm_w],
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        pieces.append(norm_w if os.path.exists(norm_w) else w)
     if not pieces:
         return 'no parts produced audio'
 
     sil = os.path.join(tmp, 'sil.wav')
-    silence(gap, rate_of(pieces[0]), sil)
+    silence(gap, RATE, sil)
 
     listing = os.path.join(tmp, 'concat.txt')
     with open(listing, 'w', encoding='utf-8') as f:
@@ -171,6 +194,13 @@ def main():
         if not have('ffmpeg'):
             sys.exit('ffmpeg not found — brew install ffmpeg')
 
+    human = set()
+    hp = os.path.join(OUT_DIR, 'human-recorded.txt')
+    if os.path.exists(hp):
+        with open(hp, encoding='utf-8') as f:
+            human = {l.strip() for l in f
+                     if l.strip() and not l.startswith('#')}
+
     sel = re.compile(args.only) if args.only else None
     todo = [r for r in rows if not sel or sel.search(r['id'])]
     if args.limit:
@@ -187,6 +217,9 @@ def main():
             out = os.path.join(OUT_DIR, f'{rid}.m4a')
 
             if args.manifest_only:
+                continue
+            if rid in human:
+                skipped += 1      # recorded by a person; --force must not touch it
                 continue
             if os.path.exists(out) and not args.force:
                 skipped += 1

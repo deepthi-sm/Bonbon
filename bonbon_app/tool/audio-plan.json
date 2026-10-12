@@ -47,7 +47,7 @@
       ],
       "parts": [
         {
-          "phonemes": "b"
+          "use": "letter.b.sound"
         },
         {
           "phonemes": "a"
@@ -69,7 +69,7 @@
       ],
       "parts": [
         {
-          "phonemes": "b"
+          "use": "letter.b.sound"
         },
         {
           "phonemes": "ə"
@@ -91,7 +91,7 @@
       ],
       "parts": [
         {
-          "phonemes": "b"
+          "use": "letter.b.sound"
         },
         {
           "phonemes": "e"
@@ -113,7 +113,7 @@
       ],
       "parts": [
         {
-          "phonemes": "b"
+          "use": "letter.b.sound"
         },
         {
           "phonemes": "ɛ"
@@ -135,7 +135,7 @@
       ],
       "parts": [
         {
-          "phonemes": "b"
+          "use": "letter.b.sound"
         },
         {
           "phonemes": "ɛ"
@@ -151,7 +151,7 @@
       "text": "b … e … m … bem",
       "parts": [
         {
-          "phonemes": "b"
+          "use": "letter.b.sound"
         },
         {
           "text": "bem"
@@ -176,7 +176,7 @@
       ],
       "parts": [
         {
-          "phonemes": "b"
+          "use": "letter.b.sound"
         },
         {
           "phonemes": "i"
@@ -192,7 +192,7 @@
       "text": "b … i … e … n … bien",
       "parts": [
         {
-          "phonemes": "b"
+          "use": "letter.b.sound"
         },
         {
           "text": "bien"
@@ -216,7 +216,7 @@
       ],
       "parts": [
         {
-          "phonemes": "b"
+          "use": "letter.b.sound"
         },
         {
           "phonemes": "o"
@@ -232,7 +232,7 @@
       "text": "b … o … i … boi",
       "parts": [
         {
-          "phonemes": "b"
+          "use": "letter.b.sound"
         },
         {
           "text": "boi"
@@ -251,7 +251,7 @@
       "text": "b … o … m … bom",
       "parts": [
         {
-          "phonemes": "b"
+          "use": "letter.b.sound"
         },
         {
           "text": "bom"
@@ -270,7 +270,7 @@
       "text": "b … o … n … bon",
       "parts": [
         {
-          "phonemes": "b"
+          "use": "letter.b.sound"
         },
         {
           "text": "bon"
@@ -295,7 +295,7 @@
       ],
       "parts": [
         {
-          "phonemes": "b"
+          "use": "letter.b.sound"
         },
         {
           "phonemes": "y"
@@ -309,14 +309,7 @@
     {
       "id": "blend.c_est",
       "text": "c … ’ … e … s … t … c’est",
-      "parts": [
-        {
-          "phonemes": "k"
-        },
-        {
-          "text": "c’est"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:cest-1d4fe560",
@@ -337,7 +330,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "phonemes": "a"
@@ -361,7 +354,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "phonemes": "ə"
@@ -383,7 +376,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "phonemes": "e"
@@ -405,7 +398,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "phonemes": "ɛ"
@@ -427,7 +420,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "phonemes": "ɛ"
@@ -443,7 +436,7 @@
       "text": "c … e … c … i … ceci",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "text": "ceci"
@@ -462,7 +455,7 @@
       "text": "c … e … i … n … cein",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "text": "cein"
@@ -481,7 +474,7 @@
       "text": "c … e … l … a … cela",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "text": "cela"
@@ -500,7 +493,7 @@
       "text": "c … e … l … l … e … celle",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "text": "celle"
@@ -519,7 +512,7 @@
       "text": "c … e … l … u … i … celui",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "text": "celui"
@@ -537,7 +530,7 @@
       "text": "c … e … t … t … e … cette",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "text": "cette"
@@ -554,17 +547,7 @@
     {
       "id": "blend.cha",
       "text": "c … h … a … cha",
-      "parts": [
-        {
-          "phonemes": "k"
-        },
-        {
-          "phonemes": "a"
-        },
-        {
-          "text": "cha"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:cha-d602c74b",
@@ -575,14 +558,7 @@
     {
       "id": "blend.chai_circ",
       "text": "c … h … a … î … chaî",
-      "parts": [
-        {
-          "phonemes": "k"
-        },
-        {
-          "text": "chaî"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:chai-9c79bb48",
@@ -593,14 +569,7 @@
     {
       "id": "blend.chan",
       "text": "c … h … a … n … chan",
-      "parts": [
-        {
-          "phonemes": "k"
-        },
-        {
-          "text": "chan"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:chan-2466fcaf",
@@ -611,14 +580,7 @@
     {
       "id": "blend.chau",
       "text": "c … h … a … u … chau",
-      "parts": [
-        {
-          "phonemes": "k"
-        },
-        {
-          "text": "chau"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:chau-2274631b",
@@ -629,17 +591,7 @@
     {
       "id": "blend.che",
       "text": "c … h … e … che",
-      "parts": [
-        {
-          "phonemes": "k"
-        },
-        {
-          "phonemes": "ə"
-        },
-        {
-          "text": "che"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:che-250fccd5",
@@ -650,17 +602,7 @@
     {
       "id": "blend.che_acute",
       "text": "c … h … é … ché",
-      "parts": [
-        {
-          "phonemes": "k"
-        },
-        {
-          "phonemes": "e"
-        },
-        {
-          "text": "ché"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:che-3c8867e3",
@@ -671,17 +613,7 @@
     {
       "id": "blend.chi",
       "text": "c … h … i … chi",
-      "parts": [
-        {
-          "phonemes": "k"
-        },
-        {
-          "phonemes": "i"
-        },
-        {
-          "text": "chi"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:chi-dffe602c",
@@ -692,17 +624,7 @@
     {
       "id": "blend.cho",
       "text": "c … h … o … cho",
-      "parts": [
-        {
-          "phonemes": "k"
-        },
-        {
-          "phonemes": "o"
-        },
-        {
-          "text": "cho"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:cho-560c48d6",
@@ -713,17 +635,7 @@
     {
       "id": "blend.chu",
       "text": "c … h … u … chu",
-      "parts": [
-        {
-          "phonemes": "k"
-        },
-        {
-          "phonemes": "y"
-        },
-        {
-          "text": "chu"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:chu-6eff9efb",
@@ -742,7 +654,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "phonemes": "i"
@@ -758,7 +670,7 @@
       "text": "c … i … n … cin",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "text": "cin"
@@ -784,7 +696,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "phonemes": "o"
@@ -800,7 +712,7 @@
       "text": "c … o … m … com",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "text": "com"
@@ -819,7 +731,7 @@
       "text": "c … o … u … cou",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "text": "cou"
@@ -845,7 +757,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.c.sound"
         },
         {
           "phonemes": "y"
@@ -867,7 +779,7 @@
       ],
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "phonemes": "a"
@@ -883,7 +795,7 @@
       "text": "d … a … n … dan",
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "text": "dan"
@@ -908,7 +820,7 @@
       ],
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "phonemes": "ə"
@@ -930,7 +842,7 @@
       ],
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "phonemes": "e"
@@ -952,7 +864,7 @@
       ],
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "phonemes": "ɛ"
@@ -974,7 +886,7 @@
       ],
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "phonemes": "ɛ"
@@ -990,7 +902,7 @@
       "text": "d … e … n … den",
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "text": "den"
@@ -1015,7 +927,7 @@
       ],
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "phonemes": "i"
@@ -1031,7 +943,7 @@
       "text": "d … i … n … din",
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "text": "din"
@@ -1056,7 +968,7 @@
       ],
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "phonemes": "o"
@@ -1072,7 +984,7 @@
       "text": "d … o … i … doi",
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "text": "doi"
@@ -1091,7 +1003,7 @@
       "text": "d … o … m … dom",
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "text": "dom"
@@ -1110,7 +1022,7 @@
       "text": "d … o … u … dou",
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "text": "dou"
@@ -1134,7 +1046,7 @@
       ],
       "parts": [
         {
-          "phonemes": "d"
+          "use": "letter.d.sound"
         },
         {
           "phonemes": "y"
@@ -1400,7 +1312,7 @@
       ],
       "parts": [
         {
-          "phonemes": "ɡ"
+          "use": "letter.g.sound"
         },
         {
           "phonemes": "a"
@@ -1416,7 +1328,7 @@
       "text": "g … e … ge",
       "parts": [
         {
-          "phonemes": "ɡ"
+          "use": "letter.g.sound"
         },
         {
           "phonemes": "ə"
@@ -1437,7 +1349,7 @@
       "text": "g … é … gé",
       "parts": [
         {
-          "phonemes": "ɡ"
+          "use": "letter.g.sound"
         },
         {
           "phonemes": "e"
@@ -1458,7 +1370,7 @@
       "text": "g … e … a … n … t … geant",
       "parts": [
         {
-          "phonemes": "ɡ"
+          "use": "letter.g.sound"
         },
         {
           "text": "geant"
@@ -1476,7 +1388,7 @@
       "text": "g … e … o … n … geon",
       "parts": [
         {
-          "phonemes": "ɡ"
+          "use": "letter.g.sound"
         },
         {
           "text": "geon"
@@ -1494,7 +1406,7 @@
       "text": "g … i … gi",
       "parts": [
         {
-          "phonemes": "ɡ"
+          "use": "letter.g.sound"
         },
         {
           "phonemes": "i"
@@ -1513,17 +1425,7 @@
     {
       "id": "blend.gna",
       "text": "g … n … a … gna",
-      "parts": [
-        {
-          "phonemes": "ɡn"
-        },
-        {
-          "phonemes": "a"
-        },
-        {
-          "text": "gna"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:gna-843df963",
@@ -1534,17 +1436,7 @@
     {
       "id": "blend.gne",
       "text": "g … n … e … gne",
-      "parts": [
-        {
-          "phonemes": "ɡn"
-        },
-        {
-          "phonemes": "ə"
-        },
-        {
-          "text": "gne"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:gne-ddedcfd2",
@@ -1555,17 +1447,7 @@
     {
       "id": "blend.gne_acute",
       "text": "g … n … é … gné",
-      "parts": [
-        {
-          "phonemes": "ɡn"
-        },
-        {
-          "phonemes": "e"
-        },
-        {
-          "text": "gné"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:gne-af25d424",
@@ -1576,17 +1458,7 @@
     {
       "id": "blend.gni",
       "text": "g … n … i … gni",
-      "parts": [
-        {
-          "phonemes": "ɡn"
-        },
-        {
-          "phonemes": "i"
-        },
-        {
-          "text": "gni"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:gni-2e73f9b3",
@@ -1597,14 +1469,7 @@
     {
       "id": "blend.gnon",
       "text": "g … n … o … n … gnon",
-      "parts": [
-        {
-          "phonemes": "ɡn"
-        },
-        {
-          "text": "gnon"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:gnon-a65af710",
@@ -1615,17 +1480,7 @@
     {
       "id": "blend.gnu",
       "text": "g … n … u … gnu",
-      "parts": [
-        {
-          "phonemes": "ɡn"
-        },
-        {
-          "phonemes": "y"
-        },
-        {
-          "text": "gnu"
-        }
-      ],
+      "parts": null,
       "kind": "fusion",
       "note": "the two sounds separated, then fused — the arrow the book draws, performed aloud",
       "origin": "fr:syllable:gnu-ab137b02",
@@ -1644,7 +1499,7 @@
       ],
       "parts": [
         {
-          "phonemes": "ɡ"
+          "use": "letter.g.sound"
         },
         {
           "phonemes": "o"
@@ -1666,7 +1521,7 @@
       ],
       "parts": [
         {
-          "phonemes": "ɡ"
+          "use": "letter.g.sound"
         },
         {
           "phonemes": "y"
@@ -1682,7 +1537,7 @@
       "text": "g … u … e … gue",
       "parts": [
         {
-          "phonemes": "ɡ"
+          "use": "letter.g.sound"
         },
         {
           "text": "gue"
@@ -1700,7 +1555,7 @@
       "text": "g … u … é … gué",
       "parts": [
         {
-          "phonemes": "ɡ"
+          "use": "letter.g.sound"
         },
         {
           "text": "gué"
@@ -1718,7 +1573,7 @@
       "text": "g … u … ê … guê",
       "parts": [
         {
-          "phonemes": "ɡ"
+          "use": "letter.g.sound"
         },
         {
           "text": "guê"
@@ -1736,7 +1591,7 @@
       "text": "g … u … i … gui",
       "parts": [
         {
-          "phonemes": "ɡ"
+          "use": "letter.g.sound"
         },
         {
           "text": "gui"
@@ -2139,7 +1994,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.k.sound"
         },
         {
           "phonemes": "a"
@@ -2161,7 +2016,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.k.sound"
         },
         {
           "phonemes": "ə"
@@ -2184,7 +2039,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.k.sound"
         },
         {
           "phonemes": "e"
@@ -2206,7 +2061,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.k.sound"
         },
         {
           "phonemes": "ɛ"
@@ -2228,7 +2083,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.k.sound"
         },
         {
           "phonemes": "ɛ"
@@ -2251,7 +2106,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.k.sound"
         },
         {
           "phonemes": "i"
@@ -2274,7 +2129,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.k.sound"
         },
         {
           "phonemes": "o"
@@ -2297,7 +2152,7 @@
       ],
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.k.sound"
         },
         {
           "phonemes": "y"
@@ -3205,7 +3060,7 @@
       ],
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "phonemes": "a"
@@ -3221,7 +3076,7 @@
       "text": "p … a … i … n … pain",
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "text": "pain"
@@ -3240,7 +3095,7 @@
       "text": "p … a … m … pam",
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "text": "pam"
@@ -3259,7 +3114,7 @@
       "text": "p … a … n … pan",
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "text": "pan"
@@ -3284,7 +3139,7 @@
       ],
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "phonemes": "ə"
@@ -3306,7 +3161,7 @@
       ],
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "phonemes": "e"
@@ -3328,7 +3183,7 @@
       ],
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "phonemes": "ɛ"
@@ -3350,7 +3205,7 @@
       ],
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "phonemes": "ɛ"
@@ -3366,7 +3221,7 @@
       "text": "p … e … i … n … pein",
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "text": "pein"
@@ -3385,7 +3240,7 @@
       "text": "p … e … n … pen",
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "text": "pen"
@@ -3410,7 +3265,7 @@
       ],
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "phonemes": "i"
@@ -3426,7 +3281,7 @@
       "text": "p … i … n … pin",
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "text": "pin"
@@ -3451,7 +3306,7 @@
       ],
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "phonemes": "o"
@@ -3467,7 +3322,7 @@
       "text": "p … o … i … poi",
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "text": "poi"
@@ -3486,7 +3341,7 @@
       "text": "p … o … i … n … poin",
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "text": "poin"
@@ -3504,7 +3359,7 @@
       "text": "p … o … m … pom",
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "text": "pom"
@@ -3523,7 +3378,7 @@
       "text": "p … o … n … pon",
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "text": "pon"
@@ -3548,7 +3403,7 @@
       ],
       "parts": [
         {
-          "phonemes": "p"
+          "use": "letter.p.sound"
         },
         {
           "phonemes": "y"
@@ -3564,7 +3419,7 @@
       "text": "q … u … a … qua",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.q.sound"
         },
         {
           "text": "qua"
@@ -3582,7 +3437,7 @@
       "text": "q … u … e … que",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.q.sound"
         },
         {
           "text": "que"
@@ -3600,7 +3455,7 @@
       "text": "q … u … é … qué",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.q.sound"
         },
         {
           "text": "qué"
@@ -3618,7 +3473,7 @@
       "text": "q … u … i … qui",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.q.sound"
         },
         {
           "text": "qui"
@@ -3636,7 +3491,7 @@
       "text": "q … u … o … quo",
       "parts": [
         {
-          "phonemes": "k"
+          "use": "letter.q.sound"
         },
         {
           "text": "quo"
@@ -4235,7 +4090,7 @@
       ],
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "phonemes": "a"
@@ -4258,7 +4113,7 @@
       ],
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "phonemes": "ə"
@@ -4281,7 +4136,7 @@
       ],
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "phonemes": "e"
@@ -4304,7 +4159,7 @@
       ],
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "phonemes": "ɛ"
@@ -4326,7 +4181,7 @@
       ],
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "phonemes": "ɛ"
@@ -4342,7 +4197,7 @@
       "text": "t … e … i … n … tein",
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "text": "tein"
@@ -4360,7 +4215,7 @@
       "text": "t … e … n … d … tend",
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "text": "tend"
@@ -4386,7 +4241,7 @@
       ],
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "phonemes": "i"
@@ -4402,7 +4257,7 @@
       "text": "t … i … e … n … tien",
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "text": "tien"
@@ -4420,7 +4275,7 @@
       "text": "t … i … o … n … tion",
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "text": "tion"
@@ -4445,7 +4300,7 @@
       ],
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "phonemes": "o"
@@ -4461,7 +4316,7 @@
       "text": "t … o … i … toi",
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "text": "toi"
@@ -4480,7 +4335,7 @@
       "text": "t … o … n … ton",
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "text": "ton"
@@ -4506,7 +4361,7 @@
       ],
       "parts": [
         {
-          "phonemes": "t"
+          "use": "letter.t.sound"
         },
         {
           "phonemes": "y"

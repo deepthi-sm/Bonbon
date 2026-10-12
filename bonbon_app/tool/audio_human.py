@@ -49,6 +49,13 @@ def main():
     ap.add_argument('--apply', action='store_true', help='actually delete')
     args = ap.parse_args()
 
+    human = set()
+    hp = os.path.join(AUDIO, 'human-recorded.txt')
+    if os.path.exists(hp):
+        with open(hp, encoding='utf-8') as f:
+            human = {l.strip() for l in f
+                     if l.strip() and not l.startswith('#')}
+
     with open(PLAN, encoding='utf-8') as f:
         rows = json.load(f)['rows']
 
@@ -59,6 +66,8 @@ def main():
             continue
         if first_phoneme(r) not in PLOSIVES:
             continue
+        if rid in human:
+            continue        # a person already recorded this one
         path = os.path.join(AUDIO, f'{rid}.m4a')
         doomed.append((rid, r.get('text') or '', os.path.exists(path), path))
 

@@ -75,6 +75,8 @@ def slug(text):
     return s or 'x'
 
 
+PLOSIVE_IPA = {'p', 't', 'k', 'b', 'd', 'g', 'ɡ'}
+
 DIRECTION = re.compile(r'^\s*[\[(].*[\])]\s*$')
 
 
@@ -103,7 +105,11 @@ def fusion_parts(syl):
     cons, vow = split_syllable(syl)
     parts = []
     cp = ''.join(LETTER_SOUND.get(c, '') for c in cons)
-    if cp:
+    if cp and cp[0] in PLOSIVE_IPA:
+        if len(cons) != 1:
+            return None          # cluster starting with a plosive: not derivable
+        parts.append({'use': f'letter.{cons}.sound'})
+    elif cp:
         parts.append({'phonemes': cp})
     vp = LETTER_SOUND.get(vow)
     if vp:

@@ -1,10 +1,10 @@
 {
   "generatedBy": "bonbon_app/tool/audio_ids.py",
-  "total": 2515,
+  "total": 2507,
   "bySource": {
     "pack4": 590,
     "content": 905,
-    "prototype": 1020
+    "prototype": 1012
   },
   "byKind": {
     "syllabe — fusion": 131,
@@ -24,7 +24,7 @@
     "grapheme-sound": 77,
     "lettre — nom (mur des lettres)": 3,
     "consigne d'exercice": 13,
-    "interface": 1194,
+    "interface": 1186,
     "sentence": 80,
     "syllabe": 131,
     "syllable": 113,
@@ -7383,15 +7383,6 @@
       ]
     },
     {
-      "id": "sent.L01.e",
-      "text": "é",
-      "kind": "interface",
-      "where": "Leçon 01",
-      "sources": [
-        "prototype"
-      ]
-    },
-    {
       "id": "sent.L01.lecon_01_la_lettre_i",
       "text": "Leçon 01. La lettre i",
       "kind": "interface",
@@ -7536,15 +7527,6 @@
       ]
     },
     {
-      "id": "sent.L05.e",
-      "text": "ê",
-      "kind": "interface",
-      "where": "Leçon 05",
-      "sources": [
-        "prototype"
-      ]
-    },
-    {
       "id": "sent.L05.lecon_05_les_lettres_e_et_e",
       "text": "Leçon 05. Les lettres e et ê",
       "kind": "interface",
@@ -7577,15 +7559,6 @@
       "text": "Touche la lettre e majuscule",
       "kind": "interface",
       "where": "Leçon 05",
-      "sources": [
-        "prototype"
-      ]
-    },
-    {
-      "id": "sent.L06.e",
-      "text": "è",
-      "kind": "interface",
-      "where": "Leçon 06",
       "sources": [
         "prototype"
       ]
@@ -8280,15 +8253,6 @@
       "origin": "fr:lesson-14:b5-item-3",
       "sources": [
         "content"
-      ]
-    },
-    {
-      "id": "sent.L14.a",
-      "text": "à",
-      "kind": "interface",
-      "where": "Leçon 14",
-      "sources": [
-        "prototype"
       ]
     },
     {
@@ -12223,15 +12187,6 @@
     {
       "id": "sent.L35.suis",
       "text": "suis",
-      "kind": "interface",
-      "where": "Leçon 35",
-      "sources": [
-        "prototype"
-      ]
-    },
-    {
-      "id": "sent.L35.x",
-      "text": "-",
       "kind": "interface",
       "where": "Leçon 35",
       "sources": [
@@ -19702,15 +19657,6 @@
       ]
     },
     {
-      "id": "ui.app.q",
-      "text": "q",
-      "kind": "interface",
-      "where": "Interface",
-      "sources": [
-        "prototype"
-      ]
-    },
-    {
       "id": "ui.app.termine_d_abord_la_lecon_d_avant",
       "text": "Termine d'abord la leçon d'avant.",
       "kind": "interface",
@@ -19902,24 +19848,6 @@
     {
       "id": "ui.app.voix_lente_la_voix_parle_plus_doucement",
       "text": "Voix lente. La voix parle plus doucement.",
-      "kind": "interface",
-      "where": "Interface",
-      "sources": [
-        "prototype"
-      ]
-    },
-    {
-      "id": "ui.app.w",
-      "text": "w",
-      "kind": "interface",
-      "where": "Interface",
-      "sources": [
-        "prototype"
-      ]
-    },
-    {
-      "id": "ui.app.x",
-      "text": "x",
       "kind": "interface",
       "where": "Interface",
       "sources": [

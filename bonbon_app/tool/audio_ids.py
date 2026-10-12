@@ -294,6 +294,12 @@ def main():
                 t = (u.get('text') or '').strip()
                 if not t or norm(t) in known:
                     continue
+                # A lone character or a stray mark is not an utterance. Single
+                # letters are already covered by letter.* clips, which say them
+                # correctly; routed through here they became junk IDs like
+                # sent.L01.e, and '-' is not speech at all.
+                if len(t) < 2 or not any(c.isalnum() for c in t):
+                    continue
                 where = (u.get('where') or '').strip()
                 m = re.fullmatch(r'Leçon\s+(\d+)', where)
                 if m:

@@ -464,7 +464,6 @@ prompt.tap-identify.letter,consigne d'exercice,Touche la lettre {lettre}.,,,pack
 prompt.trace.digit,consigne d'exercice,Écris le chiffre {chiffre}.,,,pack4
 prompt.trace.letter,consigne d'exercice,Écris la lettre {lettre}.,,,pack4
 prompt.word-match.default,consigne d'exercice,Relie le mot à l'image.,,,pack4
-sent.L01.e,interface,é,,,prototype
 sent.L01.lecon_01_la_lettre_i,interface,Leçon 01. La lettre i,,,prototype
 sent.L01.touche_la_lettre_i,interface,Touche la lettre i,,,prototype
 sent.L01.touche_la_lettre_i_en_ecritu,interface,Touche la lettre i en écriture cursive,,,prototype
@@ -481,12 +480,10 @@ sent.L04.lecon_04_la_lettre_a,interface,Leçon 04. La lettre a,,,prototype
 sent.L04.touche_la_lettre_a,interface,Touche la lettre a,,,prototype
 sent.L04.touche_la_lettre_a_en_ecritu,interface,Touche la lettre a en écriture cursive,,,prototype
 sent.L04.touche_la_lettre_a_majuscule,interface,Touche la lettre a majuscule,,,prototype
-sent.L05.e,interface,ê,,,prototype
 sent.L05.lecon_05_les_lettres_e_et_e,interface,Leçon 05. Les lettres e et ê,,,prototype
 sent.L05.touche_la_lettre_e,interface,Touche la lettre e,,,prototype prototype
 sent.L05.touche_la_lettre_e_en_ecritu,interface,Touche la lettre e en écriture cursive,,,prototype
 sent.L05.touche_la_lettre_e_majuscule,interface,Touche la lettre e majuscule,,,prototype
-sent.L06.e,interface,è,,,prototype
 sent.L06.lecon_06_les_lettres_e_et_e,interface,Leçon 06. Les lettres é et è,,,prototype
 sent.L06.touche_la_lettre_e,interface,Touche la lettre é,,,prototype prototype
 sent.L06.touche_la_lettre_e_en_ecritu,interface,Touche la lettre é en écriture cursive,,,prototype
@@ -561,7 +558,6 @@ sent.L13.vont,interface,vont,,,prototype
 sent.L14.01,sentence,la pile de lili.,,,content
 sent.L14.02,sentence,lulu à une patate.,,,content
 sent.L14.03,sentence,lulu est une élève.,,,content
-sent.L14.a,interface,à,,,prototype
 sent.L14.lecon_14_la_lettre_l,interface,Leçon 14. La lettre l,,,prototype
 sent.L14.touche_la_lettre_l,interface,Touche la lettre l,,,prototype
 sent.L14.touche_la_lettre_l_en_ecritu,interface,Touche la lettre l en écriture cursive,,,prototype
@@ -994,7 +990,6 @@ sent.L35.soleil,interface,soleil,,,prototype
 sent.L35.sommeil,interface,sommeil,,,prototype
 sent.L35.sonne,interface,sonne,,,prototype
 sent.L35.suis,interface,suis,,,prototype
-sent.L35.x,interface,-,,,prototype
 sent.L36.01,sentence,"Baké prend son sac, son balai et un peigne pour aller à l’école. L’instituteur utilise de la craie rouge au tableau. Parfait le voisin de Baké aime utiliser le bâton de craie jaune comme relais quand il n’a plus de craie blanche. Baké et son voisin aiment le bon lait de vache vendu par les vendeuses toute la semaine.",,,content
 sent.L36.aiment,interface,aiment,,,prototype
 sent.L36.balai,interface,balai,,,prototype
@@ -1798,7 +1793,6 @@ ui.app.les_lecons_touche_une_lecon,interface,Les leçons. Touche une leçon.,,,p
 ui.app.ouvrir_toutes_les_lecons,interface,Ouvrir toutes les leçons.,,,prototype
 ui.app.pas_encore_commence_en_haut_et_suis_le_m,interface,Pas encore. Commence en haut et suis le modèle.,,,prototype
 ui.app.presque_passe_sur_toute_la_lettre,interface,Presque. Passe sur toute la lettre.,,,prototype
-ui.app.q,interface,q,,,prototype
 ui.app.termine_d_abord_la_lecon_d_avant,interface,Termine d'abord la leçon d'avant.,,,prototype
 ui.app.trace_la_lettre_avec_ton_doigt_sur_le_mo,interface,"Trace la lettre avec ton doigt, sur le modèle gris.",,,prototype
 ui.app.tres_bien_trace,interface,Très bien tracé.,,,prototype
@@ -1821,8 +1815,6 @@ ui.app.unite_2_les_consonnes,interface,Unité 2. Les consonnes.,,,prototype
 ui.app.unite_3_les_sons_et_les_textes,interface,Unité 3. Les sons et les textes.,,,prototype
 ui.app.unite_4_les_chiffres,interface,Unité 4. Les chiffres.,,,prototype
 ui.app.voix_lente_la_voix_parle_plus_doucement,interface,Voix lente. La voix parle plus doucement.,,,prototype
-ui.app.w,interface,w,,,prototype
-ui.app.x,interface,x,,,prototype
 ui.assessment.bilan.good,interface,Bien lu. Tu as reconnu {n} choses sur {total}.,,,pack4
 ui.assessment.bilan.partial,interface,C'est en train de venir. On reverra {cible} bientôt.,,,pack4
 ui.assessment.bilan.title,interface,Quelques questions pour voir ce que tu retiens. Ce n'est pas un examen.,,,pack4

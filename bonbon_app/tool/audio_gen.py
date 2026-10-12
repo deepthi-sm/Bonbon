@@ -176,6 +176,8 @@ def main():
     if args.limit:
         todo = todo[:args.limit]
 
+    print(f'{len(todo)} clips to do (voice: {os.path.basename(args.voice)})',
+          flush=True)
     made = skipped = failed = 0
     errors = []
     tmp = tempfile.mkdtemp(prefix='bonbon-audio-')
@@ -217,7 +219,8 @@ def main():
             else:
                 made += 1
 
-            if i % 50 == 0 or i == len(todo):
+            step = 50 if len(todo) > 300 else 10
+            if i % step == 0 or i == len(todo):
                 print(f'  {i}/{len(todo)}  made {made}  skipped {skipped}  failed {failed}',
                       flush=True)
     finally:

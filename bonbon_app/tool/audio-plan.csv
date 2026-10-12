@@ -1765,6 +1765,7 @@ ui.app.accueil,interface,Accueil,,,prototype
 ui.app.bien_suis_bien_le_modele_gris,interface,Bien. Suis bien le modèle gris.,,,prototype
 ui.app.bienvenue_a_bonbon_apprenons_a_lire_et_a,interface,"Bienvenue à Bonbon ! Apprenons à lire et à écrire ensemble, pas à pas.",,,prototype
 ui.app.bonjour_heureuse_de_te_revoir,interface,Bonjour ! Heureuse de te revoir.,,,prototype
+ui.app.bravo_tu_as_termine_tout_le_syllabaire_t,interface,Bravo ! Tu as terminé tout le syllabaire. Tu peux tout revoir quand tu veux.,,,prototype
 ui.app.cahier_d_ecriture_trace_une_lettre_avec_,interface,Cahier d'écriture. Trace une lettre avec ton doigt.,,,prototype
 ui.app.choisis_ton_image_tu_peux_aussi_ecrire_t,interface,Choisis ton image. Tu peux aussi écrire ton prénom.,,,prototype
 ui.app.ecoute,interface,Écoute :,,,prototype

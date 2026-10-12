@@ -1,10 +1,10 @@
 {
   "generatedBy": "bonbon_app/tool/audio_ids.py",
-  "total": 2507,
+  "total": 2508,
   "bySource": {
     "pack4": 590,
     "content": 905,
-    "prototype": 1012
+    "prototype": 1013
   },
   "byKind": {
     "syllabe — fusion": 131,
@@ -24,7 +24,7 @@
     "grapheme-sound": 77,
     "lettre — nom (mur des lettres)": 3,
     "consigne d'exercice": 13,
-    "interface": 1186,
+    "interface": 1187,
     "sentence": 80,
     "syllabe": 131,
     "syllable": 113,
@@ -19398,6 +19398,15 @@
     {
       "id": "ui.app.bonjour_heureuse_de_te_revoir",
       "text": "Bonjour ! Heureuse de te revoir.",
+      "kind": "interface",
+      "where": "Interface",
+      "sources": [
+        "prototype"
+      ]
+    },
+    {
+      "id": "ui.app.bravo_tu_as_termine_tout_le_syllabaire_t",
+      "text": "Bravo ! Tu as terminé tout le syllabaire. Tu peux tout revoir quand tu veux.",
       "kind": "interface",
       "where": "Interface",
       "sources": [

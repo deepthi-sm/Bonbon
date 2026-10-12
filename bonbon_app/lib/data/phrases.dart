@@ -14,6 +14,7 @@ class P {
 
   static const lockedLesson = 'Termine d\'abord la leçon d\'avant.';
   static const lessonDone = 'Leçon terminée.';
+  static const allDone = 'Bravo ! Tu as terminé tout le syllabaire. Tu peux tout revoir quand tu veux.';
 
   static const listenAgain = 'Écoute :';
   static const praise = ['C\'est ça.', 'Oui.', 'Exact.', 'Bien.', 'Voilà.', 'C\'est bon.', 'Tu l\'as.'];
@@ -48,7 +49,7 @@ class P {
 
   static const fixed = [
     welcome, profile, greeting, home, path, atelier, progress, settings, lockedLesson,
-    lessonDone, listenAgain, ...praise, ...repair, promptSyllable, promptWord, promptDigit,
+    lessonDone, allDone, listenAgain, ...praise, ...repair, promptSyllable, promptWord, promptDigit,
     promptSound, alphabet, digits, notebook, traceEmpty, ...trace, slowVoice, slowOn, slowOff,
     cursiveDefault, largeText, unlockAll,
   ];

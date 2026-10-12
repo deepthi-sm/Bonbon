@@ -31,6 +31,9 @@ def main():
     if not os.path.exists(os.path.join(WEB, 'index.html')):
         sys.exit('No build found - run: flutter build web')
     handler = functools.partial(NoCache, directory=WEB)
+    # The app requests ~60 files at once on start-up; the default queue of 5
+    # connections drops some of them.
+    http.server.ThreadingHTTPServer.request_queue_size = 128
     with http.server.ThreadingHTTPServer((host, port), handler) as srv:
         print(f'Serving {WEB} at http://localhost:{port} (no cache). Ctrl+C to stop.')
         srv.serve_forever()

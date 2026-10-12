@@ -39,11 +39,11 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
     final t = CurvedAnimation(parent: _float, curve: Curves.easeInOut);
 
     // Same geometry as the web loading screen in web/index.html: logo exactly
-    // centred, min(70% of width, 340) wide; shadow 22 px and dots 72 px below it.
+    // centred, min(36% of width, 180) wide; shadow 12 px and dots 40 px below it.
     return ColoredBox(
       color: C.canvas,
       child: LayoutBuilder(builder: (context, box) {
-        final logoW = math.min(box.maxWidth * 0.7, 340.0);
+        final logoW = math.min(box.maxWidth * 0.36, 180.0);
         final logoH = logoW * _logoAspect;
         final below = box.maxHeight / 2 + logoH / 2;
         return Stack(children: [
@@ -53,7 +53,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
             child: AnimatedBuilder(
               animation: t,
               builder: (_, child) => Transform.translate(
-                offset: Offset(0, reduce ? 0 : 6 - 22 * t.value),
+                offset: Offset(0, reduce ? 0 : 3 - 11 * t.value),
                 child: child,
               ),
               child: Image.asset('assets/brand/logo.png',
@@ -62,7 +62,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
           ),
           Positioned(
             left: (box.maxWidth - logoW * 0.56) / 2,
-            top: below + 22,
+            top: below + 12,
             child: AnimatedBuilder(
               animation: t,
               builder: (_, _) => Transform.scale(
@@ -71,10 +71,10 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
                   opacity: reduce ? 1 : 1 - 0.45 * t.value,
                   child: Container(
                     width: logoW * 0.56,
-                    height: 16,
+                    height: 8,
                     decoration: BoxDecoration(
                       color: C.ink.withValues(alpha: 0.12),
-                      borderRadius: const BorderRadius.all(Radius.elliptical(200, 16)),
+                      borderRadius: const BorderRadius.all(Radius.elliptical(200, 8)),
                     ),
                   ),
                 ),
@@ -84,13 +84,13 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
           Positioned(
             left: 0,
             right: 0,
-            top: below + 72,
+            top: below + 40,
             child: widget.error == null
                 ? AnimatedBuilder(
                     animation: _dots,
                     builder: (_, _) => Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                       for (final (i, c) in const [C.teal, C.magenta, C.gold].indexed) ...[
-                        if (i > 0) const SizedBox(width: 10),
+                        if (i > 0) const SizedBox(width: 8),
                         _dot(c, i),
                       ],
                     ]),
@@ -127,7 +127,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
       opacity: 0.25 + 0.75 * pulse,
       child: Transform.scale(
         scale: 0.85 + 0.25 * pulse,
-        child: Container(width: 12, height: 12, decoration: BoxDecoration(color: c, shape: BoxShape.circle)),
+        child: Container(width: 10, height: 10, decoration: BoxDecoration(color: c, shape: BoxShape.circle)),
       ),
     );
   }

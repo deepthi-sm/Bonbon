@@ -33,26 +33,36 @@
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#FBF8F3">
   <style>
-    /* Loading screen, shown until the app draws its first frame. The app then
-       shows the same screen (lib/screens/splash.dart) while it loads content,
-       so the hand-over is seamless. */
+    /* The one Bonbon loading screen. It appears the moment the page opens and
+       stays, with one continuous animation, until the app has loaded its
+       content and calls window.bonbonReady() (lib/loading/web_loader.dart);
+       then it fades once into the app. Android draws the same layout in
+       lib/screens/splash.dart — keep the two in step (sizes below). */
     html, body { margin: 0; height: 100%; background: #FBF8F3; }
     #splash {
+      --logo-w: min(70vw, 340px);          /* logo width                       */
+      --logo-h: calc(var(--logo-w) * .893); /* logo aspect (643 / 720)          */
       position: fixed; inset: 0; z-index: 10;
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      background: #FBF8F3; transition: opacity .35s ease;
+      background: #FBF8F3; transition: opacity .45s ease;
     }
     #splash.gone { opacity: 0; pointer-events: none; }
+    /* Logo exactly centred; shadow and dots hang below it. */
     #splash img {
-      width: min(70vw, 340px); height: auto;
+      position: absolute; left: 50%; top: 50%;
+      width: var(--logo-w); height: var(--logo-h);
+      margin-left: calc(var(--logo-w) / -2); margin-top: calc(var(--logo-h) / -2);
       animation: bonbon-float 1.8s ease-in-out infinite alternate;
     }
     #splash .shadow {
-      width: min(40vw, 190px); height: 16px; margin-top: 22px; border-radius: 50%;
-      background: rgba(31, 41, 55, .12);
+      position: absolute; left: 50%; top: calc(50% + var(--logo-h) / 2 + 22px);
+      width: calc(var(--logo-w) * .56); height: 16px; margin-left: calc(var(--logo-w) * -.28);
+      border-radius: 50%; background: rgba(31, 41, 55, .12);
       animation: bonbon-shadow 1.8s ease-in-out infinite alternate;
     }
-    #splash .dots { display: flex; gap: 10px; margin-top: 34px; }
+    #splash .dots {
+      position: absolute; left: 0; right: 0; top: calc(50% + var(--logo-h) / 2 + 72px);
+      display: flex; justify-content: center; gap: 10px;
+    }
     #splash .dots span {
       width: 12px; height: 12px; border-radius: 50%; background: #0A6B6B; opacity: .25;
       animation: bonbon-dot 1.2s ease-in-out infinite;
@@ -67,17 +77,27 @@
 </head>
 <body>
   <div id="splash" role="img" aria-label="Bonbon">
-    <img src="splash-logo.png" alt="Bonbon">
+    <img src="splash-logo.png" alt="Bonbon" fetchpriority="high">
     <div class="shadow"></div>
     <div class="dots"><span></span><span></span><span></span></div>
   </div>
   <script>
-    window.addEventListener('flutter-first-frame', function () {
-      var s = document.getElementById('splash');
-      if (!s) return;
-      s.classList.add('gone');
-      setTimeout(function () { s.remove(); }, 400);
-    });
+    (function () {
+      var done = false;
+      // Called by the app once its content is loaded and its first screen is drawn.
+      window.bonbonReady = function () {
+        if (done) return;
+        done = true;
+        console.log('[bonbon] ready after ' + Math.round(performance.now()) + ' ms');
+        var s = document.getElementById('splash');
+        if (!s) return;
+        s.classList.add('gone');
+        setTimeout(function () { s.remove(); }, 500);
+      };
+      // Safety net: never leave the loading screen up forever if start-up stalls,
+      // so the app's own retry message can be seen.
+      setTimeout(window.bonbonReady, 45000);
+    })();
   </script>
   <!--
     You can customize the "flutter_bootstrap.js" script.

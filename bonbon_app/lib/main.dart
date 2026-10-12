@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'data/content.dart';
+import 'loading/web_loader.dart';
 import 'screens/lesson_player.dart';
 import 'screens/onboarding.dart';
 import 'screens/shell.dart';
@@ -17,8 +18,13 @@ void main() {
   runApp(const Root());
 }
 
-/// Shows the floating-logo loading screen straight away, loads everything
-/// the app needs, then fades into the app.
+/// Start-up, with one loading screen from first paint to a ready app.
+///
+/// On the web, the loading screen in web/index.html is already up when this
+/// runs: the app loads underneath it, draws its first screen, then asks the
+/// page to fade the loading screen out (one animation, one fade). On Android
+/// the app shows the same loading screen itself (SplashScreen) and fades
+/// into the app.
 class Root extends StatefulWidget {
   const Root({super.key});
 
@@ -29,11 +35,13 @@ class Root extends StatefulWidget {
 class _RootState extends State<Root> {
   AppState? _state;
   String? _error;
+  final bool _web = hasWebLoader;
 
   @override
   void initState() {
     super.initState();
-    _load();
+    // After the first frame: _load uses the context (precacheImage).
+    WidgetsBinding.instance.addPostFrameCallback((_) => _load());
   }
 
   Future<void> _load() async {
@@ -43,34 +51,45 @@ class _RootState extends State<Root> {
         ContentRepo.load(),
         SharedPreferences.getInstance(),
         Speech.load(),
-        // Fonts and the logo, so the first screen doesn't flash in a fallback font.
+        // Fonts, so the first screen doesn't flash in a fallback font.
         // Capped so a slow font download never holds the loading screen.
         GoogleFonts.pendingFonts([GoogleFonts.plusJakartaSans(), GoogleFonts.playwriteFrModerne()])
             .timeout(const Duration(seconds: 3), onTimeout: () => const <void>[])
             .catchError((_) => const <void>[]),
-        // Keep the logo up long enough to read as a loading screen, not a flicker.
-        Future<void>.delayed(const Duration(milliseconds: 900)),
+        // Decode the logo now, so the first screen's top bar isn't drawn without it.
+        precacheImage(const AssetImage('assets/brand/logo.png'), context).catchError((_) {}),
+        // Android: keep the logo up long enough to read as a loading screen, not
+        // a flicker. On the web the page has shown it since the very start.
+        if (!_web) Future<void>.delayed(const Duration(milliseconds: 900)),
       ]);
       final state = AppState(results[0] as ContentRepo, results[1] as SharedPreferences, results[2] as Speech);
       _devStart = _devHome(state); // once, before the app's first frame
-      if (mounted) setState(() => _state = state);
+      if (!mounted) return;
+      setState(() => _state = state);
+      // Hide the web loading screen only once the app's first screen is on display.
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        WidgetsBinding.instance.addPostFrameCallback((_) => hideWebLoader());
+      });
     } catch (e) {
       debugPrint('startup failed: $e');
-      if (mounted) setState(() => _error = "Bonbon n'a pas pu démarrer. Touche pour réessayer.");
+      if (!mounted) return;
+      setState(() => _error = "Bonbon n'a pas pu démarrer. Touche pour réessayer.");
+      hideWebLoader(); // show the retry message
     }
   }
 
   @override
   Widget build(BuildContext context) {
     final state = _state;
+    final Widget loading = _web && _error == null
+        // The web page's loading screen covers this; just the same background.
+        ? const ColoredBox(key: ValueKey('loading'), color: C.canvas)
+        : SplashScreen(key: const ValueKey('splash'), error: _error, onRetry: _load);
+    final Widget app = state == null ? loading : AppScope(key: const ValueKey('app'), state: state, child: const BonbonApp());
     return Directionality(
       textDirection: TextDirection.ltr,
-      child: AnimatedSwitcher(
-        duration: const Duration(milliseconds: 450),
-        child: state == null
-            ? SplashScreen(key: const ValueKey('splash'), error: _error, onRetry: _load)
-            : AppScope(key: const ValueKey('app'), state: state, child: const BonbonApp()),
-      ),
+      // On the web the page's loading screen does the one fade; no second fade here.
+      child: _web ? app : AnimatedSwitcher(duration: const Duration(milliseconds: 450), child: app),
     );
   }
 }

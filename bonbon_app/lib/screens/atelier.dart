@@ -1,5 +1,6 @@
 import 'dart:ui' as ui;
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -7,6 +8,7 @@ import 'package:google_fonts/google_fonts.dart';
 import '../data/phrases.dart';
 import '../theme.dart';
 import '../widgets/common.dart';
+import 'trace_score.dart';
 
 /// Free practice, no progression: alphabet wall, digits, writing notebook.
 class Atelier extends StatelessWidget {
@@ -313,7 +315,8 @@ class _TraceCanvasState extends State<TraceCanvas> {
       app.say(P.traceEmpty);
       return;
     }
-    const scale = 0.25;
+    // Model and finger path on a half-resolution grid; see trace_score.dart.
+    const scale = 0.5;
     final w = (_size.width * scale).ceil(), h = (_size.height * scale).ceil();
     final rec = ui.PictureRecorder();
     final canvas = Canvas(rec)..scale(scale);
@@ -323,39 +326,27 @@ class _TraceCanvasState extends State<TraceCanvas> {
     final bytes = await img.toByteData(format: ui.ImageByteFormat.rawRgba);
     if (bytes == null || !mounted) return;
 
-    final ink = <int>{};
-    for (var y = 0; y < h; y++) {
-      for (var x = 0; x < w; x++) {
-        if (bytes.getUint8((y * w + x) * 4 + 3) > 60) ink.add(y * w + x);
-      }
-    }
-    Set<int> dilate(Iterable<int> cells, int r) => {
-          for (final c in cells)
-            for (var dy = -r; dy <= r; dy++)
-              for (var dx = -r; dx <= r; dx++)
-                if ((c % w) + dx >= 0 && (c % w) + dx < w && (c ~/ w) + dy >= 0 && (c ~/ w) + dy < h)
-                  c + dy * w + dx,
-        };
-    final user = <int>{};
+    final ink = [for (var i = 0; i < w * h; i++) bytes.getUint8(i * 4 + 3) > 100];
+    final path = <int>{};
     for (final s in _strokes) {
       for (var i = 0; i < s.length; i++) {
         final a = s[i], b = i + 1 < s.length ? s[i + 1] : s[i];
-        final steps = ((b - a).distance / 2).ceil().clamp(1, 200);
+        final steps = ((b - a).distance * scale).ceil().clamp(1, 400);
         for (var k = 0; k <= steps; k++) {
           final p = Offset.lerp(a, b, k / steps)! * scale;
           final x = p.dx.floor().clamp(0, w - 1), y = p.dy.floor().clamp(0, h - 1);
-          user.add(y * w + x);
+          path.add(y * w + x);
         }
       }
     }
-    final inkNear = dilate(ink, 3);
-    final userNear = dilate(user, 3);
-    final precision = user.where(inkNear.contains).length / user.length;
-    final coverage = ink.isEmpty ? 0.0 : ink.where(userNear.contains).length / ink.length;
-    final score = coverage * 0.6 + precision * 0.4;
-    final stars = score >= 0.78 ? 3 : score >= 0.58 ? 2 : score >= 0.35 ? 1 : 0;
-    setState(() => _stars = stars);
-    app.say(P.trace[stars]);
+    final result = scoreTrace(ink: ink, w: w, h: h, path: path, penRadius: _penWidth / 2 * scale);
+    if (kDebugMode) debugPrint('[trace] "${widget.model}" $result');
+    setState(() => _stars = result.stars);
+    app.say(switch (result.stars) {
+      3 => P.trace[3],
+      2 => P.trace[2],
+      _ => P.trace[0],
+    });
   }
 
   @override
@@ -410,12 +401,24 @@ class _TraceCanvasState extends State<TraceCanvas> {
             Icon(i < _stars! ? Icons.star_rounded : Icons.star_outline_rounded,
                 color: i < _stars! ? C.gold : C.locked, size: 44),
         ]),
+        const SizedBox(height: 4),
+        Text(
+          switch (_stars!) {
+            3 => context.tr('Très bien tracé !', 'Traced perfectly!'),
+            2 => context.tr('Presque ! Suis bien tout le modèle.', 'Almost! Follow the whole model.'),
+            _ => context.tr('Pas encore. Efface et réessaie sur le modèle gris.',
+                'Not yet. Clear and try again over the grey model.'),
+          },
+          textAlign: TextAlign.center,
+          style: TextStyle(
+              fontSize: 16, fontWeight: FontWeight.w700, color: _stars! >= 2 ? C.tealDark : C.magentaDark),
+        ),
       ],
       const SizedBox(height: 12),
       Row(children: [
         Expanded(
           child: PressButton.ghost(
-            label: context.tr('Effacer', 'Clear'),
+            label: _stars == 1 ? context.tr('Réessayer', 'Try again') : context.tr('Effacer', 'Clear'),
             icon: Icons.delete_outline_rounded,
             onTap: () => setState(() {
               _strokes.clear();
@@ -429,6 +432,8 @@ class _TraceCanvasState extends State<TraceCanvas> {
     ]);
   }
 }
+
+const double _penWidth = 12;
 
 class _TracePainter extends CustomPainter {
   final List<List<Offset>> strokes;
@@ -449,7 +454,7 @@ class _TracePainter extends CustomPainter {
     ghost.paint(canvas, origin(ghost));
     final pen = Paint()
       ..color = C.teal
-      ..strokeWidth = 12
+      ..strokeWidth = _penWidth
       ..strokeCap = StrokeCap.round
       ..strokeJoin = StrokeJoin.round
       ..style = PaintingStyle.stroke;

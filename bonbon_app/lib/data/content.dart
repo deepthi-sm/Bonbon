@@ -154,7 +154,18 @@ class ContentRepo {
   ContentRepo._(this.lessons, this.units, this.assetPaths, this.alphabet);
 
   static Future<ContentRepo> load() async {
-    Future<dynamic> read(String p) async => jsonDecode(await rootBundle.loadString(p));
+    // Retries: on a weak connection one of the many parallel requests can
+    // drop, and a single missing file must not stop the app from starting.
+    Future<dynamic> read(String p) async {
+      for (var attempt = 1;; attempt++) {
+        try {
+          return jsonDecode(await rootBundle.loadString(p, cache: false));
+        } catch (_) {
+          if (attempt >= 4) rethrow;
+          await Future<void>.delayed(Duration(milliseconds: 300 * attempt));
+        }
+      }
+    }
 
     // Fetch every file at once: on the web each one is a network request, and
     // loading the 56 lessons one after another took ~15 s on a slow connection.

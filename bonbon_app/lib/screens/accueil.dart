@@ -6,6 +6,7 @@ import '../theme.dart';
 import '../widgets/common.dart';
 import 'atelier.dart';
 import 'lesson_player.dart';
+import 'shell.dart';
 
 Color unitColor(UnitKind k) => switch (k) {
       UnitKind.vowels => C.teal,
@@ -58,8 +59,9 @@ class Accueil extends StatelessWidget {
     final app = context.app;
     final t = Theme.of(context).textTheme;
     final current = app.current;
-    final allDone = app.completed.length == app.repo.lessons.length;
+    final allDone = app.allDone;
     final started = app.resumeStep(current) > 0;
+    final digit = app.currentDigit;
     final known = [
       for (final l in app.repo.lessons)
         if (app.isDone(l) && l.keyword != null && l.illustrationId != null) l,
@@ -90,7 +92,16 @@ class Accueil extends StatelessWidget {
               ]),
             ),
             const SizedBox(height: 18),
-            _ContinueCard(lesson: current, started: started, allDone: allDone),
+            if (allDone)
+              const CompletionCard()
+            else ...[
+              _ContinueCard(lesson: current, started: started, allDone: false),
+              // Digits are their own track, so offer the next one alongside the letters.
+              if (digit != null && digit != current) ...[
+                const SizedBox(height: 12),
+                _NextDigit(lesson: digit),
+              ],
+            ],
             const SizedBox(height: 26),
             SectionTitle(context.tr('Activités rapides', 'Quick activities'), icon: Icons.bolt_rounded),
             const SizedBox(height: 12),
@@ -161,6 +172,100 @@ class Accueil extends StatelessWidget {
           ]),
         ),
       ],
+    );
+  }
+}
+
+/// Shown when every lesson is done: a trophy, then two ways to revise.
+class CompletionCard extends StatelessWidget {
+  /// False on the lessons screen, where the lessons are already there to pick.
+  final bool showPick;
+  const CompletionCard({super.key, this.showPick = true});
+
+  @override
+  Widget build(BuildContext context) {
+    final app = context.app;
+    final t = Theme.of(context).textTheme;
+    return Container(
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: C.goldSoft,
+        borderRadius: BorderRadius.circular(32),
+        border: Border.all(color: C.gold.withValues(alpha: 0.5), width: 1.5),
+      ),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        Row(children: [
+          Container(
+            width: 76,
+            height: 76,
+            decoration: const BoxDecoration(color: Colors.white, shape: BoxShape.circle),
+            child: const Icon(Icons.emoji_events_rounded, color: C.gold, size: 50),
+          ),
+          const SizedBox(width: 14),
+          Expanded(
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(context.tr('Syllabaire terminé !', 'Syllabaire complete!'),
+                  style: t.headlineSmall?.copyWith(color: C.goldDeep)),
+              Text(
+                  context.tr('Les 56 leçons et les 10 chiffres. Tu peux tout revoir.',
+                      'All 56 lessons and 10 digits. You can revise anything.'),
+                  style: t.bodySmall),
+            ]),
+          ),
+          const SpeakButton(P.allDone, size: 48, filled: false),
+        ]),
+        const SizedBox(height: 16),
+        PressButton.magenta(
+          label: context.tr('Recommencer depuis le début', 'Start again from lesson 1'),
+          icon: Icons.replay_rounded,
+          onTap: () => openLesson(context, app.repo.lessons.first),
+        ),
+        if (showPick) ...[
+          const SizedBox(height: 10),
+          PressButton.ghost(
+            label: context.tr('Choisir une leçon à revoir', 'Pick a lesson to revise'),
+            icon: Icons.grid_view_rounded,
+            onTap: () => Shell.goTo(context, 1),
+          ),
+        ] else ...[
+          const SizedBox(height: 10),
+          Text(context.tr('Ou touche une leçon ci-dessous pour la revoir.', 'Or tap any lesson below to revise it.'),
+              textAlign: TextAlign.center, style: t.bodySmall),
+        ],
+      ]),
+    );
+  }
+}
+
+class _NextDigit extends StatelessWidget {
+  final Lesson lesson;
+  const _NextDigit({required this.lesson});
+
+  @override
+  Widget build(BuildContext context) {
+    final en = context.app.english;
+    return Panel(
+      padding: const EdgeInsets.all(12),
+      onTap: () => openLesson(context, lesson),
+      child: Row(children: [
+        LessonTile(lesson, size: 56),
+        const SizedBox(width: 12),
+        Expanded(
+          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Text(context.tr('CHIFFRES', 'DIGITS'),
+                style: const TextStyle(color: C.goldDeep, fontWeight: FontWeight.w800, fontSize: 13, letterSpacing: 0.6)),
+            Text(lesson.titleIn(en), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w700)),
+          ]),
+        ),
+        SpeakButton(lesson.spokenName, size: 40, filled: false),
+        const SizedBox(width: 8),
+        Container(
+          width: 48,
+          height: 48,
+          decoration: const BoxDecoration(color: C.goldDeep, shape: BoxShape.circle),
+          child: const Icon(Icons.play_arrow_rounded, color: Colors.white, size: 30),
+        ),
+      ]),
     );
   }
 }

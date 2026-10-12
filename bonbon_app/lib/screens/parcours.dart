@@ -44,6 +44,10 @@ class _ParcoursState extends State<Parcours> {
 
     return CustomScrollView(slivers: [
       SliverToBoxAdapter(child: TopBar(page: context.tr('Leçons', 'Lessons'), spoken: P.path)),
+      if (app.allDone)
+        const SliverToBoxAdapter(
+          child: Padding(padding: EdgeInsets.fromLTRB(20, 8, 20, 4), child: CompletionCard(showPick: false)),
+        ),
       SliverToBoxAdapter(
         child: SizedBox(
           height: 64,
@@ -100,7 +104,10 @@ class _ParcoursState extends State<Parcours> {
               childAspectRatio: 0.92,
             ),
             itemCount: lessons.length,
-            itemBuilder: (context, i) => _LessonPage(lesson: lessons[i], isCurrent: lessons[i] == current),
+            itemBuilder: (context, i) => _LessonPage(
+              lesson: lessons[i],
+              isCurrent: !app.allDone && (lessons[i] == current || lessons[i] == app.currentDigit),
+            ),
           ),
         ),
       ],
@@ -135,6 +142,16 @@ class _UnitHeader extends StatelessWidget {
                   style: TextStyle(color: c, fontWeight: FontWeight.w800, fontSize: 13, letterSpacing: 0.6)),
               const SizedBox(height: 2),
               Text(unit.titleIn(en), style: Theme.of(context).textTheme.headlineMedium),
+              if (done == unit.lessons.length)
+                Row(children: [
+                  const Icon(Icons.emoji_events_rounded, color: C.gold, size: 20),
+                  const SizedBox(width: 4),
+                  Flexible(
+                    child: Text(
+                        context.tr('Unité terminée : touche une leçon pour la revoir', 'Unit complete: tap a lesson to revise it'),
+                        style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w700, color: C.goldDeep)),
+                  ),
+                ]),
             ]),
           ),
           SpeakButton(unit.spokenName(index), size: 48, filled: false),

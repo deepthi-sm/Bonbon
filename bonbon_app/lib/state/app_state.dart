@@ -35,15 +35,25 @@ class AppState extends ChangeNotifier {
   Set<String> get completed => (_p.getStringList('completed') ?? const []).toSet();
   bool isDone(Lesson l) => completed.contains(l.key);
 
+  /// Letters unlock one after another in the book's order. Digits are a
+  /// separate track, open from the start (0, then 1, then 2…), so numbers can
+  /// be learnt alongside the letters instead of only at the end.
   bool isUnlocked(Lesson l) {
-    if (unlockAll) return true;
-    final i = repo.lessons.indexOf(l);
-    return i == 0 || isDone(l) || isDone(repo.lessons[i - 1]);
+    if (unlockAll || isDone(l)) return true;
+    final track = repo.lessons.where((x) => x.isDigit == l.isDigit).toList();
+    final i = track.indexOf(l);
+    return i <= 0 || isDone(track[i - 1]);
   }
 
-  /// First lesson not yet completed, in path order.
+  /// Next letter lesson to do; once the letters are finished, the next digit.
   Lesson get current =>
-      repo.lessons.firstWhere((l) => !isDone(l), orElse: () => repo.lessons.last);
+      repo.lessons.firstWhere((l) => !l.isDigit && !isDone(l),
+          orElse: () => repo.lessons.firstWhere((l) => !isDone(l), orElse: () => repo.lessons.first));
+
+  /// Next digit to do, or null when all ten are done.
+  Lesson? get currentDigit => repo.lessons.where((l) => l.isDigit && !isDone(l)).firstOrNull;
+
+  bool get allDone => completed.length >= repo.lessons.length;
 
   int get wordsHeard => _p.getInt('heard') ?? 0;
   int get correctAnswers => _p.getInt('correct') ?? 0;
@@ -133,15 +143,14 @@ class AppState extends ChangeNotifier {
 /// is reported through [missing] so it can be fixed in the audio pack.
 class Speech {
   final Map<String, String> _files;
-  final AudioPlayer _player = AudioPlayer();
+  // Created on first playback, so start-up (and tests) don't touch the audio system.
+  late final AudioPlayer _player = AudioPlayer()..setReleaseMode(ReleaseMode.stop);
   bool slow = false;
   final ValueNotifier<String?> speaking = ValueNotifier(null);
   final ValueNotifier<String?> missing = ValueNotifier(null);
   int _seq = 0; // any new utterance cancels a running sayAll
 
-  Speech._(this._files) {
-    _player.setReleaseMode(ReleaseMode.stop);
-  }
+  Speech._(this._files);
 
   static Future<Speech> load() async {
     try {
@@ -170,6 +179,7 @@ class Speech {
       if (kDebugMode) debugPrint('[audio] missing clip: "$text"');
       return;
     }
+    _playerUsed = true;
     await _player.stop();
     final done = Completer<void>();
     late final StreamSubscription<void> sub;
@@ -200,9 +210,11 @@ class Speech {
     onIndex?.call(-1);
   }
 
+  bool _playerUsed = false;
+
   Future<void> stop() async {
     _seq++;
     speaking.value = null;
-    await _player.stop();
+    if (_playerUsed) await _player.stop();
   }
 }

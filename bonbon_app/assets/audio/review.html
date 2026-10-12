@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bonbon Audio Review</title>
+<style>
+  :root {
+    --bg:#fbfbfa; --fg:#1a1a1a; --muted:#6b6b6b; --rule:#e2e2e0;
+    --teal:#12655a; --teal-l:#e6f0ee; --mag:#d6006f; --mag-l:#fbe8f1;
+    --card:#fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg:#131313; --fg:#ececec; --muted:#9a9a9a; --rule:#2e2e2e;
+      --teal:#5fbfae; --teal-l:#13302c; --mag:#ff7ab8; --mag-l:#331622;
+      --card:#1c1c1c;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    padding:0 16px 64px}
+  header{max-width:900px;margin:0 auto;padding:28px 0 16px}
+  h1{margin:0 0 4px;font-size:22px;color:var(--teal)}
+  .sub{color:var(--muted);font-size:13px}
+  .bar{max-width:900px;margin:0 auto 14px;display:flex;gap:8px;flex-wrap:wrap;
+    position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:5;
+    border-bottom:1px solid var(--rule)}
+  input,select,button{font:inherit;padding:7px 10px;border:1px solid var(--rule);
+    border-radius:7px;background:var(--card);color:var(--fg)}
+  input{flex:1;min-width:160px}
+  button{cursor:pointer}
+  button.primary{background:var(--teal);color:#fff;border-color:var(--teal)}
+  .stats{max-width:900px;margin:0 auto 12px;color:var(--muted);font-size:13px}
+  ul{list-style:none;padding:0;margin:0 auto;max-width:900px}
+  li{display:flex;align-items:center;gap:10px;padding:8px 10px;
+    border:1px solid var(--rule);border-radius:8px;margin-bottom:6px;
+    background:var(--card)}
+  li.flagged{background:var(--mag-l);border-color:var(--mag)}
+  li.ok{opacity:.55}
+  .id{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;
+    color:var(--teal);min-width:190px;word-break:break-all}
+  .txt{flex:1;min-width:0}
+  .play{min-width:40px}
+  .mark{border:none;background:none;font-size:17px;padding:4px 6px;line-height:1}
+  .empty{max-width:900px;margin:40px auto;color:var(--muted);text-align:center}
+  @media (max-width:640px){ .id{min-width:0;width:100%} li{flex-wrap:wrap} }
+</style>
+</head>
+<body>
+<header>
+  <h1>Bonbon Audio Review</h1>
+  <div class="sub">Click ▶ to hear a clip. Mark ✗ for anything wrong — wrong
+    pronunciation, wrong word, noise, or a letter read as its name instead of
+    its sound. Then copy the flagged list and send it back.</div>
+</header>
+
+<div class="bar">
+  <input id="q" placeholder="filter by id or text…" autocomplete="off">
+  <select id="ns"><option value="">all namespaces</option></select>
+  <select id="state">
+    <option value="">all</option>
+    <option value="unseen">not yet heard</option>
+    <option value="flagged">flagged only</option>
+  </select>
+  <button id="copy" class="primary">Copy flagged</button>
+</div>
+
+<div class="stats" id="stats">loading…</div>
+<ul id="list"></ul>
+<div class="empty" id="empty" hidden>Nothing matches.</div>
+
+<script>
+const $ = s => document.querySelector(s);
+let rows = [], heard = new Set(), flagged = new Set();
+const player = new Audio();
+
+async function load() {
+  let ids = {}, texts = {};
+  try {
+    ids = await (await fetch('manifest-ids.json')).json();
+  } catch (e) {
+    $('#stats').textContent =
+      'Could not read manifest-ids.json. Serve this page from the audio ' +
+      'folder: python3 -m http.server 8000';
+    return;
+  }
+  try {
+    const t = await (await fetch('manifest.json')).json();
+    for (const [txt, file] of Object.entries(t)) texts[file] = txt;
+  } catch (e) { /* text map is optional */ }
+
+  rows = Object.entries(ids).map(([id, file]) => ({
+    id, file, text: texts[file] || '', ns: id.split('.')[0]
+  })).sort((a, b) => a.id.localeCompare(b.id));
+
+  const nss = [...new Set(rows.map(r => r.ns))].sort();
+  for (const n of nss) {
+    const o = document.createElement('option');
+    o.value = n; o.textContent = `${n} (${rows.filter(r => r.ns === n).length})`;
+    $('#ns').append(o);
+  }
+  render();
+}
+
+function visible() {
+  const q = $('#q').value.trim().toLowerCase();
+  const ns = $('#ns').value, st = $('#state').value;
+  return rows.filter(r => {
+    if (ns && r.ns !== ns) return false;
+    if (st === 'flagged' && !flagged.has(r.id)) return false;
+    if (st === 'unseen' && heard.has(r.id)) return false;
+    if (q && !(r.id.toLowerCase().includes(q) ||
+               r.text.toLowerCase().includes(q))) return false;
+    return true;
+  });
+}
+
+function render() {
+  const v = visible();
+  $('#stats').textContent =
+    `${rows.length} clips · ${heard.size} heard · ${flagged.size} flagged · ` +
+    `showing ${v.length}`;
+  $('#empty').hidden = v.length > 0;
+  const ul = $('#list');
+  ul.textContent = '';
+  for (const r of v.slice(0, 400)) {
+    const li = document.createElement('li');
+    li.className = flagged.has(r.id) ? 'flagged' : (heard.has(r.id) ? 'ok' : '');
+
+    const play = document.createElement('button');
+    play.className = 'play'; play.textContent = '▶';
+    play.onclick = () => {
+      player.src = r.file;
+      player.play();
+      heard.add(r.id);
+      render();
+    };
+
+    const id = document.createElement('span');
+    id.className = 'id'; id.textContent = r.id;
+
+    const txt = document.createElement('span');
+    txt.className = 'txt';
+    txt.textContent = r.text || '— no text (sound only) —';
+    if (!r.text) txt.style.color = 'var(--muted)';
+
+    const mark = document.createElement('button');
+    mark.className = 'mark';
+    mark.textContent = flagged.has(r.id) ? '✗' : '○';
+    mark.title = 'flag as wrong';
+    mark.onclick = () => {
+      flagged.has(r.id) ? flagged.delete(r.id) : flagged.add(r.id);
+      render();
+    };
+
+    li.append(play, id, txt, mark);
+    ul.append(li);
+  }
+  if (v.length > 400) {
+    const li = document.createElement('li');
+    li.textContent = `…and ${v.length - 400} more. Narrow the filter.`;
+    li.style.color = 'var(--muted)';
+    ul.append(li);
+  }
+}
+
+$('#q').oninput = render;
+$('#ns').onchange = render;
+$('#state').onchange = render;
+$('#copy').onclick = async () => {
+  const out = [...flagged].sort().join('\n');
+  try { await navigator.clipboard.writeText(out); $('#copy').textContent = 'Copied'; }
+  catch (e) { prompt('Flagged clips:', out); }
+  setTimeout(() => { $('#copy').textContent = 'Copy flagged'; }, 1500);
+};
+
+load();
+</script>
+</body>
+</html>

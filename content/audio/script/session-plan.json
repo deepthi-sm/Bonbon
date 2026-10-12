@@ -1,0 +1,60 @@
+{
+  "$comment": "NEW. Audio is the longest-lead item on the whole schedule (R-03). This is the plan that keeps it off the critical path.",
+  "principle": "Enregistrer par vagues, dans l'ordre où le code en a besoin. Rien n'est bloqué entre deux sessions parce que audioService.has() rend l'icône invisible tant que le clip n'existe pas (§H.6).",
+  "sessions": [
+    {
+      "n": 1,
+      "week": "4",
+      "title": "Le noyau phonique",
+      "content": "lettres (nom + son), syllabes, fusions, chiffres",
+      "clips": "327 (généré)",
+      "hours": "6–8",
+      "unblocks": "toute l'unité 1 et l'unité 2 deviennent audibles"
+    },
+    {
+      "n": 2,
+      "week": "5",
+      "title": "L'interface",
+      "content": "toutes les chaînes UI, la voix off d'accueil, la banque d'encouragements, les consignes",
+      "clips": "241 (généré)",
+      "hours": "4–5",
+      "unblocks": "l'application devient utilisable par une non-lectrice"
+    },
+    {
+      "n": 3,
+      "week": "7",
+      "title": "Les mots et les consignes de tracé",
+      "content": "les mots des 56 listes, les consignes de tracé",
+      "clips": "≈ 440 (22 générés + ≈ 420 mots)",
+      "hours": "5–6",
+      "unblocks": "listen-choose et missing-letter sur mots réels"
+    },
+    {
+      "n": 4,
+      "week": "9",
+      "title": "Phrases et textes",
+      "content": "les phrases des leçons 8–24, les 28 textes entiers et par phrase, les 4 dialogues à deux voix",
+      "clips": "≈ 470 (190 phrases + 278 textes)",
+      "hours": "7–9",
+      "unblocks": "l'unité 3 en entier"
+    },
+    {
+      "n": 5,
+      "week": "12",
+      "title": "Reprises",
+      "content": "corrections issues du test terrain, questions de compréhension validées par Batonga",
+      "clips": "≈ 120",
+      "hours": "2–3",
+      "note": "Toujours prévoir cette session. Il y a toujours des reprises."
+    }
+  ],
+  "contingency": {
+    "ifSlipping": "Livrer la v1 avec les sessions 1 et 2 seulement : lettres, syllabes, chiffres et interface. L'application reste pédagogiquement cohérente — c'est exactement le noyau du syllabaire — et les mots, phrases et textes arrivent par EAS Update sans passer par la revue des stores.",
+    "whyThisWorks": "Les icônes haut-parleur des mots n'apparaissent tout simplement pas tant que les clips n'existent pas. L'apprenante ne voit pas un manque, elle voit une application plus simple."
+  },
+  "budgeting": {
+    "studioHours": "24–31",
+    "editingHours": "≈ 1,5 × le temps de studio",
+    "reRecordReserve": "10 % des clips"
+  }
+}

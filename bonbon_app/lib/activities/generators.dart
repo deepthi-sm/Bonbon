@@ -10,6 +10,7 @@ import 'dart:math' as math;
 
 import '../data/content.dart';
 import '../data/phrases.dart';
+import 'confusion.dart';
 import 'contract.dart';
 import 'seed.dart';
 
@@ -22,23 +23,28 @@ typedef HasAudio = bool Function(String text);
 /// [blocks] — the same mapping as the switch in buildSteps
 /// (lib/screens/lesson_player.dart), plus syllable-build.
 ///
-/// A lesson may have several syllable drills (L08 has two). Listen-choose
-/// follows the first and syllable-build the last, so the same exercise never
-/// plays twice in a lesson; with one drill, both follow it.
+/// A lesson may have several syllable drills or word lists (L08 has two
+/// drills). Listen-choose follows the first, and syllable-build or
+/// missing-letter the last, so the same exercise never plays twice in a
+/// lesson; with one, both follow it.
 List<ActivitySpec> specsAfter(String stepKind, List<Block> blocks, Lesson lesson, ContentRepo repo, {HasAudio? hasAudio}) {
-  final drills = lesson.blocks.where((b) => b.type == 'syllable_drill');
+  final ofKind = lesson.blocks.where((b) => b.type == stepKind);
+  final first = ofKind.isNotEmpty && blocks.contains(ofKind.first);
+  final last = ofKind.isNotEmpty && blocks.contains(ofKind.last);
   final specs = switch (stepKind) {
     'grapheme' => [
         lesson.unit == UnitKind.graphemes ? graphemeSounds(lesson, repo, hasAudio: hasAudio) : tapIdentify(lesson, repo),
       ],
     'numeral_display' => [digitListen(lesson, repo, hasAudio: hasAudio)],
     'syllable_drill' => [
-        if (blocks.contains(drills.first))
+        if (first)
           listenChoose(lesson, P.promptSyllable, [for (final b in blocks) ...b.items()], variant: 'syllable', hasAudio: hasAudio),
-        if (blocks.contains(drills.last)) syllableBuild(lesson, repo, hasAudio: hasAudio),
+        if (last) syllableBuild(lesson, repo, hasAudio: hasAudio),
       ],
     'word_list' => [
-        listenChoose(lesson, P.promptWord, [for (final b in blocks) ...b.items()], variant: 'word', hasAudio: hasAudio),
+        if (first)
+          listenChoose(lesson, P.promptWord, [for (final b in blocks) ...b.items()], variant: 'word', hasAudio: hasAudio),
+        if (last) missingLetter(lesson, repo, hasAudio: hasAudio),
       ],
     _ => const <ActivitySpec?>[],
   };
@@ -195,7 +201,7 @@ ActivitySpec? syllableBuild(Lesson lesson, ContentRepo repo, {int rounds = 4, in
     final i = items.length;
     final rng = SeededRng(itemSeed(lesson.key, type.key, i));
     final v = s.text.substring(c.length);
-    final others = rng.shuffled(vowels.where((x) => x != v));
+    final others = rng.shuffled(vowels.where((x) => x != v)).take(tiles - 1).toList();
     final blend = blendOf(c, v);
     items.add(ActivityItem(
       index: i,
@@ -205,7 +211,74 @@ ActivitySpec? syllableBuild(Lesson lesson, ContentRepo repo, {int rounds = 4, in
       fixed: c,
       blend: hasAudio == null || hasAudio(blend) ? blend : null,
       answer: Choice(v, v),
-      options: rng.shuffled([v, ...others.take(tiles - 1)].map((x) => Choice(x, x))),
+      options: rng.shuffled([v, ...others].map((x) => Choice(x, x))),
+      // Every tile builds one of the lesson's own syllables, so it is recorded.
+      wrongSay: {
+        for (final x in others)
+          if (hasAudio == null || hasAudio(pool[vowels.indexOf(x)].speech)) x: pool[vowels.indexOf(x)].speech,
+      },
+    ));
+  }
+  return items.isEmpty ? null : ActivitySpec(lessonKey: lesson.key, type: type, items: items);
+}
+
+/// The missing-letter instruction (ui-strings.fr.json, missingLetter.prompt).
+/// Not recorded yet: add it to the recording script.
+const promptMissingLetter = 'Quelle lettre manque ?';
+
+/// missing-letter for vowel and consonant lessons (L01–L24): a word from
+/// this lesson's word list with one focus letter blanked. Tier 1: 3
+/// candidates, the blank on the focus letter, the whole word shown first.
+/// Up to [count] items.
+///
+/// Distractors are the letter's visual then auditory neighbours
+/// ([visualConfusion], [auditoryConfusion]), then other letters she has
+/// met, and two items in a row never offer the same pair. A wrong letter
+/// builds a wrong word, spoken before the right one when it is recorded:
+/// [hasAudio] decides, or with no check, the lesson's own words and syllables.
+ActivitySpec? missingLetter(Lesson lesson, ContentRepo repo, {int count = 4, int candidates = 3, HasAudio? hasAudio}) {
+  if (lesson.isDigit || lesson.unit == UnitKind.graphemes) return null;
+  const type = ActivityType.missingLetter;
+  final focus = lesson.targets.where((t) => t.length == 1).toList();
+  final seen = <String>{};
+  final words = [
+    for (final w in lesson.words)
+      if (!w.text.contains(' ') && focus.any(w.text.contains) && seen.add(w.text)) w,
+  ];
+  final letters = {...distractorLetters(lesson, repo), ...focus};
+  final own = {for (final x in [...lesson.words, ...lesson.syllables]) x.text.toLowerCase()};
+  bool recorded(String text) => hasAudio?.call(text) ?? own.contains(text.toLowerCase());
+
+  final order = SeededRng(fnv1a('${lesson.key}:${type.key}:order')).shuffled(words);
+  final items = <ActivityItem>[];
+  Set<String> previous = {};
+  for (final w in order) {
+    if (items.length == count) break;
+    if (hasAudio != null && !hasAudio(w.speech)) continue;
+    final i = items.length;
+    final rng = SeededRng(itemSeed(lesson.key, type.key, i));
+    final at = rng.pick([for (var k = 0; k < w.text.length; k++) if (focus.contains(w.text[k])) k]);
+    final a = w.text[at];
+    final near = rng.shuffled({...?visualConfusion[a], ...?auditoryConfusion[a]}.where(letters.contains));
+    final rest = rng.shuffled(letters.where((x) => !near.contains(x)));
+    final ranked = [...near, ...rest].where((x) => x != a).toList();
+    if (ranked.length < candidates - 1) continue;
+    var pick = ranked.take(candidates - 1).toList();
+    if (previous.isNotEmpty && pick.toSet().containsAll(previous) && ranked.length >= candidates) {
+      pick = [...pick.take(candidates - 2), ranked[candidates - 1]];
+    }
+    previous = pick.toSet();
+
+    String built(String x) => w.text.replaceRange(at, at + 1, x);
+    items.add(ActivityItem(
+      index: i,
+      prompt: promptMissingLetter,
+      target: w.text,
+      word: w.speech,
+      blankAt: at,
+      answer: Choice(a, a),
+      options: rng.shuffled([a, ...pick].map((x) => Choice(x, x))),
+      wrongSay: {for (final x in pick) if (recorded(built(x))) x: built(x)},
     ));
   }
   return items.isEmpty ? null : ActivitySpec(lessonKey: lesson.key, type: type, items: items);

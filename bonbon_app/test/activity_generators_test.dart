@@ -79,11 +79,90 @@ void main() {
     }
   });
 
+  group('missing-letter', () {
+    late Speech speech;
+    setUpAll(() async => speech = await Speech.load());
+
+    Iterable<Lesson> letterLessons() => repo.lessons.where((l) => l.unit == UnitKind.vowels || l.unit == UnitKind.consonants);
+    ActivitySpec? of(Lesson l, {HasAudio? hasAudio}) =>
+        specsFor(l, repo, hasAudio: hasAudio).where((s) => s.type == ActivityType.missingLetter).firstOrNull;
+    bool hasFocusWord(Lesson l) => l.words.any((w) => !w.text.contains(' ') && l.targets.any(w.text.contains));
+
+    test('every letter lesson with a word holding its letter gets one, and no other lesson does', () {
+      for (final l in repo.lessons) {
+        final expected = l.unit != UnitKind.graphemes && !l.isDigit && hasFocusWord(l);
+        expect(of(l) != null, expected, reason: l.key);
+      }
+    });
+
+    test('the blank is on the focus letter, and the answer is the letter under it', () {
+      for (final l in letterLessons()) {
+        for (final i in of(l)?.items ?? const <ActivityItem>[]) {
+          expect(i.target[i.blankAt!], i.answer.show, reason: '${l.key} ${i.target}');
+          expect(l.targets, contains(i.answer.show), reason: '${l.key} ${i.target}');
+          expect(i.options, hasLength(3), reason: 'tier 1: 3 candidates');
+        }
+      }
+    });
+
+    test('candidates are only letters she has met', () {
+      for (final l in letterLessons()) {
+        final allowed = {...repo.lettersTaughtThrough(l), ...earlyShapes};
+        for (final i in of(l)?.items ?? const <ActivityItem>[]) {
+          expect(allowed, containsAll(i.options.map((o) => o.show)), reason: '${l.key} ${i.target}');
+        }
+      }
+    });
+
+    test('a confusion-matrix neighbour is preferred when one has been taught', () {
+      // L11 (m): n (L10) is m's visual neighbour and is taught by then.
+      for (final i in of(repo.byKey('L11')!)!.items) {
+        expect(i.options.map((o) => o.show), contains('n'), reason: i.target);
+      }
+    });
+
+    test('two items in a row never offer the same pair of wrong letters', () {
+      for (final l in letterLessons()) {
+        final items = of(l)?.items ?? const <ActivityItem>[];
+        for (var k = 1; k < items.length; k++) {
+          Set<String> wrong(ActivityItem i) => {for (final o in i.options) if (!i.isCorrect(o)) o.show};
+          expect(wrong(items[k]), isNot(wrong(items[k - 1])), reason: '${l.key} items ${k - 1} and $k');
+        }
+      }
+    });
+
+    test('a wrong word is only spoken when it is recorded', () {
+      var spoken = 0;
+      for (final l in letterLessons()) {
+        for (final i in of(l, hasAudio: speech.has)?.items ?? const <ActivityItem>[]) {
+          expect(speech.has(i.heard), isTrue, reason: '${l.key} « ${i.heard} »');
+          for (final e in i.wrongSay.entries) {
+            expect(speech.has(e.value), isTrue, reason: '${l.key} « ${e.value} »');
+            expect(e.value, i.target.replaceRange(i.blankAt!, i.blankAt! + 1, e.key));
+            spoken++;
+          }
+        }
+      }
+      expect(spoken, greaterThan(0), reason: 'some wrong words are recorded, e.g. tu → nu');
+    });
+  });
+
   group('syllable-build', () {
     late Speech speech;
     setUpAll(() async => speech = await Speech.load());
 
     ActivitySpec? buildOf(Lesson l) => specsFor(l, repo).where((s) => s.type == ActivityType.syllableBuild).firstOrNull;
+
+    test('a wrong vowel says the syllable it built, which is always recorded', () {
+      for (final l in repo.lessons.where((l) => l.unit == UnitKind.consonants)) {
+        for (final i in buildOf(l)!.items) {
+          expect(i.wrongSay.keys.toSet(), {for (final o in i.options) if (!i.isCorrect(o)) o.show}, reason: '${l.key} ${i.target}');
+          for (final s in i.wrongSay.values) {
+            expect(speech.has(s), isTrue, reason: '${l.key} « $s »');
+          }
+        }
+      }
+    });
 
     test('every consonant lesson gets one, and no other lesson does', () {
       for (final l in repo.lessons) {

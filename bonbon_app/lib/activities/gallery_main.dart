@@ -76,7 +76,7 @@ class _ActivityGalleryState extends State<ActivityGallery> {
           ),
         ]),
         Text(lesson.title, style: t.bodySmall),
-        for (final s in specsFor(lesson, repo)) _SpecTile(s),
+        for (final s in specsFor(lesson, repo, hasAudio: context.app.speech.has)) _SpecTile(s),
       ]),
     );
   }

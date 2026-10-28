@@ -67,6 +67,12 @@ class ActivityItem {
   /// syllable-build: the blend spoken on success, « t … a … ta » (a recorded clip).
   final String? blend;
 
+  /// What she built with a wrong option, keyed by [Choice.show]: « to » for
+  /// o in syllable-build, « tonate » for n in missing-letter. Spoken before
+  /// the right answer (repair-ladder.json, wrongAnswerFeedback); only set
+  /// when that clip is recorded.
+  final Map<String, String> wrongSay;
+
   const ActivityItem({
     required this.index,
     required this.prompt,
@@ -78,6 +84,7 @@ class ActivityItem {
     this.blankAt,
     this.fixed,
     this.blend,
+    this.wrongSay = const {},
   });
 
   bool isCorrect(Choice c) => c.show == answer.show;

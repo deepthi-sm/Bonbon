@@ -110,7 +110,7 @@ void main() {
       if (k == 3) {
         expect(out.rung!.action, RepairAction.giveAndGo);
         expect(out.itemDone, isTrue);
-        expect(out.say, [RepairLadder.sayMoveOn]);
+        expect(out.say, ['ta', RepairLadder.sayMoveOn], reason: 'the right answer is always played');
       }
     }
     s.next();
@@ -127,6 +127,34 @@ void main() {
     s.next();
     expect(s.result.score, 1, reason: 'rung 1 costs nothing, and syllable-build gives partial credit');
     expect(s.result.items.single.target, 'ta');
+  });
+
+  test('a wrong option says what it built first, then the ladder with the right answer', () {
+    const spec = ActivitySpec(lessonKey: 'L08', type: ActivityType.missingLetter, items: [
+      ActivityItem(
+        index: 0,
+        prompt: 'Quelle lettre manque ?',
+        target: 'tu',
+        word: 'tu',
+        blankAt: 0,
+        answer: Choice('t', 't'),
+        options: [Choice('t', 't'), Choice('n', 'n'), Choice('o', 'o')],
+        wrongSay: {'n': 'nu'},
+      ),
+    ]);
+    final s = ChoiceSession(spec);
+    expect(s.askParts, ['Quelle lettre manque ?', 'tu']);
+    expect(s.tap(1)!.say, ['nu', RepairLadder.sayListenAgain, 'tu'], reason: '« nu », then « tu »');
+    expect(s.tap(2)!.say, [RepairLadder.sayOneOfTwo, 'tu'], reason: '« uo » is not recorded: nothing extra');
+  });
+
+  test('missing-letter has no partial credit: any hint scores 0', () {
+    final s = ChoiceSession(missingLetterL11);
+    s.tap(nextWrong(s));
+    s.tap(rightCells(s).single);
+    s.next();
+    expect(s.result.score, 0);
+    expect(s.result.reviewTargets, isEmpty, reason: 'only an answer given by the app goes to review');
   });
 
   test('finishing every item gives a full result', () {

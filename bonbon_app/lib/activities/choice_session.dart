@@ -74,6 +74,8 @@ class ChoiceSession {
     _wrong++;
     wrongCells.add(cell);
     final rung = RepairLadder.rungFor(_wrong);
+    final built = it.wrongSay[it.options[cell].show];
+    List<String> say() => [?built, ...RepairLadder.spokenFor(rung, it.heard)];
     switch (rung.action) {
       case RepairAction.replayTarget:
         break;
@@ -90,9 +92,9 @@ class ChoiceSession {
         modelShown = true;
       case RepairAction.giveAndGo:
         found.addAll(_correctCells);
-        return TapOutcome(correct: false, rung: rung, itemDone: _finishItem(), say: RepairLadder.spokenFor(rung, it.heard));
+        return TapOutcome(correct: false, rung: rung, itemDone: _finishItem(), say: say());
     }
-    return TapOutcome(correct: false, rung: rung, say: RepairLadder.spokenFor(rung, it.heard));
+    return TapOutcome(correct: false, rung: rung, say: say());
   }
 
   bool _finishItem() {

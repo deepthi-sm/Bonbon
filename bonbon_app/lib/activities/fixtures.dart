@@ -60,7 +60,7 @@ const syllableBuildL08 = ActivitySpec(lessonKey: 'L08', type: ActivityType.sylla
 const missingLetterL11 = ActivitySpec(lessonKey: 'L11', type: ActivityType.missingLetter, items: [
   ActivityItem(
     index: 0,
-    prompt: 'Écoute et touche le mot',
+    prompt: 'Quelle lettre manque ?',
     target: 'tomate',
     word: 'tomate',
     blankAt: 2,

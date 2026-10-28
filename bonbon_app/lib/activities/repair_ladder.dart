@@ -52,11 +52,13 @@ class RepairLadder {
   }
 
   /// What to say on [rung] for an item whose answer is spoken as [answer].
+  /// Every rung plays the right answer (repair-ladder.json: « On joue
+  /// TOUJOURS la bonne réponse »), rung 4 too, as it fills it in for her.
   static List<String> spokenFor(RepairRung rung, String answer) => switch (rung.action) {
         RepairAction.replayTarget => [sayListenAgain, answer],
         RepairAction.narrow => [sayOneOfTwo, answer],
         RepairAction.model => [sayLook, answer, sayListen, answer],
-        RepairAction.giveAndGo => [sayMoveOn],
+        RepairAction.giveAndGo => [answer, sayMoveOn],
       };
 
   /// Rung 2: the options still shown — the answer and one other, chosen

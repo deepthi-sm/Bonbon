@@ -6,12 +6,13 @@ import '../widgets/common.dart';
 import 'choice_session.dart';
 import 'contract.dart';
 
-/// tap-identify, listen-choose and syllable-build on screen, with the repair
-/// ladder. Same look as the prototype's ActivityView
+/// tap-identify, listen-choose, syllable-build and missing-letter on screen,
+/// with the repair ladder. Same look as the prototype's ActivityView
 /// (lib/screens/activities.dart); the rules live in [ChoiceSession].
 ///
-/// syllable-build adds the consonant tile and an empty slot: she drags a
-/// vowel into the slot, or simply taps it.
+/// syllable-build adds the consonant tile and an empty slot, missing-letter
+/// the word with a blank: she drags a tile into it, or simply taps it. A
+/// wrong tile shows in the slot while the word it built is spoken.
 class ChoiceActivity extends StatefulWidget {
   final ActivitySpec spec;
   final ValueChanged<ActivityResult> onComplete;
@@ -25,24 +26,46 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
   late final ChoiceSession _s = ChoiceSession(widget.spec);
   bool _reported = false;
 
+  /// missing-letter tier 1 (wordVisibleFirst): the whole word, before the blank.
+  bool _whole = false;
+
+  /// The wrong tile shown in the slot while what it built is spoken.
+  String? _tried;
+
+  bool get _missing => widget.spec.type == ActivityType.missingLetter;
+
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) => _ask());
+    WidgetsBinding.instance.addPostFrameCallback((_) => _ask(intro: true));
   }
 
-  void _ask() {
+  Future<void> _ask({bool intro = false}) async {
     if (!mounted || _s.finished) return;
-    context.app.speech.sayAll(_s.askParts);
+    final speech = context.app.speech;
+    if (intro && _missing && widget.spec.tier == 1) {
+      final at = _s.index;
+      setState(() => _whole = true);
+      await speech.sayAll([_s.item.heard]);
+      if (!mounted || _s.index != at) return;
+      setState(() => _whole = false);
+    }
+    await speech.sayAll(_s.askParts);
   }
 
   Future<void> _tap(int cell) async {
+    final tried = _s.item.options[cell].show;
     final out = _s.tap(cell);
     if (out == null) return;
-    setState(() {});
+    setState(() {
+      _whole = false;
+      _tried = out.correct ? null : tried;
+    });
     final app = context.app;
     await app.speech.sayAll(out.say);
-    if (!mounted || !out.itemDone) return;
+    if (!mounted) return;
+    if (_tried == tried) setState(() => _tried = null);
+    if (!out.itemDone) return;
     await Future.delayed(const Duration(milliseconds: 300));
     if (!mounted) return;
     setState(_s.next);
@@ -53,7 +76,7 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
       }
       app.say(P.found(_s.result.firstTryCount, _s.total));
     } else {
-      _ask();
+      _ask(intro: true);
     }
   }
 
@@ -76,7 +99,8 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
     final item = _s.item;
     final n = item.options.length;
     final build = widget.spec.type == ActivityType.syllableBuild;
-    final cols = build ? n.clamp(2, 4) : n == 4 ? 2 : 3;
+    final fill = build || _missing; // tiles go into a slot
+    final cols = fill ? n.clamp(2, 4) : n == 4 ? 2 : 3;
     return ListView(padding: const EdgeInsets.fromLTRB(20, 12, 20, 24), children: [
       Row(children: [
         for (var i = 0; i < _s.total; i++)
@@ -118,7 +142,19 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
         _BuildRow(
           consonant: item.fixed!,
           built: _s.found.isEmpty ? null : item.answer.show,
+          tried: _tried,
           model: widget.spec.tier == 1 ? item.target : null,
+          onDrop: _tap,
+        ),
+      ],
+      if (_missing) ...[
+        const SizedBox(height: 18),
+        _WordRow(
+          word: item.target,
+          blankAt: item.blankAt!,
+          filled: _whole || _s.found.isNotEmpty ? item.answer.show : null,
+          right: _s.found.isNotEmpty,
+          tried: _tried,
           onDrop: _tap,
         ),
       ],
@@ -129,10 +165,10 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
         physics: const NeverScrollableScrollPhysics(),
         mainAxisSpacing: 14,
         crossAxisSpacing: 14,
-        childAspectRatio: build || cols == 3 ? 0.95 : 1.35,
+        childAspectRatio: fill || cols == 3 ? 0.95 : 1.35,
         children: [
           for (var c = 0; c < n; c++)
-            if (build && _s.canTap(c))
+            if (fill && _s.canTap(c))
               _draggable(c, _Cell(item.options[c], state: _stateOf(c), onTap: () => _tap(c)))
             else
               _Cell(item.options[c], state: _stateOf(c), onTap: () => _tap(c)),
@@ -170,9 +206,10 @@ enum _CellState { idle, right, wrong, faded, model }
 class _BuildRow extends StatelessWidget {
   final String consonant;
   final String? built; // the vowel, once found
+  final String? tried; // a wrong vowel, while what it built is spoken
   final String? model;
   final ValueChanged<int> onDrop;
-  const _BuildRow({required this.consonant, required this.built, required this.model, required this.onDrop});
+  const _BuildRow({required this.consonant, required this.built, required this.tried, required this.model, required this.onDrop});
 
   @override
   Widget build(BuildContext context) {
@@ -195,7 +232,9 @@ class _BuildRow extends StatelessWidget {
           onAcceptWithDetails: (d) => onDrop(d.data),
           builder: (context, hovering, _) => built != null
               ? tile(built, bg: C.successSoft, border: C.success, width: 3)
-              : tile(null, bg: hovering.isEmpty ? C.canvas : C.goldSoft, border: hovering.isEmpty ? C.border : C.gold, width: 3),
+              : tried != null
+                  ? tile(tried, bg: C.canvas, border: C.locked, width: 3)
+                  : tile(null, bg: hovering.isEmpty ? C.canvas : C.goldSoft, border: hovering.isEmpty ? C.border : C.gold, width: 3),
         ),
       ]),
       if (model != null) ...[
@@ -207,6 +246,68 @@ class _BuildRow extends StatelessWidget {
         ]),
       ],
     ]);
+  }
+}
+
+/// missing-letter: the word with one letter replaced by a slot. The slot
+/// shows the answer while the whole word is presented and once found, and
+/// a wrong letter while the word it built is spoken.
+class _WordRow extends StatelessWidget {
+  final String word;
+  final int blankAt;
+  final String? filled;
+  final bool right;
+  final String? tried;
+  final ValueChanged<int> onDrop;
+  const _WordRow({
+    required this.word,
+    required this.blankAt,
+    required this.filled,
+    required this.right,
+    required this.tried,
+    required this.onDrop,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    const size = 50.0;
+    Widget text(String s, {Color color = C.ink}) => ScriptText(s, cursive: false, size: size, color: color);
+    final letter = filled ?? tried;
+    return Panel(
+      child: FittedBox(
+        fit: BoxFit.scaleDown,
+        child: Row(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.end, children: [
+          if (blankAt > 0) text(word.substring(0, blankAt)),
+          DragTarget<int>(
+            onAcceptWithDetails: (d) => onDrop(d.data),
+            builder: (context, hovering, _) {
+              final (bg, border) = right
+                  ? (C.successSoft, C.success)
+                  : filled != null
+                      ? (Colors.transparent, Colors.transparent)
+                      : tried != null
+                          ? (C.canvas, C.locked)
+                          : hovering.isEmpty
+                              ? (C.canvas, C.gold)
+                              : (C.goldSoft, C.gold);
+              return Container(
+                constraints: const BoxConstraints(minWidth: 48, minHeight: 68),
+                margin: const EdgeInsets.symmetric(horizontal: 3),
+                padding: const EdgeInsets.symmetric(horizontal: 4),
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  color: bg,
+                  borderRadius: BorderRadius.circular(12),
+                  border: Border.all(color: border, width: 3),
+                ),
+                child: letter == null ? null : text(letter, color: filled == null ? C.inkSoft : C.ink),
+              );
+            },
+          ),
+          if (blankAt + 1 < word.length) text(word.substring(blankAt + 1)),
+        ]),
+      ),
+    );
   }
 }
 

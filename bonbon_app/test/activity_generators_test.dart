@@ -30,7 +30,7 @@ void main() {
 
   test('every item has its answer among the options, and listen-choose options are distinct', () {
     for (final l in repo.lessons) {
-      for (final s in specsFor(l, repo)) {
+      for (final s in specsFor(l, repo).where((s) => s.type != ActivityType.trace)) {
         for (final i in s.items) {
           final hits = i.options.where(i.isCorrect).length;
           if (s.type == ActivityType.tapIdentify) {
@@ -77,6 +77,30 @@ void main() {
     for (final s in some) {
       expect(s.items.map((i) => i.target), isNot(contains('ta')), reason: s.id);
     }
+  });
+
+  group('trace', () {
+    ActivitySpec? of(Lesson l) => specsFor(l, repo).where((s) => s.type == ActivityType.trace).firstOrNull;
+
+    test('every vowel, consonant and digit lesson gets one, grapheme lessons don\'t', () {
+      for (final l in repo.lessons) {
+        expect(of(l) != null, l.unit != UnitKind.graphemes, reason: l.key);
+      }
+    });
+
+    test('only single glyphs, from the lesson\'s own writing practice, in the book\'s order', () {
+      for (final l in repo.lessons.where((l) => l.unit != UnitKind.graphemes)) {
+        final practised = {
+          for (final b in l.blocks)
+            if (b.type == 'writing_practice') ...b.items().map((i) => i.text),
+        };
+        for (final i in of(l)!.items) {
+          expect(i.target.length, 1, reason: '${l.key} ${i.target}');
+          expect(practised, contains(i.target), reason: l.key);
+        }
+      }
+      expect(of(repo.byKey('L01')!)!.items.map((i) => '${i.target}${i.answer.cursive ? '~' : ''}'), ['i', 'i~', 'I', 'I~']);
+    });
   });
 
   group('missing-letter', () {

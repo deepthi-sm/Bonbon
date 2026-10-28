@@ -16,6 +16,9 @@ Plan references: `BUILD_PLAN_v2.md` §J, §R.2, §U; specs in
 | `bonbon_app/lib/activities/confusion.dart` | the confusion matrix's visual and auditory tables (copy of the JSON pack, checked by `confusion_test.dart`) |
 | `bonbon_app/lib/activities/choice_session.dart` | rules of tap-identify / listen-choose / syllable-build / missing-letter with the repair ladder — pure Dart |
 | `bonbon_app/lib/activities/choice_activity.dart` | the screen for those four types |
+| `bonbon_app/lib/activities/trace_session.dart` | rules of trace: attempts, cues, never blocked — pure Dart |
+| `bonbon_app/lib/activities/trace_pad.dart` | the tracing canvas, measuring with the prototype's `scoreTrace` |
+| `bonbon_app/lib/activities/trace_activity.dart` | the screen for trace |
 | `bonbon_app/lib/activities/gallery_main.dart` | dev gallery: `flutter run -t lib/activities/gallery_main.dart -d chrome` |
 | `bonbon_app/test/activity_*_test.dart`, `choice_session_test.dart` | tests |
 
@@ -38,11 +41,12 @@ ActivityHost(spec: spec, onComplete: (r) => ..._correct += r.firstTryCount..., o
 | `listen-choose` | 0.75 | no | **built** on the contract: syllables, words, graphemes, digits; tier 1; repair ladder |
 | `syllable-build` | 0.60 | yes | **built**: L08–L24, tier 1 (4 rounds, 4 vowel tiles, written model); drag or tap a vowel next to the consonant; success plays the recorded blend « t … a … ta »; a wrong vowel first plays the syllable it built; repair ladder |
 | `missing-letter` | 0.70 | no | **built**: L01–L24 (lessons whose word list has a word with the focus letter), tier 1 (3 candidates, blank on the focus letter, whole word shown first); distractors from the confusion matrix, then taught letters; a wrong letter plays the wrong word when it is recorded, then the right one; repair ladder |
-| `trace` | 0.55 | yes | prototype canvas + coverage scoring; no direction/order yet |
+| `trace` | 0.55 | yes | **built** on the contract: vowel, consonant and digit lessons, the single glyphs of the writing practice (print, and cursive where the book asks), tier 1 (ghost). Prototype scoring (precision + coverage); 2★ or more finishes the letter; a low attempt gets a cue matched to what went wrong; after 3, the model lights up and she moves on. No start point / direction / stroke order yet |
 
 Item credit: with partial credit, `1 − hintCost` of the highest repair rung reached; without
-it, 1 only for a first-try answer. An item answered by the app (rung 4) scores 0 and its
-target goes to review. A result never blocks the next lesson.
+it, 1 only for a first-try answer. trace instead counts its measured quality (stars / 3).
+An item answered by the app (rung 4, or trace's third low attempt) scores 0 and its target
+goes to review. A result never blocks the next lesson.
 
 ## For Dev D (progress)
 
@@ -71,4 +75,14 @@ target goes to review. A result never blocks the next lesson.
 - Every rung of the repair ladder now plays the right answer, rung 4 included
   (repair-ladder.json: « On joue TOUJOURS la bonne réponse »).
 - missing-letter for grapheme lessons (L25+, blanking « ain » in « pain ») is not built yet.
+- Not recorded: « Écoute encore. », « Écoute bien. C'est l'un des deux. », « Regarde, c'est : »
+  (repair ladder rungs 1–3). « On continue. Tu la reverras. » and the trace cues are recorded.
+- trace: the rubric's « On réessaiera plus tard. » is not recorded, so after three attempts
+  the app says the letter and « On continue. Tu la reverras. » (recorded) instead.
+- trace: the canvas is a copy of the prototype's `TraceCanvas` (Dev A's `atelier.dart`,
+  untouched), because that one does not report its result. Once agreed, the atelier can
+  use `TracePad` and the copy goes.
+- trace: words of the writing practice (tête, mil) are not traced yet, only single glyphs.
+- A consonant lesson now has up to six activities (L08: tap-identify, listen-choose ×2,
+  syllable-build, missing-letter, trace) — check with the team that this isn't too long.
 - Trace direction/order needs per-glyph stroke paths (`GlyphSpec`, plan §H.7) from Dev A.

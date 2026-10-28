@@ -124,25 +124,48 @@ class ItemResult {
   final int itemIndex;
   final String target;
 
-  /// Wrong answers before the right one (0 = right on the first try).
+  /// Wrong answers before the right one (0 = right on the first try). For
+  /// trace: attempts that scored too low.
   final int wrongAttempts;
 
-  const ItemResult({required this.itemIndex, required this.target, required this.wrongAttempts})
-      : assert(wrongAttempts >= 0);
+  /// trace: how well the kept attempt was drawn, 0..1. Replaces the ladder credit.
+  final double? quality;
+
+  final bool? _givenByApp;
+
+  const ItemResult({
+    required this.itemIndex,
+    required this.target,
+    required this.wrongAttempts,
+    this.quality,
+    this._givenByApp,
+  })  : assert(wrongAttempts >= 0),
+        assert(quality == null || (quality >= 0 && quality <= 1));
 
   bool get firstTry => wrongAttempts == 0;
 
-  /// The app answered for her (repair ladder rung 4).
-  bool get givenByApp => wrongAttempts >= RepairLadder.rungs.length;
+  /// The app answered for her (repair ladder rung 4, or trace's last attempt).
+  bool get givenByApp => _givenByApp ?? wrongAttempts >= RepairLadder.rungs.length;
 
   /// Hint cost of the highest rung reached (repair-ladder.json).
   double get hintCost => wrongAttempts == 0 ? 0 : RepairLadder.rungFor(wrongAttempts).hintCost;
 
-  /// 0..1. With partial credit, hints cost what the ladder says; without it,
-  /// only a first-try answer counts.
-  double credit(ActivityType type) => type.partialCredit ? 1 - hintCost : (firstTry ? 1 : 0);
+  /// 0..1. An item the app answered scores 0. A measured [quality] counts as
+  /// is; otherwise, with partial credit, hints cost what the ladder says, and
+  /// without it only a first-try answer counts.
+  double credit(ActivityType type) {
+    if (givenByApp) return 0;
+    if (quality != null) return quality!;
+    return type.partialCredit ? 1 - hintCost : (firstTry ? 1 : 0);
+  }
 
-  Map<String, Object?> toJson() => {'item': itemIndex, 'target': target, 'wrong': wrongAttempts};
+  Map<String, Object?> toJson() => {
+        'item': itemIndex,
+        'target': target,
+        'wrong': wrongAttempts,
+        if (quality != null) 'quality': quality,
+        if (_givenByApp != null) 'given': _givenByApp,
+      };
 }
 
 enum SkipReason { user, timeout }

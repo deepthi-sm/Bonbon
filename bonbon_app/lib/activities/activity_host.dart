@@ -4,6 +4,7 @@ import '../theme.dart';
 import '../widgets/common.dart';
 import 'choice_activity.dart';
 import 'contract.dart';
+import 'trace_activity.dart';
 
 typedef ActivityBuilder = Widget Function(
   ActivitySpec spec,
@@ -19,7 +20,7 @@ final Map<ActivityType, ActivityBuilder> activityRegistry = {
   ActivityType.missingLetter: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done),
   ActivityType.syllableBuild: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done),
   ActivityType.tapIdentify: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done),
-  // ActivityType.trace: not built yet
+  ActivityType.trace: (spec, done, skip) => TraceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done),
 };
 
 /// Shows any registered activity from its spec (plan §E.2, task B2). The

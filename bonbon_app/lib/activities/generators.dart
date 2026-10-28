@@ -46,10 +46,16 @@ List<ActivitySpec> specsAfter(String stepKind, List<Block> blocks, Lesson lesson
           listenChoose(lesson, P.promptWord, [for (final b in blocks) ...b.items()], variant: 'word', hasAudio: hasAudio),
         if (last) missingLetter(lesson, repo, hasAudio: hasAudio),
       ],
+    'writing' => [trace(lesson, blocks)],
     _ => const <ActivitySpec?>[],
   };
   return specs.nonNulls.toList();
 }
+
+/// The step kind of a block, as buildSteps groups them: the handwriting demo
+/// and writing practice make one « writing » step.
+String stepKindOf(String blockType) =>
+    blockType == 'handwriting_demo' || blockType == 'writing_practice' ? 'writing' : blockType;
 
 /// Every activity generated for [lesson], in lesson order: what [specsAfter]
 /// gives for each run of same-kind blocks, as buildSteps groups them.
@@ -58,11 +64,12 @@ List<ActivitySpec> specsFor(Lesson lesson, ContentRepo repo, {HasAudio? hasAudio
   final seen = <String>{};
   final blocks = lesson.blocks;
   for (var i = 0; i < blocks.length;) {
+    final kind = stepKindOf(blocks[i].type);
     var j = i + 1;
-    while (j < blocks.length && blocks[j].type == blocks[i].type) {
+    while (j < blocks.length && stepKindOf(blocks[j].type) == kind) {
       j++;
     }
-    for (final s in specsAfter(blocks[i].type, blocks.sublist(i, j), lesson, repo, hasAudio: hasAudio)) {
+    for (final s in specsAfter(kind, blocks.sublist(i, j), lesson, repo, hasAudio: hasAudio)) {
       if (seen.add(s.id)) out.add(s);
     }
     i = j;
@@ -281,6 +288,38 @@ ActivitySpec? missingLetter(Lesson lesson, ContentRepo repo, {int count = 4, int
       wrongSay: {for (final x in pick) if (recorded(built(x))) x: built(x)},
     ));
   }
+  return items.isEmpty ? null : ActivitySpec(lessonKey: lesson.key, type: type, items: items);
+}
+
+/// trace for vowel, consonant and digit lessons: the single glyphs of the
+/// writing practice (i, I, 3…), in the book's order, each in print and, when
+/// the book asks for it, in cursive. Tier 1 (ghost; the start dots need
+/// stroke paths). Up to [count] items; words (tête, mil) are not traced yet.
+ActivitySpec? trace(Lesson lesson, List<Block> writing, {int count = 4}) {
+  if (lesson.unit == UnitKind.graphemes) return null;
+  const type = ActivityType.trace;
+  // An item without its own representations takes its block's (L01);
+  // TextItem would default it to print only, so read the source.
+  List<String> reps(Block b, int k) {
+    final own = ((b.raw['items'] as List)[k] as Map)['representations'] as List?;
+    return [...?(own ?? b.raw['representations'] as List?)?.cast<String>()];
+  }
+
+  final glyphs = [
+    for (final b in writing)
+      if (b.type == 'writing_practice')
+        for (final (k, it) in b.items().indexed)
+          if (it.text.length == 1) ...[
+            if (reps(b, k).contains('print') || reps(b, k).isEmpty) Choice(it.text, it.speech),
+            if (reps(b, k).contains('cursive')) Choice(it.text, it.speech, cursive: true),
+          ],
+  ];
+  final seen = <Choice>{};
+  final items = <ActivityItem>[
+    for (final g in glyphs)
+      if (seen.length < count && seen.add(g))
+        ActivityItem(index: seen.length - 1, prompt: P.traceEmpty, target: g.show, answer: g, listen: false),
+  ];
   return items.isEmpty ? null : ActivitySpec(lessonKey: lesson.key, type: type, items: items);
 }
 

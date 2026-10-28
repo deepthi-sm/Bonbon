@@ -12,19 +12,19 @@ Plan references: `BUILD_PLAN_v2.md` §J, §R.2, §U; specs in
 | `bonbon_app/lib/activities/repair_ladder.dart` | the four rungs, hint costs, spoken sentences, rung-2 narrowing |
 | `bonbon_app/lib/activities/activity_host.dart` | `activityRegistry` (append-only, alphabetical) + `ActivityHost` |
 | `bonbon_app/lib/activities/fixtures.dart` | one hand-made spec per MVP type |
-| `bonbon_app/lib/activities/generators.dart` | seeded specs from a lesson; `specAfter()` mirrors the switch in `buildSteps` |
-| `bonbon_app/lib/activities/choice_session.dart` | rules of tap-identify / listen-choose with the repair ladder — pure Dart |
-| `bonbon_app/lib/activities/choice_activity.dart` | the screen for those two types |
+| `bonbon_app/lib/activities/generators.dart` | seeded specs from a lesson; `specsAfter()` mirrors the switch in `buildSteps` |
+| `bonbon_app/lib/activities/choice_session.dart` | rules of tap-identify / listen-choose / syllable-build with the repair ladder — pure Dart |
+| `bonbon_app/lib/activities/choice_activity.dart` | the screen for those three types |
 | `bonbon_app/lib/activities/gallery_main.dart` | dev gallery: `flutter run -t lib/activities/gallery_main.dart -d chrome` |
 | `bonbon_app/test/activity_*_test.dart`, `choice_session_test.dart` | tests |
 
 The existing prototype (`lib/screens/activities.dart`, `atelier.dart`, `trace_score.dart`) is
-unchanged. Switching the lesson player over is two lines in `buildSteps` /
+unchanged. Switching the lesson player over is a few lines in `buildSteps` /
 `_LessonPlayerState._body` (Dev A's file), to agree first:
 
 ```dart
 // buildSteps: instead of the switch on Activity.recognise / Activity.listenChoose
-final spec = specAfter(s.kind, s.blocks, lesson, repo);
+for (final spec in specsAfter(s.kind, s.blocks, lesson, repo)) out.add(/* a step holding spec */);
 // _body: instead of ActivityView
 ActivityHost(spec: spec, onComplete: (r) => ..._correct += r.firstTryCount..., onSkip: (_) => _go(_i + 1))
 ```
@@ -35,7 +35,7 @@ ActivityHost(spec: spec, onComplete: (r) => ..._correct += r.firstTryCount..., o
 |---|---|---|---|
 | `tap-identify` | 0.80 | yes | **built** on the contract: tier 1, 6-cell grid, target ×2, repair ladder |
 | `listen-choose` | 0.75 | no | **built** on the contract: syllables, words, graphemes, digits; tier 1; repair ladder |
-| `syllable-build` | 0.60 | yes | not started |
+| `syllable-build` | 0.60 | yes | **built**: L08–L24, tier 1 (4 rounds, 4 vowel tiles, written model); drag or tap a vowel next to the consonant; success plays the recorded blend « t … a … ta »; repair ladder |
 | `missing-letter` | 0.70 | no | not started |
 | `trace` | 0.55 | yes | prototype canvas + coverage scoring; no direction/order yet |
 
@@ -57,4 +57,8 @@ target goes to review. A result never blocks the next lesson.
 - Tiers 2–3 (confusion-matrix distractors) are not built yet (task B9).
 
 - New spoken sentences (`RepairLadder.sentences`) need adding to the recording script.
+- syllable-build reuses the recorded prompt « Écoute et touche la syllabe ». A dedicated
+  « Écoute et construis la syllabe » would read better once recorded.
+- In a lesson with two syllable drills (e.g. L08), listen-choose follows the first and
+  syllable-build the last, so neither plays twice.
 - Trace direction/order needs per-glyph stroke paths (`GlyphSpec`, plan §H.7) from Dev A.

@@ -117,6 +117,18 @@ void main() {
     expect(s.results.single.givenByApp, isTrue);
   });
 
+  test('syllable-build: asks the syllable, replays the syllable, rewards with the blend', () {
+    final s = ChoiceSession(syllableBuildL08);
+    expect(s.askParts, ['Écoute et touche la syllabe', 'ta'], reason: 'she hears « ta », not the vowel « a »');
+    expect(s.tap(nextWrong(s))!.say, [RepairLadder.sayListenAgain, 'ta']);
+    final out = s.tap(rightCells(s).single)!;
+    expect(out.itemDone, isTrue);
+    expect(out.say.last, 't … a … ta');
+    s.next();
+    expect(s.result.score, 1, reason: 'rung 1 costs nothing, and syllable-build gives partial credit');
+    expect(s.result.items.single.target, 'ta');
+  });
+
   test('finishing every item gives a full result', () {
     final s = ChoiceSession(listenChooseL08);
     while (!s.finished) {

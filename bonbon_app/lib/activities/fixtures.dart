@@ -49,6 +49,7 @@ const syllableBuildL08 = ActivitySpec(lessonKey: 'L08', type: ActivityType.sylla
     target: 'ta',
     word: 'ta',
     fixed: 't',
+    blend: 't … a … ta',
     answer: Choice('a', 'a'),
     options: [Choice('i', 'i'), Choice('u', 'u'), Choice('o', 'o'), Choice('a', 'a')],
   ),

@@ -17,7 +17,7 @@ typedef ActivityBuilder = Widget Function(
 final Map<ActivityType, ActivityBuilder> activityRegistry = {
   ActivityType.listenChoose: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done),
   // ActivityType.missingLetter: not built yet
-  // ActivityType.syllableBuild: not built yet
+  ActivityType.syllableBuild: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done),
   ActivityType.tapIdentify: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done),
   // ActivityType.trace: not built yet
 };

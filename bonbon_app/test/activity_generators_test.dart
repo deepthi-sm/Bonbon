@@ -1,6 +1,7 @@
 import 'package:bonbon/activities/contract.dart';
 import 'package:bonbon/activities/generators.dart';
 import 'package:bonbon/data/content.dart';
+import 'package:bonbon/state/app_state.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
@@ -69,11 +70,67 @@ void main() {
 
   test('items with no recording are dropped when a check is given', () {
     final l08 = repo.byKey('L08')!;
-    final none = specAfter('syllable_drill', l08.blocks.where((b) => b.type == 'syllable_drill').toList(), l08, repo,
-        hasAudio: (_) => false);
-    expect(none, isNull, reason: 'a silent listening exercise is worse than a missing one');
-    final some = specAfter('syllable_drill', l08.blocks.where((b) => b.type == 'syllable_drill').toList(), l08, repo,
-        hasAudio: (t) => t != 'ta');
-    expect(some!.items.map((i) => i.target), isNot(contains('ta')));
+    final drills = l08.blocks.where((b) => b.type == 'syllable_drill').toList();
+    final none = specsAfter('syllable_drill', drills, l08, repo, hasAudio: (_) => false);
+    expect(none, isEmpty, reason: 'a silent listening exercise is worse than a missing one');
+    final some = specsAfter('syllable_drill', drills, l08, repo, hasAudio: (t) => t != 'ta');
+    for (final s in some) {
+      expect(s.items.map((i) => i.target), isNot(contains('ta')), reason: s.id);
+    }
+  });
+
+  group('syllable-build', () {
+    late Speech speech;
+    setUpAll(() async => speech = await Speech.load());
+
+    ActivitySpec? buildOf(Lesson l) => specsFor(l, repo).where((s) => s.type == ActivityType.syllableBuild).firstOrNull;
+
+    test('every consonant lesson gets one, and no other lesson does', () {
+      for (final l in repo.lessons) {
+        expect(buildOf(l) != null, l.unit == UnitKind.consonants, reason: l.key);
+      }
+    });
+
+    test('consonant + answer is the target, and every tile builds one of the lesson\'s own syllables', () {
+      for (final l in repo.lessons.where((l) => l.unit == UnitKind.consonants)) {
+        final own = l.syllables.map((s) => s.text).toSet();
+        final s = buildOf(l)!;
+        expect(s.items, hasLength(own.length < 4 ? own.length : 4), reason: '${l.key}: 4 rounds, or one per syllable');
+        for (final i in s.items) {
+          expect('${i.fixed}${i.answer.show}', i.target, reason: s.id);
+          for (final o in i.options) {
+            expect(own, contains('${i.fixed}${o.show}'), reason: '${s.id}: ${i.fixed}+${o.show}');
+          }
+        }
+      }
+    });
+
+    test('L21 (g) never offers a vowel that would build gi or ge', () {
+      for (final i in buildOf(repo.byKey('L21')!)!.items) {
+        expect(i.options.map((o) => o.show), everyElement(isIn(['a', 'o', 'u'])));
+      }
+    });
+
+    test('every blend sentence and every syllable has a recording', () {
+      for (final l in repo.lessons.where((l) => l.unit == UnitKind.consonants)) {
+        for (final i in buildOf(l)!.items) {
+          expect(speech.has(i.blend!), isTrue, reason: '${l.key}: « ${i.blend} »');
+          expect(speech.has(i.heard), isTrue, reason: '${l.key}: « ${i.heard} »');
+        }
+      }
+    });
+
+    test('a missing blend falls back to the syllable alone', () {
+      final s = syllableBuild(repo.byKey('L08')!, repo, hasAudio: (t) => !t.contains('…'))!;
+      expect(s.items.map((i) => i.blend), everyElement(isNull));
+    });
+
+    test('with two syllable drills, listen-choose follows the first and syllable-build the last', () {
+      final l08 = repo.byKey('L08')!;
+      final drills = l08.blocks.where((b) => b.type == 'syllable_drill').toList();
+      expect(drills, hasLength(2));
+      expect(specsAfter('syllable_drill', [drills.first], l08, repo).map((s) => s.type), [ActivityType.listenChoose]);
+      expect(specsAfter('syllable_drill', [drills.last], l08, repo).map((s) => s.type), [ActivityType.syllableBuild]);
+    });
   });
 }

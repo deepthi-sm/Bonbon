@@ -64,6 +64,9 @@ class ActivityItem {
   final int? blankAt;
   final String? fixed;
 
+  /// syllable-build: the blend spoken on success, « t … a … ta » (a recorded clip).
+  final String? blend;
+
   const ActivityItem({
     required this.index,
     required this.prompt,
@@ -74,9 +77,13 @@ class ActivityItem {
     this.word,
     this.blankAt,
     this.fixed,
+    this.blend,
   });
 
   bool isCorrect(Choice c) => c.show == answer.show;
+
+  /// What she hears as the target: the syllable or word to build, else the answer.
+  String get heard => word ?? answer.speech;
 }
 
 /// Everything an activity needs to run, with no reference to the rest of the app.

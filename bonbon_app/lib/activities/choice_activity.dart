@@ -6,9 +6,12 @@ import '../widgets/common.dart';
 import 'choice_session.dart';
 import 'contract.dart';
 
-/// tap-identify and listen-choose on screen, with the repair ladder. Same
-/// look as the prototype's ActivityView (lib/screens/activities.dart); the
-/// rules live in [ChoiceSession].
+/// tap-identify, listen-choose and syllable-build on screen, with the repair
+/// ladder. Same look as the prototype's ActivityView
+/// (lib/screens/activities.dart); the rules live in [ChoiceSession].
+///
+/// syllable-build adds the consonant tile and an empty slot: she drags a
+/// vowel into the slot, or simply taps it.
 class ChoiceActivity extends StatefulWidget {
   final ActivitySpec spec;
   final ValueChanged<ActivityResult> onComplete;
@@ -72,7 +75,8 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
 
     final item = _s.item;
     final n = item.options.length;
-    final cols = n == 4 ? 2 : 3;
+    final build = widget.spec.type == ActivityType.syllableBuild;
+    final cols = build ? n.clamp(2, 4) : n == 4 ? 2 : 3;
     return ListView(padding: const EdgeInsets.fromLTRB(20, 12, 20, 24), children: [
       Row(children: [
         for (var i = 0; i < _s.total; i++)
@@ -109,6 +113,15 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
               ? context.tr('Appuie sur le bouton rose pour réécouter.', 'Press the pink button to hear it again.')
               : context.tr('Appuie sur le bouton rose pour entendre la consigne.', 'Press the pink button to hear the instruction.'),
           style: t.bodySmall),
+      if (build) ...[
+        const SizedBox(height: 18),
+        _BuildRow(
+          consonant: item.fixed!,
+          built: _s.found.isEmpty ? null : item.answer.show,
+          model: widget.spec.tier == 1 ? item.target : null,
+          onDrop: _tap,
+        ),
+      ],
       const SizedBox(height: 18),
       GridView.count(
         crossAxisCount: cols,
@@ -116,13 +129,30 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
         physics: const NeverScrollableScrollPhysics(),
         mainAxisSpacing: 14,
         crossAxisSpacing: 14,
-        childAspectRatio: cols == 3 ? 0.95 : 1.35,
+        childAspectRatio: build || cols == 3 ? 0.95 : 1.35,
         children: [
-          for (var c = 0; c < n; c++) _Cell(item.options[c], state: _stateOf(c), onTap: () => _tap(c)),
+          for (var c = 0; c < n; c++)
+            if (build && _s.canTap(c))
+              _draggable(c, _Cell(item.options[c], state: _stateOf(c), onTap: () => _tap(c)))
+            else
+              _Cell(item.options[c], state: _stateOf(c), onTap: () => _tap(c)),
         ],
       ),
     ]);
   }
+
+  /// A vowel tile she can drag onto the slot; the dragged copy is the tile itself.
+  Widget _draggable(int c, Widget cell) => LayoutBuilder(
+        builder: (context, box) => Draggable<int>(
+          data: c,
+          feedback: Material(
+            color: Colors.transparent,
+            child: SizedBox(width: box.maxWidth, height: box.maxHeight, child: cell),
+          ),
+          childWhenDragging: Opacity(opacity: 0.3, child: cell),
+          child: cell,
+        ),
+      );
 
   _CellState _stateOf(int c) {
     if (_s.found.contains(c)) return _CellState.right;
@@ -134,6 +164,51 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
 }
 
 enum _CellState { idle, right, wrong, faded, model }
+
+/// syllable-build: the consonant, a slot for the vowel and, on tier 1, the
+/// written syllable as a model underneath.
+class _BuildRow extends StatelessWidget {
+  final String consonant;
+  final String? built; // the vowel, once found
+  final String? model;
+  final ValueChanged<int> onDrop;
+  const _BuildRow({required this.consonant, required this.built, required this.model, required this.onDrop});
+
+  @override
+  Widget build(BuildContext context) {
+    Widget tile(String? s, {required Color bg, required Color border, double width = 1.5}) => Container(
+          width: 96,
+          height: 104,
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            color: bg,
+            borderRadius: BorderRadius.circular(24),
+            border: Border.all(color: border, width: width),
+          ),
+          child: s == null ? null : ScriptText(s, cursive: false, size: 52, align: TextAlign.center),
+        );
+    return Column(children: [
+      Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+        tile(consonant, bg: C.tealSoft, border: C.teal, width: 3),
+        const SizedBox(width: 12),
+        DragTarget<int>(
+          onAcceptWithDetails: (d) => onDrop(d.data),
+          builder: (context, hovering, _) => built != null
+              ? tile(built, bg: C.successSoft, border: C.success, width: 3)
+              : tile(null, bg: hovering.isEmpty ? C.canvas : C.goldSoft, border: hovering.isEmpty ? C.border : C.gold, width: 3),
+        ),
+      ]),
+      if (model != null) ...[
+        const SizedBox(height: 10),
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          const Icon(Icons.visibility_rounded, color: C.inkSoft, size: 22),
+          const SizedBox(width: 8),
+          ScriptText(model!, cursive: false, size: 30, color: C.inkSoft),
+        ]),
+      ],
+    ]);
+  }
+}
 
 class _Cell extends StatelessWidget {
   final Choice o;

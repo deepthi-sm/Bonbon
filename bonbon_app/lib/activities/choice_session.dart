@@ -1,4 +1,5 @@
-/// The rules of a tap-identify / listen-choose activity, without the screen:
+/// The rules of a tap-identify / listen-choose / syllable-build activity
+/// (all three are "pick the right option"), without the screen:
 /// which cells are found, faded or highlighted, what to say, and when an
 /// item is done. The widget (choice_activity.dart) only draws this state and
 /// plays [TapOutcome.say]. Pure Dart, so every repair-ladder path is tested.
@@ -50,7 +51,7 @@ class ChoiceSession {
   ActivityResult get result => ActivityResult(spec, _results);
 
   /// What to say when the item is asked (and when the prompt is tapped).
-  List<String> get askParts => item.listen ? [item.prompt, item.answer.speech] : [item.prompt];
+  List<String> get askParts => item.listen ? [item.prompt, item.heard] : [item.prompt];
 
   Iterable<int> get _correctCells => [
         for (var c = 0; c < item.options.length; c++)
@@ -67,7 +68,7 @@ class ChoiceSession {
     if (it.isCorrect(it.options[cell])) {
       found.add(cell);
       if (found.length < _correctCells.length) return TapOutcome(correct: true, say: [it.answer.speech]);
-      return TapOutcome(correct: true, itemDone: _finishItem(), say: [_praise(), it.answer.speech]);
+      return TapOutcome(correct: true, itemDone: _finishItem(), say: [_praise(), it.blend ?? it.heard]);
     }
 
     _wrong++;
@@ -89,9 +90,9 @@ class ChoiceSession {
         modelShown = true;
       case RepairAction.giveAndGo:
         found.addAll(_correctCells);
-        return TapOutcome(correct: false, rung: rung, itemDone: _finishItem(), say: RepairLadder.spokenFor(rung, it.answer.speech));
+        return TapOutcome(correct: false, rung: rung, itemDone: _finishItem(), say: RepairLadder.spokenFor(rung, it.heard));
     }
-    return TapOutcome(correct: false, rung: rung, say: RepairLadder.spokenFor(rung, it.answer.speech));
+    return TapOutcome(correct: false, rung: rung, say: RepairLadder.spokenFor(rung, it.heard));
   }
 
   bool _finishItem() {

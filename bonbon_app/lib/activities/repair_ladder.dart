@@ -29,7 +29,9 @@ class RepairRung {
 }
 
 class RepairLadder {
-  static const sayListenAgain = 'Écoute encore.';
+  /// repair-ladder.json says « Écoute encore. »; this is the recorded line
+  /// from the team's repair bank (fb.repair.01, also P.repair[0]).
+  static const sayListenAgain = 'Pas encore. Écoute encore.';
   static const sayOneOfTwo = 'Écoute bien. C\'est l\'un des deux.';
   static const sayLook = 'Regarde, c\'est :';
   static const sayListen = 'Écoute :'; // same sentence as P.listenAgain

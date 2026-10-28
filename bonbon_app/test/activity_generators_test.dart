@@ -1,5 +1,6 @@
 import 'package:bonbon/activities/contract.dart';
 import 'package:bonbon/activities/generators.dart';
+import 'package:bonbon/activities/repair_ladder.dart';
 import 'package:bonbon/data/content.dart';
 import 'package:bonbon/state/app_state.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -77,6 +78,13 @@ void main() {
     for (final s in some) {
       expect(s.items.map((i) => i.target), isNot(contains('ta')), reason: s.id);
     }
+  });
+
+  test('repair ladder: which sentences are recorded', () async {
+    final speech = await Speech.load();
+    final missing = RepairLadder.sentences.where((s) => !speech.has(s)).toList();
+    // Rungs 2 and 3 still need recording (docs/activity-catalogue.md, open points).
+    expect(missing, unorderedEquals([RepairLadder.sayOneOfTwo, RepairLadder.sayLook]));
   });
 
   group('trace', () {

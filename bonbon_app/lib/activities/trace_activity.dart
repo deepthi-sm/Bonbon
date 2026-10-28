@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../theme.dart';
 import '../widgets/common.dart';
 import 'contract.dart';
+import 'feedback.dart';
 import 'trace_pad.dart';
 import 'trace_session.dart';
 
@@ -125,7 +126,13 @@ class _TraceActivityState extends State<TraceActivity> {
         key: _pad,
         glyph: item.answer.show,
         cursive: item.answer.cursive,
-        model: _s.modelShown,
+        mark: _s.modelShown
+            ? Mark.model
+            : _s.itemDone
+                ? Mark.right
+                : stars == 1
+                    ? Mark.tried
+                    : Mark.idle,
         onDraw: () {
           if (_s.stars != null && !_s.itemDone) setState(_s.clear);
         },

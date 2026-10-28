@@ -5,6 +5,7 @@ import '../theme.dart';
 import '../widgets/common.dart';
 import 'choice_session.dart';
 import 'contract.dart';
+import 'feedback.dart';
 
 /// tap-identify, listen-choose, syllable-build and missing-letter on screen,
 /// with the repair ladder. Same look as the prototype's ActivityView
@@ -190,16 +191,14 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
         ),
       );
 
-  _CellState _stateOf(int c) {
-    if (_s.found.contains(c)) return _CellState.right;
-    if (_s.wrongCells.contains(c)) return _CellState.wrong;
-    if (_s.faded.contains(c)) return _CellState.faded;
-    if (_s.modelShown && _s.item.isCorrect(_s.item.options[c])) return _CellState.model;
-    return _CellState.idle;
+  Mark _stateOf(int c) {
+    if (_s.found.contains(c)) return Mark.right;
+    if (_s.wrongCells.contains(c)) return Mark.tried;
+    if (_s.faded.contains(c)) return Mark.faded;
+    if (_s.modelShown && _s.item.isCorrect(_s.item.options[c])) return Mark.model;
+    return Mark.idle;
   }
 }
-
-enum _CellState { idle, right, wrong, faded, model }
 
 /// syllable-build: the consonant, a slot for the vowel and, on tier 1, the
 /// written syllable as a model underneath.
@@ -213,28 +212,36 @@ class _BuildRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Widget tile(String? s, {required Color bg, required Color border, double width = 1.5}) => Container(
-          width: 96,
-          height: 104,
-          alignment: Alignment.center,
-          decoration: BoxDecoration(
-            color: bg,
-            borderRadius: BorderRadius.circular(24),
-            border: Border.all(color: border, width: width),
-          ),
-          child: s == null ? null : ScriptText(s, cursive: false, size: 52, align: TextAlign.center),
-        );
+    const size = BoxConstraints.tightFor(width: 96, height: 104);
+    Widget letter(String s, {Color color = C.ink}) => ScriptText(s, cursive: false, size: 52, align: TextAlign.center, color: color);
+    final mark = built != null ? Mark.right : tried != null ? Mark.tried : Mark.idle;
     return Column(children: [
       Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-        tile(consonant, bg: C.tealSoft, border: C.teal, width: 3),
+        Container(
+          constraints: size,
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            color: C.tealSoft,
+            borderRadius: BorderRadius.circular(24),
+            border: Border.all(color: C.teal, width: 3),
+          ),
+          child: letter(consonant),
+        ),
         const SizedBox(width: 12),
         DragTarget<int>(
           onAcceptWithDetails: (d) => onDrop(d.data),
-          builder: (context, hovering, _) => built != null
-              ? tile(built, bg: C.successSoft, border: C.success, width: 3)
-              : tried != null
-                  ? tile(tried, bg: C.canvas, border: C.locked, width: 3)
-                  : tile(null, bg: hovering.isEmpty ? C.canvas : C.goldSoft, border: hovering.isEmpty ? C.border : C.gold, width: 3),
+          builder: (context, hovering, _) => Marked(
+            mark: mark,
+            constraints: size,
+            showIcon: false,
+            fill: hovering.isEmpty ? C.canvas : C.goldSoft,
+            border: hovering.isEmpty ? C.border : C.gold,
+            child: built != null
+                ? letter(built!)
+                : tried != null
+                    ? letter(tried!, color: MarkStyle.of(Mark.tried).ink)
+                    : const SizedBox.shrink(),
+          ),
         ),
       ]),
       if (model != null) ...[
@@ -280,29 +287,22 @@ class _WordRow extends StatelessWidget {
           if (blankAt > 0) text(word.substring(0, blankAt)),
           DragTarget<int>(
             onAcceptWithDetails: (d) => onDrop(d.data),
-            builder: (context, hovering, _) {
-              final (bg, border) = right
-                  ? (C.successSoft, C.success)
-                  : filled != null
-                      ? (Colors.transparent, Colors.transparent)
-                      : tried != null
-                          ? (C.canvas, C.locked)
-                          : hovering.isEmpty
-                              ? (C.canvas, C.gold)
-                              : (C.goldSoft, C.gold);
-              return Container(
+            builder: (context, hovering, _) => Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 3),
+              child: Marked(
+                mark: right ? Mark.right : filled == null && tried != null ? Mark.tried : Mark.idle,
+                radius: 12,
+                showIcon: false,
                 constraints: const BoxConstraints(minWidth: 48, minHeight: 68),
-                margin: const EdgeInsets.symmetric(horizontal: 3),
                 padding: const EdgeInsets.symmetric(horizontal: 4),
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  color: bg,
-                  borderRadius: BorderRadius.circular(12),
-                  border: Border.all(color: border, width: 3),
-                ),
-                child: letter == null ? null : text(letter, color: filled == null ? C.inkSoft : C.ink),
-              );
-            },
+                // While the whole word is shown, the slot is just a letter of it.
+                fill: filled != null ? Colors.transparent : hovering.isEmpty ? C.canvas : C.goldSoft,
+                border: filled != null ? Colors.transparent : C.gold,
+                child: letter == null
+                    ? const SizedBox(width: 40)
+                    : text(letter, color: filled == null ? MarkStyle.of(Mark.tried).ink : C.ink),
+              ),
+            ),
           ),
           if (blankAt + 1 < word.length) text(word.substring(blankAt + 1)),
         ]),
@@ -313,54 +313,25 @@ class _WordRow extends StatelessWidget {
 
 class _Cell extends StatelessWidget {
   final Choice o;
-  final _CellState state;
+  final Mark state;
   final VoidCallback onTap;
   const _Cell(this.o, {required this.state, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
-    // Never colour alone (plan §J.3): every state also has an icon or fades.
-    final (bg, border, icon) = switch (state) {
-      _CellState.right => (C.successSoft, C.success, Icons.check_circle_rounded),
-      _CellState.model => (C.goldSoft, C.gold, Icons.touch_app_rounded),
-      _CellState.wrong => (C.canvas, C.locked, Icons.hearing_rounded),
-      _CellState.faded || _CellState.idle => (C.surface, C.border, null),
-    };
     final long = o.show.length > 8;
-    return AnimatedOpacity(
-      duration: const Duration(milliseconds: 220),
-      opacity: state == _CellState.faded ? 0.25 : 1,
-      child: GestureDetector(
-        onTap: onTap,
-        child: AnimatedContainer(
-          duration: const Duration(milliseconds: 160),
-          decoration: BoxDecoration(
-            color: bg,
-            borderRadius: BorderRadius.circular(24),
-            border: Border.all(color: border, width: state == _CellState.idle || state == _CellState.faded ? 1.5 : 3),
-            boxShadow: const [BoxShadow(color: Color(0x141F2937), offset: Offset(0, 3))],
+    return GestureDetector(
+      onTap: onTap,
+      child: Marked(
+        mark: state,
+        shadow: true,
+        child: Padding(
+          padding: const EdgeInsets.all(10),
+          child: FittedBox(
+            fit: BoxFit.scaleDown,
+            child: ScriptText(o.show,
+                cursive: o.cursive, size: long ? 26 : 46, align: TextAlign.center, color: MarkStyle.of(state).ink),
           ),
-          child: Stack(children: [
-            Center(
-              child: Padding(
-                padding: const EdgeInsets.all(10),
-                child: FittedBox(
-                  fit: BoxFit.scaleDown,
-                  child: ScriptText(o.show,
-                      cursive: o.cursive,
-                      size: long ? 26 : 46,
-                      align: TextAlign.center,
-                      color: state == _CellState.wrong ? C.inkSoft : C.ink),
-                ),
-              ),
-            ),
-            if (icon != null)
-              Positioned(
-                right: 8,
-                top: 8,
-                child: Icon(icon, color: state == _CellState.right ? C.success : state == _CellState.model ? C.gold : C.inkSoft, size: 26),
-              ),
-          ]),
         ),
       ),
     );

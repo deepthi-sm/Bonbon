@@ -16,6 +16,7 @@ Plan references: `BUILD_PLAN_v2.md` §J, §R.2, §U; specs in
 | `bonbon_app/lib/activities/confusion.dart` | the confusion matrix's visual and auditory tables (copy of the JSON pack, checked by `confusion_test.dart`) |
 | `bonbon_app/lib/activities/choice_session.dart` | rules of tap-identify / listen-choose / syllable-build / missing-letter with the repair ladder — pure Dart |
 | `bonbon_app/lib/activities/choice_activity.dart` | the screen for those four types |
+| `bonbon_app/lib/activities/feedback.dart` | the feedback layer (B7): `Mark` (right, tried, model, faded, idle), its colour + icon, and `Marked`, which adds the motion — used by every activity |
 | `bonbon_app/lib/activities/trace_session.dart` | rules of trace: attempts, cues, never blocked — pure Dart |
 | `bonbon_app/lib/activities/trace_pad.dart` | the tracing canvas, measuring with the prototype's `scoreTrace` |
 | `bonbon_app/lib/activities/trace_activity.dart` | the screen for trace |
@@ -48,6 +49,21 @@ it, 1 only for a first-try answer. trace instead counts its measured quality (st
 An item answered by the app (rung 4, or trace's third low attempt) scores 0 and its target
 goes to review. A result never blocks the next lesson.
 
+## Feedback (plan §J.3, task B7)
+
+Every judgement is shown by `Marked` (feedback.dart) and spoken by the session's `say`, at
+the same moment:
+
+| Mark | Colour | Icon | Motion | Voice (e.g.) |
+|---|---|---|---|---|
+| right | green | check | small pop | praise, then the item / blend |
+| tried | grey (never red) | ear | gentle nudge | the wrong word built, then the repair rung |
+| model | gold | pointing hand | slow pulse | « … c'est : ta. Écoute : ta. » |
+| faded | see-through | — | fade | (rung 2) |
+
+There is no sound effect file, so the sound is the voice — no buzzer, ever. With the phone's
+"reduce motion" setting, nothing moves; the icon and the voice still carry the judgement.
+
 ## For Dev D (progress)
 
 `ActivityResult.toJson()` is the record to store. `firstTryCount` matches what
@@ -75,8 +91,10 @@ goes to review. A result never blocks the next lesson.
 - Every rung of the repair ladder now plays the right answer, rung 4 included
   (repair-ladder.json: « On joue TOUJOURS la bonne réponse »).
 - missing-letter for grapheme lessons (L25+, blanking « ain » in « pain ») is not built yet.
-- Not recorded: « Écoute encore. », « Écoute bien. C'est l'un des deux. », « Regarde, c'est : »
-  (repair ladder rungs 1–3). « On continue. Tu la reverras. » and the trace cues are recorded.
+- Not recorded: « Écoute bien. C'est l'un des deux. » and « Regarde, c'est : » (repair ladder
+  rungs 2–3; a test lists them). Rung 1 uses the recorded « Pas encore. Écoute encore. » from
+  the team's repair bank instead of the JSON's « Écoute encore. ». « On continue. Tu la
+  reverras. » and the trace cues are recorded.
 - trace: the rubric's « On réessaiera plus tard. » is not recorded, so after three attempts
   the app says the letter and « On continue. Tu la reverras. » (recorded) instead.
 - trace: the canvas is a copy of the prototype's `TraceCanvas` (Dev A's `atelier.dart`,

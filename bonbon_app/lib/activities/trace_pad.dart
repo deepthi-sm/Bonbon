@@ -6,20 +6,22 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../screens/trace_score.dart';
 import '../theme.dart';
+import 'feedback.dart';
 
 /// A ghosted model on ruled lines that she traces over with her finger. Same
 /// drawing and measuring as the prototype's TraceCanvas (lib/screens/atelier.dart),
 /// but the strokes and the check belong to the caller: [TracePadState.score]
 /// measures the ink, [TracePadState.clear] wipes it.
 ///
-/// [model] true lights the ghost in gold: the app showing her the letter.
+/// [mark] is the feedback on the whole pad (feedback.dart); [Mark.model]
+/// also lights the ghost in gold: the app showing her the letter.
 class TracePad extends StatefulWidget {
   final String glyph;
   final bool cursive;
-  final bool model;
+  final Mark mark;
   final double height;
   final VoidCallback? onDraw;
-  const TracePad({super.key, required this.glyph, this.cursive = false, this.model = false, this.height = 280, this.onDraw});
+  const TracePad({super.key, required this.glyph, this.cursive = false, this.mark = Mark.idle, this.height = 280, this.onDraw});
 
   @override
   State<TracePad> createState() => TracePadState();
@@ -82,15 +84,15 @@ class TracePadState extends State<TracePad> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    final model = widget.mark == Mark.model;
+    return SizedBox(
       height: widget.height,
-      decoration: BoxDecoration(
-        color: C.surface,
-        borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: widget.model ? C.gold : C.border, width: widget.model ? 3 : 1.5),
-      ),
-      clipBehavior: Clip.antiAlias,
-      child: LayoutBuilder(builder: (context, box) {
+      child: Marked(
+        mark: widget.mark,
+        fill: C.surface,
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(21),
+          child: LayoutBuilder(builder: (context, box) {
         _size = Size(box.maxWidth, box.maxHeight);
         // As in TraceCanvas: claim the pointer on touch-down so strokes in any
         // direction draw instead of scrolling the page.
@@ -114,13 +116,15 @@ class TracePadState extends State<TracePad> {
               size: _size,
               painter: _PadPainter(
                 strokes: _strokes,
-                ghost: _ghost(_size, widget.model ? C.gold : C.tealMid.withValues(alpha: 0.75)),
+                ghost: _ghost(_size, model ? C.gold : C.tealMid.withValues(alpha: 0.75)),
                 origin: (tp) => _origin(tp, _size),
               ),
             ),
           ),
         );
-      }),
+          }),
+        ),
+      ),
     );
   }
 }

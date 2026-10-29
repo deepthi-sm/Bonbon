@@ -73,7 +73,7 @@ void main() {
           for (final i in s.items) {
             final why = '${s.id} tier $tier « ${i.target} »';
             final shown = switch ((s.type, s.variant)) {
-              (ActivityType.tapIdentify, _) => i.options.map((o) => o.speech),
+              (ActivityType.tapIdentify, _) => i.options.map((o) => o.show.toLowerCase()),
               (ActivityType.listenChoose, 'syllable' || 'word') => const <String>[], // checked against `own` below
               (ActivityType.trace, _) => [i.answer.show.toLowerCase()],
               _ => i.options.map((o) => o.show),
@@ -192,12 +192,13 @@ void main() {
     Iterable<Lesson> letterLessons() => repo.lessons.where((l) => l.unit == UnitKind.vowels || l.unit == UnitKind.consonants);
     ActivitySpec? of(Lesson l, {HasAudio? hasAudio}) =>
         specsFor(l, repo, hasAudio: hasAudio).where((s) => s.type == ActivityType.missingLetter).firstOrNull;
-    bool hasFocusWord(Lesson l) => l.words.any((w) => !w.text.contains(' ') && l.targets.any(w.text.contains));
+    bool hasFocusWord(Lesson l) => l.words.any((w) => l.targets.any(w.text.contains)); // words and phrases
 
     test('every letter lesson with a word holding its letter gets one, once 3 letters are taught', () {
       for (final l in repo.lessons) {
         final enough = ledgerAt(l.key).where((x) => x.length == 1).length >= 3; // the answer + 2 candidates
-        final expected = l.unit != UnitKind.graphemes && !l.isDigit && hasFocusWord(l) && enough;
+        if (l.unit == UnitKind.graphemes) continue; // see the grapheme tests below
+        final expected = !l.isDigit && hasFocusWord(l) && enough;
         expect(of(l) != null, expected, reason: l.key);
       }
       expect(of(repo.byKey('L02')!), isNull, reason: 'only i and u are taught: no second candidate');
@@ -211,6 +212,43 @@ void main() {
           expect(i.options, hasLength(3), reason: 'tier 1: 3 candidates');
         }
       }
+    });
+
+    test('grapheme lessons blank a whole grapheme, only where it stands on its own', () {
+      var n = 0;
+      for (final l in repo.lessons.where((l) => l.unit == UnitKind.graphemes)) {
+        for (final i in of(l)?.items ?? const <ActivityItem>[]) {
+          final g = i.answer.show;
+          expect(i.target.substring(i.blankAt!, i.blankAt! + i.blankLength), g, reason: '${l.key} ${i.target}');
+          expect(graphemeSpots(i.target, g), contains(i.blankAt), reason: '${l.key} ${i.target}');
+          expect(i.options.every((o) => (o.show.length > 1) == (g.length > 1)), isTrue, reason: '${l.key}: a letter among letters, a grapheme among graphemes');
+          n++;
+        }
+      }
+      expect(n, greaterThan(40));
+    });
+
+    test('where two graphemes overlap, the longer one is blanked (« noix » → oix)', () {
+      final l30 = repo.byKey('L30')!;
+      for (var tier = 1; tier <= 3; tier++) {
+        for (final i in missingLetter(l30, tier: tier)?.items ?? const <ActivityItem>[]) {
+          if (i.target.contains('noix')) expect(i.answer.show, isNot('oi'), reason: 'tier $tier ${i.target}');
+        }
+      }
+      final words = {for (final i in missingLetter(l30)!.items) i.target: i.answer.show};
+      expect(words.entries.where((e) => e.key.contains('oix')).every((e) => e.value == 'oix'), isTrue, reason: '$words');
+    });
+
+    test('grapheme spots: « ain » in pain, never « in » or « ai »; « an » not in banane', () {
+      expect(graphemeSpots('pain', 'ain'), [1]);
+      expect(graphemeSpots('pain', 'in'), isEmpty);
+      expect(graphemeSpots('pain', 'ai'), isEmpty);
+      expect(graphemeSpots('banane', 'an'), isEmpty);
+      expect(graphemeSpots('maman', 'an'), [3]);
+      expect(graphemeSpots('maman', 'am'), isEmpty);
+      expect(graphemeSpots('petit', 'et'), isEmpty);
+      expect(graphemeSpots('bonnet', 'et'), [4]);
+      expect(graphemeSpots('vache', 'ch'), [2]);
     });
 
     test('tier 3 may blank any letter she has met, not only the focus', () {
@@ -251,7 +289,7 @@ void main() {
           expect(speech.has(i.heard), isTrue, reason: '${l.key} « ${i.heard} »');
           for (final e in i.wrongSay.entries) {
             expect(speech.has(e.value), isTrue, reason: '${l.key} « ${e.value} »');
-            expect(e.value, i.target.replaceRange(i.blankAt!, i.blankAt! + 1, e.key));
+            expect(e.value, i.target.replaceRange(i.blankAt!, i.blankAt! + i.blankLength, e.key));
             spoken++;
           }
         }

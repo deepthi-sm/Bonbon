@@ -18,6 +18,8 @@ Plan references: `BUILD_PLAN_v2.md` §J, §R.2, §U; specs in
 | `bonbon_app/lib/activities/choice_session.dart` | rules of tap-identify / listen-choose / syllable-build / missing-letter with the repair ladder — pure Dart |
 | `bonbon_app/lib/activities/choice_activity.dart` | the screen for those four types |
 | `bonbon_app/lib/activities/feedback.dart` | the feedback layer (B7): `Mark` (right, tried, model, faded, idle), its colour + icon, and `Marked`, which adds the motion — used by every activity |
+| `bonbon_app/lib/activities/assessment.dart` | Bilan + checkpoints: blueprints, builders, result (B11) — pure Dart |
+| `bonbon_app/lib/activities/assessment_host.dart` | the screen that plays one, never a gate |
 | `bonbon_app/lib/activities/trace_session.dart` | rules of trace: attempts, cues, never blocked — pure Dart |
 | `bonbon_app/lib/activities/trace_pad.dart` | the tracing canvas, measuring with the prototype's `scoreTrace` |
 | `bonbon_app/lib/activities/trace_activity.dart` | the screen for trace |
@@ -68,6 +70,28 @@ it, 1 only for a first-try answer. trace instead counts its measured quality (st
 An item answered by the app (rung 4, or trace's third low attempt) scores 0 and its target
 goes to review. A result never blocks the next lesson.
 
+## Bilan and checkpoints (plan §U.5, task B11)
+
+`assessment.dart` (pure Dart) + `assessment_host.dart` (screen). Blueprints copied from
+`bilan-blueprints.json` / `checkpoints.json`, checked by `assessment_test.dart`.
+
+- `bilanFor(lesson, repo)`: the archetype's mix (vowel 2 tap + 1 listen + 1 trace;
+  consonant 2 listen + 2 syllable-build + 1 missing-letter; grapheme 2 listen + 2
+  missing-letter + 1 comprehension; numeral 1 tap + 2 listen + 1 trace), drawn at tier 2
+  with a fresh seed, only items on what this lesson introduces (its ledger additions).
+  A part with fewer items shortens the Bilan; L43 and L47 introduce nothing new, so no Bilan.
+- `checkpointAfter(lesson, repo)`: CP1 after L07, CP2 after L24, CP3a–d after L32/40/48/56,
+  CP4 after N9. Each part spreads its items over every lesson covered.
+- `AssessmentResult`: score over every planned item (a skipped part counts 0). ≥ 0.7 →
+  « Bien lu » or the checkpoint's celebration; below, the weak targets go to review and
+  « Revoir maintenant » is offered beside « Continuer ». It never blocks anything.
+- For Dev A: the prototype's `BilanStep` can show `AssessmentHost(assessment: bilanFor(...))`;
+  for Dev D: `AssessmentResult.toJson()` and `reviewTargets`.
+
+Also added for these: tap-identify on digits (hear « trois », touch every 3) and
+missing-letter on graphemes (« dem_ » = ain), blanking a grapheme only where it stands on its
+own (never « in » inside « pain », never « oi » inside « noix »).
+
 ## Feedback (plan §J.3, task B7)
 
 Every judgement is shown by `Marked` (feedback.dart) and spoken by the session's `say`, at
@@ -112,7 +136,17 @@ There is no sound effect file, so the sound is the voice — no buzzer, ever. Wi
   to decide with whoever owns the audio.
 - Every rung of the repair ladder now plays the right answer, rung 4 included
   (repair-ladder.json: « On joue TOUJOURS la bonne réponse »).
-- missing-letter for grapheme lessons (L25+, blanking « ain » in « pain ») is not built yet.
+- Comprehension (grapheme Bilan, CP3a–d) has no questions until Batonga writes them
+  (comprehension.json); those parts are left out, as the blueprint allows.
+- Celebrations: CP1, CP2 and CP4 speak the team's recorded lines (worded slightly
+  differently from checkpoints.json); CP3a–d's lines and « Bien lu » are written only, not
+  recorded.
+- Lessons whose target is a rule (« qu = k = c », « ph = f », « tion = sion ») have no
+  sound listening: « qu », « ph », « th », « sion », « ç » alone are not recorded.
+- missing-letter now also takes short phrases (« un poiss_ »), not only single words.
+- The missing-letter prompt « Quelle lettre manque ? » is also used when a grapheme is
+  missing; « Quel son manque ? » would fit better, once written and recorded.
+- Which Bilan items count toward « weak »: below their activity type's own pass mark.
 - Not recorded: « Écoute bien. C'est l'un des deux. » and « Regarde, c'est : » (repair ladder
   rungs 2–3; a test lists them). Rung 1 uses the recorded « Pas encore. Écoute encore. » from
   the team's repair bank instead of the JSON's « Écoute encore. ». « On continue. Tu la

@@ -44,7 +44,10 @@ List<ActivitySpec> specsAfter(String stepKind, List<Block> blocks, Lesson lesson
             ? graphemeSounds(lesson, tier: tier, hasAudio: hasAudio)
             : tapIdentify(lesson, tier: tier),
       ],
-    'numeral_display' => [digitListen(lesson, repo, tier: tier, hasAudio: hasAudio)],
+    'numeral_display' => [
+        digitTapIdentify(lesson, repo, tier: tier),
+        digitListen(lesson, repo, tier: tier, hasAudio: hasAudio),
+      ],
     'syllable_drill' => [
         if (first && tier < 3)
           listenChoose(lesson, P.promptSyllable, [for (final b in blocks) ...b.items()],
@@ -90,6 +93,10 @@ List<ActivitySpec> specsFor(Lesson lesson, ContentRepo repo, {int tier = 1, HasA
 
 String _seedKey(ActivityType t, String? variant) => variant == null ? t.key : '${t.key}/$variant';
 
+/// The key items are seeded from: the lesson, or with [salt] a fresh draw
+/// for the same lesson (the Bilan's « fresh seed », bilan-blueprints.json).
+String _seed(Lesson lesson, String? salt) => salt == null ? lesson.key : '${lesson.key}#$salt';
+
 /// [pool] with the confusion-matrix neighbours of [answer] first when
 /// [near], each group shuffled by [rng]; never [answer] itself.
 List<T> rankDistractors<T>(T answer, Iterable<T> pool, SeededRng rng, {required bool near, required bool Function(T) isNear}) {
@@ -123,7 +130,7 @@ bool soundsNear(String a, String b) {
 /// from the same block; from tier 2 the options that sound nearest come
 /// first. Up to [count] items; null when the block has fewer than 3.
 ActivitySpec? listenChoose(Lesson lesson, String prompt, List<TextItem> source,
-    {String? variant, int tier = 1, int count = 4, HasAudio? hasAudio}) {
+    {String? variant, int tier = 1, int count = 4, HasAudio? hasAudio, String? salt}) {
   const type = ActivityType.listenChoose;
   final seen = <String>{};
   final pool = [
@@ -135,14 +142,14 @@ ActivitySpec? listenChoose(Lesson lesson, String prompt, List<TextItem> source,
   final key = _seedKey(type, variant);
 
   // Which items are asked, and in what order.
-  final targets = SeededRng(fnv1a('${lesson.key}:$key:order')).shuffled(pool);
+  final targets = SeededRng(fnv1a('${_seed(lesson, salt)}:$key:order')).shuffled(pool);
   final heard = hasAudio == null ? targets : targets.where((c) => hasAudio(c.speech)).toList();
 
   final items = <ActivityItem>[];
   Set<Choice> previous = {};
   for (final a in heard.take(count)) {
     final i = items.length;
-    final rng = SeededRng(itemSeed(lesson.key, key, i));
+    final rng = SeededRng(itemSeed(_seed(lesson, salt), key, i));
     final ranked = rankDistractors(a, pool, rng, near: tier >= 2, isNear: (x) => soundsNear(a.show, x.show));
     final others = pickDistractors(ranked, width - 1, previous);
     previous = others.toSet();
@@ -162,7 +169,7 @@ List<String> distractorLetters(Lesson lesson) =>
 /// ×3, visual neighbours first (b among d p q); tier 3: 12 cells, ×3,
 /// print and cursive mixed in one grid. Null when nothing else is taught
 /// yet (L01).
-ActivitySpec? tapIdentify(Lesson lesson, {int tier = 1, int count = 4}) {
+ActivitySpec? tapIdentify(Lesson lesson, {int tier = 1, int count = 4, String? salt}) {
   if (lesson.isDigit || lesson.unit == UnitKind.graphemes) return null;
   const type = ActivityType.tapIdentify;
   final gridSize = const {1: 6, 2: 9, 3: 12}[tier]!;
@@ -176,7 +183,7 @@ ActivitySpec? tapIdentify(Lesson lesson, {int tier = 1, int count = 4}) {
     for (final mode in const ['print', 'upper', 'cursive']) {
       if (items.length == count) break;
       final i = items.length;
-      final rng = SeededRng(itemSeed(lesson.key, type.key, i));
+      final rng = SeededRng(itemSeed(_seed(lesson, salt), type.key, i));
       final cursive = mode == 'cursive';
       String shown(String s) => mode == 'upper' ? s.toUpperCase() : s;
       // Tier 3 mixes scripts cell by cell, the target included.
@@ -202,10 +209,42 @@ ActivitySpec? tapIdentify(Lesson lesson, {int tier = 1, int count = 4}) {
   return items.isEmpty ? null : ActivitySpec(lessonKey: lesson.key, type: type, items: items, tier: tier);
 }
 
+/// tap-identify for a digit lesson: hear « trois », touch every 3 in a grid
+/// of digits — the same grid sizes as the letters, visual neighbours first
+/// from tier 2 (3 among 8 and 5). Two items.
+ActivitySpec? digitTapIdentify(Lesson lesson, ContentRepo repo, {int tier = 1, int count = 2, String? salt}) {
+  if (!lesson.isDigit) return null;
+  const type = ActivityType.tapIdentify;
+  final gridSize = const {1: 6, 2: 9, 3: 12}[tier]!;
+  final targetCount = tier == 1 ? 2 : 3;
+  final words = {for (final x in repo.units.last.lessons) '${x.number}': x.targets[1]};
+  final d = '${lesson.number}';
+  Choice c(String n) => Choice(n, words[n]!);
+  final items = <ActivityItem>[];
+  Set<String> previous = {};
+  for (var i = 0; i < count; i++) {
+    final rng = SeededRng(itemSeed(_seed(lesson, salt), type.key, i));
+    final ranked = rankDistractors(d, words.keys, rng, near: tier >= 2, isNear: (x) => visualConfusion[d]?.contains(x) ?? false);
+    final kinds = pickDistractors(ranked, math.min(ranked.length, gridSize - targetCount), previous);
+    previous = kinds.toSet();
+    items.add(ActivityItem(
+      index: i,
+      prompt: P.promptDigit,
+      target: d,
+      answer: c(d),
+      options: rng.shuffled([
+        for (var k = 0; k < targetCount; k++) c(d),
+        for (var k = 0; k < gridSize - targetCount; k++) c(kinds[k % kinds.length]),
+      ]),
+    ));
+  }
+  return ActivitySpec(lessonKey: lesson.key, type: type, items: items, tier: tier, variant: 'digit');
+}
+
 /// listen-choose on the lesson's graphemes: hear « an », pick it among the
 /// graphemes she has met (the ledger's multi-letter entries); from tier 2,
 /// its auditory neighbours first (an among on in en). 3 options, then 4.
-ActivitySpec? graphemeSounds(Lesson lesson, {int tier = 1, HasAudio? hasAudio}) {
+ActivitySpec? graphemeSounds(Lesson lesson, {int tier = 1, HasAudio? hasAudio, String? salt}) {
   const type = ActivityType.listenChoose;
   const variant = 'sound';
   final mine = lesson.targets.where((t) => !t.contains('=')).toList();
@@ -216,7 +255,7 @@ ActivitySpec? graphemeSounds(Lesson lesson, {int tier = 1, HasAudio? hasAudio}) 
   for (final t in mine.take(3)) {
     if (hasAudio != null && !hasAudio(t)) continue;
     final i = items.length;
-    final rng = SeededRng(itemSeed(lesson.key, _seedKey(type, variant), i));
+    final rng = SeededRng(itemSeed(_seed(lesson, salt), _seedKey(type, variant), i));
     final ranked = rankDistractors(t, met, rng, near: tier >= 2, isNear: (x) => auditoryConfusion[t]?.contains(x) ?? false);
     if (ranked.length < width - 1) continue;
     final others = pickDistractors(ranked, width - 1, previous);
@@ -238,7 +277,7 @@ String blendOf(String consonant, String vowel) => '$consonant … $vowel … $co
 /// tier 3: 6 rounds, 8 tiles, the instruction spoken only (audioOnly). With
 /// [hasAudio], a syllable with no recording is left out and a missing blend
 /// falls back to the syllable alone.
-ActivitySpec? syllableBuild(Lesson lesson, {int tier = 1, HasAudio? hasAudio}) {
+ActivitySpec? syllableBuild(Lesson lesson, {int tier = 1, HasAudio? hasAudio, String? salt}) {
   if (lesson.unit != UnitKind.consonants) return null;
   const type = ActivityType.syllableBuild;
   final rounds = 3 + tier;
@@ -252,13 +291,13 @@ ActivitySpec? syllableBuild(Lesson lesson, {int tier = 1, HasAudio? hasAudio}) {
   final vowels = [for (final s in pool) s.text.substring(c.length)];
   if (vowels.length < 2) return null;
 
-  final order = SeededRng(fnv1a('${lesson.key}:${type.key}:order')).shuffled(pool);
+  final order = SeededRng(fnv1a('${_seed(lesson, salt)}:${type.key}:order')).shuffled(pool);
   final heard = hasAudio == null ? order : order.where((s) => hasAudio(s.speech)).toList();
   final items = <ActivityItem>[];
   Set<String> previous = {};
   for (final s in heard.take(rounds)) {
     final i = items.length;
-    final rng = SeededRng(itemSeed(lesson.key, type.key, i));
+    final rng = SeededRng(itemSeed(_seed(lesson, salt), type.key, i));
     final v = s.text.substring(c.length);
     final ranked = rankDistractors(v, vowels, rng, near: tier >= 2, isNear: (x) => auditoryConfusion[v]?.contains(x) ?? false);
     final others = pickDistractors(ranked, math.min(ranked.length, tiles - 1), previous);
@@ -287,51 +326,98 @@ ActivitySpec? syllableBuild(Lesson lesson, {int tier = 1, HasAudio? hasAudio}) {
 /// Not recorded yet: add it to the recording script.
 const promptMissingLetter = 'Quelle lettre manque ?';
 
-/// missing-letter for vowel and consonant lessons (L01–L24): a word from
-/// this lesson's word list with one letter blanked. Up to [count] items.
-/// Tier 1: 3 candidates, the blank on the focus letter, the whole word
-/// shown first; tier 2: 4 candidates; tier 3: 4 candidates, the blank on
-/// any letter she has met.
+const _vowels = 'aeiouyéèêëîïôûùâà';
+bool _isVowel(String c) => _vowels.contains(c);
+
+/// Where [g] stands as a grapheme of its own in [word], so blanking it is
+/// honest. A grapheme starting with a vowel must not be the tail of a longer
+/// vowel group (« in » in « pain » is « ain »), nor have its last letter
+/// taken by a following vowel (« et » in « petit » is pe-tit). One ending in
+/// a vowel or n/m must not be followed by n/m either (« on » in « bonne »,
+/// « ai » in « pain »). Single letters are always their own grapheme.
+List<int> graphemeSpots(String word, String g) {
+  final out = <int>[];
+  for (var k = word.indexOf(g); k >= 0; k = word.indexOf(g, k + 1)) {
+    if (g.length > 1 && _isVowel(g[0])) {
+      final before = k > 0 ? word[k - 1] : '';
+      final after = k + g.length < word.length ? word[k + g.length] : '';
+      final last = g[g.length - 1];
+      if (before.isNotEmpty && _isVowel(before)) continue;
+      if (after.isNotEmpty && _isVowel(after)) continue;
+      if ((_isVowel(last) || last == 'n' || last == 'm') && (after == 'n' || after == 'm')) continue;
+    }
+    out.add(k);
+  }
+  return out;
+}
+
+/// missing-letter: a word from this lesson's word list with one letter —
+/// or, in grapheme lessons (L25+), one grapheme (« p_ » for « pain ») —
+/// blanked. Up to [count] items. Tier 1: 3 candidates, the blank on the
+/// lesson's own letter or grapheme, the whole word shown first; tier 2: 4
+/// candidates; tier 3: 4 candidates, the blank on anything she has met.
 ///
-/// Distractors are the letter's visual then auditory neighbours, then other
-/// letters she has met, and two items in a row never offer the same set. A
-/// wrong letter builds a wrong word, spoken before the right one when it is
-/// recorded: [hasAudio] decides, or with no check, the lesson's own words
-/// and syllables.
-ActivitySpec? missingLetter(Lesson lesson, {int tier = 1, int count = 4, HasAudio? hasAudio}) {
-  if (lesson.isDigit || lesson.unit == UnitKind.graphemes) return null;
+/// Distractors are the visual then auditory neighbours, then other letters
+/// (or graphemes) she has met, and two items in a row never offer the same
+/// set. A wrong choice builds a wrong word, spoken before the right one when
+/// it is recorded: [hasAudio] decides, or with no check, the lesson's own
+/// words and syllables.
+ActivitySpec? missingLetter(Lesson lesson, {int tier = 1, int count = 4, HasAudio? hasAudio, String? salt}) {
+  if (lesson.isDigit) return null;
   const type = ActivityType.missingLetter;
   final candidates = tier == 1 ? 3 : 4;
+  final graphemes = lesson.unit == UnitKind.graphemes;
+  // Letters in units 1–2, graphemes in unit 3 (« g = j » is a sound rule, not a spelling).
+  bool kind(String x) => graphemes ? x.length > 1 && !x.contains('=') : x.length == 1;
+  // What this lesson introduces, as the ledger has it: « qu = k = c » adds
+  // qu, « ç = s » adds the letter ç.
+  final introduced = (ledgerAdds[lesson.key] ?? lesson.targets).where((x) => kind(x) || x.length == 1).toSet();
+  final pool = [for (final x in ledgerAt(lesson.key)) if (kind(x) || introduced.contains(x)) x];
   final letters = [for (final x in ledgerAt(lesson.key)) if (x.length == 1) x];
-  // Tier 3 may blank any letter she has met, tiers 1–2 only the lesson's own.
-  final blankable = tier == 3 ? letters.toSet() : lesson.targets.where((t) => t.length == 1).toSet();
+  // Tier 3 may blank anything she has met, tiers 1–2 only what this lesson introduces.
+  final blankable = tier == 3 ? pool.toSet() : introduced;
+  // The longest grapheme wins where two overlap: « noix » blanks oix, never oi.
+  final known = {...pool, ...blankable}.toList()..sort((a, b) => b.length.compareTo(a.length));
+  List<(int, String)> spotsIn(String word) {
+    final taken = List.filled(word.length, false);
+    final out = <(int, String)>[];
+    for (final g in known) {
+      for (final k in graphemeSpots(word, g)) {
+        if (taken.sublist(k, k + g.length).any((t) => t)) continue;
+        taken.fillRange(k, k + g.length, true);
+        if (blankable.contains(g)) out.add((k, g));
+      }
+    }
+    return out;
+  }
+  // Words and short phrases (« le savon »): the blank works the same inside a phrase.
   final seen = <String>{};
   final words = [
     for (final w in lesson.words)
-      if (!w.text.contains(' ') && lesson.targets.any(w.text.contains) && seen.add(w.text)) w,
+      if (seen.add(w.text) && spotsIn(w.text).isNotEmpty) w,
   ];
   final own = {for (final x in [...lesson.words, ...lesson.syllables]) x.text.toLowerCase()};
   bool recorded(String text) => hasAudio?.call(text) ?? own.contains(text.toLowerCase());
 
-  final order = SeededRng(fnv1a('${lesson.key}:${type.key}:order')).shuffled(words);
+  final order = SeededRng(fnv1a('${_seed(lesson, salt)}:${type.key}:order')).shuffled(words);
   final items = <ActivityItem>[];
   Set<String> previous = {};
   for (final w in order) {
     if (items.length == count) break;
     if (hasAudio != null && !hasAudio(w.speech)) continue;
     final i = items.length;
-    final rng = SeededRng(itemSeed(lesson.key, type.key, i));
-    final spots = [for (var k = 0; k < w.text.length; k++) if (blankable.contains(w.text[k])) k];
+    final rng = SeededRng(itemSeed(_seed(lesson, salt), type.key, i));
+    final spots = spotsIn(w.text);
     if (spots.isEmpty) continue;
-    final at = rng.pick(spots);
-    final a = w.text[at];
-    final near = {...?visualConfusion[a], ...?auditoryConfusion[a]};
-    final ranked = rankDistractors(a, letters, rng, near: true, isNear: near.contains);
+    final (at, a) = rng.pick(spots);
+    final near = {...?visualConfusion[a], ...?auditoryConfusion[a], if (a == 'ç') 'c'};
+    // A letter among letters, a grapheme among graphemes.
+    final ranked = rankDistractors(a, a.length == 1 ? letters : pool.where((x) => x.length > 1), rng, near: true, isNear: near.contains);
     if (ranked.length < candidates - 1) continue;
     final pick = pickDistractors(ranked, candidates - 1, previous);
     previous = pick.toSet();
 
-    String built(String x) => w.text.replaceRange(at, at + 1, x);
+    String built(String x) => w.text.replaceRange(at, at + a.length, x);
     items.add(ActivityItem(
       index: i,
       prompt: promptMissingLetter,
@@ -389,7 +475,7 @@ double traceTolerance(int tier) => const {1: 1.4, 2: 1.0, 3: 0.8}[tier]!;
 /// listen-choose on digits: hear « sept », pick 7 among four digits. Digits
 /// are a closed set of ten, so every digit may be a distractor. The matrix
 /// has no auditory neighbours for digits, so every tier draws at random.
-ActivitySpec? digitListen(Lesson lesson, ContentRepo repo, {int tier = 1, int count = 2, HasAudio? hasAudio}) {
+ActivitySpec? digitListen(Lesson lesson, ContentRepo repo, {int tier = 1, int count = 2, HasAudio? hasAudio, String? salt}) {
   if (!lesson.isDigit) return null;
   const type = ActivityType.listenChoose;
   const variant = 'digit';
@@ -400,7 +486,7 @@ ActivitySpec? digitListen(Lesson lesson, ContentRepo repo, {int tier = 1, int co
   final items = <ActivityItem>[];
   Set<int> previous = {};
   for (var i = 0; i < count; i++) {
-    final rng = SeededRng(itemSeed(lesson.key, _seedKey(type, variant), i));
+    final rng = SeededRng(itemSeed(_seed(lesson, salt), _seedKey(type, variant), i));
     final ranked = rankDistractors(d, [for (var n = 0; n <= 9; n++) n], rng, near: false, isNear: (_) => false);
     final others = pickDistractors(ranked, 3, previous);
     previous = others.toSet();

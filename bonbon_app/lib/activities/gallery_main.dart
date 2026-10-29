@@ -15,6 +15,8 @@ import '../state/app_state.dart';
 import '../theme.dart';
 import '../widgets/common.dart';
 import 'activity_host.dart';
+import 'assessment.dart';
+import 'assessment_host.dart';
 import 'contract.dart';
 import 'fixtures.dart';
 import 'generators.dart';
@@ -84,6 +86,18 @@ class _ActivityGalleryState extends State<ActivityGallery> {
           onSelectionChanged: (v) => setState(() => _tier = v.single),
         ),
         for (final s in specsFor(lesson, repo, tier: _tier, hasAudio: context.app.speech.has)) _SpecTile(s),
+        const SizedBox(height: 20),
+        Text('Bilan et point d\'étape', style: t.titleLarge),
+        for (final a in [
+          bilanFor(lesson, repo, hasAudio: context.app.speech.has),
+          checkpointAfter(lesson, repo, hasAudio: context.app.speech.has),
+        ].nonNulls)
+          ListTile(
+            title: Text(a.id),
+            subtitle: Text('${a.itemCount} items · ${a.parts.map((p) => '${p.type.key} ×${p.items.length}').join(', ')}'),
+            trailing: const Icon(Icons.emoji_events_rounded),
+            onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => _PlayAssessment(a))),
+          ),
       ]),
     );
   }
@@ -101,6 +115,49 @@ class _SpecTile extends StatelessWidget {
       subtitle: Text('${spec.items.length} items · tier ${spec.tier}${built ? '' : ' · pas encore construit'}'),
       trailing: const Icon(Icons.play_arrow_rounded),
       onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => _Play(spec))),
+    );
+  }
+}
+
+class _PlayAssessment extends StatefulWidget {
+  final Assessment assessment;
+  const _PlayAssessment(this.assessment);
+
+  @override
+  State<_PlayAssessment> createState() => _PlayAssessmentState();
+}
+
+class _PlayAssessmentState extends State<_PlayAssessment> {
+  AssessmentResult? _result;
+
+  @override
+  Widget build(BuildContext context) {
+    final r = _result;
+    return Scaffold(
+      appBar: AppBar(title: Text(widget.assessment.id)),
+      body: Column(children: [
+        Expanded(
+          child: AssessmentHost(
+            assessment: widget.assessment,
+            onDone: (res) => setState(() => _result = res),
+            onContinue: () => Navigator.of(context).pop(),
+            onReview: () => Navigator.of(context).pop(),
+          ),
+        ),
+        if (r != null)
+          Container(
+            width: double.infinity,
+            height: 160,
+            color: C.surface,
+            padding: const EdgeInsets.all(12),
+            child: SingleChildScrollView(
+              child: SelectableText(
+                const JsonEncoder.withIndent('  ').convert(r.toJson()),
+                style: const TextStyle(fontFamily: 'monospace', fontSize: 12),
+              ),
+            ),
+          ),
+      ]),
     );
   }
 }

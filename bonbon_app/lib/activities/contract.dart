@@ -91,6 +91,25 @@ class ActivityItem {
 
   /// What she hears as the target: the syllable or word to build, else the answer.
   String get heard => word ?? answer.speech;
+
+  /// missing-letter: how many letters the blank covers (« ain » in « pain » is 3).
+  int get blankLength => answer.show.length;
+
+  /// The same item at position [i] — for an assessment that gathers items
+  /// from several lessons into one activity.
+  ActivityItem at(int i) => ActivityItem(
+        index: i,
+        prompt: prompt,
+        target: target,
+        answer: answer,
+        options: options,
+        listen: listen,
+        word: word,
+        blankAt: blankAt,
+        fixed: fixed,
+        blend: blend,
+        wrongSay: wrongSay,
+      );
 }
 
 /// Everything an activity needs to run, with no reference to the rest of the app.

@@ -158,6 +158,7 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
         _WordRow(
           word: item.target,
           blankAt: item.blankAt!,
+          blankLength: item.blankLength,
           filled: _whole || _s.found.isNotEmpty ? item.answer.show : null,
           right: _s.found.isNotEmpty,
           tried: _tried,
@@ -266,7 +267,7 @@ class _BuildRow extends StatelessWidget {
 /// a wrong letter while the word it built is spoken.
 class _WordRow extends StatelessWidget {
   final String word;
-  final int blankAt;
+  final int blankAt, blankLength;
   final String? filled;
   final bool right;
   final String? tried;
@@ -274,6 +275,7 @@ class _WordRow extends StatelessWidget {
   const _WordRow({
     required this.word,
     required this.blankAt,
+    required this.blankLength,
     required this.filled,
     required this.right,
     required this.tried,
@@ -309,7 +311,7 @@ class _WordRow extends StatelessWidget {
               ),
             ),
           ),
-          if (blankAt + 1 < word.length) text(word.substring(blankAt + 1)),
+          if (blankAt + blankLength < word.length) text(word.substring(blankAt + blankLength)),
         ]),
       ),
     );

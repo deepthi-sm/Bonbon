@@ -17,6 +17,8 @@ import '../widgets/common.dart';
 import 'activity_host.dart';
 import 'assessment.dart';
 import 'assessment_host.dart';
+import 'placement.dart';
+import 'placement_host.dart';
 import 'contract.dart';
 import 'fixtures.dart';
 import 'generators.dart';
@@ -67,6 +69,13 @@ class _ActivityGalleryState extends State<ActivityGallery> {
     return Scaffold(
       appBar: AppBar(title: const Text('Activités (dev)')),
       body: ListView(padding: const EdgeInsets.all(20), children: [
+        ListTile(
+          title: const Text('Test de placement'),
+          subtitle: const Text('« J\'en connais déjà » — 3 paliers, 12 questions au plus'),
+          trailing: const Icon(Icons.flag_rounded),
+          onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const _PlayPlacement())),
+        ),
+        const SizedBox(height: 12),
         Text('Fixtures', style: t.titleLarge),
         for (final s in allFixtures) _SpecTile(s),
         const SizedBox(height: 20),
@@ -115,6 +124,35 @@ class _SpecTile extends StatelessWidget {
       subtitle: Text('${spec.items.length} items · tier ${spec.tier}${built ? '' : ' · pas encore construit'}'),
       trailing: const Icon(Icons.play_arrow_rounded),
       onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => _Play(spec))),
+    );
+  }
+}
+
+class _PlayPlacement extends StatefulWidget {
+  const _PlayPlacement();
+
+  @override
+  State<_PlayPlacement> createState() => _PlayPlacementState();
+}
+
+class _PlayPlacementState extends State<_PlayPlacement> {
+  PlacementResult? _result;
+
+  @override
+  Widget build(BuildContext context) {
+    final r = _result;
+    return Scaffold(
+      appBar: AppBar(title: const Text('Placement')),
+      body: r == null
+          ? PlacementHost(onPlaced: (res) => setState(() => _result = res))
+          : Padding(
+              padding: const EdgeInsets.all(20),
+              child: SelectableText(
+                '${const JsonEncoder.withIndent('  ').convert(r.toJson())}\n\n'
+                'open (available, not completed): ${openBefore(r.startAt, context.app.repo).join(' ')}',
+                style: const TextStyle(fontFamily: 'monospace', fontSize: 13),
+              ),
+            ),
     );
   }
 }

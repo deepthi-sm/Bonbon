@@ -20,6 +20,8 @@ Plan references: `BUILD_PLAN_v2.md` §J, §R.2, §U; specs in
 | `bonbon_app/lib/activities/feedback.dart` | the feedback layer (B7): `Mark` (right, tried, model, faded, idle), its colour + icon, and `Marked`, which adds the motion — used by every activity |
 | `bonbon_app/lib/activities/assessment.dart` | Bilan + checkpoints: blueprints, builders, result (B11) — pure Dart |
 | `bonbon_app/lib/activities/assessment_host.dart` | the screen that plays one, never a gate |
+| `bonbon_app/lib/activities/placement.dart` | the placement ladder (B12) — pure Dart |
+| `bonbon_app/lib/activities/placement_host.dart` | its screen: offer, ladder, « Tu peux commencer ici » |
 | `bonbon_app/lib/activities/trace_session.dart` | rules of trace: attempts, cues, never blocked — pure Dart |
 | `bonbon_app/lib/activities/trace_pad.dart` | the tracing canvas, measuring with the prototype's `scoreTrace` |
 | `bonbon_app/lib/activities/trace_activity.dart` | the screen for trace |
@@ -92,6 +94,24 @@ Also added for these: tap-identify on digits (hear « trois », touch every 3) a
 missing-letter on graphemes (« dem_ » = ain), blanking a grapheme only where it stands on its
 own (never « in » inside « pain », never « oi » inside « noix »).
 
+## Placement test (plan §U.5, task B12)
+
+`placement.dart` (pure Dart) + `placement_host.dart` (screen), from `placement-test.json`
+(checked by `placement_test.dart`). Three listening rungs — vowels, syllables, graphemes —
+4 items each, ≥ 3/4 to go on; a rung stops as soon as its outcome is known, so at most
+12 items. A miss starts her at L01, L08 or L15; passing all three at L25.
+
+The three guardrails:
+- **Fully spoken**: the offer, every item, the result and the lesson name are recorded
+  (the team's onboarding lines); « é » alone is not, so rung 1 asks the other vowels.
+- **No score, no level**: answers show no judgement (a neutral teal « got it »);
+  the end says « Tu peux commencer ici. » and the lesson, nothing else.
+  `PlacementResult.toJson()` holds only `startAt`.
+- **Never locks**: « Commencer au début » is on every screen; leaving gives L01 with no
+  word about the test. For Dev D: `openBefore(startAt, repo)` lists the lessons to mark
+  `available`, never `completed`.
+- For Dev A: `PlacementHost(onPlaced: ...)` is onboarding step 5.
+
 ## Feedback (plan §J.3, task B7)
 
 Every judgement is shown by `Marked` (feedback.dart) and spoken by the session's `say`, at
@@ -147,6 +167,10 @@ There is no sound effect file, so the sound is the voice — no buzzer, ever. Wi
 - The missing-letter prompt « Quelle lettre manque ? » is also used when a grapheme is
   missing; « Quel son manque ? » would fit better, once written and recorded.
 - Which Bilan items count toward « weak »: below their activity type's own pass mark.
+- Placement: « J'en connais déjà » (the button) is not recorded; the recorded offer
+  sentence asks the same question aloud. Placement answers get no right/wrong feedback
+  at all, by design — it is a probe, not a lesson.
+- Placement shortens a rung by the 3/4 share when a probe has no clip (rounded up).
 - Not recorded: « Écoute bien. C'est l'un des deux. » and « Regarde, c'est : » (repair ladder
   rungs 2–3; a test lists them). Rung 1 uses the recorded « Pas encore. Écoute encore. » from
   the team's repair bank instead of the JSON's « Écoute encore. ». « On continue. Tu la

@@ -20,6 +20,8 @@ Plan references: `BUILD_PLAN_v2.md` §J, §R.2, §U; specs in
 | `bonbon_app/lib/activities/feedback.dart` | the feedback layer (B7): `Mark` (right, tried, model, faded, idle), its colour + icon, and `Marked`, which adds the motion — used by every activity |
 | `bonbon_app/lib/activities/assessment.dart` | Bilan + checkpoints: blueprints, builders, result (B11) — pure Dart |
 | `bonbon_app/lib/activities/assessment_host.dart` | the screen that plays one, never a gate |
+| `bonbon_app/lib/activities/comprehension.dart` | comprehension system (B13): texts, question shape, validator, export — pure Dart |
+| `docs/textes-a-questionner.md`, `docs/comprehension/questions.json`, `docs/comprehension-signoff.md` | the export for Batonga, their questions file, the sign-off table |
 | `bonbon_app/lib/activities/placement.dart` | the placement ladder (B12) — pure Dart |
 | `bonbon_app/lib/activities/placement_host.dart` | its screen: offer, ladder, « Tu peux commencer ici » |
 | `bonbon_app/lib/activities/trace_session.dart` | rules of trace: attempts, cues, never blocked — pure Dart |
@@ -112,6 +114,25 @@ The three guardrails:
   `available`, never `completed`.
 - For Dev A: `PlacementHost(onPlaced: ...)` is onboarding step 5.
 
+## Comprehension (plan §U.6, task B13)
+
+The system ships, the questions are Batonga's. `comprehension.dart` (pure Dart):
+
+- `readingTexts(repo)`: the book's texts with ids from the audio grammar — `T27`, segments
+  `T27.s01`… (a dialogue's turns are segments of their own).
+- `validateComprehension(sets, repo)`: every hard rule of comprehension.json — kinds and
+  their order, ≤ 3 per text, answer modes by lesson, option counts, phrase-pick options
+  taken from the same text, a replay segment for every scored question, `audioId` =
+  `q.<id>`, no question about moral/author/title, and **decodability**: a word passes if the
+  book has already shown it by that lesson, otherwise every grapheme must be in the ledger.
+  Findings are `error` (fails the test) or `pending` (not recorded, not signed off, a picture
+  to draw — the list for Dev A's illustration backlog).
+- `exportForBatonga(repo)` → `docs/textes-a-questionner.md` (workflow step 1): every text,
+  its segment ids, the modes its lesson allows, and the JSON shape to fill. A test fails if
+  it is out of date; `BONBON_EXPORT=1 flutter test test/comprehension_test.dart` regenerates it.
+- Batonga's questions go in `docs/comprehension/questions.json` (empty for now); the test
+  is the CI gate. Sign-offs in `docs/comprehension-signoff.md`.
+
 ## Feedback (plan §J.3, task B7)
 
 Every judgement is shown by `Marked` (feedback.dart) and spoken by the session's `say`, at
@@ -171,6 +192,14 @@ There is no sound effect file, so the sound is the voice — no buzzer, ever. Wi
   sentence asks the same question aloud. Placement answers get no right/wrong feedback
   at all, by design — it is a probe, not a lesson.
 - Placement shortens a rung by the 3/4 share when a probe has no clip (rounded up).
+- Comprehension: the content has **26** reading texts, not the plan's 28 (L34 and L40 have
+  none). The plan's own worked example (T27) breaks its rules: `image-3` before lesson 30,
+  no replay segment on q2, and q3 uses « oi », « qu », « ch » not yet taught — to tell
+  Batonga before they copy it.
+- Comprehension questions are not in the app yet: shipping them needs an asset folder in
+  `pubspec.yaml` (Dev A's file) and a player screen, behind `features.comprehension` (off).
+- « Runs in CI »: the checks run in `flutter test`; the repo's CI only checks audio today.
+  Adding a `flutter test` job to `.github/workflows` is for whoever owns CI.
 - Not recorded: « Écoute bien. C'est l'un des deux. » and « Regarde, c'est : » (repair ladder
   rungs 2–3; a test lists them). Rung 1 uses the recorded « Pas encore. Écoute encore. » from
   the team's repair bank instead of the JSON's « Écoute encore. ». « On continue. Tu la

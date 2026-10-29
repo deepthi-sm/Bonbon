@@ -1,5 +1,7 @@
 import 'package:bonbon/activities/contract.dart';
+import 'package:bonbon/activities/confusion.dart';
 import 'package:bonbon/activities/generators.dart';
+import 'package:bonbon/activities/ledger.dart';
 import 'package:bonbon/activities/repair_ladder.dart';
 import 'package:bonbon/data/content.dart';
 import 'package:bonbon/state/app_state.dart';
@@ -58,15 +60,87 @@ void main() {
     }
   });
 
-  test('tap-identify never shows a letter from a later lesson', () {
-    for (final l in repo.lessons.where((l) => !l.isDigit && l.unit != UnitKind.graphemes)) {
-      final allowed = {...repo.lettersTaughtThrough(l), ...earlyShapes};
-      for (final s in specsFor(l, repo).where((s) => s.type == ActivityType.tapIdentify)) {
-        for (final i in s.items) {
-          expect(allowed, containsAll(i.options.map((o) => o.speech).toSet()), reason: s.id);
+  // Task B9's acceptance test: no generated item ever uses an out-of-ledger
+  // symbol, across every lesson, every tier and every activity type.
+  test('no item ever shows a symbol she has not been taught: all lessons × tiers × types', () {
+    var checked = 0;
+    for (final l in repo.lessons) {
+      final ledger = ledgerAt(l.key);
+      final own = {...l.syllables.map((x) => x.text), ...l.words.map((x) => x.text)};
+      for (var tier = 1; tier <= 3; tier++) {
+        for (final s in specsFor(l, repo, tier: tier)) {
+          expect(s.tier, tier, reason: s.id);
+          for (final i in s.items) {
+            final why = '${s.id} tier $tier « ${i.target} »';
+            final shown = switch ((s.type, s.variant)) {
+              (ActivityType.tapIdentify, _) => i.options.map((o) => o.speech),
+              (ActivityType.listenChoose, 'syllable' || 'word') => const <String>[], // checked against `own` below
+              (ActivityType.trace, _) => [i.answer.show.toLowerCase()],
+              _ => i.options.map((o) => o.show),
+            };
+            expect(ledger, containsAll(shown.toSet()), reason: why);
+            if (s.variant == 'syllable' || s.variant == 'word') expect(own, containsAll(i.options.map((o) => o.show)), reason: why);
+            if (s.type == ActivityType.syllableBuild) {
+              expect(own, containsAll(i.options.map((o) => '${i.fixed}${o.show}')), reason: why);
+            }
+            // confusion-matrix.json: at most one grapheme-length distractor per item in units 1–2.
+            if (l.unit == UnitKind.vowels || l.unit == UnitKind.consonants) {
+              expect(i.options.where((o) => !i.isCorrect(o) && o.show.length > 1 && s.variant == null), hasLength(lessThanOrEqualTo(1)), reason: why);
+            }
+            checked++;
+          }
         }
       }
     }
+    expect(checked, greaterThan(1000));
+  });
+
+  test('tier parameters follow generators.json', () {
+    final l16 = repo.byKey('L16')!; // b
+    for (final (tier, grid, targets) in [(1, 6, 2), (2, 9, 3), (3, 12, 3)]) {
+      for (final i in tapIdentify(l16, tier: tier)!.items) {
+        expect(i.options, hasLength(grid), reason: 'tier $tier');
+        expect(i.options.where(i.isCorrect), hasLength(targets), reason: 'tier $tier');
+      }
+    }
+    final l08 = repo.byKey('L08')!;
+    for (final (tier, rounds, tiles) in [(1, 4, 4), (2, 5, 6), (3, 6, 8)]) {
+      final s = syllableBuild(l08, tier: tier)!;
+      expect(s.items, hasLength(rounds), reason: 'tier $tier');
+      expect(s.items.first.options, hasLength(tiles), reason: 'tier $tier');
+    }
+    for (final (tier, n) in [(1, 3), (2, 4), (3, 4)]) {
+      expect(missingLetter(repo.byKey('L11')!, tier: tier)!.items.first.options, hasLength(n), reason: 'tier $tier');
+    }
+    expect([for (var t = 1; t <= 3; t++) traceTolerance(t)], [1.4, 1.0, 0.8]);
+    expect([for (var t = 1; t <= 3; t++) traceGhost(t)], [true, true, false]);
+  });
+
+  test('tier 3 mixes print and cursive in one tap-identify grid', () {
+    final items = tapIdentify(repo.byKey('L16')!, tier: 3)!.items;
+    expect(items.any((i) => i.options.map((o) => o.cursive).toSet().length == 2), isTrue);
+  });
+
+  test('from tier 2, a taught confusion-matrix neighbour is always offered', () {
+    for (final l in repo.lessons.where((l) => l.unit == UnitKind.consonants)) {
+      for (final i in tapIdentify(l, tier: 2)?.items ?? const <ActivityItem>[]) {
+        final near = (visualConfusion[i.target] ?? const []).where(distractorLetters(l).contains);
+        if (near.isEmpty) continue;
+        expect(i.options.map((o) => o.speech), contains(isIn(near)), reason: '${l.key} ${i.target}');
+      }
+      final drill = l.syllables.map((x) => x.text).toSet();
+      final syl = specsFor(l, repo, tier: 2).where((s) => s.variant == 'syllable').firstOrNull;
+      for (final i in syl?.items ?? const <ActivityItem>[]) {
+        if (!drill.any((x) => soundsNear(i.target, x))) continue;
+        expect(i.options.any((o) => soundsNear(i.target, o.show)), isTrue, reason: '${l.key} « ${i.target} »');
+      }
+    }
+  });
+
+  test('tier 3 listen-choose asks words, not syllables', () {
+    final l08 = repo.byKey('L08')!;
+    final variants = specsFor(l08, repo, tier: 3).where((s) => s.type == ActivityType.listenChoose).map((s) => s.variant);
+    expect(variants, ['word']);
   });
 
   test('items with no recording are dropped when a check is given', () {
@@ -120,11 +194,13 @@ void main() {
         specsFor(l, repo, hasAudio: hasAudio).where((s) => s.type == ActivityType.missingLetter).firstOrNull;
     bool hasFocusWord(Lesson l) => l.words.any((w) => !w.text.contains(' ') && l.targets.any(w.text.contains));
 
-    test('every letter lesson with a word holding its letter gets one, and no other lesson does', () {
+    test('every letter lesson with a word holding its letter gets one, once 3 letters are taught', () {
       for (final l in repo.lessons) {
-        final expected = l.unit != UnitKind.graphemes && !l.isDigit && hasFocusWord(l);
+        final enough = ledgerAt(l.key).where((x) => x.length == 1).length >= 3; // the answer + 2 candidates
+        final expected = l.unit != UnitKind.graphemes && !l.isDigit && hasFocusWord(l) && enough;
         expect(of(l) != null, expected, reason: l.key);
       }
+      expect(of(repo.byKey('L02')!), isNull, reason: 'only i and u are taught: no second candidate');
     });
 
     test('the blank is on the focus letter, and the answer is the letter under it', () {
@@ -137,11 +213,26 @@ void main() {
       }
     });
 
-    test('candidates are only letters she has met', () {
+    test('tier 3 may blank any letter she has met, not only the focus', () {
+      final blanks = {
+        for (final l in letterLessons())
+          for (final i in missingLetter(l, tier: 3)?.items ?? const <ActivityItem>[])
+            if (!l.targets.contains(i.answer.show)) i.answer.show,
+      };
+      expect(blanks, isNotEmpty);
+    });
+
+    test('two items in a row never offer the same set of wrong letters, at any tier', () {
       for (final l in letterLessons()) {
-        final allowed = {...repo.lettersTaughtThrough(l), ...earlyShapes};
-        for (final i in of(l)?.items ?? const <ActivityItem>[]) {
-          expect(allowed, containsAll(i.options.map((o) => o.show)), reason: '${l.key} ${i.target}');
+        for (var tier = 1; tier <= 3; tier++) {
+          final items = missingLetter(l, tier: tier)?.items ?? const <ActivityItem>[];
+          final letters = ledgerAt(l.key).where((x) => x.length == 1).toSet();
+          for (var k = 1; k < items.length; k++) {
+            Set<String> wrong(ActivityItem i) => {for (final o in i.options) if (!i.isCorrect(o)) o.show};
+            // With exactly enough letters (L03: only i and u besides o) there is no other set.
+            if (letters.length - 1 <= wrong(items[k]).length) continue;
+            expect(wrong(items[k]), isNot(wrong(items[k - 1])), reason: '${l.key} tier $tier items ${k - 1}, $k');
+          }
         }
       }
     });
@@ -150,16 +241,6 @@ void main() {
       // L11 (m): n (L10) is m's visual neighbour and is taught by then.
       for (final i in of(repo.byKey('L11')!)!.items) {
         expect(i.options.map((o) => o.show), contains('n'), reason: i.target);
-      }
-    });
-
-    test('two items in a row never offer the same pair of wrong letters', () {
-      for (final l in letterLessons()) {
-        final items = of(l)?.items ?? const <ActivityItem>[];
-        for (var k = 1; k < items.length; k++) {
-          Set<String> wrong(ActivityItem i) => {for (final o in i.options) if (!i.isCorrect(o)) o.show};
-          expect(wrong(items[k]), isNot(wrong(items[k - 1])), reason: '${l.key} items ${k - 1} and $k');
-        }
       }
     });
 
@@ -232,7 +313,7 @@ void main() {
     });
 
     test('a missing blend falls back to the syllable alone', () {
-      final s = syllableBuild(repo.byKey('L08')!, repo, hasAudio: (t) => !t.contains('…'))!;
+      final s = syllableBuild(repo.byKey('L08')!, hasAudio: (t) => !t.contains('…'))!;
       expect(s.items.map((i) => i.blend), everyElement(isNull));
     });
 

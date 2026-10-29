@@ -55,6 +55,7 @@ class ActivityGallery extends StatefulWidget {
 
 class _ActivityGalleryState extends State<ActivityGallery> {
   String _lesson = 'L08';
+  int _tier = 1;
 
   @override
   Widget build(BuildContext context) {
@@ -76,7 +77,13 @@ class _ActivityGalleryState extends State<ActivityGallery> {
           ),
         ]),
         Text(lesson.title, style: t.bodySmall),
-        for (final s in specsFor(lesson, repo, hasAudio: context.app.speech.has)) _SpecTile(s),
+        const SizedBox(height: 8),
+        SegmentedButton<int>(
+          segments: [for (var k = 1; k <= 3; k++) ButtonSegment(value: k, label: Text('Tier $k'))],
+          selected: {_tier},
+          onSelectionChanged: (v) => setState(() => _tier = v.single),
+        ),
+        for (final s in specsFor(lesson, repo, tier: _tier, hasAudio: context.app.speech.has)) _SpecTile(s),
       ]),
     );
   }

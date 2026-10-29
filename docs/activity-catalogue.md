@@ -14,6 +14,7 @@ Plan references: `BUILD_PLAN_v2.md` §J, §R.2, §U; specs in
 | `bonbon_app/lib/activities/fixtures.dart` | one hand-made spec per MVP type |
 | `bonbon_app/lib/activities/generators.dart` | seeded specs from a lesson; `specsAfter()` mirrors the switch in `buildSteps` |
 | `bonbon_app/lib/activities/confusion.dart` | the confusion matrix's visual and auditory tables (copy of the JSON pack, checked by `confusion_test.dart`) |
+| `bonbon_app/lib/activities/ledger.dart` | the decodability ledger: letters and graphemes met by each lesson (copy of the JSON pack, checked by `ledger_test.dart`) |
 | `bonbon_app/lib/activities/choice_session.dart` | rules of tap-identify / listen-choose / syllable-build / missing-letter with the repair ladder — pure Dart |
 | `bonbon_app/lib/activities/choice_activity.dart` | the screen for those four types |
 | `bonbon_app/lib/activities/feedback.dart` | the feedback layer (B7): `Mark` (right, tried, model, faded, idle), its colour + icon, and `Marked`, which adds the motion — used by every activity |
@@ -38,11 +39,29 @@ ActivityHost(spec: spec, onComplete: (r) => ..._correct += r.firstTryCount..., o
 
 | Type | Pass | Partial credit | Status |
 |---|---|---|---|
-| `tap-identify` | 0.80 | yes | **built** on the contract: tier 1, 6-cell grid, target ×2, repair ladder |
-| `listen-choose` | 0.75 | no | **built** on the contract: syllables, words, graphemes, digits; tier 1; repair ladder |
-| `syllable-build` | 0.60 | yes | **built**: L08–L24, tier 1 (4 rounds, 4 vowel tiles, written model); drag or tap a vowel next to the consonant; success plays the recorded blend « t … a … ta »; a wrong vowel first plays the syllable it built; repair ladder |
-| `missing-letter` | 0.70 | no | **built**: L01–L24 (lessons whose word list has a word with the focus letter), tier 1 (3 candidates, blank on the focus letter, whole word shown first); distractors from the confusion matrix, then taught letters; a wrong letter plays the wrong word when it is recorded, then the right one; repair ladder |
-| `trace` | 0.55 | yes | **built** on the contract: vowel, consonant and digit lessons, the single glyphs of the writing practice (print, and cursive where the book asks), tier 1 (ghost). Prototype scoring (precision + coverage); 2★ or more finishes the letter; a low attempt gets a cue matched to what went wrong; after 3, the model lights up and she moves on. No start point / direction / stroke order yet |
+| `tap-identify` | 0.80 | yes | **built**: letter lessons with at least one other letter taught (not L01); target among taught letters; repair ladder |
+| `listen-choose` | 0.75 | no | **built**: syllables, words, graphemes, digits; repair ladder |
+| `syllable-build` | 0.60 | yes | **built**: L08–L24; drag or tap a vowel next to the consonant; success plays the recorded blend « t … a … ta »; a wrong vowel first plays the syllable it built; repair ladder |
+| `missing-letter` | 0.70 | no | **built**: L03–L24 (lessons whose word list has a word with the focus letter, once 3 letters are taught); distractors from the confusion matrix, then taught letters; a wrong letter plays the wrong word when it is recorded, then the right one; repair ladder |
+| `trace` | 0.55 | yes | **built**: vowel, consonant and digit lessons, the single glyphs of the writing practice (print, and cursive where the book asks). Prototype scoring (precision + coverage); 2★ or more finishes the letter; a low attempt gets a cue matched to what went wrong; after 3, the model lights up and she moves on. No start point / direction / stroke order yet |
+
+### Tiers (generators.json difficulty ladders, task B9)
+
+`specsFor(lesson, repo, tier: 1..3)`. Which tier a learner gets is for the progress side
+(Dev D) to decide; the gallery has a tier switch.
+
+| Type | Tier 1 | Tier 2 | Tier 3 |
+|---|---|---|---|
+| tap-identify | 6 cells, target ×2, random taught letters | 9 cells, ×3, visual neighbours first (b among d p) | 12 cells, ×3, visual neighbours, print and cursive mixed in one grid |
+| listen-choose | 3 options, random | 4 options, sound-alikes first (« te » among « té tê ») | words only: the syllable drill has none |
+| syllable-build | 4 rounds, 4 tiles, written model | 5 rounds, 6 tiles, sound-alike vowels first, no model | 6 rounds, 8 tiles, instruction spoken only |
+| missing-letter | 3 candidates, focus letter, word shown first | 4 candidates, word not shown first | 4 candidates, blank on any letter she has met |
+| trace | ghost, tolerance ×1.4 | ghost, ×1.0 | no ghost (free), ×0.8 |
+
+Distractors come only from the decodability ledger (`ledger.dart`, a copy of
+`01-corpus/decodability.json` checked by `ledger_test.dart`) or from the lesson's own
+syllables and words. A test checks it for every lesson × tier × type. Two items in a row
+never share a distractor set when another set exists.
 
 Item credit: with partial credit, `1 − hintCost` of the highest repair rung reached; without
 it, 1 only for a first-try answer. trace instead counts its measured quality (stars / 3).
@@ -72,10 +91,13 @@ There is no sound effect file, so the sound is the voice — no buzzer, ever. Wi
 
 ## Open points
 
-- The first lessons have too few taught letters for a grid, so tap-identify borrows
-  `earlyShapes` (a o u e i é y), as the prototype did. Plan §U.2 says taught letters only —
-  decide with the team.
-- Tiers 2–3 (confusion-matrix distractors) are not built yet (task B9).
+- **Decided for B9: taught letters only.** The prototype borrowed `earlyShapes`
+  (a o u e i é y) in the first lessons; plan §U.2 and the ledger forbid it, and B9's test
+  can't pass with it. So L01 (only i taught) has no tap-identify and no missing-letter, and
+  L02 no missing-letter. To revisit with the team if the first lessons feel too thin.
+- Tier 3 interpretations: syllable-build's « audioOnly » is taken as the instruction
+  spoken, not written; listen-choose's « targetUnit word » as words only.
+- The matrix has no auditory neighbours for digits, so digit listening is random at every tier.
 
 - New spoken sentences (`RepairLadder.sentences`) need adding to the recording script.
 - syllable-build reuses the recorded prompt « Écoute et touche la syllabe ». A dedicated

@@ -4,6 +4,7 @@ import '../theme.dart';
 import '../widgets/common.dart';
 import 'contract.dart';
 import 'feedback.dart';
+import 'generators.dart' show traceGhost, traceTolerance;
 import 'trace_pad.dart';
 import 'trace_session.dart';
 
@@ -126,6 +127,8 @@ class _TraceActivityState extends State<TraceActivity> {
         key: _pad,
         glyph: item.answer.show,
         cursive: item.answer.cursive,
+        ghost: traceGhost(widget.spec.tier),
+        tolerance: traceTolerance(widget.spec.tier),
         mark: _s.modelShown
             ? Mark.model
             : _s.itemDone

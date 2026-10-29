@@ -15,13 +15,28 @@ import 'feedback.dart';
 ///
 /// [mark] is the feedback on the whole pad (feedback.dart); [Mark.model]
 /// also lights the ghost in gold: the app showing her the letter.
+///
+/// [ghost] false hides the model (trace tier 3, « free »): she writes from
+/// memory, and the hidden model is still what the ink is measured against.
+/// [tolerance] widens or narrows how far off the model the ink may stray.
 class TracePad extends StatefulWidget {
   final String glyph;
   final bool cursive;
   final Mark mark;
+  final bool ghost;
+  final double tolerance;
   final double height;
   final VoidCallback? onDraw;
-  const TracePad({super.key, required this.glyph, this.cursive = false, this.mark = Mark.idle, this.height = 280, this.onDraw});
+  const TracePad({
+    super.key,
+    required this.glyph,
+    this.cursive = false,
+    this.mark = Mark.idle,
+    this.ghost = true,
+    this.tolerance = 1,
+    this.height = 280,
+    this.onDraw,
+  });
 
   @override
   State<TracePad> createState() => TracePadState();
@@ -79,7 +94,7 @@ class TracePadState extends State<TracePad> {
         }
       }
     }
-    return scoreTrace(ink: ink, w: w, h: h, path: path, penRadius: penWidth / 2 * scale);
+    return scoreTrace(ink: ink, w: w, h: h, path: path, penRadius: penWidth / 2 * scale * widget.tolerance);
   }
 
   @override
@@ -116,7 +131,8 @@ class TracePadState extends State<TracePad> {
               size: _size,
               painter: _PadPainter(
                 strokes: _strokes,
-                ghost: _ghost(_size, model ? C.gold : C.tealMid.withValues(alpha: 0.75)),
+                // The model always shows when the app lights it up for her.
+                ghost: widget.ghost || model ? _ghost(_size, model ? C.gold : C.tealMid.withValues(alpha: 0.75)) : null,
                 origin: (tp) => _origin(tp, _size),
               ),
             ),
@@ -131,7 +147,7 @@ class TracePadState extends State<TracePad> {
 
 class _PadPainter extends CustomPainter {
   final List<List<Offset>> strokes;
-  final TextPainter ghost;
+  final TextPainter? ghost;
   final Offset Function(TextPainter) origin;
   _PadPainter({required this.strokes, required this.ghost, required this.origin});
 
@@ -143,7 +159,8 @@ class _PadPainter extends CustomPainter {
       final y = size.height * i / 8;
       canvas.drawLine(Offset(0, y), Offset(size.width, y), line..strokeWidth = i % 2 == 0 ? 1.8 : 1);
     }
-    ghost.paint(canvas, origin(ghost));
+    final g = ghost;
+    if (g != null) g.paint(canvas, origin(g));
     final pen = Paint()
       ..color = C.teal
       ..strokeWidth = TracePadState.penWidth

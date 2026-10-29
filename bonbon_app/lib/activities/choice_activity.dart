@@ -122,7 +122,12 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
         borderColor: const Color(0xFFF3C3D0),
         onTap: _ask,
         child: Row(children: [
-          Expanded(child: Text(item.prompt, style: t.bodyLarge?.copyWith(fontWeight: FontWeight.w700))),
+          Expanded(
+            // syllable-build tier 3 is audio only: the instruction is heard, not read.
+            child: build && widget.spec.tier == 3
+                ? const Align(alignment: Alignment.centerLeft, child: Icon(Icons.hearing_rounded, color: C.magenta, size: 40))
+                : Text(item.prompt, style: t.bodyLarge?.copyWith(fontWeight: FontWeight.w700)),
+          ),
           const SizedBox(width: 10),
           Container(
             width: 64,

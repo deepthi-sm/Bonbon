@@ -77,6 +77,11 @@ it, 1 only for a first-try answer. trace instead counts its measured quality (st
 An item answered by the app (rung 4, or trace's third low attempt) scores 0 and its target
 goes to review. A result never blocks the next lesson.
 
+Every activity shows « Passer » beside its progress bar (plan §J.3 rule 4, `allowSkip`); it
+calls `onSkip(SkipReason.user)`. `test/activity_screens_test.dart` opens every screen on a
+phone-sized surface and plays it through — taps, the drag, a trace, skips, a Bilan, a
+checkpoint, the placement test and the gallery.
+
 ## Bilan and checkpoints (plan §U.5, task B11)
 
 `assessment.dart` (pure Dart) + `assessment_host.dart` (screen). Blueprints copied from

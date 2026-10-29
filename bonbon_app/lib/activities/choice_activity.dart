@@ -4,6 +4,7 @@ import '../data/phrases.dart';
 import '../theme.dart';
 import '../widgets/common.dart';
 import 'choice_session.dart';
+import 'activity_top_bar.dart';
 import 'contract.dart';
 import 'feedback.dart';
 
@@ -17,7 +18,8 @@ import 'feedback.dart';
 class ChoiceActivity extends StatefulWidget {
   final ActivitySpec spec;
   final ValueChanged<ActivityResult> onComplete;
-  const ChoiceActivity({super.key, required this.spec, required this.onComplete});
+  final ValueChanged<SkipReason>? onSkip;
+  const ChoiceActivity({super.key, required this.spec, required this.onComplete, this.onSkip});
 
   @override
   State<ChoiceActivity> createState() => _ChoiceActivityState();
@@ -34,6 +36,15 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
   String? _tried;
 
   bool get _missing => widget.spec.type == ActivityType.missingLetter;
+
+  /// « Passer », when the spec allows it: stop speaking and hand back.
+  VoidCallback? get _skip => widget.onSkip == null || !widget.spec.allowSkip || _reported
+      ? null
+      : () {
+          _reported = true;
+          context.app.speech.stop();
+          widget.onSkip!(SkipReason.user);
+        };
 
   @override
   void initState() {
@@ -103,19 +114,7 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
     final fill = build || _missing; // tiles go into a slot
     final cols = fill ? n.clamp(2, 4) : n == 4 ? 2 : 3;
     return ListView(padding: const EdgeInsets.fromLTRB(20, 12, 20, 24), children: [
-      Row(children: [
-        for (var i = 0; i < _s.total; i++)
-          Expanded(
-            child: Container(
-              height: 8,
-              margin: const EdgeInsets.symmetric(horizontal: 3),
-              decoration: BoxDecoration(
-                color: i < _s.index ? C.teal : i == _s.index ? C.tealMid : C.border,
-                borderRadius: BorderRadius.circular(999),
-              ),
-            ),
-          ),
-      ]),
+      ActivityTopBar(total: _s.total, index: _s.index, onSkip: _skip),
       const SizedBox(height: 18),
       Panel(
         color: C.magentaSoft,

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../theme.dart';
 import '../widgets/common.dart';
+import 'activity_top_bar.dart';
 import 'contract.dart';
 import 'feedback.dart';
 import 'generators.dart' show traceGhost, traceTolerance;
@@ -16,7 +17,8 @@ import 'trace_session.dart';
 class TraceActivity extends StatefulWidget {
   final ActivitySpec spec;
   final ValueChanged<ActivityResult> onComplete;
-  const TraceActivity({super.key, required this.spec, required this.onComplete});
+  final ValueChanged<SkipReason>? onSkip;
+  const TraceActivity({super.key, required this.spec, required this.onComplete, this.onSkip});
 
   @override
   State<TraceActivity> createState() => _TraceActivityState();
@@ -108,19 +110,16 @@ class _TraceActivityState extends State<TraceActivity> {
     final item = _s.item;
     final stars = _s.stars;
     return ListView(padding: const EdgeInsets.fromLTRB(20, 12, 20, 24), children: [
-      Row(children: [
-        for (var i = 0; i < _s.total; i++)
-          Expanded(
-            child: Container(
-              height: 8,
-              margin: const EdgeInsets.symmetric(horizontal: 3),
-              decoration: BoxDecoration(
-                color: i < _s.index ? C.teal : i == _s.index ? C.tealMid : C.border,
-                borderRadius: BorderRadius.circular(999),
-              ),
-            ),
-          ),
-      ]),
+      ActivityTopBar(
+        total: _s.total,
+        index: _s.index,
+        onSkip: widget.onSkip == null || !widget.spec.allowSkip
+            ? null
+            : () {
+                context.app.speech.stop();
+                widget.onSkip!(SkipReason.user);
+              },
+      ),
       const SizedBox(height: 18),
       Panel(
         color: C.magentaSoft,

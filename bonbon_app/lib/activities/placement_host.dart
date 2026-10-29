@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../theme.dart';
 import '../widgets/common.dart';
+import 'generators.dart' show HasAudio;
 import 'placement.dart';
 
 /// « Commencer au début » or « J'en connais déjà » (onboarding), then the
@@ -10,7 +11,10 @@ import 'placement.dart';
 /// gives L01 without a word about the test. Answers show no judgement.
 class PlacementHost extends StatefulWidget {
   final ValueChanged<PlacementResult> onPlaced;
-  const PlacementHost({super.key, required this.onPlaced});
+
+  /// Which probes have a recording; the app's own clips when null.
+  final HasAudio? hasAudio;
+  const PlacementHost({super.key, required this.onPlaced, this.hasAudio});
 
   @override
   State<PlacementHost> createState() => _PlacementHostState();
@@ -38,7 +42,7 @@ class _PlacementHostState extends State<PlacementHost> {
   }
 
   void _begin() {
-    setState(() => _s = PlacementSession(hasAudio: context.app.speech.has));
+    setState(() => _s = PlacementSession(hasAudio: widget.hasAudio ?? context.app.speech.has));
     _ask();
   }
 

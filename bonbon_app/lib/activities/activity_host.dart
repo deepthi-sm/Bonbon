@@ -16,11 +16,11 @@ typedef ActivityBuilder = Widget Function(
 /// Append-only, in alphabetical order, one line per type, so two branches
 /// adding types never conflict on the same line.
 final Map<ActivityType, ActivityBuilder> activityRegistry = {
-  ActivityType.listenChoose: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done),
-  ActivityType.missingLetter: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done),
-  ActivityType.syllableBuild: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done),
-  ActivityType.tapIdentify: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done),
-  ActivityType.trace: (spec, done, skip) => TraceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done),
+  ActivityType.listenChoose: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done, onSkip: skip),
+  ActivityType.missingLetter: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done, onSkip: skip),
+  ActivityType.syllableBuild: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done, onSkip: skip),
+  ActivityType.tapIdentify: (spec, done, skip) => ChoiceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done, onSkip: skip),
+  ActivityType.trace: (spec, done, skip) => TraceActivity(key: ValueKey(spec.id), spec: spec, onComplete: done, onSkip: skip),
 };
 
 /// Shows any registered activity from its spec (plan §E.2, task B2). The

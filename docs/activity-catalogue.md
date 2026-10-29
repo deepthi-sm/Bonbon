@@ -25,7 +25,10 @@ Plan references: `BUILD_PLAN_v2.md` §J, §R.2, §U; specs in
 | `bonbon_app/lib/activities/placement.dart` | the placement ladder (B12) — pure Dart |
 | `bonbon_app/lib/activities/placement_host.dart` | its screen: offer, ladder, « Tu peux commencer ici » |
 | `bonbon_app/lib/activities/trace_session.dart` | rules of trace: attempts, cues, never blocked — pure Dart |
-| `bonbon_app/lib/activities/trace_pad.dart` | the tracing canvas, measuring with the prototype's `scoreTrace` |
+| `bonbon_app/lib/activities/trace_pad.dart` | the tracing canvas: with stroke data, the glyph's strokes, start dots and checkpoints; without, the prototype's font ghost |
+| `bonbon_app/lib/activities/glyph_spec.dart` | `GlyphSpec` (plan §H.7), loaded from `assets/images/glyphs/glyph-specs.json` once Dev A adds it |
+| `bonbon_app/lib/activities/trace_rubric.dart` | the rubric read at runtime from `assets/content/trace-rubric.json` (B14) |
+| `bonbon_app/lib/activities/stroke_score.dart` | stroke-path scoring and its cue (B6, B15) — pure logic |
 | `bonbon_app/lib/activities/trace_activity.dart` | the screen for trace |
 | `bonbon_app/lib/activities/gallery_main.dart` | dev gallery: `flutter run -t lib/activities/gallery_main.dart -d chrome` |
 | `bonbon_app/test/activity_*_test.dart`, `choice_session_test.dart` | tests |
@@ -49,7 +52,7 @@ ActivityHost(spec: spec, onComplete: (r) => ..._correct += r.firstTryCount..., o
 | `listen-choose` | 0.75 | no | **built**: syllables, words, graphemes, digits; repair ladder |
 | `syllable-build` | 0.60 | yes | **built**: L08–L24; drag or tap a vowel next to the consonant; success plays the recorded blend « t … a … ta »; a wrong vowel first plays the syllable it built; repair ladder |
 | `missing-letter` | 0.70 | no | **built**: L03–L24 (lessons whose word list has a word with the focus letter, once 3 letters are taught); distractors from the confusion matrix, then taught letters; a wrong letter plays the wrong word when it is recorded, then the right one; repair ladder |
-| `trace` | 0.55 | yes | **built**: vowel, consonant and digit lessons, the single glyphs of the writing practice (print, and cursive where the book asks). Prototype scoring (precision + coverage); 2★ or more finishes the letter; a low attempt gets a cue matched to what went wrong; after 3, the model lights up and she moves on. No start point / direction / stroke order yet |
+| `trace` | 0.55 | yes | **built**: vowel, consonant and digit lessons, the single glyphs of the writing practice (print, and cursive where the book asks). With a glyph's stroke data: the rubric's five measures (start point, checkpoints in order, direction, deviation, stroke count) and the matching spoken cue; without it, the prototype's coverage scoring. 2★ or more finishes the letter; after 3 low attempts the model draws itself and she moves on |
 
 ### Tiers (generators.json difficulty ladders, task B9)
 
@@ -212,4 +215,16 @@ There is no sound effect file, so the sound is the voice — no buzzer, ever. Wi
 - trace: words of the writing practice (tête, mil) are not traced yet, only single glyphs.
 - A consonant lesson now has up to six activities (L08: tap-identify, listen-choose ×2,
   syllable-build, missing-letter, trace) — check with the team that this isn't too long.
-- Trace direction/order needs per-glyph stroke paths (`GlyphSpec`, plan §H.7) from Dev A.
+- **Trace stroke data is Dev A's** (plan §H.7: « A produces the data; B owns all scoring »). Until
+  `assets/images/glyphs/glyph-specs.json` exists, trace uses the prototype's coverage scoring;
+  the stroke scoring, rubric and cues are built and tested on test-only glyphs (i, t, é).
+- The rubric lives at `assets/content/trace-rubric.json` (a folder the app already bundles, so
+  no `pubspec.yaml` change); a test keeps it identical to the JSON pack.
+- With the rubric's weights as written, a perfect `i` without its dot scores 0.69 = 2★, which
+  finishes the letter (and says « Il manque un trait » only below 2★). To tune with field data.
+- The rubric gives no checkpoint radius: half the spacing between checkpoints (never more
+  than the start threshold), so order is real; a dot accepts a tap anywhere near it.
+- « Descends, ne monte pas » only plays for a stroke that goes down; a wrong-way bar or
+  curve gets « Passe bien par le point. » instead.
+- B15 asks for the cues to be checked on a physical device — not done (no device here).
+- Cursive tracing stays V2 (plan §J.4): stroke scoring is print only.

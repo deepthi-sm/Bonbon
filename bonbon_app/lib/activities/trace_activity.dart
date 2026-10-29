@@ -5,6 +5,8 @@ import '../widgets/common.dart';
 import 'contract.dart';
 import 'feedback.dart';
 import 'generators.dart' show traceGhost, traceTolerance;
+import 'glyph_spec.dart';
+import 'trace_rubric.dart';
 import 'trace_pad.dart';
 import 'trace_session.dart';
 
@@ -25,10 +27,23 @@ class _TraceActivityState extends State<TraceActivity> {
   final _pad = GlobalKey<TracePadState>();
   bool _checking = false;
 
+  /// Dev A's stroke data and the rubric; until both load (or if the stroke
+  /// data doesn't exist yet), the pad scores coverage as the prototype did.
+  Map<String, GlyphSpec> _glyphs = const {};
+  TraceRubric? _rubric;
+
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) => _ask());
+    Future.wait([loadGlyphSpecs(), loadTraceRubric()]).then((r) {
+      if (mounted) {
+        setState(() {
+          _glyphs = r[0] as Map<String, GlyphSpec>;
+          _rubric = r[1] as TraceRubric?;
+        });
+      }
+    });
   }
 
   void _ask() {
@@ -128,7 +143,11 @@ class _TraceActivityState extends State<TraceActivity> {
         glyph: item.answer.show,
         cursive: item.answer.cursive,
         ghost: traceGhost(widget.spec.tier),
+        dots: widget.spec.tier == 1,
         tolerance: traceTolerance(widget.spec.tier),
+        // Cursive tracing is V2 (plan §J.4): stroke data is print only.
+        spec: item.answer.cursive ? null : _glyphs[item.answer.show],
+        rubric: _rubric,
         mark: _s.modelShown
             ? Mark.model
             : _s.itemDone

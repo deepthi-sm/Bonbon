@@ -18,7 +18,7 @@ void main() {
 
   test('three stars on the first try: done, full credit, praised', () {
     final s = TraceSession(traceL01);
-    final out = s.check(good)!;
+    final out = s.check(TraceCheck.coverage(good))!;
     expect(out.itemDone, isTrue);
     expect(out.say, [P.trace[3]]);
     s.next();
@@ -30,7 +30,7 @@ void main() {
 
   test('two stars is enough to go on, and passes (0.67 ≥ 0.55)', () {
     final s = TraceSession(traceL01);
-    expect(s.check(almost)!.itemDone, isTrue);
+    expect(s.check(TraceCheck.coverage(almost))!.itemDone, isTrue);
     s.next();
     expect(s.result.score, closeTo(2 / 3, 1e-9));
     expect(s.result.passed, isTrue);
@@ -44,7 +44,7 @@ void main() {
 
   test('a low attempt gives a cue and another go', () {
     final s = TraceSession(traceL01);
-    final out = s.check(noDot)!;
+    final out = s.check(TraceCheck.coverage(noDot))!;
     expect(out.itemDone, isFalse);
     expect(out.say, [TraceSession.cueStrokeMissing]);
     expect(s.attempt, 2);
@@ -52,8 +52,8 @@ void main() {
 
   test('a good second attempt counts, but not as first try', () {
     final s = TraceSession(traceL01);
-    s.check(offTrack);
-    s.check(good);
+    s.check(TraceCheck.coverage(offTrack));
+    s.check(TraceCheck.coverage(good));
     s.next();
     expect(s.result.score, 1, reason: 'the trace is measured, not hint-costed');
     expect(s.result.firstTryCount, 0);
@@ -62,13 +62,13 @@ void main() {
 
   test('after three low attempts the model lights up and she moves on: never blocked', () {
     final s = TraceSession(traceL01);
-    s.check(offTrack);
-    s.check(offTrack);
-    final out = s.check(offTrack)!;
+    s.check(TraceCheck.coverage(offTrack));
+    s.check(TraceCheck.coverage(offTrack));
+    final out = s.check(TraceCheck.coverage(offTrack))!;
     expect(out.itemDone, isTrue);
     expect(out.modelShown, isTrue);
     expect(out.say, ['i', RepairLadder.sayMoveOn]);
-    expect(s.check(good), isNull, reason: 'the letter is done');
+    expect(s.check(TraceCheck.coverage(good)), isNull, reason: 'the letter is done');
     s.next();
     expect(s.finished, isTrue);
     expect(s.result.score, 0);

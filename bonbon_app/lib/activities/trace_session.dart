@@ -2,16 +2,39 @@
 /// what to say after each, when a letter is done and what it scores. The
 /// widget (trace_activity.dart) draws and measures; this decides. Pure Dart.
 ///
-/// Scoring uses the prototype's measures (lib/screens/trace_score.dart:
-/// precision, coverage, the least-traced shape). The rubric's start point,
-/// checkpoints and direction (trace-rubric.json) need per-glyph stroke
-/// paths, which don't exist yet (tasks B6, B14).
+/// An attempt arrives as a [TraceCheck]: from the stroke-path scoring
+/// (stroke_score.dart, when the glyph has a GlyphSpec) or, until Dev A's
+/// stroke data exists, from the prototype's coverage scoring
+/// (lib/screens/trace_score.dart).
 library;
 
 import '../data/phrases.dart';
 import '../screens/trace_score.dart';
 import 'contract.dart';
 import 'repair_ladder.dart';
+import 'stroke_score.dart';
+import 'trace_rubric.dart';
+
+/// One checked attempt, whichever scoring measured it.
+class TraceCheck {
+  final int stars; // 1..3
+  final double quality; // 0..1, the item's credit when it is kept
+  final String cue; // said after a low attempt
+  final String praise; // said after a good one
+  const TraceCheck(this.stars, this.quality, {required this.cue, required this.praise});
+
+  /// The prototype's coverage scoring: no stroke data needed.
+  factory TraceCheck.coverage(TraceResult r) =>
+      TraceCheck(r.stars, r.stars / 3, cue: TraceSession.cueFor(r), praise: r.stars == 3 ? P.trace[3] : P.trace[2]);
+
+  /// The rubric's stroke-path scoring, with the cue for what went wrong (B15).
+  factory TraceCheck.strokes(StrokeScore s, TraceRubric rubric) => TraceCheck(
+        s.stars,
+        s.total.clamp(0, 1).toDouble(),
+        cue: rubric.cues[s.cueKey == 'good' ? 'missedCheckpoint' : s.cueKey]!,
+        praise: s.stars == 3 ? rubric.cues['good']! : P.trace[2],
+      );
+}
 
 class TraceOutcome {
   /// The letter is finished; call [TraceSession.next] when she continues.
@@ -61,15 +84,15 @@ class TraceSession {
   }
 
   /// Records one checked attempt. Null when the letter is already done.
-  TraceOutcome? check(TraceResult r) {
+  TraceOutcome? check(TraceCheck c) {
     if (finished || _itemDone) return null;
-    stars = r.stars;
-    if (r.stars >= 2) {
-      _finish(quality: r.stars / 3);
-      return TraceOutcome(itemDone: true, say: [r.stars == 3 ? P.trace[3] : P.trace[2]]);
+    stars = c.stars;
+    if (c.stars >= 2) {
+      _finish(quality: c.quality);
+      return TraceOutcome(itemDone: true, say: [c.praise]);
     }
     _failed++;
-    if (_failed < maxAttempts) return TraceOutcome(itemDone: false, say: [cueFor(r)]);
+    if (_failed < maxAttempts) return TraceOutcome(itemDone: false, say: [c.cue]);
     modelShown = true;
     _finish(givenByApp: true);
     return TraceOutcome(itemDone: true, modelShown: true, say: [item.heard, RepairLadder.sayMoveOn]);

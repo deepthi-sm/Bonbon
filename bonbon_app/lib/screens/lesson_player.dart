@@ -1,16 +1,18 @@
-import 'dart:math' as math;
-
 import 'package:flutter/material.dart';
 
+import '../activities/activity_host.dart';
+import '../activities/assessment.dart';
+import '../activities/assessment_host.dart';
+import '../activities/contract.dart';
+import '../activities/generators.dart';
 import '../data/content.dart';
 import '../data/phrases.dart';
 import '../theme.dart';
 import '../widgets/common.dart';
-import 'activities.dart';
 import 'atelier.dart';
 
-/// One screen of a lesson: either source content (one or more blocks of the
-/// same kind) or a generated activity.
+/// One screen of a lesson: source content (one or more blocks of the same
+/// kind), a generated activity, the Bilan, a unit checkpoint, or the end.
 sealed class Step {
   String title(bool en);
   IconData get icon;
@@ -47,23 +49,38 @@ class ContentStep extends Step {
 }
 
 class ActivityStep extends Step {
-  final Activity activity;
-  ActivityStep(this.activity);
+  final ActivitySpec spec;
+  ActivityStep(this.spec);
   @override
   String title(bool en) => en ? 'Exercise' : 'Exercice';
   @override
   IconData get icon => Icons.extension_rounded;
 }
 
-class BilanStep extends Step {
+/// The Bilan after the lesson, or the checkpoint closing a unit.
+class AssessmentStep extends Step {
+  final Assessment assessment;
+  AssessmentStep(this.assessment);
   @override
-  String title(bool en) => en ? 'Review' : 'Bilan';
+  String title(bool en) => assessment.isCheckpoint ? (en ? 'Checkpoint' : 'Point d\'étape') : (en ? 'Review' : 'Bilan');
+  @override
+  IconData get icon => assessment.isCheckpoint ? Icons.flag_rounded : Icons.emoji_events_rounded;
+}
+
+/// The last screen: « Leçon terminée » and the button that saves the lesson.
+class DoneStep extends Step {
+  @override
+  String title(bool en) => en ? 'Well done' : 'Bravo';
   @override
   IconData get icon => Icons.emoji_events_rounded;
 }
 
-List<Step> buildSteps(Lesson lesson, ContentRepo repo) {
-  final rng = math.Random(lesson.key.hashCode);
+/// The lesson's screens in order: each content step followed by the
+/// activities that practise it (generators.dart, specsAfter), then the
+/// Bilan, the unit checkpoint when this lesson closes a unit, and the end.
+///
+/// [hasAudio] drops listening items with no recording; null keeps them all.
+List<Step> buildSteps(Lesson lesson, ContentRepo repo, {HasAudio? hasAudio}) {
   final steps = <Step>[];
   String group(String type) =>
       type == 'handwriting_demo' || type == 'writing_practice' ? 'writing' : type;
@@ -80,21 +97,19 @@ List<Step> buildSteps(Lesson lesson, ContentRepo repo) {
 
   // Insert activities after the content they practise (book §J.2 mapping).
   final out = <Step>[];
+  final seen = <String>{};
   for (final s in steps) {
     out.add(s);
     if (s is! ContentStep) continue;
-    final a = switch (s.kind) {
-      'grapheme' => Activity.recognise(lesson, repo, rng),
-      'numeral_display' => Activity.recognise(lesson, repo, rng),
-      'syllable_drill' => Activity.listenChoose(
-          P.promptSyllable, [for (final b in s.blocks) ...b.items()], rng),
-      'word_list' => Activity.listenChoose(
-          P.promptWord, [for (final b in s.blocks) ...b.items()], rng),
-      _ => null,
-    };
-    if (a != null) out.add(ActivityStep(a));
+    for (final spec in specsAfter(s.kind, s.blocks, lesson, repo, hasAudio: hasAudio)) {
+      if (seen.add(spec.id)) out.add(ActivityStep(spec));
+    }
   }
-  out.add(BilanStep());
+  final bilan = bilanFor(lesson, repo, hasAudio: hasAudio);
+  if (bilan != null) out.add(AssessmentStep(bilan));
+  final checkpoint = checkpointAfter(lesson, repo, hasAudio: hasAudio);
+  if (checkpoint != null) out.add(AssessmentStep(checkpoint));
+  out.add(DoneStep());
   return out;
 }
 
@@ -119,7 +134,9 @@ class _LessonPlayerState extends State<LessonPlayer> {
     if (_initialised) return;
     _initialised = true;
     final app = context.app;
-    _steps = buildSteps(widget.lesson, app.repo);
+    // Leave out listening items with no recording — unless no clips loaded
+    // at all (tests, a failed manifest), where it would leave out everything.
+    _steps = buildSteps(widget.lesson, app.repo, hasAudio: app.speech.clipCount > 0 ? app.speech.has : null);
     _i = app.resumeStep(widget.lesson).clamp(0, _steps.length - 1);
     _cursive = app.cursiveDefault;
   }
@@ -213,14 +230,34 @@ class _LessonPlayerState extends State<LessonPlayer> {
               ],
             ],
           ),
-        ActivityStep a => ActivityView(
-            activity: a.activity,
-            onFinished: (score) => setState(() {
-              _correct += score;
-              _activityDone = true;
-            }),
+        ActivityStep a => ActivityHost(
+            key: ValueKey(a.spec.id),
+            spec: a.spec,
+            onComplete: (r) {
+              context.app.recordActivity(r);
+              setState(() {
+                _correct += r.firstTryCount;
+                _activityDone = true;
+              });
+            },
+            onSkip: (why) {
+              context.app.recordActivity(ActivityResult.skippedBy(a.spec, why));
+              _go(_i + 1);
+            },
           ),
-        BilanStep _ => _Bilan(lesson: widget.lesson, correct: _correct),
+        AssessmentStep s => AssessmentHost(
+            key: ValueKey(s.assessment.id),
+            assessment: s.assessment,
+            onDone: (r) {
+              context.app.recordAssessment(r);
+              setState(() {
+                _correct += r.parts.fold(0, (n, p) => n + p.firstTryCount);
+                _activityDone = true;
+              });
+            },
+            onContinue: () => _go(_i + 1),
+          ),
+        DoneStep _ => _LessonDone(lesson: widget.lesson, correct: _correct),
       };
 
   bool _usesScript(ContentStep s) =>
@@ -228,7 +265,13 @@ class _LessonPlayerState extends State<LessonPlayer> {
 
   Widget _bottomBar(Step step) {
     final last = _i == _steps.length - 1;
-    final isActivity = step is ActivityStep;
+    // An activity has its own « Passer » and shows « Suivant » here once it
+    // ends; a Bilan or checkpoint ends on its own « Continuer ».
+    final showNext = last || switch (step) {
+      ActivityStep _ => _activityDone,
+      AssessmentStep _ => false,
+      _ => true,
+    };
     return Container(
       padding: const EdgeInsets.fromLTRB(20, 12, 20, 16),
       decoration: const BoxDecoration(
@@ -243,7 +286,8 @@ class _LessonPlayerState extends State<LessonPlayer> {
           ),
           const SizedBox(width: 12),
         ],
-        Expanded(
+        if (!showNext) const Spacer(),
+        if (showNext) Expanded(
           child: last
               ? PressButton.magenta(
                   label: context.tr('Terminer la leçon', 'Finish lesson'),
@@ -256,19 +300,17 @@ class _LessonPlayerState extends State<LessonPlayer> {
                     Navigator.of(context).pop();
                   },
                 )
-              : isActivity && !_activityDone
-                  ? PressButton.ghost(label: context.tr('Passer', 'Skip'), icon: Icons.skip_next_rounded, onTap: () => _go(_i + 1))
-                  : PressButton(label: context.tr('Suivant', 'Next'), icon: Icons.arrow_forward_rounded, onTap: () => _go(_i + 1)),
+              : PressButton(label: context.tr('Suivant', 'Next'), icon: Icons.arrow_forward_rounded, onTap: () => _go(_i + 1)),
         ),
       ]),
     );
   }
 }
 
-class _Bilan extends StatelessWidget {
+class _LessonDone extends StatelessWidget {
   final Lesson lesson;
   final int correct;
-  const _Bilan({required this.lesson, required this.correct});
+  const _LessonDone({required this.lesson, required this.correct});
 
   @override
   Widget build(BuildContext context) {

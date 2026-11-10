@@ -1,10 +1,10 @@
 {
   "generatedBy": "bonbon_app/tool/audio_ids.py",
-  "total": 2508,
+  "total": 2509,
   "bySource": {
     "pack4": 590,
     "content": 905,
-    "prototype": 1013
+    "prototype": 1014
   },
   "byKind": {
     "syllabe — fusion": 131,
@@ -24,7 +24,7 @@
     "grapheme-sound": 77,
     "lettre — nom (mur des lettres)": 3,
     "consigne d'exercice": 13,
-    "interface": 1187,
+    "interface": 1188,
     "sentence": 80,
     "syllabe": 131,
     "syllable": 113,
@@ -7385,33 +7385,6 @@
     {
       "id": "sent.L01.lecon_01_la_lettre_i",
       "text": "Leçon 01. La lettre i",
-      "kind": "interface",
-      "where": "Leçon 01",
-      "sources": [
-        "prototype"
-      ]
-    },
-    {
-      "id": "sent.L01.touche_la_lettre_i",
-      "text": "Touche la lettre i",
-      "kind": "interface",
-      "where": "Leçon 01",
-      "sources": [
-        "prototype"
-      ]
-    },
-    {
-      "id": "sent.L01.touche_la_lettre_i_en_ecritu",
-      "text": "Touche la lettre i en écriture cursive",
-      "kind": "interface",
-      "where": "Leçon 01",
-      "sources": [
-        "prototype"
-      ]
-    },
-    {
-      "id": "sent.L01.touche_la_lettre_i_majuscule",
-      "text": "Touche la lettre i majuscule",
       "kind": "interface",
       "where": "Leçon 01",
       "sources": [
@@ -14892,6 +14865,15 @@
       ]
     },
     {
+      "id": "sent.L46.qu",
+      "text": "qu",
+      "kind": "interface",
+      "where": "Leçon 46",
+      "sources": [
+        "prototype"
+      ]
+    },
+    {
       "id": "sent.L46.quinine",
       "text": "quinine",
       "kind": "interface",
@@ -15705,6 +15687,15 @@
       ]
     },
     {
+      "id": "sent.L51.ph",
+      "text": "ph",
+      "kind": "interface",
+      "where": "Leçon 51",
+      "sources": [
+        "prototype"
+      ]
+    },
+    {
       "id": "sent.L51.phare",
       "text": "phare",
       "kind": "interface",
@@ -15788,6 +15779,15 @@
     {
       "id": "sent.L51.telephone",
       "text": "téléphone",
+      "kind": "interface",
+      "where": "Leçon 51",
+      "sources": [
+        "prototype"
+      ]
+    },
+    {
+      "id": "sent.L51.th",
+      "text": "th",
       "kind": "interface",
       "where": "Leçon 51",
       "sources": [
@@ -16105,6 +16105,15 @@
     {
       "id": "sent.L53.recreation",
       "text": "récréation",
+      "kind": "interface",
+      "where": "Leçon 53",
+      "sources": [
+        "prototype"
+      ]
+    },
+    {
+      "id": "sent.L53.sion",
+      "text": "sion",
       "kind": "interface",
       "where": "Leçon 53",
       "sources": [

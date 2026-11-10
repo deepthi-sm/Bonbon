@@ -372,22 +372,6 @@
     "where": "Leçon 01"
   },
   {
-    "text": "Touche la lettre i",
-    "where": "Leçon 01"
-  },
-  {
-    "text": "Touche la lettre i majuscule",
-    "where": "Leçon 01"
-  },
-  {
-    "text": "Touche la lettre i en écriture cursive",
-    "where": "Leçon 01"
-  },
-  {
-    "text": "é",
-    "where": "Leçon 01"
-  },
-  {
     "text": "Leçon 02. La lettre u",
     "where": "Leçon 02"
   },
@@ -496,6 +480,10 @@
     "where": "Leçon 03"
   },
   {
+    "text": "Quelle lettre manque ?",
+    "where": "Leçon 03"
+  },
+  {
     "text": "Leçon 04. La lettre a",
     "where": "Leçon 04"
   },
@@ -597,6 +585,10 @@
   },
   {
     "text": "une élève",
+    "where": "Leçon 06"
+  },
+  {
+    "text": "é",
     "where": "Leçon 06"
   },
   {
@@ -800,6 +792,22 @@
     "where": "Leçon 08"
   },
   {
+    "text": "t … e … te",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "t … é … té",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "t … ê … tê",
+    "where": "Leçon 08"
+  },
+  {
+    "text": "t … u … tu",
+    "where": "Leçon 08"
+  },
+  {
     "text": "Leçon 09. La lettre p",
     "where": "Leçon 09"
   },
@@ -904,6 +912,22 @@
     "where": "Leçon 09"
   },
   {
+    "text": "p … e … pe",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "p … é … pé",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "p … o … po",
+    "where": "Leçon 09"
+  },
+  {
+    "text": "p … è … pè",
+    "where": "Leçon 09"
+  },
+  {
     "text": "Leçon 10. La lettre n",
     "where": "Leçon 10"
   },
@@ -981,6 +1005,22 @@
   },
   {
     "text": "Touche la lettre n en écriture cursive",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "n … o … no",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "n … i … ni",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "n … è … nè",
+    "where": "Leçon 10"
+  },
+  {
+    "text": "n … e … ne",
     "where": "Leçon 10"
   },
   {
@@ -1073,6 +1113,22 @@
   },
   {
     "text": "Touche la lettre m en écriture cursive",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "m … é … mé",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "m … i … mi",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "m … o … mo",
+    "where": "Leçon 11"
+  },
+  {
+    "text": "m … e … me",
     "where": "Leçon 11"
   },
   {
@@ -1204,6 +1260,22 @@
     "where": "Leçon 12"
   },
   {
+    "text": "r … a … ra",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "r … ê … rê",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "r … é … ré",
+    "where": "Leçon 12"
+  },
+  {
+    "text": "r … i … ri",
+    "where": "Leçon 12"
+  },
+  {
     "text": "Leçon 13. La lettre v",
     "where": "Leçon 13"
   },
@@ -1332,6 +1404,22 @@
     "where": "Leçon 13"
   },
   {
+    "text": "v … a … va",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "v … e … ve",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "v … é … vé",
+    "where": "Leçon 13"
+  },
+  {
+    "text": "v … è … vè",
+    "where": "Leçon 13"
+  },
+  {
     "text": "Leçon 14. La lettre l",
     "where": "Leçon 14"
   },
@@ -1413,6 +1501,22 @@
   },
   {
     "text": "Touche la lettre l en écriture cursive",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "l … u … lu",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "l … é … lé",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "l … è … lè",
+    "where": "Leçon 14"
+  },
+  {
+    "text": "l … o … lo",
     "where": "Leçon 14"
   },
   {
@@ -1509,6 +1613,22 @@
   },
   {
     "text": "Touche la lettre d en écriture cursive",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "d … e … de",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "d … a … da",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "d … è … dè",
+    "where": "Leçon 15"
+  },
+  {
+    "text": "d … o … do",
     "where": "Leçon 15"
   },
   {
@@ -1656,6 +1776,22 @@
     "where": "Leçon 16"
   },
   {
+    "text": "b … ê … bê",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "b … i … bi",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "b … a … ba",
+    "where": "Leçon 16"
+  },
+  {
+    "text": "b … e … be",
+    "where": "Leçon 16"
+  },
+  {
     "text": "Leçon 17. La lettre j",
     "where": "Leçon 17"
   },
@@ -1752,6 +1888,22 @@
     "where": "Leçon 17"
   },
   {
+    "text": "j … u … ju",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "j … o … jo",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "j … i … ji",
+    "where": "Leçon 17"
+  },
+  {
+    "text": "j … è … jè",
+    "where": "Leçon 17"
+  },
+  {
     "text": "Leçon 18. La lettre f",
     "where": "Leçon 18"
   },
@@ -1833,6 +1985,22 @@
   },
   {
     "text": "Touche la lettre f en écriture cursive",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "f … o … fo",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "f … a … fa",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "f … é … fé",
+    "where": "Leçon 18"
+  },
+  {
+    "text": "f … ê … fê",
     "where": "Leçon 18"
   },
   {
@@ -1944,6 +2112,22 @@
     "where": "Leçon 19"
   },
   {
+    "text": "s … i … si",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "s … u … su",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "s … è … sè",
+    "where": "Leçon 19"
+  },
+  {
+    "text": "s … a … sa",
+    "where": "Leçon 19"
+  },
+  {
     "text": "Leçon 20. La lettre c",
     "where": "Leçon 20"
   },
@@ -2052,6 +2236,22 @@
     "where": "Leçon 20"
   },
   {
+    "text": "c … e … ce",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "c … è … cè",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "c … a … ca",
+    "where": "Leçon 20"
+  },
+  {
+    "text": "c … u … cu",
+    "where": "Leçon 20"
+  },
+  {
     "text": "Leçon 21. La lettre g",
     "where": "Leçon 21"
   },
@@ -2129,6 +2329,18 @@
   },
   {
     "text": "Touche la lettre g en écriture cursive",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "g … a … ga",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "g … u … gu",
+    "where": "Leçon 21"
+  },
+  {
+    "text": "g … o … go",
     "where": "Leçon 21"
   },
   {
@@ -2216,6 +2428,22 @@
     "where": "Leçon 22"
   },
   {
+    "text": "k … e … ke",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "k … è … kè",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "k … o … ko",
+    "where": "Leçon 22"
+  },
+  {
+    "text": "k … i … ki",
+    "where": "Leçon 22"
+  },
+  {
     "text": "Leçon 23. La lettre z",
     "where": "Leçon 23"
   },
@@ -2297,6 +2525,22 @@
   },
   {
     "text": "Touche la lettre z en écriture cursive",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "z … u … zu",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "z … a … za",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "z … è … zè",
+    "where": "Leçon 23"
+  },
+  {
+    "text": "z … é … zé",
     "where": "Leçon 23"
   },
   {
@@ -2389,6 +2633,22 @@
   },
   {
     "text": "Touche la lettre h en écriture cursive",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "h … e … he",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "h … a … ha",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "h … o … ho",
+    "where": "Leçon 24"
+  },
+  {
+    "text": "h … ê … hê",
     "where": "Leçon 24"
   },
   {
@@ -6240,6 +6500,10 @@
     "where": "Leçon 46"
   },
   {
+    "text": "qu",
+    "where": "Leçon 46"
+  },
+  {
     "text": "Leçon 47. Les sons s = z",
     "where": "Leçon 47"
   },
@@ -6481,6 +6745,10 @@
   },
   {
     "text": "garçon",
+    "where": "Leçon 48"
+  },
+  {
+    "text": "ç",
     "where": "Leçon 48"
   },
   {
@@ -6952,6 +7220,14 @@
     "where": "Leçon 51"
   },
   {
+    "text": "ph",
+    "where": "Leçon 51"
+  },
+  {
+    "text": "th",
+    "where": "Leçon 51"
+  },
+  {
     "text": "Leçon 52. Les sons ac · oc · ic",
     "where": "Leçon 52"
   },
@@ -7173,6 +7449,10 @@
   },
   {
     "text": "motos",
+    "where": "Leçon 53"
+  },
+  {
+    "text": "sion",
     "where": "Leçon 53"
   },
   {
@@ -7756,7 +8036,19 @@
     "where": "Chiffre 0"
   },
   {
+    "text": "six",
+    "where": "Chiffre 0"
+  },
+  {
     "text": "sept",
+    "where": "Chiffre 0"
+  },
+  {
+    "text": "huit",
+    "where": "Chiffre 0"
+  },
+  {
+    "text": "0",
     "where": "Chiffre 0"
   },
   {
@@ -7764,11 +8056,19 @@
     "where": "Chiffre 1"
   },
   {
+    "text": "cinq",
+    "where": "Chiffre 1"
+  },
+  {
+    "text": "1",
+    "where": "Chiffre 1"
+  },
+  {
     "text": "Les chiffres. Le chiffre 2",
     "where": "Chiffre 2"
   },
   {
-    "text": "huit",
+    "text": "2",
     "where": "Chiffre 2"
   },
   {
@@ -7776,7 +8076,7 @@
     "where": "Chiffre 3"
   },
   {
-    "text": "cinq",
+    "text": "3",
     "where": "Chiffre 3"
   },
   {
@@ -7784,11 +8084,15 @@
     "where": "Chiffre 4"
   },
   {
+    "text": "4",
+    "where": "Chiffre 4"
+  },
+  {
     "text": "Les chiffres. Le chiffre 5",
     "where": "Chiffre 5"
   },
   {
-    "text": "six",
+    "text": "5",
     "where": "Chiffre 5"
   },
   {
@@ -7796,7 +8100,15 @@
     "where": "Chiffre 6"
   },
   {
+    "text": "6",
+    "where": "Chiffre 6"
+  },
+  {
     "text": "Les chiffres. Le chiffre 7",
+    "where": "Chiffre 7"
+  },
+  {
+    "text": "7",
     "where": "Chiffre 7"
   },
   {
@@ -7804,7 +8116,15 @@
     "where": "Chiffre 8"
   },
   {
+    "text": "8",
+    "where": "Chiffre 8"
+  },
+  {
     "text": "Les chiffres. Le chiffre 9",
+    "where": "Chiffre 9"
+  },
+  {
+    "text": "9",
     "where": "Chiffre 9"
   }
 ]

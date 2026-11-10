@@ -1,15 +1,13 @@
-<<<<<<< HEAD
 _to_delete/
-=======
+
 # Saved WhatsApp Web page (private group chat) - never commit
 LOGO.html
 LOGO_files/
 
 # Local tooling
 .vercel/
-
 .vercel
 .env*
->>>>>>> origin/main
+
 voice-sample-clean.wav
 .DS_Store

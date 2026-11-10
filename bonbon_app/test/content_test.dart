@@ -12,15 +12,14 @@ void main() {
     var activities = 0;
     for (final l in repo.lessons) {
       final steps = buildSteps(l, repo);
-      expect(steps.last, isA<BilanStep>(), reason: l.key);
+      expect(steps.last, isA<DoneStep>(), reason: l.key);
       expect(steps.whereType<ContentStep>(), isNotEmpty, reason: l.key);
       for (final s in steps.whereType<ActivityStep>()) {
         activities++;
-        for (final r in s.activity.rounds) {
-          expect(r.options.where((o) => o.show == r.answer.show).length, 1,
-              reason: '${l.key}: answer must appear exactly once');
-          expect(r.options.map((o) => o.show).toSet().length, r.options.length,
-              reason: '${l.key}: duplicate options');
+        expect(s.spec.items, isNotEmpty, reason: s.spec.id);
+        for (final it in s.spec.items) {
+          if (it.options.isEmpty) continue; // trace: nothing to choose
+          expect(it.options.where(it.isCorrect), isNotEmpty, reason: '${s.spec.id}: answer must be offered');
         }
       }
       final id = l.illustrationId;

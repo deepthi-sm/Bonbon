@@ -81,9 +81,12 @@ void main() {
         }
       }
       for (final s in buildSteps(l, repo).whereType<ActivityStep>()) {
-        for (final r in s.activity.rounds) {
-          add(r.prompt);
-          for (final o in r.options) {
+        for (final it in s.spec.items) {
+          add(it.prompt);
+          add(it.heard);
+          add(it.blend);
+          it.wrongSay.values.forEach(add);
+          for (final o in it.options) {
             add(o.speech);
           }
         }

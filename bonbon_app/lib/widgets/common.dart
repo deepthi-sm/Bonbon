@@ -177,7 +177,8 @@ class _PressButtonState extends State<PressButton> {
       duration: const Duration(milliseconds: 70),
       margin: EdgeInsets.only(top: 4 - edge),
       constraints: const BoxConstraints(minHeight: 56),
-      padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 14),
+      // Icon-only (empty label): no side padding, so it fits a narrow slot.
+      padding: EdgeInsets.symmetric(horizontal: widget.label.isEmpty ? 0 : 22, vertical: 14),
       decoration: BoxDecoration(
         color: enabled ? widget.color : C.locked,
         borderRadius: BorderRadius.circular(999),
@@ -194,7 +195,7 @@ class _PressButtonState extends State<PressButton> {
         children: [
           if (widget.icon != null) ...[
             Icon(widget.icon, color: enabled ? widget.fg : C.inkSoft, size: 24),
-            const SizedBox(width: 10),
+            if (widget.label.isNotEmpty) const SizedBox(width: 10),
           ],
           Flexible(
             child: Text(widget.label,

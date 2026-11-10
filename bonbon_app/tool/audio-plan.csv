@@ -465,9 +465,6 @@ prompt.trace.digit,consigne d'exercice,Écris le chiffre {chiffre}.,,,pack4
 prompt.trace.letter,consigne d'exercice,Écris la lettre {lettre}.,,,pack4
 prompt.word-match.default,consigne d'exercice,Relie le mot à l'image.,,,pack4
 sent.L01.lecon_01_la_lettre_i,interface,Leçon 01. La lettre i,,,prototype
-sent.L01.touche_la_lettre_i,interface,Touche la lettre i,,,prototype
-sent.L01.touche_la_lettre_i_en_ecritu,interface,Touche la lettre i en écriture cursive,,,prototype
-sent.L01.touche_la_lettre_i_majuscule,interface,Touche la lettre i majuscule,,,prototype
 sent.L02.lecon_02_la_lettre_u,interface,Leçon 02. La lettre u,,,prototype
 sent.L02.touche_la_lettre_u,interface,Touche la lettre u,,,prototype
 sent.L02.touche_la_lettre_u_en_ecritu,interface,Touche la lettre u en écriture cursive,,,prototype
@@ -1288,6 +1285,7 @@ sent.L46.copie,interface,copie,,,prototype
 sent.L46.culotte,interface,culotte,,,prototype
 sent.L46.karite,interface,karité,,,prototype
 sent.L46.lecon_46_les_sons_qu_k_c,interface,Leçon 46. Les sons qu = k = c,,,prototype
+sent.L46.qu,interface,qu,,,prototype
 sent.L46.quinine,interface,quinine,,,prototype
 sent.L46.quinqueliba,interface,quinquéliba,,,prototype
 sent.L46.requin,interface,requin,,,prototype
@@ -1378,6 +1376,7 @@ sent.L51.medicament,interface,médicament,,,prototype
 sent.L51.moustapha,interface,Moustapha,,,prototype
 sent.L51.niece,interface,nièce,,,prototype
 sent.L51.panthere,interface,panthère,,,prototype
+sent.L51.ph,interface,ph,,,prototype
 sent.L51.phare,interface,phare,,,prototype
 sent.L51.phares,interface,phares,,,prototype
 sent.L51.pharmacie,interface,pharmacie,,,prototype
@@ -1388,6 +1387,7 @@ sent.L51.photographes,interface,photographes,,,prototype
 sent.L51.prendre,interface,prendre,,,prototype
 sent.L51.ronds,interface,ronds,,,prototype
 sent.L51.telephone,interface,téléphone,,,prototype
+sent.L51.th,interface,th,,,prototype
 sent.L51.the,interface,thé,,,prototype
 sent.L52.01,sentence,Pendant les vacances papa nous accompagne avec sa charette en campagne faire du pique-nique et aussi des parties de chasse. Chacun de nous profite pour se reposer loin de la chaleur de la ville et des accidents. Sur le chemin de retour nous chantons tout en traversant les grands champs étendus à perte de vue.,,,content
 sent.L52.accidents,interface,accidents,,,prototype
@@ -1423,6 +1423,7 @@ sent.L53.multiplication,interface,multiplication,,,prototype
 sent.L53.operations,interface,opérations,,,prototype
 sent.L53.punition,interface,punition,,,prototype
 sent.L53.recreation,interface,récréation,,,prototype
+sent.L53.sion,interface,sion,,,prototype
 sent.L53.tension,interface,tension,,,prototype
 sent.L53.voitures,interface,voitures,,,prototype
 sent.L54.blanc,interface,blanc,,,prototype

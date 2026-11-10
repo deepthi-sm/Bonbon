@@ -6,6 +6,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../activities/assessment.dart';
+import '../activities/contract.dart';
 import '../data/content.dart';
 
 /// Learner profile, progress and settings, persisted locally. No account,
@@ -67,6 +69,89 @@ class AppState extends ChangeNotifier {
 
   int resumeStep(Lesson l) => _p.getInt('resume.${l.key}') ?? 0;
   void saveStep(Lesson l, int step) => _p.setInt('resume.${l.key}', step);
+
+  // ---- exercise results, mastery and the review list
+  //
+  // Recorded now, shown later: the « revise five things » queue ships
+  // switched off (delivery schedule), but its data is kept so it can be
+  // switched on without a rebuild.
+
+  static const _logKey = 'activityLog';
+  static const _masteryKey = 'mastery';
+  static const _reviewKey = 'review';
+
+  /// How many results the log keeps; the oldest are dropped first.
+  static const activityLogMax = 400;
+
+  /// Mastery of a target the app had to answer for her (repair ladder rung 4).
+  static const givenStrength = 0.15;
+
+  /// Every exercise, Bilan and checkpoint result, oldest first, as JSON.
+  List<Map<String, Object?>> get activityLog => [
+        for (final s in _p.getStringList(_logKey) ?? const <String>[])
+          if (_decode(s) case final Map<String, Object?> m) m,
+      ];
+
+  /// 0..1 per letter, syllable or word she has been asked about.
+  Map<String, double> get mastery {
+    final raw = _decode(_p.getString(_masteryKey) ?? '{}');
+    if (raw is! Map) return {};
+    return {for (final e in raw.entries) if (e.value is num) '${e.key}': (e.value as num).toDouble()};
+  }
+
+  /// Targets to see again, oldest first.
+  List<String> get reviewList => _p.getStringList(_reviewKey) ?? const [];
+
+  /// Saves one exercise played inside a lesson.
+  Future<void> recordActivity(ActivityResult r) async {
+    await _appendLog(r.toJson());
+    await _learnFrom([r], extraReview: r.reviewTargets);
+    notifyListeners();
+  }
+
+  /// Saves a Bilan or a checkpoint: one log entry holding all its parts.
+  Future<void> recordAssessment(AssessmentResult r) async {
+    await _appendLog(r.toJson());
+    await _learnFrom(r.parts, extraReview: r.reviewTargets);
+    notifyListeners();
+  }
+
+  Future<void> _appendLog(Map<String, Object?> entry) async {
+    final log = [...?_p.getStringList(_logKey), jsonEncode({...entry, 'at': DateTime.now().toIso8601String()})];
+    await _p.setStringList(_logKey, log.length > activityLogMax ? log.sublist(log.length - activityLogMax) : log);
+  }
+
+  /// Mastery moves 40 % of the way towards each new answer's credit; a
+  /// target the app answered is set to [givenStrength] (repair-ladder.json). A target answered
+  /// right first time leaves the review list; [extraReview] joins it.
+  Future<void> _learnFrom(List<ActivityResult> results, {required List<String> extraReview}) async {
+    final m = mastery;
+    final review = [...reviewList];
+    for (final r in results) {
+      for (final i in r.items) {
+        final c = i.credit(r.spec.type);
+        final old = m[i.target];
+        var v = old == null ? c : old * 0.6 + c * 0.4;
+        if (i.givenByApp) v = givenStrength;
+        m[i.target] = (v * 1000).round() / 1000;
+        if (i.firstTry && !extraReview.contains(i.target)) review.remove(i.target);
+      }
+    }
+    for (final t in extraReview) {
+      review.remove(t);
+      review.add(t);
+    }
+    await _p.setString(_masteryKey, jsonEncode(m));
+    await _p.setStringList(_reviewKey, review);
+  }
+
+  static Object? _decode(String s) {
+    try {
+      return jsonDecode(s);
+    } catch (_) {
+      return null;
+    }
+  }
 
   // ---- attendance streak (days the app was opened, never accuracy)
   List<String> get visitDays => _p.getStringList('days') ?? const [];

@@ -58,11 +58,11 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
     if (intro && _missing && widget.spec.tier == 1) {
       final at = _s.index;
       setState(() => _whole = true);
-      await speech.sayAll([_s.item.heard]);
+      await speech.sayAll(speech.recorded([_s.item.heard]));
       if (!mounted || _s.index != at) return;
       setState(() => _whole = false);
     }
-    await speech.sayAll(_s.askParts);
+    await speech.sayAll(speech.recorded(_s.askParts));
   }
 
   Future<void> _tap(int cell) async {

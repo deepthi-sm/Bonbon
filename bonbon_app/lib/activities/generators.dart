@@ -447,13 +447,15 @@ ActivitySpec? trace(Lesson lesson, List<Block> writing, {int tier = 1, int count
     return [...?(own ?? b.raw['representations'] as List?)?.cast<String>()];
   }
 
+  // A digit is spoken by its name, « trois », not « 3 » (no clip has that key).
+  String say(TextItem it) => lesson.isDigit && it.text == '${lesson.number}' ? lesson.targets[1] : it.speech;
   final glyphs = [
     for (final b in writing)
       if (b.type == 'writing_practice')
         for (final (k, it) in b.items().indexed)
           if (it.text.length == 1) ...[
-            if (reps(b, k).contains('print') || reps(b, k).isEmpty) Choice(it.text, it.speech),
-            if (reps(b, k).contains('cursive')) Choice(it.text, it.speech, cursive: true),
+            if (reps(b, k).contains('print') || reps(b, k).isEmpty) Choice(it.text, say(it)),
+            if (reps(b, k).contains('cursive')) Choice(it.text, say(it), cursive: true),
           ],
   ];
   final seen = <Choice>{};

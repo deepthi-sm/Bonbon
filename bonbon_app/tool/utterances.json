@@ -8048,10 +8048,6 @@
     "where": "Chiffre 0"
   },
   {
-    "text": "0",
-    "where": "Chiffre 0"
-  },
-  {
     "text": "Les chiffres. Le chiffre 1",
     "where": "Chiffre 1"
   },
@@ -8060,15 +8056,7 @@
     "where": "Chiffre 1"
   },
   {
-    "text": "1",
-    "where": "Chiffre 1"
-  },
-  {
     "text": "Les chiffres. Le chiffre 2",
-    "where": "Chiffre 2"
-  },
-  {
-    "text": "2",
     "where": "Chiffre 2"
   },
   {
@@ -8076,15 +8064,7 @@
     "where": "Chiffre 3"
   },
   {
-    "text": "3",
-    "where": "Chiffre 3"
-  },
-  {
     "text": "Les chiffres. Le chiffre 4",
-    "where": "Chiffre 4"
-  },
-  {
-    "text": "4",
     "where": "Chiffre 4"
   },
   {
@@ -8092,15 +8072,7 @@
     "where": "Chiffre 5"
   },
   {
-    "text": "5",
-    "where": "Chiffre 5"
-  },
-  {
     "text": "Les chiffres. Le chiffre 6",
-    "where": "Chiffre 6"
-  },
-  {
-    "text": "6",
     "where": "Chiffre 6"
   },
   {
@@ -8108,23 +8080,11 @@
     "where": "Chiffre 7"
   },
   {
-    "text": "7",
-    "where": "Chiffre 7"
-  },
-  {
     "text": "Les chiffres. Le chiffre 8",
     "where": "Chiffre 8"
   },
   {
-    "text": "8",
-    "where": "Chiffre 8"
-  },
-  {
     "text": "Les chiffres. Le chiffre 9",
-    "where": "Chiffre 9"
-  },
-  {
-    "text": "9",
     "where": "Chiffre 9"
   }
 ]

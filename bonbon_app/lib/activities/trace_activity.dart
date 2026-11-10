@@ -50,16 +50,9 @@ class _TraceActivityState extends State<TraceActivity> {
 
   void _ask() {
     if (!mounted || _s.finished) return;
-    context.app.speech.sayAll(_recorded(_s.askParts));
+    context.app.speech.sayAll(context.app.speech.recorded(_s.askParts));
   }
 
-  /// Only what has a recording (« é » alone has none): tracing is not a
-  /// listening exercise, so a missing sound is skipped, not announced.
-  /// With no clips loaded at all (tests), everything is kept.
-  List<String> _recorded(List<String> parts) {
-    final speech = context.app.speech;
-    return speech.clipCount == 0 ? parts : [for (final p in parts) if (speech.has(p)) p];
-  }
 
   Future<void> _check() async {
     final pad = _pad.currentState;
@@ -76,7 +69,7 @@ class _TraceActivityState extends State<TraceActivity> {
     final out = _s.check(r);
     if (out == null) return;
     setState(() {});
-    await app.speech.sayAll(_recorded(out.say));
+    await app.speech.sayAll(app.speech.recorded(out.say));
     if (mounted && !out.itemDone) {
       pad.clear();
       setState(_s.clear);

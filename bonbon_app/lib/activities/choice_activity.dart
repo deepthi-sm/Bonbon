@@ -74,7 +74,7 @@ class _ChoiceActivityState extends State<ChoiceActivity> {
       _tried = out.correct ? null : tried;
     });
     final app = context.app;
-    await app.speech.sayAll(out.say);
+    await app.speech.sayAll(app.speech.recorded(out.say));
     if (!mounted) return;
     if (_tried == tried) setState(() => _tried = null);
     if (!out.itemDone) return;

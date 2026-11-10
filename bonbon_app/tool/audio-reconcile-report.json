@@ -1,0 +1,261 @@
+{
+  "pack4": {
+    "clips": 584,
+    "byNamespace": {
+      "letter": 49,
+      "syll": 131,
+      "blend": 131,
+      "digit": 10,
+      "cue": 22,
+      "ui": 174,
+      "vo": 10,
+      "fb": 44,
+      "prompt": 13
+    }
+  },
+  "prototype": {
+    "rows": 1951,
+    "distinctTexts": 1951,
+    "byWhere": {
+      "Interface": 83,
+      "Leçon 01": 13,
+      "Leçon 02": 13,
+      "Leçon 03": 14,
+      "Leçon 04": 11,
+      "Leçon 05": 13,
+      "Leçon 06": 13,
+      "Leçon 07": 10,
+      "Leçon 08": 29,
+      "Leçon 09": 26,
+      "Leçon 10": 20,
+      "Leçon 11": 23,
+      "Leçon 12": 32,
+      "Leçon 13": 32,
+      "Leçon 14": 21,
+      "Leçon 15": 24,
+      "Leçon 16": 36,
+      "Leçon 17": 24,
+      "Leçon 18": 21,
+      "Leçon 19": 27,
+      "Leçon 20": 27,
+      "Leçon 21": 20,
+      "Leçon 22": 21,
+      "Leçon 23": 21,
+      "Leçon 24": 23,
+      "Leçon 25": 77,
+      "Leçon 26": 61,
+      "Leçon 27": 49,
+      "Leçon 28": 39,
+      "Leçon 29": 49,
+      "Leçon 30": 49,
+      "Leçon 31": 46,
+      "Leçon 32": 40,
+      "Leçon 33": 41,
+      "Leçon 34": 38,
+      "Leçon 35": 31,
+      "Leçon 36": 39,
+      "Leçon 37": 31,
+      "Leçon 38": 38,
+      "Leçon 39": 39,
+      "Leçon 40": 41,
+      "Leçon 41": 45,
+      "Leçon 42": 43,
+      "Leçon 43": 43,
+      "Leçon 44": 37,
+      "Leçon 45": 52,
+      "Leçon 46": 34,
+      "Leçon 47": 34,
+      "Leçon 48": 27,
+      "Leçon 49": 37,
+      "Leçon 50": 44,
+      "Leçon 51": 36,
+      "Leçon 52": 30,
+      "Leçon 53": 26,
+      "Leçon 54": 33,
+      "Leçon 55": 38,
+      "Leçon 56": 72,
+      "Chiffre 0": 3,
+      "Chiffre 1": 1,
+      "Chiffre 2": 2,
+      "Chiffre 3": 2,
+      "Chiffre 4": 1,
+      "Chiffre 5": 2,
+      "Chiffre 6": 1,
+      "Chiffre 7": 1,
+      "Chiffre 8": 1,
+      "Chiffre 9": 1
+    }
+  },
+  "lessonKeys": {
+    "references": 1448,
+    "distinct": 1032,
+    "byKind": {
+      "number": 10,
+      "grapheme": 105,
+      "phrase": 295,
+      "word": 281,
+      "syllable": 244,
+      "lesson-08": 4,
+      "lesson-09": 4,
+      "lesson-10": 2,
+      "lesson-11": 3,
+      "lesson-12": 4,
+      "lesson-13": 4,
+      "lesson-14": 3,
+      "lesson-15": 4,
+      "lesson-16": 4,
+      "lesson-17": 3,
+      "lesson-18": 2,
+      "lesson-19": 4,
+      "lesson-20": 4,
+      "lesson-21": 4,
+      "lesson-22": 3,
+      "lesson-23": 2,
+      "lesson-25": 3,
+      "lesson-26": 2,
+      "lesson-27": 3,
+      "lesson-28": 1,
+      "lesson-29": 1,
+      "lesson-30": 4,
+      "lesson-31": 1,
+      "lesson-32": 1,
+      "lesson-33": 1,
+      "lesson-35": 3,
+      "lesson-36": 1,
+      "lesson-37": 2,
+      "lesson-38": 4,
+      "lesson-39": 1,
+      "lesson-41": 1,
+      "lesson-42": 4,
+      "lesson-43": 1,
+      "lesson-44": 1,
+      "lesson-45": 1,
+      "lesson-47": 1,
+      "lesson-50": 1,
+      "lesson-51": 1,
+      "lesson-52": 1,
+      "lesson-53": 1,
+      "lesson-55": 1,
+      "lesson-56": 1
+    }
+  },
+  "overlap": {
+    "both": 166,
+    "pack4Only": 387,
+    "prototypeOnly": 1785
+  },
+  "letterSoundGap": {
+    "pack4NameClips": 26,
+    "pack4SoundClips": 23,
+    "graphemeRefs": 212,
+    "bareLetterFallbacks": 140,
+    "bareLetterSamples": [
+      "a",
+      "ac",
+      "ai",
+      "am",
+      "an",
+      "ar",
+      "au",
+      "ay",
+      "b",
+      "bl",
+      "br",
+      "c",
+      "ch",
+      "cl",
+      "cr",
+      "d",
+      "dr",
+      "e",
+      "ed",
+      "ei"
+    ]
+  },
+  "textKeyCollisions": {
+    "count": 31,
+    "examples": {
+      "bienvenue. cette application t'apprend à lire et à écrire le français. tu n'as pas besoin de savoir lire pour t'en servir. appuie sur le grand bouton vert.": [
+        "ui.onboarding.welcome.title",
+        "vo.onb.01"
+      ],
+      "bé": [
+        "letter.b.name",
+        "syll.be_acute"
+      ],
+      "c'est bien tracé.": [
+        "cue.good",
+        "ui.writing.cue.good"
+      ],
+      "c'est ça.": [
+        "fb.micro.01",
+        "ui.activity.correct"
+      ],
+      "commence ici, en haut.": [
+        "cue.startWrong",
+        "ui.writing.cue.start"
+      ],
+      "commencer": [
+        "ui.common.start",
+        "ui.onboarding.welcome.cta"
+      ],
+      "cé": [
+        "letter.c.name",
+        "syll.ce_acute"
+      ],
+      "descends, ne monte pas.": [
+        "cue.directionWrong",
+        "ui.writing.cue.direction"
+      ],
+      "doucement, suis le trait.": [
+        "cue.tooFast",
+        "ui.writing.cue.slow"
+      ],
+      "dé": [
+        "letter.d.name",
+        "syll.de_acute"
+      ],
+      "il manque un trait.": [
+        "cue.strokeMissing",
+        "ui.writing.cue.missing"
+      ],
+      "ji": [
+        "letter.j.name",
+        "syll.ji"
+      ],
+      "ka": [
+        "letter.k.name",
+        "syll.ka"
+      ],
+      "ku": [
+        "letter.q.name",
+        "syll.ku"
+      ],
+      "les chiffres": [
+        "ui.path.unit.chiffres",
+        "ui.practice.digits"
+      ],
+      "m'entraîner": [
+        "ui.home.practice",
+        "ui.practice.title"
+      ],
+      "mes progrès": [
+        "ui.home.progress",
+        "ui.progress.title"
+      ],
+      "mode animatrice": [
+        "ui.facilitator.title",
+        "ui.settings.facilitator"
+      ],
+      "mon parcours": [
+        "ui.home.path",
+        "ui.path.title"
+      ],
+      "passe bien par le point.": [
+        "cue.missedCheckpoint",
+        "ui.writing.cue.checkpoint"
+      ]
+    },
+    "noTextAtAll": 0
+  }
+}

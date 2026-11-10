@@ -1,0 +1,17 @@
+# Clips that came from a person, not the synthesiser. Never regenerate or
+# prune these — audio_gen.py --force and audio_human.py --apply both skip them.
+#
+# Plosives (p t k b d g) are a silence plus a burst of about twenty
+# milliseconds. They cannot be held, so a synthesiser asked for a sustained
+# one produces aspiration noise instead. These seven are the whole set the
+# method needs and cannot generate.
+#
+# Provisional: recorded by an English speaker. English aspirates these and
+# French does not, so a French reviewer should confirm or replace them.
+letter.b.sound
+letter.c.sound
+letter.d.sound
+letter.g.sound
+letter.k.sound
+letter.p.sound
+letter.t.sound

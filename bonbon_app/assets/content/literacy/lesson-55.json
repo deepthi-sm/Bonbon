@@ -1,0 +1,333 @@
+{
+  "id": "lesson-55",
+  "lessonNumber": 55,
+  "targets": [
+    {
+      "id": "target-lesson-55-1",
+      "kind": "grapheme",
+      "value": "ar",
+      "audio": {
+        "key": "fr:grapheme:ar-ab5b6208",
+        "fallbackText": "ar"
+      }
+    },
+    {
+      "id": "target-lesson-55-2",
+      "kind": "grapheme",
+      "value": "or",
+      "audio": {
+        "key": "fr:grapheme:or-7175517a",
+        "fallbackText": "or"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [87],
+    "printedPages": [85]
+  },
+  "blocks": [
+    {
+      "id": "lesson-55-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [87],
+        "printedPages": [85]
+      },
+      "grapheme": "ar",
+      "uppercase": "AR",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ar-ab5b6208",
+        "fallbackText": "ar"
+      }
+    },
+    {
+      "id": "lesson-55-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [87],
+        "printedPages": [85]
+      },
+      "grapheme": "or",
+      "uppercase": "OR",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:or-7175517a",
+        "fallbackText": "or"
+      }
+    },
+    {
+      "id": "lesson-55-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [87],
+        "printedPages": [85]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-55-block-03-item-01",
+          "text": "la marmite",
+          "audio": {
+            "key": "fr:phrase:la-marmite-d76e795b",
+            "fallbackText": "la marmite"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-55-block-03-item-02",
+          "text": "la porte",
+          "audio": {
+            "key": "fr:phrase:la-porte-4393e165",
+            "fallbackText": "la porte"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-55-block-03-item-03",
+          "text": "je regarde",
+          "audio": {
+            "key": "fr:phrase:je-regarde-51ff9e06",
+            "fallbackText": "je regarde"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-55-block-03-item-04",
+          "text": "un marché",
+          "audio": {
+            "key": "fr:phrase:un-marche-8ccb0c8f",
+            "fallbackText": "un marché"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-55-block-03-item-05",
+          "text": "le canard",
+          "audio": {
+            "key": "fr:phrase:le-canard-1f245f54",
+            "fallbackText": "le canard"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-55-block-03-item-06",
+          "text": "le charognard",
+          "audio": {
+            "key": "fr:phrase:le-charognard-d0045daa",
+            "fallbackText": "le charognard"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-55-block-03-item-07",
+          "text": "une cartouche",
+          "audio": {
+            "key": "fr:phrase:une-cartouche-b65637e8",
+            "fallbackText": "une cartouche"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-55-block-03-item-08",
+          "text": "l’arc",
+          "audio": {
+            "key": "fr:word:larc-f1d2fc1e",
+            "fallbackText": "l’arc"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-55-block-03-item-09",
+          "text": "les cornes",
+          "audio": {
+            "key": "fr:phrase:les-cornes-939cded4",
+            "fallbackText": "les cornes"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-55-block-03-item-10",
+          "text": "la marche",
+          "audio": {
+            "key": "fr:phrase:la-marche-c96f4aa2",
+            "fallbackText": "la marche"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-55-block-03-item-11",
+          "text": "le marchand",
+          "audio": {
+            "key": "fr:phrase:le-marchand-6ed034ec",
+            "fallbackText": "le marchand"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-55-block-03-item-12",
+          "text": "de l’or",
+          "audio": {
+            "key": "fr:phrase:de-lor-bddf1f31",
+            "fallbackText": "de l’or"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-55-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [87],
+        "printedPages": [85]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-55-block-04-item-01",
+          "text": "la marmite",
+          "audio": {
+            "key": "fr:phrase:la-marmite-d76e795b",
+            "fallbackText": "la marmite"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-55-block-04-item-02",
+          "text": "la porte",
+          "audio": {
+            "key": "fr:phrase:la-porte-4393e165",
+            "fallbackText": "la porte"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-55-block-04-item-03",
+          "text": "je regarde",
+          "audio": {
+            "key": "fr:phrase:je-regarde-51ff9e06",
+            "fallbackText": "je regarde"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-55-block-04-item-04",
+          "text": "l’arc",
+          "audio": {
+            "key": "fr:word:larc-f1d2fc1e",
+            "fallbackText": "l’arc"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-55-block-04-item-05",
+          "text": "un marché",
+          "audio": {
+            "key": "fr:phrase:un-marche-8ccb0c8f",
+            "fallbackText": "un marché"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-55-block-04-item-06",
+          "text": "le canard",
+          "audio": {
+            "key": "fr:phrase:le-canard-1f245f54",
+            "fallbackText": "le canard"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-55-block-04-item-07",
+          "text": "le charognard",
+          "audio": {
+            "key": "fr:phrase:le-charognard-d0045daa",
+            "fallbackText": "le charognard"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-55-block-04-item-08",
+          "text": "une cartouche",
+          "audio": {
+            "key": "fr:phrase:une-cartouche-b65637e8",
+            "fallbackText": "une cartouche"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-55-block-04-item-09",
+          "text": "les cornes",
+          "audio": {
+            "key": "fr:phrase:les-cornes-939cded4",
+            "fallbackText": "les cornes"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-55-block-04-item-10",
+          "text": "la marche",
+          "audio": {
+            "key": "fr:phrase:la-marche-c96f4aa2",
+            "fallbackText": "la marche"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-55-block-04-item-11",
+          "text": "le marchand",
+          "audio": {
+            "key": "fr:phrase:le-marchand-6ed034ec",
+            "fallbackText": "le marchand"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-55-block-04-item-12",
+          "text": "de l’or",
+          "audio": {
+            "key": "fr:phrase:de-lor-bddf1f31",
+            "fallbackText": "de l’or"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-55-block-04-item-13",
+          "text": "une ardoise.",
+          "audio": {
+            "key": "fr:phrase:une-ardoise-c37d78d5",
+            "fallbackText": "une ardoise."
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-55-block-05",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [87],
+        "printedPages": [85]
+      },
+      "title": "Les préparatifs",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-55-block-05-segment-1",
+          "type": "narration",
+          "text": "Avant la nouvelle année, maman dégage toutes les ordures de la maison. Mon frère est chargé d’orner le salon et le rendre beau. Papa aussi ne se repose pas, il arrache les mauvaises herbes autour de la maison. Pour aller retirer de l’argent à la banque, papa prend l’autocar.",
+          "audio": {
+            "key": "fr:lesson-55:passage-5-segment-1",
+            "fallbackText": "Avant la nouvelle année, maman dégage toutes les ordures de la maison. Mon frère est chargé d’orner le salon et le rendre beau. Papa aussi ne se repose pas, il arrache les mauvaises herbes autour de la maison. Pour aller retirer de l’argent à la banque, papa prend l’autocar."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-55-review-1"]
+  }
+}

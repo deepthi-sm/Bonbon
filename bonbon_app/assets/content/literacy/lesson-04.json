@@ -1,0 +1,196 @@
+{
+  "id": "lesson-04",
+  "lessonNumber": 4,
+  "targets": [
+    {
+      "id": "target-lesson-04-1",
+      "kind": "grapheme",
+      "value": "a",
+      "audio": {
+        "key": "fr:grapheme:a-ca978112",
+        "fallbackText": "a"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [13, 14],
+    "printedPages": [12, 13]
+  },
+  "blocks": [
+    {
+      "id": "lesson-04-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [13],
+        "printedPages": [12]
+      },
+      "grapheme": "a",
+      "uppercase": "A",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:a-ca978112",
+        "fallbackText": "a"
+      }
+    },
+    {
+      "id": "lesson-04-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [13],
+        "printedPages": [12]
+      },
+      "assetId": "lesson-04-illustration",
+      "caption": {
+        "id": "lesson-04-caption",
+        "text": "un ananas",
+        "audio": {
+          "key": "fr:phrase:un-ananas-14cf8d07",
+          "fallbackText": "un ananas"
+        }
+      }
+    },
+    {
+      "id": "lesson-04-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [13],
+        "printedPages": [12]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-04-block-03-item-01",
+          "text": "pas",
+          "audio": {
+            "key": "fr:word:pas-7f1f073d",
+            "fallbackText": "pas"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-04-block-03-item-02",
+          "text": "bas",
+          "audio": {
+            "key": "fr:word:bas-cc9fa8a9",
+            "fallbackText": "bas"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-04-block-03-item-03",
+          "text": "car",
+          "audio": {
+            "key": "fr:word:car-2b2961a4",
+            "fallbackText": "car"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-04-block-03-item-04",
+          "text": "date",
+          "audio": {
+            "key": "fr:word:date-0e87632c",
+            "fallbackText": "date"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-04-block-03-item-05",
+          "text": "farine",
+          "audio": {
+            "key": "fr:word:farine-192503e6",
+            "fallbackText": "farine"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-04-block-03-item-06",
+          "text": "camarade",
+          "audio": {
+            "key": "fr:word:camarade-bb900dfb",
+            "fallbackText": "camarade"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-04-block-03-item-07",
+          "text": "fagot",
+          "audio": {
+            "key": "fr:word:fagot-63bd9333",
+            "fallbackText": "fagot"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-04-block-04",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [13],
+        "printedPages": [12]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-04-hand-1",
+          "text": "a"
+        }
+      ],
+      "glyphAssetIds": ["lesson-04-glyph-1"]
+    },
+    {
+      "id": "lesson-04-block-05",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [14],
+        "printedPages": [13]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-04-block-05-item-01",
+          "text": "a",
+          "audio": {
+            "key": "fr:word:a-ca978112",
+            "fallbackText": "a"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-04-block-05-item-02",
+          "text": "ami",
+          "audio": {
+            "key": "fr:word:ami-5152cc21",
+            "fallbackText": "ami"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-04-block-05-item-03",
+          "text": "A",
+          "audio": {
+            "key": "fr:word:a-559aead0",
+            "fallbackText": "A"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-04-block-05-item-04",
+          "text": "Ami",
+          "audio": {
+            "key": "fr:word:ami-1be3015a",
+            "fallbackText": "Ami"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ],
+      "representations": ["print", "cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-04-review-1"]
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "id": "lesson-18",
+  "lessonNumber": 18,
+  "targets": [
+    {
+      "id": "target-lesson-18-1",
+      "kind": "grapheme",
+      "value": "f",
+      "audio": {
+        "key": "fr:grapheme:f-252f10c8",
+        "fallbackText": "f"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [41, 42],
+    "printedPages": [40, 41]
+  },
+  "blocks": [
+    {
+      "id": "lesson-18-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [41],
+        "printedPages": [40]
+      },
+      "grapheme": "f",
+      "uppercase": "F",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:f-252f10c8",
+        "fallbackText": "f"
+      }
+    },
+    {
+      "id": "lesson-18-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [41],
+        "printedPages": [40]
+      },
+      "assetId": "lesson-18-illustration",
+      "caption": {
+        "id": "lesson-18-caption",
+        "text": "un feu",
+        "audio": {
+          "key": "fr:phrase:un-feu-61d0c2f4",
+          "fallbackText": "un feu"
+        }
+      }
+    },
+    {
+      "id": "lesson-18-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [41],
+        "printedPages": [40]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-18-block-03-item-01",
+          "text": "fi",
+          "audio": {
+            "key": "fr:syllable:fi-b4bdc848",
+            "fallbackText": "fi"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-18-block-03-item-02",
+          "text": "fu",
+          "audio": {
+            "key": "fr:syllable:fu-a4d0ef23",
+            "fallbackText": "fu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-18-block-03-item-03",
+          "text": "fo",
+          "audio": {
+            "key": "fr:syllable:fo-9c3aee71",
+            "fallbackText": "fo"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-18-block-03-item-04",
+          "text": "fa",
+          "audio": {
+            "key": "fr:syllable:fa-3097e26b",
+            "fallbackText": "fa"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-18-block-03-item-05",
+          "text": "fe",
+          "audio": {
+            "key": "fr:syllable:fe-2c9dcded",
+            "fallbackText": "fe"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-18-block-03-item-06",
+          "text": "fé",
+          "audio": {
+            "key": "fr:syllable:fe-42328c1c",
+            "fallbackText": "fé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-18-block-03-item-07",
+          "text": "fè",
+          "audio": {
+            "key": "fr:syllable:fe-50df088a",
+            "fallbackText": "fè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-18-block-03-item-08",
+          "text": "fê",
+          "audio": {
+            "key": "fr:syllable:fe-b4d4e15a",
+            "fallbackText": "fê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-18-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [41],
+        "printedPages": [40]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-18-block-04-item-01",
+          "text": "feu",
+          "audio": {
+            "key": "fr:word:feu-d23e0043",
+            "fallbackText": "feu"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-18-block-04-item-02",
+          "text": "fête",
+          "audio": {
+            "key": "fr:word:fete-da0cc8a6",
+            "fallbackText": "fête"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-18-block-04-item-03",
+          "text": "front",
+          "audio": {
+            "key": "fr:word:front-2d8d6931",
+            "fallbackText": "front"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-18-block-04-item-04",
+          "text": "forêt",
+          "audio": {
+            "key": "fr:word:foret-404ef6b7",
+            "fallbackText": "forêt"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-18-block-04-item-05",
+          "text": "fonio",
+          "audio": {
+            "key": "fr:word:fonio-58759523",
+            "fallbackText": "fonio"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-18-block-04-item-06",
+          "text": "fin",
+          "audio": {
+            "key": "fr:word:fin-a383bcb7",
+            "fallbackText": "fin"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-18-block-04-item-07",
+          "text": "foire",
+          "audio": {
+            "key": "fr:word:foire-1c29c28d",
+            "fallbackText": "foire"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-18-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [41],
+        "printedPages": [40]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-18-block-05-item-01",
+          "text": "maman allume le feu.",
+          "audio": {
+            "key": "fr:lesson-18:b5-item-1",
+            "fallbackText": "maman allume le feu."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-18-block-05-item-02",
+          "text": "le fonio de papa.",
+          "audio": {
+            "key": "fr:lesson-18:b5-item-2",
+            "fallbackText": "le fonio de papa."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-18-block-06",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [42],
+        "printedPages": [41]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-18-hand-1",
+          "text": "f"
+        },
+        {
+          "id": "lesson-18-hand-2",
+          "text": "F"
+        }
+      ],
+      "glyphAssetIds": ["lesson-18-glyph-1", "lesson-18-glyph-2"]
+    },
+    {
+      "id": "lesson-18-block-07",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [42],
+        "printedPages": [41]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-18-block-07-item-01",
+          "text": "f",
+          "audio": {
+            "key": "fr:word:f-252f10c8",
+            "fallbackText": "f"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-18-block-07-item-02",
+          "text": "fonio",
+          "audio": {
+            "key": "fr:word:fonio-58759523",
+            "fallbackText": "fonio"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-18-block-07-item-03",
+          "text": "F",
+          "audio": {
+            "key": "fr:word:f-f67ab10a",
+            "fallbackText": "F"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-18-block-07-item-04",
+          "text": "Fonio",
+          "audio": {
+            "key": "fr:word:fonio-421f2721",
+            "fallbackText": "Fonio"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-18-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [42],
+        "printedPages": [41]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-18-block-08-item-01",
+          "text": "f",
+          "audio": {
+            "key": "fr:word:f-252f10c8",
+            "fallbackText": "f"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-18-block-08-item-02",
+          "text": "farine",
+          "audio": {
+            "key": "fr:word:farine-192503e6",
+            "fallbackText": "farine"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-18-review-1"]
+  }
+}

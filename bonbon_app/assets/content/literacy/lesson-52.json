@@ -1,0 +1,267 @@
+{
+  "id": "lesson-52",
+  "lessonNumber": 52,
+  "targets": [
+    {
+      "id": "target-lesson-52-1",
+      "kind": "grapheme",
+      "value": "ac",
+      "audio": {
+        "key": "fr:grapheme:ac-f45de51c",
+        "fallbackText": "ac"
+      }
+    },
+    {
+      "id": "target-lesson-52-2",
+      "kind": "grapheme",
+      "value": "oc",
+      "audio": {
+        "key": "fr:grapheme:oc-5f751e08",
+        "fallbackText": "oc"
+      }
+    },
+    {
+      "id": "target-lesson-52-3",
+      "kind": "grapheme",
+      "value": "ic",
+      "audio": {
+        "key": "fr:grapheme:ic-dae7f3a0",
+        "fallbackText": "ic"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [84],
+    "printedPages": [82]
+  },
+  "blocks": [
+    {
+      "id": "lesson-52-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [84],
+        "printedPages": [82]
+      },
+      "grapheme": "ac",
+      "uppercase": "AC",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ac-f45de51c",
+        "fallbackText": "ac"
+      }
+    },
+    {
+      "id": "lesson-52-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [84],
+        "printedPages": [82]
+      },
+      "grapheme": "oc",
+      "uppercase": "OC",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:oc-5f751e08",
+        "fallbackText": "oc"
+      }
+    },
+    {
+      "id": "lesson-52-block-03",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [84],
+        "printedPages": [82]
+      },
+      "grapheme": "ic",
+      "uppercase": "IC",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ic-dae7f3a0",
+        "fallbackText": "ic"
+      }
+    },
+    {
+      "id": "lesson-52-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [84],
+        "printedPages": [82]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-52-block-04-item-01",
+          "text": "un sac",
+          "audio": {
+            "key": "fr:phrase:un-sac-b48c69f2",
+            "fallbackText": "un sac"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-52-block-04-item-02",
+          "text": "accompagner",
+          "audio": {
+            "key": "fr:word:accompagner-59b31360",
+            "fallbackText": "accompagner"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-52-block-04-item-03",
+          "text": "occuper",
+          "audio": {
+            "key": "fr:word:occuper-d5f6e2f4",
+            "fallbackText": "occuper"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-52-block-04-item-04",
+          "text": "accord",
+          "audio": {
+            "key": "fr:word:accord-b4ef49fb",
+            "fallbackText": "accord"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-52-block-04-item-05",
+          "text": "un choc",
+          "audio": {
+            "key": "fr:phrase:un-choc-2a3202d4",
+            "fallbackText": "un choc"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-52-block-04-item-06",
+          "text": "accoucher",
+          "audio": {
+            "key": "fr:word:accoucher-a54168bc",
+            "fallbackText": "accoucher"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-52-block-04-item-07",
+          "text": "la soustraction",
+          "audio": {
+            "key": "fr:phrase:la-soustraction-e2931e1e",
+            "fallbackText": "la soustraction"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-52-block-04-item-08",
+          "text": "une attraction",
+          "audio": {
+            "key": "fr:phrase:une-attraction-ca624b5b",
+            "fallbackText": "une attraction"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-52-block-05",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [84],
+        "printedPages": [82]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-52-block-05-item-01",
+          "text": "un sac",
+          "audio": {
+            "key": "fr:phrase:un-sac-b48c69f2",
+            "fallbackText": "un sac"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-52-block-05-item-02",
+          "text": "accompagner",
+          "audio": {
+            "key": "fr:word:accompagner-59b31360",
+            "fallbackText": "accompagner"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-52-block-05-item-03",
+          "text": "accord",
+          "audio": {
+            "key": "fr:word:accord-b4ef49fb",
+            "fallbackText": "accord"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-52-block-05-item-04",
+          "text": "un choc",
+          "audio": {
+            "key": "fr:phrase:un-choc-2a3202d4",
+            "fallbackText": "un choc"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-52-block-05-item-05",
+          "text": "occuper",
+          "audio": {
+            "key": "fr:word:occuper-d5f6e2f4",
+            "fallbackText": "occuper"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-52-block-05-item-06",
+          "text": "la soustraction",
+          "audio": {
+            "key": "fr:phrase:la-soustraction-e2931e1e",
+            "fallbackText": "la soustraction"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-52-block-05-item-07",
+          "text": "une attraction",
+          "audio": {
+            "key": "fr:phrase:une-attraction-ca624b5b",
+            "fallbackText": "une attraction"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-52-block-06",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [84],
+        "printedPages": [82]
+      },
+      "title": "Les vacances",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-52-block-06-segment-1",
+          "type": "narration",
+          "text": "Pendant les vacances papa nous accompagne avec sa charette en campagne faire du pique-nique et aussi des parties de chasse. Chacun de nous profite pour se reposer loin de la chaleur de la ville et des accidents. Sur le chemin de retour nous chantons tout en traversant les grands champs étendus à perte de vue.",
+          "audio": {
+            "key": "fr:lesson-52:passage-6-segment-1",
+            "fallbackText": "Pendant les vacances papa nous accompagne avec sa charette en campagne faire du pique-nique et aussi des parties de chasse. Chacun de nous profite pour se reposer loin de la chaleur de la ville et des accidents. Sur le chemin de retour nous chantons tout en traversant les grands champs étendus à perte de vue."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-52-review-1"]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "$comment": "NEW (formalised). The audio ID is the seam between Dev A's content and Dev D's studio. It has to be MECHANICAL — derivable from the content with no conversation — or the two streams block each other every week. This is that grammar, written as a regex CI can enforce.",
+  "regex": "^(letter|syll|blend|word|sent|text|digit|prompt|fb|cue|ui|vo|q)\\.[A-Za-z0-9_.-]+$",
+  "namespaces": [
+    {
+      "ns": "letter",
+      "shape": "letter.{glyph}.{name|sound}",
+      "ex": [
+        "letter.t.name",
+        "letter.t.sound"
+      ],
+      "note": "TWO clips per letter, always. The NAME (« té ») and the SOUND (« t »). Conflating them is the single most common error in phonics audio and it teaches the wrong thing: a syllabaire fuses SOUNDS."
+    },
+    {
+      "ns": "syll",
+      "shape": "syll.{consonant}{vowelkey}",
+      "ex": [
+        "syll.ta",
+        "syll.te_acute"
+      ],
+      "vowelKeys": {
+        "é": "e_acute",
+        "è": "e_grave",
+        "ê": "e_circ"
+      }
+    },
+    {
+      "ns": "blend",
+      "shape": "blend.{consonant}{vowelkey}",
+      "ex": [
+        "blend.ta"
+      ],
+      "note": "The segmented reading: « t … a … ta ». Played on a correct syllable-build, and on demand by long-press. This is the clip that actually teaches fusion."
+    },
+    {
+      "ns": "word",
+      "shape": "word.{ascii-slug}",
+      "ex": [
+        "word.fonio",
+        "word.tete"
+      ],
+      "slug": "NFD → strip diacritics → lowercase → non-alphanumerics to '_'"
+    },
+    {
+      "ns": "sent",
+      "shape": "sent.{lessonId}.{nn}",
+      "ex": [
+        "sent.L08.01"
+      ]
+    },
+    {
+      "ns": "text",
+      "shape": "text.{textId}.{whole|snn}",
+      "ex": [
+        "text.T27.whole",
+        "text.T27.s04"
+      ]
+    },
+    {
+      "ns": "digit",
+      "shape": "digit.{n}.name",
+      "ex": [
+        "digit.7.name"
+      ]
+    },
+    {
+      "ns": "prompt",
+      "shape": "prompt.{activityType}.{variant}",
+      "ex": [
+        "prompt.tap-identify.letter"
+      ]
+    },
+    {
+      "ns": "fb",
+      "shape": "fb.{tier}.{nn}",
+      "ex": [
+        "fb.micro.03"
+      ],
+      "note": "encouragement bank"
+    },
+    {
+      "ns": "cue",
+      "shape": "cue.{name}",
+      "ex": [
+        "cue.start"
+      ],
+      "note": "trace remediation"
+    },
+    {
+      "ns": "ui",
+      "shape": "ui.{namespace}.{key}",
+      "ex": [
+        "ui.common.listen"
+      ]
+    },
+    {
+      "ns": "vo",
+      "shape": "vo.{flow}.{nn}",
+      "ex": [
+        "vo.onb.01"
+      ]
+    },
+    {
+      "ns": "q",
+      "shape": "q.{textId}.q{n}",
+      "ex": [
+        "q.T27.q1"
+      ],
+      "note": "comprehension"
+    }
+  ],
+  "rules": [
+    "IDs are lowercase ASCII. Diacritics are transliterated, never embedded.",
+    "An ID is derived from content, never hand-assigned.",
+    "tools/generate-audio-manifest.ts scans content/ and src/i18n/ and emits every ID it finds with status 'missing'. Nobody types an ID into the manifest by hand.",
+    "CI fails if content references an ID absent from the manifest, and WARNS (does not fail) if the manifest holds an ID nothing references — orphans are cheap, gaps are not.",
+    "Uppercase is permitted after the namespace because lesson IDs are uppercase (sent.L08.01) and UI keys are camelCase. The lowercase-only form of this regex could never match the spec's own examples. Filename safety is enforced instead by a case-insensitive collision check: two IDs differing only in case are a CI failure, because they are one file on a case-insensitive volume."
+  ]
+}

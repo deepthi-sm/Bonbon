@@ -1,0 +1,220 @@
+{
+  "id": "lesson-33",
+  "lessonNumber": 33,
+  "targets": [
+    {
+      "id": "target-lesson-33-1",
+      "kind": "grapheme",
+      "value": "ay",
+      "audio": {
+        "key": "fr:grapheme:ay-69d61997",
+        "fallbackText": "ay"
+      }
+    },
+    {
+      "id": "target-lesson-33-2",
+      "kind": "grapheme",
+      "value": "oy",
+      "audio": {
+        "key": "fr:grapheme:oy-c45439e8",
+        "fallbackText": "oy"
+      }
+    },
+    {
+      "id": "target-lesson-33-3",
+      "kind": "grapheme",
+      "value": "uy",
+      "audio": {
+        "key": "fr:grapheme:uy-ab45457b",
+        "fallbackText": "uy"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [64],
+    "printedPages": [63]
+  },
+  "blocks": [
+    {
+      "id": "lesson-33-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [64],
+        "printedPages": [63]
+      },
+      "grapheme": "ay",
+      "uppercase": "AY",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ay-69d61997",
+        "fallbackText": "ay"
+      }
+    },
+    {
+      "id": "lesson-33-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [64],
+        "printedPages": [63]
+      },
+      "grapheme": "oy",
+      "uppercase": "OY",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:oy-c45439e8",
+        "fallbackText": "oy"
+      }
+    },
+    {
+      "id": "lesson-33-block-03",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [64],
+        "printedPages": [63]
+      },
+      "grapheme": "uy",
+      "uppercase": "UY",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:uy-ab45457b",
+        "fallbackText": "uy"
+      }
+    },
+    {
+      "id": "lesson-33-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [64],
+        "printedPages": [63]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-33-block-04-item-01",
+          "text": "un noyau",
+          "audio": {
+            "key": "fr:phrase:un-noyau-ccf6143b",
+            "fallbackText": "un noyau"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-33-block-04-item-02",
+          "text": "un tuyau",
+          "audio": {
+            "key": "fr:phrase:un-tuyau-884c8a0b",
+            "fallbackText": "un tuyau"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-33-block-04-item-03",
+          "text": "un crayon",
+          "audio": {
+            "key": "fr:phrase:un-crayon-4eda9323",
+            "fallbackText": "un crayon"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-33-block-04-item-04",
+          "text": "le voyage",
+          "audio": {
+            "key": "fr:phrase:le-voyage-5f74e61e",
+            "fallbackText": "le voyage"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-33-block-04-item-05",
+          "text": "les rayons",
+          "audio": {
+            "key": "fr:phrase:les-rayons-693e6104",
+            "fallbackText": "les rayons"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-33-block-04-item-06",
+          "text": "un paysan",
+          "audio": {
+            "key": "fr:phrase:un-paysan-ee81a779",
+            "fallbackText": "un paysan"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-33-block-04-item-07",
+          "text": "des rayures",
+          "audio": {
+            "key": "fr:phrase:des-rayures-829bb295",
+            "fallbackText": "des rayures"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-33-block-04-item-08",
+          "text": "balayer",
+          "audio": {
+            "key": "fr:word:balayer-0f796cd1",
+            "fallbackText": "balayer"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-33-block-04-item-09",
+          "text": "nettoyer",
+          "audio": {
+            "key": "fr:word:nettoyer-57281beb",
+            "fallbackText": "nettoyer"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-33-block-04-item-10",
+          "text": "un voyageur",
+          "audio": {
+            "key": "fr:phrase:un-voyageur-71f98ad1",
+            "fallbackText": "un voyageur"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-33-block-04-item-11",
+          "text": "la noyade",
+          "audio": {
+            "key": "fr:phrase:la-noyade-37c1e708",
+            "fallbackText": "la noyade"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-33-block-05",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [64],
+        "printedPages": [63]
+      },
+      "title": "Chaque Samedi",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-33-block-05-segment-1",
+          "type": "narration",
+          "text": "Le matin, à mon réveil je me débarbouille à la douche avant de balayer ma chambre, et essuyer mes meubles ensuite je nettoie les rayons de mon nouveau vélo. Après le nettoyage je fais mes exercices d’école.",
+          "audio": {
+            "key": "fr:lesson-33:passage-5-segment-1",
+            "fallbackText": "Le matin, à mon réveil je me débarbouille à la douche avant de balayer ma chambre, et essuyer mes meubles ensuite je nettoie les rayons de mon nouveau vélo. Après le nettoyage je fais mes exercices d’école."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

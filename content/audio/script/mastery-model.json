@@ -1,0 +1,71 @@
+{
+  "$comment": "NEW. §G.2 declared a MasteryRecord with a `strength` field and never said how strength is computed. This is that specification. It matters because the review queue, the facilitator's « à travailler » list, and the decision to call a letter 'known' all read from it.",
+  "targets": [
+    "letter",
+    "syllable",
+    "word",
+    "grapheme",
+    "digit"
+  ],
+  "strength": {
+    "range": [
+      0,
+      1
+    ],
+    "initial": 0.0,
+    "update": "s' = clamp(s + gain − penalty), applied once per ActivityResult per target",
+    "gain": "w_type × w_difficulty × (1 − s) × (1 − 0.5 × hintsUsed)",
+    "penalty": "0.15 × s   (on an incorrect target, never below 0)",
+    "why": "The (1 − s) factor makes early exposures worth a lot and late ones worth little, which is what actually happens when an adult learns a letter. The hint discount means a target reached with the answer shown does not count as knowing it."
+  },
+  "evidenceWeights": {
+    "$why": "Not all correct answers are equal evidence. Producing a letter by hand is stronger evidence than picking it from a grid of six.",
+    "tap-identify": 0.1,
+    "listen-choose": 0.18,
+    "syllable-build": 0.22,
+    "missing-letter": 0.2,
+    "trace": 0.25,
+    "word-match": 0.15,
+    "comprehension": 0.2,
+    "bilan": 0.3,
+    "checkpoint": 0.4,
+    "review": 0.28
+  },
+  "difficultyWeights": {
+    "tier1": 0.8,
+    "tier2": 1.0,
+    "tier3": 1.25
+  },
+  "decay": {
+    "rule": "s decays 2 % per day after 3 days without exposure, floor 0.2 once s has ever reached 0.6",
+    "why": "A floor prevents the app telling a learner she has forgotten a letter she demonstrably learned. Decay drives review order, it does not erase progress."
+  },
+  "bands": [
+    {
+      "band": "inconnue",
+      "max": 0.25,
+      "ui": "n'apparaît nulle part"
+    },
+    {
+      "band": "fragile",
+      "max": 0.5,
+      "ui": "prioritaire dans la file de révision ; listée pour l'animatrice"
+    },
+    {
+      "band": "en cours",
+      "max": 0.75,
+      "ui": "révision normale"
+    },
+    {
+      "band": "acquise",
+      "max": 1.0,
+      "ui": "comptée dans « {n} lettres reconnues »"
+    }
+  ],
+  "knownRule": "Une cible est 'acquise' à s ≥ 0.75 AVEC au moins 3 expositions sur 2 jours distincts. Le second critère empêche qu'une seule bonne session déclare une lettre apprise.",
+  "aggregation": {
+    "lessonMastery": "moyenne pondérée des cibles introduites par la leçon",
+    "unitMastery": "moyenne des leçons de l'unité",
+    "displayedToLearner": "JAMAIS un pourcentage. Le compteur de l'écran Mes progrès affiche des nombres de choses faites, pas un taux de réussite."
+  }
+}

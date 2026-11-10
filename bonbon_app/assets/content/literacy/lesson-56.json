@@ -1,0 +1,702 @@
+{
+  "id": "lesson-56",
+  "lessonNumber": 56,
+  "targets": [
+    {
+      "id": "target-lesson-56-1",
+      "kind": "grapheme",
+      "value": "br",
+      "audio": {
+        "key": "fr:grapheme:br-885036a0",
+        "fallbackText": "br"
+      }
+    },
+    {
+      "id": "target-lesson-56-2",
+      "kind": "grapheme",
+      "value": "tr",
+      "audio": {
+        "key": "fr:grapheme:tr-7817bb81",
+        "fallbackText": "tr"
+      }
+    },
+    {
+      "id": "target-lesson-56-3",
+      "kind": "grapheme",
+      "value": "cr",
+      "audio": {
+        "key": "fr:grapheme:cr-2b6bdfb2",
+        "fallbackText": "cr"
+      }
+    },
+    {
+      "id": "target-lesson-56-4",
+      "kind": "grapheme",
+      "value": "pr",
+      "audio": {
+        "key": "fr:grapheme:pr-0510eddd",
+        "fallbackText": "pr"
+      }
+    },
+    {
+      "id": "target-lesson-56-5",
+      "kind": "grapheme",
+      "value": "dr",
+      "audio": {
+        "key": "fr:grapheme:dr-a6b98879",
+        "fallbackText": "dr"
+      }
+    },
+    {
+      "id": "target-lesson-56-6",
+      "kind": "grapheme",
+      "value": "gr",
+      "audio": {
+        "key": "fr:grapheme:gr-183ee087",
+        "fallbackText": "gr"
+      }
+    },
+    {
+      "id": "target-lesson-56-7",
+      "kind": "grapheme",
+      "value": "vr",
+      "audio": {
+        "key": "fr:grapheme:vr-6a16485f",
+        "fallbackText": "vr"
+      }
+    },
+    {
+      "id": "target-lesson-56-8",
+      "kind": "grapheme",
+      "value": "fr",
+      "audio": {
+        "key": "fr:grapheme:fr-67ad8f41",
+        "fallbackText": "fr"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [88, 89, 90],
+    "printedPages": [86, 87]
+  },
+  "blocks": [
+    {
+      "id": "lesson-56-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [88],
+        "printedPages": [86]
+      },
+      "grapheme": "br",
+      "uppercase": "BR",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:br-885036a0",
+        "fallbackText": "br"
+      }
+    },
+    {
+      "id": "lesson-56-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [88],
+        "printedPages": [86]
+      },
+      "grapheme": "tr",
+      "uppercase": "TR",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:tr-7817bb81",
+        "fallbackText": "tr"
+      }
+    },
+    {
+      "id": "lesson-56-block-03",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [88],
+        "printedPages": [86]
+      },
+      "grapheme": "cr",
+      "uppercase": "CR",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:cr-2b6bdfb2",
+        "fallbackText": "cr"
+      }
+    },
+    {
+      "id": "lesson-56-block-04",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [88],
+        "printedPages": [86]
+      },
+      "grapheme": "pr",
+      "uppercase": "PR",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:pr-0510eddd",
+        "fallbackText": "pr"
+      }
+    },
+    {
+      "id": "lesson-56-block-05",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [88],
+        "printedPages": [86]
+      },
+      "grapheme": "dr",
+      "uppercase": "DR",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:dr-a6b98879",
+        "fallbackText": "dr"
+      }
+    },
+    {
+      "id": "lesson-56-block-06",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [88],
+        "printedPages": [86]
+      },
+      "grapheme": "gr",
+      "uppercase": "GR",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:gr-183ee087",
+        "fallbackText": "gr"
+      }
+    },
+    {
+      "id": "lesson-56-block-07",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [88],
+        "printedPages": [86]
+      },
+      "grapheme": "vr",
+      "uppercase": "VR",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:vr-6a16485f",
+        "fallbackText": "vr"
+      }
+    },
+    {
+      "id": "lesson-56-block-08",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [88],
+        "printedPages": [86]
+      },
+      "grapheme": "fr",
+      "uppercase": "FR",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:fr-67ad8f41",
+        "fallbackText": "fr"
+      }
+    },
+    {
+      "id": "lesson-56-block-09",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [88],
+        "printedPages": [86]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-56-block-09-item-01",
+          "text": "L’ombre",
+          "audio": {
+            "key": "fr:word:lombre-bb6b5c84",
+            "fallbackText": "L’ombre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-02",
+          "text": "le timbre",
+          "audio": {
+            "key": "fr:phrase:le-timbre-c0d47134",
+            "fallbackText": "le timbre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-03",
+          "text": "le sabre",
+          "audio": {
+            "key": "fr:phrase:le-sabre-58b3c129",
+            "fallbackText": "le sabre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-04",
+          "text": "l’encre",
+          "audio": {
+            "key": "fr:word:lencre-0044ba70",
+            "fallbackText": "l’encre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-05",
+          "text": "la craie",
+          "audio": {
+            "key": "fr:phrase:la-craie-fd08856a",
+            "fallbackText": "la craie"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-06",
+          "text": "l’encrier",
+          "audio": {
+            "key": "fr:word:lencrier-622cc155",
+            "fallbackText": "l’encrier"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-07",
+          "text": "la fenêtre",
+          "audio": {
+            "key": "fr:phrase:la-fenetre-83d2b53e",
+            "fallbackText": "la fenêtre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-08",
+          "text": "le maître",
+          "audio": {
+            "key": "fr:phrase:le-maitre-038a1c87",
+            "fallbackText": "le maître"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-09",
+          "text": "mon ventre",
+          "audio": {
+            "key": "fr:phrase:mon-ventre-13c23682",
+            "fallbackText": "mon ventre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-10",
+          "text": "ma lèvre",
+          "audio": {
+            "key": "fr:phrase:ma-levre-bf05061d",
+            "fallbackText": "ma lèvre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-11",
+          "text": "un livre",
+          "audio": {
+            "key": "fr:phrase:un-livre-648042b1",
+            "fallbackText": "un livre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-12",
+          "text": "un grand enfant",
+          "audio": {
+            "key": "fr:phrase:un-grand-enfant-0a14f70b",
+            "fallbackText": "un grand enfant"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-13",
+          "text": "gros",
+          "audio": {
+            "key": "fr:word:gros-59208daf",
+            "fallbackText": "gros"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-14",
+          "text": "maigre",
+          "audio": {
+            "key": "fr:word:maigre-2f7c2d1c",
+            "fallbackText": "maigre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-15",
+          "text": "le froid",
+          "audio": {
+            "key": "fr:phrase:le-froid-421aa115",
+            "fallbackText": "le froid"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-16",
+          "text": "mon frère",
+          "audio": {
+            "key": "fr:phrase:mon-frere-47ba0bae",
+            "fallbackText": "mon frère"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-17",
+          "text": "je frappe",
+          "audio": {
+            "key": "fr:phrase:je-frappe-d2c37f79",
+            "fallbackText": "je frappe"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-18",
+          "text": "l’arbre",
+          "audio": {
+            "key": "fr:word:larbre-41734070",
+            "fallbackText": "l’arbre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-19",
+          "text": "le sucre",
+          "audio": {
+            "key": "fr:phrase:le-sucre-7b3d9db2",
+            "fallbackText": "le sucre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-20",
+          "text": "un crayon",
+          "audio": {
+            "key": "fr:phrase:un-crayon-4eda9323",
+            "fallbackText": "un crayon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-21",
+          "text": "des griffes",
+          "audio": {
+            "key": "fr:phrase:des-griffes-f7c51eaf",
+            "fallbackText": "des griffes"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-22",
+          "text": "un traité",
+          "audio": {
+            "key": "fr:phrase:un-traite-8480a7ba",
+            "fallbackText": "un traité"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-23",
+          "text": "un gros crocodile",
+          "audio": {
+            "key": "fr:phrase:un-gros-crocodile-83893c74",
+            "fallbackText": "un gros crocodile"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-24",
+          "text": "propre",
+          "audio": {
+            "key": "fr:word:propre-889c89b2",
+            "fallbackText": "propre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-56-block-09-item-25",
+          "text": "la promenade",
+          "audio": {
+            "key": "fr:phrase:la-promenade-d0bdeecc",
+            "fallbackText": "la promenade"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-56-block-10",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [90],
+        "printedPages": [87]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-56-block-10-item-01",
+          "text": "l’ombre",
+          "audio": {
+            "key": "fr:word:lombre-70e4fabd",
+            "fallbackText": "l’ombre"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-02",
+          "text": "le timbre",
+          "audio": {
+            "key": "fr:phrase:le-timbre-c0d47134",
+            "fallbackText": "le timbre"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-03",
+          "text": "le sabre",
+          "audio": {
+            "key": "fr:phrase:le-sabre-58b3c129",
+            "fallbackText": "le sabre"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-04",
+          "text": "l’encre",
+          "audio": {
+            "key": "fr:word:lencre-0044ba70",
+            "fallbackText": "l’encre"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-05",
+          "text": "la craie",
+          "audio": {
+            "key": "fr:phrase:la-craie-fd08856a",
+            "fallbackText": "la craie"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-06",
+          "text": "l’encrier",
+          "audio": {
+            "key": "fr:word:lencrier-622cc155",
+            "fallbackText": "l’encrier"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-07",
+          "text": "la fenêtre",
+          "audio": {
+            "key": "fr:phrase:la-fenetre-83d2b53e",
+            "fallbackText": "la fenêtre"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-08",
+          "text": "le maître",
+          "audio": {
+            "key": "fr:phrase:le-maitre-038a1c87",
+            "fallbackText": "le maître"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-09",
+          "text": "mon ventre",
+          "audio": {
+            "key": "fr:phrase:mon-ventre-13c23682",
+            "fallbackText": "mon ventre"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-10",
+          "text": "ma lèvre",
+          "audio": {
+            "key": "fr:phrase:ma-levre-bf05061d",
+            "fallbackText": "ma lèvre"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-11",
+          "text": "un livre",
+          "audio": {
+            "key": "fr:phrase:un-livre-648042b1",
+            "fallbackText": "un livre"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-12",
+          "text": "un grand enfant",
+          "audio": {
+            "key": "fr:phrase:un-grand-enfant-0a14f70b",
+            "fallbackText": "un grand enfant"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-13",
+          "text": "gros",
+          "audio": {
+            "key": "fr:word:gros-59208daf",
+            "fallbackText": "gros"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-14",
+          "text": "maigre",
+          "audio": {
+            "key": "fr:word:maigre-2f7c2d1c",
+            "fallbackText": "maigre"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-15",
+          "text": "le froid",
+          "audio": {
+            "key": "fr:phrase:le-froid-421aa115",
+            "fallbackText": "le froid"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-16",
+          "text": "mon frère",
+          "audio": {
+            "key": "fr:phrase:mon-frere-47ba0bae",
+            "fallbackText": "mon frère"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-17",
+          "text": "je frappe",
+          "audio": {
+            "key": "fr:phrase:je-frappe-d2c37f79",
+            "fallbackText": "je frappe"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-18",
+          "text": "l’arbre",
+          "audio": {
+            "key": "fr:word:larbre-41734070",
+            "fallbackText": "l’arbre"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-19",
+          "text": "le sucre",
+          "audio": {
+            "key": "fr:phrase:le-sucre-7b3d9db2",
+            "fallbackText": "le sucre"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-20",
+          "text": "un crayon",
+          "audio": {
+            "key": "fr:phrase:un-crayon-4eda9323",
+            "fallbackText": "un crayon"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-21",
+          "text": "des griffes",
+          "audio": {
+            "key": "fr:phrase:des-griffes-f7c51eaf",
+            "fallbackText": "des griffes"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-22",
+          "text": "un gros crocodile",
+          "audio": {
+            "key": "fr:phrase:un-gros-crocodile-83893c74",
+            "fallbackText": "un gros crocodile"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-23",
+          "text": "propre",
+          "audio": {
+            "key": "fr:word:propre-889c89b2",
+            "fallbackText": "propre"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-24",
+          "text": "la promenade",
+          "audio": {
+            "key": "fr:phrase:la-promenade-d0bdeecc",
+            "fallbackText": "la promenade"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-56-block-10-item-25",
+          "text": "un traité",
+          "audio": {
+            "key": "fr:phrase:un-traite-8480a7ba",
+            "fallbackText": "un traité"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-56-block-11",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [90],
+        "printedPages": [87]
+      },
+      "title": "L’hôpital",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-56-block-11-segment-1",
+          "type": "narration",
+          "text": "L’hôpital du village est près du grand fromager. Un autre grand arbre donne de l’ombre dans la cour. Notre hôpital compte un grand bâtiment administratif près du grand portail, trois salles de soins sont construites et trois autres attendent d’être en matériaux définitifs, une décision prise par le directeur du personnel soignant après la réunion du dernier vendredi du mois passé. Mes amis Brigitte, Crépin, Grégoire et moi préparons un test pour y travailler.",
+          "audio": {
+            "key": "fr:lesson-56:passage-11-segment-1",
+            "fallbackText": "L’hôpital du village est près du grand fromager. Un autre grand arbre donne de l’ombre dans la cour. Notre hôpital compte un grand bâtiment administratif près du grand portail, trois salles de soins sont construites et trois autres attendent d’être en matériaux définitifs, une décision prise par le directeur du personnel soignant après la réunion du dernier vendredi du mois passé. Mes amis Brigitte, Crépin, Grégoire et moi préparons un test pour y travailler."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-56-review-1"]
+  }
+}

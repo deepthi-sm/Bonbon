@@ -1,0 +1,351 @@
+{
+  "id": "lesson-20",
+  "lessonNumber": 20,
+  "targets": [
+    {
+      "id": "target-lesson-20-1",
+      "kind": "grapheme",
+      "value": "c",
+      "audio": {
+        "key": "fr:grapheme:c-2e7d2c03",
+        "fallbackText": "c"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [45, 46],
+    "printedPages": [44, 45]
+  },
+  "blocks": [
+    {
+      "id": "lesson-20-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [45],
+        "printedPages": [44]
+      },
+      "grapheme": "c",
+      "uppercase": "C",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:c-2e7d2c03",
+        "fallbackText": "c"
+      }
+    },
+    {
+      "id": "lesson-20-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [45],
+        "printedPages": [44]
+      },
+      "assetId": "lesson-20-illustration",
+      "caption": {
+        "id": "lesson-20-caption",
+        "text": "un couteau",
+        "audio": {
+          "key": "fr:phrase:un-couteau-9b49ef21",
+          "fallbackText": "un couteau"
+        }
+      }
+    },
+    {
+      "id": "lesson-20-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [45],
+        "printedPages": [44]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-20-block-03-item-01",
+          "text": "ci",
+          "audio": {
+            "key": "fr:syllable:ci-1b158839",
+            "fallbackText": "ci"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-20-block-03-item-02",
+          "text": "cu",
+          "audio": {
+            "key": "fr:syllable:cu-e67be795",
+            "fallbackText": "cu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-20-block-03-item-03",
+          "text": "co",
+          "audio": {
+            "key": "fr:syllable:co-c330ec50",
+            "fallbackText": "co"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-20-block-03-item-04",
+          "text": "ca",
+          "audio": {
+            "key": "fr:syllable:ca-69590970",
+            "fallbackText": "ca"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-20-block-03-item-05",
+          "text": "ce",
+          "audio": {
+            "key": "fr:syllable:ce-e64c826b",
+            "fallbackText": "ce"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-20-block-03-item-06",
+          "text": "cé",
+          "audio": {
+            "key": "fr:syllable:ce-c6f20224",
+            "fallbackText": "cé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-20-block-03-item-07",
+          "text": "cè",
+          "audio": {
+            "key": "fr:syllable:ce-bc886c17",
+            "fallbackText": "cè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-20-block-03-item-08",
+          "text": "cê",
+          "audio": {
+            "key": "fr:syllable:ce-0888e144",
+            "fallbackText": "cê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-20-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [45],
+        "printedPages": [44]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-20-block-04-item-01",
+          "text": "cacao",
+          "audio": {
+            "key": "fr:word:cacao-95163716",
+            "fallbackText": "cacao"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-20-block-04-item-02",
+          "text": "cola",
+          "audio": {
+            "key": "fr:word:cola-42be22c2",
+            "fallbackText": "cola"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-20-block-04-item-03",
+          "text": "cou",
+          "audio": {
+            "key": "fr:word:cou-e750c364",
+            "fallbackText": "cou"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-20-block-04-item-04",
+          "text": "corde",
+          "audio": {
+            "key": "fr:word:corde-fe9c05f0",
+            "fallbackText": "corde"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-20-block-04-item-05",
+          "text": "cible",
+          "audio": {
+            "key": "fr:word:cible-93d0bac3",
+            "fallbackText": "cible"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-20-block-04-item-06",
+          "text": "concombre",
+          "audio": {
+            "key": "fr:word:concombre-ef9d60b0",
+            "fallbackText": "concombre"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-20-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [45],
+        "printedPages": [44]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-20-block-05-item-01",
+          "text": "le concombre vert.",
+          "audio": {
+            "key": "fr:lesson-20:b5-item-1",
+            "fallbackText": "le concombre vert."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-20-block-05-item-02",
+          "text": "le casque de toni.",
+          "audio": {
+            "key": "fr:lesson-20:b5-item-2",
+            "fallbackText": "le casque de toni."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-20-block-05-item-03",
+          "text": "la cola de papa.",
+          "audio": {
+            "key": "fr:lesson-20:b5-item-3",
+            "fallbackText": "la cola de papa."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-20-block-05-item-04",
+          "text": "la corde de l’école .",
+          "audio": {
+            "key": "fr:lesson-20:b5-item-4",
+            "fallbackText": "la corde de l’école ."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-20-block-06",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [46],
+        "printedPages": [45]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-20-hand-1",
+          "text": "c"
+        },
+        {
+          "id": "lesson-20-hand-2",
+          "text": "C"
+        }
+      ],
+      "glyphAssetIds": ["lesson-20-glyph-1", "lesson-20-glyph-2"]
+    },
+    {
+      "id": "lesson-20-block-07",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [46],
+        "printedPages": [45]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-20-block-07-item-01",
+          "text": "c",
+          "audio": {
+            "key": "fr:word:c-2e7d2c03",
+            "fallbackText": "c"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-20-block-07-item-02",
+          "text": "conte",
+          "audio": {
+            "key": "fr:word:conte-b2ba95a4",
+            "fallbackText": "conte"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-20-block-07-item-03",
+          "text": "C",
+          "audio": {
+            "key": "fr:word:c-6b23c0d5",
+            "fallbackText": "C"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-20-block-07-item-04",
+          "text": "Conte",
+          "audio": {
+            "key": "fr:word:conte-a251c68c",
+            "fallbackText": "Conte"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-20-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [46],
+        "printedPages": [45]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-20-block-08-item-01",
+          "text": "c",
+          "audio": {
+            "key": "fr:word:c-2e7d2c03",
+            "fallbackText": "c"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-20-block-08-item-02",
+          "text": "calcul",
+          "audio": {
+            "key": "fr:word:calcul-096bd7ce",
+            "fallbackText": "calcul"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-20-review-1"]
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "id": "lesson-11",
+  "lessonNumber": 11,
+  "targets": [
+    {
+      "id": "target-lesson-11-1",
+      "kind": "grapheme",
+      "value": "m",
+      "audio": {
+        "key": "fr:grapheme:m-62c66a7a",
+        "fallbackText": "m"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [27, 28],
+    "printedPages": [26, 27]
+  },
+  "blocks": [
+    {
+      "id": "lesson-11-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [27],
+        "printedPages": [26]
+      },
+      "grapheme": "m",
+      "uppercase": "M",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:m-62c66a7a",
+        "fallbackText": "m"
+      }
+    },
+    {
+      "id": "lesson-11-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [27],
+        "printedPages": [26]
+      },
+      "assetId": "lesson-11-illustration",
+      "caption": {
+        "id": "lesson-11-caption",
+        "text": "une montre",
+        "audio": {
+          "key": "fr:phrase:une-montre-e02059a7",
+          "fallbackText": "une montre"
+        }
+      }
+    },
+    {
+      "id": "lesson-11-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [27],
+        "printedPages": [26]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-11-block-03-item-01",
+          "text": "mi",
+          "audio": {
+            "key": "fr:syllable:mi-eee1c1ad",
+            "fallbackText": "mi"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-11-block-03-item-02",
+          "text": "mu",
+          "audio": {
+            "key": "fr:syllable:mu-19503ea6",
+            "fallbackText": "mu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-11-block-03-item-03",
+          "text": "mo",
+          "audio": {
+            "key": "fr:syllable:mo-f4a4ce5f",
+            "fallbackText": "mo"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-11-block-03-item-04",
+          "text": "ma",
+          "audio": {
+            "key": "fr:syllable:ma-3c44c3e1",
+            "fallbackText": "ma"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-11-block-03-item-05",
+          "text": "me",
+          "audio": {
+            "key": "fr:syllable:me-2744ccd1",
+            "fallbackText": "me"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-11-block-03-item-06",
+          "text": "mé",
+          "audio": {
+            "key": "fr:syllable:me-f82bc529",
+            "fallbackText": "mé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-11-block-03-item-07",
+          "text": "mè",
+          "audio": {
+            "key": "fr:syllable:me-213ae128",
+            "fallbackText": "mè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-11-block-03-item-08",
+          "text": "mê",
+          "audio": {
+            "key": "fr:syllable:me-d9418535",
+            "fallbackText": "mê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-11-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [27],
+        "printedPages": [26]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-11-block-04-item-01",
+          "text": "mimi",
+          "audio": {
+            "key": "fr:word:mimi-c6b438b0",
+            "fallbackText": "mimi"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-11-block-04-item-02",
+          "text": "tomate",
+          "audio": {
+            "key": "fr:word:tomate-cea70552",
+            "fallbackText": "tomate"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-11-block-04-item-03",
+          "text": "mémé",
+          "audio": {
+            "key": "fr:word:meme-1c094363",
+            "fallbackText": "mémé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-11-block-04-item-04",
+          "text": "momo",
+          "audio": {
+            "key": "fr:word:momo-31004864",
+            "fallbackText": "momo"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-11-block-04-item-05",
+          "text": "même",
+          "audio": {
+            "key": "fr:word:meme-25c826df",
+            "fallbackText": "même"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-11-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [27],
+        "printedPages": [26]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-11-block-05-item-01",
+          "text": "mémé a une tomate.",
+          "audio": {
+            "key": "fr:lesson-11:b5-item-1",
+            "fallbackText": "mémé a une tomate."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-11-block-05-item-02",
+          "text": "mimi aime momo.",
+          "audio": {
+            "key": "fr:lesson-11:b5-item-2",
+            "fallbackText": "mimi aime momo."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-11-block-05-item-03",
+          "text": "une même tomate pour mémé et mimi.",
+          "audio": {
+            "key": "fr:lesson-11:b5-item-3",
+            "fallbackText": "une même tomate pour mémé et mimi."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-11-block-06",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [28],
+        "printedPages": [27]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-11-hand-1",
+          "text": "m"
+        },
+        {
+          "id": "lesson-11-hand-2",
+          "text": "M"
+        }
+      ],
+      "glyphAssetIds": ["lesson-11-glyph-1", "lesson-11-glyph-2"]
+    },
+    {
+      "id": "lesson-11-block-07",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [28],
+        "printedPages": [27]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-11-block-07-item-01",
+          "text": "m",
+          "audio": {
+            "key": "fr:word:m-62c66a7a",
+            "fallbackText": "m"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-11-block-07-item-02",
+          "text": "merci",
+          "audio": {
+            "key": "fr:word:merci-38dbfe0f",
+            "fallbackText": "merci"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-11-block-07-item-03",
+          "text": "M",
+          "audio": {
+            "key": "fr:word:m-08f27188",
+            "fallbackText": "M"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-11-block-07-item-04",
+          "text": "Merci",
+          "audio": {
+            "key": "fr:word:merci-26866b3c",
+            "fallbackText": "Merci"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-11-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [28],
+        "printedPages": [27]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-11-block-08-item-01",
+          "text": "m",
+          "audio": {
+            "key": "fr:word:m-62c66a7a",
+            "fallbackText": "m"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-11-block-08-item-02",
+          "text": "maman",
+          "audio": {
+            "key": "fr:word:maman-d271a043",
+            "fallbackText": "maman"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-11-review-1"]
+  }
+}

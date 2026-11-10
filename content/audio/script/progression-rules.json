@@ -1,0 +1,30 @@
+{
+  "$comment": "NEW. §H.5 says C renders PathState and contains no progression logic. These are the rules D implements behind it. They are deliberately generous: the book's method is repetition, not gatekeeping.",
+  "unlock": {
+    "rule": "La leçon n+1 s'ouvre dès que la leçon n est TERMINÉE (tous les blocs vus), quel que soit le score.",
+    "why": "Bloquer sur un score punit précisément la lectrice qui a le plus besoin de continuer. Le score alimente la révision, pas la serrure.",
+    "exception": "Aucune."
+  },
+  "completion": {
+    "lesson": "tous les blocs marqués vus + le Bilan tenté (réussi ou passé)",
+    "unit": "toutes les leçons de l'unité terminées",
+    "note": "« tenté » inclut « passé ». allowSkip est vrai partout (§H.2)."
+  },
+  "availability": {
+    "always": [
+      "le mur des lettres",
+      "les chiffres en consultation",
+      "le cahier d'écriture",
+      "toute leçon déjà terminée",
+      "les mots par thème"
+    ],
+    "never": [
+      "une leçon dont la précédente n'est pas terminée — sauf après un test de positionnement, qui ouvre tout ce qui précède le point d'entrée"
+    ]
+  },
+  "resume": {
+    "granularity": "bloc",
+    "rule": "getResumePoint() renvoie le dernier bloc non terminé de la dernière leçon touchée ; après 14 jours, une session de révision de 5 items est insérée AVANT la reprise (voir repair-flows)."
+  },
+  "isNext": "Exactement un nœud dans toute l'application porte isNext = true : la première leçon `available` dans l'ordre du parcours."
+}

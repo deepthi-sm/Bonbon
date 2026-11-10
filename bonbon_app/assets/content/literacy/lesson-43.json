@@ -1,0 +1,228 @@
+{
+  "id": "lesson-43",
+  "lessonNumber": 43,
+  "targets": [
+    {
+      "id": "target-lesson-43-1",
+      "kind": "grapheme",
+      "value": "g = j",
+      "audio": {
+        "key": "fr:grapheme:g-j-8f08423c",
+        "fallbackText": "g = j"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [74],
+    "printedPages": [73]
+  },
+  "blocks": [
+    {
+      "id": "lesson-43-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [74],
+        "printedPages": [73]
+      },
+      "grapheme": "g = j",
+      "uppercase": "G = J",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:g-j-8f08423c",
+        "fallbackText": "g = j"
+      }
+    },
+    {
+      "id": "lesson-43-block-02",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [74],
+        "printedPages": [73]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-43-block-02-item-01",
+          "text": "ge",
+          "audio": {
+            "key": "fr:syllable:ge-309d2086",
+            "fallbackText": "ge"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-43-block-02-item-02",
+          "text": "gi",
+          "audio": {
+            "key": "fr:syllable:gi-1917d730",
+            "fallbackText": "gi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-43-block-02-item-03",
+          "text": "gé",
+          "audio": {
+            "key": "fr:syllable:ge-89aa6089",
+            "fallbackText": "gé"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-43-block-02-item-04",
+          "text": "geon",
+          "audio": {
+            "key": "fr:syllable:geon-de6e8505",
+            "fallbackText": "geon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-43-block-02-item-05",
+          "text": "geant",
+          "audio": {
+            "key": "fr:syllable:geant-93c1c7d4",
+            "fallbackText": "geant"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-43-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [74],
+        "printedPages": [73]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-43-block-03-item-01",
+          "text": "le genou",
+          "audio": {
+            "key": "fr:phrase:le-genou-43d26689",
+            "fallbackText": "le genou"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-43-block-03-item-02",
+          "text": "une image",
+          "audio": {
+            "key": "fr:phrase:une-image-751dd05c",
+            "fallbackText": "une image"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-43-block-03-item-03",
+          "text": "le village",
+          "audio": {
+            "key": "fr:phrase:le-village-e3b1f331",
+            "fallbackText": "le village"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-43-block-03-item-04",
+          "text": "la bougie",
+          "audio": {
+            "key": "fr:phrase:la-bougie-2bab6382",
+            "fallbackText": "la bougie"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-43-block-03-item-05",
+          "text": "l’argent",
+          "audio": {
+            "key": "fr:word:largent-2a5c290b",
+            "fallbackText": "l’argent"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-43-block-03-item-06",
+          "text": "en mangeant",
+          "audio": {
+            "key": "fr:phrase:en-mangeant-aac43893",
+            "fallbackText": "en mangeant"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-43-block-03-item-07",
+          "text": "la page du livre",
+          "audio": {
+            "key": "fr:phrase:la-page-du-livre-d7b41f2e",
+            "fallbackText": "la page du livre"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-43-block-03-item-08",
+          "text": "un régime",
+          "audio": {
+            "key": "fr:phrase:un-regime-0278ff24",
+            "fallbackText": "un régime"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-43-block-03-item-09",
+          "text": "le singe",
+          "audio": {
+            "key": "fr:phrase:le-singe-914cdd27",
+            "fallbackText": "le singe"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-43-block-03-item-10",
+          "text": "le berger",
+          "audio": {
+            "key": "fr:phrase:le-berger-50d219d5",
+            "fallbackText": "le berger"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-43-block-03-item-11",
+          "text": "un étranger",
+          "audio": {
+            "key": "fr:phrase:un-etranger-f7a6809e",
+            "fallbackText": "un étranger"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-43-block-04",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [74],
+        "printedPages": [73]
+      },
+      "title": "Le forgeron",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-43-block-04-segment-1",
+          "type": "narration",
+          "text": "Au village, on entend le forgeron qui tape sur son enclume. Le bruit se fait entendre dans le garage du père de Gildas. Le forgeron Gédéon fabrique dans sa forge des instruments pour les vendre aux étrangers en voyage pendant leur passage dans notre village.",
+          "audio": {
+            "key": "fr:lesson-43:passage-4-segment-1",
+            "fallbackText": "Au village, on entend le forgeron qui tape sur son enclume. Le bruit se fait entendre dans le garage du père de Gildas. Le forgeron Gédéon fabrique dans sa forge des instruments pour les vendre aux étrangers en voyage pendant leur passage dans notre village."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

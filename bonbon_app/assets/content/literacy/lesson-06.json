@@ -1,0 +1,233 @@
+{
+  "id": "lesson-06",
+  "lessonNumber": 6,
+  "targets": [
+    {
+      "id": "target-lesson-06-1",
+      "kind": "grapheme",
+      "value": "é",
+      "audio": {
+        "key": "fr:grapheme:e-4a99557e",
+        "fallbackText": "é"
+      }
+    },
+    {
+      "id": "target-lesson-06-2",
+      "kind": "grapheme",
+      "value": "è",
+      "audio": {
+        "key": "fr:grapheme:e-97c916cd",
+        "fallbackText": "è"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [17, 18],
+    "printedPages": [16, 17]
+  },
+  "blocks": [
+    {
+      "id": "lesson-06-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [17],
+        "printedPages": [16]
+      },
+      "grapheme": "é",
+      "uppercase": "É",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:e-4a99557e",
+        "fallbackText": "é"
+      }
+    },
+    {
+      "id": "lesson-06-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [17],
+        "printedPages": [16]
+      },
+      "grapheme": "è",
+      "uppercase": "È",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:e-97c916cd",
+        "fallbackText": "è"
+      }
+    },
+    {
+      "id": "lesson-06-block-03",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [17],
+        "printedPages": [16]
+      },
+      "assetId": "lesson-06-illustration",
+      "caption": {
+        "id": "lesson-06-caption",
+        "text": "une élève",
+        "audio": {
+          "key": "fr:phrase:une-eleve-90feb2a9",
+          "fallbackText": "une élève"
+        }
+      }
+    },
+    {
+      "id": "lesson-06-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [17],
+        "printedPages": [16]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-06-block-04-item-01",
+          "text": "école",
+          "audio": {
+            "key": "fr:word:ecole-f0f772e1",
+            "fallbackText": "école"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-06-block-04-item-02",
+          "text": "fermé",
+          "audio": {
+            "key": "fr:word:ferme-04b8a8a5",
+            "fallbackText": "fermé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-06-block-04-item-03",
+          "text": "durée",
+          "audio": {
+            "key": "fr:word:duree-506853e6",
+            "fallbackText": "durée"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-06-block-04-item-04",
+          "text": "élève",
+          "audio": {
+            "key": "fr:word:eleve-a9991c64",
+            "fallbackText": "élève"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-06-block-04-item-05",
+          "text": "fenêtre",
+          "audio": {
+            "key": "fr:word:fenetre-99ea6cdc",
+            "fallbackText": "fenêtre"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-06-block-04-item-06",
+          "text": "frère",
+          "audio": {
+            "key": "fr:word:frere-c8b85fc9",
+            "fallbackText": "frère"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-06-block-04-item-07",
+          "text": "près",
+          "audio": {
+            "key": "fr:word:pres-1ccc0ba6",
+            "fallbackText": "près"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-06-block-05",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [17],
+        "printedPages": [16]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-06-hand-1",
+          "text": "é"
+        },
+        {
+          "id": "lesson-06-hand-2",
+          "text": "è"
+        }
+      ],
+      "glyphAssetIds": ["lesson-06-glyph-1", "lesson-06-glyph-2"]
+    },
+    {
+      "id": "lesson-06-block-06",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [18],
+        "printedPages": [17]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-06-block-06-item-01",
+          "text": "é",
+          "audio": {
+            "key": "fr:word:e-4a99557e",
+            "fallbackText": "é"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-06-block-06-item-02",
+          "text": "è",
+          "audio": {
+            "key": "fr:word:e-97c916cd",
+            "fallbackText": "è"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-06-block-06-item-03",
+          "text": "élève",
+          "audio": {
+            "key": "fr:word:eleve-a9991c64",
+            "fallbackText": "élève"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-06-block-06-item-04",
+          "text": "É",
+          "audio": {
+            "key": "fr:word:e-a755f65d",
+            "fallbackText": "É"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-06-block-06-item-05",
+          "text": "È",
+          "audio": {
+            "key": "fr:word:e-5bf16f71",
+            "fallbackText": "È"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ],
+      "representations": ["print", "cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-06-review-1"]
+  }
+}

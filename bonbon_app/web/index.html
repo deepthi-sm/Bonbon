@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <!-- Phone width from the first paint. Without it, phones lay the loading
+       screen out at desktop width, then jump when the app sets the width. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bonbon : apprendre à lire et à écrire, pas à pas.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Bonbon">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Bonbon</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#FBF8F3">
+  <style>
+    /* The one Bonbon loading screen. It appears the moment the page opens and
+       stays, with one continuous animation, until the app has loaded its
+       content and calls window.bonbonReady() (lib/loading/web_loader.dart);
+       then it fades once into the app. Android draws the same layout in
+       lib/screens/splash.dart — keep the two in step (sizes below). */
+    html, body { margin: 0; height: 100%; background: #FBF8F3; }
+    #splash {
+      --logo-w: min(36vw, 180px);          /* logo width                       */
+      --logo-h: calc(var(--logo-w) * .893); /* logo aspect (643 / 720)          */
+      position: fixed; inset: 0; z-index: 10;
+      background: #FBF8F3; transition: opacity .45s ease;
+    }
+    #splash.gone { opacity: 0; pointer-events: none; }
+    /* Logo exactly centred; shadow and dots hang below it. */
+    #splash img {
+      position: absolute; left: 50%; top: 50%;
+      width: var(--logo-w); height: var(--logo-h);
+      margin-left: calc(var(--logo-w) / -2); margin-top: calc(var(--logo-h) / -2);
+      animation: bonbon-float 1.8s ease-in-out infinite alternate;
+    }
+    #splash .shadow {
+      position: absolute; left: 50%; top: calc(50% + var(--logo-h) / 2 + 12px);
+      width: calc(var(--logo-w) * .56); height: 8px; margin-left: calc(var(--logo-w) * -.28);
+      border-radius: 50%; background: rgba(31, 41, 55, .12);
+      animation: bonbon-shadow 1.8s ease-in-out infinite alternate;
+    }
+    #splash .dots {
+      position: absolute; left: 0; right: 0; top: calc(50% + var(--logo-h) / 2 + 40px);
+      display: flex; justify-content: center; gap: 8px;
+    }
+    #splash .dots span {
+      width: 10px; height: 10px; border-radius: 50%; background: #0A6B6B; opacity: .25;
+      animation: bonbon-dot 1.2s ease-in-out infinite;
+    }
+    #splash .dots span:nth-child(2) { animation-delay: .2s; background: #C51C4E; }
+    #splash .dots span:nth-child(3) { animation-delay: .4s; background: #F59E0B; }
+    @keyframes bonbon-float { from { transform: translateY(3px); } to { transform: translateY(-8px); } }
+    @keyframes bonbon-shadow { from { transform: scaleX(1); opacity: 1; } to { transform: scaleX(.72); opacity: .55; } }
+    @keyframes bonbon-dot { 0%, 100% { opacity: .25; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.1); } }
+    @media (prefers-reduced-motion: reduce) { #splash img, #splash .shadow, #splash .dots span { animation: none; } }
+  </style>
+</head>
+<body>
+  <div id="splash" role="img" aria-label="Bonbon">
+    <img src="splash-logo.png" alt="Bonbon" fetchpriority="high">
+    <div class="shadow"></div>
+    <div class="dots"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    (function () {
+      var done = false;
+      // Called by the app once its content is loaded and its first screen is drawn.
+      window.bonbonReady = function () {
+        if (done) return;
+        done = true;
+        console.log('[bonbon] ready after ' + Math.round(performance.now()) + ' ms');
+        var s = document.getElementById('splash');
+        if (!s) return;
+        s.classList.add('gone');
+        setTimeout(function () { s.remove(); }, 500);
+      };
+      // Safety net: never leave the loading screen up forever if start-up stalls,
+      // so the app's own retry message can be seen.
+      setTimeout(window.bonbonReady, 45000);
+    })();
+  </script>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

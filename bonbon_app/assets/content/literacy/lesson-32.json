@@ -1,0 +1,355 @@
+{
+  "id": "lesson-32",
+  "lessonNumber": 32,
+  "targets": [
+    {
+      "id": "target-lesson-32-1",
+      "kind": "grapheme",
+      "value": "ou",
+      "audio": {
+        "key": "fr:grapheme:ou-fc74181e",
+        "fallbackText": "ou"
+      }
+    },
+    {
+      "id": "target-lesson-32-2",
+      "kind": "grapheme",
+      "value": "ouille",
+      "audio": {
+        "key": "fr:grapheme:ouille-adeb9652",
+        "fallbackText": "ouille"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [63],
+    "printedPages": [62]
+  },
+  "blocks": [
+    {
+      "id": "lesson-32-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [63],
+        "printedPages": [62]
+      },
+      "grapheme": "ou",
+      "uppercase": "OU",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ou-fc74181e",
+        "fallbackText": "ou"
+      }
+    },
+    {
+      "id": "lesson-32-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [63],
+        "printedPages": [62]
+      },
+      "grapheme": "ouille",
+      "uppercase": "OUILLE",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ouille-adeb9652",
+        "fallbackText": "ouille"
+      }
+    },
+    {
+      "id": "lesson-32-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [63],
+        "printedPages": [62]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-32-block-03-item-01",
+          "text": "cou",
+          "audio": {
+            "key": "fr:syllable:cou-e750c364",
+            "fallbackText": "cou"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-32-block-03-item-02",
+          "text": "sou",
+          "audio": {
+            "key": "fr:syllable:sou-92a0e707",
+            "fallbackText": "sou"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-32-block-03-item-03",
+          "text": "jou",
+          "audio": {
+            "key": "fr:syllable:jou-4ae124a8",
+            "fallbackText": "jou"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-32-block-03-item-04",
+          "text": "mou",
+          "audio": {
+            "key": "fr:syllable:mou-e45f2c54",
+            "fallbackText": "mou"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-32-block-03-item-05",
+          "text": "fou",
+          "audio": {
+            "key": "fr:syllable:fou-6d04789b",
+            "fallbackText": "fou"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-32-block-03-item-06",
+          "text": "rou",
+          "audio": {
+            "key": "fr:syllable:rou-6b2e81e2",
+            "fallbackText": "rou"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-32-block-03-item-07",
+          "text": "hou",
+          "audio": {
+            "key": "fr:syllable:hou-f8f0b056",
+            "fallbackText": "hou"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-32-block-03-item-08",
+          "text": "dou",
+          "audio": {
+            "key": "fr:syllable:dou-3fdbff59",
+            "fallbackText": "dou"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-32-block-03-item-09",
+          "text": "lou",
+          "audio": {
+            "key": "fr:syllable:lou-6e1a5d40",
+            "fallbackText": "lou"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-32-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [63],
+        "printedPages": [62]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-32-block-04-item-01",
+          "text": "le bouton",
+          "audio": {
+            "key": "fr:phrase:le-bouton-c42dcf2b",
+            "fallbackText": "le bouton"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-32-block-04-item-02",
+          "text": "la houe",
+          "audio": {
+            "key": "fr:phrase:la-houe-676247b7",
+            "fallbackText": "la houe"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-32-block-04-item-03",
+          "text": "une poule",
+          "audio": {
+            "key": "fr:phrase:une-poule-2120e974",
+            "fallbackText": "une poule"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-32-block-04-item-04",
+          "text": "Une grenouille",
+          "audio": {
+            "key": "fr:phrase:une-grenouille-1c2b66d9",
+            "fallbackText": "Une grenouille"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-32-block-04-item-05",
+          "text": "la houille",
+          "audio": {
+            "key": "fr:phrase:la-houille-c9038ade",
+            "fallbackText": "la houille"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-32-block-04-item-06",
+          "text": "le margouillat",
+          "audio": {
+            "key": "fr:phrase:le-margouillat-1418fba0",
+            "fallbackText": "le margouillat"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-32-block-05",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [63],
+        "printedPages": [62]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-32-block-05-item-01",
+          "text": "cou",
+          "audio": {
+            "key": "fr:syllable:cou-e750c364",
+            "fallbackText": "cou"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-32-block-05-item-02",
+          "text": "sou",
+          "audio": {
+            "key": "fr:syllable:sou-92a0e707",
+            "fallbackText": "sou"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-32-block-05-item-03",
+          "text": "jou",
+          "audio": {
+            "key": "fr:syllable:jou-4ae124a8",
+            "fallbackText": "jou"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-32-block-05-item-04",
+          "text": "mou",
+          "audio": {
+            "key": "fr:syllable:mou-e45f2c54",
+            "fallbackText": "mou"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-32-block-05-item-05",
+          "text": "fou",
+          "audio": {
+            "key": "fr:syllable:fou-6d04789b",
+            "fallbackText": "fou"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-32-block-05-item-06",
+          "text": "rou",
+          "audio": {
+            "key": "fr:syllable:rou-6b2e81e2",
+            "fallbackText": "rou"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-32-block-05-item-07",
+          "text": "hou",
+          "audio": {
+            "key": "fr:syllable:hou-f8f0b056",
+            "fallbackText": "hou"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-32-block-06",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [63],
+        "printedPages": [62]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-32-block-06-item-01",
+          "text": "le bouton",
+          "audio": {
+            "key": "fr:phrase:le-bouton-c42dcf2b",
+            "fallbackText": "le bouton"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-32-block-06-item-02",
+          "text": "la houe",
+          "audio": {
+            "key": "fr:phrase:la-houe-676247b7",
+            "fallbackText": "la houe"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-32-block-06-item-03",
+          "text": "une poule",
+          "audio": {
+            "key": "fr:phrase:une-poule-2120e974",
+            "fallbackText": "une poule"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-32-block-07",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [63],
+        "printedPages": [62]
+      },
+      "title": "La bouillie",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-32-block-07-segment-1",
+          "type": "narration",
+          "text": "Aujourd’hui, il y a du brouillard, et il fait froid. Dossou boit de la bouillie bien chaude. Sur la toiture rouillée de sa chambre se trouve un margouillat qui regarde les mouches qui volent autour du bol de bouillie que Dossou a déposé sur la table.",
+          "audio": {
+            "key": "fr:lesson-32:passage-7-segment-1",
+            "fallbackText": "Aujourd’hui, il y a du brouillard, et il fait froid. Dossou boit de la bouillie bien chaude. Sur la toiture rouillée de sa chambre se trouve un margouillat qui regarde les mouches qui volent autour du bol de bouillie que Dossou a déposé sur la table."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-32-review-1"]
+  }
+}

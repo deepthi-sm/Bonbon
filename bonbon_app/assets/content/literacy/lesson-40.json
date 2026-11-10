@@ -1,0 +1,299 @@
+{
+  "id": "lesson-40",
+  "lessonNumber": 40,
+  "targets": [
+    {
+      "id": "target-lesson-40-1",
+      "kind": "grapheme",
+      "value": "eu",
+      "audio": {
+        "key": "fr:grapheme:eu-4d028294",
+        "fallbackText": "eu"
+      }
+    },
+    {
+      "id": "target-lesson-40-2",
+      "kind": "grapheme",
+      "value": "œu",
+      "audio": {
+        "key": "fr:grapheme:u-b16efba4",
+        "fallbackText": "œu"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [71],
+    "printedPages": [70]
+  },
+  "blocks": [
+    {
+      "id": "lesson-40-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [71],
+        "printedPages": [70]
+      },
+      "grapheme": "eu",
+      "uppercase": "EU",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:eu-4d028294",
+        "fallbackText": "eu"
+      }
+    },
+    {
+      "id": "lesson-40-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [71],
+        "printedPages": [70]
+      },
+      "grapheme": "œu",
+      "uppercase": "ŒU",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:u-b16efba4",
+        "fallbackText": "œu"
+      }
+    },
+    {
+      "id": "lesson-40-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [71],
+        "printedPages": [70]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-40-block-03-item-01",
+          "text": "le feu",
+          "audio": {
+            "key": "fr:phrase:le-feu-21dd96bc",
+            "fallbackText": "le feu"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-40-block-03-item-02",
+          "text": "un jeu",
+          "audio": {
+            "key": "fr:phrase:un-jeu-ba279fd4",
+            "fallbackText": "un jeu"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-40-block-03-item-03",
+          "text": "un vœu",
+          "audio": {
+            "key": "fr:phrase:un-vu-fb53f3c1",
+            "fallbackText": "un vœu"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-40-block-03-item-04",
+          "text": "la queue",
+          "audio": {
+            "key": "fr:phrase:la-queue-0b871091",
+            "fallbackText": "la queue"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-40-block-03-item-05",
+          "text": "Jeudi",
+          "audio": {
+            "key": "fr:word:jeudi-a9691b35",
+            "fallbackText": "Jeudi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-40-block-03-item-06",
+          "text": "la vendeuse",
+          "audio": {
+            "key": "fr:phrase:la-vendeuse-97dbf201",
+            "fallbackText": "la vendeuse"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-40-block-03-item-07",
+          "text": "le bœuf",
+          "audio": {
+            "key": "fr:phrase:le-buf-063f8956",
+            "fallbackText": "le bœuf"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-40-block-03-item-08",
+          "text": "un nœud",
+          "audio": {
+            "key": "fr:phrase:un-nud-64333bba",
+            "fallbackText": "un nœud"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-40-block-03-item-09",
+          "text": "un œuf",
+          "audio": {
+            "key": "fr:phrase:un-uf-130efd38",
+            "fallbackText": "un œuf"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-40-block-03-item-10",
+          "text": "le bleu",
+          "audio": {
+            "key": "fr:phrase:le-bleu-6005744c",
+            "fallbackText": "le bleu"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-40-block-03-item-11",
+          "text": "le pneu",
+          "audio": {
+            "key": "fr:phrase:le-pneu-aedadeca",
+            "fallbackText": "le pneu"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-40-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [71],
+        "printedPages": [70]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-40-block-04-item-01",
+          "text": "le feu",
+          "audio": {
+            "key": "fr:phrase:le-feu-21dd96bc",
+            "fallbackText": "le feu"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-40-block-04-item-02",
+          "text": "un jeu",
+          "audio": {
+            "key": "fr:phrase:un-jeu-ba279fd4",
+            "fallbackText": "un jeu"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-40-block-04-item-03",
+          "text": "un",
+          "audio": {
+            "key": "fr:word:un-68bca10e",
+            "fallbackText": "un"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-40-block-04-item-04",
+          "text": "la queue",
+          "audio": {
+            "key": "fr:phrase:la-queue-0b871091",
+            "fallbackText": "la queue"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-40-block-04-item-05",
+          "text": "la vendeuse",
+          "audio": {
+            "key": "fr:phrase:la-vendeuse-97dbf201",
+            "fallbackText": "la vendeuse"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-40-block-04-item-06",
+          "text": "le bœuf",
+          "audio": {
+            "key": "fr:phrase:le-buf-063f8956",
+            "fallbackText": "le bœuf"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-40-block-04-item-07",
+          "text": "un nœud",
+          "audio": {
+            "key": "fr:phrase:un-nud-64333bba",
+            "fallbackText": "un nœud"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-40-block-04-item-08",
+          "text": "un œuf",
+          "audio": {
+            "key": "fr:phrase:un-uf-130efd38",
+            "fallbackText": "un œuf"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-40-block-04-item-09",
+          "text": "deux",
+          "audio": {
+            "key": "fr:word:deux-62007886",
+            "fallbackText": "deux"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-40-block-05",
+      "type": "section_text",
+      "source": {
+        "pdfPages": [71],
+        "printedPages": [70]
+      },
+      "heading": "Les conseils",
+      "preserveSourceOrder": true,
+      "paragraphs": [
+        {
+          "id": "lesson-40-advice-01",
+          "text": "Ne marche pas les pieds nus."
+        },
+        {
+          "id": "lesson-40-advice-02",
+          "text": "Mets tes chaussures."
+        },
+        {
+          "id": "lesson-40-advice-03",
+          "text": "Serre les lacets et fais un nœud."
+        },
+        {
+          "id": "lesson-40-advice-04",
+          "text": "Dado est tout joyeux parce que son maître vient de lui donner un œuf ."
+        },
+        {
+          "id": "lesson-40-advice-05",
+          "text": "La vendeuse de l’école n’aime pas le jeu devant son étalage à cause du feu."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-40-review-1"]
+  }
+}

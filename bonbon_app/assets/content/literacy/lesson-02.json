@@ -1,0 +1,214 @@
+{
+  "id": "lesson-02",
+  "lessonNumber": 2,
+  "targets": [
+    {
+      "id": "target-lesson-02-1",
+      "kind": "grapheme",
+      "value": "u",
+      "audio": {
+        "key": "fr:grapheme:u-0bfe935e",
+        "fallbackText": "u"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [9, 10],
+    "printedPages": [8, 9]
+  },
+  "blocks": [
+    {
+      "id": "lesson-02-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [9],
+        "printedPages": [8]
+      },
+      "grapheme": "u",
+      "uppercase": "U",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:u-0bfe935e",
+        "fallbackText": "u"
+      }
+    },
+    {
+      "id": "lesson-02-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [9],
+        "printedPages": [8]
+      },
+      "assetId": "lesson-02-illustration",
+      "caption": {
+        "id": "lesson-02-caption",
+        "text": "une lune",
+        "audio": {
+          "key": "fr:phrase:une-lune-f23e11b5",
+          "fallbackText": "une lune"
+        }
+      }
+    },
+    {
+      "id": "lesson-02-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [9],
+        "printedPages": [8]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-02-block-03-item-01",
+          "text": "tu",
+          "audio": {
+            "key": "fr:word:tu-764c4c7b",
+            "fallbackText": "tu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-02-block-03-item-02",
+          "text": "nu",
+          "audio": {
+            "key": "fr:word:nu-3086cf46",
+            "fallbackText": "nu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-02-block-03-item-03",
+          "text": "une",
+          "audio": {
+            "key": "fr:word:une-52597892",
+            "fallbackText": "une"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-02-block-03-item-04",
+          "text": "parure",
+          "audio": {
+            "key": "fr:word:parure-eb63a8d1",
+            "fallbackText": "parure"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-02-block-03-item-05",
+          "text": "fusil",
+          "audio": {
+            "key": "fr:word:fusil-595c64e5",
+            "fallbackText": "fusil"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-02-block-03-item-06",
+          "text": "puce",
+          "audio": {
+            "key": "fr:word:puce-2049eab4",
+            "fallbackText": "puce"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-02-block-03-item-07",
+          "text": "lune",
+          "audio": {
+            "key": "fr:word:lune-5c7f259c",
+            "fallbackText": "lune"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-02-block-03-item-08",
+          "text": "vue",
+          "audio": {
+            "key": "fr:word:vue-56438226",
+            "fallbackText": "vue"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-02-block-04",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [9],
+        "printedPages": [8]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-02-hand-1",
+          "text": "u"
+        }
+      ],
+      "glyphAssetIds": ["lesson-02-glyph-1"]
+    },
+    {
+      "id": "lesson-02-block-05",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [10],
+        "printedPages": [9]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-02-block-05-item-01",
+          "text": "u",
+          "audio": {
+            "key": "fr:word:u-0bfe935e",
+            "fallbackText": "u"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-02-block-05-item-02",
+          "text": "lune",
+          "audio": {
+            "key": "fr:word:lune-5c7f259c",
+            "fallbackText": "lune"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-02-block-05-item-03",
+          "text": "U",
+          "audio": {
+            "key": "fr:word:u-a25513c7",
+            "fallbackText": "U"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-02-block-05-item-04",
+          "text": "Urne",
+          "audio": {
+            "key": "fr:word:urne-441a873a",
+            "fallbackText": "Urne"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-02-block-05-item-05",
+          "text": "urne",
+          "audio": {
+            "key": "fr:word:urne-4657bdf8",
+            "fallbackText": "urne"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ],
+      "representations": ["print", "cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-02-review-1"]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "id": "lesson-01",
+  "lessonNumber": 1,
+  "targets": [
+    {
+      "id": "target-grapheme-i",
+      "kind": "grapheme",
+      "value": "i",
+      "audio": {
+        "key": "fr:grapheme:i",
+        "fallbackText": "i"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [7, 8],
+    "printedPages": [6, 7]
+  },
+  "blocks": [
+    {
+      "id": "lesson-01-target-i",
+      "type": "grapheme",
+      "grapheme": "i",
+      "uppercase": "I",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:i",
+        "fallbackText": "i"
+      },
+      "source": {
+        "pdfPages": [7],
+        "printedPages": [6]
+      }
+    },
+    {
+      "id": "lesson-01-anchor-illustration",
+      "type": "illustration",
+      "assetId": "lesson-01-epi-illustration",
+      "caption": {
+        "id": "anchor-un-epi",
+        "text": "un épi",
+        "audio": {
+          "key": "fr:phrase:un-epi",
+          "fallbackText": "un épi"
+        }
+      },
+      "source": {
+        "pdfPages": [7],
+        "printedPages": [6]
+      }
+    },
+    {
+      "id": "lesson-01-vocabulary",
+      "type": "word_list",
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "word-fil",
+          "text": "fil",
+          "audio": {
+            "key": "fr:word:fil",
+            "fallbackText": "fil"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "word-image",
+          "text": "image",
+          "audio": {
+            "key": "fr:word:image",
+            "fallbackText": "image"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "word-canari",
+          "text": "canari",
+          "audio": {
+            "key": "fr:word:canari",
+            "fallbackText": "canari"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "word-farine",
+          "text": "farine",
+          "audio": {
+            "key": "fr:word:farine",
+            "fallbackText": "farine"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "word-riviere",
+          "text": "rivière",
+          "audio": {
+            "key": "fr:word:riviere",
+            "fallbackText": "rivière"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "word-fini",
+          "text": "fini",
+          "audio": {
+            "key": "fr:word:fini",
+            "fallbackText": "fini"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "word-mil",
+          "text": "mil",
+          "audio": {
+            "key": "fr:word:mil",
+            "fallbackText": "mil"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ],
+      "source": {
+        "pdfPages": [7],
+        "printedPages": [6]
+      }
+    },
+    {
+      "id": "lesson-01-handwriting-demo",
+      "type": "handwriting_demo",
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "handwriting-lowercase-i",
+          "text": "i"
+        },
+        {
+          "id": "handwriting-uppercase-i",
+          "text": "I"
+        }
+      ],
+      "glyphAssetIds": ["cursive-lowercase-i", "cursive-uppercase-i"],
+      "source": {
+        "pdfPages": [7],
+        "printedPages": [6]
+      }
+    },
+    {
+      "id": "lesson-01-writing-practice",
+      "type": "writing_practice",
+      "preserveSourceOrder": true,
+      "representations": ["print", "cursive"],
+      "items": [
+        {
+          "id": "writing-lowercase-i",
+          "text": "i"
+        },
+        {
+          "id": "writing-uppercase-i",
+          "text": "I"
+        },
+        {
+          "id": "writing-mil",
+          "text": "mil"
+        },
+        {
+          "id": "writing-image",
+          "text": "image"
+        }
+      ],
+      "source": {
+        "pdfPages": [8],
+        "printedPages": [7]
+      }
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-01-assets-awaiting-extraction"]
+  }
+}

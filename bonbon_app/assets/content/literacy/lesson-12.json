@@ -1,0 +1,351 @@
+{
+  "id": "lesson-12",
+  "lessonNumber": 12,
+  "targets": [
+    {
+      "id": "target-lesson-12-1",
+      "kind": "grapheme",
+      "value": "r",
+      "audio": {
+        "key": "fr:grapheme:r-454349e4",
+        "fallbackText": "r"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [29, 30],
+    "printedPages": [28, 29]
+  },
+  "blocks": [
+    {
+      "id": "lesson-12-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [29],
+        "printedPages": [28]
+      },
+      "grapheme": "r",
+      "uppercase": "R",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:r-454349e4",
+        "fallbackText": "r"
+      }
+    },
+    {
+      "id": "lesson-12-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [29],
+        "printedPages": [28]
+      },
+      "assetId": "lesson-12-illustration",
+      "caption": {
+        "id": "lesson-12-caption",
+        "text": "une radio",
+        "audio": {
+          "key": "fr:phrase:une-radio-44665b45",
+          "fallbackText": "une radio"
+        }
+      }
+    },
+    {
+      "id": "lesson-12-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [29],
+        "printedPages": [28]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-12-block-03-item-01",
+          "text": "ri",
+          "audio": {
+            "key": "fr:syllable:ri-396a14ab",
+            "fallbackText": "ri"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-12-block-03-item-02",
+          "text": "ru",
+          "audio": {
+            "key": "fr:syllable:ru-ed5ad332",
+            "fallbackText": "ru"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-12-block-03-item-03",
+          "text": "ro",
+          "audio": {
+            "key": "fr:syllable:ro-7ef9ec0c",
+            "fallbackText": "ro"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-12-block-03-item-04",
+          "text": "ra",
+          "audio": {
+            "key": "fr:syllable:ra-37e7702e",
+            "fallbackText": "ra"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-12-block-03-item-05",
+          "text": "re",
+          "audio": {
+            "key": "fr:syllable:re-3ac1ecbd",
+            "fallbackText": "re"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-12-block-03-item-06",
+          "text": "ré",
+          "audio": {
+            "key": "fr:syllable:re-0c1e5965",
+            "fallbackText": "ré"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-12-block-03-item-07",
+          "text": "rè",
+          "audio": {
+            "key": "fr:syllable:re-0942ebda",
+            "fallbackText": "rè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-12-block-03-item-08",
+          "text": "rê",
+          "audio": {
+            "key": "fr:syllable:re-daf93d50",
+            "fallbackText": "rê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-12-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [29],
+        "printedPages": [28]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-12-block-04-item-01",
+          "text": "riz",
+          "audio": {
+            "key": "fr:word:riz-0f3e78a6",
+            "fallbackText": "riz"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-12-block-04-item-02",
+          "text": "rat",
+          "audio": {
+            "key": "fr:word:rat-9950cec2",
+            "fallbackText": "rat"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-12-block-04-item-03",
+          "text": "rouge",
+          "audio": {
+            "key": "fr:word:rouge-36d8324d",
+            "fallbackText": "rouge"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-12-block-04-item-04",
+          "text": "rentrée",
+          "audio": {
+            "key": "fr:word:rentree-39e5a4c6",
+            "fallbackText": "rentrée"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-12-block-04-item-05",
+          "text": "robe",
+          "audio": {
+            "key": "fr:word:robe-9d0f4450",
+            "fallbackText": "robe"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-12-block-04-item-06",
+          "text": "réussir",
+          "audio": {
+            "key": "fr:word:reussir-95589dd5",
+            "fallbackText": "réussir"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-12-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [29],
+        "printedPages": [28]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-12-block-05-item-01",
+          "text": "papa allume la radio.",
+          "audio": {
+            "key": "fr:lesson-12:b5-item-1",
+            "fallbackText": "papa allume la radio."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-12-block-05-item-02",
+          "text": "le riz de maman.",
+          "audio": {
+            "key": "fr:lesson-12:b5-item-2",
+            "fallbackText": "le riz de maman."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-12-block-05-item-03",
+          "text": "la rentrée des classes.",
+          "audio": {
+            "key": "fr:lesson-12:b5-item-3",
+            "fallbackText": "la rentrée des classes."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-12-block-05-item-04",
+          "text": "la robe rose de mémé",
+          "audio": {
+            "key": "fr:lesson-12:b5-item-4",
+            "fallbackText": "la robe rose de mémé"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-12-block-06",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [30],
+        "printedPages": [29]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-12-hand-1",
+          "text": "r"
+        },
+        {
+          "id": "lesson-12-hand-2",
+          "text": "R"
+        }
+      ],
+      "glyphAssetIds": ["lesson-12-glyph-1", "lesson-12-glyph-2"]
+    },
+    {
+      "id": "lesson-12-block-07",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [30],
+        "printedPages": [29]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-12-block-07-item-01",
+          "text": "r",
+          "audio": {
+            "key": "fr:word:r-454349e4",
+            "fallbackText": "r"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-12-block-07-item-02",
+          "text": "rire",
+          "audio": {
+            "key": "fr:word:rire-02179775",
+            "fallbackText": "rire"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-12-block-07-item-03",
+          "text": "R",
+          "audio": {
+            "key": "fr:word:r-8c257489",
+            "fallbackText": "R"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-12-block-07-item-04",
+          "text": "Rire",
+          "audio": {
+            "key": "fr:word:rire-5eca391a",
+            "fallbackText": "Rire"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-12-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [30],
+        "printedPages": [29]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-12-block-08-item-01",
+          "text": "r",
+          "audio": {
+            "key": "fr:word:r-454349e4",
+            "fallbackText": "r"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-12-block-08-item-02",
+          "text": "route",
+          "audio": {
+            "key": "fr:word:route-8a84e406",
+            "fallbackText": "route"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-12-review-1"]
+  }
+}

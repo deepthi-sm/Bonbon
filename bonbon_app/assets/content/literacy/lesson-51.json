@@ -1,0 +1,178 @@
+{
+  "id": "lesson-51",
+  "lessonNumber": 51,
+  "targets": [
+    {
+      "id": "target-lesson-51-1",
+      "kind": "grapheme",
+      "value": "ph = f",
+      "audio": {
+        "key": "fr:grapheme:ph-f-6952c507",
+        "fallbackText": "ph = f"
+      }
+    },
+    {
+      "id": "target-lesson-51-2",
+      "kind": "grapheme",
+      "value": "th = t",
+      "audio": {
+        "key": "fr:grapheme:th-t-54bfe275",
+        "fallbackText": "th = t"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [83],
+    "printedPages": [81]
+  },
+  "blocks": [
+    {
+      "id": "lesson-51-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [83],
+        "printedPages": [81]
+      },
+      "grapheme": "ph = f",
+      "uppercase": "PH = F",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ph-f-6952c507",
+        "fallbackText": "ph = f"
+      }
+    },
+    {
+      "id": "lesson-51-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [83],
+        "printedPages": [81]
+      },
+      "grapheme": "th = t",
+      "uppercase": "TH = T",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:th-t-54bfe275",
+        "fallbackText": "th = t"
+      }
+    },
+    {
+      "id": "lesson-51-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [83],
+        "printedPages": [81]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-51-block-03-item-01",
+          "text": "le téléphone",
+          "audio": {
+            "key": "fr:phrase:le-telephone-446c4118",
+            "fallbackText": "le téléphone"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-51-block-03-item-02",
+          "text": "la pharmacie",
+          "audio": {
+            "key": "fr:phrase:la-pharmacie-896c11f0",
+            "fallbackText": "la pharmacie"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-51-block-03-item-03",
+          "text": "le thé",
+          "audio": {
+            "key": "fr:phrase:le-the-3b0c4e45",
+            "fallbackText": "le thé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-51-block-03-item-04",
+          "text": "la photo",
+          "audio": {
+            "key": "fr:phrase:la-photo-0a2f08cb",
+            "fallbackText": "la photo"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-51-block-03-item-05",
+          "text": "un photographe",
+          "audio": {
+            "key": "fr:phrase:un-photographe-1182edbf",
+            "fallbackText": "un photographe"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-51-block-03-item-06",
+          "text": "le phonographe",
+          "audio": {
+            "key": "fr:phrase:le-phonographe-cb09fa67",
+            "fallbackText": "le phonographe"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-51-block-03-item-07",
+          "text": "un phare",
+          "audio": {
+            "key": "fr:phrase:un-phare-dd277e9d",
+            "fallbackText": "un phare"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-51-block-03-item-08",
+          "text": "l’éléphant",
+          "audio": {
+            "key": "fr:word:lelephant-d638f7f3",
+            "fallbackText": "l’éléphant"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-51-block-03-item-09",
+          "text": "la panthère",
+          "audio": {
+            "key": "fr:phrase:la-panthere-e788baa8",
+            "fallbackText": "la panthère"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-51-block-04",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [83],
+        "printedPages": [81]
+      },
+      "title": "Le photographe",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-51-block-04-segment-1",
+          "type": "narration",
+          "text": "L’oncle Mathieu a une belle voiture avec des phares ronds. Il vient d’appeler sa nièce au téléphone. Ensemble ils iront acheter du pain et un médicament à la pharmacie. Au retour ils iront prendre une photo chez Moustapha l’un des photographes du village",
+          "audio": {
+            "key": "fr:lesson-51:passage-4-segment-1",
+            "fallbackText": "L’oncle Mathieu a une belle voiture avec des phares ronds. Il vient d’appeler sa nièce au téléphone. Ensemble ils iront acheter du pain et un médicament à la pharmacie. Au retour ils iront prendre une photo chez Moustapha l’un des photographes du village"
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

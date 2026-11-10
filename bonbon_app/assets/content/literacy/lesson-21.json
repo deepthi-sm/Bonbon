@@ -1,0 +1,288 @@
+{
+  "id": "lesson-21",
+  "lessonNumber": 21,
+  "targets": [
+    {
+      "id": "target-lesson-21-1",
+      "kind": "grapheme",
+      "value": "g",
+      "audio": {
+        "key": "fr:grapheme:g-cd0aa985",
+        "fallbackText": "g"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [47, 48],
+    "printedPages": [46, 47]
+  },
+  "blocks": [
+    {
+      "id": "lesson-21-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [47],
+        "printedPages": [46]
+      },
+      "grapheme": "g",
+      "uppercase": "G",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:g-cd0aa985",
+        "fallbackText": "g"
+      }
+    },
+    {
+      "id": "lesson-21-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [47],
+        "printedPages": [46]
+      },
+      "assetId": "lesson-21-illustration",
+      "caption": {
+        "id": "lesson-21-caption",
+        "text": "une guitare",
+        "audio": {
+          "key": "fr:phrase:une-guitare-cbe98c6d",
+          "fallbackText": "une guitare"
+        }
+      }
+    },
+    {
+      "id": "lesson-21-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [47],
+        "printedPages": [46]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-21-block-03-item-01",
+          "text": "gu",
+          "audio": {
+            "key": "fr:syllable:gu-6152d43c",
+            "fallbackText": "gu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-21-block-03-item-02",
+          "text": "go",
+          "audio": {
+            "key": "fr:syllable:go-4cd0e21a",
+            "fallbackText": "go"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-21-block-03-item-03",
+          "text": "ga",
+          "audio": {
+            "key": "fr:syllable:ga-f52d6323",
+            "fallbackText": "ga"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-21-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [47],
+        "printedPages": [46]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-21-block-04-item-01",
+          "text": "guide",
+          "audio": {
+            "key": "fr:word:guide-83ca68be",
+            "fallbackText": "guide"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-21-block-04-item-02",
+          "text": "garde",
+          "audio": {
+            "key": "fr:word:garde-e3f24ef9",
+            "fallbackText": "garde"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-21-block-04-item-03",
+          "text": "gourde",
+          "audio": {
+            "key": "fr:word:gourde-11f8f0b3",
+            "fallbackText": "gourde"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-21-block-04-item-04",
+          "text": "gong",
+          "audio": {
+            "key": "fr:word:gong-cb37790a",
+            "fallbackText": "gong"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-21-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [47],
+        "printedPages": [46]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-21-block-05-item-01",
+          "text": "la gourde de pépé.",
+          "audio": {
+            "key": "fr:lesson-21:b5-item-1",
+            "fallbackText": "la gourde de pépé."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-21-block-05-item-02",
+          "text": "le guide de la classe.",
+          "audio": {
+            "key": "fr:lesson-21:b5-item-2",
+            "fallbackText": "le guide de la classe."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-21-block-05-item-03",
+          "text": "le gong de l’école.",
+          "audio": {
+            "key": "fr:lesson-21:b5-item-3",
+            "fallbackText": "le gong de l’école."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-21-block-05-item-04",
+          "text": "la gardien de la gare.",
+          "audio": {
+            "key": "fr:lesson-21:b5-item-4",
+            "fallbackText": "la gardien de la gare."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-21-block-06",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [48],
+        "printedPages": [47]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-21-hand-1",
+          "text": "g"
+        },
+        {
+          "id": "lesson-21-hand-2",
+          "text": "G"
+        }
+      ],
+      "glyphAssetIds": ["lesson-21-glyph-1", "lesson-21-glyph-2"]
+    },
+    {
+      "id": "lesson-21-block-07",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [48],
+        "printedPages": [47]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-21-block-07-item-01",
+          "text": "g",
+          "audio": {
+            "key": "fr:word:g-cd0aa985",
+            "fallbackText": "g"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-21-block-07-item-02",
+          "text": "gong",
+          "audio": {
+            "key": "fr:word:gong-cb37790a",
+            "fallbackText": "gong"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-21-block-07-item-03",
+          "text": "G",
+          "audio": {
+            "key": "fr:word:g-333e0a1e",
+            "fallbackText": "G"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-21-block-07-item-04",
+          "text": "Gong",
+          "audio": {
+            "key": "fr:word:gong-447c8e23",
+            "fallbackText": "Gong"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-21-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [48],
+        "printedPages": [47]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-21-block-08-item-01",
+          "text": "g",
+          "audio": {
+            "key": "fr:word:g-cd0aa985",
+            "fallbackText": "g"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-21-block-08-item-02",
+          "text": "gari",
+          "audio": {
+            "key": "fr:word:gari-e6e4cb16",
+            "fallbackText": "gari"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "reviewed",
+    "issueIds": ["lesson-21-review-1", "lesson-21-review-2"]
+  }
+}

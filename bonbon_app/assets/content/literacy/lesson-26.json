@@ -1,0 +1,425 @@
+{
+  "id": "lesson-26",
+  "lessonNumber": 26,
+  "targets": [
+    {
+      "id": "target-lesson-26-1",
+      "kind": "grapheme",
+      "value": "on",
+      "audio": {
+        "key": "fr:grapheme:on-b8d31e85",
+        "fallbackText": "on"
+      }
+    },
+    {
+      "id": "target-lesson-26-2",
+      "kind": "grapheme",
+      "value": "om",
+      "audio": {
+        "key": "fr:grapheme:om-2e23f8b8",
+        "fallbackText": "om"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [57],
+    "printedPages": [56]
+  },
+  "blocks": [
+    {
+      "id": "lesson-26-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [57],
+        "printedPages": [56]
+      },
+      "grapheme": "on",
+      "uppercase": "ON",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:on-b8d31e85",
+        "fallbackText": "on"
+      }
+    },
+    {
+      "id": "lesson-26-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [57],
+        "printedPages": [56]
+      },
+      "grapheme": "om",
+      "uppercase": "OM",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:om-2e23f8b8",
+        "fallbackText": "om"
+      }
+    },
+    {
+      "id": "lesson-26-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [57],
+        "printedPages": [56]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-26-block-03-item-01",
+          "text": "fon",
+          "audio": {
+            "key": "fr:syllable:fon-027c9c9d",
+            "fallbackText": "fon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-02",
+          "text": "ton",
+          "audio": {
+            "key": "fr:syllable:ton-d537bc9c",
+            "fallbackText": "ton"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-03",
+          "text": "pon",
+          "audio": {
+            "key": "fr:syllable:pon-7857afe2",
+            "fallbackText": "pon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-04",
+          "text": "non",
+          "audio": {
+            "key": "fr:syllable:non-bcee72e6",
+            "fallbackText": "non"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-05",
+          "text": "mon",
+          "audio": {
+            "key": "fr:syllable:mon-e6d3efc6",
+            "fallbackText": "mon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-06",
+          "text": "lon",
+          "audio": {
+            "key": "fr:syllable:lon-33975037",
+            "fallbackText": "lon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-07",
+          "text": "jon",
+          "audio": {
+            "key": "fr:syllable:jon-bb472edb",
+            "fallbackText": "jon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-08",
+          "text": "bon",
+          "audio": {
+            "key": "fr:syllable:bon-72b90a0d",
+            "fallbackText": "bon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-09",
+          "text": "ron",
+          "audio": {
+            "key": "fr:syllable:ron-32801f5c",
+            "fallbackText": "ron"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-10",
+          "text": "von",
+          "audio": {
+            "key": "fr:syllable:von-43ce6022",
+            "fallbackText": "von"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-11",
+          "text": "son",
+          "audio": {
+            "key": "fr:syllable:son-98aa6675",
+            "fallbackText": "son"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-12",
+          "text": "dom",
+          "audio": {
+            "key": "fr:syllable:dom-7e6e9877",
+            "fallbackText": "dom"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-13",
+          "text": "com",
+          "audio": {
+            "key": "fr:syllable:com-71b4f3a3",
+            "fallbackText": "com"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-14",
+          "text": "bom",
+          "audio": {
+            "key": "fr:syllable:bom-23f3770b",
+            "fallbackText": "bom"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-15",
+          "text": "pom",
+          "audio": {
+            "key": "fr:syllable:pom-60c24224",
+            "fallbackText": "pom"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-03-item-16",
+          "text": "vom",
+          "audio": {
+            "key": "fr:syllable:vom-6d111b98",
+            "fallbackText": "vom"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-26-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [57],
+        "printedPages": [56]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-26-block-04-item-01",
+          "text": "un mouton",
+          "audio": {
+            "key": "fr:phrase:un-mouton-41bff5bf",
+            "fallbackText": "un mouton"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-04-item-02",
+          "text": "un dindon",
+          "audio": {
+            "key": "fr:phrase:un-dindon-9bd08443",
+            "fallbackText": "un dindon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-04-item-03",
+          "text": "un lion",
+          "audio": {
+            "key": "fr:phrase:un-lion-b756a020",
+            "fallbackText": "un lion"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-26-block-04-item-04",
+          "text": "un poisson",
+          "audio": {
+            "key": "fr:phrase:un-poisson-8ae3caac",
+            "fallbackText": "un poisson"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-26-block-05",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [57],
+        "printedPages": [56]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-26-block-05-item-01",
+          "text": "fon",
+          "audio": {
+            "key": "fr:syllable:fon-027c9c9d",
+            "fallbackText": "fon"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-26-block-05-item-02",
+          "text": "ton",
+          "audio": {
+            "key": "fr:syllable:ton-d537bc9c",
+            "fallbackText": "ton"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-26-block-05-item-03",
+          "text": "pon",
+          "audio": {
+            "key": "fr:syllable:pon-7857afe2",
+            "fallbackText": "pon"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-26-block-05-item-04",
+          "text": "non",
+          "audio": {
+            "key": "fr:syllable:non-bcee72e6",
+            "fallbackText": "non"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-26-block-05-item-05",
+          "text": "mon",
+          "audio": {
+            "key": "fr:syllable:mon-e6d3efc6",
+            "fallbackText": "mon"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-26-block-05-item-06",
+          "text": "lon",
+          "audio": {
+            "key": "fr:syllable:lon-33975037",
+            "fallbackText": "lon"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-26-block-05-item-07",
+          "text": "jon",
+          "audio": {
+            "key": "fr:syllable:jon-bb472edb",
+            "fallbackText": "jon"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-26-block-05-item-08",
+          "text": "bon",
+          "audio": {
+            "key": "fr:syllable:bon-72b90a0d",
+            "fallbackText": "bon"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-26-block-05-item-09",
+          "text": "dom",
+          "audio": {
+            "key": "fr:syllable:dom-7e6e9877",
+            "fallbackText": "dom"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-26-block-05-item-10",
+          "text": "com",
+          "audio": {
+            "key": "fr:syllable:com-71b4f3a3",
+            "fallbackText": "com"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-26-block-05-item-11",
+          "text": "bom",
+          "audio": {
+            "key": "fr:syllable:bom-23f3770b",
+            "fallbackText": "bom"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-26-block-05-item-12",
+          "text": "pom",
+          "audio": {
+            "key": "fr:syllable:pom-60c24224",
+            "fallbackText": "pom"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-26-block-05-item-13",
+          "text": "vom",
+          "audio": {
+            "key": "fr:syllable:vom-6d111b98",
+            "fallbackText": "vom"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-26-block-06",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [57],
+        "printedPages": [56]
+      },
+      "title": "La fête",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-26-block-06-segment-1",
+          "type": "narration",
+          "text": "Aujourd’hui, c’est la fête de ramadan.",
+          "audio": {
+            "key": "fr:lesson-26:passage-6-segment-1",
+            "fallbackText": "Aujourd’hui, c’est la fête de ramadan."
+          }
+        },
+        {
+          "id": "lesson-26-block-06-segment-2",
+          "type": "narration",
+          "text": "Tout le monde s’est réveillé tôt le matin pour aller à la prière. J’ai porté un beau pantalon et un long boubou. Mon oncle et ses enfants ont porté aussi de beaux vêtements. Nous avons prié à la place “Idi” en compagnie des musulmans venus de tout le quartier. À la fin de la prière chaque famille retoune à la maison pour continuer la fête.",
+          "audio": {
+            "key": "fr:lesson-26:passage-6-segment-2",
+            "fallbackText": "Tout le monde s’est réveillé tôt le matin pour aller à la prière. J’ai porté un beau pantalon et un long boubou. Mon oncle et ses enfants ont porté aussi de beaux vêtements. Nous avons prié à la place “Idi” en compagnie des musulmans venus de tout le quartier. À la fin de la prière chaque famille retoune à la maison pour continuer la fête."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-26-review-1"]
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "id": "lesson-10",
+  "lessonNumber": 10,
+  "targets": [
+    {
+      "id": "target-lesson-10-1",
+      "kind": "grapheme",
+      "value": "n",
+      "audio": {
+        "key": "fr:grapheme:n-1b16b1df",
+        "fallbackText": "n"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [25, 26],
+    "printedPages": [24, 25]
+  },
+  "blocks": [
+    {
+      "id": "lesson-10-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [25],
+        "printedPages": [24]
+      },
+      "grapheme": "n",
+      "uppercase": "N",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:n-1b16b1df",
+        "fallbackText": "n"
+      }
+    },
+    {
+      "id": "lesson-10-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [25],
+        "printedPages": [24]
+      },
+      "assetId": "lesson-10-illustration",
+      "caption": {
+        "id": "lesson-10-caption",
+        "text": "un nez",
+        "audio": {
+          "key": "fr:phrase:un-nez-d1801c8d",
+          "fallbackText": "un nez"
+        }
+      }
+    },
+    {
+      "id": "lesson-10-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [25],
+        "printedPages": [24]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-10-block-03-item-01",
+          "text": "ni",
+          "audio": {
+            "key": "fr:syllable:ni-4db03a27",
+            "fallbackText": "ni"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-10-block-03-item-02",
+          "text": "nu",
+          "audio": {
+            "key": "fr:syllable:nu-3086cf46",
+            "fallbackText": "nu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-10-block-03-item-03",
+          "text": "no",
+          "audio": {
+            "key": "fr:syllable:no-9390298f",
+            "fallbackText": "no"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-10-block-03-item-04",
+          "text": "na",
+          "audio": {
+            "key": "fr:syllable:na-3d9fc4bd",
+            "fallbackText": "na"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-10-block-03-item-05",
+          "text": "ne",
+          "audio": {
+            "key": "fr:syllable:ne-cb58e460",
+            "fallbackText": "ne"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-10-block-03-item-06",
+          "text": "né",
+          "audio": {
+            "key": "fr:syllable:ne-82b5c347",
+            "fallbackText": "né"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-10-block-03-item-07",
+          "text": "nè",
+          "audio": {
+            "key": "fr:syllable:ne-53ecb9a2",
+            "fallbackText": "nè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-10-block-03-item-08",
+          "text": "nê",
+          "audio": {
+            "key": "fr:syllable:ne-01bd7f29",
+            "fallbackText": "nê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-10-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [25],
+        "printedPages": [24]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-10-block-04-item-01",
+          "text": "note",
+          "audio": {
+            "key": "fr:word:note-edb46562",
+            "fallbackText": "note"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-10-block-04-item-02",
+          "text": "natte",
+          "audio": {
+            "key": "fr:word:natte-d4b394df",
+            "fallbackText": "natte"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-10-block-04-item-03",
+          "text": "âne",
+          "audio": {
+            "key": "fr:word:ane-aa8e6edc",
+            "fallbackText": "âne"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-10-block-04-item-04",
+          "text": "anani",
+          "audio": {
+            "key": "fr:word:anani-8e30ea61",
+            "fallbackText": "anani"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-10-block-04-item-05",
+          "text": "nono",
+          "audio": {
+            "key": "fr:word:nono-e127b3ec",
+            "fallbackText": "nono"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-10-block-04-item-06",
+          "text": "nini",
+          "audio": {
+            "key": "fr:word:nini-c5295e74",
+            "fallbackText": "nini"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-10-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [25],
+        "printedPages": [24]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-10-block-05-item-01",
+          "text": "papa tape anani.",
+          "audio": {
+            "key": "fr:lesson-10:b5-item-1",
+            "fallbackText": "papa tape anani."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-10-block-05-item-02",
+          "text": "nono a une natte.",
+          "audio": {
+            "key": "fr:lesson-10:b5-item-2",
+            "fallbackText": "nono a une natte."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-10-block-06",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [26],
+        "printedPages": [25]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-10-hand-1",
+          "text": "n"
+        },
+        {
+          "id": "lesson-10-hand-2",
+          "text": "N"
+        }
+      ],
+      "glyphAssetIds": ["lesson-10-glyph-1", "lesson-10-glyph-2"]
+    },
+    {
+      "id": "lesson-10-block-07",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [26],
+        "printedPages": [25]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-10-block-07-item-01",
+          "text": "n",
+          "audio": {
+            "key": "fr:word:n-1b16b1df",
+            "fallbackText": "n"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-10-block-07-item-02",
+          "text": "neuf",
+          "audio": {
+            "key": "fr:word:neuf-a0ad1f02",
+            "fallbackText": "neuf"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-10-block-07-item-03",
+          "text": "N",
+          "audio": {
+            "key": "fr:word:n-8ce86a6a",
+            "fallbackText": "N"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-10-block-07-item-04",
+          "text": "Neuf",
+          "audio": {
+            "key": "fr:word:neuf-b3184f59",
+            "fallbackText": "Neuf"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-10-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [26],
+        "printedPages": [25]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-10-block-08-item-01",
+          "text": "n",
+          "audio": {
+            "key": "fr:word:n-1b16b1df",
+            "fallbackText": "n"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-10-block-08-item-02",
+          "text": "natte",
+          "audio": {
+            "key": "fr:word:natte-d4b394df",
+            "fallbackText": "natte"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-10-review-1"]
+  }
+}

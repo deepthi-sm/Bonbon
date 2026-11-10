@@ -1,0 +1,232 @@
+{
+  "id": "lesson-27",
+  "lessonNumber": 27,
+  "targets": [
+    {
+      "id": "target-lesson-27-1",
+      "kind": "grapheme",
+      "value": "oin",
+      "audio": {
+        "key": "fr:grapheme:oin-057b3d79",
+        "fallbackText": "oin"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [58],
+    "printedPages": [57]
+  },
+  "blocks": [
+    {
+      "id": "lesson-27-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [58],
+        "printedPages": [57]
+      },
+      "grapheme": "oin",
+      "uppercase": "OIN",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:oin-057b3d79",
+        "fallbackText": "oin"
+      }
+    },
+    {
+      "id": "lesson-27-block-02",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [58],
+        "printedPages": [57]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-27-block-02-item-01",
+          "text": "poin",
+          "audio": {
+            "key": "fr:syllable:poin-cbd9c26d",
+            "fallbackText": "poin"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-27-block-02-item-02",
+          "text": "loin",
+          "audio": {
+            "key": "fr:syllable:loin-1e4d7e29",
+            "fallbackText": "loin"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-27-block-02-item-03",
+          "text": "soin",
+          "audio": {
+            "key": "fr:syllable:soin-9c42e3ea",
+            "fallbackText": "soin"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-27-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [58],
+        "printedPages": [57]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-27-block-03-item-01",
+          "text": "le point",
+          "audio": {
+            "key": "fr:phrase:le-point-2edc816f",
+            "fallbackText": "le point"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-27-block-03-item-02",
+          "text": "les soins",
+          "audio": {
+            "key": "fr:phrase:les-soins-e745ff2a",
+            "fallbackText": "les soins"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-27-block-03-item-03",
+          "text": "mon poing",
+          "audio": {
+            "key": "fr:phrase:mon-poing-8a94e32c",
+            "fallbackText": "mon poing"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-27-block-03-item-04",
+          "text": "un coin",
+          "audio": {
+            "key": "fr:phrase:un-coin-53a52244",
+            "fallbackText": "un coin"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-27-block-03-item-05",
+          "text": "pointue",
+          "audio": {
+            "key": "fr:word:pointue-2ac2774b",
+            "fallbackText": "pointue"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-27-block-04",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [58],
+        "printedPages": [57]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-27-block-04-item-01",
+          "text": "ma plume est pointue",
+          "audio": {
+            "key": "fr:lesson-27:b4-item-1",
+            "fallbackText": "ma plume est pointue"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-27-block-04-item-02",
+          "text": "mon amie habite loin",
+          "audio": {
+            "key": "fr:lesson-27:b4-item-2",
+            "fallbackText": "mon amie habite loin"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-27-block-05",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [58],
+        "printedPages": [57]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-27-block-05-item-01",
+          "text": "le point",
+          "audio": {
+            "key": "fr:phrase:le-point-2edc816f",
+            "fallbackText": "le point"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-27-block-05-item-02",
+          "text": "les soins",
+          "audio": {
+            "key": "fr:phrase:les-soins-e745ff2a",
+            "fallbackText": "les soins"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-27-block-05-item-03",
+          "text": "mon poing",
+          "audio": {
+            "key": "fr:phrase:mon-poing-8a94e32c",
+            "fallbackText": "mon poing"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-27-block-05-item-04",
+          "text": "un coin",
+          "audio": {
+            "key": "fr:phrase:un-coin-53a52244",
+            "fallbackText": "un coin"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-27-block-06",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [58],
+        "printedPages": [57]
+      },
+      "title": "Le marché",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-27-block-06-segment-1",
+          "type": "narration",
+          "text": "Le marché de Nikki n’est pas loin de la maison de ma tante. Je m’y rends souvent pour acheter les condiments dont nous avons besoin pour faire la cuisine. Un jour, en allant au marché, j’ai vu de loin un enfant qui jouait au balafon dans un coin de la rue. Au marché chaque vendeuse prend soin de son étalage pour attirer les clients. À mon retour, je fais le point pour m’assurer de n’avoir rien oublié.",
+          "audio": {
+            "key": "fr:lesson-27:passage-6-segment-1",
+            "fallbackText": "Le marché de Nikki n’est pas loin de la maison de ma tante. Je m’y rends souvent pour acheter les condiments dont nous avons besoin pour faire la cuisine. Un jour, en allant au marché, j’ai vu de loin un enfant qui jouait au balafon dans un coin de la rue. Au marché chaque vendeuse prend soin de son étalage pour attirer les clients. À mon retour, je fais le point pour m’assurer de n’avoir rien oublié."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

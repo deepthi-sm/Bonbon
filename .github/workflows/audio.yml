@@ -1,0 +1,147 @@
+name: audio
+
+# Two jobs, both cheap, both guarding things that fail silently otherwise.
+#
+#   ids   — every clip ID matches the grammar and is unique. A malformed or
+#           colliding ID is not a build error; it is a clip that quietly
+#           overwrites another and ships the wrong sound.
+#
+#   size  — the audio is stored as ordinary git blobs, not LFS, because
+#           Vercel's clone does not fetch LFS objects. That is the right
+#           trade while the corpus is regenerated rarely, and the wrong one
+#           once it is not: every changed clip stays in history forever.
+#           This job says so out loud before it becomes painful to undo.
+
+on:
+  pull_request:
+    paths:
+      - 'bonbon_app/assets/audio/**'
+      - 'bonbon_app/tool/**'
+      - 'content/audio/**'
+      - 'tools/audio-pipeline/**'
+  push:
+    branches: [main]
+
+jobs:
+  ids:
+    name: clip IDs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+
+      - name: Grammar and uniqueness
+        run: node tools/audio-pipeline/verify-ids.mjs
+
+      - name: Plan matches the generator
+        run: |
+          python3 bonbon_app/tool/audio_ids.py > /dev/null
+          if ! git diff --quiet -- bonbon_app/tool/audio-plan.json; then
+            echo "::error::audio-plan.json does not match what audio_ids.py produces."
+            echo "Someone hand-edited it, or the generator changed without a rebuild."
+            echo "Run: python3 bonbon_app/tool/audio_ids.py"
+            git diff --stat -- bonbon_app/tool/audio-plan.json
+            exit 1
+          fi
+
+      - name: Every planned clip exists
+        run: |
+          python3 - <<'PY'
+          import json, os, sys
+          A = 'bonbon_app/assets/audio'
+          rows = json.load(open('bonbon_app/tool/audio-plan.json'))['rows']
+          missing = [r['id'] for r in rows
+                     if not os.path.exists(os.path.join(A, r['id'] + '.m4a'))]
+          print(f'{len(rows) - len(missing)} of {len(rows)} clips present')
+          if missing:
+              # Not fatal: a missing clip is handled — Speech.has() returns
+              # false and no speaker icon renders. Worth knowing about, not
+              # worth blocking on.
+              print(f'::warning::{len(missing)} planned clips have no file. '
+                    f'The app hides these rather than breaking. '
+                    f'First few: {", ".join(missing[:8])}')
+          PY
+
+      - name: Human recordings are intact
+        run: |
+          python3 - <<'PY'
+          import os, sys
+          A = 'bonbon_app/assets/audio'
+          hp = os.path.join(A, 'human-recorded.txt')
+          if not os.path.exists(hp):
+              sys.exit(0)
+          ids = [l.strip() for l in open(hp, encoding='utf-8')
+                 if l.strip() and not l.startswith('#')]
+          gone = [i for i in ids if not os.path.exists(os.path.join(A, i + '.m4a'))]
+          if gone:
+              print('::error::A human recording is missing. These cannot be '
+                    'regenerated — a plosive is a silence plus a 20 ms burst '
+                    'and no synthesiser can make one. Restore from history.')
+              for g in gone:
+                  print(f'  {g}')
+              sys.exit(1)
+          print(f'{len(ids)} human recordings present')
+          PY
+
+  size:
+    name: repository weight
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+
+      - name: Measure
+        run: |
+          python3 - <<'PY'
+          import subprocess, os
+
+          # Thresholds. The first is "this one change is large", the second is
+          # "the accumulated history is large". Both are judgement calls, not
+          # physics — move them if they cry wolf.
+          PR_WARN_MB   = 10
+          REPO_WARN_MB = 250
+          REPO_FAIL_MB = 700   # GitHub starts complaining past about 1 GB
+
+          def mb(n): return n / 1024 / 1024
+
+          def sh(*a):
+              return subprocess.run(a, capture_output=True, text=True).stdout.strip()
+
+          base = os.environ.get('GITHUB_BASE_REF')
+          added = 0
+          if base:
+              sh('git', 'fetch', '--quiet', 'origin', base)
+              names = sh('git', 'diff', '--name-only', f'origin/{base}...HEAD')
+              for n in names.splitlines():
+                  if n.endswith('.m4a') and os.path.exists(n):
+                      added += os.path.getsize(n)
+              print(f'audio changed by this PR: {mb(added):.1f} MB')
+
+          raw = sh('git', 'count-objects', '-v')
+          size_pack_kb = next((int(l.split(':')[1]) for l in raw.splitlines()
+                               if l.startswith('size-pack:')), 0)
+          repo = size_pack_kb / 1024
+          print(f'repository history: {repo:.0f} MB')
+
+          if added and mb(added) > PR_WARN_MB:
+              print(f'::warning::This PR adds {mb(added):.0f} MB of audio. '
+                    f'Every byte stays in history permanently. Prefer '
+                    f'regenerating subsets (audio_gen.py --only) over '
+                    f'rebuilding the whole corpus.')
+
+          if repo > REPO_FAIL_MB:
+              print(f'::error::History is {repo:.0f} MB. Time to move the '
+                    f'audio to Git LFS — but note Vercel does not fetch LFS '
+                    f'objects, so vercel_build.sh must install git-lfs and '
+                    f'run `git lfs pull` in the same change, or every deploy '
+                    f'ships silent pointer files.')
+              raise SystemExit(1)
+
+          if repo > REPO_WARN_MB:
+              print(f'::warning::History is {repo:.0f} MB and audio is stored '
+                    f'as ordinary blobs. Worth planning the move to Git LFS. '
+                    f'It is not a drop-in: Vercel skips LFS objects, so '
+                    f'vercel_build.sh needs git-lfs installed and a '
+                    f'`git lfs pull` added at the same time.')
+          PY

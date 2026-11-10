@@ -1,0 +1,201 @@
+[
+  {
+    "id": "alphabet-chart",
+    "type": "alphabet_chart",
+    "title": "L’alphabet français: 26 lettres",
+    "preserveSourceOrder": true,
+    "source": {
+      "pdfPages": [5],
+      "printedPages": [4]
+    },
+    "entries": [
+      {
+        "id": "alphabet-chart-a",
+        "grapheme": "a",
+        "uppercase": "A",
+        "category": "vowel",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-b",
+        "grapheme": "b",
+        "uppercase": "B",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-c",
+        "grapheme": "c",
+        "uppercase": "C",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-d",
+        "grapheme": "d",
+        "uppercase": "D",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-e",
+        "grapheme": "e",
+        "uppercase": "E",
+        "category": "vowel",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-f",
+        "grapheme": "f",
+        "uppercase": "F",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-g",
+        "grapheme": "g",
+        "uppercase": "G",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-h",
+        "grapheme": "h",
+        "uppercase": "H",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-i",
+        "grapheme": "i",
+        "uppercase": "I",
+        "category": "vowel",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-j",
+        "grapheme": "j",
+        "uppercase": "J",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-k",
+        "grapheme": "k",
+        "uppercase": "K",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-l",
+        "grapheme": "l",
+        "uppercase": "L",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-m",
+        "grapheme": "m",
+        "uppercase": "M",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-n",
+        "grapheme": "n",
+        "uppercase": "N",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-o",
+        "grapheme": "o",
+        "uppercase": "O",
+        "category": "vowel",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-p",
+        "grapheme": "p",
+        "uppercase": "P",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-q",
+        "grapheme": "q",
+        "uppercase": "Q",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-r",
+        "grapheme": "r",
+        "uppercase": "R",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-s",
+        "grapheme": "s",
+        "uppercase": "S",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-t",
+        "grapheme": "t",
+        "uppercase": "T",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-u",
+        "grapheme": "u",
+        "uppercase": "U",
+        "category": "vowel",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-v",
+        "grapheme": "v",
+        "uppercase": "V",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-w",
+        "grapheme": "w",
+        "uppercase": "W",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-x",
+        "grapheme": "x",
+        "uppercase": "X",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-y",
+        "grapheme": "y",
+        "uppercase": "Y",
+        "category": "vowel",
+        "representations": ["print", "cursive"]
+      },
+      {
+        "id": "alphabet-chart-z",
+        "grapheme": "z",
+        "uppercase": "Z",
+        "category": "consonant",
+        "representations": ["print", "cursive"]
+      }
+    ],
+    "review": {
+      "transcription": "reviewed",
+      "assets": "unreviewed",
+      "issueIds": []
+    }
+  }
+]

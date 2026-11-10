@@ -1,0 +1,755 @@
+{
+  "id": "numeracy",
+  "title": "Mathématiques",
+  "overview": [
+    {
+      "id": "numeracy-overview-chiffres",
+      "type": "section_text",
+      "heading": "CHIFFRES",
+      "preserveSourceOrder": true,
+      "paragraphs": [
+        {
+          "id": "numeracy-overview-0",
+          "text": "0 — zéro",
+          "audio": {
+            "key": "fr:number:zero",
+            "fallbackText": "zéro"
+          }
+        },
+        {
+          "id": "numeracy-overview-1",
+          "text": "1 — un",
+          "audio": {
+            "key": "fr:number:un",
+            "fallbackText": "un"
+          }
+        },
+        {
+          "id": "numeracy-overview-2",
+          "text": "2 — deux",
+          "audio": {
+            "key": "fr:number:deux",
+            "fallbackText": "deux"
+          }
+        },
+        {
+          "id": "numeracy-overview-3",
+          "text": "3 — trois",
+          "audio": {
+            "key": "fr:number:trois",
+            "fallbackText": "trois"
+          }
+        },
+        {
+          "id": "numeracy-overview-4",
+          "text": "4 — quatre",
+          "audio": {
+            "key": "fr:number:quatre",
+            "fallbackText": "quatre"
+          }
+        },
+        {
+          "id": "numeracy-overview-5",
+          "text": "5 — cinq",
+          "audio": {
+            "key": "fr:number:cinq",
+            "fallbackText": "cinq"
+          }
+        },
+        {
+          "id": "numeracy-overview-6",
+          "text": "6 — six",
+          "audio": {
+            "key": "fr:number:six",
+            "fallbackText": "six"
+          }
+        },
+        {
+          "id": "numeracy-overview-7",
+          "text": "7 — sept",
+          "audio": {
+            "key": "fr:number:sept",
+            "fallbackText": "sept"
+          }
+        },
+        {
+          "id": "numeracy-overview-8",
+          "text": "8 — huit",
+          "audio": {
+            "key": "fr:number:huit",
+            "fallbackText": "huit"
+          }
+        },
+        {
+          "id": "numeracy-overview-9",
+          "text": "9 — neuf",
+          "audio": {
+            "key": "fr:number:neuf",
+            "fallbackText": "neuf"
+          }
+        }
+      ],
+      "source": {
+        "pdfPages": [91],
+        "printedPages": [88]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "numeracy-unit-0",
+      "number": 0,
+      "numeral": "0",
+      "word": "zéro",
+      "source": {
+        "pdfPages": [91, 92],
+        "printedPages": [88, 89]
+      },
+      "blocks": [
+        {
+          "id": "numeracy-unit-0-display",
+          "type": "numeral_display",
+          "value": 0,
+          "display": "0",
+          "word": {
+            "id": "numeracy-unit-0-word",
+            "text": "zéro",
+            "audio": {
+              "key": "fr:number:zero",
+              "fallbackText": "zéro"
+            }
+          },
+          "audio": {
+            "key": "fr:number:zero",
+            "fallbackText": "zéro"
+          },
+          "source": {
+            "pdfPages": [91],
+            "printedPages": [88]
+          }
+        },
+        {
+          "id": "numeracy-unit-0-writing",
+          "type": "writing_practice",
+          "preserveSourceOrder": true,
+          "representations": ["print", "cursive"],
+          "items": [
+            {
+              "id": "numeracy-unit-0-writing-numeral",
+              "text": "0",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-0-writing-word",
+              "text": "zéro",
+              "representations": ["print", "cursive"]
+            }
+          ],
+          "source": {
+            "pdfPages": [92],
+            "printedPages": [89]
+          }
+        }
+      ],
+      "review": {
+        "transcription": "reviewed",
+        "assets": "not_required",
+        "issueIds": []
+      }
+    },
+    {
+      "id": "numeracy-unit-1",
+      "number": 1,
+      "numeral": "1",
+      "word": "un",
+      "source": {
+        "pdfPages": [93],
+        "printedPages": [90]
+      },
+      "blocks": [
+        {
+          "id": "numeracy-unit-1-display",
+          "type": "numeral_display",
+          "value": 1,
+          "display": "1",
+          "word": {
+            "id": "numeracy-unit-1-word",
+            "text": "un",
+            "audio": {
+              "key": "fr:number:un",
+              "fallbackText": "un"
+            }
+          },
+          "audio": {
+            "key": "fr:number:un",
+            "fallbackText": "un"
+          },
+          "source": {
+            "pdfPages": [93],
+            "printedPages": [90]
+          }
+        },
+        {
+          "id": "numeracy-unit-1-writing",
+          "type": "writing_practice",
+          "preserveSourceOrder": true,
+          "representations": ["print", "cursive"],
+          "items": [
+            {
+              "id": "numeracy-unit-1-writing-numeral",
+              "text": "1",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-1-writing-word-print",
+              "text": "un",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-1-writing-word-cursive",
+              "text": "un",
+              "representations": ["cursive"]
+            }
+          ],
+          "source": {
+            "pdfPages": [93],
+            "printedPages": [90]
+          }
+        }
+      ],
+      "review": {
+        "transcription": "reviewed",
+        "assets": "not_required",
+        "issueIds": []
+      }
+    },
+    {
+      "id": "numeracy-unit-2",
+      "number": 2,
+      "numeral": "2",
+      "word": "deux",
+      "source": {
+        "pdfPages": [94],
+        "printedPages": [91]
+      },
+      "blocks": [
+        {
+          "id": "numeracy-unit-2-display",
+          "type": "numeral_display",
+          "value": 2,
+          "display": "2",
+          "word": {
+            "id": "numeracy-unit-2-word",
+            "text": "deux",
+            "audio": {
+              "key": "fr:number:deux",
+              "fallbackText": "deux"
+            }
+          },
+          "audio": {
+            "key": "fr:number:deux",
+            "fallbackText": "deux"
+          },
+          "source": {
+            "pdfPages": [94],
+            "printedPages": [91]
+          }
+        },
+        {
+          "id": "numeracy-unit-2-writing",
+          "type": "writing_practice",
+          "preserveSourceOrder": true,
+          "representations": ["print", "cursive"],
+          "items": [
+            {
+              "id": "numeracy-unit-2-writing-numeral",
+              "text": "2",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-2-writing-word-print",
+              "text": "deux",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-2-writing-word-cursive",
+              "text": "deux",
+              "representations": ["cursive"]
+            }
+          ],
+          "source": {
+            "pdfPages": [94],
+            "printedPages": [91]
+          }
+        }
+      ],
+      "review": {
+        "transcription": "reviewed",
+        "assets": "not_required",
+        "issueIds": []
+      }
+    },
+    {
+      "id": "numeracy-unit-3",
+      "number": 3,
+      "numeral": "3",
+      "word": "trois",
+      "source": {
+        "pdfPages": [95],
+        "printedPages": [92]
+      },
+      "blocks": [
+        {
+          "id": "numeracy-unit-3-display",
+          "type": "numeral_display",
+          "value": 3,
+          "display": "3",
+          "word": {
+            "id": "numeracy-unit-3-word",
+            "text": "trois",
+            "audio": {
+              "key": "fr:number:trois",
+              "fallbackText": "trois"
+            }
+          },
+          "audio": {
+            "key": "fr:number:trois",
+            "fallbackText": "trois"
+          },
+          "source": {
+            "pdfPages": [95],
+            "printedPages": [92]
+          }
+        },
+        {
+          "id": "numeracy-unit-3-writing",
+          "type": "writing_practice",
+          "preserveSourceOrder": true,
+          "representations": ["print", "cursive"],
+          "items": [
+            {
+              "id": "numeracy-unit-3-writing-numeral",
+              "text": "3",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-3-writing-word-print",
+              "text": "trois",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-3-writing-word-cursive",
+              "text": "trois",
+              "representations": ["cursive"]
+            }
+          ],
+          "source": {
+            "pdfPages": [95],
+            "printedPages": [92]
+          }
+        }
+      ],
+      "review": {
+        "transcription": "reviewed",
+        "assets": "not_required",
+        "issueIds": []
+      }
+    },
+    {
+      "id": "numeracy-unit-4",
+      "number": 4,
+      "numeral": "4",
+      "word": "quatre",
+      "source": {
+        "pdfPages": [96],
+        "printedPages": [93]
+      },
+      "blocks": [
+        {
+          "id": "numeracy-unit-4-display",
+          "type": "numeral_display",
+          "value": 4,
+          "display": "4",
+          "word": {
+            "id": "numeracy-unit-4-word",
+            "text": "quatre",
+            "audio": {
+              "key": "fr:number:quatre",
+              "fallbackText": "quatre"
+            }
+          },
+          "audio": {
+            "key": "fr:number:quatre",
+            "fallbackText": "quatre"
+          },
+          "source": {
+            "pdfPages": [96],
+            "printedPages": [93]
+          }
+        },
+        {
+          "id": "numeracy-unit-4-writing",
+          "type": "writing_practice",
+          "preserveSourceOrder": true,
+          "representations": ["print", "cursive"],
+          "items": [
+            {
+              "id": "numeracy-unit-4-writing-numeral",
+              "text": "4",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-4-writing-word-print",
+              "text": "quatre",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-4-writing-word-cursive",
+              "text": "quatre",
+              "representations": ["cursive"]
+            }
+          ],
+          "source": {
+            "pdfPages": [96],
+            "printedPages": [93]
+          }
+        }
+      ],
+      "review": {
+        "transcription": "reviewed",
+        "assets": "not_required",
+        "issueIds": []
+      }
+    },
+    {
+      "id": "numeracy-unit-5",
+      "number": 5,
+      "numeral": "5",
+      "word": "cinq",
+      "source": {
+        "pdfPages": [97],
+        "printedPages": [94]
+      },
+      "blocks": [
+        {
+          "id": "numeracy-unit-5-display",
+          "type": "numeral_display",
+          "value": 5,
+          "display": "5",
+          "word": {
+            "id": "numeracy-unit-5-word",
+            "text": "cinq",
+            "audio": {
+              "key": "fr:number:cinq",
+              "fallbackText": "cinq"
+            }
+          },
+          "audio": {
+            "key": "fr:number:cinq",
+            "fallbackText": "cinq"
+          },
+          "source": {
+            "pdfPages": [97],
+            "printedPages": [94]
+          }
+        },
+        {
+          "id": "numeracy-unit-5-writing",
+          "type": "writing_practice",
+          "preserveSourceOrder": true,
+          "representations": ["print", "cursive"],
+          "items": [
+            {
+              "id": "numeracy-unit-5-writing-numeral",
+              "text": "5",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-5-writing-word-print",
+              "text": "cinq",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-5-writing-word-cursive",
+              "text": "cinq",
+              "representations": ["cursive"]
+            }
+          ],
+          "source": {
+            "pdfPages": [97],
+            "printedPages": [94]
+          }
+        }
+      ],
+      "review": {
+        "transcription": "reviewed",
+        "assets": "not_required",
+        "issueIds": []
+      }
+    },
+    {
+      "id": "numeracy-unit-6",
+      "number": 6,
+      "numeral": "6",
+      "word": "six",
+      "source": {
+        "pdfPages": [98],
+        "printedPages": [95]
+      },
+      "blocks": [
+        {
+          "id": "numeracy-unit-6-display",
+          "type": "numeral_display",
+          "value": 6,
+          "display": "6",
+          "word": {
+            "id": "numeracy-unit-6-word",
+            "text": "six",
+            "audio": {
+              "key": "fr:number:six",
+              "fallbackText": "six"
+            }
+          },
+          "audio": {
+            "key": "fr:number:six",
+            "fallbackText": "six"
+          },
+          "source": {
+            "pdfPages": [98],
+            "printedPages": [95]
+          }
+        },
+        {
+          "id": "numeracy-unit-6-writing",
+          "type": "writing_practice",
+          "preserveSourceOrder": true,
+          "representations": ["print", "cursive"],
+          "items": [
+            {
+              "id": "numeracy-unit-6-writing-numeral",
+              "text": "6",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-6-writing-word-print",
+              "text": "six",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-6-writing-word-cursive",
+              "text": "six",
+              "representations": ["cursive"]
+            }
+          ],
+          "source": {
+            "pdfPages": [98],
+            "printedPages": [95]
+          }
+        }
+      ],
+      "review": {
+        "transcription": "reviewed",
+        "assets": "not_required",
+        "issueIds": []
+      }
+    },
+    {
+      "id": "numeracy-unit-7",
+      "number": 7,
+      "numeral": "7",
+      "word": "sept",
+      "source": {
+        "pdfPages": [99],
+        "printedPages": [96]
+      },
+      "blocks": [
+        {
+          "id": "numeracy-unit-7-display",
+          "type": "numeral_display",
+          "value": 7,
+          "display": "7",
+          "word": {
+            "id": "numeracy-unit-7-word",
+            "text": "sept",
+            "audio": {
+              "key": "fr:number:sept",
+              "fallbackText": "sept"
+            }
+          },
+          "audio": {
+            "key": "fr:number:sept",
+            "fallbackText": "sept"
+          },
+          "source": {
+            "pdfPages": [99],
+            "printedPages": [96]
+          }
+        },
+        {
+          "id": "numeracy-unit-7-writing",
+          "type": "writing_practice",
+          "preserveSourceOrder": true,
+          "representations": ["print", "cursive"],
+          "items": [
+            {
+              "id": "numeracy-unit-7-writing-numeral",
+              "text": "7",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-7-writing-word-print",
+              "text": "sept",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-7-writing-word-cursive",
+              "text": "sept",
+              "representations": ["cursive"]
+            }
+          ],
+          "source": {
+            "pdfPages": [99],
+            "printedPages": [96]
+          }
+        }
+      ],
+      "review": {
+        "transcription": "reviewed",
+        "assets": "not_required",
+        "issueIds": []
+      }
+    },
+    {
+      "id": "numeracy-unit-8",
+      "number": 8,
+      "numeral": "8",
+      "word": "huit",
+      "source": {
+        "pdfPages": [100],
+        "printedPages": [97]
+      },
+      "blocks": [
+        {
+          "id": "numeracy-unit-8-display",
+          "type": "numeral_display",
+          "value": 8,
+          "display": "8",
+          "word": {
+            "id": "numeracy-unit-8-word",
+            "text": "huit",
+            "audio": {
+              "key": "fr:number:huit",
+              "fallbackText": "huit"
+            }
+          },
+          "audio": {
+            "key": "fr:number:huit",
+            "fallbackText": "huit"
+          },
+          "source": {
+            "pdfPages": [100],
+            "printedPages": [97]
+          }
+        },
+        {
+          "id": "numeracy-unit-8-writing",
+          "type": "writing_practice",
+          "preserveSourceOrder": true,
+          "representations": ["print", "cursive"],
+          "items": [
+            {
+              "id": "numeracy-unit-8-writing-numeral",
+              "text": "8",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-8-writing-word-print",
+              "text": "huit",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-8-writing-word-cursive",
+              "text": "huit",
+              "representations": ["cursive"]
+            }
+          ],
+          "source": {
+            "pdfPages": [100],
+            "printedPages": [97]
+          }
+        }
+      ],
+      "review": {
+        "transcription": "reviewed",
+        "assets": "not_required",
+        "issueIds": []
+      }
+    },
+    {
+      "id": "numeracy-unit-9",
+      "number": 9,
+      "numeral": "9",
+      "word": "neuf",
+      "source": {
+        "pdfPages": [101],
+        "printedPages": [98]
+      },
+      "blocks": [
+        {
+          "id": "numeracy-unit-9-display",
+          "type": "numeral_display",
+          "value": 9,
+          "display": "9",
+          "word": {
+            "id": "numeracy-unit-9-word",
+            "text": "neuf",
+            "audio": {
+              "key": "fr:number:neuf",
+              "fallbackText": "neuf"
+            }
+          },
+          "audio": {
+            "key": "fr:number:neuf",
+            "fallbackText": "neuf"
+          },
+          "source": {
+            "pdfPages": [101],
+            "printedPages": [98]
+          }
+        },
+        {
+          "id": "numeracy-unit-9-writing",
+          "type": "writing_practice",
+          "preserveSourceOrder": true,
+          "representations": ["print", "cursive"],
+          "items": [
+            {
+              "id": "numeracy-unit-9-writing-numeral",
+              "text": "9",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-9-writing-word-print",
+              "text": "neuf",
+              "representations": ["print"]
+            },
+            {
+              "id": "numeracy-unit-9-writing-word-cursive",
+              "text": "neuf",
+              "representations": ["cursive"]
+            }
+          ],
+          "source": {
+            "pdfPages": [101],
+            "printedPages": [98]
+          }
+        }
+      ],
+      "review": {
+        "transcription": "reviewed",
+        "assets": "not_required",
+        "issueIds": []
+      }
+    }
+  ]
+}

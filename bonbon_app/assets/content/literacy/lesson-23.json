@@ -1,0 +1,326 @@
+{
+  "id": "lesson-23",
+  "lessonNumber": 23,
+  "targets": [
+    {
+      "id": "target-lesson-23-1",
+      "kind": "grapheme",
+      "value": "z",
+      "audio": {
+        "key": "fr:grapheme:z-594e519a",
+        "fallbackText": "z"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [53, 54],
+    "printedPages": [52, 53]
+  },
+  "blocks": [
+    {
+      "id": "lesson-23-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [53],
+        "printedPages": [52]
+      },
+      "grapheme": "z",
+      "uppercase": "Z",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:z-594e519a",
+        "fallbackText": "z"
+      }
+    },
+    {
+      "id": "lesson-23-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [53],
+        "printedPages": [52]
+      },
+      "assetId": "lesson-23-illustration",
+      "caption": {
+        "id": "lesson-23-caption",
+        "text": "un zébu",
+        "audio": {
+          "key": "fr:phrase:un-zebu-d9a9bb78",
+          "fallbackText": "un zébu"
+        }
+      }
+    },
+    {
+      "id": "lesson-23-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [53],
+        "printedPages": [52]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-23-block-03-item-01",
+          "text": "zi",
+          "audio": {
+            "key": "fr:syllable:zi-6df02ca0",
+            "fallbackText": "zi"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-23-block-03-item-02",
+          "text": "zu",
+          "audio": {
+            "key": "fr:syllable:zu-82cefa82",
+            "fallbackText": "zu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-23-block-03-item-03",
+          "text": "zo",
+          "audio": {
+            "key": "fr:syllable:zo-ed4771b3",
+            "fallbackText": "zo"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-23-block-03-item-04",
+          "text": "za",
+          "audio": {
+            "key": "fr:syllable:za-3c42d9ac",
+            "fallbackText": "za"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-23-block-03-item-05",
+          "text": "ze",
+          "audio": {
+            "key": "fr:syllable:ze-33129567",
+            "fallbackText": "ze"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-23-block-03-item-06",
+          "text": "zé",
+          "audio": {
+            "key": "fr:syllable:ze-4f31db15",
+            "fallbackText": "zé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-23-block-03-item-07",
+          "text": "zè",
+          "audio": {
+            "key": "fr:syllable:ze-4c82877a",
+            "fallbackText": "zè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-23-block-03-item-08",
+          "text": "zê",
+          "audio": {
+            "key": "fr:syllable:ze-4a866b62",
+            "fallbackText": "zê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-23-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [53],
+        "printedPages": [52]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-23-block-04-item-01",
+          "text": "un zoo",
+          "audio": {
+            "key": "fr:phrase:un-zoo-3e99b9e6",
+            "fallbackText": "un zoo"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-23-block-04-item-02",
+          "text": "un zèbre",
+          "audio": {
+            "key": "fr:phrase:un-zebre-c1d6f08b",
+            "fallbackText": "un zèbre"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-23-block-04-item-03",
+          "text": "une rizière",
+          "audio": {
+            "key": "fr:phrase:une-riziere-91807496",
+            "fallbackText": "une rizière"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-23-block-04-item-04",
+          "text": "un zéro",
+          "audio": {
+            "key": "fr:phrase:un-zero-eb1fa08c",
+            "fallbackText": "un zéro"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-23-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [53],
+        "printedPages": [52]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-23-block-05-item-01",
+          "text": "Le zèbre du zoo boit à la rivière.",
+          "audio": {
+            "key": "fr:lesson-23:b5-item-1",
+            "fallbackText": "Le zèbre du zoo boit à la rivière."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-23-block-06",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [53],
+        "printedPages": [52]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-23-block-06-item-01",
+          "text": "le zèbre du zoo boit à la rivière.",
+          "audio": {
+            "key": "fr:lesson-23:b6-item-1",
+            "fallbackText": "le zèbre du zoo boit à la rivière."
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-23-block-07",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [54],
+        "printedPages": [53]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-23-hand-1",
+          "text": "z"
+        },
+        {
+          "id": "lesson-23-hand-2",
+          "text": "Z"
+        }
+      ],
+      "glyphAssetIds": ["lesson-23-glyph-1", "lesson-23-glyph-2"]
+    },
+    {
+      "id": "lesson-23-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [54],
+        "printedPages": [53]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-23-block-08-item-01",
+          "text": "z",
+          "audio": {
+            "key": "fr:word:z-594e519a",
+            "fallbackText": "z"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-23-block-08-item-02",
+          "text": "zoo",
+          "audio": {
+            "key": "fr:word:zoo-24fe93c9",
+            "fallbackText": "zoo"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-23-block-08-item-03",
+          "text": "Zoo",
+          "audio": {
+            "key": "fr:word:zoo-56f00864",
+            "fallbackText": "Zoo"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-23-block-08-item-04",
+          "text": "Z",
+          "audio": {
+            "key": "fr:word:z-bbeebd87",
+            "fallbackText": "Z"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-23-block-09",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [54],
+        "printedPages": [53]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-23-block-09-item-01",
+          "text": "z",
+          "audio": {
+            "key": "fr:word:z-594e519a",
+            "fallbackText": "z"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-23-block-09-item-02",
+          "text": "zébu",
+          "audio": {
+            "key": "fr:word:zebu-b0bbc5e2",
+            "fallbackText": "zébu"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-23-review-1"]
+  }
+}

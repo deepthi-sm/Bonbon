@@ -1,0 +1,434 @@
+{
+  "id": "lesson-16",
+  "lessonNumber": 16,
+  "targets": [
+    {
+      "id": "target-lesson-16-1",
+      "kind": "grapheme",
+      "value": "b",
+      "audio": {
+        "key": "fr:grapheme:b-3e23e816",
+        "fallbackText": "b"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [37, 38],
+    "printedPages": [36, 37]
+  },
+  "blocks": [
+    {
+      "id": "lesson-16-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [37],
+        "printedPages": [36]
+      },
+      "grapheme": "b",
+      "uppercase": "B",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:b-3e23e816",
+        "fallbackText": "b"
+      }
+    },
+    {
+      "id": "lesson-16-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [37],
+        "printedPages": [36]
+      },
+      "assetId": "lesson-16-illustration",
+      "caption": {
+        "id": "lesson-16-caption",
+        "text": "une bassine",
+        "audio": {
+          "key": "fr:phrase:une-bassine-d507b00d",
+          "fallbackText": "une bassine"
+        }
+      }
+    },
+    {
+      "id": "lesson-16-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [37],
+        "printedPages": [36]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-16-block-03-item-01",
+          "text": "bi",
+          "audio": {
+            "key": "fr:syllable:bi-d9065d6d",
+            "fallbackText": "bi"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-03-item-02",
+          "text": "bu",
+          "audio": {
+            "key": "fr:syllable:bu-9508394f",
+            "fallbackText": "bu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-03-item-03",
+          "text": "bo",
+          "audio": {
+            "key": "fr:syllable:bo-3d099d0f",
+            "fallbackText": "bo"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-03-item-04",
+          "text": "ba",
+          "audio": {
+            "key": "fr:syllable:ba-970f519c",
+            "fallbackText": "ba"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-03-item-05",
+          "text": "be",
+          "audio": {
+            "key": "fr:syllable:be-46599c5b",
+            "fallbackText": "be"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-03-item-06",
+          "text": "bé",
+          "audio": {
+            "key": "fr:syllable:be-701813d6",
+            "fallbackText": "bé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-03-item-07",
+          "text": "bè",
+          "audio": {
+            "key": "fr:syllable:be-456cda39",
+            "fallbackText": "bè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-03-item-08",
+          "text": "bê",
+          "audio": {
+            "key": "fr:syllable:be-6f9b615c",
+            "fallbackText": "bê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-16-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [37],
+        "printedPages": [36]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-16-block-04-item-01",
+          "text": "bibi",
+          "audio": {
+            "key": "fr:word:bibi-9a1ef8e9",
+            "fallbackText": "bibi"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-04-item-02",
+          "text": "bubu",
+          "audio": {
+            "key": "fr:word:bubu-cb893729",
+            "fallbackText": "bubu"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-04-item-03",
+          "text": "bobo",
+          "audio": {
+            "key": "fr:word:bobo-bf0c9770",
+            "fallbackText": "bobo"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-04-item-04",
+          "text": "baba",
+          "audio": {
+            "key": "fr:word:baba-e75a6cd4",
+            "fallbackText": "baba"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-04-item-05",
+          "text": "bebi",
+          "audio": {
+            "key": "fr:word:bebi-ed5bcedb",
+            "fallbackText": "bebi"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-04-item-06",
+          "text": "bébé",
+          "audio": {
+            "key": "fr:word:bebe-1ecd4d48",
+            "fallbackText": "bébé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-04-item-07",
+          "text": "bèche",
+          "audio": {
+            "key": "fr:word:beche-02440c36",
+            "fallbackText": "bèche"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-04-item-08",
+          "text": "bête",
+          "audio": {
+            "key": "fr:word:bete-b044cd38",
+            "fallbackText": "bête"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-16-block-05",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [37],
+        "printedPages": [36]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-16-block-05-item-01",
+          "text": "bas",
+          "audio": {
+            "key": "fr:word:bas-cc9fa8a9",
+            "fallbackText": "bas"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-05-item-02",
+          "text": "bidon",
+          "audio": {
+            "key": "fr:word:bidon-32201110",
+            "fallbackText": "bidon"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-05-item-03",
+          "text": "bout",
+          "audio": {
+            "key": "fr:word:bout-3c917533",
+            "fallbackText": "bout"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-05-item-04",
+          "text": "bonbon",
+          "audio": {
+            "key": "fr:word:bonbon-57258619",
+            "fallbackText": "bonbon"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-05-item-05",
+          "text": "but",
+          "audio": {
+            "key": "fr:word:but-cdc29937",
+            "fallbackText": "but"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-16-block-05-item-06",
+          "text": "bête",
+          "audio": {
+            "key": "fr:word:bete-b044cd38",
+            "fallbackText": "bête"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-16-block-06",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [37],
+        "printedPages": [36]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-16-block-06-item-01",
+          "text": "un beau bébé.",
+          "audio": {
+            "key": "fr:lesson-16:b6-item-1",
+            "fallbackText": "un beau bébé."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-16-block-06-item-02",
+          "text": "le bouc de papa.",
+          "audio": {
+            "key": "fr:lesson-16:b6-item-2",
+            "fallbackText": "le bouc de papa."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-16-block-06-item-03",
+          "text": "le bonbon est très bon.",
+          "audio": {
+            "key": "fr:lesson-16:b6-item-3",
+            "fallbackText": "le bonbon est très bon."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-16-block-06-item-04",
+          "text": "la belle robe bleue.",
+          "audio": {
+            "key": "fr:lesson-16:b6-item-4",
+            "fallbackText": "la belle robe bleue."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-16-block-07",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [38],
+        "printedPages": [37]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-16-hand-1",
+          "text": "b"
+        },
+        {
+          "id": "lesson-16-hand-2",
+          "text": "B"
+        }
+      ],
+      "glyphAssetIds": ["lesson-16-glyph-1", "lesson-16-glyph-2"]
+    },
+    {
+      "id": "lesson-16-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [38],
+        "printedPages": [37]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-16-block-08-item-01",
+          "text": "b",
+          "audio": {
+            "key": "fr:word:b-3e23e816",
+            "fallbackText": "b"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-16-block-08-item-02",
+          "text": "bébé",
+          "audio": {
+            "key": "fr:word:bebe-1ecd4d48",
+            "fallbackText": "bébé"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-16-block-08-item-03",
+          "text": "Bébé",
+          "audio": {
+            "key": "fr:word:bebe-3892aca3",
+            "fallbackText": "Bébé"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-16-block-08-item-04",
+          "text": "B",
+          "audio": {
+            "key": "fr:word:b-df7e70e5",
+            "fallbackText": "B"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-16-block-09",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [38],
+        "printedPages": [37]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-16-block-09-item-01",
+          "text": "b",
+          "audio": {
+            "key": "fr:word:b-3e23e816",
+            "fallbackText": "b"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-16-block-09-item-02",
+          "text": "bonbon",
+          "audio": {
+            "key": "fr:word:bonbon-57258619",
+            "fallbackText": "bonbon"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-16-review-1"]
+  }
+}

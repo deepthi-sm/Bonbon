@@ -1,0 +1,506 @@
+{
+  "id": "lesson-46",
+  "lessonNumber": 46,
+  "targets": [
+    {
+      "id": "target-lesson-46-1",
+      "kind": "grapheme",
+      "value": "qu = k = c",
+      "audio": {
+        "key": "fr:grapheme:qu-k-c-f6826d3e",
+        "fallbackText": "qu = k = c"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [77],
+    "printedPages": [76]
+  },
+  "blocks": [
+    {
+      "id": "lesson-46-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [77],
+        "printedPages": [76]
+      },
+      "grapheme": "qu = k = c",
+      "uppercase": "QU = K = C",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:qu-k-c-f6826d3e",
+        "fallbackText": "qu = k = c"
+      }
+    },
+    {
+      "id": "lesson-46-block-02",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [77],
+        "printedPages": [76]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-46-block-02-item-01",
+          "text": "ca",
+          "audio": {
+            "key": "fr:syllable:ca-69590970",
+            "fallbackText": "ca"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-02-item-02",
+          "text": "co",
+          "audio": {
+            "key": "fr:syllable:co-c330ec50",
+            "fallbackText": "co"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-02-item-03",
+          "text": "cu",
+          "audio": {
+            "key": "fr:syllable:cu-e67be795",
+            "fallbackText": "cu"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-02-item-04",
+          "text": "ka",
+          "audio": {
+            "key": "fr:syllable:ka-3ebb1c99",
+            "fallbackText": "ka"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-02-item-05",
+          "text": "ko",
+          "audio": {
+            "key": "fr:syllable:ko-1fdbc74c",
+            "fallbackText": "ko"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-02-item-06",
+          "text": "ku",
+          "audio": {
+            "key": "fr:syllable:ku-88d178d7",
+            "fallbackText": "ku"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-02-item-07",
+          "text": "ki",
+          "audio": {
+            "key": "fr:syllable:ki-2b84b2a9",
+            "fallbackText": "ki"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-02-item-08",
+          "text": "ké",
+          "audio": {
+            "key": "fr:syllable:ke-246f7f0f",
+            "fallbackText": "ké"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-02-item-09",
+          "text": "qua",
+          "audio": {
+            "key": "fr:syllable:qua-f16b49f3",
+            "fallbackText": "qua"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-02-item-10",
+          "text": "quo",
+          "audio": {
+            "key": "fr:syllable:quo-2901529c",
+            "fallbackText": "quo"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-02-item-11",
+          "text": "qui",
+          "audio": {
+            "key": "fr:syllable:qui-76017619",
+            "fallbackText": "qui"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-02-item-12",
+          "text": "qué",
+          "audio": {
+            "key": "fr:syllable:que-9030c4df",
+            "fallbackText": "qué"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-02-item-13",
+          "text": "que",
+          "audio": {
+            "key": "fr:syllable:que-c57b7501",
+            "fallbackText": "que"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-46-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [77],
+        "printedPages": [76]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-46-block-03-item-01",
+          "text": "le canari",
+          "audio": {
+            "key": "fr:phrase:le-canari-4581141e",
+            "fallbackText": "le canari"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-02",
+          "text": "la culotte",
+          "audio": {
+            "key": "fr:phrase:la-culotte-aa3b3b28",
+            "fallbackText": "la culotte"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-03",
+          "text": "l’école",
+          "audio": {
+            "key": "fr:word:lecole-c8ea23c5",
+            "fallbackText": "l’école"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-04",
+          "text": "la copie",
+          "audio": {
+            "key": "fr:phrase:la-copie-2eccebd7",
+            "fallbackText": "la copie"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-05",
+          "text": "le cacao",
+          "audio": {
+            "key": "fr:phrase:le-cacao-74662814",
+            "fallbackText": "le cacao"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-06",
+          "text": "la camarade",
+          "audio": {
+            "key": "fr:phrase:la-camarade-57cfb462",
+            "fallbackText": "la camarade"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-07",
+          "text": "le képi",
+          "audio": {
+            "key": "fr:phrase:le-kepi-63c03fc3",
+            "fallbackText": "le képi"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-08",
+          "text": "la kola",
+          "audio": {
+            "key": "fr:phrase:la-kola-9bee43a6",
+            "fallbackText": "la kola"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-09",
+          "text": "le karité",
+          "audio": {
+            "key": "fr:phrase:le-karite-8a94fa1c",
+            "fallbackText": "le karité"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-10",
+          "text": "l’akassa",
+          "audio": {
+            "key": "fr:word:lakassa-ed1eebec",
+            "fallbackText": "l’akassa"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-11",
+          "text": "Konaté",
+          "audio": {
+            "key": "fr:word:konate-daf3653d",
+            "fallbackText": "Konaté"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-12",
+          "text": "Kadidia",
+          "audio": {
+            "key": "fr:word:kadidia-522a568e",
+            "fallbackText": "Kadidia"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-13",
+          "text": "un casque",
+          "audio": {
+            "key": "fr:phrase:un-casque-babb98f2",
+            "fallbackText": "un casque"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-14",
+          "text": "une brique",
+          "audio": {
+            "key": "fr:phrase:une-brique-1a2f5e60",
+            "fallbackText": "une brique"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-15",
+          "text": "quatre",
+          "audio": {
+            "key": "fr:word:quatre-a8dbf043",
+            "fallbackText": "quatre"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-16",
+          "text": "la quinine",
+          "audio": {
+            "key": "fr:phrase:la-quinine-70ddd2fb",
+            "fallbackText": "la quinine"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-17",
+          "text": "la queue",
+          "audio": {
+            "key": "fr:phrase:la-queue-0b871091",
+            "fallbackText": "la queue"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-18",
+          "text": "le requin",
+          "audio": {
+            "key": "fr:phrase:le-requin-07a77532",
+            "fallbackText": "le requin"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-19",
+          "text": "le quinquéliba",
+          "audio": {
+            "key": "fr:phrase:le-quinqueliba-21511e92",
+            "fallbackText": "le quinquéliba"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-20",
+          "text": "quinze",
+          "audio": {
+            "key": "fr:word:quinze-2ad2eebb",
+            "fallbackText": "quinze"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-21",
+          "text": "quatorze",
+          "audio": {
+            "key": "fr:word:quatorze-cdd26528",
+            "fallbackText": "quatorze"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-46-block-03-item-22",
+          "text": "une banque",
+          "audio": {
+            "key": "fr:phrase:une-banque-269502dc",
+            "fallbackText": "une banque"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-46-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [77],
+        "printedPages": [76]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-46-block-04-item-01",
+          "text": "le canari",
+          "audio": {
+            "key": "fr:phrase:le-canari-4581141e",
+            "fallbackText": "le canari"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-46-block-04-item-02",
+          "text": "la culotte",
+          "audio": {
+            "key": "fr:phrase:la-culotte-aa3b3b28",
+            "fallbackText": "la culotte"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-46-block-04-item-03",
+          "text": "l’école",
+          "audio": {
+            "key": "fr:word:lecole-c8ea23c5",
+            "fallbackText": "l’école"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-46-block-04-item-04",
+          "text": "la copie",
+          "audio": {
+            "key": "fr:phrase:la-copie-2eccebd7",
+            "fallbackText": "la copie"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-46-block-04-item-05",
+          "text": "quatre",
+          "audio": {
+            "key": "fr:word:quatre-a8dbf043",
+            "fallbackText": "quatre"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-46-block-04-item-06",
+          "text": "le cacao",
+          "audio": {
+            "key": "fr:phrase:le-cacao-74662814",
+            "fallbackText": "le cacao"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-46-block-04-item-07",
+          "text": "la quinine",
+          "audio": {
+            "key": "fr:phrase:la-quinine-70ddd2fb",
+            "fallbackText": "la quinine"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-46-block-04-item-08",
+          "text": "un casque",
+          "audio": {
+            "key": "fr:phrase:un-casque-babb98f2",
+            "fallbackText": "un casque"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-46-block-04-item-09",
+          "text": "le képi",
+          "audio": {
+            "key": "fr:phrase:le-kepi-63c03fc3",
+            "fallbackText": "le képi"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-46-block-04-item-10",
+          "text": "la kola",
+          "audio": {
+            "key": "fr:phrase:la-kola-9bee43a6",
+            "fallbackText": "la kola"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-46-block-04-item-11",
+          "text": "l’akassa",
+          "audio": {
+            "key": "fr:word:lakassa-ed1eebec",
+            "fallbackText": "l’akassa"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-46-block-04-item-12",
+          "text": "une brique de quinze",
+          "audio": {
+            "key": "fr:phrase:une-brique-de-quinze-2ec62bda",
+            "fallbackText": "une brique de quinze"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-46-block-04-item-13",
+          "text": "une banque",
+          "audio": {
+            "key": "fr:phrase:une-banque-269502dc",
+            "fallbackText": "une banque"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-46-review-1"]
+  }
+}

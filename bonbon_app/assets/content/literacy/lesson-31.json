@@ -1,0 +1,538 @@
+{
+  "id": "lesson-31",
+  "lessonNumber": 31,
+  "targets": [
+    {
+      "id": "target-lesson-31-1",
+      "kind": "grapheme",
+      "value": "ain",
+      "audio": {
+        "key": "fr:grapheme:ain-abc42f1c",
+        "fallbackText": "ain"
+      }
+    },
+    {
+      "id": "target-lesson-31-2",
+      "kind": "grapheme",
+      "value": "ein",
+      "audio": {
+        "key": "fr:grapheme:ein-4c3c3030",
+        "fallbackText": "ein"
+      }
+    },
+    {
+      "id": "target-lesson-31-3",
+      "kind": "grapheme",
+      "value": "in",
+      "audio": {
+        "key": "fr:grapheme:in-58296753",
+        "fallbackText": "in"
+      }
+    },
+    {
+      "id": "target-lesson-31-4",
+      "kind": "grapheme",
+      "value": "aim",
+      "audio": {
+        "key": "fr:grapheme:aim-a27f9823",
+        "fallbackText": "aim"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [62],
+    "printedPages": [61]
+  },
+  "blocks": [
+    {
+      "id": "lesson-31-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [62],
+        "printedPages": [61]
+      },
+      "grapheme": "ain",
+      "uppercase": "AIN",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ain-abc42f1c",
+        "fallbackText": "ain"
+      }
+    },
+    {
+      "id": "lesson-31-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [62],
+        "printedPages": [61]
+      },
+      "grapheme": "ein",
+      "uppercase": "EIN",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:ein-4c3c3030",
+        "fallbackText": "ein"
+      }
+    },
+    {
+      "id": "lesson-31-block-03",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [62],
+        "printedPages": [61]
+      },
+      "grapheme": "in",
+      "uppercase": "IN",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:in-58296753",
+        "fallbackText": "in"
+      }
+    },
+    {
+      "id": "lesson-31-block-04",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [62],
+        "printedPages": [61]
+      },
+      "grapheme": "aim",
+      "uppercase": "AIM",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:aim-a27f9823",
+        "fallbackText": "aim"
+      }
+    },
+    {
+      "id": "lesson-31-block-05",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [62],
+        "printedPages": [61]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-31-block-05-item-01",
+          "text": "pain",
+          "audio": {
+            "key": "fr:syllable:pain-5c78c8e7",
+            "fallbackText": "pain"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-05-item-02",
+          "text": "main",
+          "audio": {
+            "key": "fr:syllable:main-0d6e4079",
+            "fallbackText": "main"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-05-item-03",
+          "text": "faim",
+          "audio": {
+            "key": "fr:syllable:faim-a9d426ec",
+            "fallbackText": "faim"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-05-item-04",
+          "text": "pin",
+          "audio": {
+            "key": "fr:syllable:pin-64f46a75",
+            "fallbackText": "pin"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-05-item-05",
+          "text": "sin",
+          "audio": {
+            "key": "fr:syllable:sin-cccc68c7",
+            "fallbackText": "sin"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-05-item-06",
+          "text": "din",
+          "audio": {
+            "key": "fr:syllable:din-7f6f787e",
+            "fallbackText": "din"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-05-item-07",
+          "text": "vin",
+          "audio": {
+            "key": "fr:syllable:vin-8a2539e2",
+            "fallbackText": "vin"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-05-item-08",
+          "text": "min",
+          "audio": {
+            "key": "fr:syllable:min-1f6fa6f6",
+            "fallbackText": "min"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-05-item-09",
+          "text": "cin",
+          "audio": {
+            "key": "fr:syllable:cin-d065fcf0",
+            "fallbackText": "cin"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-05-item-10",
+          "text": "rin",
+          "audio": {
+            "key": "fr:syllable:rin-c0efc449",
+            "fallbackText": "rin"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-05-item-11",
+          "text": "lin",
+          "audio": {
+            "key": "fr:syllable:lin-2f48b881",
+            "fallbackText": "lin"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-05-item-12",
+          "text": "tein",
+          "audio": {
+            "key": "fr:syllable:tein-f838016a",
+            "fallbackText": "tein"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-05-item-13",
+          "text": "cein",
+          "audio": {
+            "key": "fr:syllable:cein-31f07749",
+            "fallbackText": "cein"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-05-item-14",
+          "text": "pein",
+          "audio": {
+            "key": "fr:syllable:pein-8cf767d8",
+            "fallbackText": "pein"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-31-block-06",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [62],
+        "printedPages": [61]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-31-block-06-item-01",
+          "text": "une pintade",
+          "audio": {
+            "key": "fr:phrase:une-pintade-97cb07dd",
+            "fallbackText": "une pintade"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-06-item-02",
+          "text": "un poussin",
+          "audio": {
+            "key": "fr:phrase:un-poussin-3c31fe9d",
+            "fallbackText": "un poussin"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-06-item-03",
+          "text": "le singe",
+          "audio": {
+            "key": "fr:phrase:le-singe-914cdd27",
+            "fallbackText": "le singe"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-06-item-04",
+          "text": "le matin",
+          "audio": {
+            "key": "fr:phrase:le-matin-3bfb8e43",
+            "fallbackText": "le matin"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-06-item-05",
+          "text": "le médecin",
+          "audio": {
+            "key": "fr:phrase:le-medecin-14a8bdf3",
+            "fallbackText": "le médecin"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-06-item-06",
+          "text": "la ceinture",
+          "audio": {
+            "key": "fr:phrase:la-ceinture-4f740b64",
+            "fallbackText": "la ceinture"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-06-item-07",
+          "text": "le teint",
+          "audio": {
+            "key": "fr:phrase:le-teint-a113cfc2",
+            "fallbackText": "le teint"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-31-block-06-item-08",
+          "text": "demain",
+          "audio": {
+            "key": "fr:word:demain-8d87f747",
+            "fallbackText": "demain"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-31-block-07",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [62],
+        "printedPages": [61]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-31-block-07-item-01",
+          "text": "pain",
+          "audio": {
+            "key": "fr:syllable:pain-5c78c8e7",
+            "fallbackText": "pain"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-07-item-02",
+          "text": "main",
+          "audio": {
+            "key": "fr:syllable:main-0d6e4079",
+            "fallbackText": "main"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-07-item-03",
+          "text": "faim",
+          "audio": {
+            "key": "fr:syllable:faim-a9d426ec",
+            "fallbackText": "faim"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-07-item-04",
+          "text": "pin",
+          "audio": {
+            "key": "fr:syllable:pin-64f46a75",
+            "fallbackText": "pin"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-07-item-05",
+          "text": "sin",
+          "audio": {
+            "key": "fr:syllable:sin-cccc68c7",
+            "fallbackText": "sin"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-07-item-06",
+          "text": "din",
+          "audio": {
+            "key": "fr:syllable:din-7f6f787e",
+            "fallbackText": "din"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-07-item-07",
+          "text": "vin",
+          "audio": {
+            "key": "fr:syllable:vin-8a2539e2",
+            "fallbackText": "vin"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-07-item-08",
+          "text": "min",
+          "audio": {
+            "key": "fr:syllable:min-1f6fa6f6",
+            "fallbackText": "min"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-07-item-09",
+          "text": "cin",
+          "audio": {
+            "key": "fr:syllable:cin-d065fcf0",
+            "fallbackText": "cin"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-07-item-10",
+          "text": "rin",
+          "audio": {
+            "key": "fr:syllable:rin-c0efc449",
+            "fallbackText": "rin"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-07-item-11",
+          "text": "lin",
+          "audio": {
+            "key": "fr:syllable:lin-2f48b881",
+            "fallbackText": "lin"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-07-item-12",
+          "text": "ein",
+          "audio": {
+            "key": "fr:syllable:ein-4c3c3030",
+            "fallbackText": "ein"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-07-item-13",
+          "text": "cein",
+          "audio": {
+            "key": "fr:syllable:cein-31f07749",
+            "fallbackText": "cein"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-07-item-14",
+          "text": "pein",
+          "audio": {
+            "key": "fr:syllable:pein-8cf767d8",
+            "fallbackText": "pein"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-31-block-08",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [62],
+        "printedPages": [61]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-31-block-08-item-01",
+          "text": "une pintade",
+          "audio": {
+            "key": "fr:phrase:une-pintade-97cb07dd",
+            "fallbackText": "une pintade"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-08-item-02",
+          "text": "un poussin",
+          "audio": {
+            "key": "fr:phrase:un-poussin-3c31fe9d",
+            "fallbackText": "un poussin"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-08-item-03",
+          "text": "le singe",
+          "audio": {
+            "key": "fr:phrase:le-singe-914cdd27",
+            "fallbackText": "le singe"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-31-block-08-item-04",
+          "text": "le matin",
+          "audio": {
+            "key": "fr:phrase:le-matin-3bfb8e43",
+            "fallbackText": "le matin"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-31-block-09",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [62],
+        "printedPages": [61]
+      },
+      "title": "Mon papa",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-31-block-09-segment-1",
+          "type": "narration",
+          "text": "Mon papa est médecin. Chaque matin il part à la clinique soigner des malades. Sur la route Il achète du pain chez Samira la commerçante de notre quartier. Papa a aussi des poussins à la maison.",
+          "audio": {
+            "key": "fr:lesson-31:passage-9-segment-1",
+            "fallbackText": "Mon papa est médecin. Chaque matin il part à la clinique soigner des malades. Sur la route Il achète du pain chez Samira la commerçante de notre quartier. Papa a aussi des poussins à la maison."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "needs_review",
+    "assets": "not_required",
+    "issueIds": ["lesson-31-review-1"]
+  }
+}

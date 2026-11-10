@@ -1,0 +1,14 @@
+# Only the Flutter app is needed to build the site.
+LOGO.html
+LOGO_files/
+*.zip
+*.pdf
+docs/
+images/
+stitch_bonbon_literacy_app_flow/
+logo.jpeg
+*.png
+!bonbon_app/**
+bonbon_app/build/
+bonbon_app/.dart_tool/
+.flutter-sdk/

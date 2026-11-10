@@ -1,0 +1,301 @@
+{
+  "id": "lesson-54",
+  "lessonNumber": 54,
+  "targets": [
+    {
+      "id": "target-lesson-54-1",
+      "kind": "grapheme",
+      "value": "bl",
+      "audio": {
+        "key": "fr:grapheme:bl-29d94895",
+        "fallbackText": "bl"
+      }
+    },
+    {
+      "id": "target-lesson-54-2",
+      "kind": "grapheme",
+      "value": "pl",
+      "audio": {
+        "key": "fr:grapheme:pl-3485639f",
+        "fallbackText": "pl"
+      }
+    },
+    {
+      "id": "target-lesson-54-3",
+      "kind": "grapheme",
+      "value": "vl",
+      "audio": {
+        "key": "fr:grapheme:vl-adbb7410",
+        "fallbackText": "vl"
+      }
+    },
+    {
+      "id": "target-lesson-54-4",
+      "kind": "grapheme",
+      "value": "fl",
+      "audio": {
+        "key": "fr:grapheme:fl-593f2d04",
+        "fallbackText": "fl"
+      }
+    },
+    {
+      "id": "target-lesson-54-5",
+      "kind": "grapheme",
+      "value": "cl",
+      "audio": {
+        "key": "fr:grapheme:cl-d1923758",
+        "fallbackText": "cl"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [86],
+    "printedPages": [84]
+  },
+  "blocks": [
+    {
+      "id": "lesson-54-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [86],
+        "printedPages": [84]
+      },
+      "grapheme": "bl",
+      "uppercase": "BL",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:bl-29d94895",
+        "fallbackText": "bl"
+      }
+    },
+    {
+      "id": "lesson-54-block-02",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [86],
+        "printedPages": [84]
+      },
+      "grapheme": "pl",
+      "uppercase": "PL",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:pl-3485639f",
+        "fallbackText": "pl"
+      }
+    },
+    {
+      "id": "lesson-54-block-03",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [86],
+        "printedPages": [84]
+      },
+      "grapheme": "vl",
+      "uppercase": "VL",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:vl-adbb7410",
+        "fallbackText": "vl"
+      }
+    },
+    {
+      "id": "lesson-54-block-04",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [86],
+        "printedPages": [84]
+      },
+      "grapheme": "fl",
+      "uppercase": "FL",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:fl-593f2d04",
+        "fallbackText": "fl"
+      }
+    },
+    {
+      "id": "lesson-54-block-05",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [86],
+        "printedPages": [84]
+      },
+      "grapheme": "cl",
+      "uppercase": "CL",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:cl-d1923758",
+        "fallbackText": "cl"
+      }
+    },
+    {
+      "id": "lesson-54-block-06",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [86],
+        "printedPages": [84]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-54-block-06-item-01",
+          "text": "blanche",
+          "audio": {
+            "key": "fr:word:blanche-446acc36",
+            "fallbackText": "blanche"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-02",
+          "text": "le blanc",
+          "audio": {
+            "key": "fr:phrase:le-blanc-8c160011",
+            "fallbackText": "le blanc"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-03",
+          "text": "un plan",
+          "audio": {
+            "key": "fr:phrase:un-plan-1b47ccc6",
+            "fallbackText": "un plan"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-04",
+          "text": "une fleur",
+          "audio": {
+            "key": "fr:phrase:une-fleur-d28906c5",
+            "fallbackText": "une fleur"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-05",
+          "text": "la table",
+          "audio": {
+            "key": "fr:phrase:la-table-6a6cb70b",
+            "fallbackText": "la table"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-06",
+          "text": "un tableau",
+          "audio": {
+            "key": "fr:phrase:un-tableau-089f2c16",
+            "fallbackText": "un tableau"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-07",
+          "text": "la classe",
+          "audio": {
+            "key": "fr:phrase:la-classe-d277a5bf",
+            "fallbackText": "la classe"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-08",
+          "text": "la clé",
+          "audio": {
+            "key": "fr:phrase:la-cle-d92a6048",
+            "fallbackText": "la clé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-09",
+          "text": "une flamme",
+          "audio": {
+            "key": "fr:phrase:une-flamme-9c20d722",
+            "fallbackText": "une flamme"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-10",
+          "text": "une pantoufle",
+          "audio": {
+            "key": "fr:phrase:une-pantoufle-9d630bb6",
+            "fallbackText": "une pantoufle"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-11",
+          "text": "la boucle",
+          "audio": {
+            "key": "fr:phrase:la-boucle-3cf5787b",
+            "fallbackText": "la boucle"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-12",
+          "text": "une plume",
+          "audio": {
+            "key": "fr:phrase:une-plume-4299d7b2",
+            "fallbackText": "une plume"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-13",
+          "text": "le plafond",
+          "audio": {
+            "key": "fr:phrase:le-plafond-63039d7d",
+            "fallbackText": "le plafond"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-14",
+          "text": "un flacon",
+          "audio": {
+            "key": "fr:phrase:un-flacon-c3835b4b",
+            "fallbackText": "un flacon"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-15",
+          "text": "la règle",
+          "audio": {
+            "key": "fr:phrase:la-regle-1d7a34bf",
+            "fallbackText": "la règle"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-16",
+          "text": "une épingle",
+          "audio": {
+            "key": "fr:phrase:une-epingle-03a3924d",
+            "fallbackText": "une épingle"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-54-block-06-item-17",
+          "text": "l’ongle",
+          "audio": {
+            "key": "fr:word:longle-70dcd97c",
+            "fallbackText": "l’ongle"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$comment": "NEW. The book has no audio and therefore no brief. Audio is the app's whole reason to exist (§A.2), so the brief matters as much as the code.",
+  "casting": {
+    "who": "Une femme adulte, francophone du Bénin.",
+    "why": "La lectrice doit reconnaître une voix qui parle comme les femmes autour d'elle. Une voix hexagonale neutre enseignerait un français que personne autour d'elle ne parle, et introduirait un écart entre la page et la rue.",
+    "register": "Accompagnatrice, pas institutrice. Adulte à adulte.",
+    "avoid": [
+      "voix d'enfant",
+      "ton de conte",
+      "emphase publicitaire",
+      "accélération en fin de phrase"
+    ],
+    "second voice": "Une deuxième voix (homme ou femme) est nécessaire pour les 4 textes en dialogue (leçons 30, 35, 38, 42). Prévoir la même session."
+  },
+  "technical": {
+    "channels": "mono",
+    "sampleRate": "48 kHz à l'enregistrement, 44.1 kHz livré",
+    "bitDepth": "24 bits à l'enregistrement",
+    "delivery": "AAC 64 kbps mono",
+    "loudness": "−16 LUFS intégré, crête ≤ −1 dBTP",
+    "noiseFloor": "≤ −60 dBFS",
+    "headTail": "120 ms de silence avant, 200 ms après, appliqués au montage, pas à la prise",
+    "naming": "le fichier porte exactement l'identifiant : letter.t.sound.wav"
+  },
+  "method": [
+    "Trois prises de chaque item, la meilleure retenue au montage. Ne jamais garder une prise « acceptable » : ces clips seront écoutés des centaines de fois.",
+    "Enregistrer par TYPE, pas par leçon : toutes les lettres, puis toutes les syllabes. Le registre reste homogène et la comédienne reste dans le geste.",
+    "Les sons de consonnes sont l'exercice le plus difficile de la session. Les faire valider en direct par une personne formée à l'alphabétisation : « t » sans « eu ».",
+    "Pour les clips « blend », marquer la pause au métronome (500 ms) pour qu'elles soient toutes identiques — la régularité fait l'apprentissage.",
+    "Pour les gabarits à accolades, enregistrer une prise par valeur possible, pas une prise générique : la concaténation s'entend."
+  ],
+  "qualityGate": [
+    "Aucun clip ne dépasse −1 dBTP.",
+    "Aucun clip ne contient de souffle de bouche audible au casque.",
+    "Écoute de contrôle AU HAUT-PARLEUR DU TÉLÉPHONE, jamais au casque (§P.5).",
+    "Un·e locuteur·rice tiers identifie chaque son de consonne à l'aveugle."
+  ]
+}

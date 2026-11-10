@@ -1,0 +1,360 @@
+{
+  "id": "lesson-19",
+  "lessonNumber": 19,
+  "targets": [
+    {
+      "id": "target-lesson-19-1",
+      "kind": "grapheme",
+      "value": "s",
+      "audio": {
+        "key": "fr:grapheme:s-043a7187",
+        "fallbackText": "s"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [43, 44],
+    "printedPages": [42, 43]
+  },
+  "blocks": [
+    {
+      "id": "lesson-19-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [43],
+        "printedPages": [42]
+      },
+      "grapheme": "s",
+      "uppercase": "S",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:s-043a7187",
+        "fallbackText": "s"
+      }
+    },
+    {
+      "id": "lesson-19-block-02",
+      "type": "illustration",
+      "source": {
+        "pdfPages": [43],
+        "printedPages": [42]
+      },
+      "assetId": "lesson-19-illustration",
+      "caption": {
+        "id": "lesson-19-caption",
+        "text": "un sac",
+        "audio": {
+          "key": "fr:phrase:un-sac-b48c69f2",
+          "fallbackText": "un sac"
+        }
+      }
+    },
+    {
+      "id": "lesson-19-block-03",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [43],
+        "printedPages": [42]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-19-block-03-item-01",
+          "text": "si",
+          "audio": {
+            "key": "fr:syllable:si-97a62ad2",
+            "fallbackText": "si"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-19-block-03-item-02",
+          "text": "su",
+          "audio": {
+            "key": "fr:syllable:su-0a64ce10",
+            "fallbackText": "su"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-19-block-03-item-03",
+          "text": "so",
+          "audio": {
+            "key": "fr:syllable:so-a1d98908",
+            "fallbackText": "so"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-19-block-03-item-04",
+          "text": "sa",
+          "audio": {
+            "key": "fr:syllable:sa-4cf6829a",
+            "fallbackText": "sa"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-19-block-03-item-05",
+          "text": "se",
+          "audio": {
+            "key": "fr:syllable:se-ad9a67fe",
+            "fallbackText": "se"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-19-block-03-item-06",
+          "text": "sé",
+          "audio": {
+            "key": "fr:syllable:se-08c2e548",
+            "fallbackText": "sé"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-19-block-03-item-07",
+          "text": "sè",
+          "audio": {
+            "key": "fr:syllable:se-aa88cfd4",
+            "fallbackText": "sè"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-19-block-03-item-08",
+          "text": "sê",
+          "audio": {
+            "key": "fr:syllable:se-21addec9",
+            "fallbackText": "sê"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-19-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [43],
+        "printedPages": [42]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-19-block-04-item-01",
+          "text": "sol",
+          "audio": {
+            "key": "fr:word:sol-8db59feb",
+            "fallbackText": "sol"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-19-block-04-item-02",
+          "text": "salle",
+          "audio": {
+            "key": "fr:word:salle-16dda1bd",
+            "fallbackText": "salle"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-19-block-04-item-03",
+          "text": "son",
+          "audio": {
+            "key": "fr:word:son-98aa6675",
+            "fallbackText": "son"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-19-block-04-item-04",
+          "text": "site",
+          "audio": {
+            "key": "fr:word:site-fbae041b",
+            "fallbackText": "site"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-19-block-04-item-05",
+          "text": "soupe",
+          "audio": {
+            "key": "fr:word:soupe-dca7572e",
+            "fallbackText": "soupe"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-19-block-04-item-06",
+          "text": "sauce",
+          "audio": {
+            "key": "fr:word:sauce-549ce589",
+            "fallbackText": "sauce"
+          },
+          "representations": ["print", "cursive"]
+        },
+        {
+          "id": "lesson-19-block-04-item-07",
+          "text": "sel",
+          "audio": {
+            "key": "fr:word:sel-69110cef",
+            "fallbackText": "sel"
+          },
+          "representations": ["print", "cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-19-block-05",
+      "type": "sentence_list",
+      "source": {
+        "pdfPages": [43],
+        "printedPages": [42]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-19-block-05-item-01",
+          "text": "le sel de marie.",
+          "audio": {
+            "key": "fr:lesson-19:b5-item-1",
+            "fallbackText": "le sel de marie."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-19-block-05-item-02",
+          "text": "la salle est grande.",
+          "audio": {
+            "key": "fr:lesson-19:b5-item-2",
+            "fallbackText": "la salle est grande."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-19-block-05-item-03",
+          "text": "le sac de mémé.",
+          "audio": {
+            "key": "fr:lesson-19:b5-item-3",
+            "fallbackText": "le sac de mémé."
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-19-block-05-item-04",
+          "text": "la soupe est salée .",
+          "audio": {
+            "key": "fr:lesson-19:b5-item-4",
+            "fallbackText": "la soupe est salée ."
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-19-block-06",
+      "type": "handwriting_demo",
+      "source": {
+        "pdfPages": [44],
+        "printedPages": [43]
+      },
+      "representations": ["print", "cursive"],
+      "examples": [
+        {
+          "id": "lesson-19-hand-1",
+          "text": "s"
+        },
+        {
+          "id": "lesson-19-hand-2",
+          "text": "S"
+        }
+      ],
+      "glyphAssetIds": ["lesson-19-glyph-1", "lesson-19-glyph-2"]
+    },
+    {
+      "id": "lesson-19-block-07",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [44],
+        "printedPages": [43]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-19-block-07-item-01",
+          "text": "s",
+          "audio": {
+            "key": "fr:word:s-043a7187",
+            "fallbackText": "s"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-19-block-07-item-02",
+          "text": "source",
+          "audio": {
+            "key": "fr:word:source-41cf6794",
+            "fallbackText": "source"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-19-block-07-item-03",
+          "text": "S",
+          "audio": {
+            "key": "fr:word:s-8de0b3c4",
+            "fallbackText": "S"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-19-block-07-item-04",
+          "text": "Source",
+          "audio": {
+            "key": "fr:word:source-0e570ca6",
+            "fallbackText": "Source"
+          },
+          "representations": ["print"]
+        }
+      ],
+      "representations": ["print"]
+    },
+    {
+      "id": "lesson-19-block-08",
+      "type": "writing_practice",
+      "source": {
+        "pdfPages": [44],
+        "printedPages": [43]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-19-block-08-item-01",
+          "text": "s",
+          "audio": {
+            "key": "fr:word:s-043a7187",
+            "fallbackText": "s"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-19-block-08-item-02",
+          "text": "samedi",
+          "audio": {
+            "key": "fr:word:samedi-6e4f8414",
+            "fallbackText": "samedi"
+          },
+          "representations": ["cursive"]
+        }
+      ],
+      "representations": ["cursive"]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "reviewed",
+    "issueIds": ["lesson-19-review-1"]
+  }
+}

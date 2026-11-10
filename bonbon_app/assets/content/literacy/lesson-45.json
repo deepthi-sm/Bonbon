@@ -1,0 +1,329 @@
+{
+  "id": "lesson-45",
+  "lessonNumber": 45,
+  "targets": [
+    {
+      "id": "target-lesson-45-1",
+      "kind": "grapheme",
+      "value": "gn",
+      "audio": {
+        "key": "fr:grapheme:gn-88069f4e",
+        "fallbackText": "gn"
+      }
+    }
+  ],
+  "source": {
+    "pdfPages": [76],
+    "printedPages": [75]
+  },
+  "blocks": [
+    {
+      "id": "lesson-45-block-01",
+      "type": "grapheme",
+      "source": {
+        "pdfPages": [76],
+        "printedPages": [75]
+      },
+      "grapheme": "gn",
+      "uppercase": "GN",
+      "representations": ["print", "cursive"],
+      "audio": {
+        "key": "fr:grapheme:gn-88069f4e",
+        "fallbackText": "gn"
+      }
+    },
+    {
+      "id": "lesson-45-block-02",
+      "type": "syllable_drill",
+      "source": {
+        "pdfPages": [76],
+        "printedPages": [75]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-45-block-02-item-01",
+          "text": "gna",
+          "audio": {
+            "key": "fr:syllable:gna-843df963",
+            "fallbackText": "gna"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-02-item-02",
+          "text": "gne",
+          "audio": {
+            "key": "fr:syllable:gne-ddedcfd2",
+            "fallbackText": "gne"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-02-item-03",
+          "text": "gnu",
+          "audio": {
+            "key": "fr:syllable:gnu-ab137b02",
+            "fallbackText": "gnu"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-02-item-04",
+          "text": "gni",
+          "audio": {
+            "key": "fr:syllable:gni-2e73f9b3",
+            "fallbackText": "gni"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-02-item-05",
+          "text": "gné",
+          "audio": {
+            "key": "fr:syllable:gne-af25d424",
+            "fallbackText": "gné"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-02-item-06",
+          "text": "gnon",
+          "audio": {
+            "key": "fr:syllable:gnon-a65af710",
+            "fallbackText": "gnon"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-45-block-03",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [76],
+        "printedPages": [75]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-45-block-03-item-01",
+          "text": "un pagne",
+          "audio": {
+            "key": "fr:phrase:un-pagne-1699615f",
+            "fallbackText": "un pagne"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-03-item-02",
+          "text": "l’igname",
+          "audio": {
+            "key": "fr:word:ligname-def10b8b",
+            "fallbackText": "l’igname"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-03-item-03",
+          "text": "un peigne",
+          "audio": {
+            "key": "fr:phrase:un-peigne-47721fd9",
+            "fallbackText": "un peigne"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-03-item-04",
+          "text": "un champignon",
+          "audio": {
+            "key": "fr:phrase:un-champignon-f2705b57",
+            "fallbackText": "un champignon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-03-item-05",
+          "text": "une araignée",
+          "audio": {
+            "key": "fr:phrase:une-araignee-6871b647",
+            "fallbackText": "une araignée"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-03-item-06",
+          "text": "la montagne",
+          "audio": {
+            "key": "fr:phrase:la-montagne-c24272d8",
+            "fallbackText": "la montagne"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-03-item-07",
+          "text": "une campagne",
+          "audio": {
+            "key": "fr:phrase:une-campagne-e1a68d11",
+            "fallbackText": "une campagne"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-03-item-08",
+          "text": "un agneau",
+          "audio": {
+            "key": "fr:phrase:un-agneau-9dfabb7b",
+            "fallbackText": "un agneau"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-03-item-09",
+          "text": "un oignon",
+          "audio": {
+            "key": "fr:phrase:un-oignon-fe511d1f",
+            "fallbackText": "un oignon"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-03-item-10",
+          "text": "une poignée",
+          "audio": {
+            "key": "fr:phrase:une-poignee-47325e65",
+            "fallbackText": "une poignée"
+          },
+          "representations": ["print"]
+        },
+        {
+          "id": "lesson-45-block-03-item-11",
+          "text": "la ligne",
+          "audio": {
+            "key": "fr:phrase:la-ligne-4a0d09bb",
+            "fallbackText": "la ligne"
+          },
+          "representations": ["print"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-45-block-04",
+      "type": "word_list",
+      "source": {
+        "pdfPages": [76],
+        "printedPages": [75]
+      },
+      "preserveSourceOrder": true,
+      "items": [
+        {
+          "id": "lesson-45-block-04-item-01",
+          "text": "un pagne",
+          "audio": {
+            "key": "fr:phrase:un-pagne-1699615f",
+            "fallbackText": "un pagne"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-45-block-04-item-02",
+          "text": "l’igname",
+          "audio": {
+            "key": "fr:word:ligname-def10b8b",
+            "fallbackText": "l’igname"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-45-block-04-item-03",
+          "text": "un peigne",
+          "audio": {
+            "key": "fr:phrase:un-peigne-47721fd9",
+            "fallbackText": "un peigne"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-45-block-04-item-04",
+          "text": "une araignée",
+          "audio": {
+            "key": "fr:phrase:une-araignee-6871b647",
+            "fallbackText": "une araignée"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-45-block-04-item-05",
+          "text": "la montagne",
+          "audio": {
+            "key": "fr:phrase:la-montagne-c24272d8",
+            "fallbackText": "la montagne"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-45-block-04-item-06",
+          "text": "un agneau",
+          "audio": {
+            "key": "fr:phrase:un-agneau-9dfabb7b",
+            "fallbackText": "un agneau"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-45-block-04-item-07",
+          "text": "une campagne",
+          "audio": {
+            "key": "fr:phrase:une-campagne-e1a68d11",
+            "fallbackText": "une campagne"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-45-block-04-item-08",
+          "text": "un oignon",
+          "audio": {
+            "key": "fr:phrase:un-oignon-fe511d1f",
+            "fallbackText": "un oignon"
+          },
+          "representations": ["cursive"]
+        },
+        {
+          "id": "lesson-45-block-04-item-09",
+          "text": "une poignée",
+          "audio": {
+            "key": "fr:phrase:une-poignee-47325e65",
+            "fallbackText": "une poignée"
+          },
+          "representations": ["cursive"]
+        }
+      ]
+    },
+    {
+      "id": "lesson-45-block-05",
+      "type": "reading_passage",
+      "source": {
+        "pdfPages": [76],
+        "printedPages": [75]
+      },
+      "title": "Un bon repas",
+      "preserveSourceOrder": true,
+      "segments": [
+        {
+          "id": "lesson-45-block-05-segment-1",
+          "type": "narration",
+          "text": "Ignace, l’ami de Bio est allé en vacances à Gamia, un village du Nord-Bénin. Sous un arbre où des araignées avaient tissé leur toile, un repas fait d’ignames pilées, d’une sauce d’oignons accompagnée de viandes séchées, est offert au jeune Ignace qui a mangé avec appétit. Avec quelques poignées, le repas est terminé.",
+          "audio": {
+            "key": "fr:lesson-45:passage-5-segment-1",
+            "fallbackText": "Ignace, l’ami de Bio est allé en vacances à Gamia, un village du Nord-Bénin. Sous un arbre où des araignées avaient tissé leur toile, un repas fait d’ignames pilées, d’une sauce d’oignons accompagnée de viandes séchées, est offert au jeune Ignace qui a mangé avec appétit. Avec quelques poignées, le repas est terminé."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "transcription": "reviewed",
+    "assets": "not_required",
+    "issueIds": []
+  }
+}

@@ -224,10 +224,16 @@ class _LessonPlayerState extends State<LessonPlayer> {
                 ScriptToggle(cursive: _cursive, onChanged: (v) => setState(() => _cursive = v)),
                 const SizedBox(height: 16),
               ],
-              for (final b in s.blocks) ...[
-                BlockView(block: b, lesson: widget.lesson, cursive: _cursive),
-                const SizedBox(height: 16),
-              ],
+              // The book splits writing practice into a print and a cursive
+              // block (L10 on); here they are one panel with both models.
+              for (final b in s.blocks)
+                if (b.type != 'writing_practice') ...[
+                  BlockView(block: b, lesson: widget.lesson, cursive: _cursive),
+                  const SizedBox(height: 16),
+                ] else if (b == s.blocks.firstWhere((x) => x.type == 'writing_practice')) ...[
+                  WritingPractice(blocks: [for (final x in s.blocks) if (x.type == 'writing_practice') x]),
+                  const SizedBox(height: 16),
+                ],
             ],
           ),
         ActivityStep a => ActivityHost(
@@ -372,7 +378,7 @@ class BlockView extends StatelessWidget {
       'section_text' => _Section(b, cursive: cursive),
       'dialogue' => _Passage(b, cursive: cursive),
       'handwriting_demo' => _HandwritingDemo(b),
-      'writing_practice' => _WritingPractice(b),
+      'writing_practice' => WritingPractice(blocks: [b]),
       'numeral_display' => _Numeral(b),
       _ => const SizedBox.shrink(),
     };
@@ -771,29 +777,57 @@ class _HandwritingDemo extends StatelessWidget {
   }
 }
 
-class _WritingPractice extends StatefulWidget {
-  final Block b;
-  const _WritingPractice(this.b);
+/// Writing practice: the lesson's small letter(s), then capital(s), each in
+/// cursive then print, then up to two different practice words in print
+/// (« i », « i », « I », « I », « mil », « image »). Each option is written
+/// in its own script; the first, the small letter in cursive, is chosen when
+/// the screen opens.
+class WritingPractice extends StatefulWidget {
+  final List<Block> blocks;
+  const WritingPractice({super.key, required this.blocks});
 
   @override
-  State<_WritingPractice> createState() => _WritingPracticeState();
+  State<WritingPractice> createState() => _WritingPracticeState();
 }
 
-class _WritingPracticeState extends State<_WritingPractice> {
+class _WritingPracticeState extends State<WritingPractice> {
   int _sel = 0;
+
+  /// (text, cursive) for each option, in order.
+  List<(String, bool)> get _models {
+    final texts = [
+      for (final b in widget.blocks)
+        for (final it in b.items()) it.text,
+    ];
+    final letters = <String>{for (final t in texts) if (t.length == 1) t};
+    final small = [for (final t in letters) if (t == t.toLowerCase()) t];
+    final capital = [for (final t in letters) if (t != t.toLowerCase()) t];
+    // Words: one per spelling, ignoring capitals (« Urne » and « urne » are
+    // one word), in its small form when the book has it; at most two.
+    final words = <String, String>{};
+    for (final t in texts.where((t) => t.length > 1)) {
+      final key = t.toLowerCase();
+      if (!words.containsKey(key) || t == key) words[key] = t;
+    }
+    return [
+      for (final t in [...small, ...capital]) ...[(t, true), (t, false)],
+      for (final w in words.values.take(2)) (w, false),
+    ];
+  }
 
   @override
   Widget build(BuildContext context) {
-    final items = widget.b.items();
-    final it = items[_sel.clamp(0, items.length - 1)];
+    final models = _models;
+    if (models.isEmpty) return const SizedBox.shrink();
+    final (text, inCursive) = models[_sel.clamp(0, models.length - 1)];
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
       Text(context.tr('Choisis un modèle, puis trace-le avec ton doigt.', 'Pick a model, then trace it with your finger.'),
           style: const TextStyle(color: C.inkSoft, fontSize: 15)),
       const SizedBox(height: 10),
       Wrap(spacing: 8, runSpacing: 8, children: [
-        for (final (n, x) in items.indexed)
+        for (final (n, (x, c)) in models.indexed)
           ChoiceChip(
-            label: Text(x.text, style: x.representations.contains('cursive') && !x.representations.contains('print')
+            label: Text(x, style: c
                 ? cursive(16, color: n == _sel ? Colors.white : C.ink)
                 : TextStyle(fontSize: 18, fontWeight: FontWeight.w700, color: n == _sel ? Colors.white : C.ink)),
             selected: n == _sel,
@@ -806,11 +840,7 @@ class _WritingPracticeState extends State<_WritingPractice> {
           ),
       ]),
       const SizedBox(height: 12),
-      TraceCanvas(
-        key: ValueKey(it.id),
-        model: it.text,
-        cursiveModel: it.representations.contains('cursive') && !it.representations.contains('print'),
-      ),
+      TraceCanvas(key: ValueKey('$text$inCursive'), model: text, cursiveModel: inCursive),
     ]);
   }
 }

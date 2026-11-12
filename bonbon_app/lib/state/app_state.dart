@@ -252,6 +252,11 @@ class Speech {
   int get clipCount => _files.length;
   bool has(String text) => _files.containsKey(norm(text));
 
+  /// [parts] without those that have no recording, so feedback never shows
+  /// the « Pas encore d'audio » banner. With no clips loaded at all (tests),
+  /// everything is kept.
+  List<String> recorded(List<String> parts) => clipCount == 0 ? parts : [for (final p in parts) if (has(p)) p];
+
   Future<void> say(String text) {
     _seq++;
     return _speak(text);

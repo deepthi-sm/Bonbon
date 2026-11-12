@@ -50,8 +50,9 @@ class _TraceActivityState extends State<TraceActivity> {
 
   void _ask() {
     if (!mounted || _s.finished) return;
-    context.app.speech.sayAll(_s.askParts);
+    context.app.speech.sayAll(context.app.speech.recorded(_s.askParts));
   }
+
 
   Future<void> _check() async {
     final pad = _pad.currentState;
@@ -68,7 +69,7 @@ class _TraceActivityState extends State<TraceActivity> {
     final out = _s.check(r);
     if (out == null) return;
     setState(() {});
-    await app.speech.sayAll(out.say);
+    await app.speech.sayAll(app.speech.recorded(out.say));
     if (mounted && !out.itemDone) {
       pad.clear();
       setState(_s.clear);

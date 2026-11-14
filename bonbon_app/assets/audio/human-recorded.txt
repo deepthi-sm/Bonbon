@@ -1,13 +1,46 @@
 # Clips that came from a person, not the synthesiser. Never regenerate or
 # prune these — audio_gen.py --force and audio_human.py --apply both skip them.
 #
-# Plosives (p t k b d g) are a silence plus a burst of about twenty
-# milliseconds. They cannot be held, so a synthesiser asked for a sustained
-# one produces aspiration noise instead. These seven are the whole set the
-# method needs and cannot generate.
+# LETTER NAMES (26) — recorded by Constant O., a French speaker, Nov 2026.
+# These are how the letters are PRONOUNCED when you recite the alphabet:
+# a, bé, cé, dé. The Alphabet Wall plays these. They replaced synthesised
+# names after a review found seven of them wrong.
 #
-# Provisional: recorded by an English speaker. English aspirates these and
-# French does not, so a French reviewer should confirm or replace them.
+# LETTER SOUNDS (7) — the plosives b c d g k p t. A plosive is a silence plus
+# a burst of about twenty milliseconds; it cannot be sustained, so no
+# synthesiser can produce one alone. Recorded by an English speaker and
+# still provisional: English aspirates these where French does not.
+#
+# The two are different things and the method needs both. A name is for
+# talking about a letter; a sound is for reading with it.
+
+letter.a.name
+letter.b.name
+letter.c.name
+letter.d.name
+letter.e.name
+letter.f.name
+letter.g.name
+letter.h.name
+letter.i.name
+letter.j.name
+letter.k.name
+letter.l.name
+letter.m.name
+letter.n.name
+letter.o.name
+letter.p.name
+letter.q.name
+letter.r.name
+letter.s.name
+letter.t.name
+letter.u.name
+letter.v.name
+letter.w.name
+letter.x.name
+letter.y.name
+letter.z.name
+
 letter.b.sound
 letter.c.sound
 letter.d.sound

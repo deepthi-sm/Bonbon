@@ -1,0 +1,28 @@
+SONS DES LETTRES — à relire
+===========================
+
+Deux fichiers par lettre, dans l'ordre :
+
+   a-1-nom.m4a   le NOM de la lettre      (« a », « bé », « cé », « ji »…)
+   a-2-son.m4a   le SON de la lettre      (« a », « b », « k », « j »…)
+
+Ce sont deux choses différentes et le syllabaire a besoin des deux.
+Le nom sert à parler de la lettre ; le son sert à lire. Une apprenante
+qui apprend que « t » dit « té » lira « ta » comme « té-a ».
+
+CE QUI MANQUE (aucun enregistrement)
+   q, w, x  — pas de fichier « son »
+
+DÉJÀ ENREGISTRÉS PAR UNE PERSONNE (pas par la machine)
+   b, c, d, g, k, p, t  — ce sont des occlusives : un silence suivi
+   d'une explosion de 20 ms. Aucune synthèse vocale ne sait les produire
+   seule. Enregistrées par un anglophone, donc à vérifier en priorité :
+   l'anglais aspire ces sons, le français non.
+
+TOUT LE RESTE est synthétisé avec une voix française standard
+(hexagonale, pas béninoise).
+
+COMMENT DONNER VOTRE AVIS
+   Notez simplement la lettre et ce qui ne va pas, par exemple :
+      j-2-son     on entend « ji », il faudrait « j »
+      u-2-son     la voyelle est trop fermée

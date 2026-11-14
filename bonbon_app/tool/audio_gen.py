@@ -275,6 +275,17 @@ def main():
             continue                      # first ID wins; ID lookup still exact
         by_text[t] = fname
 
+    # A single letter typed as text means the LETTER, not a word that happens
+    # to be one character. The Alphabet Wall asks for "c"; without this it
+    # lands on word.c — Piper reading the bare character — instead of
+    # letter.c.name, whose own text key is the spelled name, 'cé'. That one
+    # mismatch is what made seven letters wrong on the wall, and left q, w
+    # and x silent because no word.q exists at all.
+    for ch in 'abcdefghijklmnopqrstuvwxyz':
+        f = f'letter.{ch}.name.m4a'
+        if os.path.exists(os.path.join(OUT_DIR, f)):
+            by_text[ch] = f
+
     for path, data in ((MANIFEST, by_text), (MANIFEST_IDS, by_id)):
         with open(path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2, sort_keys=True)
